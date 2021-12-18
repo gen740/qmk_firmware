@@ -65,6 +65,6 @@
 // #define OLED_FONT_WIDTH 10
 // #define OLED_FONT_HEIGHT 14
 // #define OLED_FONT_H "keyboards/crkbd/keymaps/mykeymap/glcdfont.c"
-// vim:set sw=4 ts=4 sts=4:
-//
+#define IS_RIGHT
 
+// vim:set sw=4 ts=4 sts=4:
