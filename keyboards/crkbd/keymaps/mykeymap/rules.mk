@@ -1,0 +1,16 @@
+OLED_ENABLE = yes
+
+MOUSEKEY_ENABLE = no
+
+TAP_DANCE_ENABLE = no
+UNICODE_ENABLE = no
+COMBO_ENABLE = yes
+EXTRAKEY_ENABLE = yes
+
+RGB_MATRIX_ENABLE = yes
+
+SRC += naginata_v13u.c
+
+
+EXTRAFLAGS += -flto
+LTO_ENABLE = yes
