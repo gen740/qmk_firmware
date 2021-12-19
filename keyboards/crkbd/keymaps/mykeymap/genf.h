@@ -5,18 +5,13 @@
 #define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
 
 #define KC_C_BS CTL_T(KC_BSPC)
-#define KC_M_DEL LT(_MODIFIER, KC_DEL)
 #define KC_M_ENT LT(_MODIFIER, KC_ENT)
-#define KC_R_ENT LT(_RAISE, KC_ENT)
 
-#define MODIFIER MO(_MODIFIER)
 #define RAISE MO(_RAISE)
 #define LOWER MO(_LOWER)
 
 #define KC_S_TAB SFT_T(KC_TAB)
 #define KC_S_RBRC SFT_T(KC_RBRC)
-// #define KK_DVO DVORAK
-// #define KK_NAG NAGINATA
 #define KK_VOLU A(S(KC_VOLU))
 #define KK_VOLD A(S(KC_VOLD))
 
@@ -27,7 +22,6 @@ enum my_keycodes {
     // QWERTY,
     // DVORAK,
     NAG_ESC = NG_SAFE_RANGE,
-    NAG_SHIFT,
     SV_COUNT,
     RST_COUNT,
 };

@@ -321,23 +321,19 @@ const PROGMEM naginata_keymap_long ngmapl_mac[] = {
     // 編集モード Mac
     {.key = B_F | B_D | B_K,   .kana = SS_LCTL("p")},     //
     {.key = B_F | B_D | B_COMM,.kana = SS_LCTL("n")},   //
-
-    // {.key = B_F | B_D | B_K,   .kana = SS_LCTL(SS_LALT("f"))},     //
-    // {.key = B_F | B_D | B_COMM,.kana = SS_LCTL(SS_LALT("b"))},   //
     {.key = B_F | B_D | B_J,   .kana = SS_LCTL("f")},   //
     {.key = B_F | B_D | B_M,   .kana = SS_LCTL("b")},  //
-    // {.key = B_F | B_D | B_H,   .kana = SS_LCTL("i")},     //
-    // {.key = B_F | B_D | B_N,   .kana = SS_LCTL("o")},     //
-    //
-    // {.key = B_C | B_V | B_K,   .kana = SS_LSFT(SS_TAP(X_LEFT))},     //
-    // {.key = B_C | B_V | B_COMM,.kana = SS_LSFT(SS_TAP(X_RIGHT))},   //
-    // {.key = B_C | B_V | B_J,   .kana = SS_LSFT(SS_TAP(X_UP))},   //
-    // {.key = B_C | B_V | B_M,   .kana = SS_LSFT(SS_TAP(X_DOWN))},  //
-    // {.key = B_C | B_V | B_H,   .kana = SS_LSFT("i")},     //
-    // {.key = B_C | B_V | B_N,   .kana = SS_LSFT("o")},     //
+    {.key = B_F | B_D | B_SCLN,.kana = SS_LCTL("k")},     //
+    {.key = B_F | B_D | B_SLSH,.kana = SS_LCTL("j")},     //
 
-    // {.key = B_F | B_D | B_Z,   .kana = SS_LCTL("j")},     //
-    // {.key = B_F | B_D | B_S,   .kana = SS_LCTL("k")},     //
+    {.key = B_F | B_D | B_H,   .kana = SS_LCTL("i")},     //
+    {.key = B_F | B_D | B_N,   .kana = SS_LCTL("o")},     //
+
+    {.key = B_C | B_V | B_K,   .kana = SS_LCTL(SS_LALT("p"))},     //
+    {.key = B_C | B_V | B_COMM,.kana = SS_LCTL(SS_LALT("n"))},   //
+    {.key = B_C | B_V | B_J,   .kana = SS_LCTL(SS_LALT("f"))},   //
+    {.key = B_C | B_V | B_M,   .kana = SS_LCTL(SS_LALT("b"))},  //
+
     // {.key = B_F | B_D | B_N,   .kana = SS_LCTL("o")},     //
     // {.key = B_F | B_D | B_N,   .kana = SS_LCTL("o")},     //
 
@@ -480,15 +476,6 @@ bool naginata_lookup(int nt, bool shifted) {
     }
 
     switch (keycomb_buf) {
-        case B_F | B_G:
-            tap_code(KC_LANG2);
-            set_single_persistent_default_layer(_DVORAK);
-            naginata_clear();
-            return true;
-            break;
-        case B_H | B_J:
-            naginata_clear();
-            break;
         default:
             for (int i = 0; i < sizeof ngmap / sizeof bngmap; i++) {
                 memcpy_P(&bngmap, &ngmap[i], sizeof(bngmap));
