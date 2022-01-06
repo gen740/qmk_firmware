@@ -78,12 +78,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             }
             return false;
             break;
-        case MM_QWE:
-            if (record->event.pressed) {
-                set_single_persistent_default_layer(_QWERTY);
-            }
-            return false;
-            break;
         case SV_COUNT:
             eeconfig_update_user(user_config.pr_counter);
             return false;
@@ -99,6 +93,77 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             return true;
     }
 }
+
+#ifndef IS_RIGHT
+enum combo_events {  //
+    NAGI_COMBO,
+    DVO_COMBO,
+    QWE_DVO_COMBO,
+    QWE_COMBO,
+    NAGI_TO_DVO,
+    NAGI_TO_NAGI,
+    COMBO_LENGTH
+};
+
+uint16_t COMBO_LEN = COMBO_LENGTH;
+
+const uint16_t PROGMEM naginata_combo[]   = {KC_H, KC_D, COMBO_END};
+const uint16_t PROGMEM dvorak_combo[]     = {KC_U, KC_I, COMBO_END};
+const uint16_t PROGMEM qwe_dvorak_combo[] = {KC_H, KC_J, COMBO_END};
+const uint16_t PROGMEM qwerty_combo[]     = {KC_F, KC_G, COMBO_END};
+const uint16_t PROGMEM nagi_to_dvo[]      = {NG_F, NG_G, COMBO_END};
+const uint16_t PROGMEM nagi_to_nagi[]     = {NG_H, NG_J, COMBO_END};
+
+combo_t key_combos[] = {
+    [NAGI_COMBO]    = COMBO_ACTION(naginata_combo),    //
+    [DVO_COMBO]     = COMBO_ACTION(dvorak_combo),      //
+    [QWE_DVO_COMBO] = COMBO_ACTION(qwe_dvorak_combo),  //
+    [QWE_COMBO]     = COMBO_ACTION(qwerty_combo),      //
+    [NAGI_TO_DVO]   = COMBO_ACTION(nagi_to_dvo),       //
+    [NAGI_TO_NAGI]  = COMBO_ACTION(nagi_to_nagi),      //
+};
+
+void process_combo_event(uint16_t combo_index, bool pressed) {
+    switch (combo_index) {
+        case DVO_COMBO:
+            if (pressed) {
+                tap_code(KC_LANG2);
+                set_single_persistent_default_layer(_DVORAK);
+            }
+            break;
+        case QWE_COMBO:
+            if (pressed) {
+                tap_code(KC_LANG2);
+                set_single_persistent_default_layer(_QWERTY);
+            }
+            break;
+        case QWE_DVO_COMBO:
+            if (pressed) {
+                tap_code(KC_LANG2);
+                set_single_persistent_default_layer(_DVORAK);
+            }
+            break;
+        case NAGI_COMBO:
+            if (pressed) {
+                tap_code(KC_LANG1);
+                set_single_persistent_default_layer(_NAGINATA);
+            }
+            break;
+        case NAGI_TO_DVO:
+            if (pressed) {
+                tap_code(KC_LANG2);
+                set_single_persistent_default_layer(_DVORAK);
+            }
+            break;
+        case NAGI_TO_NAGI:
+            if (pressed) {
+                tap_code(KC_LANG1);
+                set_single_persistent_default_layer(_NAGINATA);
+            }
+            break;
+    }
+}
+#endif
 
 #ifdef OLED_ENABLE
 

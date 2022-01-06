@@ -1,12 +1,9 @@
-OLED_ENABLE = yes
+OLED_ENABLE = no
 
 MOUSEKEY_ENABLE = no
 
 TAP_DANCE_ENABLE = no
 UNICODE_ENABLE = no
-
-
-RGB_MATRIX_ENABLE = yes
 
 SRC += naginata_v13u.c
 

@@ -381,6 +381,16 @@ bool process_naginata(uint16_t keycode, keyrecord_t *record) {
     if (n_modifier == 0 && !is_naginata && layer_state_is(naginata_layer)) layer_off(naginata_layer);
     if (n_modifier > 0 && layer_state_is(naginata_layer)) layer_off(naginata_layer);
 
+    // OS切り替え(UNICODE出力)
+    if (record->event.pressed) {
+        switch (keycode) {
+            case NG_CLR:
+                naginata_clear();
+                return false;
+                break;
+        }
+    }
+
     if (record->event.pressed) {
         switch (keycode) {
             case NG_SHFT ... NG_SHFT2:
@@ -474,10 +484,6 @@ bool naginata_lookup(int nt, bool shifted) {
     }
 
     switch (keycomb_buf) {
-        case B_H | B_J:
-            naginata_clear();
-            return true;
-            break;
         default:
             for (int i = 0; i < sizeof ngmap / sizeof bngmap; i++) {
                 memcpy_P(&bngmap, &ngmap[i], sizeof(bngmap));
