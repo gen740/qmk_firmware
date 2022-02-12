@@ -21,6 +21,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ________DVORAK_3________,
         _______DVORAK_MOD_______
     ),
+    [_LOWER] = LAYOUT_wrapper(
+        ________LOWER_1________,
+        ________LOWER_2________,
+        ________LOWER_3________,
+        _______LOWER_MOD_______
+    ),
     [_QWERTY] = LAYOUT_wrapper(
         ________QWERTY_1________,
         ________QWERTY_2________,

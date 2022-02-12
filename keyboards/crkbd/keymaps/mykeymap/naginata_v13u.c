@@ -334,6 +334,16 @@ const PROGMEM naginata_keymap_long ngmapl_mac[] = {
     {.key = B_F | B_D | B_I,   .kana = SS_LCTL("e")},     //
     {.key = B_F | B_D | B_O,   .kana = SS_LCTL("k")},     //
 
+    {.key = B_U | B_I | B_Q,.kana = "1"},    //つぉ
+    {.key = B_U | B_I | B_W,.kana = "2"},    //つぉ
+    {.key = B_U | B_I | B_E,.kana = "3"},    //つぉ
+    {.key = B_U | B_I | B_R,.kana = "4"},    //つぉ
+    {.key = B_U | B_I | B_T,.kana = "5"},    //つぉ
+    {.key = B_E | B_R | B_Y,.kana = "6"},    //つぉ
+    {.key = B_E | B_R | B_U,.kana = "7"},    //つぉ
+    {.key = B_E | B_R | B_I,.kana = "8"},    //つぉ
+    {.key = B_E | B_R | B_O,.kana = "9"},    //つぉ
+    {.key = B_E | B_R | B_P,.kana = "0"},    //つぉ
 
     // {.key = B_C | B_V | B_H,   .kana = SS_LCTL("i")},     //
     // {.key = B_C | B_V | B_N,   .kana = SS_LCTL("o")},     //
@@ -465,6 +475,8 @@ bool naginata_lookup(int nt, bool shifted) {
         if ((keycomb & (B_C | B_V)) == (B_C | B_V)) keycomb_buf |= (B_C | B_V);
         if ((keycomb & (B_J | B_K)) == (B_J | B_K)) keycomb_buf |= (B_J | B_K);
         if ((keycomb & (B_M | B_COMM)) == (B_M | B_COMM)) keycomb_buf |= (B_M | B_COMM);
+        if ((keycomb & (B_E | B_R)) == (B_E | B_R)) keycomb_buf |= (B_E | B_R);
+        if ((keycomb & (B_U | B_I)) == (B_U | B_I)) keycomb_buf |= (B_U | B_I);
 
         // 濁音、半濁音を連続する
         if ((keycomb & B_F) == B_F) keycomb_buf |= B_F;
