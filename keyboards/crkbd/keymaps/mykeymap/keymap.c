@@ -27,12 +27,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         ________LOWER_3________,
         _______LOWER_MOD_______
     ),
-    [_QWERTY] = LAYOUT_wrapper(
-        ________QWERTY_1________,
-        ________QWERTY_2________,
-        ________QWERTY_3________,
-        _______QWERTY_MOD_______
-    ),
     [_NAGINATA] = LAYOUT_wrapper(
         _______NAGINATA_1_______,
         _______NAGINATA_2_______,
@@ -81,12 +75,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 tap_code(KC_LANG2);
                 set_single_persistent_default_layer(_DVORAK);
                 register_code(KC_ESC);
-            }
-            return false;
-            break;
-        case MM_QWE:
-            if (record->event.pressed) {
-                set_single_persistent_default_layer(_QWERTY);
             }
             return false;
             break;
