@@ -1,6 +1,7 @@
 #pragma once
 
 #include QMK_KEYBOARD_H
+#include "naginata.h"
 
 #define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
 
@@ -9,6 +10,7 @@
 
 #define RAISE MO(_RAISE)
 #define LOWER MO(_LOWER)
+#define ADJUST MO(_ADJUST)
 
 #define KC_S_TAB SFT_T(KC_TAB)
 #define KC_S_RBRC SFT_T(KC_RBRC)
@@ -19,7 +21,6 @@ NGKEYS naginata_keys;
 
 enum my_keycodes {
     NAG_ESC = NG_SAFE_RANGE,
-    NAG_DSFT,
     SV_COUNT,
     RST_COUNT,
 };
@@ -34,7 +35,7 @@ enum my_keycodes {
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1 ━━━━━━━━━ 2 ━━━━━━━━━ 3 ━━━━━━━━━ 4 ━━━━━━━━━ 5 ━━━━━━━━━ 6 ━━━━━━━━━━━┳━━━━━ 7 ━━━━━━━━━ 8 ━━━━━━━━━ 9 ━━━━━━━━━ 10 ━━━━━━━━ 11 ━━━━━━━━ 12 ━━━━━━━━━━┓
 #define _______NAGINATA_1_______    NAG_ESC,    NG_Q,       NG_W,       NG_E,       NG_R,       NG_T,       /*┃*/   NG_Y,       NG_U,       NG_I,       NG_O,       NG_P,       _______     //┃
-#define _______NAGINATA_2_______    NAG_DSFT,   NG_A,       NG_S,       NG_D,       NG_F,       NG_G,       /*┃*/   NG_H,       NG_J,       NG_K,       NG_L,       NG_SCLN,    NAG_DSFT    //┃
+#define _______NAGINATA_2_______    _______,    NG_A,       NG_S,       NG_D,       NG_F,       NG_G,       /*┃*/   NG_H,       NG_J,       NG_K,       NG_L,       NG_SCLN,    _______     //┃
 #define _______NAGINATA_3_______    RAISE,      NG_Z,       NG_X,       NG_C,       NG_V,       NG_B,       /*┃*/   NG_N,       NG_M,       NG_COMM,    NG_DOT,     NG_SLSH,    RAISE       //┃
 #define ______NAGINATA_MOD______                                        S(KC_SPC),  NG_SHFT,    _______,    /*┃*/   KC_ENT,     NG_SHFT,    KC_RGUI                                         //┃
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
@@ -43,12 +44,12 @@ enum my_keycodes {
 #define _________RAISE_1________    _______,    KC_CIRC,    KC_PERC,    KC_PLUS,    KC_LPRN,    KC_HASH,    /*┃*/   KC_EQL,     KC_RPRN,    KC_ASTR,    KC_DLR,     KC_EXLM,    _______     //┃
 #define _________RAISE_2________    KC_BSLS,    KC_1,       KC_2,       KC_3,       KC_4,       KC_5,       /*┃*/   KC_6,       KC_7,       KC_8,       KC_9,       KC_0,       KC_GRV      //┃
 #define _________RAISE_3________    _______,    _______,    _______,    KC_AMPR,    KC_LCBR,    _______,    /*┃*/   _______,    KC_RCBR,    KC_AT,      KC_PIPE,    _______,    _______     //┃
-#define ________RAISE_MOD_______                                        _______,    LOWER,      _______,    /*┃*/   _______,    _______,    _______                                         //┃
+#define ________RAISE_MOD_______                                        _______,    _______,    ADJUST,     /*┃*/   _______,    _______,    _______                                         //┃
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1 ━━━━━━━━━ 2 ━━━━━━━━━ 3 ━━━━━━━━━ 4 ━━━━━━━━━ 5 ━━━━━━━━━ 6 ━━━━━━━━━━━┳━━━━━ 7 ━━━━━━━━━ 8 ━━━━━━━━━ 9 ━━━━━━━━━ 10 ━━━━━━━━ 11 ━━━━━━━━ 12 ━━━━━━━━━━┓
 #define ________ADJUST_1________    KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,      KC_F6,      /*┃*/   KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F11,     KC_F11      //┃
-#define ________ADJUST_2________    RGB_TOG,    _______,    _______,    _______,    _______,    _______,    /*┃*/   _______,    _______,    _______,    _______,    RGB_HUD,    RGB_SAD     //┃
+#define ________ADJUST_2________    RGB_TOG,    _______,    _______,    _______,    _______,    _______,    /*┃*/   _______,    _______,    _______,    RGB_HUD,    RGB_HUD,    RGB_SAI     //┃
 #define ________ADJUST_3________    RGB_MOD,    _______,    _______,    KC_BRID,    KC_BRIU,    SV_COUNT,   /*┃*/   RST_COUNT,  _______,    _______,    _______,    RGB_SPD,    RGB_SPI     //┃
 #define _______ADJUST_MOD_______                                        EEP_RST,    _______,    _______,    /*┃*/   _______,    _______,    _______                                         //┃
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
@@ -67,10 +68,16 @@ enum my_keycodes {
 #define ______MODIFIER_MOD______                                        _______,    _______,    _______,    /*┃*/   _______,    _______,    _______                                         //┃
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-enum combo_events {  //
+// clang-format on
+
+enum combo_events { //
     NAGI_COMBO,
     DVO_COMBO,
     DELETE_COMBO,
+    // RSHIFT_COMBO,
+    // LSHIFT_COMBO,
+    // RCTRL_COMBO,
+    // LCTRL_COMBO,
     NAGI_TO_DVO,
     KM_ENTER,
     COMBO_LENGTH
@@ -79,19 +86,28 @@ enum combo_events {  //
 uint16_t COMBO_LEN = COMBO_LENGTH;
 
 // #ifndef IS_RIGHT
+//
 
-const uint16_t PROGMEM naginata_combo[]   = {KC_H, KC_D, COMBO_END};
-const uint16_t PROGMEM dvorak_combo[]     = {KC_U, KC_I, COMBO_END};
-const uint16_t PROGMEM delete_combo[]     = {KC_F, KC_G, COMBO_END};
-const uint16_t PROGMEM nagi_to_dvo[]      = {NG_F, NG_G, COMBO_END};
-const uint16_t PROGMEM km_enter[]      = {KC_K, KC_M, COMBO_END};
+const uint16_t PROGMEM naginata_combo[] = {KC_H, KC_D, COMBO_END};
+const uint16_t PROGMEM dvorak_combo[]   = {KC_U, KC_I, COMBO_END};
+const uint16_t PROGMEM delete_combo[]   = {KC_F, KC_G, COMBO_END};
+// const uint16_t PROGMEM rshift_combo[]   = {KC_T, KC_N, COMBO_END};
+// const uint16_t PROGMEM lshift_combo[]   = {KC_O, KC_E, COMBO_END};
+// const uint16_t PROGMEM rctrl_combo[]    = {KC_E, KC_U, COMBO_END};
+// const uint16_t PROGMEM lctrl_combo[]    = {KC_H, KC_T, COMBO_END};
+const uint16_t PROGMEM nagi_to_dvo[]    = {NG_F, NG_G, COMBO_END};
+const uint16_t PROGMEM km_enter[]       = {KC_K, KC_M, COMBO_END};
 
 combo_t key_combos[] = {
-    [NAGI_COMBO]    = COMBO_ACTION(naginata_combo),    //
-    [DVO_COMBO]     = COMBO_ACTION(dvorak_combo),      //
-    [DELETE_COMBO]     = COMBO_ACTION(delete_combo),      //
-    [NAGI_TO_DVO]   = COMBO_ACTION(nagi_to_dvo),       //
-    [KM_ENTER]   = COMBO_ACTION(km_enter),       //
+    [NAGI_COMBO]   = COMBO_ACTION(naginata_combo), //
+    [DVO_COMBO]    = COMBO_ACTION(dvorak_combo),   //
+    [DELETE_COMBO] = COMBO_ACTION(delete_combo),   //
+    // [RSHIFT_COMBO] = COMBO_ACTION(rshift_combo),   //
+    // [LSHIFT_COMBO] = COMBO_ACTION(lshift_combo),   //
+    // [RCTRL_COMBO]  = COMBO_ACTION(rctrl_combo),    //
+    // [LCTRL_COMBO]  = COMBO_ACTION(lctrl_combo),    //
+    [NAGI_TO_DVO]  = COMBO_ACTION(nagi_to_dvo),    //
+    [KM_ENTER]     = COMBO_ACTION(km_enter),       //
 };
 
 void process_combo_event(uint16_t combo_index, bool pressed) {
@@ -113,6 +129,34 @@ void process_combo_event(uint16_t combo_index, bool pressed) {
                 tap_code(KC_BSPC);
             }
             break;
+        // case RSHIFT_COMBO:
+        //     if (pressed) {
+        //         register_code(KC_RSFT);
+        //     } else {
+        //         unregister_code(KC_RSFT);
+        //     }
+        //     break;
+        // case LSHIFT_COMBO:
+        //     if (pressed) {
+        //         register_code(KC_LSFT);
+        //     } else {
+        //         unregister_code(KC_LSFT);
+        //     }
+        //     break;
+        // case RCTRL_COMBO:
+        //     if (pressed) {
+        //         register_code(KC_RCTL);
+        //     } else {
+        //         unregister_code(KC_RCTL);
+        //     }
+        //     break;
+        // case LCTRL_COMBO:
+        //     if (pressed) {
+        //         register_code(KC_LCTL);
+        //     } else {
+        //         unregister_code(KC_LCTL);
+        //     }
+        //     break;
         case NAGI_TO_DVO:
             if (pressed) {
                 tap_code(KC_LANG2);
@@ -127,7 +171,12 @@ void process_combo_event(uint16_t combo_index, bool pressed) {
             break;
     }
 }
+
+layer_state_t layer_state_set_user(layer_state_t state) { //
+    state = update_tri_layer_state(state, _RAISE, _ADJUST, _ADJUST);
+    return state;
+}
+
 // #endif
 
 // vim:set sw=4 ts=4 sts=4:
-//
