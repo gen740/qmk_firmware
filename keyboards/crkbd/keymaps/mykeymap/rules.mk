@@ -14,6 +14,5 @@ SRC += naginata_v13u.c
 # EXTRAFLAGS += -flto
 LTO_ENABLE = yes
 
-# check no when firmware is right
 COMBO_ENABLE = yes
 EXTRAKEY_ENABLE = yes

@@ -15,41 +15,53 @@ void keyboard_post_init_user(void) { //
 
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    [_DVORAK] = LAYOUT_wrapper(
+    [L_DVORAK] = LAYOUT_wrapper(
         ________DVORAK_1________,
         ________DVORAK_2________,
         ________DVORAK_3________,
         _______DVORAK_MOD_______
     ),
-    [_LOWER] = LAYOUT_wrapper(
+    [L_LOWER] = LAYOUT_wrapper(
         ________LOWER_1________,
         ________LOWER_2________,
         ________LOWER_3________,
         _______LOWER_MOD_______
     ),
-    [_NAGINATA] = LAYOUT_wrapper(
+    [L_NAGINATA] = LAYOUT_wrapper(
         _______NAGINATA_1_______,
         _______NAGINATA_2_______,
         _______NAGINATA_3_______,
         ______NAGINATA_MOD______
     ),
-    [_RAISE] = LAYOUT_wrapper(
+    [L_RAISE] = LAYOUT_wrapper(
         _________RAISE_1________,
         _________RAISE_2________,
         _________RAISE_3________,
         ________RAISE_MOD_______
     ),
-    [_ADJUST] = LAYOUT_wrapper(
+    [L_ADJUST] = LAYOUT_wrapper(
         ________ADJUST_1________,
         ________ADJUST_2________,
         ________ADJUST_3________,
         _______ADJUST_MOD_______
     ),
-    [_MODIFIER] = LAYOUT_wrapper(
+    [L_MODIFIER] = LAYOUT_wrapper(
         _______MODIFIER_1_______,
         _______MODIFIER_2_______,
         _______MODIFIER_3_______,
         ______MODIFIER_MOD______
+    ),
+    [L_GAME] = LAYOUT_wrapper(
+        _______GAME_1_______,
+        _______GAME_2_______,
+        _______GAME_3_______,
+        ______GAME_MOD______
+    ),
+    [L_GAME2] = LAYOUT_wrapper(
+        _______GAME2_1_______,
+        _______GAME2_2_______,
+        _______GAME2_3_______,
+        ______GAME2_MOD______
     ),
 };
 
@@ -64,7 +76,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         case NAG_ESC:
             if (record->event.pressed) {
                 tap_code(KC_LANG2);
-                set_single_persistent_default_layer(_DVORAK);
+                set_single_persistent_default_layer(L_DVORAK);
                 register_code(KC_ESC);
             }
             return false;

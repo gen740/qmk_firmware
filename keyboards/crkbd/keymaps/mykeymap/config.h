@@ -78,7 +78,9 @@
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
 
-#define IS_RIGHT
+// #define IS_RIGHT
 #define TAPPING_TERM 250
 
+
 // vim:set sw=4 ts=4 sts=4:
+//

@@ -4,17 +4,19 @@
 #define NON_NAGINATA_COUCHI false
 
 enum layer_number {
-    _NAGINATA,
-    _QWERTY,
-    _DVORAK,
-    _RAISE,
-    _LOWER,
-    _MODIFIER,
-    _ADJUST,
+    L_NAGINATA,
+    L_QWERTY,
+    L_DVORAK,
+    L_RAISE,
+    L_LOWER,
+    L_MODIFIER,
+    L_ADJUST,
+    L_GAME,
+    L_GAME2,
 };
 
 typedef enum naginata_keycodes {
-    NG_Q = SAFE_RANGE,  // 薙刀式シフトキー
+    NG_Q = SAFE_RANGE, // 薙刀式シフトキー
     NG_W,
     NG_E,
     NG_R,

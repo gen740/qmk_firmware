@@ -6,11 +6,11 @@
 #define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
 
 #define KC_C_BS CTL_T(KC_BSPC)
-#define KC_M_ENT LT(_MODIFIER, KC_ENT)
+#define KC_M_ENT LT(L_MODIFIER, KC_ENT)
 
-#define RAISE MO(_RAISE)
-#define LOWER MO(_LOWER)
-#define ADJUST MO(_ADJUST)
+#define RAISE MO(L_RAISE)
+#define LOWER MO(L_LOWER)
+#define ADJUST MO(L_ADJUST)
 
 #define KC_S_TAB SFT_T(KC_TAB)
 #define KC_S_RBRC SFT_T(KC_RBRC)
@@ -65,7 +65,21 @@ enum my_keycodes {
 #define _______MODIFIER_1_______    RGB_VAI,    _______,    KC_MPRV,    KC_MPLY,    KC_MNXT,    _______,    /*┃*/   _______,    _______,    KC_UP,      _______,    _______,    G(KC_PLUS)  //┃
 #define _______MODIFIER_2_______    RGB_VAD,    KK_VOLD,    KC_VOLD,    KC_MUTE,    KC_VOLU,    KK_VOLU,    /*┃*/   _______,    KC_LEFT,    KC_DOWN,    KC_RGHT,    _______,    G(KC_0)     //┃
 #define _______MODIFIER_3_______    _______,    _______,    _______,    _______,    _______,    _______,    /*┃*/   _______,    _______,    _______,    _______,    _______,    G(KC_MINS)  //┃
-#define ______MODIFIER_MOD______                                        _______,    _______,    _______,    /*┃*/   _______,    _______,    _______                                         //┃
+#define ______MODIFIER_MOD______                                        TG(L_GAME), _______,    _______,    /*┃*/   _______,    _______,    _______                                         //┃
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1 ━━━━━━━━━ 2 ━━━━━━━━━ 3 ━━━━━━━━━ 4 ━━━━━━━━━ 5 ━━━━━━━━━ 6 ━━━━━━━━━━━┳━━━━━ 7 ━━━━━━━━━ 8 ━━━━━━━━━ 9 ━━━━━━━━━ 10 ━━━━━━━━ 11 ━━━━━━━━ 12 ━━━━━━━━━━┓
+#define _______GAME_1_______        KC_ESC,     _______,    KC_Q,       KC_W,       KC_E,       KC_R,       /*┃*/   _______,    _______,    KC_UP,      _______,    _______,    G(KC_PLUS)  //┃
+#define _______GAME_2_______        KC_TAB,     KC_LSFT,    KC_A,       KC_S,       KC_D,       KC_F,       /*┃*/   _______,    KC_LEFT,    KC_DOWN,    KC_RGHT,    _______,    G(KC_0)     //┃
+#define _______GAME_3_______        _______,    _______,    KC_Z,       KC_X,       KC_C,       KC_V,       /*┃*/   _______,    _______,    _______,    _______,    _______,    G(KC_MINS)  //┃
+#define ______GAME_MOD______                                            MO(L_GAME2),KC_LCTL,    KC_SPC,     /*┃*/   TG(L_GAME), _______,    _______                                         //┃
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+//
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1 ━━━━━━━━━ 2 ━━━━━━━━━ 3 ━━━━━━━━━ 4 ━━━━━━━━━ 5 ━━━━━━━━━ 6 ━━━━━━━━━━━┳━━━━━ 7 ━━━━━━━━━ 8 ━━━━━━━━━ 9 ━━━━━━━━━ 10 ━━━━━━━━ 11 ━━━━━━━━ 12 ━━━━━━━━━━┓
+#define _______GAME2_1_______       KC_ESC,     _______,    KC_Q,       KC_W,       KC_E,       KC_R,       /*┃*/   _______,    _______,    KC_UP,      _______,    _______,    G(KC_PLUS)  //┃
+#define _______GAME2_2_______       KC_TAB,     KC_1,       KC_2,       KC_3,       KC_4,       KC_5,       /*┃*/   _______,    KC_LEFT,    KC_DOWN,    KC_RGHT,    _______,    G(KC_0)     //┃
+#define _______GAME2_3_______       _______,    _______,    KC_Z,       KC_X,       KC_C,       KC_V,       /*┃*/   _______,    _______,    _______,    _______,    _______,    G(KC_MINS)  //┃
+#define ______GAME2_MOD______                                           KC_LSFT,    _______,    KC_SPC,     /*┃*/   _______,    _______,    _______                                         //┃
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 // clang-format on
@@ -95,8 +109,8 @@ const uint16_t PROGMEM delete_combo[]   = {KC_F, KC_G, COMBO_END};
 // const uint16_t PROGMEM lshift_combo[]   = {KC_O, KC_E, COMBO_END};
 // const uint16_t PROGMEM rctrl_combo[]    = {KC_E, KC_U, COMBO_END};
 // const uint16_t PROGMEM lctrl_combo[]    = {KC_H, KC_T, COMBO_END};
-const uint16_t PROGMEM nagi_to_dvo[]    = {NG_F, NG_G, COMBO_END};
-const uint16_t PROGMEM km_enter[]       = {KC_K, KC_M, COMBO_END};
+const uint16_t PROGMEM nagi_to_dvo[] = {NG_F, NG_G, COMBO_END};
+const uint16_t PROGMEM km_enter[]    = {KC_K, KC_M, COMBO_END};
 
 combo_t key_combos[] = {
     [NAGI_COMBO]   = COMBO_ACTION(naginata_combo), //
@@ -106,8 +120,8 @@ combo_t key_combos[] = {
     // [LSHIFT_COMBO] = COMBO_ACTION(lshift_combo),   //
     // [RCTRL_COMBO]  = COMBO_ACTION(rctrl_combo),    //
     // [LCTRL_COMBO]  = COMBO_ACTION(lctrl_combo),    //
-    [NAGI_TO_DVO]  = COMBO_ACTION(nagi_to_dvo),    //
-    [KM_ENTER]     = COMBO_ACTION(km_enter),       //
+    [NAGI_TO_DVO] = COMBO_ACTION(nagi_to_dvo), //
+    [KM_ENTER]    = COMBO_ACTION(km_enter),    //
 };
 
 void process_combo_event(uint16_t combo_index, bool pressed) {
@@ -115,13 +129,13 @@ void process_combo_event(uint16_t combo_index, bool pressed) {
         case NAGI_COMBO:
             if (pressed) {
                 tap_code(KC_LANG1);
-                set_single_persistent_default_layer(_NAGINATA);
+                set_single_persistent_default_layer(L_NAGINATA);
             }
             break;
         case DVO_COMBO:
             if (pressed) {
                 tap_code(KC_LANG2);
-                set_single_persistent_default_layer(_DVORAK);
+                set_single_persistent_default_layer(L_DVORAK);
             }
             break;
         case DELETE_COMBO:
@@ -129,51 +143,23 @@ void process_combo_event(uint16_t combo_index, bool pressed) {
                 tap_code(KC_BSPC);
             }
             break;
-        // case RSHIFT_COMBO:
-        //     if (pressed) {
-        //         register_code(KC_RSFT);
-        //     } else {
-        //         unregister_code(KC_RSFT);
-        //     }
-        //     break;
-        // case LSHIFT_COMBO:
-        //     if (pressed) {
-        //         register_code(KC_LSFT);
-        //     } else {
-        //         unregister_code(KC_LSFT);
-        //     }
-        //     break;
-        // case RCTRL_COMBO:
-        //     if (pressed) {
-        //         register_code(KC_RCTL);
-        //     } else {
-        //         unregister_code(KC_RCTL);
-        //     }
-        //     break;
-        // case LCTRL_COMBO:
-        //     if (pressed) {
-        //         register_code(KC_LCTL);
-        //     } else {
-        //         unregister_code(KC_LCTL);
-        //     }
-        //     break;
         case NAGI_TO_DVO:
             if (pressed) {
                 tap_code(KC_LANG2);
-                set_single_persistent_default_layer(_DVORAK);
+                set_single_persistent_default_layer(L_DVORAK);
             }
             break;
         case KM_ENTER:
             if (pressed) {
                 tap_code(KC_ENT);
-                set_single_persistent_default_layer(_DVORAK);
+                set_single_persistent_default_layer(L_DVORAK);
             }
             break;
     }
 }
 
 layer_state_t layer_state_set_user(layer_state_t state) { //
-    state = update_tri_layer_state(state, _RAISE, _ADJUST, _ADJUST);
+    state = update_tri_layer_state(state, L_RAISE, L_ADJUST, L_ADJUST);
     return state;
 }
 
