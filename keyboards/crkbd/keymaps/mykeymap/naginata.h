@@ -1,4 +1,6 @@
 #pragma once
+
+#include QMK_KEYBOARD_H
 #include "config.h"
 
 #define NON_NAGINATA_COUCHI false
