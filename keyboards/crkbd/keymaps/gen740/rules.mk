@@ -9,9 +9,10 @@ COMMAND_ENABLE = no
 SPACE_CADET_ENABLE = no
 MAGIC_ENABLE = no
 
-SRC += naginata_v13u.c
+SRC += naginata_v15.c
+# SRC += naginata_v13u.c
 
-# EXTRAFLAGS += -flto
+# EXTRAFLAGS += -Os
 LTO_ENABLE = yes
 
 COMBO_ENABLE = yes

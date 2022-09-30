@@ -1,97 +1,43 @@
 #include QMK_KEYBOARD_H
 #include "naginata.h"
 
-#define NGBUFFER 10 // キー入力バッファのサイズ
+#define B_Q (1UL << (NG_Q - NG_Q)) //
+#define B_W (1UL << (NG_W - NG_Q)) //
+#define B_E (1UL << (NG_E - NG_Q)) //
+#define B_R (1UL << (NG_R - NG_Q)) //
+#define B_T (1UL << (NG_T - NG_Q)) //
 
-// #define NGUP X_F21
-// #define NGDN X_F22
-// #define NGLT X_F23
-// #define NGRT X_F24
+#define B_Y (1UL << (NG_Y - NG_Q)) //
+#define B_U (1UL << (NG_U - NG_Q)) //
+#define B_I (1UL << (NG_I - NG_Q)) //
+#define B_O (1UL << (NG_O - NG_Q)) //
+#define B_P (1UL << (NG_P - NG_Q)) //
 
-static uint8_t  ng_chrcount    = 0;     // 文字キー入力のカウンタ
-static bool     is_naginata    = false; // 薙刀式がオンかオフか
-static uint8_t  naginata_layer = 0;     // NG_*を配置しているレイヤー番号
-static uint32_t keycomb        = 0UL;   // 同時押しの状態を示す。32bitの各ビットがキーに対応する。
+#define B_A (1UL << (NG_A - NG_Q)) //
+#define B_S (1UL << (NG_S - NG_Q)) //
+#define B_D (1UL << (NG_D - NG_Q)) //
+#define B_F (1UL << (NG_F - NG_Q)) //
+#define B_G (1UL << (NG_G - NG_Q)) //
 
-#define B_Q (1UL << 0) //
-#define B_W (1UL << 1) //
-#define B_E (1UL << 2) //
-#define B_R (1UL << 3) //
-#define B_T (1UL << 4) //
+#define B_H (1UL << (NG_H - NG_Q))       //
+#define B_J (1UL << (NG_J - NG_Q))       //
+#define B_K (1UL << (NG_K - NG_Q))       //
+#define B_L (1UL << (NG_L - NG_Q))       //
+#define B_SCLN (1UL << (NG_SCLN - NG_Q)) //
 
-#define B_Y (1UL << 5) //
-#define B_U (1UL << 6) //
-#define B_I (1UL << 7) //
-#define B_O (1UL << 8) //
-#define B_P (1UL << 9) //
+#define B_Z (1UL << (NG_Z - NG_Q)) //
+#define B_X (1UL << (NG_X - NG_Q)) //
+#define B_C (1UL << (NG_C - NG_Q)) //
+#define B_V (1UL << (NG_V - NG_Q)) //
+#define B_B (1UL << (NG_B - NG_Q)) //
 
-#define B_A (1UL << 10) //
-#define B_S (1UL << 11) //
-#define B_D (1UL << 12) //
-#define B_F (1UL << 13) //
-#define B_G (1UL << 14) //
+#define B_N (1UL << (NG_N - NG_Q))       //
+#define B_M (1UL << (NG_M - NG_Q))       //
+#define B_COMM (1UL << (NG_COMM - NG_Q)) //
+#define B_DOT (1UL << (NG_DOT - NG_Q))   //
+#define B_SLSH (1UL << (NG_SLSH - NG_Q)) //
 
-#define B_H (1UL << 15)    //
-#define B_J (1UL << 16)    //
-#define B_K (1UL << 17)    //
-#define B_L (1UL << 18)    //
-#define B_SCLN (1UL << 19) //
-
-#define B_Z (1UL << 20) //
-#define B_X (1UL << 21) //
-#define B_C (1UL << 22) //
-#define B_V (1UL << 23) //
-#define B_B (1UL << 24) //
-
-#define B_N (1UL << 25)    //
-#define B_M (1UL << 26)    //
-#define B_COMM (1UL << 27) //
-#define B_DOT (1UL << 28)  //
-#define B_SLSH (1UL << 29) //
-
-#define B_SHFT (1UL << 30) //
-
-// 文字入力バッファ
-static uint16_t ninputs[NGBUFFER]; //
-
-// キーコードとキービットの対応
-// メモリ削減のため配列はNG_Qを0にしている
-// clang-format off
-const uint32_t ng_key[] = {
-    [NG_Q - NG_Q]     = B_Q,
-    [NG_W - NG_Q]     = B_W,
-    [NG_E - NG_Q]     = B_E,
-    [NG_R - NG_Q]     = B_R,
-    [NG_T - NG_Q]     = B_T,
-    [NG_Y - NG_Q]     = B_Y,
-    [NG_U - NG_Q]     = B_U,
-    [NG_I - NG_Q]     = B_I,
-    [NG_O - NG_Q]     = B_O,
-    [NG_P - NG_Q]     = B_P,
-    [NG_A - NG_Q]     = B_A,
-    [NG_S - NG_Q]     = B_S,
-    [NG_D - NG_Q]     = B_D,
-    [NG_F - NG_Q]     = B_F,
-    [NG_G - NG_Q]     = B_G,
-    [NG_H - NG_Q]     = B_H,
-    [NG_J - NG_Q]     = B_J,
-    [NG_K - NG_Q]     = B_K,
-    [NG_L - NG_Q]     = B_L,
-    [NG_SCLN - NG_Q]  = B_SCLN,
-    [NG_Z - NG_Q]     = B_Z,
-    [NG_X - NG_Q]     = B_X,
-    [NG_C - NG_Q]     = B_C,
-    [NG_V - NG_Q]     = B_V,
-    [NG_B - NG_Q]     = B_B,
-    [NG_N - NG_Q]     = B_N,
-    [NG_M - NG_Q]     = B_M,
-    [NG_COMM - NG_Q]  = B_COMM,
-    [NG_DOT - NG_Q]   = B_DOT,
-    [NG_SLSH - NG_Q]  = B_SLSH,
-    [NG_SHFT - NG_Q]  = B_SHFT,
-    [NG_SHFT2 - NG_Q] = B_SHFT,
-};
-// clang-format on
+#define B_SHFT (1UL << (NG_SHFT - NG_Q)) //
 
 // カナ変換テーブル //
 typedef struct {
@@ -354,165 +300,79 @@ const PROGMEM naginata_keymap_long ngmapl_mac[] = {
     {.key = B_C | B_V | B_I,   .kana = SS_LCTL("R")},     //
     // {.key = B_F | B_D | B_N,   .kana = SS_LCTL("o")},     //
     // {.key = B_F | B_D | B_N,   .kana = SS_LCTL("o")},     //
-
 };
 
 // clang-format on
-// バッファから先頭n文字を削除する
-void compress_buffer(int n) {
-    if (ng_chrcount == 0) return;
-    for (int j = 0; j < NGBUFFER; j++) {
-        if (j + n < NGBUFFER) {
-            ninputs[j] = ninputs[j + n];
-        } else {
-            ninputs[j] = 0;
-        }
-    }
-    ng_chrcount -= n;
+
+uint32_t bit_buffer1  = 0;
+bool     char_emitted = false;
+uint8_t  prev_key     = 0;
+
+void press_key(enum naginata_keycodes key) {
+    bit_buffer1 = bit_buffer1 | 1UL << (key - NG_Q);
 }
 
-// modifierが押されたら薙刀式レイヤーをオフしてベースレイヤーに戻す
-// get_mods()がうまく動かない
-static int n_modifier = 0;
-
-// バッファをクリアする
-void naginata_clear(void) {
-    for (int i = 0; i < NGBUFFER; i++) {
-        ninputs[i] = 0;
-    }
-    ng_chrcount = 0;
-    n_modifier  = 0;
+void release_key(enum naginata_keycodes key) {
+    bit_buffer1 = bit_buffer1 & ~(1UL << (key - NG_Q));
 }
 
-// 薙刀式の入力処理
-bool process_naginata(uint16_t keycode, keyrecord_t *record) {
-    // まれに薙刀モードオンのまま、レイヤーがオフになることがあるので、対策
-    if (n_modifier == 0 && is_naginata && !layer_state_is(naginata_layer)) layer_on(naginata_layer);
-    if (n_modifier == 0 && !is_naginata && layer_state_is(naginata_layer)) layer_off(naginata_layer);
-    if (n_modifier > 0 && layer_state_is(naginata_layer)) layer_off(naginata_layer);
-
+bool process_naginata(uint16_t keycode, keyrecord_t* record) {
     if (record->event.pressed) {
         switch (keycode) {
-            case NG_SHFT ... NG_SHFT2:
-#if NON_NAGINATA_COUCHI
-                if (ng_chrcount >= 1) {
-                    naginata_type();
-                    keycomb = 0UL;
-                }
-                ninputs[ng_chrcount] = keycode; // キー入力をバッファに貯める
-                ng_chrcount++;
-                keycomb |= ng_key[keycode - NG_Q]; // キーの重ね合わせ
-                return false;
-                break;
-#endif
-            case NG_Q ... NG_SLSH:
-                ninputs[ng_chrcount] = keycode; // キー入力をバッファに貯める
-                ng_chrcount++;
-                keycomb |= ng_key[keycode - NG_Q]; // キーの重ね合わせ
-                // バッファが一杯になったら処理を開始
-                if (ng_chrcount >= NGBUFFER) {
-                    naginata_type();
-                }
+            case NG_Q ... NG_SHFT:
+                char_emitted = false;
+                press_key(keycode);
+                prev_key = keycode;
                 return false;
                 break;
         }
-    } else { // key release
+    } else {                          // key release
+        naginata_keymap      bngmap;  // PROGMEM buffer
+        naginata_keymap_long bngmapl; // PROGMEM buffer
+        uint32_t             bit_buffer2 = bit_buffer1;
         switch (keycode) {
-            case NG_Q ... NG_SHFT2:
-                // どれかキーを離したら処理を開始する
-                keycomb &= ~ng_key[keycode - NG_Q]; // キーの重ね合わせ
-                if (ng_chrcount > 0) {
-                    naginata_type();
+            case NG_Q ... NG_SHFT:
+            LookUp:
+                for (int i = 0; i < (int)(sizeof ngmap / sizeof bngmap); i++) {
+                    memcpy_P(&bngmap, &ngmap[i], sizeof(bngmap));
+                    if (bit_buffer2 == bngmap.key) {
+                        if (!char_emitted) {
+                            if (bit_buffer1 == bit_buffer2) {
+                                char_emitted = true;
+                            }
+                            send_string(bngmap.kana);
+                        }
+                        release_key(keycode);
+                        return true;
+                    }
                 }
+                for (int i = 0; i < (int)(sizeof ngmapl_mac / sizeof bngmapl); i++) {
+                    memcpy_P(&bngmapl, &ngmapl_mac[i], sizeof(bngmapl));
+                    if (bit_buffer2 == bngmapl.key) {
+                        if (!char_emitted) {
+                            if (bit_buffer1 == bit_buffer2) {
+                                char_emitted = true;
+                            }
+                            send_string(bngmapl.kana);
+                        }
+                        release_key(keycode);
+                        return true;
+                    }
+                }
+                if (bit_buffer1 == bit_buffer2) {
+                    bit_buffer2 = bit_buffer2 & ~(1UL << (prev_key - NG_Q));
+                    if (bit_buffer1 == bit_buffer2) {
+                        release_key(keycode);
+                        return true;
+                    }
+                    goto LookUp;
+                }
+                release_key(keycode);
                 return false;
                 break;
         }
     }
     return true;
-}
-
-// キー入力を文字に変換して出力する
-void naginata_type(void) {
-    // バッファの最初からnt文字目までを検索キーにする。
-    // 一致する組み合わせがなければntを減らして=最後の1文字を除いて再度検索する。
-    int nt = ng_chrcount;
-
-    while (nt > 0) {
-        if (naginata_lookup(nt, true)) {
-            return; // 連続シフト有効で探す
-        }
-        if (naginata_lookup(nt, false)) {
-            return; // 連続シフト無効で探す
-        }
-        nt--; // 最後の1キーを除いて、もう一度仮名テーブルを検索する
-    }
-    compress_buffer(1);
-}
-
-// バッファの頭からnt文字の範囲を検索キーにしてテーブル検索し、文字に変換して出力する
-// 検索に成功したらtrue、失敗したらfalseを返す
-bool naginata_lookup(int nt, bool shifted) {
-    naginata_keymap      bngmap; // PROGMEM buffer
-    naginata_keymap_long bngmapl;
-
-    // keycomb_bufはバッファ内のキーの組み合わせ、keycombはリリースしたキーを含んでいない
-    uint32_t keycomb_buf = 0UL;
-
-    // バッファ内のキーを組み合わせる
-    for (int i = 0; i < nt; i++) {
-        keycomb_buf |= ng_key[ninputs[i] - NG_Q];
-    }
-
-    // NG_SHFT2はスペースの代わりにエンターを入力する
-    if (keycomb_buf == B_SHFT && ninputs[0] == NG_SHFT2) {
-        tap_code(KC_ENT);
-        compress_buffer(nt);
-        return true;
-    }
-
-    if (shifted) {
-        // 連続シフトを有効にする
-        if ((keycomb & B_SHFT) == B_SHFT) keycomb_buf |= B_SHFT;
-
-        /* // 編集モードを連続する */
-        if ((keycomb & (B_D | B_F)) == (B_D | B_F)) keycomb_buf |= (B_D | B_F);
-        if ((keycomb & (B_C | B_V)) == (B_C | B_V)) keycomb_buf |= (B_C | B_V);
-        if ((keycomb & (B_J | B_K)) == (B_J | B_K)) keycomb_buf |= (B_J | B_K);
-        if ((keycomb & (B_M | B_COMM)) == (B_M | B_COMM)) keycomb_buf |= (B_M | B_COMM);
-        if ((keycomb & (B_E | B_R)) == (B_E | B_R)) keycomb_buf |= (B_E | B_R);
-        if ((keycomb & (B_U | B_I)) == (B_U | B_I)) keycomb_buf |= (B_U | B_I);
-
-        // 濁音、半濁音を連続する
-        if ((keycomb & B_F) == B_F) keycomb_buf |= B_F;
-        if ((keycomb & B_J) == B_J) keycomb_buf |= B_J;
-        if ((keycomb & B_V) == B_V) keycomb_buf |= B_V;
-        if ((keycomb & B_M) == B_M) keycomb_buf |= B_M;
-    }
-
-    switch (keycomb_buf) {
-        case B_H | B_J:
-            naginata_clear();
-            return true;
-            break;
-        default:
-            for (int i = 0; i < sizeof ngmap / sizeof bngmap; i++) {
-                memcpy_P(&bngmap, &ngmap[i], sizeof(bngmap));
-                if (keycomb_buf == bngmap.key) {
-                    send_string(bngmap.kana);
-                    compress_buffer(nt);
-                    return true;
-                }
-            }
-            for (int i = 0; i < sizeof ngmapl_mac / sizeof bngmapl; i++) {
-                memcpy_P(&bngmapl, &ngmapl_mac[i], sizeof(bngmapl));
-                if (keycomb_buf == bngmapl.key) {
-                    send_string(bngmapl.kana);
-                    compress_buffer(nt);
-                    return true;
-                }
-            }
-    }
-    return false;
 }
 
 // vim:set sw=4 ts=4 sts=4:
