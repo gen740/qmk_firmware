@@ -342,8 +342,7 @@ bool process_naginata(uint16_t keycode, keyrecord_t* record) {
                             }
                             send_string(bngmap.kana);
                         }
-                        release_key(keycode);
-                        return true;
+                        goto Found;
                     }
                 }
                 for (int i = 0; i < (int)(sizeof ngmapl_mac / sizeof bngmapl); i++) {
@@ -355,21 +354,19 @@ bool process_naginata(uint16_t keycode, keyrecord_t* record) {
                             }
                             send_string(bngmapl.kana);
                         }
-                        release_key(keycode);
-                        return true;
+                        goto Found;
                     }
                 }
                 if (bit_buffer1 == bit_buffer2) {
                     bit_buffer2 = bit_buffer2 & ~(1UL << (prev_key - NG_Q));
                     if (bit_buffer1 == bit_buffer2) {
-                        release_key(keycode);
-                        return true;
+                        goto Found;
                     }
                     goto LookUp;
                 }
+            Found:
                 release_key(keycode);
-                return false;
-                break;
+                return true;
         }
     }
     return true;
