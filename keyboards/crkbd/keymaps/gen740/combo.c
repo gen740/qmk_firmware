@@ -1,24 +1,5 @@
-#pragma once
-
 #include QMK_KEYBOARD_H
-#include "naginata.h"
-
-NGKEYS naginata_keys;
-
-enum my_keycodes {
-    NAG_ESC = NG_SAFE_RANGE,
-    SV_COUNT,
-    RST_COUNT,
-};
-
-enum combo_events { //
-    NAGI_COMBO,
-    DVO_COMBO,
-    DELETE_COMBO,
-    NAGI_TO_DVO,
-    KM_ENTER,
-    COMBO_LENGTH
-};
+#include "combo.h"
 
 uint16_t COMBO_LEN = COMBO_LENGTH;
 
@@ -74,5 +55,3 @@ layer_state_t layer_state_set_user(layer_state_t state) { //
     state = update_tri_layer_state(state, L_RAISE, L_ADJUST, L_ADJUST);
     return state;
 }
-
-// vim:set sw=4 ts=4 sts=4:

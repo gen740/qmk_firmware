@@ -9,7 +9,9 @@ COMMAND_ENABLE = no
 SPACE_CADET_ENABLE = no
 MAGIC_ENABLE = no
 
-SRC += naginata_v15.c
+SRC += naginata.c
+SRC += combo.c
+SRC += naginata_keydata.c
 # SRC += naginata_v13u.c
 
 # EXTRAFLAGS += -Os

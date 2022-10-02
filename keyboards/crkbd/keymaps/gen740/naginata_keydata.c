@@ -1,57 +1,6 @@
-#include QMK_KEYBOARD_H
-#include "naginata.h"
+#include "naginata_keydata.h"
 
-#define B_Q (1UL << (NG_Q - NG_Q)) //
-#define B_W (1UL << (NG_W - NG_Q)) //
-#define B_E (1UL << (NG_E - NG_Q)) //
-#define B_R (1UL << (NG_R - NG_Q)) //
-#define B_T (1UL << (NG_T - NG_Q)) //
-
-#define B_Y (1UL << (NG_Y - NG_Q)) //
-#define B_U (1UL << (NG_U - NG_Q)) //
-#define B_I (1UL << (NG_I - NG_Q)) //
-#define B_O (1UL << (NG_O - NG_Q)) //
-#define B_P (1UL << (NG_P - NG_Q)) //
-
-#define B_A (1UL << (NG_A - NG_Q)) //
-#define B_S (1UL << (NG_S - NG_Q)) //
-#define B_D (1UL << (NG_D - NG_Q)) //
-#define B_F (1UL << (NG_F - NG_Q)) //
-#define B_G (1UL << (NG_G - NG_Q)) //
-
-#define B_H (1UL << (NG_H - NG_Q))       //
-#define B_J (1UL << (NG_J - NG_Q))       //
-#define B_K (1UL << (NG_K - NG_Q))       //
-#define B_L (1UL << (NG_L - NG_Q))       //
-#define B_SCLN (1UL << (NG_SCLN - NG_Q)) //
-
-#define B_Z (1UL << (NG_Z - NG_Q)) //
-#define B_X (1UL << (NG_X - NG_Q)) //
-#define B_C (1UL << (NG_C - NG_Q)) //
-#define B_V (1UL << (NG_V - NG_Q)) //
-#define B_B (1UL << (NG_B - NG_Q)) //
-
-#define B_N (1UL << (NG_N - NG_Q))       //
-#define B_M (1UL << (NG_M - NG_Q))       //
-#define B_COMM (1UL << (NG_COMM - NG_Q)) //
-#define B_DOT (1UL << (NG_DOT - NG_Q))   //
-#define B_SLSH (1UL << (NG_SLSH - NG_Q)) //
-
-#define B_SHFT (1UL << (NG_SHFT - NG_Q)) //
-
-// カナ変換テーブル //
-typedef struct {
-    uint32_t key;
-    char     kana[5];
-} naginata_keymap;
-
-// ロング
-typedef struct {
-    uint32_t key;
-    char     kana[7];
-} naginata_keymap_long;
-
-const PROGMEM naginata_keymap ngmap[] = {
+const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     // 清音
     {.key = B_J, .kana = "a"},              // あ
     {.key = B_K, .kana = "i"},              // い
@@ -269,7 +218,7 @@ const PROGMEM naginata_keymap ngmap[] = {
     {.key = B_E | B_R | B_P, .kana = "0"}, // つぉ
 };
 
-const PROGMEM naginata_keymap_long ngmapl_mac[] = {
+const PROGMEM naginata_keymap_long ngmapl_mac[NAGINATA_KEYMAP_LONG_ELEMENT_NUMBER] = {
     // 編集モード Mac
     {.key = B_T, .kana = SS_LCTL("b")}, //
     {.key = B_Y, .kana = SS_LCTL("f")}, //
@@ -298,77 +247,3 @@ const PROGMEM naginata_keymap_long ngmapl_mac[] = {
     // {.key = B_F | B_D | B_N,   .kana = SS_LCTL("o")},     //
 };
 
-uint32_t bit_buffer1     = 0;
-bool     char_emitted    = false;
-uint8_t  prev_key        = 0;
-bool     prev_is_unknown = false;
-
-void press_key(enum naginata_keycodes key) {
-    bit_buffer1 = bit_buffer1 | 1UL << (key - NG_Q);
-}
-
-void release_key(enum naginata_keycodes key) {
-    bit_buffer1 = bit_buffer1 & ~(1UL << (key - NG_Q));
-}
-
-bool process_naginata(uint16_t keycode, keyrecord_t* record) {
-    if (record->event.pressed) {
-        switch (keycode) {
-            case NG_Q ... NG_SHFT:
-                prev_is_unknown = false;
-                char_emitted    = false;
-                press_key(keycode);
-                prev_key = keycode;
-                return false;
-                break;
-        }
-    } else {                          // key release
-        naginata_keymap      bngmap;  // PROGMEM buffer
-        naginata_keymap_long bngmapl; // PROGMEM buffer
-        uint32_t             bit_buffer2 = bit_buffer1;
-        switch (keycode) {
-            case NG_Q ... NG_SHFT:
-            LookUp:
-                for (int i = 0; i < (int)(sizeof ngmap / sizeof bngmap); i++) {
-                    memcpy_P(&bngmap, &ngmap[i], sizeof(bngmap));
-                    if (bit_buffer2 == bngmap.key && ((1UL << (keycode - NG_Q)) & bngmap.key) != 0) {
-                        if (!char_emitted) {
-                            if (bit_buffer1 == bit_buffer2) {
-                                char_emitted = true;
-                            }
-                            send_string(bngmap.kana);
-                        }
-                        goto Found;
-                    }
-                }
-                for (int i = 0; i < (int)(sizeof ngmapl_mac / sizeof bngmapl); i++) {
-                    memcpy_P(&bngmapl, &ngmapl_mac[i], sizeof(bngmapl));
-                    if (bit_buffer2 == bngmapl.key && ((1UL << (keycode - NG_Q)) & bngmapl.key) > 0) {
-                        if (!char_emitted) {
-                            if (bit_buffer1 == bit_buffer2) {
-                                char_emitted = true;
-                            }
-                            send_string(bngmapl.kana);
-                        }
-                        goto Found;
-                    }
-                }
-                if (bit_buffer1 == bit_buffer2) {
-                    bit_buffer2 = bit_buffer2 & ~(1UL << (prev_key - NG_Q));
-                    if (bit_buffer1 == bit_buffer2) {
-                        goto Found;
-                    }
-                    if (!prev_is_unknown) {
-                        prev_is_unknown = true;
-                        goto LookUp;
-                    }
-                }
-            Found:
-                release_key(keycode);
-                return true;
-        }
-    }
-    return true;
-}
-
-// vim:set sw=4 ts=4 sts=4:
