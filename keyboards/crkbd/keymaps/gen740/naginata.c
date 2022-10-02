@@ -1,4 +1,5 @@
-#include QMK_KEYBOARD_H
+#include "quantum.h"
+
 #include "naginata.h"
 #include "naginata_keydata.h"
 
