@@ -18,13 +18,15 @@
 
 // Firmware のサイズ削減用のオプション
 // #define NO_ACTION_TAPPING
-#define NO_ACTION_ONESHOT
-#define LAYER_STATE_16BIT
+// #define NO_ACTION_ONESHOT
+#define LAYER_STATE_8BIT
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
 
-// #define IS_RIGHT
-#define TAPPING_TERM 250
+#define IS_RIGHT
+// #define RETRO_TAPPING
+#define PERMISSIVE_HOLD
+#define TAPPING_TERM 170
 
 #define ENABLE_RGB_MATRIX_BREATHING
 #define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
@@ -38,13 +40,12 @@
 #define ENABLE_RGB_MATRIX_MULTISPLASH
 
 enum layer_number {
-    L_NAGINATA,
-    L_QWERTY,
     L_DVORAK,
+    L_NAGINATA,
     L_RAISE,
-    L_LOWER,
-    L_MODIFIER,
     L_ADJUST,
+    L_MODIFIER,
+    L_LOWER,
     L_GAME,
     L_GAME2,
 };
