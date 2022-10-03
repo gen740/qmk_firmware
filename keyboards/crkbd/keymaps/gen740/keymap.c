@@ -17,7 +17,7 @@ void keyboard_post_init_user(void) { //
 #define KC_M_ENT LT(L_MODIFIER, KC_ENT)
 
 #define RAISE MO(L_RAISE)
-#define LOWER OSL(L_LOWER)
+#define LOWER OSL(L_MEH)
 #define ADJUST MO(L_ADJUST)
 
 #define KC_S_TAB SFT_T(KC_TAB)
@@ -60,20 +60,35 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [L_MODIFIER] =
 /*  1 ━━━━━━━━━ 2 ━━━━━━━━━ 3 ━━━━━━━━━ 4 ━━━━━━━━━ 5 ━━━━━━━━━ 6 ━━━━━━━━━━━┳━━━━━ 7 ━━━━━━━━━ 8 ━━━━━━━━━ 9 ━━━━━━━━━ 10 ━━━━━━━━ 11 ━━━━━━━━ 12 ━━━━━━━━━━┓ */ LAYOUT(
-   RGB_VAI,    _______,    KC_MPRV,    KC_MPLY,    KC_MNXT,    _______,    /*┃*/   _______,    _______,    KC_UP,      _______,    _______,    G(KC_PLUS) ,//┃
-   RGB_VAD,    KK_VOLD,    KC_VOLD,    KC_MUTE,    KC_VOLU,    KK_VOLU,    /*┃*/   _______,    KC_LEFT,    KC_DOWN,    KC_RGHT,    _______,    G(KC_0)    ,//┃
-   _______,    _______,    _______,    _______,    _______,    _______,    /*┃*/   _______,    _______,    LOWER,      _______,    _______,    G(KC_MINS) ,//┃
+   _______,    _______,    KC_MPRV,    KC_MPLY,    KC_MNXT,    _______,    /*┃*/   _______,    _______,    KC_UP,      _______,    _______,    G(KC_PLUS) ,//┃
+   _______,    KK_VOLD,    KC_VOLD,    KC_MUTE,    KC_VOLU,    KK_VOLU,    /*┃*/   LOWER,      KC_LEFT,    KC_DOWN,    KC_RGHT,    _______,    G(KC_0)    ,//┃
+   _______,    _______,    _______,    _______,    _______,    _______,    /*┃*/   _______,    _______,    _______,      _______,    _______,    G(KC_MINS) ,//┃
                                        TG(L_GAME), _______,    _______,    /*┃*/   _______,    _______,    _______                                         //┃
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ */ ),
 
-    [L_LOWER] =
-/*  1 ━━━━━━━━━━━ 2 ━━━━━━━━━━━ 3 ━━━━━━━━━━━ 4 ━━━━━━━━━━━ 5 ━━━━━━━━ 6 ━━━━━━━━━━━━┳━━━━━━━ 7 ━━━━━━━━ 8 ━━━━━━━━ 9 ━━━━━━━━ 10 ━━━━━━━━ 11 ━━━━━━━ 12 ━━━━━━━━━━━━┓ */ LAYOUT(
-   MEH(KC_ESC),  MEH(KC_QUOT), MEH(KC_COMM), MEH(KC_DOT),  MEH(KC_P), MEH(KC_Y),   /*┃*/     MEH(KC_F), MEH(KC_G), MEH(KC_C), MEH(KC_R),  MEH(KC_L), MEH(KC_LBRC), //┃
-   MEH(KC_TAB),  MEH(KC_A),    MEH(KC_O),    MEH(KC_E),    MEH(KC_U), MEH(KC_I),   /*┃*/     MEH(KC_D), MEH(KC_H), MEH(KC_T), MEH(KC_N),  MEH(KC_S), MEH(KC_RBRC), //┃
-   MEH(KC_SLSH), MEH(KC_SCLN), MEH(KC_Q),    MEH(KC_J),    MEH(KC_K), MEH(KC_X),   /*┃*/     MEH(KC_B), MEH(KC_M), MEH(KC_W), MEH(KC_V),  MEH(KC_Z), MEH(KC_MINS), //┃
-                                             _______,      KC_LGUI,   _______,     /*┃*/     _______,   KC_RGUI,   _______                                         //┃
-/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ */),
+    [L_MEH] =
+/*  1 ━━━━━━━━━━━ 2 ━━━━━━━━━━━ 3 ━━━━━━━━━━━ 4 ━━━━━━━━━━━ 5 ━━━━━━━━━━━ 6 ━━━━━━━━━━━━━┳━━━━━━━ 7 ━━━━━━━━━━ 8 ━━━━━━━━ 9 ━━━━━━━━ 10 ━━━━━━━━ 11 ━━━━━━━ 12 ━━━━━━━━━━━━┓ */ LAYOUT(
+   MEH(KC_ESC),  MEH(KC_QUOT), MEH(KC_COMM), MEH(KC_DOT),  MEH(KC_P),    MEH(KC_Y),    /*┃*/     MEH(KC_F),   MEH(KC_G), MEH(KC_C), MEH(KC_R),  MEH(KC_L), MEH(KC_LBRC), //┃
+   MEH(KC_TAB),  MEH(KC_A),    MEH(KC_O),    MEH(KC_E),    MEH(KC_U),    MEH(KC_I),    /*┃*/     MEH(KC_D),   MEH(KC_H), MEH(KC_T), MEH(KC_N),  MEH(KC_S), MEH(KC_RBRC), //┃
+   MEH(KC_SLSH), MEH(KC_SCLN), MEH(KC_Q),    MEH(KC_J),    MEH(KC_K),    MEH(KC_X),    /*┃*/     MEH(KC_B),   MEH(KC_M), MEH(KC_W), MEH(KC_V),  MEH(KC_Z), MEH(KC_MINS), //┃
+                                             _______,      MEH(KC_BSPC), MEH(KC_SPACE),/*┃*/     MEH(KC_ENT), _______,   _______                                         //┃
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ */),
 
+    [L_HYPER] =
+/*  1 ━━━━━━━━━━━━ 2 ━━━━━━━━━━━━ 3 ━━━━━━━━━━━━ 4 ━━━━━━━━━━━━ 5 ━━━━━━━━━━━━ 6 ━━━━━━━━━━━━━━┳━━━━━━━ 7 ━━━━━━━━━━━ 8 ━━━━━━━━━ 9 ━━━━━━━━━ 10 ━━━━━━━━━ 11 ━━━━━━━━ 12 ━━━━━━━━━━━━━┓ */ LAYOUT(
+   HYPR(KC_ESC),  HYPR(KC_QUOT), HYPR(KC_COMM), HYPR(KC_DOT),  HYPR(KC_P),    HYPR(KC_Y),    /*┃*/     HYPR(KC_F),   HYPR(KC_G), HYPR(KC_C), HYPR(KC_R),  HYPR(KC_L), HYPR(KC_LBRC), //┃
+   HYPR(KC_TAB),  HYPR(KC_A),    HYPR(KC_O),    HYPR(KC_E),    HYPR(KC_U),    HYPR(KC_I),    /*┃*/     HYPR(KC_D),   HYPR(KC_H), HYPR(KC_T), HYPR(KC_N),  HYPR(KC_S), HYPR(KC_RBRC), //┃
+   HYPR(KC_SLSH), HYPR(KC_SCLN), HYPR(KC_Q),    HYPR(KC_J),    HYPR(KC_K),    HYPR(KC_X),    /*┃*/     HYPR(KC_B),   HYPR(KC_M), HYPR(KC_W), HYPR(KC_V),  HYPR(KC_Z), HYPR(KC_MINS), //┃
+                                                 _______,      HYPR(KC_BSPC), HYPR(KC_SPACE),/*┃*/     HYPR(KC_ENT), _______,   _______                                              //┃
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ */),
+
+    [L_LCAG] =
+/*  1 ━━━━━━━━━━━━ 2 ━━━━━━━━━━━━ 3 ━━━━━━━━━━━━ 4 ━━━━━━━━━━━━ 5 ━━━━━━━━━━━━ 6 ━━━━━━━━━━━━━━┳━━━━━━━ 7 ━━━━━━━━━━━ 8 ━━━━━━━━━ 9 ━━━━━━━━━ 10 ━━━━━━━━━ 11 ━━━━━━━━ 12 ━━━━━━━━━━━━━┓ */ LAYOUT(
+   LCAG(KC_ESC),  LCAG(KC_QUOT), LCAG(KC_COMM), LCAG(KC_DOT),  LCAG(KC_P),    LCAG(KC_Y),    /*┃*/     LCAG(KC_F),   LCAG(KC_G), LCAG(KC_C), LCAG(KC_R),  LCAG(KC_L), LCAG(KC_LBRC), //┃
+   LCAG(KC_TAB),  LCAG(KC_A),    LCAG(KC_O),    LCAG(KC_E),    LCAG(KC_U),    LCAG(KC_I),    /*┃*/     LCAG(KC_D),   LCAG(KC_H), LCAG(KC_T), LCAG(KC_N),  LCAG(KC_S), LCAG(KC_RBRC), //┃
+   LCAG(KC_SLSH), LCAG(KC_SCLN), LCAG(KC_Q),    LCAG(KC_J),    LCAG(KC_K),    LCAG(KC_X),    /*┃*/     LCAG(KC_B),   LCAG(KC_M), LCAG(KC_W), LCAG(KC_V),  LCAG(KC_Z), LCAG(KC_MINS), //┃
+                                                 _______,      LCAG(KC_BSPC), LCAG(KC_SPACE),/*┃*/     LCAG(KC_ENT), _______,   _______                                              //┃
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ */),
 
     [L_GAME] =
 /*  1 ━━━━━━━━━ 2 ━━━━━━━━━ 3 ━━━━━━━━━ 4 ━━━━━━━━━ 5 ━━━━━━━━━ 6 ━━━━━━━━━━━┳━━━━━ 7 ━━━━━━━━━ 8 ━━━━━━━━━ 9 ━━━━━━━━━ 10 ━━━━━━━━ 11 ━━━━━━━━ 12 ━━━━━━━━━━┓ */ LAYOUT(

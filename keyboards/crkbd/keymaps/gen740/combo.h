@@ -7,6 +7,12 @@ enum combo_events { //
     DELETE_COMBO,
     NAGI_TO_DVO,
     KM_ENTER,
+    ONESHOT_MEH_R,
+    ONESHOT_MEH_L,
+    ONESHOT_HYPER_R,
+    ONESHOT_HYPER_L,
+    ONESHOT_LCAG_R,
+    ONESHOT_LCAG_L,
     COMBO_LENGTH
 };
 

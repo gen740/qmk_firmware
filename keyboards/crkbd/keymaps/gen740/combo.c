@@ -3,18 +3,30 @@
 
 uint16_t COMBO_LEN = COMBO_LENGTH;
 
-const uint16_t PROGMEM naginata_combo[] = {KC_H, KC_D, COMBO_END};
-const uint16_t PROGMEM dvorak_combo[]   = {KC_U, KC_I, COMBO_END};
-const uint16_t PROGMEM delete_combo[]   = {KC_F, KC_G, COMBO_END};
-const uint16_t PROGMEM nagi_to_dvo[]    = {NG_F, NG_G, COMBO_END};
-const uint16_t PROGMEM km_enter[]       = {KC_K, KC_M, COMBO_END};
+const uint16_t PROGMEM naginata_combo[]  = {KC_H, KC_D, COMBO_END};
+const uint16_t PROGMEM dvorak_combo[]    = {KC_U, KC_I, COMBO_END};
+const uint16_t PROGMEM delete_combo[]    = {KC_F, KC_G, COMBO_END};
+const uint16_t PROGMEM nagi_to_dvo[]     = {NG_F, NG_G, COMBO_END};
+const uint16_t PROGMEM km_enter[]        = {KC_K, KC_M, COMBO_END};
+const uint16_t PROGMEM oneshot_meh_r[]   = {KC_G, KC_C, COMBO_END};
+const uint16_t PROGMEM oneshot_meh_l[]   = {KC_DOT, KC_P, COMBO_END};
+const uint16_t PROGMEM oneshot_hyper_r[] = {KC_H, KC_T, COMBO_END};
+const uint16_t PROGMEM oneshot_hyper_l[] = {KC_E, KC_U, COMBO_END};
+const uint16_t PROGMEM oneshot_lcag_r[]  = {KC_M, KC_W, COMBO_END};
+const uint16_t PROGMEM oneshot_lcag_l[]  = {KC_J, KC_K, COMBO_END};
 
 combo_t key_combos[COMBO_LENGTH] = {
-    [NAGI_COMBO]   = COMBO_ACTION(naginata_combo), //
-    [DVO_COMBO]    = COMBO_ACTION(dvorak_combo),   //
-    [DELETE_COMBO] = COMBO_ACTION(delete_combo),   //
-    [NAGI_TO_DVO]  = COMBO_ACTION(nagi_to_dvo),    //
-    [KM_ENTER]     = COMBO_ACTION(km_enter),       //
+    [NAGI_COMBO]      = COMBO_ACTION(naginata_combo),  //
+    [DVO_COMBO]       = COMBO_ACTION(dvorak_combo),    //
+    [DELETE_COMBO]    = COMBO_ACTION(delete_combo),    //
+    [NAGI_TO_DVO]     = COMBO_ACTION(nagi_to_dvo),     //
+    [KM_ENTER]        = COMBO_ACTION(km_enter),        //
+    [ONESHOT_MEH_R]   = COMBO_ACTION(oneshot_meh_r),   //
+    [ONESHOT_MEH_L]   = COMBO_ACTION(oneshot_meh_l),   //
+    [ONESHOT_HYPER_R] = COMBO_ACTION(oneshot_hyper_r), //
+    [ONESHOT_HYPER_L] = COMBO_ACTION(oneshot_hyper_l), //
+    [ONESHOT_LCAG_R]  = COMBO_ACTION(oneshot_lcag_r),  //
+    [ONESHOT_LCAG_L]  = COMBO_ACTION(oneshot_lcag_l),  //
 };
 
 void process_combo_event(uint16_t combo_index, bool pressed) {
@@ -46,6 +58,30 @@ void process_combo_event(uint16_t combo_index, bool pressed) {
             if (pressed) {
                 tap_code(KC_ENT);
                 set_single_persistent_default_layer(L_DVORAK);
+            }
+            break;
+        case ONESHOT_MEH_R:
+        case ONESHOT_MEH_L:
+            if (pressed) {
+                set_oneshot_layer(L_MEH, ONESHOT_START);
+            } else {
+                clear_oneshot_layer_state(ONESHOT_PRESSED);
+            }
+            break;
+        case ONESHOT_HYPER_R:
+        case ONESHOT_HYPER_L:
+            if (pressed) {
+                set_oneshot_layer(L_HYPER, ONESHOT_START);
+            } else {
+                clear_oneshot_layer_state(ONESHOT_PRESSED);
+            }
+            break;
+        case ONESHOT_LCAG_R:
+        case ONESHOT_LCAG_L:
+            if (pressed) {
+                set_oneshot_layer(L_LCAG, ONESHOT_START);
+            } else {
+                clear_oneshot_layer_state(ONESHOT_PRESSED);
             }
             break;
     }

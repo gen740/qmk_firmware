@@ -19,11 +19,11 @@
 // Firmware のサイズ削減用のオプション
 // #define NO_ACTION_TAPPING
 // #define NO_ACTION_ONESHOT
-#define LAYER_STATE_8BIT
+#define LAYER_STATE_16BIT
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
 
-#define IS_RIGHT
+// #define IS_RIGHT
 // #define RETRO_TAPPING
 #define PERMISSIVE_HOLD
 #define TAPPING_TERM 170
@@ -45,7 +45,9 @@ enum layer_number {
     L_RAISE,
     L_ADJUST,
     L_MODIFIER,
-    L_LOWER,
+    L_MEH,
+    L_HYPER,
+    L_LCAG,
     L_GAME,
     L_GAME2,
 };
