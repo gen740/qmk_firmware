@@ -76,7 +76,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [L_HYPER] =
 /*  1 ━━━━━━━━━━━━ 2 ━━━━━━━━━━━━ 3 ━━━━━━━━━━━━ 4 ━━━━━━━━━━━━ 5 ━━━━━━━━━━━━ 6 ━━━━━━━━━━━━━━┳━━━━━━━ 7 ━━━━━━━━━━━ 8 ━━━━━━━━━ 9 ━━━━━━━━━ 10 ━━━━━━━━━ 11 ━━━━━━━━ 12 ━━━━━━━━━━━━━┓ */ LAYOUT(
-   HYPR(KC_ESC),  HYPR(KC_QUOT), HYPR(KC_COMM), HYPR(KC_DOT),  HYPR(KC_P),    HYPR(KC_Y),    /*┃*/     HYPR(KC_F),   HYPR(KC_G), HYPR(KC_C), HYPR(KC_R),  HYPR(KC_L), HYPR(KC_LBRC), //┃
+   HYPR(KC_ESC),  HYPR(KC_QUOT), HYPR(KC_Z),    HYPR(KC_DOT),  HYPR(KC_P),    HYPR(KC_Y),    /*┃*/     HYPR(KC_F),   HYPR(KC_G), HYPR(KC_C), HYPR(KC_R),  HYPR(KC_L), HYPR(KC_LBRC), //┃
    HYPR(KC_TAB),  HYPR(KC_A),    HYPR(KC_O),    HYPR(KC_E),    HYPR(KC_U),    HYPR(KC_I),    /*┃*/     HYPR(KC_D),   HYPR(KC_H), HYPR(KC_T), HYPR(KC_N),  HYPR(KC_S), HYPR(KC_RBRC), //┃
    HYPR(KC_SLSH), HYPR(KC_SCLN), HYPR(KC_Q),    HYPR(KC_J),    HYPR(KC_K),    HYPR(KC_X),    /*┃*/     HYPR(KC_B),   HYPR(KC_M), HYPR(KC_W), HYPR(KC_V),  HYPR(KC_Z), HYPR(KC_MINS), //┃
                                                  _______,      HYPR(KC_BSPC), HYPR(KC_SPACE),/*┃*/     HYPR(KC_ENT), _______,   _______                                              //┃
