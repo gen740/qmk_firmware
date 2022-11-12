@@ -1,4 +1,5 @@
 #include "combo.h"
+#include "keymap.h"
 #include "naginata.h"
 
 uint16_t COMBO_LEN = COMBO_LENGTH;
@@ -10,8 +11,8 @@ const uint16_t PROGMEM nagi_to_dvo[]     = {NG_F, NG_G, COMBO_END};
 const uint16_t PROGMEM km_enter[]        = {KC_K, KC_M, COMBO_END};
 const uint16_t PROGMEM oneshot_meh_r[]   = {KC_C, KC_R, COMBO_END};
 const uint16_t PROGMEM oneshot_meh_l[]   = {KC_COMM, KC_DOT, COMBO_END};
-const uint16_t PROGMEM oneshot_hyper_r[] = {KC_T, KC_N, COMBO_END};
-const uint16_t PROGMEM oneshot_hyper_l[] = {KC_O, KC_E, COMBO_END};
+const uint16_t PROGMEM oneshot_hyper_r[] = {KC_H, KC_N, COMBO_END};
+const uint16_t PROGMEM oneshot_hyper_l[] = {KC_O, KC_U, COMBO_END};
 const uint16_t PROGMEM oneshot_lcag_r[]  = {KC_W, KC_V, COMBO_END};
 const uint16_t PROGMEM oneshot_lcag_l[]  = {KC_Q, KC_J, COMBO_END};
 
