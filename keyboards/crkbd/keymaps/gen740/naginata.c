@@ -3,10 +3,9 @@
 #include "naginata.h"
 #include "naginata_keydata.h"
 
-uint32_t bit_buffer1     = 0;
-bool     char_emitted    = false;
-uint8_t  prev_key        = 0;
-bool     prev_is_unknown = false;
+uint32_t bit_buffer1  = 0;
+bool     char_emitted = false;
+uint8_t  prev_key     = 0;
 
 void press_key(enum naginata_keycodes key) {
     bit_buffer1 = bit_buffer1 | 1UL << (key - NG_Q);
@@ -50,8 +49,7 @@ bool process_naginata(uint16_t keycode, keyrecord_t* record) {
     if (record->event.pressed) {
         switch (keycode) {
             case NG_Q ... NG_SHFT:
-                prev_is_unknown = false;
-                char_emitted    = false;
+                char_emitted = false;
                 press_key(keycode);
                 prev_key = keycode;
                 return false;
@@ -69,9 +67,7 @@ bool process_naginata(uint16_t keycode, keyrecord_t* record) {
                         bit_buffer2 = bit_buffer2 & ~(1UL << (prev_key - NG_Q));
                         if (bit_buffer1 == bit_buffer2) {
                             break;
-                        }
-                        if (!prev_is_unknown) {
-                            prev_is_unknown = true;
+                        } else {
                             continue;
                         }
                     }
