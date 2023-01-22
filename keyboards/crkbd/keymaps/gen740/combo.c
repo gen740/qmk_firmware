@@ -34,13 +34,13 @@ void process_combo_event(uint16_t combo_index, bool pressed) {
     switch (combo_index) {
         case NAGI_COMBO:
             if (pressed) {
-                tap_code(KC_LANG1);
+                tap_code(KC_LNG1);
                 set_single_persistent_default_layer(L_NAGINATA);
             }
             break;
         case DVO_COMBO:
             if (pressed) {
-                tap_code(KC_LANG2);
+                tap_code(KC_LNG2);
                 set_single_persistent_default_layer(L_DVORAK);
             }
             break;
@@ -51,7 +51,7 @@ void process_combo_event(uint16_t combo_index, bool pressed) {
             break;
         case NAGI_TO_DVO:
             if (pressed) {
-                tap_code(KC_LANG2);
+                tap_code(KC_LNG2);
                 set_single_persistent_default_layer(L_DVORAK);
             }
             break;

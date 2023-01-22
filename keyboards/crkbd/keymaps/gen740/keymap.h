@@ -2,6 +2,8 @@
 
 #include "naginata.h"
 
+#define NG_SAFE_RANGE (SAFE_RANGE + 32)
+
 enum my_keycodes {
     NAG_ESC = NG_SAFE_RANGE,
     SV_COUNT,

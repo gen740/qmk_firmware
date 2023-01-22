@@ -28,7 +28,7 @@ void keyboard_post_init_user(void) { //
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [L_DVORAK] =
 /*  1 ━━━━━━━ 2 ━━━━━━ 3 ━━━━━━ 4 ━━━━━━ 5 ━━━━━━━━━━━━ 6 ━━━━━━━┳━━━ 7 ━━━━━━━ 8 ━━━━━ 9 ━━━━━━ 10 ━━━ 11 ━━━━━━━ 12 ━━━━━━━━━━┓ */ LAYOUT(
-   KC_GESC,  KC_QUOT, KC_COMM, KC_DOT,  KC_P,          KC_Y,   /*┃*/ KC_F,     KC_G,   KC_C,    KC_R,  KC_L,      KC_LBRC,    //┃
+   QK_GESC,  KC_QUOT, KC_COMM, KC_DOT,  KC_P,          KC_Y,   /*┃*/ KC_F,     KC_G,   KC_C,    KC_R,  KC_L,      KC_LBRC,    //┃
    KC_S_TAB, KC_A,    KC_O,    KC_E,    KC_U,          KC_I,   /*┃*/ KC_D,     KC_H,   KC_T,    KC_N,  KC_S,      KC_S_RBRC,  //┃
    KC_SLSH,  KC_SCLN, KC_Q,    KC_J,    KC_K,          KC_X,   /*┃*/ KC_B,     KC_M,   KC_W,    KC_V,  KC_Z,      KC_MINS,    //┃
                                KC_LALT, KC_C_BS,       KC_SPC, /*┃*/ KC_M_ENT, RAISE,  KC_RGUI                                //┃
@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    KC_F1,      KC_F2,      KC_F3,      KC_F4,      KC_F5,      KC_F6,      /*┃*/   KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F11,     KC_F11     ,//┃
    RGB_TOG,    _______,    _______,    _______,    _______,    _______,    /*┃*/   _______,    _______,    _______,    RGB_HUD,    RGB_HUD,    RGB_SAI    ,//┃
    RGB_MOD,    _______,    _______,    KC_BRID,    KC_BRIU,    SV_COUNT,   /*┃*/   RST_COUNT,  _______,    _______,    _______,    RGB_SPD,    RGB_SPI    ,//┃
-                                       EEP_RST,    _______,    _______,    /*┃*/   _______,    _______,    _______                                         //┃
+                                       HF_RST,     _______,    _______,    /*┃*/   _______,    _______,    _______                                         //┃
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ */ ),
 
     [L_MODIFIER] =
@@ -115,7 +115,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case NAG_ESC:
             if (record->event.pressed) {
-                tap_code(KC_LANG2);
+                tap_code(KC_LNG2);
                 set_single_persistent_default_layer(L_DVORAK);
                 register_code(KC_ESC);
             }
