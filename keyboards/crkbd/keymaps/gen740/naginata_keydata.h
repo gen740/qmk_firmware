@@ -1,4 +1,5 @@
 #pragma once
+
 #include "naginata.h"
 
 #define B_Q (1UL << (NG_Q - NG_Q)) //
@@ -41,20 +42,21 @@
 
 // カナ変換テーブル //
 typedef struct {
-    uint32_t key;
-    char     kana[5];
+  uint32_t key;
+  char kana[5];
 } naginata_keymap;
 
 // ロング
 typedef struct {
-    uint32_t key;
-    char     kana[7];
+  uint32_t key;
+  char kana[7];
 } naginata_keymap_long;
 
 enum {
-    NAGINATA_KEYMAP_ELEMENT_NUMBER      = 185, //
-    NAGINATA_KEYMAP_LONG_ELEMENT_NUMBER = 18
+  NAGINATA_KEYMAP_ELEMENT_NUMBER = 185, //
+  NAGINATA_KEYMAP_LONG_ELEMENT_NUMBER = 18
 };
 
-extern const PROGMEM naginata_keymap      ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER];
-extern const PROGMEM naginata_keymap_long ngmapl_mac[NAGINATA_KEYMAP_LONG_ELEMENT_NUMBER];
+extern const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER];
+extern const PROGMEM naginata_keymap_long
+    ngmapl_mac[NAGINATA_KEYMAP_LONG_ELEMENT_NUMBER];

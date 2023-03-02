@@ -1,4 +1,5 @@
 #include "naginata_keydata.h"
+#include "naginata.h"
 
 const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     // 清音
@@ -188,9 +189,10 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     {.key = B_U, .kana = SS_TAP(X_BSPC)}, //
 
     // enter
-    {.key = B_V | B_M, .kana = SS_TAP(X_ENTER)},          //
-    {.key = B_SHFT | B_V | B_M, .kana = SS_TAP(X_ENTER)}, // enter+シフト(連続シフト)
-    {.key = B_J | B_K | B_T, .kana = "/"},                // ・
+    {.key = B_V | B_M, .kana = SS_TAP(X_ENTER)}, //
+    {.key = B_SHFT | B_V | B_M,
+     .kana = SS_TAP(X_ENTER)},             // enter+シフト(連続シフト)
+    {.key = B_J | B_K | B_T, .kana = "/"}, // ・
 
     // その他
     {.key = B_J | B_K | B_F, .kana = "["},    //
@@ -218,31 +220,32 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     {.key = B_E | B_R | B_P, .kana = "0"}, // つぉ
 };
 
-const PROGMEM naginata_keymap_long ngmapl_mac[NAGINATA_KEYMAP_LONG_ELEMENT_NUMBER] = {
-    // 編集モード Mac
-    {.key = B_T, .kana = SS_TAP(X_LEFT)},  //
-    {.key = B_Y, .kana = SS_TAP(X_RIGHT)}, //
+const PROGMEM naginata_keymap_long
+    ngmapl_mac[NAGINATA_KEYMAP_LONG_ELEMENT_NUMBER] = {
+        // 編集モード Mac
+        {.key = B_T, .kana = SS_TAP(X_LEFT)},  //
+        {.key = B_Y, .kana = SS_TAP(X_RIGHT)}, //
 
-    {.key = B_F | B_D | B_H, .kana = SS_LCTL("i")},    //
-    {.key = B_F | B_D | B_N, .kana = SS_LCTL("o")},    //
-    {.key = B_F | B_D | B_J, .kana = SS_LCTL("p")},    //
-    {.key = B_F | B_D | B_M, .kana = SS_LCTL("n")},    //
-    {.key = B_F | B_D | B_K, .kana = SS_LCTL("f")},    //
-    {.key = B_F | B_D | B_COMM, .kana = SS_LCTL("b")}, //
+        {.key = B_F | B_D | B_H, .kana = SS_LCTL("i")},    //
+        {.key = B_F | B_D | B_N, .kana = SS_LCTL("o")},    //
+        {.key = B_F | B_D | B_J, .kana = SS_LCTL("p")},    //
+        {.key = B_F | B_D | B_M, .kana = SS_LCTL("n")},    //
+        {.key = B_F | B_D | B_K, .kana = SS_LCTL("f")},    //
+        {.key = B_F | B_D | B_COMM, .kana = SS_LCTL("b")}, //
 
-    {.key = B_F | B_D | B_SCLN, .kana = SS_LCTL("k")}, //
-    {.key = B_F | B_D | B_SLSH, .kana = SS_LCTL("j")}, //
-    {.key = B_F | B_D | B_U, .kana = SS_LCTL("a")},    //
-    {.key = B_F | B_D | B_I, .kana = SS_LCTL("e")},    //
-    {.key = B_F | B_D | B_O, .kana = SS_LCTL("k")},    //
+        {.key = B_F | B_D | B_SCLN, .kana = SS_LCTL("k")}, //
+        {.key = B_F | B_D | B_SLSH, .kana = SS_LCTL("j")}, //
+        {.key = B_F | B_D | B_U, .kana = SS_LCTL("a")},    //
+        {.key = B_F | B_D | B_I, .kana = SS_LCTL("e")},    //
+        {.key = B_F | B_D | B_O, .kana = SS_LCTL("k")},    //
 
-    // {.key = B_C | B_V | B_H,   .kana = SS_LCTL("i")},     //
-    // {.key = B_C | B_V | B_N,   .kana = SS_LCTL("o")},     //
-    {.key = B_C | B_V | B_J, .kana = SS_LCTL("P")},    //
-    {.key = B_C | B_V | B_M, .kana = SS_LCTL("N")},    //
-    {.key = B_C | B_V | B_K, .kana = SS_LCTL("F")},    //
-    {.key = B_C | B_V | B_COMM, .kana = SS_LCTL("B")}, //
-    {.key = B_C | B_V | B_I, .kana = SS_LCTL("R")},    //
-    // {.key = B_F | B_D | B_N,   .kana = SS_LCTL("o")},     //
-    // {.key = B_F | B_D | B_N,   .kana = SS_LCTL("o")},     //
+        // {.key = B_C | B_V | B_H,   .kana = SS_LCTL("i")},     //
+        // {.key = B_C | B_V | B_N,   .kana = SS_LCTL("o")},     //
+        {.key = B_C | B_V | B_J, .kana = SS_LCTL("P")},    //
+        {.key = B_C | B_V | B_M, .kana = SS_LCTL("N")},    //
+        {.key = B_C | B_V | B_K, .kana = SS_LCTL("F")},    //
+        {.key = B_C | B_V | B_COMM, .kana = SS_LCTL("B")}, //
+        {.key = B_C | B_V | B_I, .kana = SS_LCTL("R")},    //
+        // {.key = B_F | B_D | B_N,   .kana = SS_LCTL("o")},     //
+        // {.key = B_F | B_D | B_N,   .kana = SS_LCTL("o")},     //
 };
