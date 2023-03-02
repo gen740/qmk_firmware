@@ -183,9 +183,9 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     // 追加
     {.key = B_SHFT, .kana = " "}, //
     // {.key = B_Q,         .kana = ""},                //
-    {.key = B_V | B_SHFT, .kana = ","},     //
-    {.key = B_M | B_SHFT, .kana = "."},     //
-    {.key = B_U, .kana = SS_TAP(X_SPACE)}, //
+    {.key = B_V | B_SHFT, .kana = ","},   //
+    {.key = B_M | B_SHFT, .kana = "."},   //
+    {.key = B_U, .kana = SS_TAP(X_BSPC)}, //
 
     // enter
     {.key = B_V | B_M, .kana = SS_TAP(X_ENTER)},          //
