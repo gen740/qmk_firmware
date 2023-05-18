@@ -1,16 +1,6 @@
 #include "gen740.h"
 #include "naginata.h"
 
-typedef union {
-  uint32_t pr_counter;
-} user_config_t;
-
-user_config_t user_config;
-
-void keyboard_post_init_user(void) { //
-  user_config.pr_counter = eeconfig_read_user();
-}
-
 // clang-format off
 
 #define KC_C_BS CTL_T(KC_BSPC)
@@ -54,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /*  1 ━━━━━━━━━ 2 ━━━━━━━━━━━━ 3 ━━━━━━━━━ 4 ━━━━━━━━━ 5 ━━━━━━━━━ 6 ━━━━━━━━━━━┳━━━━━ 7 ━━━━━━━━━ 8 ━━━━━━━━━ 9 ━━━━━━━━━ 10 ━━━━━━━━ 11 ━━━━━━━━ 12 ━━━━━━━━━━┓ */ LAYOUT(
    KC_F1,      KC_F2,         KC_F3,      KC_F4,      KC_F5,      KC_F6,      /*┃*/   KC_F7,      KC_F8,      KC_F9,      KC_F10,     KC_F11,     KC_F11     ,//┃
    RGB_TOG,    DF(L_BLENDER), _______,    _______,    _______,    _______,    /*┃*/   _______,    _______,    _______,    RGB_HUD,    RGB_HUD,    RGB_SAI    ,//┃
-   RGB_MOD,    _______,       _______,    KC_BRID,    KC_BRIU,    SV_COUNT,   /*┃*/   RST_COUNT,  _______,    _______,    _______,    RGB_SPD,    RGB_SPI    ,//┃
+   RGB_MOD,    _______,       _______,    KC_BRID,    KC_BRIU,    _______,    /*┃*/   _______,    _______,    _______,    _______,    RGB_SPD,    RGB_SPI    ,//┃
                                           HF_RST,     _______,    _______,    /*┃*/   _______,    _______,    _______                                         //┃
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ */ ),
 
@@ -125,9 +115,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // clang-format on
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-  if (record->event.pressed) {
-    user_config.pr_counter++;
-  }
   switch (keycode) {
   case NAG_ESC:
     if (record->event.pressed) {
@@ -137,14 +124,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     }
     return false;
     break;
-  case SV_COUNT:
-    eeconfig_update_user(user_config.pr_counter);
-    return false;
-    break;
-  case RST_COUNT:
-    user_config.pr_counter = 0;
-    return false;
-    break;
   default:
     if (!process_naginata(keycode, record)) {
       return false;
@@ -152,4 +131,3 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     return true;
   }
 }
-

@@ -4,8 +4,6 @@
 
 enum my_keycodes {
   NAG_ESC = SAFE_RANGE + 32,
-  SV_COUNT,
-  RST_COUNT,
 };
 
 enum layer_number {

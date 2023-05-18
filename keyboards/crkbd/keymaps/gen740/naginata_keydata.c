@@ -223,8 +223,10 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
 const PROGMEM naginata_keymap_long
     ngmapl_mac[NAGINATA_KEYMAP_LONG_ELEMENT_NUMBER] = {
         // 編集モード Mac
-        {.key = B_T, .kana = SS_TAP(X_LEFT)},  //
-        {.key = B_Y, .kana = SS_TAP(X_RIGHT)}, //
+        {.key = B_T, .kana = SS_TAP(X_LEFT)},                    //
+        {.key = B_Y, .kana = SS_TAP(X_RIGHT)},                   //
+                                                                 //
+        {.key = B_C | B_COMM, .kana = SS_LSFT(SS_TAP(X_ENTER))}, //
 
         {.key = B_F | B_D | B_H, .kana = SS_LCTL("i")},    //
         {.key = B_F | B_D | B_N, .kana = SS_LCTL("o")},    //

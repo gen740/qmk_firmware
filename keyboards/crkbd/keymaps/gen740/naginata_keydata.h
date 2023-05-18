@@ -49,12 +49,12 @@ typedef struct {
 // ロング
 typedef struct {
   uint32_t key;
-  char kana[7];
+  char kana[9];
 } naginata_keymap_long;
 
 enum {
   NAGINATA_KEYMAP_ELEMENT_NUMBER = 185, //
-  NAGINATA_KEYMAP_LONG_ELEMENT_NUMBER = 18
+  NAGINATA_KEYMAP_LONG_ELEMENT_NUMBER = 19
 };
 
 extern const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER];
