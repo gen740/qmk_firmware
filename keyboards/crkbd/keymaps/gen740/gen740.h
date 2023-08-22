@@ -15,8 +15,6 @@ enum layer_number {
   L_MEH,
   L_HYPER,
   L_LCAG,
-  L_BLENDER,
-  L_BLENDER_MODIFIER,
   L_GAME,
   L_GAME2,
 };
