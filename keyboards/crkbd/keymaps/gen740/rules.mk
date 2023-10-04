@@ -1,5 +1,5 @@
 OLED_ENABLE = no
-# RGB_MATRIX_ENABLE = no
+RGB_MATRIX_ENABLE = no
 RGBLIGHT_ENABLE = no
 
 MOUSEKEY_ENABLE = no
@@ -11,12 +11,11 @@ SPACE_CADET_ENABLE = no
 MAGIC_ENABLE = no
 
 SRC += naginata.c
-INTROSPECTION_KEYMAP_C += combo.c
 SRC += oled.c
 SRC += naginata_keydata.c
-# SRC += naginata_v13u.c
+INTROSPECTION_KEYMAP_C += combo.c
 
-# EXTRAFLAGS += -Os
+EXTRAFLAGS += -Os
 LTO_ENABLE = yes
 
 COMBO_ENABLE = yes

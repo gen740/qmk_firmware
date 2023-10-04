@@ -3,17 +3,14 @@
 #define MASTER_LEFT
 
 #define HOLD_ON_OTHER_KEY_PRESS
-#define TAPPING_FORCE_HOLD
+#define QUICK_TAP_TERM 0
+#define PERMISSIVE_HOLD
+#define TAPPING_TERM 180
 
 // Firmware のサイズ削減用のオプション
 #define LAYER_STATE_16BIT
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
-
-// #define IS_RIGHT
-// #define RETRO_TAPPING
-// #define PERMISSIVE_HOLD
-#define TAPPING_TERM 180
 
 #define OLED_TIMEOUT 1
 #define OLED_FADE_OUT_INTERVAL 1

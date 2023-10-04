@@ -12,6 +12,7 @@ CompileFlags:
     - -Wno-error=unused-command-line-argument-hard-error-in-future
   Remove:
     - -mcall-prologues
+    - -mmcu=
 
 
 Diagnostics:
