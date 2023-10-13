@@ -2,9 +2,9 @@
 // EEPROMに保存する設定
 
 enum combo_events { //
-  NAGI_COMBO,
-  DVO_COMBO,
-  DELETE_COMBO,
+  DVO_TO_NAGI_COMBO,
+  DVO_NULL_COMBO,
+  DVO_TO_NAGI_NOLANG_COMBO,
   NAGI_TO_DVO,
   KM_ENTER,
   ONESHOT_MEH_R,

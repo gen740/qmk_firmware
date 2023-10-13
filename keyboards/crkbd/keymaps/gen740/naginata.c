@@ -54,6 +54,8 @@ bool process_naginata(uint16_t keycode, keyrecord_t *record) {
       prev_key = keycode;
       return false;
       break;
+    default:
+      break;
     }
   } else { // key release
     uint32_t bit_buffer2 = bit_buffer1;
@@ -74,6 +76,8 @@ bool process_naginata(uint16_t keycode, keyrecord_t *record) {
       }
       release_key(keycode);
       return true;
+    default:
+      break;
     }
   }
   return true;
