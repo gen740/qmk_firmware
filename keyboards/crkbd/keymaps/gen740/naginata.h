@@ -3,7 +3,7 @@
 #include QMK_KEYBOARD_H
 
 typedef enum naginata_keycodes {
-  NG_Q = SAFE_RANGE, // 薙刀式シフトキー
+  NG_Q = SAFE_RANGE,  // 薙刀式シフトキー
   NG_W,
   NG_E,
   NG_R,

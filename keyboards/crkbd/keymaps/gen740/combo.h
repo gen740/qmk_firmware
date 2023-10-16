@@ -1,7 +1,7 @@
 #pragma once
 // EEPROMに保存する設定
 
-enum combo_events { //
+enum combo_events {  //
   DVO_TO_NAGI_COMBO,
   DVO_NULL_COMBO,
   DVO_TO_NAGI_NOLANG_COMBO,

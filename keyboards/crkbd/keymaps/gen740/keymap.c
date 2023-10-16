@@ -100,18 +100,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // clang-format on
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
-  case NAG_ESC:
-    if (record->event.pressed) {
-      tap_code(KC_LNG2);
-      set_single_persistent_default_layer(L_DVORAK);
-      register_code(KC_ESC);
-    }
-    return false;
-    break;
-  default:
-    if (!process_naginata(keycode, record)) {
+    case NAG_ESC:
+      if (record->event.pressed) {
+        tap_code(KC_LNG2);
+        set_single_persistent_default_layer(L_DVORAK);
+        register_code(KC_ESC);
+      }
       return false;
-    }
-    return true;
+      break;
+    default:
+      if (!process_naginata(keycode, record)) {
+        return false;
+      }
+      return true;
   }
 }
