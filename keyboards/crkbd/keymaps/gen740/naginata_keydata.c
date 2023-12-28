@@ -21,7 +21,7 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     {.key = B_B, .kana = "so"},              // そ
     {.key = B_N, .kana = "ta"},              // た
     {.key = B_SHFT | B_G, .kana = "ti"},     // ち
-    {.key = B_SHFT | B_SCLN, .kana = "tu"},  // つ
+    {.key = B_SHFT | B_L, .kana = "tu"},     // つ
     {.key = B_E, .kana = "te"},              // て
     {.key = B_D, .kana = "to"},              // と
     {.key = B_M, .kana = "na"},              // な
@@ -32,7 +32,7 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     {.key = B_C, .kana = "ha"},              // は
     {.key = B_X, .kana = "hi"},              // ひ
     {.key = B_SHFT | B_X, .kana = "hi"},     // ひ
-    {.key = B_SHFT | B_DOT, .kana = "hu"},   // ふ
+    {.key = B_SHFT | B_SCLN, .kana = "fu"},  // ふ
     {.key = B_P, .kana = "he"},              // へ
     {.key = B_Z, .kana = "ho"},              // ほ
     {.key = B_SHFT | B_Z, .kana = "ho"},     // ほ
@@ -50,7 +50,7 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     {.key = B_SLSH, .kana = "re"},           // れ
     {.key = B_SHFT | B_SLSH, .kana = "re"},  // れ
     {.key = B_A, .kana = "ro"},              // ろ
-    {.key = B_SHFT | B_L, .kana = "wa"},     // わ
+    {.key = B_SHFT | B_DOT, .kana = "wa"},   // わ
     {.key = B_SHFT | B_C, .kana = "wo"},     // を
     {.key = B_COMM, .kana = "nn"},           // ん
     {.key = B_SCLN, .kana = "-"},            // ー
@@ -68,15 +68,15 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     {.key = B_J | B_B, .kana = "zo"},     // ぞ
     {.key = B_F | B_N, .kana = "da"},     // だ
     {.key = B_J | B_G, .kana = "di"},     // ぢ
-    {.key = B_F | B_SCLN, .kana = "du"},  // づ
+    {.key = B_F | B_L, .kana = "du"},     // づ
     {.key = B_J | B_E, .kana = "de"},     // で
     {.key = B_J | B_D, .kana = "do"},     // ど
     {.key = B_J | B_C, .kana = "ba"},     // ば
     {.key = B_J | B_X, .kana = "bi"},     // び
-    {.key = B_F | B_DOT, .kana = "bu"},   // ぶ
+    {.key = B_F | B_SCLN, .kana = "bu"},  // ぶ
     {.key = B_F | B_P, .kana = "be"},     // べ
     {.key = B_J | B_Z, .kana = "bo"},     // ぼ
-    {.key = B_F | B_L, .kana = "vu"},     // ゔ
+    {.key = B_Q, .kana = "vu"},           // ゔ
 
     // 半濁音
     {.key = B_M | B_C, .kana = "pa"},    // ぱ
