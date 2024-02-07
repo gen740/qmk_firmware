@@ -79,11 +79,11 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     {.key = B_Q, .kana = "vu"},           // ゔ
 
     // 半濁音
-    {.key = B_M | B_C, .kana = "pa"},    // ぱ
-    {.key = B_M | B_X, .kana = "pi"},    // ぴ
-    {.key = B_V | B_DOT, .kana = "pu"},  // ぷ
-    {.key = B_V | B_P, .kana = "pe"},    // ぺ
-    {.key = B_M | B_Z, .kana = "po"},    // ぽ
+    {.key = B_M | B_C, .kana = "pa"},     // ぱ
+    {.key = B_M | B_X, .kana = "pi"},     // ぴ
+    {.key = B_V | B_SCLN, .kana = "pu"},  // ぷ
+    {.key = B_V | B_P, .kana = "pe"},     // ぺ
+    {.key = B_M | B_Z, .kana = "po"},     // ぽ
 
     // 小書き
     {.key = B_Q | B_H, .kana = "xya"},  // ゃ
@@ -153,11 +153,11 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     {.key = B_M | B_G | B_O, .kana = "tye"},     // ちぇ
     {.key = B_J | B_R | B_O, .kana = "zye"},     // じぇ
     {.key = B_J | B_G | B_O, .kana = "dye"},     // ぢぇ
-    {.key = B_V | B_DOT | B_J, .kana = "fa"},    // ふぁ
-    {.key = B_V | B_DOT | B_K, .kana = "fi"},    // ふぃ
-    {.key = B_V | B_DOT | B_O, .kana = "fe"},    // ふぇ
-    {.key = B_V | B_DOT | B_N, .kana = "fo"},    // ふぉ
-    {.key = B_V | B_DOT | B_P, .kana = "fyu"},   // ふゅ
+    {.key = B_V | B_SCLN | B_J, .kana = "fa"},   // ふぁ
+    {.key = B_V | B_SCLN | B_K, .kana = "fi"},   // ふぃ
+    {.key = B_V | B_SCLN | B_O, .kana = "fe"},   // ふぇ
+    {.key = B_V | B_SCLN | B_N, .kana = "fo"},   // ふぉ
+    {.key = B_V | B_SCLN | B_P, .kana = "fyu"},  // ふゅ
     {.key = B_V | B_K | B_O, .kana = "ixe"},     // いぇ
     {.key = B_V | B_L | B_K, .kana = "wi"},      // うぃ
     {.key = B_V | B_L | B_O, .kana = "we"},      // うぇ
@@ -177,10 +177,10 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     {.key = B_F | B_H | B_O, .kana = "guxe"},    // ぐぇ
     {.key = B_F | B_H | B_N, .kana = "guxo"},    // ぐぉ
     {.key = B_F | B_H | B_L, .kana = "guxwa"},   // ぐゎ :WARN:
-    {.key = B_V | B_SCLN | B_J, .kana = "tsa"},  // つぁ
-    {.key = B_V | B_SCLN | B_K, .kana = "tsi"},  // つぃ
-    {.key = B_V | B_SCLN | B_O, .kana = "tse"},  // つぇ
-    {.key = B_V | B_SCLN | B_N, .kana = "tso"},  // つぉ
+    {.key = B_V | B_DOT | B_J, .kana = "tsa"},   // つぁ
+    {.key = B_V | B_DOT | B_K, .kana = "tsi"},   // つぃ
+    {.key = B_V | B_DOT | B_O, .kana = "tse"},   // つぇ
+    {.key = B_V | B_DOT | B_N, .kana = "tso"},   // つぉ
 
     // 追加
     {.key = B_SHFT, .kana = " "},  //
@@ -209,16 +209,16 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEYMAP_ELEMENT_NUMBER] = {
     {.key = B_J | B_K | B_S, .kana = "/"},  //
 
     // 数字
-    {.key = B_U | B_I | B_Q, .kana = "1"},  // つぉ
-    {.key = B_U | B_I | B_W, .kana = "2"},  // つぉ
-    {.key = B_U | B_I | B_E, .kana = "3"},  // つぉ
-    {.key = B_U | B_I | B_R, .kana = "4"},  // つぉ
-    {.key = B_U | B_I | B_T, .kana = "5"},  // つぉ
-    {.key = B_E | B_R | B_Y, .kana = "6"},  // つぉ
-    {.key = B_E | B_R | B_U, .kana = "7"},  // つぉ
-    {.key = B_E | B_R | B_I, .kana = "8"},  // つぉ
-    {.key = B_E | B_R | B_O, .kana = "9"},  // つぉ
-    {.key = B_E | B_R | B_P, .kana = "0"},  // つぉ
+    {.key = B_U | B_I | B_Q, .kana = "1"},
+    {.key = B_U | B_I | B_W, .kana = "2"},
+    {.key = B_U | B_I | B_E, .kana = "3"},
+    {.key = B_U | B_I | B_R, .kana = "4"},
+    {.key = B_U | B_I | B_T, .kana = "5"},
+    {.key = B_E | B_R | B_Y, .kana = "6"},
+    {.key = B_E | B_R | B_U, .kana = "7"},
+    {.key = B_E | B_R | B_I, .kana = "8"},
+    {.key = B_E | B_R | B_O, .kana = "9"},
+    {.key = B_E | B_R | B_P, .kana = "0"},
 };
 
 const PROGMEM naginata_keymap_long
