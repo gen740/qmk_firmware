@@ -1,6 +1,6 @@
 {
   description = "Flake shell";
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/24.05";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/98b00b6947a9214381112bdb6f89c25498db4959";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   outputs =
@@ -11,7 +11,7 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       {
-        devShells.default = pkgs.mkShellNoCC { packages = [ pkgs.qmk ]; };
+        devShells.default = import ./shell.nix { inherit pkgs; };
       }
     );
 }
