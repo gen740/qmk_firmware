@@ -11,7 +11,12 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       {
-        devShells.default = import ./shell.nix { inherit pkgs; };
+        devShells.default = pkgs.mkShellNoCC {
+          packages = [ pkgs.qmk ];
+          shellHook = ''
+            unset NIX_CFLAGS_COMPILE
+          '';
+        };
       }
     );
 }
