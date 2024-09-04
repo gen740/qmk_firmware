@@ -1,0 +1,46 @@
+CompileFlags:
+  Add:
+    - -Wall
+    - -Wextra
+    - -Wno-unknown-attributes
+    - -isystem/Users/fujimotogen/.local/include
+    - -isystem/usr/local/include
+    - -isystem/usr/local/opt/llvm/bin/../include/c++/v1
+    - -isystem/usr/local/Cellar/llvm/14.0.6_1/lib/clang/14.0.6/include
+    - -isystem/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include
+    - -isystem/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks
+    - -Wno-error=unused-command-line-argument-hard-error-in-future
+  Remove:
+    - -mcall-prologues
+    - -mmcu=
+
+
+Diagnostics:
+  ClangTidy:
+    Add:
+      - modernize*
+      - bugprone*
+      - google*
+      - performance*
+      - readability*
+      - cppcoreguidelines*
+    Remove:
+      - modernize-use-trailing-return-type
+      - readability-magic-numbers
+      - readability-uppercase-literal-suffix
+      - readability-identifier-length
+      - readability-identifier-naming
+      - cppcoreguidelines-avoid-magic-numbers
+      - cppcoreguidelines-avoid-non-const-global-variables
+    CheckOptions:
+      readability-function-cognitive-complexity.Threshold: 30
+
+InlayHints:
+  Enabled: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes
+
+Hover:
+  ShowAKA: Yes
+
+# vim:ft=yaml
