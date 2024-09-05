@@ -36,27 +36,27 @@ void process_combo_event(uint16_t combo_index, bool pressed) {
     case DVO_TO_NAGI_COMBO:
       if (pressed) {
         tap_code(KC_LNG1);
-        layer_move(L_NAGINATA);
+        layer_move(L_NAG);
       }
       break;
     case DVO_NULL_COMBO:
       break;
     case DVO_TO_NAGI_NOLANG_COMBO:
       if (pressed) {
-        layer_move(L_NAGINATA);
+        layer_move(L_NAG);
       }
       break;
     case NAGI_TO_DVO:
       if (pressed) {
         tap_code(KC_LNG2);
-        layer_move(L_DVORAK);
+        layer_move(L_DVO);
       }
       break;
 
     case KM_ENTER:
       if (pressed) {
         tap_code(KC_ENT);
-        layer_move(L_DVORAK);
+        layer_move(L_DVO);
       }
       break;
     case ONESHOT_MEH_R:
@@ -89,6 +89,6 @@ void process_combo_event(uint16_t combo_index, bool pressed) {
 }
 
 layer_state_t layer_state_set_user(layer_state_t state) {  //
-  state = update_tri_layer_state(state, L_RAISE, L_ADJUST, L_ADJUST);
+  state = update_tri_layer_state(state, L_RAI, L_ADJ, L_ADJ);
   return state;
 }

@@ -10,6 +10,7 @@ CompileFlags:
     - -isystem/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include
     - -isystem/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks
     - -Wno-error=unused-command-line-argument-hard-error-in-future
+    - -D__SOFTFP__
   Remove:
     - -mcall-prologues
     - -mmcu=

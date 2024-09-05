@@ -7,11 +7,11 @@ enum my_keycodes {
 };
 
 enum layer_number {
-  L_DVORAK,
-  L_NAGINATA,
-  L_RAISE,
-  L_ADJUST,
-  L_MODIFIER,
+  L_DVO,
+  L_NAG,
+  L_RAI,
+  L_ADJ,
+  L_MOD,
   L_MEH,
   L_HYPER,
   L_LCAG,
