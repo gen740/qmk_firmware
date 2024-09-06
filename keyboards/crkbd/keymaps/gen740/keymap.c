@@ -79,7 +79,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     |----------+----------+----------+----------+----------+----------+-----------| |-----------+----------+----------+----------+----------+----------+-----------|        */
         XXXXXXX, HYPR_KC_A, HYPR_KC_O, HYPR_KC_E, HYPR_KC_U, HYPR_KC_I,   XXXXXXX,       XXXXXXX, HYPR_KC_D, HYPR_KC_H, HYPR_KC_T, HYPR_KC_N, HYPR_KC_S,   XXXXXXX,         /*
     |----------+----------+----------+----------+----------+----------+-----------| |-----------+----------+----------+----------+----------+----------+-----------|        */
-        XXXXXXX, HYPR_SCLN, HYPR_KC_Q, HYPR_KC_J, HYPR_KC_K, HYPR_KC_X,                           HYPR_KC_B, HYPR_KC_M, HYPR_KC_W, HYPR_KC_V, HYPR_KC_Z,   QK_BOOT,         /*
+        QK_BOOT, HYPR_SCLN, HYPR_KC_Q, HYPR_KC_J, HYPR_KC_K, HYPR_KC_X,                           HYPR_KC_B, HYPR_KC_M, HYPR_KC_W, HYPR_KC_V, HYPR_KC_Z,   QK_BOOT,         /*
     |----------+----------+----------+----------+----------+----------+-----------| |-----------+----------+----------+----------+----------+----------+-----------|        */
                                                     XXXXXXX,   XXXXXXX,   XXXXXXX,       XXXXXXX,   XXXXXXX,   XXXXXXX                                                      /*
                                                 |----------+----------+-----------| |-----------+----------+-----------|                                                    */ ),
