@@ -5,17 +5,16 @@
 #include "define_macros.h"
 
 // clang-format off
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   LAYOUT(L_DVO)                                                                                                                                                             /*
     |-----------------------------------------------------------------------------| |------------------------------------------------------------------------------|        */
-        QK_GESC,   KC_QUOT,   KC_COMM,    KC_DOT,      KC_P,      KC_Y,   KC_DOWN,         KC_UP,      KC_F,      KC_G,      KC_C,      KC_R,      KC_L,   KC_LBRC,         /*
+        QK_GESC,   KC_QUOT,   KC_COMM,    KC_DOT,      KC_P,      KC_Y,   KC_BSLS,        KC_EQL,      KC_F,      KC_G,      KC_C,      KC_R,      KC_L,   KC_LBRC,         /*
     |----------+----------+----------+----------+----------+----------+-----------| |-----------+----------+----------+----------+----------+----------+-----------|        */
-          TAB_s,      KC_A,      KC_O,      KC_E,      KC_U,      KC_I,   KC_LEFT,      KC_RIGHT,      KC_D,      KC_H,      KC_T,      KC_N,      KC_S,    RBRC_s,         /*
+        TAB_sft,      KC_A,      KC_O,      KC_E,      KC_U,      KC_I,   KC_LPRN,       KC_RPRN,      KC_D,      KC_H,      KC_T,      KC_N,      KC_S,  RBRC_sft,         /*
     |----------+----------+----------+----------+----------+----------+-----------| |-----------+----------+----------+----------+----------+----------+-----------|        */
         KC_SLSH,   KC_SCLN,      KC_Q,      KC_J,      KC_K,      KC_X,                                KC_B,      KC_M,      KC_W,      KC_V,      KC_Z,   KC_MINS,         /*
     |----------+----------+----------+----------+----------+----------+-----------| |-----------+----------+----------+----------+----------+----------+-----------|        */
-                                                    KC_LALT,      BS_c,    KC_SPC,       ENT_mod,     RAISE,   KC_RGUI                                                      /*
+                                                    KC_LALT,   BS_ctrl,    KC_SPC,       ENT_mod,     RAISE,   KC_RGUI                                                      /*
                                                 |----------+----------+-----------| |-----------+----------+-----------|                                                    */ ),
 
   LAYOUT(L_NAG)                                                                                                                                                             /*
@@ -24,20 +23,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     |----------+----------+----------+----------+----------+----------+-----------| |-----------+----------+----------+----------+----------+----------+-----------|        */
         XXXXXXX,      NG_A,      NG_S,      NG_D,      NG_F,      NG_G,   XXXXXXX,       XXXXXXX,      NG_H,      NG_J,      NG_K,      NG_L,   NG_SCLN,   XXXXXXX,         /*
     |----------+----------+----------+----------+----------+----------+-----------| |-----------+----------+----------+----------+----------+----------+-----------|        */
-          RAISE,      NG_Z,      NG_X,      NG_C,      NG_V,      NG_B,                                NG_N,      NG_M,   NG_COMM,    NG_DOT,   NG_SLSH,     RAISE,         /*
+          RAISE,      NG_Z,      NG_X,      NG_C,      NG_V,      NG_B,                                NG_N,      NG_M,   NG_COMM,    NG_DOT,   NG_SLSH,   XXXXXXX,         /*
     |----------+----------+----------+----------+----------+----------+-----------| |-----------+----------+----------+----------+----------+----------+-----------|        */
-                                                  S(KC_SPC),   NG_SHFT,   KC_SCLN,        KC_ENT,   NG_SHFT,   KC_RGUI                                                      /*
+                                                    KC_BSPC,  NG_LSHFT,    KC_SPC,        KC_ENT,  NG_RSHFT,     RAISE                                                      /*
                                                 |----------+----------+-----------| |-----------+----------+-----------|                                                    */ ),
 
   LAYOUT(L_RAI)                                                                                                                                                             /*
     |-----------------------------------------------------------------------------| |------------------------------------------------------------------------------|        */
-      G(KC_ESC),   KC_CIRC,   KC_PERC,   KC_PLUS,   KC_LPRN,   KC_HASH,   XXXXXXX,       XXXXXXX,    KC_EQL,   KC_RPRN,   KC_ASTR,    KC_DLR,   KC_EXLM,   XXXXXXX,         /*
+        XXXXXXX,   KC_CIRC,   KC_PERC,   KC_AMPR,    KC_GRV,   KC_HASH,   XXXXXXX,       XXXXXXX,   XXXXXXX,     KC_AT,   KC_ASTR,    KC_DLR,   KC_EXLM,   XXXXXXX,         /*
     |----------+----------+----------+----------+----------+----------+-----------| |-----------+----------+----------+----------+----------+----------+-----------|        */
-        KC_BSLS,      KC_1,      KC_2,      KC_3,      KC_4,      KC_5,   XXXXXXX,       XXXXXXX,      KC_6,      KC_7,      KC_8,      KC_9,      KC_0,    KC_GRV,         /*
+        XXXXXXX,      KC_1,      KC_2,      KC_3,      KC_4,      KC_5,   XXXXXXX,       XXXXXXX,      KC_6,      KC_7,      KC_8,      KC_9,      KC_0,   XXXXXXX,         /*
     |----------+----------+----------+----------+----------+----------+-----------| |-----------+----------+----------+----------+----------+----------+-----------|        */
-        XXXXXXX,   XXXXXXX,   XXXXXXX,   KC_AMPR,   KC_LCBR,   XXXXXXX,                             XXXXXXX,   KC_RCBR,     KC_AT,   KC_PIPE,   XXXXXXX,   XXXXXXX,         /*
+        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,                             XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,         /*
     |----------+----------+----------+----------+----------+----------+-----------| |-----------+----------+----------+----------+----------+----------+-----------|        */
-                                                    XXXXXXX,   XXXXXXX,    ADJUST,       XXXXXXX,   XXXXXXX,   XXXXXXX                                                      /*
+                                                    XXXXXXX,   KC_LCTL,    ADJUST,       XXXXXXX,   XXXXXXX,   XXXXXXX                                                      /*
                                                 |----------+----------+-----------| |-----------+----------+-----------|                                                    */ ),
 
   LAYOUT(L_ADJ)                                                                                                                                                             /*

@@ -2,84 +2,60 @@
 
 #include "naginata_keydata.h"
 
-uint32_t bit_buffer1 = 0;
-bool char_emitted = false;
-uint8_t prev_key = 0;
+uint32_t naginata_keycomb     = 0;
+bool     combo_char_activated = false;
 
-void press_key(enum naginata_keycodes key) {
-  bit_buffer1 = bit_buffer1 | 1UL << (key - NG_Q);
+void nag_press_key(uint32_t key) {
+    naginata_keycomb |= 1UL << (key - NG_Q);
 }
 
-void release_key(enum naginata_keycodes key) {
-  bit_buffer1 = bit_buffer1 & ~(1UL << (key - NG_Q));
+void nag_release_key(uint32_t key) {
+    naginata_keycomb &= ~(1UL << (key - NG_Q));
 }
 
-bool lookup(uint16_t keycode, uint32_t bit_buffer2) {
-  naginata_keymap bngmap;        // PROGMEM buffer
-  naginata_keymap_long bngmapl;  // PROGMEM buffer
-  for (int i = 0; i < (int)(sizeof ngmap / sizeof bngmap); i++) {
-    memcpy_P(&bngmap, &ngmap[i], sizeof(bngmap));
-    if (bit_buffer2 == bngmap.key &&
-        ((1UL << (keycode - NG_Q)) & bngmap.key) != 0) {
-      if (!char_emitted) {
-        if (bit_buffer1 == bit_buffer2) {
-          char_emitted = true;
+const char* search(uint32_t key_comb) {
+    for (int i = 0; i < NAGINATA_KEY_NUMBER; i++) {
+        if (key_comb == ngmap[i].key) {
+            return ngmap[i].kana;
         }
-        send_string(bngmap.kana);
-      }
-      return true;
     }
-  }
-  for (int i = 0; i < (int)(sizeof ngmapl_mac / sizeof bngmapl); i++) {
-    memcpy_P(&bngmapl, &ngmapl_mac[i], sizeof(bngmapl));
-    if (bit_buffer2 == bngmapl.key &&
-        ((1UL << (keycode - NG_Q)) & bngmapl.key) > 0) {
-      if (!char_emitted) {
-        if (bit_buffer1 == bit_buffer2) {
-          char_emitted = true;
-        }
-        send_string(bngmapl.kana);
-      }
-      return true;
-    }
-  }
-  return false;
+    return NULL;
 }
 
-bool process_naginata(uint16_t keycode, keyrecord_t *record) {
-  if (record->event.pressed) {
-    switch (keycode) {
-      case NG_Q ... NG_SHFT:
-        char_emitted = false;
-        press_key(keycode);
-        prev_key = keycode;
-        return false;
-        break;
-      default:
-        break;
-    }
-  } else {  // key release
-    uint32_t bit_buffer2 = bit_buffer1;
-    switch (keycode) {
-      case NG_Q ... NG_SHFT:
-        while (true) {
-          if (lookup(keycode, bit_buffer2)) {
-            break;
-          }
-          if (bit_buffer1 == bit_buffer2) {
-            bit_buffer2 = bit_buffer2 & ~(1UL << (prev_key - NG_Q));
-            if (bit_buffer1 == bit_buffer2) {
-              break;
+bool process_naginata(uint16_t keycode, keyrecord_t* record) {
+    if (record->event.pressed) {
+        switch (keycode) {
+            case NG_Q ... NG_RSHFT:
+                nag_press_key(keycode);
+                combo_char_activated = false;
+                break;
+            default:
+                break;
+        }
+    } else {
+        switch (keycode) {
+            case NG_Q ... NG_RSHFT: {
+                if (combo_char_activated) {
+                    nag_release_key(keycode);
+                    break;
+                }
+                const char* kana = search(naginata_keycomb);
+                if (kana != NULL) {
+                    combo_char_activated = true;
+                    send_string(kana);
+                } else {
+                    kana = search(1UL << (keycode - NG_Q));
+                    if (kana != NULL) {
+                        send_string(kana);
+                    }
+                }
+                nag_release_key(keycode);
+                return true;
+                break;
             }
-            continue;
-          }
-          break;
+            default:
+                break;
         }
-        release_key(keycode);
-        return true;
-      default:
-        break;
     }
-  }
-  return true;
+    return true;
 }

@@ -1,7 +1,9 @@
-#define BS_c CTL_T(KC_BSPC)
-#define TAB_s SFT_T(KC_TAB)
-#define RBRC_s SFT_T(KC_RBRC)
+#define BS_alt ALT_T(KC_BSPC)
+#define BS_ctrl CTL_T(KC_BSPC)
+#define TAB_sft SFT_T(KC_TAB)
+#define RBRC_sft SFT_T(KC_RBRC)
 #define ENT_mod LT(L_MOD, KC_ENT)
+#define BSPC_rai LT(L_RAI, KC_BSPC)
 
 #define RAISE MO(L_RAI)
 #define ADJUST MO(L_ADJ)
@@ -21,6 +23,7 @@
 #define G_PLUS G(KC_PLUS)
 #define G_0 G(KC_0)
 #define G_MINS G(KC_MINS)
+#define G_S_TAB G(S(KC_TAB))
 
 #define MEH_QUOT MEH(KC_QUOT)
 #define MEH_COMM MEH(KC_COMM)
