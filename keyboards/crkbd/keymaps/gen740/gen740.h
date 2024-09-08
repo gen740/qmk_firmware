@@ -2,9 +2,9 @@
 
 #include QMK_KEYBOARD_H
 
-enum my_keycodes {
-  NAG_ESC = SAFE_RANGE + 32,
-};
+// enum my_keycodes {
+//   NAG_ESC = SAFE_RANGE + 32,
+// };
 
 enum layer_number {
   L_DVO,
