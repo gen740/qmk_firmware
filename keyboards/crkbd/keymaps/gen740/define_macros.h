@@ -20,7 +20,7 @@
 #define LAGDOWN LAG(KC_DOWN)
 #define LAGUP LAG(KC_UP)
 
-#define G_PLUS G(KC_PLUS)
+#define G_PLUS G(KC_EQL)
 #define G_0 G(KC_0)
 #define G_MINS G(KC_MINS)
 #define G_S_TAB G(S(KC_TAB))

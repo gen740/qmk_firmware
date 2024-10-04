@@ -47,6 +47,6 @@ typedef struct {
     const char* kana;
 } naginata_keymap;
 
-enum { NAGINATA_KEY_NUMBER = 200 };
+enum { NAGINATA_KEY_NUMBER = 204 };
 
 extern const PROGMEM naginata_keymap ngmap[NAGINATA_KEY_NUMBER];

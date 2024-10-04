@@ -15,9 +15,10 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEY_NUMBER] = {
     {.key = B_S, .kana = "ke"},              // け
     {.key = B_V, .kana = "ko"},              // こ
     {.key = B_U, .kana = "sa"},              // さ
+    {.key = B_LSHFT | B_U, .kana = "sa"},    // さ
     {.key = B_R, .kana = "si"},              // し
     {.key = B_O, .kana = "su"},              // す
-    {.key = B_T, .kana = "se"},              // せ
+    {.key = B_RSHFT | B_A, .kana = "se"},    // せ
     {.key = B_B, .kana = "so"},              // そ
     {.key = B_N, .kana = "ta"},              // た
     {.key = B_RSHFT | B_G, .kana = "ti"},    // ち
@@ -50,7 +51,7 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEY_NUMBER] = {
     {.key = B_SLSH, .kana = "re"},           // れ
     {.key = B_LSHFT | B_SLSH, .kana = "re"}, // れ
     {.key = B_A, .kana = "ro"},              // ろ
-    {.key = B_Y, .kana = "wa"},              // わ
+    {.key = B_LSHFT | B_DOT, .kana = "wa"},  // わ
     {.key = B_RSHFT | B_C, .kana = "wo"},    // を
     {.key = B_COMM, .kana = "nn"},           // ん
     {.key = B_SCLN, .kana = "-"},            // ー
@@ -64,7 +65,7 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEY_NUMBER] = {
     {.key = B_F | B_U, .kana = "za"},    // ざ
     {.key = B_J | B_R, .kana = "zi"},    // じ
     {.key = B_F | B_O, .kana = "zu"},    // ず
-    {.key = B_J | B_T, .kana = "ze"},    // ぜ
+    {.key = B_J | B_A, .kana = "ze"},    // ぜ
     {.key = B_J | B_B, .kana = "zo"},    // ぞ
     {.key = B_F | B_N, .kana = "da"},    // だ
     {.key = B_J | B_G, .kana = "di"},    // ぢ
@@ -175,14 +176,16 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEY_NUMBER] = {
     {.key = B_V | B_L | B_N, .kana = "tso"},    // つぉ
 
     // 追加
-    {.key = B_LSHFT, .kana = SS_TAP(X_BSPC)}, //
+    {.key = B_T, .kana = SS_TAP(X_LEFT)},  //
+    {.key = B_Y, .kana = SS_TAP(X_RIGHT)}, //
+
     // {.key = B_Q,         .kana = ""},                //
-    {.key = B_V | B_RSHFT, .kana = ","}, //
-    {.key = B_M | B_LSHFT, .kana = "."}, //
+    {.key = B_LSHFT, .kana = SS_LSFT(SS_TAP(X_SPACE))}, //
+    {.key = B_RSHFT, .kana = SS_TAP(X_SPACE)},          //
+    {.key = B_V | B_RSHFT, .kana = ","},                //
+    {.key = B_M | B_LSHFT, .kana = "."},                //
 
     // enter
-    {.key = B_V | B_M, .kana = SS_TAP(X_ENTER)}, //
-    /*{.key = B_LSHFT | B_V | B_M, .kana = SS_TAP(X_ENTER)}, // enter+シフト(連続シフト)*/
     {.key = B_J | B_K | B_T, .kana = "/"}, // ・
 
     // その他
