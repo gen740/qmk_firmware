@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓ ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓  */
       XXXXXXX , XXXXXXX , KC_MPRV , KC_MPLY , KC_MNXT , DF_GAME , XXXXXXX ,   XXXXXXX , XXXXXXX , XXXXXXX ,  KC_UP  , XXXXXXX , XXXXXXX , G_PLUS  ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫ ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
-      G(KC_AT) , KK_VOLD , KC_VOLD , KC_MUTE , KC_VOLU , KK_VOLU , XXXXXXX ,   XXXXXXX , XXXXXXX , KC_LEFT , KC_DOWN , KC_RGHT , XXXXXXX ,   G_0   ,  /*
+     G(KC_AT) , KK_VOLD , KC_VOLD , KC_MUTE , KC_VOLU , KK_VOLU , XXXXXXX ,   XXXXXXX , XXXXXXX , KC_LEFT , KC_DOWN , KC_RGHT , XXXXXXX ,   G_0   ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┛ ┗━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
       XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX ,                       XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , G_MINS  ,  /*
     ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┓ ┏━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛  */
@@ -52,9 +52,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   LAYOUT(L_NAG)                                                                                                                                      /*
     ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓ ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓  */
-      XXXXXXX ,  NG_Q   ,  NG_W   ,  NG_E   ,  NG_R   ,  NG_T   , KC_LEFT ,  KC_RIGHT ,  NG_Y   ,  NG_U   ,  NG_I   ,  NG_O   ,  NG_P   , XXXXXXX ,  /*
+      KC_ESC  ,  NG_Q   ,  NG_W   ,  NG_E   ,  NG_R   ,  NG_T   , KC_LEFT ,  KC_RIGHT ,  NG_Y   ,  NG_U   ,  NG_I   ,  NG_O   ,  NG_P   , XXXXXXX ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫ ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
-      KC_LSFT ,  NG_A   ,  NG_S   ,  NG_D   ,  NG_F   ,  NG_G   , XXXXXXX ,   XXXXXXX ,  NG_H   ,  NG_J   ,  NG_K   ,  NG_L   , NG_SCLN , KC_RSFT ,  /*
+      KC_SCLN ,  NG_A   ,  NG_S   ,  NG_D   ,  NG_F   ,  NG_G   ,  KC_UP  ,   KC_DOWN ,  NG_H   ,  NG_J   ,  NG_K   ,  NG_L   , NG_SCLN , KC_SCLN ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┛ ┗━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
       XXXXXXX ,  NG_Z   ,  NG_X   ,  NG_C   ,  NG_V   ,  NG_B   ,                        NG_N   ,  NG_M   , NG_COMM , NG_DOT  , NG_SLSH , XXXXXXX ,  /*
     ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┓ ┏━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛  */

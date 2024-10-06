@@ -176,11 +176,14 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEY_NUMBER] = {
     {.key = B_V | B_L | B_N, .kana = "tso"},    // つぉ
 
     // 追加
-    {.key = B_T, .kana = SS_TAP(X_LEFT)},  //
-    {.key = B_Y, .kana = SS_TAP(X_RIGHT)}, //
+    {.key = B_T, .kana = ";"},  //
+    {.key = B_Y, .kana = ";"}, //
+    /*{.key = B_S | B_D, .kana = ";"},  //*/
+    /*{.key = B_K | B_L, .kana = ";"}, //*/
 
     // {.key = B_Q,         .kana = ""},                //
     {.key = B_LSHFT, .kana = SS_LSFT(SS_TAP(X_SPACE))}, //
+                                                        //
     {.key = B_RSHFT, .kana = SS_TAP(X_SPACE)},          //
     {.key = B_V | B_RSHFT, .kana = ","},                //
     {.key = B_M | B_LSHFT, .kana = "."},                //
