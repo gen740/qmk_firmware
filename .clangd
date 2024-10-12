@@ -1,4 +1,5 @@
 CompileFlags:
-  Add: [-Wno-unknown-attributes, -Wno-maybe-uninitialized, -Wno-unknown-warning-option]
-  Remove: [-W*, -mcall-prologues]
+  Add: [-Wno-unknown-attributes, -Wno-maybe-uninitialized, -Wno-unknown-warning-option, -D__always_inline=inline]
+  Remove: [-W*, -mcall-prologues, -mcpu=cortex-m0plus]
   Compiler: clang
+

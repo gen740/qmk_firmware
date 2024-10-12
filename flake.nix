@@ -12,7 +12,10 @@
       in
       {
         devShells.default = pkgs.mkShellNoCC {
-          packages = [ pkgs.qmk ];
+          packages = [
+              pkgs.qmk
+              pkgs.llvmPackages_18.clang-tools
+          ];
           shellHook = ''
             unset NIX_CFLAGS_COMPILE
           '';

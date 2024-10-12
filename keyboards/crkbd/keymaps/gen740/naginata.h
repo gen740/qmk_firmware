@@ -38,6 +38,7 @@ typedef enum naginata_keycodes {
 
     NG_LSHFT,
     NG_RSHFT,
+    NG_SAFE_RANGE,
 } NGKEYS;
 
 bool process_naginata(uint16_t, keyrecord_t *);

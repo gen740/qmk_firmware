@@ -3,6 +3,8 @@
 #define TAB_sft SFT_T(KC_TAB)
 #define RBRC_sft SFT_T(KC_RBRC)
 #define ENT_mod LT(L_MOD, KC_ENT)
+#define SPC_sft SFT_T(KC_SPC)
+#define ENT_sft SFT_T(KC_ENT)
 #define BSPC_rai LT(L_RAI, KC_BSPC)
 
 #define RAISE MO(L_RAI)
