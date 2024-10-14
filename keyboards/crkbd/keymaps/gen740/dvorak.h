@@ -44,4 +44,4 @@ typedef enum dvorak_keycodes {
     DV_SAFE_RANGE,
 } DVOKEYS;
 
-bool process_dvorak(uint16_t, keyrecord_t *);
+bool process_dvorak(uint16_t, keyrecord_t*);

@@ -110,4 +110,11 @@ a-: alt
 
 
 ##***## Extra keys
-
+B_I B_U       = SS_TAP(X_ESC)
+B_U B_I       = SS_TAP(X_ESC)
+B_W B_J       = SS_TAP(X_TAB)
+B_J B_W       = SS_TAP(X_TAB)
+B_D B_H       = "nag"
+B_H B_D       = "nag"
+B_LS2 B_E B_N = SS_LCTL("^")
+B_LS2 B_N B_E = SS_LCTL("^")

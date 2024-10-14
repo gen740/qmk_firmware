@@ -87,12 +87,16 @@ def generate_keymap():
                 continue
             ret.append(
                 (
-                    (
-                        f"{{.key = {" | ".join([BASE_KEYS[i]] + persistent_keys)}, .val = {parse_value(v)}}},\n"
-                    ),
-                    set([BASE_KEYS[i]] + persistent_keys),
+                    persistent_keys + [BASE_KEYS[i]],
+                    parse_value(v),
                 )
             )
+    extra_map = False
+    for i in data:
+        if extra_map:
+            ret.append((i.split("=")[0].strip().split(" "), i.split("=")[1].strip()))
+        if i.startswith("##***##"):
+            extra_map = True
     return ret
 
 
@@ -297,26 +301,44 @@ if __name__ == "__main__":
 
     generated_keymap = generate_keymap()
 
-    # check if there is duplicate keymap
-    keymap_combos = list(map(lambda x: x[1], generated_keymap))
-    invalid = False
-    for i, v in enumerate(keymap_combos):
-        if v in keymap_combos[i + 1 :]:
-            print(f"Duplicate keymap found: {v}")
-            print(f">>> {generated_keymap[i][0]}")
-            invalid = True
+    declarelations = set()
 
-    if invalid:
-        sys.exit(1)
+    for i in list(map(lambda x: x[0], generated_keymap)):
+        # if len(i) == 1:
+        declarelations.add(tuple(i))
+        # else:
+        #     for j in itertools.permutations(i[:-1], len(i[:-1])):
+        #         declarelations.add(tuple(j) + (i[-1],))
+        print(i)
+        # declarelations.add(i[1])
+    for i in declarelations:
+        print(i)
+    # print(declarelations)
 
-    with open("./dvorak_keydata_generated.h", "w") as f:
-        f.write(config["dvorak"]["header"].replace("{-}", str(len(generated_keymap))))
+    # declarelations.add
 
-    with open("./dvorak_keydata_generated.c", "w") as f:
-        f.write(
-            config["dvorak"]["source_prefix"]
-            + "".join(map(lambda x: x[0], generated_keymap))
-            + config["dvorak"]["source_suffix"]
-        )
+    # print(list(map(lambda x: x[0], generated_keymap)))
+
+    # # check if there is duplicate keymap
+    # keymap_combos = list(map(lambda x: x[1], generated_keymap))
+    # invalid = False
+    # for i, v in enumerate(keymap_combos):
+    #     if v in keymap_combos[i + 1 :]:
+    #         print(f"Duplicate keymap found: {v}")
+    #         print(f">>> {generated_keymap[i][0]}")
+    #         invalid = True
+    #
+    # if invalid:
+    #     sys.exit(1)
+    #
+    # with open("./dvorak_keydata_generated.h", "w") as f:
+    #     f.write(config["dvorak"]["header"].replace("{-}", str(len(generated_keymap))))
+    #
+    # with open("./dvorak_keydata_generated.c", "w") as f:
+    #     f.write(
+    #         config["dvorak"]["source_prefix"]
+    #         + "".join(map(lambda x: x[0], generated_keymap))
+    #         + config["dvorak"]["source_suffix"]
+    #     )
 
     # print(generate_keymap())
