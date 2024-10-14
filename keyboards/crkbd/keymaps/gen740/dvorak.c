@@ -1,24 +1,30 @@
 #include "dvorak.h"
 #include "dvorak_keydata.h"
+#include "dvorak_keydata_generated.h"
 
-uint64_t dvorak_keycomb          = 0;
+uint32_t dvorak_keycomb          = 0;
 bool     dv_combo_char_activated = false;
 
-void dv_press_key(uint64_t key) {
+void dv_press_key(uint32_t key) {
     dvorak_keycomb |= 1UL << (key - DV_A);
 }
 
-void dv_release_key(uint64_t key) {
+void dv_release_key(uint32_t key) {
     dvorak_keycomb &= ~(1UL << (key - DV_A));
 }
 
-const char* dvorak_search(uint64_t key_comb) {
+const char* dvorak_search(uint32_t key_comb) {
     for (int i = 0; i < DVORAK_KEY_NUMBER; i++) {
-        if (dvmap[i].key == 0xffffffff) { // End of dvmap
+        if (dvmap[i].key == 0xffffffffffffffff) { // End of dvmap
             break;
         }
         if (key_comb == dvmap[i].key) {
             return dvmap[i].val;
+        }
+    }
+    for (int i = 0; i < DVORAK_KEY_NUMBER_GENERATED; i++) {
+        if (key_comb == dvmap_generated[i].key) {
+            return dvmap_generated[i].val;
         }
     }
     return NULL;
@@ -27,7 +33,7 @@ const char* dvorak_search(uint64_t key_comb) {
 bool process_dvorak(uint16_t keycode, keyrecord_t* record) {
     if (record->event.pressed) {
         switch (keycode) {
-            case DV_A ... DV_RSFT:
+            case DV_A ... DV_RSFT2:
                 dv_press_key(keycode);
                 dv_combo_char_activated = false;
                 break;
@@ -36,7 +42,7 @@ bool process_dvorak(uint16_t keycode, keyrecord_t* record) {
         }
     } else {
         switch (keycode) {
-            case DV_A ... DV_RSFT: {
+            case DV_A ... DV_RSFT2: {
                 if (dv_combo_char_activated) {
                     dv_release_key(keycode);
                     break;

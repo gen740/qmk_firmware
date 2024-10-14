@@ -14,6 +14,7 @@ SRC += naginata.c
 SRC += naginata_keydata.c
 SRC += dvorak.c
 SRC += dvorak_keydata.c
+SRC += dvorak_keydata_generated.c
 INTROSPECTION_KEYMAP_C += combo.c
 
 EXTRAFLAGS += -flto=auto

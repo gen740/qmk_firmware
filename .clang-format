@@ -4,6 +4,10 @@ AlignAfterOpenBracket: Align
 AlignConsecutiveAssignments: 'true'
 AlignConsecutiveDeclarations: 'true'
 AlignOperands: 'true'
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: false
 AllowAllParametersOfDeclarationOnNextLine: 'false'
 AllowShortCaseLabelsOnASingleLine: 'false'
 AllowShortFunctionsOnASingleLine: Empty

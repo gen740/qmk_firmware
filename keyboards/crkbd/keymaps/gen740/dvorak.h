@@ -35,8 +35,12 @@ typedef enum dvorak_keycodes {
     DV_COMM,
     DV_DOT,
     DV_SCLN,
-    DV_LSFT,
-    DV_RSFT,
+    DV_LSFT1,
+    DV_RSFT1,
+    DV_LSFT2,
+    DV_RSFT2,
+    DV_LSFT3,
+    DV_RSFT3,
     DV_SAFE_RANGE,
 } DVOKEYS;
 

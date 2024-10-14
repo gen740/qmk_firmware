@@ -36,8 +36,8 @@
 #define B_DOT (1UL << (NG_DOT - NG_Q))   //
 #define B_SLSH (1UL << (NG_SLSH - NG_Q)) //
 
-#define B_LSHFT (1UL << (NG_LSHFT - NG_Q)) //
-#define B_RSHFT (1UL << (NG_RSHFT - NG_Q)) //
+#define B_LSFT (1UL << (NG_LSHFT - NG_Q)) //
+#define B_RSFT (1UL << (NG_RSHFT - NG_Q)) //
 
 
 const PROGMEM naginata_keymap ngmap[NAGINATA_KEY_NUMBER] = {
@@ -45,52 +45,52 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEY_NUMBER] = {
     {.key = B_J, .kana = "a"},               // あ
     {.key = B_K, .kana = "i"},               // い
     {.key = B_L, .kana = "u"},               // う
-    {.key = B_LSHFT | B_O, .kana = "e"},     // え
-    {.key = B_LSHFT | B_N, .kana = "o"},     // お
+    {.key = B_LSFT | B_O, .kana = "e"},     // え
+    {.key = B_LSFT | B_N, .kana = "o"},     // お
     {.key = B_F, .kana = "ka"},              // か
     {.key = B_W, .kana = "ki"},              // き
     {.key = B_H, .kana = "ku"},              // く
     {.key = B_S, .kana = "ke"},              // け
     {.key = B_V, .kana = "ko"},              // こ
     {.key = B_U, .kana = "sa"},              // さ
-    {.key = B_LSHFT | B_U, .kana = "sa"},    // さ
+    {.key = B_LSFT | B_U, .kana = "sa"},    // さ
     {.key = B_R, .kana = "si"},              // し
     {.key = B_O, .kana = "su"},              // す
-    {.key = B_RSHFT | B_A, .kana = "se"},    // せ
+    {.key = B_RSFT | B_A, .kana = "se"},    // せ
     {.key = B_B, .kana = "so"},              // そ
     {.key = B_N, .kana = "ta"},              // た
-    {.key = B_RSHFT | B_G, .kana = "ti"},    // ち
-    {.key = B_LSHFT | B_L, .kana = "tu"},    // つ
+    {.key = B_RSFT | B_G, .kana = "ti"},    // ち
+    {.key = B_LSFT | B_L, .kana = "tu"},    // つ
     {.key = B_E, .kana = "te"},              // て
     {.key = B_D, .kana = "to"},              // と
     {.key = B_M, .kana = "na"},              // な
-    {.key = B_RSHFT | B_D, .kana = "ni"},    // に
-    {.key = B_RSHFT | B_W, .kana = "nu"},    // ぬ
-    {.key = B_RSHFT | B_R, .kana = "ne"},    // ね
-    {.key = B_LSHFT | B_J, .kana = "no"},    // の
+    {.key = B_RSFT | B_D, .kana = "ni"},    // に
+    {.key = B_RSFT | B_W, .kana = "nu"},    // ぬ
+    {.key = B_RSFT | B_R, .kana = "ne"},    // ね
+    {.key = B_LSFT | B_J, .kana = "no"},    // の
     {.key = B_C, .kana = "ha"},              // は
     {.key = B_X, .kana = "hi"},              // ひ
-    {.key = B_RSHFT | B_X, .kana = "hi"},    // ひ
-    {.key = B_LSHFT | B_SCLN, .kana = "fu"}, // ふ
+    {.key = B_RSFT | B_X, .kana = "hi"},    // ひ
+    {.key = B_LSFT | B_SCLN, .kana = "fu"}, // ふ
     {.key = B_P, .kana = "he"},              // へ
     {.key = B_Z, .kana = "ho"},              // ほ
-    {.key = B_RSHFT | B_Z, .kana = "ho"},    // ほ
-    {.key = B_RSHFT | B_F, .kana = "ma"},    // ま
-    {.key = B_RSHFT | B_B, .kana = "mi"},    // み
-    {.key = B_LSHFT | B_COMM, .kana = "mu"}, // む
-    {.key = B_RSHFT | B_S, .kana = "me"},    // め
-    {.key = B_LSHFT | B_K, .kana = "mo"},    // も
-    {.key = B_LSHFT | B_H, .kana = "ya"},    // や
-    {.key = B_LSHFT | B_P, .kana = "yu"},    // ゆ
-    {.key = B_LSHFT | B_I, .kana = "yo"},    // よ
+    {.key = B_RSFT | B_Z, .kana = "ho"},    // ほ
+    {.key = B_RSFT | B_F, .kana = "ma"},    // ま
+    {.key = B_RSFT | B_B, .kana = "mi"},    // み
+    {.key = B_LSFT | B_COMM, .kana = "mu"}, // む
+    {.key = B_RSFT | B_S, .kana = "me"},    // め
+    {.key = B_LSFT | B_K, .kana = "mo"},    // も
+    {.key = B_LSFT | B_H, .kana = "ya"},    // や
+    {.key = B_LSFT | B_P, .kana = "yu"},    // ゆ
+    {.key = B_LSFT | B_I, .kana = "yo"},    // よ
     {.key = B_DOT, .kana = "ra"},            // ら
-    {.key = B_RSHFT | B_E, .kana = "ri"},    // り
+    {.key = B_RSFT | B_E, .kana = "ri"},    // り
     {.key = B_I, .kana = "ru"},              // る
     {.key = B_SLSH, .kana = "re"},           // れ
-    {.key = B_LSHFT | B_SLSH, .kana = "re"}, // れ
+    {.key = B_LSFT | B_SLSH, .kana = "re"}, // れ
     {.key = B_A, .kana = "ro"},              // ろ
-    {.key = B_LSHFT | B_DOT, .kana = "wa"},  // わ
-    {.key = B_RSHFT | B_C, .kana = "wo"},    // を
+    {.key = B_LSFT | B_DOT, .kana = "wa"},  // わ
+    {.key = B_RSFT | B_C, .kana = "wo"},    // を
     {.key = B_COMM, .kana = "nn"},           // ん
     {.key = B_SCLN, .kana = "-"},            // ー
 
@@ -220,11 +220,11 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEY_NUMBER] = {
     /*{.key = B_K | B_L, .kana = ";"}, //*/
 
     // {.key = B_Q,         .kana = ""},                //
-    {.key = B_LSHFT, .kana = SS_LSFT(SS_TAP(X_SPACE))}, //
-                                                        //
-    {.key = B_RSHFT, .kana = SS_TAP(X_SPACE)},          //
-    {.key = B_V | B_RSHFT, .kana = ","},                //
-    {.key = B_M | B_LSHFT, .kana = "."},                //
+    {.key = B_LSFT, .kana = SS_TAP(X_SPACE)}, //
+    {.key = B_RSFT, .kana = SS_TAP(X_ENTER)},          //
+    {.key = B_RSFT | B_LSFT, .kana = SS_LSFT(SS_TAP(X_SPACE))},          //
+    {.key = B_V | B_RSFT, .kana = ","},                //
+    {.key = B_M | B_LSFT, .kana = "."},                //
 
     // enter
     {.key = B_J | B_K | B_T, .kana = "/"}, // ・
@@ -310,5 +310,5 @@ const PROGMEM naginata_keymap ngmap[NAGINATA_KEY_NUMBER] = {
 #undef B_DOT
 #undef B_SLSH
 
-#undef B_LSHFT
-#undef B_RSHFT
+#undef B_LSFT
+#undef B_RSFT
