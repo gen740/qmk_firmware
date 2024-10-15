@@ -6,9 +6,9 @@
 #define TAPPING_TERM 180
 
 // Firmware のサイズ削減用のオプション
-#define LAYER_STATE_16BIT
+#define LAYER_STATE_8BIT
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
 
 #define GRAVE_ESC_GUI_OVERRIDE
-#define DEBOUNCE 15
+#define DEBOUNCE 14

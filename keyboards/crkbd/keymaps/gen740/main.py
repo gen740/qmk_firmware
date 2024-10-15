@@ -114,6 +114,8 @@ if __name__ == "__main__":
         ),
     )
 
+    print(f"The number of declarelations: {len(declarelations)}")
+
     with open("./generate_config.toml", "rb") as f:
         config = tomllib.load(f)
 

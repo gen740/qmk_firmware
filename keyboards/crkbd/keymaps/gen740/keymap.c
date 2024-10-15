@@ -22,13 +22,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓ ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓  */
       XXXXXXX , DV_QUOT , DV_COMM , DV_DOT  ,  DV_P   ,  DV_Y   , KC_LEFT ,  KC_RIGHT ,  DV_F   ,  DV_G   ,  DV_C   ,  DV_R   ,  DV_L   , XXXXXXX ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫ ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
-      XXXXXXX ,  DV_A   ,  DV_O   ,  DV_E   ,  DV_U   ,  DV_I   ,  KC_UP  ,   KC_DOWN ,  DV_D   ,  DV_H   ,  DV_T   ,  DV_N   ,  DV_S   , XXXXXXX ,  /*
+      MO_MOD  ,  DV_A   ,  DV_O   ,  DV_E   ,  DV_U   ,  DV_I   ,  KC_UP  ,   KC_DOWN ,  DV_D   ,  DV_H   ,  DV_T   ,  DV_N   ,  DV_S   , XXXXXXX ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┛ ┗━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
-      QK_BOOT , DV_SCLN ,  DV_Q   ,  DV_J   ,  DV_K   ,  DV_X   ,                        DV_B   ,  DV_M   ,  DV_W   ,  DV_V   ,  DV_Z   , QK_BOOT ,  /*
+      XXXXXXX , DV_SCLN ,  DV_Q   ,  DV_J   ,  DV_K   ,  DV_X   ,                        DV_B   ,  DV_M   ,  DV_W   ,  DV_V   ,  DV_Z   , XXXXXXX ,  /*
     ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┓ ┏━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛  */
                                               BS_alt  ,DV_LSFT2 ,DV_LSFT3 ,  DV_RSFT3 ,DV_RSFT2 , KC_RGUI                                            /*
                                             ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛ ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛                                          */ ),
 
+  LAYOUT(L_MOD)                                                                                                                                      /*
+    ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓ ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓  */
+      XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX ,   XXXXXXX , XXXXXXX , XXXXXXX ,  KC_UP  , XXXXXXX , XXXXXXX , XXXXXXX ,  /*
+    ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫ ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
+      XXXXXXX , KC_LSFT , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX ,   XXXXXXX , XXXXXXX , KC_LEFT , KC_DOWN ,KC_RIGHT , XXXXXXX , XXXXXXX ,  /*
+    ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┛ ┗━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
+      RGB_TOG , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX ,                       XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , QK_BOOT ,  /*
+    ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┓ ┏━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛  */
+                                              XXXXXXX , XXXXXXX , XXXXXXX ,   XXXXXXX , XXXXXXX , XXXXXXX                                            /*
+                                            ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛ ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛                                          */ ),
 
 };
 

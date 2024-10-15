@@ -7,8 +7,7 @@
 #define ENT_sft SFT_T(KC_ENT)
 #define BSPC_rai LT(L_RAI, KC_BSPC)
 
-#define RAISE MO(L_RAI)
-#define ADJUST MO(L_ADJ)
+#define MO_MOD MO(L_MOD)
 #define DF_GAME DF(L_GAME)
 #define MO_GAME2 DF(L_GAME2)
 #define DF_DVO DF(L_DVO)

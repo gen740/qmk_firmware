@@ -13,4 +13,5 @@ typedef enum my_keycodes {
 enum layer_number {
   L_DVO,
   L_NAG,
+  L_MOD,
 };
