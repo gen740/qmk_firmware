@@ -5,7 +5,6 @@ from typing import Union
 import generate_keydata
 import sys
 import tomllib
-import itertools
 
 
 class Node:
@@ -39,16 +38,16 @@ value      : {self.value}
 
 
 def create_declarelations_and_definitions(
-    node: Node, declarelations: set[str], definitions: set[str]
+    title: str, node: Node, declarelations: set[str], definitions: set[str]
 ):
-    if node.struct_name != "dvnode_root":
-        declarelations.add(f"const dv_node_t PROGMEM {node.struct_name};")
+    if node.struct_name != f"{title}_node_root":
+        declarelations.add(f"const {title}_node_t PROGMEM {node.struct_name};")
 
     definitions.add(f"""{
-f"""const dv_node_t* {node.struct_name}_children[{len(node.children)}] = {{
+f"""const {title}_node_t* {node.struct_name}_children[{len(node.children)}] = {{
 {"\n".join([f"\t&{i.struct_name}," for i in node.children])}
 }};""" if len(node.children) != 0 else "" }
-const PROGMEM dv_node_t {node.struct_name} = {{
+const PROGMEM {title}_node_t {node.struct_name} = {{
        .parent       = {f"&{node.parent.struct_name}" if node.parent else "NULL"},
        .children     = {f"{node.struct_name}_children" if len(node.children) != 0 else "NULL"},
        .children_num = {len(node.children)},
@@ -64,45 +63,36 @@ def visit_all(node: Node, fun: Callable[[Node], None]):
         visit_all(i, fun)
 
 
-if __name__ == "__main__":
-    keydata = generate_keydata.generate_keymap()
+def generate_tree(title: str, file_name: str):
+    keydata = generate_keydata.generate_keymap(file_name)
 
-    all_keycomb = set()
-    for i in list(map(lambda x: x[0], keydata)):
-        if len(i) == 1:
-            all_keycomb.add(tuple(i))
-        else:
-            for j in itertools.permutations(i[:-1], len(i[:-1])):
-                all_keycomb.add(tuple(j) + (i[-1],))
+    root_node = Node(struct_name=f"{title}_node_root")
 
-    root_node = Node(struct_name="dvnode_root")
-
-    for i in all_keycomb:
-        node = root_node
-
+    for i in keydata:
+        current_node = root_node
         key = []
 
         for j in i:
             key.append(j)
-            if next_node := node.search_next(j):
+            if next_node := current_node.search_next(j):
                 pass
             else:
                 next_node = Node(
                     key=j,
-                    struct_name="dvnode_" + "_".join(key),
-                    parent=node,
+                    struct_name=f"{title}_node_" + "_".join(key),
+                    parent=current_node,
                 )
-                node.children.append(next_node)
-            node = next_node
+                current_node.children.append(next_node)
+            current_node = next_node
 
     for i in keydata:
-        node = root_node
-        for j in i[0]:
-            node = node.search_next(j)
-            if node is None:
-                print(f"error in {i}")
+        current_node = root_node
+        for j in i:
+            current_node = current_node.search_next(j)
+            if current_node is None:
+                print("Error: Node not found")
                 sys.exit(1)
-        node.value = i[1]
+        current_node.value = i
 
     declarelations: set[str] = set()
     definitions: set[str] = set()
@@ -110,22 +100,32 @@ if __name__ == "__main__":
     visit_all(
         root_node,
         lambda node: create_declarelations_and_definitions(
-            node, declarelations, definitions
+            title, node, declarelations, definitions
         ),
     )
 
-    print(f"The number of declarelations: {len(declarelations)}")
+    ### Load config and generate header and source files
+
+    return declarelations, definitions
+
+
+def generate_code(title: str, file_name: str):
+    declarelations, definitions = generate_tree(title, file_name)
 
     with open("./generate_config.toml", "rb") as f:
         config = tomllib.load(f)
 
-    with open("./dvorak_keydata.h", "w") as f:
-        f.write(config["dvorak"]["header"])
+    header = config[title]["header"]
+    source = (
+        config[title]["source_prefix"]
+        + "\n".join(declarelations)
+        + "\n\n"
+        + "\n".join(definitions)
+    )
 
-    with open("./dvorak_keydata.c", "w") as f:
-        f.write(
-            config["dvorak"]["source_prefix"]
-            + "\n".join(declarelations)
-            + "\n\n"
-            + "\n".join(definitions)
-        )
+    return header, source
+
+
+if __name__ == "__main__":
+    # print(generate_tree("dvorak", "./dvorak.txt"))
+    print(generate_code("dvorak", "./dvorak.txt")[0])
