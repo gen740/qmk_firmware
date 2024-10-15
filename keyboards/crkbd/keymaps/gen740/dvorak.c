@@ -87,7 +87,7 @@ bool process_dvorak(uint16_t keycode, keyrecord_t* record) {
                 }
                 dv_rollback(key);
             }
-            break;
+            return false;
         }
         default:
             break;

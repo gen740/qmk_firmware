@@ -1,4 +1,4 @@
-#
+### Configurations
 space: disable
 <s>: space
 <r>: return
@@ -7,7 +7,6 @@ c-: ctrl
 s-: shift
 g-: gui
 a-: alt
-
 
 ###**### key data
 ┏━━━━━━━━┳━━━━━━━━┳━━━━━━━━┳━━━━━━━━┳━━━━━━━━┓               ┏━━━━━━━━┳━━━━━━━━┳━━━━━━━━┳━━━━━━━━┳━━━━━━━━┓
@@ -110,8 +109,10 @@ a-: alt
 
 
 ##***## Extra keys
-B_I B_U       = SS_TAP(X_ESC)
-B_U B_I       = SS_TAP(X_ESC)
+B_COMM B_DOT  = SS_TAP(X_ESC)
+B_DOT B_COMM  = SS_TAP(X_ESC)
+B_U B_I       = ""
+B_I B_U       = ""
 B_E B_T       = SS_TAP(X_TAB)
 B_T B_E       = SS_TAP(X_TAB)
 B_D B_H       = "nag"

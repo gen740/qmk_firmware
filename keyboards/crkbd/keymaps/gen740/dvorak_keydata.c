@@ -63,6 +63,7 @@ const dv_node_t PROGMEM dvnode_B_N;
 const dv_node_t PROGMEM dvnode_B_LS2_B_RS2_B_P;
 const dv_node_t PROGMEM dvnode_B_LS2_B_N_B_E;
 const dv_node_t PROGMEM dvnode_B_DOT;
+const dv_node_t PROGMEM dvnode_B_DOT_B_COMM;
 const dv_node_t PROGMEM dvnode_B_LS2_B_T_B_E;
 const dv_node_t PROGMEM dvnode_B_RS2_B_B;
 const dv_node_t PROGMEM dvnode_B_LS2_B_RS2_B_A;
@@ -162,6 +163,7 @@ const dv_node_t PROGMEM dvnode_B_RS2_B_LS2_B_DOT;
 const dv_node_t PROGMEM dvnode_B_H_B_DOT;
 const dv_node_t PROGMEM dvnode_B_LS2_B_T;
 const dv_node_t PROGMEM dvnode_B_RS2_B_G;
+const dv_node_t PROGMEM dvnode_B_COMM_B_DOT;
 const dv_node_t PROGMEM dvnode_B_LS2_B_E_B_T;
 const dv_node_t PROGMEM dvnode_B_LS2_B_RS2_B_U;
 const dv_node_t PROGMEM dvnode_B_LS3;
@@ -259,15 +261,6 @@ const dv_node_t PROGMEM dvnode_B_RS2_B_LS2;
 const dv_node_t PROGMEM dvnode_B_LS2_B_W;
 
 
-const PROGMEM dv_node_t dvnode_B_DOT = {
-       .parent       = &dvnode_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_DOT,
-       .value        = ".",
-};
-
-
 const PROGMEM dv_node_t dvnode_B_T_B_R = {
        .parent       = &dvnode_B_T,
        .children     = NULL,
@@ -346,6 +339,17 @@ const PROGMEM dv_node_t dvnode_B_RS2_B_N = {
        .children_num = 0,
        .key          = B_N,
        .value        = "N",
+};
+
+const dv_node_t* dvnode_B_DOT_children[1] = {
+	&dvnode_B_DOT_B_COMM,
+};
+const PROGMEM dv_node_t dvnode_B_DOT = {
+       .parent       = &dvnode_root,
+       .children     = dvnode_B_DOT_children,
+       .children_num = 1,
+       .key          = B_DOT,
+       .value        = ".",
 };
 
 
@@ -849,15 +853,6 @@ const PROGMEM dv_node_t dvnode_B_RS2_B_W = {
 };
 
 
-const PROGMEM dv_node_t dvnode_B_I_B_U = {
-       .parent       = &dvnode_B_I,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_U,
-       .value        = SS_TAP(X_ESC),
-};
-
-
 const PROGMEM dv_node_t dvnode_B_LS2_B_C = {
        .parent       = &dvnode_B_LS2,
        .children     = NULL,
@@ -1001,49 +996,6 @@ const PROGMEM dv_node_t dvnode_B_LS2_B_RS2_B_D = {
        .value        = SS_LSFT(SS_LCTL("d")),
 };
 
-const dv_node_t* dvnode_root_children[33] = {
-	&dvnode_B_LS2,
-	&dvnode_B_RS2,
-	&dvnode_B_E,
-	&dvnode_B_I,
-	&dvnode_B_T,
-	&dvnode_B_S,
-	&dvnode_B_M,
-	&dvnode_B_H,
-	&dvnode_B_Y,
-	&dvnode_B_D,
-	&dvnode_B_K,
-	&dvnode_B_QUOT,
-	&dvnode_B_Q,
-	&dvnode_B_C,
-	&dvnode_B_U,
-	&dvnode_B_P,
-	&dvnode_B_Z,
-	&dvnode_B_SCLN,
-	&dvnode_B_DOT,
-	&dvnode_B_N,
-	&dvnode_B_COMM,
-	&dvnode_B_J,
-	&dvnode_B_G,
-	&dvnode_B_W,
-	&dvnode_B_LS3,
-	&dvnode_B_R,
-	&dvnode_B_B,
-	&dvnode_B_A,
-	&dvnode_B_L,
-	&dvnode_B_O,
-	&dvnode_B_F,
-	&dvnode_B_V,
-	&dvnode_B_X,
-};
-const PROGMEM dv_node_t dvnode_root = {
-       .parent       = NULL,
-       .children     = dvnode_root_children,
-       .children_num = 33,
-       .key          = -1,
-       .value        = NULL,
-};
-
 
 const PROGMEM dv_node_t dvnode_B_LS2_B_A = {
        .parent       = &dvnode_B_LS2,
@@ -1051,6 +1003,15 @@ const PROGMEM dv_node_t dvnode_B_LS2_B_A = {
        .children_num = 0,
        .key          = B_A,
        .value        = SS_LCTL("a"),
+};
+
+
+const PROGMEM dv_node_t dvnode_B_H_B_O = {
+       .parent       = &dvnode_B_H,
+       .children     = NULL,
+       .children_num = 0,
+       .key          = B_O,
+       .value        = "/",
 };
 
 
@@ -1069,15 +1030,6 @@ const PROGMEM dv_node_t dvnode_B_RS2_B_I = {
        .children_num = 0,
        .key          = B_I,
        .value        = "I",
-};
-
-
-const PROGMEM dv_node_t dvnode_B_H_B_O = {
-       .parent       = &dvnode_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_O,
-       .value        = "/",
 };
 
 
@@ -1360,6 +1312,17 @@ const PROGMEM dv_node_t dvnode_B_RS2_B_LS2_B_Q = {
        .value        = NULL,
 };
 
+const dv_node_t* dvnode_B_COMM_children[1] = {
+	&dvnode_B_COMM_B_DOT,
+};
+const PROGMEM dv_node_t dvnode_B_COMM = {
+       .parent       = &dvnode_root,
+       .children     = dvnode_B_COMM_children,
+       .children_num = 1,
+       .key          = B_COMM,
+       .value        = ",",
+};
+
 
 const PROGMEM dv_node_t dvnode_B_LS2_B_G = {
        .parent       = &dvnode_B_LS2,
@@ -1483,12 +1446,12 @@ const PROGMEM dv_node_t dvnode_B_H_B_X = {
 };
 
 
-const PROGMEM dv_node_t dvnode_B_U_B_I = {
+const PROGMEM dv_node_t dvnode_B_U_B_W = {
        .parent       = &dvnode_B_U,
        .children     = NULL,
        .children_num = 0,
-       .key          = B_I,
-       .value        = SS_TAP(X_ESC),
+       .key          = B_W,
+       .value        = "?",
 };
 
 
@@ -1509,15 +1472,6 @@ const PROGMEM dv_node_t dvnode_B_T_B_LS2 = {
        .children_num = 1,
        .key          = B_LS2,
        .value        = NULL,
-};
-
-
-const PROGMEM dv_node_t dvnode_B_U_B_W = {
-       .parent       = &dvnode_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_W,
-       .value        = "?",
 };
 
 
@@ -1646,6 +1600,49 @@ const PROGMEM dv_node_t dvnode_B_T_B_DOT = {
        .value        = "3",
 };
 
+const dv_node_t* dvnode_root_children[33] = {
+	&dvnode_B_LS2,
+	&dvnode_B_RS2,
+	&dvnode_B_E,
+	&dvnode_B_I,
+	&dvnode_B_T,
+	&dvnode_B_S,
+	&dvnode_B_M,
+	&dvnode_B_H,
+	&dvnode_B_Y,
+	&dvnode_B_D,
+	&dvnode_B_K,
+	&dvnode_B_COMM,
+	&dvnode_B_QUOT,
+	&dvnode_B_Q,
+	&dvnode_B_C,
+	&dvnode_B_U,
+	&dvnode_B_P,
+	&dvnode_B_Z,
+	&dvnode_B_SCLN,
+	&dvnode_B_DOT,
+	&dvnode_B_N,
+	&dvnode_B_J,
+	&dvnode_B_G,
+	&dvnode_B_W,
+	&dvnode_B_LS3,
+	&dvnode_B_R,
+	&dvnode_B_B,
+	&dvnode_B_A,
+	&dvnode_B_L,
+	&dvnode_B_O,
+	&dvnode_B_F,
+	&dvnode_B_V,
+	&dvnode_B_X,
+};
+const PROGMEM dv_node_t dvnode_root = {
+       .parent       = NULL,
+       .children     = dvnode_root_children,
+       .children_num = 33,
+       .key          = -1,
+       .value        = NULL,
+};
+
 
 const PROGMEM dv_node_t dvnode_B_LS2_B_RS2_B_N = {
        .parent       = &dvnode_B_LS2_B_RS2,
@@ -1694,6 +1691,24 @@ const PROGMEM dv_node_t dvnode_B_LS2_B_U = {
        .children_num = 0,
        .key          = B_U,
        .value        = SS_LCTL("u"),
+};
+
+
+const PROGMEM dv_node_t dvnode_B_COMM_B_DOT = {
+       .parent       = &dvnode_B_COMM,
+       .children     = NULL,
+       .children_num = 0,
+       .key          = B_DOT,
+       .value        = SS_TAP(X_ESC),
+};
+
+
+const PROGMEM dv_node_t dvnode_B_U_B_I = {
+       .parent       = &dvnode_B_U,
+       .children     = NULL,
+       .children_num = 0,
+       .key          = B_I,
+       .value        = "",
 };
 
 
@@ -2039,15 +2054,6 @@ const PROGMEM dv_node_t dvnode_B_RS2_B_LS2_B_V = {
 };
 
 
-const PROGMEM dv_node_t dvnode_B_COMM = {
-       .parent       = &dvnode_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_COMM,
-       .value        = ",",
-};
-
-
 const PROGMEM dv_node_t dvnode_B_RS2_B_LS2_B_K = {
        .parent       = &dvnode_B_RS2_B_LS2,
        .children     = NULL,
@@ -2081,6 +2087,15 @@ const PROGMEM dv_node_t dvnode_B_RS2_B_E = {
        .children_num = 0,
        .key          = B_E,
        .value        = "E",
+};
+
+
+const PROGMEM dv_node_t dvnode_B_DOT_B_COMM = {
+       .parent       = &dvnode_B_DOT,
+       .children     = NULL,
+       .children_num = 0,
+       .key          = B_COMM,
+       .value        = SS_TAP(X_ESC),
 };
 
 
@@ -2269,6 +2284,15 @@ const PROGMEM dv_node_t dvnode_B_LS2_B_RS2_B_QUOT = {
        .children_num = 0,
        .key          = B_QUOT,
        .value        = SS_LSFT(SS_LCTL("'")),
+};
+
+
+const PROGMEM dv_node_t dvnode_B_I_B_U = {
+       .parent       = &dvnode_B_I,
+       .children     = NULL,
+       .children_num = 0,
+       .key          = B_U,
+       .value        = "",
 };
 
 
