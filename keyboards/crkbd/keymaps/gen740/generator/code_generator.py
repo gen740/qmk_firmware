@@ -92,7 +92,7 @@ def generate_tree(title: str, file_name: str):
             if current_node is None:
                 print("Error: Node not found")
                 sys.exit(1)
-        current_node.value = i
+        current_node.value = keydata[i]
 
     declarelations: set[str] = set()
     definitions: set[str] = set()
@@ -111,6 +111,7 @@ def generate_tree(title: str, file_name: str):
 
 def generate_code(title: str, file_name: str):
     declarelations, definitions = generate_tree(title, file_name)
+    print(f"Generated {len(declarelations)} declarelations")
 
     with open("./generate_config.toml", "rb") as f:
         config = tomllib.load(f)
@@ -127,5 +128,11 @@ def generate_code(title: str, file_name: str):
 
 
 if __name__ == "__main__":
-    # print(generate_tree("dvorak", "./dvorak.txt"))
-    print(generate_code("dvorak", "./dvorak.txt")[0])
+    if len(sys.argv) == 3 and sys.argv[1] == "--generate":
+        header, source = generate_code(sys.argv[2], f"{sys.argv[2]}.txt")
+        with open(f"./{sys.argv[2]}_keydata.h", "w") as f:
+            f.write(header)
+        with open(f"./{sys.argv[2]}_keydata.c", "w") as f:
+            f.write(source)
+        sys.exit(0)
+    print("Usage: python3 main.py --generate <title>")

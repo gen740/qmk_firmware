@@ -14,10 +14,9 @@ SRC += naginata.c
 SRC += naginata_keydata.c
 SRC += dvorak.c
 SRC += dvorak_keydata.c
-INTROSPECTION_KEYMAP_C += combo.c
 
 EXTRAFLAGS += -flto=auto
 
-COMBO_ENABLE = yes
+COMBO_ENABLE = no
 EXTRAKEY_ENABLE = yes
 DEFERRED_EXEC_ENABLE = yes

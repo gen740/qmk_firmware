@@ -109,7 +109,7 @@ def generate_keymap(file_path: str):
             keycomb = tuple(i.split("=")[0].strip().split(" "))
             value = i.split("=")[1].strip()
             if keycomb not in ret:
-                ret[keycomb] = parse_value(value)
+                ret[keycomb] = value
             else:
                 print(f"Duplicate key combination: {keycomb}")
         if i.startswith("##***##"):

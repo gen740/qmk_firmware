@@ -6,16 +6,16 @@
 
 #include "dvorak.h"
 
-struct dv_node;
+struct dvorak_node;
 
-typedef struct dv_node dv_node_t;
+typedef struct dvorak_node dvorak_node_t;
 
-struct dv_node {
-    const dv_node_t*  parent;
-    const dv_node_t** children;
+struct dvorak_node {
+    const dvorak_node_t*  parent;
+    const dvorak_node_t** children;
     uint8_t           children_num;
     int8_t            key;
     const char*       value;
 };
 
-const PROGMEM dv_node_t dvnode_root;
+const PROGMEM dvorak_node_t dvorak_node_root;

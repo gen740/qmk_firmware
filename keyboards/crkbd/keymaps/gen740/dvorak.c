@@ -1,13 +1,13 @@
 #include "dvorak.h"
 #include "dvorak_keydata.h"
 
-const dv_node_t* current_node    = &dvnode_root;
-bool             dv_emmitted     = false;
-int8_t           dv_dangling_key = -1;
+const dvorak_node_t* dv_current_node = &dvorak_node_root;
+bool                 dv_emmitted     = false;
+int8_t               dv_dangling_key = -1;
 
-int8_t           dv_find_child(uint8_t key) {
-    for (uint8_t i = 0; i < current_node->children_num; i++) {
-        if (current_node->children[i]->key == key) {
+int8_t               dv_find_child(uint8_t key) {
+    for (uint8_t i = 0; i < dv_current_node->children_num; i++) {
+        if (dv_current_node->children[i]->key == key) {
             return i;
         }
     }
@@ -18,7 +18,7 @@ bool dv_forward(uint8_t key) {
     dv_dangling_key    = -1;
     int8_t child_index = dv_find_child(key);
     if (child_index != -1) {
-        current_node = current_node->children[child_index];
+        dv_current_node = dv_current_node->children[child_index];
         return true;
     }
     dv_dangling_key = key;
@@ -26,8 +26,8 @@ bool dv_forward(uint8_t key) {
 }
 
 void dv_back_one(void) {
-    if (current_node->parent != NULL) {
-        current_node = current_node->parent;
+    if (dv_current_node->parent != NULL) {
+        dv_current_node = dv_current_node->parent;
     }
 }
 
@@ -35,12 +35,12 @@ void dv_rollback(uint8_t key) {
     // Search parent until root
     uint8_t keys[16];
     uint8_t keys_len = 0;
-    while (current_node->parent != NULL) {
-        if (current_node->key == key) {
+    while (dv_current_node->parent != NULL) {
+        if (dv_current_node->key == key) {
             dv_back_one();
             break;
         }
-        keys[keys_len++] = current_node->key;
+        keys[keys_len++] = dv_current_node->key;
         dv_back_one();
     }
     int8_t dangling_buf = dv_dangling_key;
@@ -72,17 +72,17 @@ bool process_dvorak(uint16_t keycode, keyrecord_t* record) {
                 // search next
                 dv_emmitted = false;
                 dv_forward(key);
-                if (current_node->children_num == 0) {
-                    dv_send_string(current_node->value);
+                if (dv_current_node->children_num == 0) {
+                    dv_send_string(dv_current_node->value);
                     dv_back_one();
                 }
             } else {
                 if (dv_dangling_key == key) {
                     dv_dangling_key = -1;
                 }
-                if (current_node->value != NULL) {
+                if (dv_current_node->value != NULL) {
                     if (!dv_emmitted) {
-                        dv_send_string(current_node->value);
+                        dv_send_string(dv_current_node->value);
                     }
                 }
                 dv_rollback(key);
