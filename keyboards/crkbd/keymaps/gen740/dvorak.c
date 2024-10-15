@@ -77,6 +77,9 @@ bool process_dvorak(uint16_t keycode, keyrecord_t* record) {
                     dv_back_one();
                 }
             } else {
+                if (dv_dangling_key == key) {
+                    dv_dangling_key = -1;
+                }
                 if (current_node->value != NULL) {
                     if (!dv_emmitted) {
                         dv_send_string(current_node->value);
