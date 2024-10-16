@@ -41,13 +41,13 @@ def create_declarelations_and_definitions(
     title: str, node: Node, declarelations: set[str], definitions: set[str]
 ):
     if node.struct_name != f"{title}_node_root":
-        declarelations.add(f"const {title}_node_t PROGMEM {node.struct_name};")
+        declarelations.add(f"const {title}_node_t {node.struct_name};")
 
     definitions.add(f"""{
 f"""const {title}_node_t* {node.struct_name}_children[{len(node.children)}] = {{
 {"\n".join([f"  &{i.struct_name}," for i in node.children])}
 }};""" if len(node.children) != 0 else "" }
-const PROGMEM {title}_node_t {node.struct_name} = {{
+const {title}_node_t {node.struct_name} = {{
   .parent       = {f"&{node.parent.struct_name}" if node.parent else "NULL"},
   .children     = {f"{node.struct_name}_children" if len(node.children) != 0 else "NULL"},
   .children_num = {len(node.children)},
@@ -103,8 +103,6 @@ def generate_tree(title: str, file_name: str):
             title, node, declarelations, definitions
         ),
     )
-
-    ### Load config and generate header and source files
 
     return declarelations, definitions
 

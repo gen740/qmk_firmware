@@ -41,662 +41,823 @@
 #define B_LS3  34
 #define B_RS3  35
 
-const naginata_node_t PROGMEM naginata_node_B_I_B_G;
-const naginata_node_t PROGMEM naginata_node_B_H_B_W;
-const naginata_node_t PROGMEM naginata_node_B_I_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_L;
-const naginata_node_t PROGMEM naginata_node_B_B_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_J_B_G;
-const naginata_node_t PROGMEM naginata_node_B_D_B_L_B_M;
-const naginata_node_t PROGMEM naginata_node_B_J_B_D_B_L;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_I;
-const naginata_node_t PROGMEM naginata_node_B_J_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_F_B_J_B_L;
-const naginata_node_t PROGMEM naginata_node_B_I_B_J_B_G;
-const naginata_node_t PROGMEM naginata_node_B_J_B_I;
-const naginata_node_t PROGMEM naginata_node_B_L_B_F;
-const naginata_node_t PROGMEM naginata_node_B_J_B_E_B_K;
-const naginata_node_t PROGMEM naginata_node_B_J_B_K;
-const naginata_node_t PROGMEM naginata_node_B_S_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_F_B_L;
-const naginata_node_t PROGMEM naginata_node_B_V_B_L_B_N;
-const naginata_node_t PROGMEM naginata_node_B_Q_B_I;
-const naginata_node_t PROGMEM naginata_node_B_R_B_M_B_O;
-const naginata_node_t PROGMEM naginata_node_B_G_B_M_B_O;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_E;
-const naginata_node_t PROGMEM naginata_node_B_F_B_O_B_L;
-const naginata_node_t PROGMEM naginata_node_B_O_B_R;
-const naginata_node_t PROGMEM naginata_node_B_M_B_L;
-const naginata_node_t PROGMEM naginata_node_B_R_B_O;
-const naginata_node_t PROGMEM naginata_node_B_L_B_N;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_V_B_L;
-const naginata_node_t PROGMEM naginata_node_B_Q;
-const naginata_node_t PROGMEM naginata_node_B_P;
-const naginata_node_t PROGMEM naginata_node_B_L_B_SCLN_B_V;
-const naginata_node_t PROGMEM naginata_node_B_H;
-const naginata_node_t PROGMEM naginata_node_B_F_B_K_B_L;
-const naginata_node_t PROGMEM naginata_node_B_P_B_F_B_L;
-const naginata_node_t PROGMEM naginata_node_B_P_B_E;
-const naginata_node_t PROGMEM naginata_node_B_F_B_U;
-const naginata_node_t PROGMEM naginata_node_B_I;
-const naginata_node_t PROGMEM naginata_node_B_H_B_O_B_F;
-const naginata_node_t PROGMEM naginata_node_B_J_B_V_B_H;
-const naginata_node_t PROGMEM naginata_node_B_M_B_P;
-const naginata_node_t PROGMEM naginata_node_B_H_B_B;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_D;
-const naginata_node_t PROGMEM naginata_node_B_V;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_H;
-const naginata_node_t PROGMEM naginata_node_B_G_B_J;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_M;
-const naginata_node_t PROGMEM naginata_node_B_E_B_J;
-const naginata_node_t PROGMEM naginata_node_B_X_B_I_B_M;
-const naginata_node_t PROGMEM naginata_node_B_P_B_V_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_H_B_F_B_J;
-const naginata_node_t PROGMEM naginata_node_B_J_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_G_B_H;
-const naginata_node_t PROGMEM naginata_node_B_I_B_J_B_R;
-const naginata_node_t PROGMEM naginata_node_B_O_B_R_B_J;
-const naginata_node_t PROGMEM naginata_node_B_V_B_H_B_J;
-const naginata_node_t PROGMEM naginata_node_B_P_B_X;
-const naginata_node_t PROGMEM naginata_node_B_H_B_V_B_J;
-const naginata_node_t PROGMEM naginata_node_B_G_B_O;
-const naginata_node_t PROGMEM naginata_node_B_O_B_M;
-const naginata_node_t PROGMEM naginata_node_B_M_B_O_B_R;
-const naginata_node_t PROGMEM naginata_node_B_K_B_F_B_L;
-const naginata_node_t PROGMEM naginata_node_B_N_B_F;
-const naginata_node_t PROGMEM naginata_node_B_P_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_R;
-const naginata_node_t PROGMEM naginata_node_B_SLSH;
-const naginata_node_t PROGMEM naginata_node_B_K_B_L;
-const naginata_node_t PROGMEM naginata_node_B_U;
-const naginata_node_t PROGMEM naginata_node_B_K_B_V_B_L;
-const naginata_node_t PROGMEM naginata_node_B_J_B_L_B_F;
-const naginata_node_t PROGMEM naginata_node_B_J_B_I_B_R;
-const naginata_node_t PROGMEM naginata_node_B_I_B_X_B_M;
-const naginata_node_t PROGMEM naginata_node_B_E_B_I;
-const naginata_node_t PROGMEM naginata_node_B_O_B_L_B_V;
-const naginata_node_t PROGMEM naginata_node_B_R_B_I_B_J;
-const naginata_node_t PROGMEM naginata_node_B_O_B_M_B_G;
-const naginata_node_t PROGMEM naginata_node_B_H_B_N_B_V;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_K;
-const naginata_node_t PROGMEM naginata_node_B_W_B_I;
-const naginata_node_t PROGMEM naginata_node_B_M_B_G_B_O;
-const naginata_node_t PROGMEM naginata_node_B_Q_B_P;
-const naginata_node_t PROGMEM naginata_node_B_H_B_W_B_J;
-const naginata_node_t PROGMEM naginata_node_B_X_B_H_B_M;
-const naginata_node_t PROGMEM naginata_node_B_J_B_W_B_I;
-const naginata_node_t PROGMEM naginata_node_B_Q_B_K;
-const naginata_node_t PROGMEM naginata_node_B_H_B_R;
-const naginata_node_t PROGMEM naginata_node_B_COMM_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_E_B_P;
-const naginata_node_t PROGMEM naginata_node_B_F_B_J_B_H;
-const naginata_node_t PROGMEM naginata_node_B_O_B_L_B_F;
-const naginata_node_t PROGMEM naginata_node_B_X_B_P_B_M;
-const naginata_node_t PROGMEM naginata_node_B_V_B_SCLN_B_P;
-const naginata_node_t PROGMEM naginata_node_B_O_B_G_B_J;
-const naginata_node_t PROGMEM naginata_node_B_L_B_V_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_L_B_V_B_K;
-const naginata_node_t PROGMEM naginata_node_B_E;
-const naginata_node_t PROGMEM naginata_node_B_J_B_W;
-const naginata_node_t PROGMEM naginata_node_B_L_B_M;
-const naginata_node_t PROGMEM naginata_node_B_L_B_V_B_N;
-const naginata_node_t PROGMEM naginata_node_B_J_B_H_B_V;
-const naginata_node_t PROGMEM naginata_node_B_J_B_I_B_W;
-const naginata_node_t PROGMEM naginata_node_B_I_B_D;
-const naginata_node_t PROGMEM naginata_node_B_I_B_W_B_J;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_DOT;
-const naginata_node_t PROGMEM naginata_node_B_L_B_F_B_O;
-const naginata_node_t PROGMEM naginata_node_B_DOT_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_M_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_J_B_H;
-const naginata_node_t PROGMEM naginata_node_B_K;
-const naginata_node_t PROGMEM naginata_node_B_DOT;
-const naginata_node_t PROGMEM naginata_node_B_R_B_O_B_J;
-const naginata_node_t PROGMEM naginata_node_B_N_B_H;
-const naginata_node_t PROGMEM naginata_node_B_V_B_J;
-const naginata_node_t PROGMEM naginata_node_B_L_B_O_B_V;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_N_B_V;
-const naginata_node_t PROGMEM naginata_node_B_J_B_E;
-const naginata_node_t PROGMEM naginata_node_B_K_B_M_B_E;
-const naginata_node_t PROGMEM naginata_node_B_K_B_J;
-const naginata_node_t PROGMEM naginata_node_B_K_B_M;
-const naginata_node_t PROGMEM naginata_node_B_D_B_J;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_W;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_N;
-const naginata_node_t PROGMEM naginata_node_B_E_B_K;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_O;
-const naginata_node_t PROGMEM naginata_node_B_L_B_J_B_V;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_K;
-const naginata_node_t PROGMEM naginata_node_B_M_B_E_B_K;
-const naginata_node_t PROGMEM naginata_node_B_L_B_M_B_D;
-const naginata_node_t PROGMEM naginata_node_B_E_B_J_B_K;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_L;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_E;
-const naginata_node_t PROGMEM naginata_node_B_D_B_M_B_L;
-const naginata_node_t PROGMEM naginata_node_B_J_B_F_B_L;
-const naginata_node_t PROGMEM naginata_node_B_I_B_G_B_J;
-const naginata_node_t PROGMEM naginata_node_B_L_B_K_B_V;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_M;
-const naginata_node_t PROGMEM naginata_node_B_F_B_H_B_K;
-const naginata_node_t PROGMEM naginata_node_B_O_B_K_B_V;
-const naginata_node_t PROGMEM naginata_node_B_A;
-const naginata_node_t PROGMEM naginata_node_B_R_B_J_B_I;
-const naginata_node_t PROGMEM naginata_node_B_E_B_K_B_J;
-const naginata_node_t PROGMEM naginata_node_B_L_B_V_B_J;
-const naginata_node_t PROGMEM naginata_node_B_O_B_J;
-const naginata_node_t PROGMEM naginata_node_B_P_B_M_B_E;
-const naginata_node_t PROGMEM naginata_node_B_V_B_O;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_S;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_V;
-const naginata_node_t PROGMEM naginata_node_B_W;
-const naginata_node_t PROGMEM naginata_node_B_J_B_H_B_F;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_L;
-const naginata_node_t PROGMEM naginata_node_B_B_B_J;
-const naginata_node_t PROGMEM naginata_node_B_M_B_H_B_X;
-const naginata_node_t PROGMEM naginata_node_B_K_B_V_B_H;
-const naginata_node_t PROGMEM naginata_node_B_H_B_F_B_N;
-const naginata_node_t PROGMEM naginata_node_B_M_B_C;
-const naginata_node_t PROGMEM naginata_node_B_G_B_O_B_J;
-const naginata_node_t PROGMEM naginata_node_B_I_B_X_B_J;
-const naginata_node_t PROGMEM naginata_node_B_J_B_G_B_H;
-const naginata_node_t PROGMEM naginata_node_B_F_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_W_B_J_B_H;
-const naginata_node_t PROGMEM naginata_node_B_V_B_O_B_L;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_F;
-const naginata_node_t PROGMEM naginata_node_B_P_B_M_B_X;
-const naginata_node_t PROGMEM naginata_node_B_W_B_J_B_P;
-const naginata_node_t PROGMEM naginata_node_B_R_B_I;
-const naginata_node_t PROGMEM naginata_node_B_J_B_F_B_H;
-const naginata_node_t PROGMEM naginata_node_B_P_B_R;
-const naginata_node_t PROGMEM naginata_node_B_L_B_P;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_F;
-const naginata_node_t PROGMEM naginata_node_B_V_B_H_B_K;
-const naginata_node_t PROGMEM naginata_node_B_J_B_L_B_V;
-const naginata_node_t PROGMEM naginata_node_B_O_B_F;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_H_B_V_B_O;
-const naginata_node_t PROGMEM naginata_node_B_X_B_J_B_I;
-const naginata_node_t PROGMEM naginata_node_B_J_B_P;
-const naginata_node_t PROGMEM naginata_node_B_H_B_X_B_J;
-const naginata_node_t PROGMEM naginata_node_B_H_B_K_B_V;
-const naginata_node_t PROGMEM naginata_node_B_J_B_F;
-const naginata_node_t PROGMEM naginata_node_B_V_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_O_B_K;
-const naginata_node_t PROGMEM naginata_node_B_M_B_R_B_O;
-const naginata_node_t PROGMEM naginata_node_B_H_B_J_B_W;
-const naginata_node_t PROGMEM naginata_node_B_J_B_H_B_X;
-const naginata_node_t PROGMEM naginata_node_B_H_B_F_B_K;
-const naginata_node_t PROGMEM naginata_node_B_I_B_B;
-const naginata_node_t PROGMEM naginata_node_B_Q_B_H;
-const naginata_node_t PROGMEM naginata_node_B_P_B_W;
-const naginata_node_t PROGMEM naginata_node_B_H_B_F;
-const naginata_node_t PROGMEM naginata_node_B_N_B_H_B_V;
-const naginata_node_t PROGMEM naginata_node_B_G_B_J_B_H;
-const naginata_node_t PROGMEM naginata_node_B_L_B_V;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_C;
-const naginata_node_t PROGMEM naginata_node_B_F_B_N_B_L;
-const naginata_node_t PROGMEM naginata_node_B_J_B_P_B_G;
-const naginata_node_t PROGMEM naginata_node_B_J_B_R_B_O;
-const naginata_node_t PROGMEM naginata_node_B_L_B_K;
-const naginata_node_t PROGMEM naginata_node_B_P_B_R_B_J;
-const naginata_node_t PROGMEM naginata_node_B_H_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_O_B_H_B_F;
-const naginata_node_t PROGMEM naginata_node_B_M_B_D;
-const naginata_node_t PROGMEM naginata_node_B_G_B_I_B_J;
-const naginata_node_t PROGMEM naginata_node_B_C_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_L_B_F_B_J;
-const naginata_node_t PROGMEM naginata_node_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_M_B_D_B_L;
-const naginata_node_t PROGMEM naginata_node_B_V_B_K_B_H;
-const naginata_node_t PROGMEM naginata_node_B_N_B_V_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_M_B_X;
-const naginata_node_t PROGMEM naginata_node_B_P_B_J_B_G;
-const naginata_node_t PROGMEM naginata_node_B_J_B_G_B_P;
-const naginata_node_t PROGMEM naginata_node_B_F_B_H_B_N;
-const naginata_node_t PROGMEM naginata_node_B_J_B_P_B_X;
-const naginata_node_t PROGMEM naginata_node_B_X;
-const naginata_node_t PROGMEM naginata_node_B_M_B_K_B_E;
-const naginata_node_t PROGMEM naginata_node_B_V_B_H;
-const naginata_node_t PROGMEM naginata_node_B_O_B_V;
-const naginata_node_t PROGMEM naginata_node_B_B;
-const naginata_node_t PROGMEM naginata_node_B_I_B_J_B_X;
-const naginata_node_t PROGMEM naginata_node_B_D_B_L_B_J;
-const naginata_node_t PROGMEM naginata_node_B_I_B_E;
-const naginata_node_t PROGMEM naginata_node_B_N_B_L;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_N;
-const naginata_node_t PROGMEM naginata_node_B_V_B_K_B_O;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_J;
-const naginata_node_t PROGMEM naginata_node_B_J_B_W_B_P;
-const naginata_node_t PROGMEM naginata_node_B_G_B_J_B_I;
-const naginata_node_t PROGMEM naginata_node_B_V_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_F_B_P_B_L;
-const naginata_node_t PROGMEM naginata_node_B_R_B_O_B_M;
-const naginata_node_t PROGMEM naginata_node_B_J_B_P_B_E;
-const naginata_node_t PROGMEM naginata_node_B_N_B_V;
-const naginata_node_t PROGMEM naginata_node_B_L_B_V_B_O;
-const naginata_node_t PROGMEM naginata_node_B_J_B_I_B_G;
-const naginata_node_t PROGMEM naginata_node_B_F_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_E_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_COMM_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_P_B_J_B_X;
-const naginata_node_t PROGMEM naginata_node_B_F_B_G;
-const naginata_node_t PROGMEM naginata_node_B_G_B_F;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_J;
-const naginata_node_t PROGMEM naginata_node_B_M_B_X_B_H;
-const naginata_node_t PROGMEM naginata_node_B_C;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_K;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_R;
-const naginata_node_t PROGMEM naginata_node_B_M_B_E_B_P;
-const naginata_node_t PROGMEM naginata_node_B_M_B_H;
-const naginata_node_t PROGMEM naginata_node_B_V_B_K_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_I_B_J;
-const naginata_node_t PROGMEM naginata_node_B_M_B_X_B_P;
-const naginata_node_t PROGMEM naginata_node_B_J_B_X_B_H;
-const naginata_node_t PROGMEM naginata_node_B_J_B_H_B_W;
-const naginata_node_t PROGMEM naginata_node_B_J_B_SCLN_B_V;
-const naginata_node_t PROGMEM naginata_node_B_W_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_B_B_P;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_G;
-const naginata_node_t PROGMEM naginata_node_B_N_B_H_B_F;
-const naginata_node_t PROGMEM naginata_node_B_K_B_F;
-const naginata_node_t PROGMEM naginata_node_B_H_B_E;
-const naginata_node_t PROGMEM naginata_node_B_M_B_O;
-const naginata_node_t PROGMEM naginata_node_B_L_B_N_B_V;
-const naginata_node_t PROGMEM naginata_node_B_G_B_I;
-const naginata_node_t PROGMEM naginata_node_B_I_B_R;
-const naginata_node_t PROGMEM naginata_node_B_L_B_J;
-const naginata_node_t PROGMEM naginata_node_B_K_B_V_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_L_B_F_B_N;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_G;
-const naginata_node_t PROGMEM naginata_node_B_D_B_J_B_L;
-const naginata_node_t PROGMEM naginata_node_B_G;
-const naginata_node_t PROGMEM naginata_node_B_Q_B_L;
-const naginata_node_t PROGMEM naginata_node_B_V_B_SCLN_B_N;
-const naginata_node_t PROGMEM naginata_node_B_F_B_N;
-const naginata_node_t PROGMEM naginata_node_B_F_B_N_B_H;
-const naginata_node_t PROGMEM naginata_node_B_F_B_H;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_P;
-const naginata_node_t PROGMEM naginata_node_B_V_B_O_B_H;
-const naginata_node_t PROGMEM naginata_node_B_D_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_I_B_W;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_P;
-const naginata_node_t PROGMEM naginata_node_B_R_B_J_B_P;
-const naginata_node_t PROGMEM naginata_node_B_O_B_V_B_H;
-const naginata_node_t PROGMEM naginata_node_B_W_B_H;
-const naginata_node_t PROGMEM naginata_node_B_X_B_I_B_J;
-const naginata_node_t PROGMEM naginata_node_B_J_B_R_B_H;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_V_B_N;
-const naginata_node_t PROGMEM naginata_node_B_O;
-const naginata_node_t PROGMEM naginata_node_B_O_B_G_B_M;
-const naginata_node_t PROGMEM naginata_node_B_R_B_J_B_H;
-const naginata_node_t PROGMEM naginata_node_B_F_B_L_B_K;
-const naginata_node_t PROGMEM naginata_node_B_P_B_J_B_R;
-const naginata_node_t PROGMEM naginata_node_B_R_B_P_B_J;
-const naginata_node_t PROGMEM naginata_node_B_V_B_L_B_O;
-const naginata_node_t PROGMEM naginata_node_B_J_B_X_B_P;
-const naginata_node_t PROGMEM naginata_node_B_H_B_O_B_V;
-const naginata_node_t PROGMEM naginata_node_B_F_B_K_B_H;
-const naginata_node_t PROGMEM naginata_node_B_P_B_B;
-const naginata_node_t PROGMEM naginata_node_B_K_B_O_B_V;
-const naginata_node_t PROGMEM naginata_node_B_K_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_H_B_N;
-const naginata_node_t PROGMEM naginata_node_B_L_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_DOT_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_P_B_V;
-const naginata_node_t PROGMEM naginata_node_B_X_B_H;
-const naginata_node_t PROGMEM naginata_node_B_H_B_G_B_J;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_S;
-const naginata_node_t PROGMEM naginata_node_B_J_B_H_B_G;
-const naginata_node_t PROGMEM naginata_node_B_V_B_N;
-const naginata_node_t PROGMEM naginata_node_B_O_B_J_B_R;
-const naginata_node_t PROGMEM naginata_node_B_E_B_P_B_M;
-const naginata_node_t PROGMEM naginata_node_B_F_B_L_B_J;
-const naginata_node_t PROGMEM naginata_node_B_F_B_K;
-const naginata_node_t PROGMEM naginata_node_B_M_B_X_B_I;
-const naginata_node_t PROGMEM naginata_node_B_V_B_SCLN_B_K;
-const naginata_node_t PROGMEM naginata_node_B_D;
-const naginata_node_t PROGMEM naginata_node_B_R_B_J_B_O;
-const naginata_node_t PROGMEM naginata_node_B_I_B_M_B_X;
-const naginata_node_t PROGMEM naginata_node_B_J_B_L_B_D;
-const naginata_node_t PROGMEM naginata_node_B_V_B_L;
-const naginata_node_t PROGMEM naginata_node_B_I_B_M;
-const naginata_node_t PROGMEM naginata_node_B_G_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_P_B_J_B_E;
-const naginata_node_t PROGMEM naginata_node_B_B_B_H;
-const naginata_node_t PROGMEM naginata_node_B_W_B_I_B_J;
-const naginata_node_t PROGMEM naginata_node_B_M_B_R;
-const naginata_node_t PROGMEM naginata_node_B_J_B_G_B_I;
-const naginata_node_t PROGMEM naginata_node_B_J_B_L;
-const naginata_node_t PROGMEM naginata_node_B_O_B_H;
-const naginata_node_t PROGMEM naginata_node_B_M_B_I;
-const naginata_node_t PROGMEM naginata_node_B_V_B_L_B_J;
-const naginata_node_t PROGMEM naginata_node_B_V_B_J_B_H;
-const naginata_node_t PROGMEM naginata_node_B_R_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_J_B_X;
-const naginata_node_t PROGMEM naginata_node_B_K_B_O;
-const naginata_node_t PROGMEM naginata_node_B_W_B_J_B_I;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_H;
-const naginata_node_t PROGMEM naginata_node_B_W_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_E_B_M;
-const naginata_node_t PROGMEM naginata_node_B_I_B_X;
-const naginata_node_t PROGMEM naginata_node_B_V_B_K_B_L;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_V;
-const naginata_node_t PROGMEM naginata_node_B_J_B_R_B_P;
-const naginata_node_t PROGMEM naginata_node_B_X_B_M_B_H;
-const naginata_node_t PROGMEM naginata_node_B_J_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_J_B_I_B_X;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_COMM;
-const naginata_node_t PROGMEM naginata_node_B_J_B_K_B_E;
-const naginata_node_t PROGMEM naginata_node_B_V_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_R_B_H_B_J;
-const naginata_node_t PROGMEM naginata_node_B_O_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_J_B_W_B_H;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_W;
-const naginata_node_t PROGMEM naginata_node_B_M_B_O_B_G;
-const naginata_node_t PROGMEM naginata_node_B_A_B_J;
-const naginata_node_t PROGMEM naginata_node_B_N_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_J_B_R;
-const naginata_node_t PROGMEM naginata_node_B_P_B_G_B_J;
-const naginata_node_t PROGMEM naginata_node_B_H_B_J_B_R;
-const naginata_node_t PROGMEM naginata_node_B_N_B_V_B_H;
-const naginata_node_t PROGMEM naginata_node_B_P_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_N;
-const naginata_node_t PROGMEM naginata_node_B_H_B_V_B_K;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_F;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_A;
-const naginata_node_t PROGMEM naginata_node_B_H_B_K;
-const naginata_node_t PROGMEM naginata_node_B_H_B_J_B_V;
-const naginata_node_t PROGMEM naginata_node_B_W_B_H_B_J;
-const naginata_node_t PROGMEM naginata_node_B_P_B_G;
-const naginata_node_t PROGMEM naginata_node_B_V_B_H_B_O;
-const naginata_node_t PROGMEM naginata_node_B_L_B_D_B_J;
-const naginata_node_t PROGMEM naginata_node_B_V_B_N_B_L;
-const naginata_node_t PROGMEM naginata_node_B_J_B_O_B_R;
-const naginata_node_t PROGMEM naginata_node_B_M_B_E;
-const naginata_node_t PROGMEM naginata_node_B_X_B_M_B_I;
-const naginata_node_t PROGMEM naginata_node_B_E_B_H;
-const naginata_node_t PROGMEM naginata_node_B_A_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_K_B_L_B_V;
-const naginata_node_t PROGMEM naginata_node_B_X_B_I;
-const naginata_node_t PROGMEM naginata_node_B_V_B_J_B_L;
-const naginata_node_t PROGMEM naginata_node_B_F_B_P;
-const naginata_node_t PROGMEM naginata_node_B_V_B_K;
-const naginata_node_t PROGMEM naginata_node_B_K_B_H;
-const naginata_node_t PROGMEM naginata_node_B_K_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_N_B_SCLN_B_V;
-const naginata_node_t PROGMEM naginata_node_B_G_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_O_B_J_B_G;
-const naginata_node_t PROGMEM naginata_node_B_J_B_V_B_L;
-const naginata_node_t PROGMEM naginata_node_B_L_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_G_B_M;
-const naginata_node_t PROGMEM naginata_node_B_O_B_H_B_V;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_A;
-const naginata_node_t PROGMEM naginata_node_B_K_B_V;
-const naginata_node_t PROGMEM naginata_node_B_F_B_H_B_J;
-const naginata_node_t PROGMEM naginata_node_B_M_B_P_B_E;
-const naginata_node_t PROGMEM naginata_node_B_J_B_O_B_G;
-const naginata_node_t PROGMEM naginata_node_B_K_B_E_B_J;
-const naginata_node_t PROGMEM naginata_node_B_R_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_Z_B_J;
-const naginata_node_t PROGMEM naginata_node_B_D_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_H_B_O;
-const naginata_node_t PROGMEM naginata_node_B_Q_B_N;
-const naginata_node_t PROGMEM naginata_node_B_R_B_P;
-const naginata_node_t PROGMEM naginata_node_B_F_B_H_B_O;
-const naginata_node_t PROGMEM naginata_node_B_F_B_L_B_O;
-const naginata_node_t PROGMEM naginata_node_B_P_B_X_B_M;
-const naginata_node_t PROGMEM naginata_node_B_P_B_SCLN_B_V;
-const naginata_node_t PROGMEM naginata_node_B_D_B_H;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_COMM;
-const naginata_node_t PROGMEM naginata_node_B_V_B_H_B_N;
-const naginata_node_t PROGMEM naginata_node_B_P_B_E_B_J;
-const naginata_node_t PROGMEM naginata_node_B_L_B_F_B_P;
-const naginata_node_t PROGMEM naginata_node_B_H_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_J_B_S;
-const naginata_node_t PROGMEM naginata_node_B_P_B_J_B_W;
-const naginata_node_t PROGMEM naginata_node_B_P_B_L_B_F;
-const naginata_node_t PROGMEM naginata_node_B_P_B_E_B_M;
-const naginata_node_t PROGMEM naginata_node_B_F_B_O;
-const naginata_node_t PROGMEM naginata_node_B_L_B_J_B_D;
-const naginata_node_t PROGMEM naginata_node_B_V_B_N_B_H;
-const naginata_node_t PROGMEM naginata_node_B_P_B_W_B_J;
-const naginata_node_t PROGMEM naginata_node_B_E_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_K_B_F_B_H;
-const naginata_node_t PROGMEM naginata_node_B_R_B_M;
-const naginata_node_t PROGMEM naginata_node_B_B_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_L_B_K_B_F;
-const naginata_node_t PROGMEM naginata_node_B_X_B_H_B_J;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_I;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_U;
-const naginata_node_t PROGMEM naginata_node_B_X_B_J_B_H;
-const naginata_node_t PROGMEM naginata_node_B_L_B_D_B_M;
-const naginata_node_t PROGMEM naginata_node_B_H_B_J_B_G;
-const naginata_node_t PROGMEM naginata_node_B_J_B_E_B_P;
-const naginata_node_t PROGMEM naginata_node_B_J_B_P_B_W;
-const naginata_node_t PROGMEM naginata_node_B_K_B_H_B_F;
-const naginata_node_t PROGMEM naginata_node_B_E_B_M_B_P;
-const naginata_node_t PROGMEM naginata_node_B_H_B_R_B_J;
-const naginata_node_t PROGMEM naginata_node_B_J;
-const naginata_node_t PROGMEM naginata_node_B_X_B_P_B_J;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_K_B_V;
-const naginata_node_t PROGMEM naginata_node_B_P_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_L;
-const naginata_node_t PROGMEM naginata_node_B_O_B_F_B_L;
-const naginata_node_t PROGMEM naginata_node_B_K_B_E;
-const naginata_node_t PROGMEM naginata_node_B_B_B_I;
-const naginata_node_t PROGMEM naginata_node_B_J_B_R_B_I;
-const naginata_node_t PROGMEM naginata_node_B_K_B_SCLN_B_V;
-const naginata_node_t PROGMEM naginata_node_B_N_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_H_B_X;
-const naginata_node_t PROGMEM naginata_node_B_X_B_M_B_P;
-const naginata_node_t PROGMEM naginata_node_B_Z_B_M;
-const naginata_node_t PROGMEM naginata_node_B_U_B_F;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_L_B_V;
-const naginata_node_t PROGMEM naginata_node_B_J_B_D;
-const naginata_node_t PROGMEM naginata_node_B_U_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_J_B_V;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_DOT;
-const naginata_node_t PROGMEM naginata_node_B_J_B_Z;
-const naginata_node_t PROGMEM naginata_node_B_M_B_K;
-const naginata_node_t PROGMEM naginata_node_B_O_B_R_B_M;
-const naginata_node_t PROGMEM naginata_node_B_N_B_L_B_F;
-const naginata_node_t PROGMEM naginata_node_B_G_B_O_B_M;
-const naginata_node_t PROGMEM naginata_node_B_O_B_V_B_L;
-const naginata_node_t PROGMEM naginata_node_B_D_B_P;
-const naginata_node_t PROGMEM naginata_node_B_E_B_M_B_K;
-const naginata_node_t PROGMEM naginata_node_B_L_B_F_B_K;
-const naginata_node_t PROGMEM naginata_node_B_O_B_G;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_N;
-const naginata_node_t PROGMEM naginata_node_B_E_B_P_B_J;
-const naginata_node_t PROGMEM naginata_node_B_N_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_V_B_O_B_K;
-const naginata_node_t PROGMEM naginata_node_B_L_B_D;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_B;
-const naginata_node_t PROGMEM naginata_node_B_O_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_H_B_D;
-const naginata_node_t PROGMEM naginata_node_B_K_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_U;
-const naginata_node_t PROGMEM naginata_node_B_J_B_P_B_R;
-const naginata_node_t PROGMEM naginata_node_B_L_B_J_B_F;
-const naginata_node_t PROGMEM naginata_node_B_J_B_X_B_I;
-const naginata_node_t PROGMEM naginata_node_B_V_B_SCLN_B_L;
-const naginata_node_t PROGMEM naginata_node_B_J_B_V_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_V_B_P;
-const naginata_node_t PROGMEM naginata_node_B_H_B_M_B_X;
-const naginata_node_t PROGMEM naginata_node_B_H_B_F_B_O;
-const naginata_node_t PROGMEM naginata_node_B_H_B_G;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_D;
-const naginata_node_t PROGMEM naginata_node_B_P_B_L;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_J;
-const naginata_node_t PROGMEM naginata_node_B_R;
-const naginata_node_t PROGMEM naginata_node_B_H_B_M;
-const naginata_node_t PROGMEM naginata_node_B_W_B_P;
-const naginata_node_t PROGMEM naginata_node_B_F_B_J;
-const naginata_node_t PROGMEM naginata_node_B_Z;
-const naginata_node_t PROGMEM naginata_node_B_K_B_V_B_O;
-const naginata_node_t PROGMEM naginata_node_B_K_B_J_B_E;
-const naginata_node_t PROGMEM naginata_node_B_X_B_J;
-const naginata_node_t PROGMEM naginata_node_B_R_B_J;
-const naginata_node_t PROGMEM naginata_node_B_J_B_A;
-const naginata_node_t PROGMEM naginata_node_B_V_B_P_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_V_B_N_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_H_B_J;
-const naginata_node_t PROGMEM naginata_node_B_D_B_L;
-const naginata_node_t PROGMEM naginata_node_B_E_B_J_B_P;
-const naginata_node_t PROGMEM naginata_node_B_P_B_J;
-const naginata_node_t PROGMEM naginata_node_B_N_B_L_B_V;
-const naginata_node_t PROGMEM naginata_node_B_M_B_I_B_X;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_J_B_V;
-const naginata_node_t PROGMEM naginata_node_B_G_B_H_B_J;
-const naginata_node_t PROGMEM naginata_node_B_O_B_M_B_R;
-const naginata_node_t PROGMEM naginata_node_B_C_B_M;
-const naginata_node_t PROGMEM naginata_node_B_P_B_F;
-const naginata_node_t PROGMEM naginata_node_B_F_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_C_B_J;
-const naginata_node_t PROGMEM naginata_node_B_X_B_M;
-const naginata_node_t PROGMEM naginata_node_B_X_B_P;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_V;
-const naginata_node_t PROGMEM naginata_node_B_J_B_C;
-const naginata_node_t PROGMEM naginata_node_B_H_B_N_B_F;
-const naginata_node_t PROGMEM naginata_node_B_G_B_J_B_P;
-const naginata_node_t PROGMEM naginata_node_B_E_B_K_B_M;
-const naginata_node_t PROGMEM naginata_node_B_P_B_X_B_J;
-const naginata_node_t PROGMEM naginata_node_B_H_B_J_B_X;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_O;
-const naginata_node_t PROGMEM naginata_node_B_G_B_P;
-const naginata_node_t PROGMEM naginata_node_B_I_B_R_B_J;
-const naginata_node_t PROGMEM naginata_node_B_M_B_P_B_X;
-const naginata_node_t PROGMEM naginata_node_B_COMM;
-const naginata_node_t PROGMEM naginata_node_B_F;
-const naginata_node_t PROGMEM naginata_node_B_G_B_J_B_O;
-const naginata_node_t PROGMEM naginata_node_B_H_B_V;
-const naginata_node_t PROGMEM naginata_node_B_F_B_L_B_N;
-const naginata_node_t PROGMEM naginata_node_B_D_B_I;
-const naginata_node_t PROGMEM naginata_node_B_P_B_D;
-const naginata_node_t PROGMEM naginata_node_B_A_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_L_B_O;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_S;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_B;
-const naginata_node_t PROGMEM naginata_node_B_V_B_P;
-const naginata_node_t PROGMEM naginata_node_B_G_B_P_B_J;
-const naginata_node_t PROGMEM naginata_node_B_I_B_J_B_W;
-const naginata_node_t PROGMEM naginata_node_B_K_B_L_B_F;
-const naginata_node_t PROGMEM naginata_node_B_V_B_J_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_O_B_F_B_H;
-const naginata_node_t PROGMEM naginata_node_B_H_B_J_B_F;
-const naginata_node_t PROGMEM naginata_node_B_L_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_U_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_K_B_H_B_V;
-const naginata_node_t PROGMEM naginata_node_B_W_B_P_B_J;
-const naginata_node_t PROGMEM naginata_node_B_S_B_J;
-const naginata_node_t PROGMEM naginata_node_B_F_B_L_B_P;
-const naginata_node_t PROGMEM naginata_node_B_M_B_Z;
-const naginata_node_t PROGMEM naginata_node_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_X_B_J_B_P;
-const naginata_node_t PROGMEM naginata_node_B_M;
-const naginata_node_t PROGMEM naginata_node_B_P_B_M;
-const naginata_node_t PROGMEM naginata_node_B_K_B_E_B_M;
-const naginata_node_t PROGMEM naginata_node_B_M_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_N_B_F_B_H;
-const naginata_node_t PROGMEM naginata_node_B_V_B_SCLN_B_J;
-const naginata_node_t PROGMEM naginata_node_B_J_B_B;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_L_B_N_B_F;
-const naginata_node_t PROGMEM naginata_node_B_O_B_L;
-const naginata_node_t PROGMEM naginata_node_B_L_B_P_B_F;
-const naginata_node_t PROGMEM naginata_node_B_V_B_L_B_SCLN;
-const naginata_node_t PROGMEM naginata_node_B_H_B_X_B_M;
-const naginata_node_t PROGMEM naginata_node_B_D_B_M;
-const naginata_node_t PROGMEM naginata_node_B_J_B_H_B_R;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_P_B_V;
-const naginata_node_t PROGMEM naginata_node_B_RS2_B_P;
-const naginata_node_t PROGMEM naginata_node_B_L_B_O_B_F;
-const naginata_node_t PROGMEM naginata_node_B_N_B_V_B_L;
-const naginata_node_t PROGMEM naginata_node_B_V_B_L_B_K;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_V_B_J;
-const naginata_node_t PROGMEM naginata_node_B_C_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_F_B_O_B_H;
-const naginata_node_t PROGMEM naginata_node_B_M_B_L_B_D;
-const naginata_node_t PROGMEM naginata_node_B_W_B_J;
-const naginata_node_t PROGMEM naginata_node_B_LS2_B_C;
-const naginata_node_t PROGMEM naginata_node_B_R_B_H;
-const naginata_node_t PROGMEM naginata_node_B_I_B_RS2;
-const naginata_node_t PROGMEM naginata_node_B_SCLN_B_V_B_K;
-const naginata_node_t PROGMEM naginata_node_B_M_B_G;
-const naginata_node_t PROGMEM naginata_node_B_Q_B_O;
-const naginata_node_t PROGMEM naginata_node_B_J_B_G_B_O;
-const naginata_node_t PROGMEM naginata_node_B_Q_B_J;
-const naginata_node_t PROGMEM naginata_node_B_S_B_LS2;
-const naginata_node_t PROGMEM naginata_node_B_H_B_K_B_F;
-const naginata_node_t PROGMEM naginata_node_B_J_B_O;
-const naginata_node_t PROGMEM naginata_node_B_O_B_V_B_K;
-const naginata_node_t PROGMEM naginata_node_B_N_B_F_B_L;
-const naginata_node_t PROGMEM naginata_node_B_H_B_V_B_N;
+const naginata_node_t naginata_node_B_SCLN;
+const naginata_node_t naginata_node_B_L_B_K;
+const naginata_node_t naginata_node_B_O_B_V_B_L;
+const naginata_node_t naginata_node_B_I_B_J_B_G;
+const naginata_node_t naginata_node_B_J_B_K_B_G;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_D;
+const naginata_node_t naginata_node_B_L_B_F_B_K;
+const naginata_node_t naginata_node_B_N_B_H;
+const naginata_node_t naginata_node_B_F_B_L_B_O;
+const naginata_node_t naginata_node_B_O_B_L;
+const naginata_node_t naginata_node_B_K_B_L;
+const naginata_node_t naginata_node_B_J_B_W;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_C;
+const naginata_node_t naginata_node_B_J_B_R_B_O;
+const naginata_node_t naginata_node_B_J_B_K;
+const naginata_node_t naginata_node_B_K_B_M;
+const naginata_node_t naginata_node_B_H_B_X;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_Q;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_I;
+const naginata_node_t naginata_node_B_L_B_N_B_V;
+const naginata_node_t naginata_node_B_J_B_K_B_R;
+const naginata_node_t naginata_node_B_L_B_F_B_N;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_E;
+const naginata_node_t naginata_node_B_N_B_V;
+const naginata_node_t naginata_node_B_H_B_J_B_X;
+const naginata_node_t naginata_node_B_V_B_K_B_O;
+const naginata_node_t naginata_node_B_LS2_B_N;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_W;
+const naginata_node_t naginata_node_B_J_B_W_B_I;
+const naginata_node_t naginata_node_B_J_B_W_B_P;
+const naginata_node_t naginata_node_B_F_B_LS2;
+const naginata_node_t naginata_node_B_H_B_F;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_W;
+const naginata_node_t naginata_node_B_F_B_D_B_U;
+const naginata_node_t naginata_node_B_K_B_J_B_R;
+const naginata_node_t naginata_node_B_L_B_D;
+const naginata_node_t naginata_node_B_M_B_X_B_P;
+const naginata_node_t naginata_node_B_O_B_M;
+const naginata_node_t naginata_node_B_RS2_B_S;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_O;
+const naginata_node_t naginata_node_B_P_B_LS2;
+const naginata_node_t naginata_node_B_P_B_F_B_L;
+const naginata_node_t naginata_node_B_K_B_O_B_V;
+const naginata_node_t naginata_node_B_J_B_P_B_X;
+const naginata_node_t naginata_node_B_D_B_J;
+const naginata_node_t naginata_node_B_R_B_H;
+const naginata_node_t naginata_node_B_E_B_W;
+const naginata_node_t naginata_node_B_S_B_LS2;
+const naginata_node_t naginata_node_B_G_B_J_B_O;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_M;
+const naginata_node_t naginata_node_B_U_B_F;
+const naginata_node_t naginata_node_B_Q_B_H;
+const naginata_node_t naginata_node_B_M_B_E_B_P;
+const naginata_node_t naginata_node_B_R_B_I;
+const naginata_node_t naginata_node_B_J_B_H_B_F;
+const naginata_node_t naginata_node_B_SCLN_B_V_B_N;
+const naginata_node_t naginata_node_B_V_B_L_B_J;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_X;
+const naginata_node_t naginata_node_B_U;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_COMM;
+const naginata_node_t naginata_node_B_W_B_RS2;
+const naginata_node_t naginata_node_B_LS2_B_R;
+const naginata_node_t naginata_node_B_LS2_B_DOT;
+const naginata_node_t naginata_node_B_H_B_F_B_N;
+const naginata_node_t naginata_node_B_J_B_L_B_D;
+const naginata_node_t naginata_node_B_D_B_L;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_DOT;
+const naginata_node_t naginata_node_B_H_B_N_B_V;
+const naginata_node_t naginata_node_B_G_B_P_B_J;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_SCLN;
+const naginata_node_t naginata_node_B_V_B_H_B_N;
+const naginata_node_t naginata_node_B_D;
+const naginata_node_t naginata_node_B_F;
+const naginata_node_t naginata_node_B_J_B_SCLN_B_V;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_X;
+const naginata_node_t naginata_node_B_I_B_G;
+const naginata_node_t naginata_node_B_H_B_G;
+const naginata_node_t naginata_node_B_H_B_V_B_O;
+const naginata_node_t naginata_node_B_M_B_G;
+const naginata_node_t naginata_node_B_SCLN_B_LS2;
+const naginata_node_t naginata_node_B_F_B_H_B_N;
+const naginata_node_t naginata_node_B_O_B_J;
+const naginata_node_t naginata_node_B_H_B_W;
+const naginata_node_t naginata_node_B_L_B_RS2;
+const naginata_node_t naginata_node_B_K_B_H_B_F;
+const naginata_node_t naginata_node_B_SCLN_B_V_B_K;
+const naginata_node_t naginata_node_B_F_B_L_B_P;
+const naginata_node_t naginata_node_B_L_B_V_B_SCLN;
+const naginata_node_t naginata_node_B_P_B_V_B_SCLN;
+const naginata_node_t naginata_node_B_L_B_J;
+const naginata_node_t naginata_node_B_H_B_V_B_J;
+const naginata_node_t naginata_node_B_N_B_L_B_F;
+const naginata_node_t naginata_node_B_N_B_V_B_SCLN;
+const naginata_node_t naginata_node_B_O_B_LS2;
+const naginata_node_t naginata_node_B_H_B_O_B_V;
+const naginata_node_t naginata_node_B_H_B_V_B_N;
+const naginata_node_t naginata_node_B_J_B_G_B_I;
+const naginata_node_t naginata_node_B_V_B_SCLN;
+const naginata_node_t naginata_node_B_L_B_V_B_N;
+const naginata_node_t naginata_node_B_P_B_J_B_X;
+const naginata_node_t naginata_node_B_N_B_RS2;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_S;
+const naginata_node_t naginata_node_B_LS2_B_P;
+const naginata_node_t naginata_node_B_V_B_K_B_L;
+const naginata_node_t naginata_node_B_P_B_X;
+const naginata_node_t naginata_node_B_I_B_X;
+const naginata_node_t naginata_node_B_RS2_B_L;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_K;
+const naginata_node_t naginata_node_B_J_B_I_B_W;
+const naginata_node_t naginata_node_B_N_B_F_B_H;
+const naginata_node_t naginata_node_B_M_B_E_B_K;
+const naginata_node_t naginata_node_B_P_B_J_B_R;
+const naginata_node_t naginata_node_B_O_B_F_B_L;
+const naginata_node_t naginata_node_B_F_B_N_B_H;
+const naginata_node_t naginata_node_B_G_B_J_B_P;
+const naginata_node_t naginata_node_B_DOT_B_RS2;
+const naginata_node_t naginata_node_B_V_B_L_B_K;
+const naginata_node_t naginata_node_B_RS2_B_D;
+const naginata_node_t naginata_node_B_P_B_J;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_Y;
+const naginata_node_t naginata_node_B_G_B_H;
+const naginata_node_t naginata_node_B_SCLN_B_P_B_V;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_Y;
+const naginata_node_t naginata_node_B_H;
+const naginata_node_t naginata_node_B_RS2_B_SCLN;
+const naginata_node_t naginata_node_B_M_B_C;
+const naginata_node_t naginata_node_B_E_B_K_B_J;
+const naginata_node_t naginata_node_B_J_B_H;
+const naginata_node_t naginata_node_B_Y;
+const naginata_node_t naginata_node_B_LS2_B_O;
+const naginata_node_t naginata_node_B_Q_B_N;
+const naginata_node_t naginata_node_B_H_B_N_B_F;
+const naginata_node_t naginata_node_B_W_B_I;
+const naginata_node_t naginata_node_B_SCLN_B_N;
+const naginata_node_t naginata_node_B_LS2_B_M;
+const naginata_node_t naginata_node_B_K_B_L_B_V;
+const naginata_node_t naginata_node_B_Z_B_M;
+const naginata_node_t naginata_node_B_F_B_L_B_J;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_L;
+const naginata_node_t naginata_node_B_I_B_J;
+const naginata_node_t naginata_node_B_M_B_R_B_O;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_G;
+const naginata_node_t naginata_node_B_O_B_J_B_R;
+const naginata_node_t naginata_node_B_J_B_I_B_G;
+const naginata_node_t naginata_node_B_X_B_H_B_M;
+const naginata_node_t naginata_node_B_W_B_I_B_J;
+const naginata_node_t naginata_node_B_J_B_L;
+const naginata_node_t naginata_node_B_J_B_X_B_I;
+const naginata_node_t naginata_node_B_Q_B_P;
+const naginata_node_t naginata_node_B_J_B_Z;
+const naginata_node_t naginata_node_B_COMM;
+const naginata_node_t naginata_node_B_H_B_J_B_G;
+const naginata_node_t naginata_node_B_J_B_H_B_W;
+const naginata_node_t naginata_node_B_I_B_RS2;
+const naginata_node_t naginata_node_B_I_B_J_B_W;
+const naginata_node_t naginata_node_B_J_B_L_B_F;
+const naginata_node_t naginata_node_B_R_B_J;
+const naginata_node_t naginata_node_B_I_B_D;
+const naginata_node_t naginata_node_B_L_B_D_B_J;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_O;
+const naginata_node_t naginata_node_B_F_B_O;
+const naginata_node_t naginata_node_B_P_B_E;
+const naginata_node_t naginata_node_B_J_B_G_B_H;
+const naginata_node_t naginata_node_B_O_B_R_B_J;
+const naginata_node_t naginata_node_B_O_B_G_B_J;
+const naginata_node_t naginata_node_B_O_B_G_B_M;
+const naginata_node_t naginata_node_B_SCLN_B_K;
+const naginata_node_t naginata_node_B_G_B_P;
+const naginata_node_t naginata_node_B_D_B_L_B_M;
+const naginata_node_t naginata_node_B_V;
+const naginata_node_t naginata_node_B_N_B_L;
+const naginata_node_t naginata_node_B_R_B_P;
+const naginata_node_t naginata_node_B_V_B_K;
+const naginata_node_t naginata_node_B_RS2_B_E;
+const naginata_node_t naginata_node_B_I_B_W_B_J;
+const naginata_node_t naginata_node_B_F_B_H_B_K;
+const naginata_node_t naginata_node_B_K_B_V_B_H;
+const naginata_node_t naginata_node_B_H_B_R_B_J;
+const naginata_node_t naginata_node_B_O_B_K;
+const naginata_node_t naginata_node_B_LS2_B_C;
+const naginata_node_t naginata_node_B_D_B_F_B_U;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_H;
+const naginata_node_t naginata_node_B_LS2_B_J;
+const naginata_node_t naginata_node_B_L_B_O;
+const naginata_node_t naginata_node_B_X_B_J;
+const naginata_node_t naginata_node_B_F_B_RS2;
+const naginata_node_t naginata_node_B_LS2_B_I;
+const naginata_node_t naginata_node_B_A;
+const naginata_node_t naginata_node_B_P_B_M;
+const naginata_node_t naginata_node_B_O_B_H_B_V;
+const naginata_node_t naginata_node_B_LS2_B_K;
+const naginata_node_t naginata_node_B_V_B_N_B_L;
+const naginata_node_t naginata_node_B_V_B_SCLN_B_J;
+const naginata_node_t naginata_node_B_M_B_X_B_H;
+const naginata_node_t naginata_node_B_N_B_SCLN;
+const naginata_node_t naginata_node_B_J_B_R;
+const naginata_node_t naginata_node_B_K_B_V_B_L;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_J;
+const naginata_node_t naginata_node_B_L_B_D_B_M;
+const naginata_node_t naginata_node_B_RS2_B_C;
+const naginata_node_t naginata_node_B_RS2_B_H;
+const naginata_node_t naginata_node_B_N_B_LS2;
+const naginata_node_t naginata_node_B_P_B_J_B_W;
+const naginata_node_t naginata_node_B_D_B_F_B_Y;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_L;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_N;
+const naginata_node_t naginata_node_B_J_B_B;
+const naginata_node_t naginata_node_B_I_B_J_B_R;
+const naginata_node_t naginata_node_B_I_B_E;
+const naginata_node_t naginata_node_B_I_B_M;
+const naginata_node_t naginata_node_B_L_B_N_B_F;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_H;
+const naginata_node_t naginata_node_B_F_B_D_B_O;
+const naginata_node_t naginata_node_B_J_B_K_B_W;
+const naginata_node_t naginata_node_B_N_B_V_B_H;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_V;
+const naginata_node_t naginata_node_B_G_B_J_B_I;
+const naginata_node_t naginata_node_B_M_B_D;
+const naginata_node_t naginata_node_B_SCLN_B_V_B_J;
+const naginata_node_t naginata_node_B_L_B_F_B_P;
+const naginata_node_t naginata_node_B_X_B_J_B_H;
+const naginata_node_t naginata_node_B_J_B_X_B_H;
+const naginata_node_t naginata_node_B_X_B_M_B_P;
+const naginata_node_t naginata_node_B_S_B_J;
+const naginata_node_t naginata_node_B_J_B_P_B_E;
+const naginata_node_t naginata_node_B_O_B_H_B_F;
+const naginata_node_t naginata_node_B_DOT;
+const naginata_node_t naginata_node_B_V_B_P;
+const naginata_node_t naginata_node_B_P_B_L_B_F;
+const naginata_node_t naginata_node_B_F_B_L_B_N;
+const naginata_node_t naginata_node_B_SCLN_B_J;
+const naginata_node_t naginata_node_B_L_B_F_B_O;
+const naginata_node_t naginata_node_B_M_B_H_B_X;
+const naginata_node_t naginata_node_B_E_B_M_B_K;
+const naginata_node_t naginata_node_B_V_B_H;
+const naginata_node_t naginata_node_B_X_B_P_B_M;
+const naginata_node_t naginata_node_B_C_B_J;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_S;
+const naginata_node_t naginata_node_B_L_B_O_B_V;
+const naginata_node_t naginata_node_B_J_B_E_B_K;
+const naginata_node_t naginata_node_B_W_B_E;
+const naginata_node_t naginata_node_B_LS2_B_V;
+const naginata_node_t naginata_node_B_N_B_H_B_V;
+const naginata_node_t naginata_node_B_H_B_K_B_F;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_G;
+const naginata_node_t naginata_node_B_Q_B_I;
+const naginata_node_t naginata_node_B_V_B_L_B_SCLN;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_COMM;
+const naginata_node_t naginata_node_B_E_B_J_B_P;
+const naginata_node_t naginata_node_B_P_B_B;
+const naginata_node_t naginata_node_B_SCLN_B_P;
+const naginata_node_t naginata_node_B_W_B_J;
+const naginata_node_t naginata_node_B_I_B_R;
+const naginata_node_t naginata_node_B_R_B_M;
+const naginata_node_t naginata_node_B_LS2_B_S;
+const naginata_node_t naginata_node_B_J_B_F_B_H;
+const naginata_node_t naginata_node_B_F_B_D;
+const naginata_node_t naginata_node_B_R_B_O_B_J;
+const naginata_node_t naginata_node_B_P;
+const naginata_node_t naginata_node_B_O_B_L_B_F;
+const naginata_node_t naginata_node_B_G;
+const naginata_node_t naginata_node_B_F_B_K;
+const naginata_node_t naginata_node_B_V_B_H_B_J;
+const naginata_node_t naginata_node_B_V_B_K_B_H;
+const naginata_node_t naginata_node_B_K_B_L_B_F;
+const naginata_node_t naginata_node_B_M_B_X;
+const naginata_node_t naginata_node_B_B_B_J;
+const naginata_node_t naginata_node_B_B_B_P;
+const naginata_node_t naginata_node_B_J_B_V_B_L;
+const naginata_node_t naginata_node_B_F_B_J;
+const naginata_node_t naginata_node_B_L_B_LS2;
+const naginata_node_t naginata_node_B_X_B_M_B_I;
+const naginata_node_t naginata_node_B_K_B_J;
+const naginata_node_t naginata_node_B_B;
+const naginata_node_t naginata_node_B_H_B_O;
+const naginata_node_t naginata_node_B_W_B_H;
+const naginata_node_t naginata_node_B_K_B_H_B_V;
+const naginata_node_t naginata_node_B_X_B_M_B_H;
+const naginata_node_t naginata_node_B_R_B_O;
+const naginata_node_t naginata_node_B_M_B_L_B_D;
+const naginata_node_t naginata_node_B_LS2;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_T;
+const naginata_node_t naginata_node_B_E_B_H;
+const naginata_node_t naginata_node_B_E;
+const naginata_node_t naginata_node_B_K;
+const naginata_node_t naginata_node_B_J_B_E;
+const naginata_node_t naginata_node_B_M_B_R;
+const naginata_node_t naginata_node_B_SCLN_B_L;
+const naginata_node_t naginata_node_B_M_B_K_B_E;
+const naginata_node_t naginata_node_B_E_B_LS2;
+const naginata_node_t naginata_node_B_SCLN_B_RS2;
+const naginata_node_t naginata_node_B_T;
+const naginata_node_t naginata_node_B_V_B_O_B_L;
+const naginata_node_t naginata_node_B_L_B_N;
+const naginata_node_t naginata_node_B_P_B_G;
+const naginata_node_t naginata_node_B_I_B_B;
+const naginata_node_t naginata_node_B_G_B_F;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_R;
+const naginata_node_t naginata_node_B_SLSH;
+const naginata_node_t naginata_node_B_X_B_I_B_J;
+const naginata_node_t naginata_node_B_X_B_J_B_I;
+const naginata_node_t naginata_node_B_O_B_F_B_H;
+const naginata_node_t naginata_node_B_I_B_W;
+const naginata_node_t naginata_node_B_L_B_V_B_O;
+const naginata_node_t naginata_node_B_J_B_D;
+const naginata_node_t naginata_node_B_F_B_O_B_L;
+const naginata_node_t naginata_node_B_O_B_R;
+const naginata_node_t naginata_node_B_M_B_P_B_X;
+const naginata_node_t naginata_node_B_DOT_B_LS2;
+const naginata_node_t naginata_node_B_F_B_D_B_I;
+const naginata_node_t naginata_node_B_L_B_J_B_V;
+const naginata_node_t naginata_node_B_V_B_LS2;
+const naginata_node_t naginata_node_B_J_B_W_B_H;
+const naginata_node_t naginata_node_B_H_B_J_B_V;
+const naginata_node_t naginata_node_B_V_B_N_B_SCLN;
+const naginata_node_t naginata_node_B_L_B_SCLN;
+const naginata_node_t naginata_node_B_S_B_RS2;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_J;
+const naginata_node_t naginata_node_B_J_B_P_B_R;
+const naginata_node_t naginata_node_B_M_B_Z;
+const naginata_node_t naginata_node_B_RS2_B_M;
+const naginata_node_t naginata_node_B_J_B_K_B_Q;
+const naginata_node_t naginata_node_B_COMM_B_LS2;
+const naginata_node_t naginata_node_B_R_B_O_B_M;
+const naginata_node_t naginata_node_B_H_B_V;
+const naginata_node_t naginata_node_B_H_B_F_B_O;
+const naginata_node_t naginata_node_B_COMM_B_RS2;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_F;
+const naginata_node_t naginata_node_B_F_B_H_B_J;
+const naginata_node_t naginata_node_B_E_B_M;
+const naginata_node_t naginata_node_B_F_B_D_B_H;
+const naginata_node_t naginata_node_B_RS2_B_V;
+const naginata_node_t naginata_node_B_V_B_L;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_N;
+const naginata_node_t naginata_node_B_O;
+const naginata_node_t naginata_node_B_E_B_P;
+const naginata_node_t naginata_node_B_RS2_B_J;
+const naginata_node_t naginata_node_B_O_B_R_B_M;
+const naginata_node_t naginata_node_B_P_B_X_B_J;
+const naginata_node_t naginata_node_B_M_B_LS2;
+const naginata_node_t naginata_node_B_G_B_I_B_J;
+const naginata_node_t naginata_node_B_C;
+const naginata_node_t naginata_node_B_RS2_B_DOT;
+const naginata_node_t naginata_node_B_G_B_LS2;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_F;
+const naginata_node_t naginata_node_B_E_B_P_B_M;
+const naginata_node_t naginata_node_B_F_B_K_B_L;
+const naginata_node_t naginata_node_B_R_B_J_B_O;
+const naginata_node_t naginata_node_B_P_B_RS2;
+const naginata_node_t naginata_node_B_V_B_N_B_H;
+const naginata_node_t naginata_node_B_RS2_B_LS2;
+const naginata_node_t naginata_node_B_H_B_F_B_K;
+const naginata_node_t naginata_node_B_L_B_V_B_K;
+const naginata_node_t naginata_node_B_H_B_K_B_V;
+const naginata_node_t naginata_node_B_O_B_G;
+const naginata_node_t naginata_node_B_K_B_J_B_T;
+const naginata_node_t naginata_node_B_E_B_J;
+const naginata_node_t naginata_node_B_V_B_H_B_K;
+const naginata_node_t naginata_node_B_J_B_I_B_R;
+const naginata_node_t naginata_node_B_P_B_R_B_J;
+const naginata_node_t naginata_node_B_P_B_E_B_J;
+const naginata_node_t naginata_node_B_Q_B_K;
+const naginata_node_t naginata_node_B_J_B_R_B_P;
+const naginata_node_t naginata_node_B_P_B_J_B_E;
+const naginata_node_t naginata_node_B_V_B_SCLN_B_N;
+const naginata_node_t naginata_node_B_E_B_K_B_M;
+const naginata_node_t naginata_node_B_V_B_N;
+const naginata_node_t naginata_node_B_L_B_O_B_F;
+const naginata_node_t naginata_node_B_O_B_L_B_V;
+const naginata_node_t naginata_node_B_E_B_J_B_K;
+const naginata_node_t naginata_node_B_H_B_D;
+const naginata_node_t naginata_node_B_I_B_J_B_X;
+const naginata_node_t naginata_node_B_N_B_SCLN_B_V;
+const naginata_node_t naginata_node_B_R_B_J_B_I;
+const naginata_node_t naginata_node_B_G_B_H_B_J;
+const naginata_node_t naginata_node_B_W_B_P_B_J;
+const naginata_node_t naginata_node_B_I_B_M_B_X;
+const naginata_node_t naginata_node_B_F_B_P_B_L;
+const naginata_node_t naginata_node_B_L_B_V;
+const naginata_node_t naginata_node_B_V_B_SCLN_B_P;
+const naginata_node_t naginata_node_B_K_B_E;
+const naginata_node_t naginata_node_B_J_B_G;
+const naginata_node_t naginata_node_B_J_B_SCLN;
+const naginata_node_t naginata_node_B_N;
+const naginata_node_t naginata_node_B_RS2_B_N;
+const naginata_node_t naginata_node_B_J_B_RS2;
+const naginata_node_t naginata_node_B_V_B_J;
+const naginata_node_t naginata_node_B_H_B_J_B_F;
+const naginata_node_t naginata_node_B_K_B_J_B_Q;
+const naginata_node_t naginata_node_B_H_B_X_B_J;
+const naginata_node_t naginata_node_B_R_B_RS2;
+const naginata_node_t naginata_node_B_W;
+const naginata_node_t naginata_node_B_V_B_J_B_H;
+const naginata_node_t naginata_node_B_B_B_I;
+const naginata_node_t naginata_node_B_J_B_R_B_I;
+const naginata_node_t naginata_node_B_SCLN_B_J_B_V;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_A;
+const naginata_node_t naginata_node_B_C_B_RS2;
+const naginata_node_t naginata_node_B_P_B_SCLN_B_V;
+const naginata_node_t naginata_node_B_J_B_F;
+const naginata_node_t naginata_node_B_SCLN_B_F;
+const naginata_node_t naginata_node_B_SCLN_B_V_B_P;
+const naginata_node_t naginata_node_B_J_B_D_B_L;
+const naginata_node_t naginata_node_B_F_B_H;
+const naginata_node_t naginata_node_B_LS2_B_L;
+const naginata_node_t naginata_node_B_J_B_S;
+const naginata_node_t naginata_node_B_P_B_W_B_J;
+const naginata_node_t naginata_node_B_K_B_H;
+const naginata_node_t naginata_node_B_R_B_P_B_J;
+const naginata_node_t naginata_node_B_X_B_M;
+const naginata_node_t naginata_node_B_X_B_H;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_K;
+const naginata_node_t naginata_node_B_H_B_K;
+const naginata_node_t naginata_node_B_W_B_J_B_P;
+const naginata_node_t naginata_node_B_J_B_H_B_R;
+const naginata_node_t naginata_node_B_SCLN_B_N_B_V;
+const naginata_node_t naginata_node_B_O_B_K_B_V;
+const naginata_node_t naginata_node_B_Q_B_O;
+const naginata_node_t naginata_node_B_G_B_M_B_O;
+const naginata_node_t naginata_node_B_H_B_J_B_R;
+const naginata_node_t naginata_node_B_H_B_E;
+const naginata_node_t naginata_node_B_J_B_O_B_G;
+const naginata_node_t naginata_node_B_H_B_N;
+const naginata_node_t naginata_node_B_F_B_P;
+const naginata_node_t naginata_node_B_N_B_F;
+const naginata_node_t naginata_node_B_V_B_O;
+const naginata_node_t naginata_node_B_RS2_B_I;
+const naginata_node_t naginata_node_B_L_B_J_B_D;
+const naginata_node_t naginata_node_B_K_B_SCLN;
+const naginata_node_t naginata_node_B_G_B_J;
+const naginata_node_t naginata_node_B_J_B_H_B_X;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_C;
+const naginata_node_t naginata_node_B_D_B_P;
+const naginata_node_t naginata_node_B_D_B_M;
+const naginata_node_t naginata_node_B_F_B_H_B_O;
+const naginata_node_t naginata_node_B_H_B_J;
+const naginata_node_t naginata_node_B_N_B_V_B_L;
+const naginata_node_t naginata_node_B_RS2_B_COMM;
+const naginata_node_t naginata_node_B_W_B_P;
+const naginata_node_t naginata_node_B_LS2_B_H;
+const naginata_node_t naginata_node_B_L_B_P_B_F;
+const naginata_node_t naginata_node_B_RS2_B_U;
+const naginata_node_t naginata_node_B_RS2_B_R;
+const naginata_node_t naginata_node_B_M_B_K;
+const naginata_node_t naginata_node_B_X_B_P_B_J;
+const naginata_node_t naginata_node_B_V_B_RS2;
+const naginata_node_t naginata_node_B_M_B_H;
+const naginata_node_t naginata_node_B_L_B_SCLN_B_V;
+const naginata_node_t naginata_node_B_LS2_B_W;
+const naginata_node_t naginata_node_B_J_B_H_B_G;
+const naginata_node_t naginata_node_B_RS2_B_A;
+const naginata_node_t naginata_node_B_Q_B_J;
+const naginata_node_t naginata_node_B_L_B_J_B_F;
+const naginata_node_t naginata_node_B_J_B_X;
+const naginata_node_t naginata_node_B_M_B_I_B_X;
+const naginata_node_t naginata_node_B_M_B_X_B_I;
+const naginata_node_t naginata_node_B_RS2;
+const naginata_node_t naginata_node_B_RS2_B_W;
+const naginata_node_t naginata_node_B_I_B_R_B_J;
+const naginata_node_t naginata_node_B_J_B_F_B_L;
+const naginata_node_t naginata_node_B_P_B_D;
+const naginata_node_t naginata_node_B_SCLN_B_V;
+const naginata_node_t naginata_node_B_F_B_N;
+const naginata_node_t naginata_node_B_O_B_F;
+const naginata_node_t naginata_node_B_P_B_R;
+const naginata_node_t naginata_node_B_P_B_E_B_M;
+const naginata_node_t naginata_node_B_G_B_I;
+const naginata_node_t naginata_node_B_R_B_LS2;
+const naginata_node_t naginata_node_B_K_B_V_B_SCLN;
+const naginata_node_t naginata_node_B_B_B_H;
+const naginata_node_t naginata_node_B_X_B_H_B_J;
+const naginata_node_t naginata_node_B_P_B_J_B_G;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_U;
+const naginata_node_t naginata_node_B_G_B_RS2;
+const naginata_node_t naginata_node_B_P_B_V;
+const naginata_node_t naginata_node_B_H_B_W_B_J;
+const naginata_node_t naginata_node_B_K_B_F_B_H;
+const naginata_node_t naginata_node_B_LS2_B_G;
+const naginata_node_t naginata_node_B_SCLN_B_V_B_L;
+const naginata_node_t naginata_node_B_D_B_RS2;
+const naginata_node_t naginata_node_B_K_B_RS2;
+const naginata_node_t naginata_node_B_J_B_V_B_SCLN;
+const naginata_node_t naginata_node_B_C_B_LS2;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_V;
+const naginata_node_t naginata_node_B_F_B_L_B_K;
+const naginata_node_t naginata_node_B_K_B_E_B_J;
+const naginata_node_t naginata_node_B_A_B_J;
+const naginata_node_t naginata_node_B_J_B_O;
+const naginata_node_t naginata_node_B_J_B_K_B_E;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_I;
+const naginata_node_t naginata_node_B_P_B_W;
+const naginata_node_t naginata_node_B_K_B_J_B_W;
+const naginata_node_t naginata_node_B_L_B_K_B_V;
+const naginata_node_t naginata_node_B_X_B_J_B_P;
+const naginata_node_t naginata_node_B_G_B_O_B_M;
+const naginata_node_t naginata_node_B_K_B_E_B_M;
+const naginata_node_t naginata_node_B_L_B_P;
+const naginata_node_t naginata_node_B_A_B_LS2;
+const naginata_node_t naginata_node_B_V_B_O_B_H;
+const naginata_node_t naginata_node_B_D_B_I;
+const naginata_node_t naginata_node_B_D_B_F;
+const naginata_node_t naginata_node_B_S;
+const naginata_node_t naginata_node_B_J_B_H_B_V;
+const naginata_node_t naginata_node_B_RS2_B_B;
+const naginata_node_t naginata_node_B_W_B_LS2;
+const naginata_node_t naginata_node_B_L;
+const naginata_node_t naginata_node_B_J_B_A;
+const naginata_node_t naginata_node_B_RS2_B_G;
+const naginata_node_t naginata_node_B_D_B_L_B_J;
+const naginata_node_t naginata_node_B_RS2_B_F;
+const naginata_node_t naginata_node_B_M_B_G_B_O;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_E;
+const naginata_node_t naginata_node_B_D_B_F_B_P;
+const naginata_node_t naginata_node_B_O_B_V;
+const naginata_node_t naginata_node_B_I_B_G_B_J;
+const naginata_node_t naginata_node_B_H_B_B;
+const naginata_node_t naginata_node_B_V_B_K_B_SCLN;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_R;
+const naginata_node_t naginata_node_B_Z_B_J;
+const naginata_node_t naginata_node_B_K_B_J_B_E;
+const naginata_node_t naginata_node_B_E_B_I;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_SCLN;
+const naginata_node_t naginata_node_B_P_B_L;
+const naginata_node_t naginata_node_B_O_B_M_B_R;
+const naginata_node_t naginata_node_B_J_B_V_B_H;
+const naginata_node_t naginata_node_B_W_B_J_B_I;
+const naginata_node_t naginata_node_B_K_B_M_B_E;
+const naginata_node_t naginata_node_B_H_B_X_B_M;
+const naginata_node_t naginata_node_B_H_B_O_B_F;
+const naginata_node_t naginata_node_B_M_B_E;
+const naginata_node_t naginata_node_B_R_B_J_B_P;
+const naginata_node_t naginata_node_B_P_B_SCLN;
+const naginata_node_t naginata_node_B_M_B_P_B_E;
+const naginata_node_t naginata_node_B_D_B_LS2;
+const naginata_node_t naginata_node_B_K_B_F_B_L;
+const naginata_node_t naginata_node_B_A_B_RS2;
+const naginata_node_t naginata_node_B_C_B_M;
+const naginata_node_t naginata_node_B_H_B_R;
+const naginata_node_t naginata_node_B_J_B_P_B_W;
+const naginata_node_t naginata_node_B_J_B_I_B_X;
+const naginata_node_t naginata_node_B_L_B_F_B_J;
+const naginata_node_t naginata_node_B_M_B_P;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_M;
+const naginata_node_t naginata_node_B_D_B_F_B_H;
+const naginata_node_t naginata_node_B_R_B_J_B_H;
+const naginata_node_t naginata_node_B_V_B_J_B_SCLN;
+const naginata_node_t naginata_node_B_O_B_V_B_K;
+const naginata_node_t naginata_node_B_P_B_M_B_E;
+const naginata_node_t naginata_node_B_K_B_O;
+const naginata_node_t naginata_node_B_M;
+const naginata_node_t naginata_node_B_G_B_O;
+const naginata_node_t naginata_node_B_O_B_M_B_G;
+const naginata_node_t naginata_node_B_L_B_F;
+const naginata_node_t naginata_node_B_LS2_B_A;
+const naginata_node_t naginata_node_B_Q_B_L;
+const naginata_node_t naginata_node_B_RS2_B_O;
+const naginata_node_t naginata_node_B_E_B_RS2;
+const naginata_node_t naginata_node_B_M_B_D_B_L;
+const naginata_node_t naginata_node_B_P_B_X_B_M;
+const naginata_node_t naginata_node_B_LS2_B_B;
+const naginata_node_t naginata_node_B_O_B_J_B_G;
+const naginata_node_t naginata_node_B_J_B_I;
+const naginata_node_t naginata_node_B_H_B_J_B_W;
+const naginata_node_t naginata_node_B_F_B_D_B_Y;
+const naginata_node_t naginata_node_B_X_B_I;
+const naginata_node_t naginata_node_B_L_B_V_B_J;
+const naginata_node_t naginata_node_B_H_B_G_B_J;
+const naginata_node_t naginata_node_B_V_B_SCLN_B_K;
+const naginata_node_t naginata_node_B_P_B_G_B_J;
+const naginata_node_t naginata_node_B_J_B_C;
+const naginata_node_t naginata_node_B_M_B_O_B_G;
+const naginata_node_t naginata_node_B_G_B_O_B_J;
+const naginata_node_t naginata_node_B_X;
+const naginata_node_t naginata_node_B_Q;
+const naginata_node_t naginata_node_B_F_B_J_B_L;
+const naginata_node_t naginata_node_B_J_B_R_B_H;
+const naginata_node_t naginata_node_B_F_B_D_B_P;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_D;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_B;
+const naginata_node_t naginata_node_B_J;
+const naginata_node_t naginata_node_B_LS2_B_E;
+const naginata_node_t naginata_node_B_D_B_M_B_L;
+const naginata_node_t naginata_node_B_J_B_O_B_R;
+const naginata_node_t naginata_node_B_K_B_F;
+const naginata_node_t naginata_node_B_V_B_J_B_L;
+const naginata_node_t naginata_node_B_I;
+const naginata_node_t naginata_node_B_G_B_J_B_H;
+const naginata_node_t naginata_node_B_N_B_L_B_V;
+const naginata_node_t naginata_node_B_SCLN_B_L_B_V;
+const naginata_node_t naginata_node_B_LS2_B_U;
+const naginata_node_t naginata_node_B_K_B_SCLN_B_V;
+const naginata_node_t naginata_node_B_I_B_X_B_J;
+const naginata_node_t naginata_node_B_I_B_LS2;
+const naginata_node_t naginata_node_B_P_B_F;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_Q;
+const naginata_node_t naginata_node_B_LS2_B_SCLN;
+const naginata_node_t naginata_node_B_M_B_I;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_B;
+const naginata_node_t naginata_node_B_LS2_B_D;
+const naginata_node_t naginata_node_B_J_B_G_B_O;
+const naginata_node_t naginata_node_B_K_B_LS2;
+const naginata_node_t naginata_node_B_LS2_B_F;
+const naginata_node_t naginata_node_B_N_B_H_B_F;
+const naginata_node_t naginata_node_B_LS2_B_COMM;
+const naginata_node_t naginata_node_B_U_B_RS2;
+const naginata_node_t naginata_node_B_M_B_O;
+const naginata_node_t naginata_node_B_F_B_O_B_H;
+const naginata_node_t naginata_node_B_J_B_X_B_P;
+const naginata_node_t naginata_node_B_R_B_M_B_O;
+const naginata_node_t naginata_node_B_H_B_M;
+const naginata_node_t naginata_node_B_U_B_LS2;
+const naginata_node_t naginata_node_B_F_B_G;
+const naginata_node_t naginata_node_B_RS2_B_P;
+const naginata_node_t naginata_node_B_O_B_H;
+const naginata_node_t naginata_node_B_F_B_SCLN;
+const naginata_node_t naginata_node_B_L_B_M;
+const naginata_node_t naginata_node_B_D_B_F_B_O;
+const naginata_node_t naginata_node_B_V_B_H_B_O;
+const naginata_node_t naginata_node_B_RS2_B_K;
+const naginata_node_t naginata_node_B_SCLN_B_K_B_V;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_T;
+const naginata_node_t naginata_node_B_E_B_P_B_J;
+const naginata_node_t naginata_node_B_D_B_H;
+const naginata_node_t naginata_node_B_M_B_RS2;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_A;
+const naginata_node_t naginata_node_B_B_B_RS2;
+const naginata_node_t naginata_node_B_E_B_K;
+const naginata_node_t naginata_node_B_V_B_O_B_K;
+const naginata_node_t naginata_node_B_L_B_M_B_D;
+const naginata_node_t naginata_node_B_E_B_M_B_P;
+const naginata_node_t naginata_node_B_D_B_J_B_L;
+const naginata_node_t naginata_node_B_H_B_M_B_X;
+const naginata_node_t naginata_node_B_H_B_V_B_K;
+const naginata_node_t naginata_node_B_J_B_P;
+const naginata_node_t naginata_node_B_M_B_L;
+const naginata_node_t naginata_node_B_J_B_L_B_V;
+const naginata_node_t naginata_node_B_G_B_M;
+const naginata_node_t naginata_node_B_L_B_K_B_F;
+const naginata_node_t naginata_node_B_F_B_L;
+const naginata_node_t naginata_node_B_J_B_LS2;
+const naginata_node_t naginata_node_B_J_B_G_B_P;
+const naginata_node_t naginata_node_B_N_B_F_B_L;
+const naginata_node_t naginata_node_B_M_B_O_B_R;
+const naginata_node_t naginata_node_B_H_B_RS2;
+const naginata_node_t naginata_node_B_P_B_M_B_X;
+const naginata_node_t naginata_node_B_X_B_P;
+const naginata_node_t naginata_node_B_J_B_K_B_T;
+const naginata_node_t naginata_node_B_O_B_RS2;
+const naginata_node_t naginata_node_B_LS2_B_RS2;
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_DOT;
+const naginata_node_t naginata_node_B_F_B_K_B_H;
+const naginata_node_t naginata_node_B_D_B_F_B_I;
+const naginata_node_t naginata_node_B_H_B_F_B_J;
+const naginata_node_t naginata_node_B_X_B_I_B_M;
+const naginata_node_t naginata_node_B_B_B_LS2;
+const naginata_node_t naginata_node_B_K_B_V_B_O;
+const naginata_node_t naginata_node_B_V_B_P_B_SCLN;
+const naginata_node_t naginata_node_B_R_B_H_B_J;
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_U;
+const naginata_node_t naginata_node_B_I_B_X_B_M;
+const naginata_node_t naginata_node_B_V_B_L_B_N;
+const naginata_node_t naginata_node_B_R_B_I_B_J;
+const naginata_node_t naginata_node_B_F_B_J_B_H;
+const naginata_node_t naginata_node_B_W_B_J_B_H;
+const naginata_node_t naginata_node_B_V_B_SCLN_B_L;
+const naginata_node_t naginata_node_B_K_B_J_B_G;
+const naginata_node_t naginata_node_B_K_B_V;
+const naginata_node_t naginata_node_B_F_B_U;
+const naginata_node_t naginata_node_B_R;
+const naginata_node_t naginata_node_B_J_B_V;
+const naginata_node_t naginata_node_B_W_B_H_B_J;
+const naginata_node_t naginata_node_B_H_B_LS2;
+const naginata_node_t naginata_node_B_V_B_L_B_O;
+const naginata_node_t naginata_node_B_J_B_E_B_P;
+const naginata_node_t naginata_node_B_F_B_N_B_L;
+const naginata_node_t naginata_node_B_O_B_V_B_H;
+const naginata_node_t naginata_node_B_J_B_P_B_G;
+const naginata_node_t naginata_node_B_Z;
 
 
-const PROGMEM naginata_node_t naginata_node_B_M_B_G_B_O = {
-  .parent       = &naginata_node_B_M_B_G,
+const naginata_node_t naginata_node_B_S_B_RS2 = {
+  .parent       = &naginata_node_B_S,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_O,
-  .value        = "tye",
+  .key          = B_RS2,
+  .value        = "me",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_Z_B_M = {
-  .parent       = &naginata_node_B_Z,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "po",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_LS2 = {
-  .parent       = &naginata_node_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "ya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_SCLN_B_J = {
-  .parent       = &naginata_node_B_V_B_SCLN,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "fa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_K_B_L = {
-  .parent       = &naginata_node_B_V_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "wi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_L_B_J = {
-  .parent       = &naginata_node_B_V_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "tsa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_B_B_I = {
-  .parent       = &naginata_node_B_B,
+const naginata_node_t naginata_node_B_LS2_B_I = {
+  .parent       = &naginata_node_B_LS2,
   .children     = NULL,
   .children_num = 0,
   .key          = B_I,
-  .value        = "myo",
+  .value        = "yo",
+};
+
+const naginata_node_t* naginata_node_B_H_B_M_children[1] = {
+  &naginata_node_B_H_B_M_B_X,
+};
+const naginata_node_t naginata_node_B_H_B_M = {
+  .parent       = &naginata_node_B_H,
+  .children     = naginata_node_B_H_B_M_children,
+  .children_num = 1,
+  .key          = B_M,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_H_B_V_B_O = {
+  .parent       = &naginata_node_B_H_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "guxe",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_L_B_F = {
+  .parent       = &naginata_node_B_K_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "vi",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_K_B_F = {
+  .parent       = &naginata_node_B_L_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "vi",
+};
+
+const naginata_node_t* naginata_node_B_J_B_H_children[6] = {
+  &naginata_node_B_J_B_H_B_R,
+  &naginata_node_B_J_B_H_B_W,
+  &naginata_node_B_J_B_H_B_G,
+  &naginata_node_B_J_B_H_B_X,
+  &naginata_node_B_J_B_H_B_F,
+  &naginata_node_B_J_B_H_B_V,
+};
+const naginata_node_t naginata_node_B_J_B_H = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_H_children,
+  .children_num = 6,
+  .key          = B_H,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_L_B_D_children[2] = {
+  &naginata_node_B_L_B_D_B_M,
+  &naginata_node_B_L_B_D_B_J,
+};
+const naginata_node_t naginata_node_B_L_B_D = {
+  .parent       = &naginata_node_B_L,
+  .children     = naginata_node_B_L_B_D_children,
+  .children_num = 2,
+  .key          = B_D,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_J_B_S = {
+  .parent       = &naginata_node_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = "ge",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_V_B_O = {
+  .parent       = &naginata_node_B_L_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "we",
+};
+
+const naginata_node_t* naginata_node_B_V_children[10] = {
+  &naginata_node_B_V_B_LS2,
+  &naginata_node_B_V_B_RS2,
+  &naginata_node_B_V_B_J,
+  &naginata_node_B_V_B_P,
+  &naginata_node_B_V_B_SCLN,
+  &naginata_node_B_V_B_K,
+  &naginata_node_B_V_B_L,
+  &naginata_node_B_V_B_N,
+  &naginata_node_B_V_B_O,
+  &naginata_node_B_V_B_H,
+};
+const naginata_node_t naginata_node_B_V = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_V_children,
+  .children_num = 10,
+  .key          = B_V,
+  .value        = "ko",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_L_B_J = {
+  .parent       = &naginata_node_B_D_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "doxu",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_K_B_W = {
+  .parent       = &naginata_node_B_J_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "/",
 };
 
 const naginata_node_t* naginata_node_B_P_children[15] = {
@@ -716,7 +877,7 @@ const naginata_node_t* naginata_node_B_P_children[15] = {
   &naginata_node_B_P_B_SCLN,
   &naginata_node_B_P_B_L,
 };
-const PROGMEM naginata_node_t naginata_node_B_P = {
+const naginata_node_t naginata_node_B_P = {
   .parent       = &naginata_node_root,
   .children     = naginata_node_B_P_children,
   .children_num = 15,
@@ -724,849 +885,86 @@ const PROGMEM naginata_node_t naginata_node_B_P = {
   .value        = "he",
 };
 
-
-const PROGMEM naginata_node_t naginata_node_B_M_B_E_B_K = {
-  .parent       = &naginata_node_B_M_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "thi",
+const naginata_node_t* naginata_node_B_X_B_H_children[2] = {
+  &naginata_node_B_X_B_H_B_J,
+  &naginata_node_B_X_B_H_B_M,
 };
-
-const naginata_node_t* naginata_node_B_N_B_H_children[2] = {
-  &naginata_node_B_N_B_H_B_F,
-  &naginata_node_B_N_B_H_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_N_B_H = {
-  .parent       = &naginata_node_B_N,
-  .children     = naginata_node_B_N_B_H_children,
+const naginata_node_t naginata_node_B_X_B_H = {
+  .parent       = &naginata_node_B_X,
+  .children     = naginata_node_B_X_B_H_children,
   .children_num = 2,
   .key          = B_H,
-  .value        = NULL,
+  .value        = "hya",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_H_B_K_B_V = {
-  .parent       = &naginata_node_B_H_B_K,
+const naginata_node_t naginata_node_B_I_B_B = {
+  .parent       = &naginata_node_B_I,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_V,
-  .value        = "guxi",
+  .key          = B_B,
+  .value        = "myo",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_W_B_I_B_J = {
-  .parent       = &naginata_node_B_W_B_I,
+const naginata_node_t naginata_node_B_Q_B_J = {
+  .parent       = &naginata_node_B_Q,
   .children     = NULL,
   .children_num = 0,
   .key          = B_J,
-  .value        = "gyo",
-};
-
-const naginata_node_t* naginata_node_B_J_B_G_children[4] = {
-  &naginata_node_B_J_B_G_B_I,
-  &naginata_node_B_J_B_G_B_P,
-  &naginata_node_B_J_B_G_B_H,
-  &naginata_node_B_J_B_G_B_O,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_G = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_G_children,
-  .children_num = 4,
-  .key          = B_G,
-  .value        = "di",
-};
-
-const naginata_node_t* naginata_node_B_V_B_N_children[3] = {
-  &naginata_node_B_V_B_N_B_SCLN,
-  &naginata_node_B_V_B_N_B_L,
-  &naginata_node_B_V_B_N_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_V_B_N = {
-  .parent       = &naginata_node_B_V,
-  .children     = naginata_node_B_V_B_N_children,
-  .children_num = 3,
-  .key          = B_N,
-  .value        = NULL,
+  .value        = "xa",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_M_B_X_B_P = {
-  .parent       = &naginata_node_B_M_B_X,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "pyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_D = {
-  .parent       = &naginata_node_B_H,
+const naginata_node_t naginata_node_B_LS2_B_D = {
+  .parent       = &naginata_node_B_LS2,
   .children     = NULL,
   .children_num = 0,
   .key          = B_D,
-  .value        = "nya",
+  .value        = "ni",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_B_B_H = {
-  .parent       = &naginata_node_B_B,
+const naginata_node_t naginata_node_B_F_B_K_B_H = {
+  .parent       = &naginata_node_B_F_B_K,
   .children     = NULL,
   .children_num = 0,
   .key          = B_H,
-  .value        = "mya",
-};
-
-const naginata_node_t* naginata_node_B_F_B_K_children[2] = {
-  &naginata_node_B_F_B_K_B_L,
-  &naginata_node_B_F_B_K_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_F_B_K = {
-  .parent       = &naginata_node_B_F,
-  .children     = naginata_node_B_F_B_K_children,
-  .children_num = 2,
-  .key          = B_K,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_M_B_H_children[1] = {
-  &naginata_node_B_M_B_H_B_X,
-};
-const PROGMEM naginata_node_t naginata_node_B_M_B_H = {
-  .parent       = &naginata_node_B_M,
-  .children     = naginata_node_B_M_B_H_children,
-  .children_num = 1,
-  .key          = B_H,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_F_B_J_children[2] = {
-  &naginata_node_B_F_B_J_B_L,
-  &naginata_node_B_F_B_J_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_F_B_J = {
-  .parent       = &naginata_node_B_F,
-  .children     = naginata_node_B_F_B_J_children,
-  .children_num = 2,
-  .key          = B_J,
-  .value        = "ga",
+  .value        = "kuxi",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_E_B_H = {
-  .parent       = &naginata_node_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "rya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_V = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = ",",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_O_B_F = {
-  .parent       = &naginata_node_B_H_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "kuxe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_H_B_N = {
-  .parent       = &naginata_node_B_V_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "guxo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_G_B_J_B_P = {
-  .parent       = &naginata_node_B_G_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "dyu",
-};
-
-const naginata_node_t* naginata_node_B_P_B_E_children[2] = {
-  &naginata_node_B_P_B_E_B_M,
-  &naginata_node_B_P_B_E_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_P_B_E = {
-  .parent       = &naginata_node_B_P,
-  .children     = naginata_node_B_P_B_E_children,
-  .children_num = 2,
-  .key          = B_E,
-  .value        = "ryu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_V_B_O = {
-  .parent       = &naginata_node_B_L_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "we",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_B_B_J = {
-  .parent       = &naginata_node_B_B,
+const naginata_node_t naginata_node_B_G_B_I_B_J = {
+  .parent       = &naginata_node_B_G_B_I,
   .children     = NULL,
   .children_num = 0,
   .key          = B_J,
-  .value        = "zo",
-};
-
-const naginata_node_t* naginata_node_B_K_children[11] = {
-  &naginata_node_B_K_B_LS2,
-  &naginata_node_B_K_B_RS2,
-  &naginata_node_B_K_B_E,
-  &naginata_node_B_K_B_M,
-  &naginata_node_B_K_B_J,
-  &naginata_node_B_K_B_SCLN,
-  &naginata_node_B_K_B_V,
-  &naginata_node_B_K_B_O,
-  &naginata_node_B_K_B_L,
-  &naginata_node_B_K_B_F,
-  &naginata_node_B_K_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_K = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_K_children,
-  .children_num = 11,
-  .key          = B_K,
-  .value        = "i",
+  .value        = "dyo",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_N_B_SCLN_B_V = {
-  .parent       = &naginata_node_B_N_B_SCLN,
+const naginata_node_t naginata_node_B_L_B_M_B_D = {
+  .parent       = &naginata_node_B_L_B_M,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_V,
-  .value        = "fo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_M_B_O_B_G = {
-  .parent       = &naginata_node_B_M_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = "tye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_COMM_B_RS2 = {
-  .parent       = &naginata_node_B_COMM,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "mu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_E_B_J = {
-  .parent       = &naginata_node_B_P_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "dhu",
-};
-
-const naginata_node_t* naginata_node_B_P_B_F_children[1] = {
-  &naginata_node_B_P_B_F_B_L,
-};
-const PROGMEM naginata_node_t naginata_node_B_P_B_F = {
-  .parent       = &naginata_node_B_P,
-  .children     = naginata_node_B_P_B_F_children,
-  .children_num = 1,
-  .key          = B_F,
-  .value        = "be",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_H_B_F = {
-  .parent       = &naginata_node_B_J_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "kuxa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_O_B_L = {
-  .parent       = &naginata_node_B_V_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "we",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_E_B_M_B_P = {
-  .parent       = &naginata_node_B_E_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "thu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_SCLN_B_V = {
-  .parent       = &naginata_node_B_L_B_SCLN,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "fe",
-};
-
-const naginata_node_t* naginata_node_B_W_B_P_children[1] = {
-  &naginata_node_B_W_B_P_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_W_B_P = {
-  .parent       = &naginata_node_B_W,
-  .children     = naginata_node_B_W_B_P_children,
-  .children_num = 1,
-  .key          = B_P,
-  .value        = "kyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_R_B_I_B_J = {
-  .parent       = &naginata_node_B_R_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "zyo",
-};
-
-const naginata_node_t* naginata_node_B_B_children[6] = {
-  &naginata_node_B_B_B_LS2,
-  &naginata_node_B_B_B_RS2,
-  &naginata_node_B_B_B_J,
-  &naginata_node_B_B_B_I,
-  &naginata_node_B_B_B_P,
-  &naginata_node_B_B_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_B = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_B_children,
-  .children_num = 6,
-  .key          = B_B,
-  .value        = "so",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_E_B_LS2 = {
-  .parent       = &naginata_node_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "ri",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_N_B_V_B_SCLN = {
-  .parent       = &naginata_node_B_N_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = "fo",
-};
-
-const naginata_node_t* naginata_node_B_J_B_L_children[3] = {
-  &naginata_node_B_J_B_L_B_D,
-  &naginata_node_B_J_B_L_B_F,
-  &naginata_node_B_J_B_L_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_L = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_L_children,
-  .children_num = 3,
-  .key          = B_L,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_LS2_children[24] = {
-  &naginata_node_B_LS2_B_W,
-  &naginata_node_B_LS2_B_E,
-  &naginata_node_B_LS2_B_R,
-  &naginata_node_B_LS2_B_U,
-  &naginata_node_B_LS2_B_I,
-  &naginata_node_B_LS2_B_O,
-  &naginata_node_B_LS2_B_P,
-  &naginata_node_B_LS2_B_A,
-  &naginata_node_B_LS2_B_S,
-  &naginata_node_B_LS2_B_D,
-  &naginata_node_B_LS2_B_F,
-  &naginata_node_B_LS2_B_G,
-  &naginata_node_B_LS2_B_H,
-  &naginata_node_B_LS2_B_J,
-  &naginata_node_B_LS2_B_K,
-  &naginata_node_B_LS2_B_L,
-  &naginata_node_B_LS2_B_SCLN,
-  &naginata_node_B_LS2_B_C,
-  &naginata_node_B_LS2_B_V,
-  &naginata_node_B_LS2_B_B,
-  &naginata_node_B_LS2_B_N,
-  &naginata_node_B_LS2_B_M,
-  &naginata_node_B_LS2_B_COMM,
-  &naginata_node_B_LS2_B_DOT,
-};
-const PROGMEM naginata_node_t naginata_node_B_LS2 = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_LS2_children,
-  .children_num = 24,
-  .key          = B_LS2,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_V_B_K = {
-  .parent       = &naginata_node_B_O_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "ixe",
-};
-
-const naginata_node_t* naginata_node_B_N_B_V_children[3] = {
-  &naginata_node_B_N_B_V_B_SCLN,
-  &naginata_node_B_N_B_V_B_L,
-  &naginata_node_B_N_B_V_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_N_B_V = {
-  .parent       = &naginata_node_B_N,
-  .children     = naginata_node_B_N_B_V_children,
-  .children_num = 3,
-  .key          = B_V,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_M_B_G_children[1] = {
-  &naginata_node_B_M_B_G_B_O,
-};
-const PROGMEM naginata_node_t naginata_node_B_M_B_G = {
-  .parent       = &naginata_node_B_M,
-  .children     = naginata_node_B_M_B_G_children,
-  .children_num = 1,
-  .key          = B_G,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_G_B_LS2 = {
-  .parent       = &naginata_node_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "ti",
-};
-
-const naginata_node_t* naginata_node_B_V_B_K_children[4] = {
-  &naginata_node_B_V_B_K_B_SCLN,
-  &naginata_node_B_V_B_K_B_O,
-  &naginata_node_B_V_B_K_B_L,
-  &naginata_node_B_V_B_K_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_V_B_K = {
-  .parent       = &naginata_node_B_V,
-  .children     = naginata_node_B_V_B_K_children,
-  .children_num = 4,
-  .key          = B_K,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_J_B_R = {
-  .parent       = &naginata_node_B_O_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "zye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_E_B_J_B_K = {
-  .parent       = &naginata_node_B_E_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "dhi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_D_B_M = {
-  .parent       = &naginata_node_B_L_B_D,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
+  .key          = B_D,
   .value        = "toxu",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_G_B_M_B_O = {
-  .parent       = &naginata_node_B_G_B_M,
+const naginata_node_t naginata_node_B_K_B_LS2 = {
+  .parent       = &naginata_node_B_K,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_O,
-  .value        = "tye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_K = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
+  .key          = B_LS2,
   .value        = "mo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_J_B_W = {
-  .parent       = &naginata_node_B_I_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = "gyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_M_B_P_B_X = {
-  .parent       = &naginata_node_B_M_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "pyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_F_B_K = {
-  .parent       = &naginata_node_B_L_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "vi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_R_B_LS2 = {
-  .parent       = &naginata_node_B_R,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "ne",
-};
-
-const naginata_node_t* naginata_node_B_O_B_G_children[2] = {
-  &naginata_node_B_O_B_G_B_M,
-  &naginata_node_B_O_B_G_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_O_B_G = {
-  .parent       = &naginata_node_B_O,
-  .children     = naginata_node_B_O_B_G_children,
-  .children_num = 2,
-  .key          = B_G,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_J_B_F_children[2] = {
-  &naginata_node_B_J_B_F_B_L,
-  &naginata_node_B_J_B_F_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_F = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_F_children,
-  .children_num = 2,
-  .key          = B_F,
-  .value        = "ga",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_S_B_LS2 = {
-  .parent       = &naginata_node_B_S,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "me",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_M_B_H_B_X = {
-  .parent       = &naginata_node_B_M_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "pya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_J_B_G = {
-  .parent       = &naginata_node_B_H_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = "dya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_R_B_H = {
-  .parent       = &naginata_node_B_J_B_R,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "zya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_H = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "ya",
-};
-
-const naginata_node_t* naginata_node_B_COMM_children[2] = {
-  &naginata_node_B_COMM_B_LS2,
-  &naginata_node_B_COMM_B_RS2,
-};
-const PROGMEM naginata_node_t naginata_node_B_COMM = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_COMM_children,
-  .children_num = 2,
-  .key          = B_COMM,
-  .value        = "nn",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_L_B_O = {
-  .parent       = &naginata_node_B_V_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "we",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_M = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = ".",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_L = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "tu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_D_B_L = {
-  .parent       = &naginata_node_B_J_B_D,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "doxu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_X_B_I_B_M = {
-  .parent       = &naginata_node_B_X_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "pyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_Z = {
-  .parent       = &naginata_node_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Z,
-  .value        = "bo",
-};
-
-const naginata_node_t* naginata_node_B_R_B_I_children[1] = {
-  &naginata_node_B_R_B_I_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_R_B_I = {
-  .parent       = &naginata_node_B_R,
-  .children     = naginata_node_B_R_B_I_children,
-  .children_num = 1,
-  .key          = B_I,
-  .value        = "syo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_F_B_L = {
-  .parent       = &naginata_node_B_J_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "va",
-};
-
-const naginata_node_t* naginata_node_B_I_B_R_children[1] = {
-  &naginata_node_B_I_B_R_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_I_B_R = {
-  .parent       = &naginata_node_B_I,
-  .children     = naginata_node_B_I_B_R_children,
-  .children_num = 1,
-  .key          = B_R,
-  .value        = "syo",
-};
-
-const naginata_node_t* naginata_node_B_G_B_J_children[4] = {
-  &naginata_node_B_G_B_J_B_I,
-  &naginata_node_B_G_B_J_B_P,
-  &naginata_node_B_G_B_J_B_H,
-  &naginata_node_B_G_B_J_B_O,
-};
-const PROGMEM naginata_node_t naginata_node_B_G_B_J = {
-  .parent       = &naginata_node_B_G,
-  .children     = naginata_node_B_G_B_J_children,
-  .children_num = 4,
-  .key          = B_J,
-  .value        = "di",
-};
-
-const naginata_node_t* naginata_node_B_H_B_V_children[4] = {
-  &naginata_node_B_H_B_V_B_O,
-  &naginata_node_B_H_B_V_B_J,
-  &naginata_node_B_H_B_V_B_K,
-  &naginata_node_B_H_B_V_B_N,
-};
-const PROGMEM naginata_node_t naginata_node_B_H_B_V = {
-  .parent       = &naginata_node_B_H,
-  .children     = naginata_node_B_H_B_V_children,
-  .children_num = 4,
-  .key          = B_V,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_D_B_M_B_L = {
-  .parent       = &naginata_node_B_D_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "toxu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_E_B_J_B_P = {
-  .parent       = &naginata_node_B_E_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "dhu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_J_B_E = {
-  .parent       = &naginata_node_B_K_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "dhi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_N_B_V = {
-  .parent       = &naginata_node_B_SCLN_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "fo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_J_B_X = {
-  .parent       = &naginata_node_B_I_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "byo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_Z_B_J = {
-  .parent       = &naginata_node_B_Z,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "bo",
-};
-
-const naginata_node_t* naginata_node_B_SCLN_B_V_children[5] = {
-  &naginata_node_B_SCLN_B_V_B_P,
-  &naginata_node_B_SCLN_B_V_B_J,
-  &naginata_node_B_SCLN_B_V_B_K,
-  &naginata_node_B_SCLN_B_V_B_L,
-  &naginata_node_B_SCLN_B_V_B_N,
-};
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_V = {
-  .parent       = &naginata_node_B_SCLN,
-  .children     = naginata_node_B_SCLN_B_V_children,
-  .children_num = 5,
-  .key          = B_V,
-  .value        = "pu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_DOT = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = "wa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_P_B_X = {
-  .parent       = &naginata_node_B_J_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "byu",
-};
-
-const naginata_node_t* naginata_node_B_O_B_R_children[2] = {
-  &naginata_node_B_O_B_R_B_M,
-  &naginata_node_B_O_B_R_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_O_B_R = {
-  .parent       = &naginata_node_B_O,
-  .children     = naginata_node_B_O_B_R_children,
-  .children_num = 2,
-  .key          = B_R,
-  .value        = NULL,
 };
 
 const naginata_node_t* naginata_node_B_J_B_E_children[2] = {
   &naginata_node_B_J_B_E_B_P,
   &naginata_node_B_J_B_E_B_K,
 };
-const PROGMEM naginata_node_t naginata_node_B_J_B_E = {
+const naginata_node_t naginata_node_B_J_B_E = {
   .parent       = &naginata_node_B_J,
   .children     = naginata_node_B_J_B_E_children,
   .children_num = 2,
@@ -1575,8 +973,8 @@ const PROGMEM naginata_node_t naginata_node_B_J_B_E = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_H_B_W_B_J = {
-  .parent       = &naginata_node_B_H_B_W,
+const naginata_node_t naginata_node_B_W_B_H_B_J = {
+  .parent       = &naginata_node_B_W_B_H,
   .children     = NULL,
   .children_num = 0,
   .key          = B_J,
@@ -1584,25 +982,78 @@ const PROGMEM naginata_node_t naginata_node_B_H_B_W_B_J = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_F_B_N_B_L = {
-  .parent       = &naginata_node_B_F_B_N,
+const naginata_node_t naginata_node_B_K_B_F_B_L = {
+  .parent       = &naginata_node_B_K_B_F,
   .children     = NULL,
   .children_num = 0,
   .key          = B_L,
-  .value        = "vo",
+  .value        = "vi",
+};
+
+const naginata_node_t* naginata_node_B_F_B_P_children[1] = {
+  &naginata_node_B_F_B_P_B_L,
+};
+const naginata_node_t naginata_node_B_F_B_P = {
+  .parent       = &naginata_node_B_F,
+  .children     = naginata_node_B_F_B_P_children,
+  .children_num = 1,
+  .key          = B_P,
+  .value        = "be",
+};
+
+const naginata_node_t* naginata_node_B_J_B_O_children[2] = {
+  &naginata_node_B_J_B_O_B_R,
+  &naginata_node_B_J_B_O_B_G,
+};
+const naginata_node_t naginata_node_B_J_B_O = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_O_children,
+  .children_num = 2,
+  .key          = B_O,
+  .value        = NULL,
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_J_B_B = {
-  .parent       = &naginata_node_B_J,
+const naginata_node_t naginata_node_B_J_B_X_B_P = {
+  .parent       = &naginata_node_B_J_B_X,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_B,
-  .value        = "zo",
+  .key          = B_P,
+  .value        = "byu",
+};
+
+const naginata_node_t* naginata_node_B_L_B_N_children[2] = {
+  &naginata_node_B_L_B_N_B_V,
+  &naginata_node_B_L_B_N_B_F,
+};
+const naginata_node_t naginata_node_B_L_B_N = {
+  .parent       = &naginata_node_B_L,
+  .children     = naginata_node_B_L_B_N_children,
+  .children_num = 2,
+  .key          = B_N,
+  .value        = NULL,
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_Q_B_H = {
+const naginata_node_t naginata_node_B_SCLN_B_V_B_K = {
+  .parent       = &naginata_node_B_SCLN_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "fi",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_J_B_G = {
+  .parent       = &naginata_node_B_P_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "dyu",
+};
+
+
+const naginata_node_t naginata_node_B_Q_B_H = {
   .parent       = &naginata_node_B_Q,
   .children     = NULL,
   .children_num = 0,
@@ -1611,128 +1062,417 @@ const PROGMEM naginata_node_t naginata_node_B_Q_B_H = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_O_B_L_B_F = {
-  .parent       = &naginata_node_B_O_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "ve",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_N_B_L = {
-  .parent       = &naginata_node_B_V_B_N,
+const naginata_node_t naginata_node_B_K_B_V_B_L = {
+  .parent       = &naginata_node_B_K_B_V,
   .children     = NULL,
   .children_num = 0,
   .key          = B_L,
-  .value        = "uxo",
+  .value        = "wi",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_W = {
-  .parent       = &naginata_node_B_LS2,
+const naginata_node_t naginata_node_B_Q_B_N = {
+  .parent       = &naginata_node_B_Q,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_W,
-  .value        = "nu",
+  .key          = B_N,
+  .value        = "xo",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_F_B_L_B_K = {
-  .parent       = &naginata_node_B_F_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "vi",
-};
-
-const naginata_node_t* naginata_node_B_J_children[22] = {
-  &naginata_node_B_J_B_LS2,
-  &naginata_node_B_J_B_RS2,
-  &naginata_node_B_J_B_W,
-  &naginata_node_B_J_B_E,
-  &naginata_node_B_J_B_R,
-  &naginata_node_B_J_B_A,
-  &naginata_node_B_J_B_S,
-  &naginata_node_B_J_B_D,
-  &naginata_node_B_J_B_F,
-  &naginata_node_B_J_B_G,
-  &naginata_node_B_J_B_Z,
-  &naginata_node_B_J_B_X,
-  &naginata_node_B_J_B_C,
-  &naginata_node_B_J_B_V,
-  &naginata_node_B_J_B_B,
-  &naginata_node_B_J_B_I,
-  &naginata_node_B_J_B_P,
-  &naginata_node_B_J_B_H,
-  &naginata_node_B_J_B_K,
-  &naginata_node_B_J_B_L,
-  &naginata_node_B_J_B_O,
-  &naginata_node_B_J_B_SCLN,
-};
-const PROGMEM naginata_node_t naginata_node_B_J = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_J_children,
-  .children_num = 22,
-  .key          = B_J,
-  .value        = "a",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_W_B_I = {
-  .parent       = &naginata_node_B_J_B_W,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "gyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_H_B_V = {
-  .parent       = &naginata_node_B_K_B_H,
+const naginata_node_t naginata_node_B_L_B_J_B_V = {
+  .parent       = &naginata_node_B_L_B_J,
   .children     = NULL,
   .children_num = 0,
   .key          = B_V,
+  .value        = "tsa",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_C = {
+  .parent       = &naginata_node_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = "ba",
+};
+
+
+const naginata_node_t naginata_node_B_N_B_LS2 = {
+  .parent       = &naginata_node_B_N,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "o",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_M_B_X = {
+  .parent       = &naginata_node_B_P_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "pyu",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_G = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "5",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_V_B_L = {
+  .parent       = &naginata_node_B_J_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "tsa",
+};
+
+const naginata_node_t* naginata_node_B_G_B_O_children[2] = {
+  &naginata_node_B_G_B_O_B_M,
+  &naginata_node_B_G_B_O_B_J,
+};
+const naginata_node_t naginata_node_B_G_B_O = {
+  .parent       = &naginata_node_B_G,
+  .children     = naginata_node_B_G_B_O_children,
+  .children_num = 2,
+  .key          = B_O,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_K_B_F_children[2] = {
+  &naginata_node_B_K_B_F_B_L,
+  &naginata_node_B_K_B_F_B_H,
+};
+const naginata_node_t naginata_node_B_K_B_F = {
+  .parent       = &naginata_node_B_K,
+  .children     = naginata_node_B_K_B_F_children,
+  .children_num = 2,
+  .key          = B_F,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_U_B_LS2 = {
+  .parent       = &naginata_node_B_U,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "sa",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_F_B_I = {
+  .parent       = &naginata_node_B_D_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "~",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_R_B_O = {
+  .parent       = &naginata_node_B_J_B_R,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "zye",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_M = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = ".",
+};
+
+
+const naginata_node_t naginata_node_B_X_B_J_B_P = {
+  .parent       = &naginata_node_B_X_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "byu",
+};
+
+
+const naginata_node_t naginata_node_B_C_B_M = {
+  .parent       = &naginata_node_B_C,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "pa",
+};
+
+const naginata_node_t* naginata_node_B_W_B_H_children[1] = {
+  &naginata_node_B_W_B_H_B_J,
+};
+const naginata_node_t naginata_node_B_W_B_H = {
+  .parent       = &naginata_node_B_W,
+  .children     = naginata_node_B_W_B_H_children,
+  .children_num = 1,
+  .key          = B_H,
+  .value        = "kya",
+};
+
+const naginata_node_t* naginata_node_B_DOT_children[2] = {
+  &naginata_node_B_DOT_B_LS2,
+  &naginata_node_B_DOT_B_RS2,
+};
+const naginata_node_t naginata_node_B_DOT = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_DOT_children,
+  .children_num = 2,
+  .key          = B_DOT,
+  .value        = "ra",
+};
+
+const naginata_node_t* naginata_node_B_RS2_B_LS2_children[27] = {
+  &naginata_node_B_RS2_B_LS2_B_Q,
+  &naginata_node_B_RS2_B_LS2_B_W,
+  &naginata_node_B_RS2_B_LS2_B_E,
+  &naginata_node_B_RS2_B_LS2_B_R,
+  &naginata_node_B_RS2_B_LS2_B_T,
+  &naginata_node_B_RS2_B_LS2_B_Y,
+  &naginata_node_B_RS2_B_LS2_B_U,
+  &naginata_node_B_RS2_B_LS2_B_I,
+  &naginata_node_B_RS2_B_LS2_B_O,
+  &naginata_node_B_RS2_B_LS2_B_A,
+  &naginata_node_B_RS2_B_LS2_B_S,
+  &naginata_node_B_RS2_B_LS2_B_D,
+  &naginata_node_B_RS2_B_LS2_B_F,
+  &naginata_node_B_RS2_B_LS2_B_G,
+  &naginata_node_B_RS2_B_LS2_B_H,
+  &naginata_node_B_RS2_B_LS2_B_J,
+  &naginata_node_B_RS2_B_LS2_B_K,
+  &naginata_node_B_RS2_B_LS2_B_L,
+  &naginata_node_B_RS2_B_LS2_B_SCLN,
+  &naginata_node_B_RS2_B_LS2_B_X,
+  &naginata_node_B_RS2_B_LS2_B_C,
+  &naginata_node_B_RS2_B_LS2_B_V,
+  &naginata_node_B_RS2_B_LS2_B_B,
+  &naginata_node_B_RS2_B_LS2_B_N,
+  &naginata_node_B_RS2_B_LS2_B_M,
+  &naginata_node_B_RS2_B_LS2_B_COMM,
+  &naginata_node_B_RS2_B_LS2_B_DOT,
+};
+const naginata_node_t naginata_node_B_RS2_B_LS2 = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = naginata_node_B_RS2_B_LS2_children,
+  .children_num = 27,
+  .key          = B_LS2,
+  .value        = SS_LSFT(" "),
+};
+
+
+const naginata_node_t naginata_node_B_K_B_V_B_H = {
+  .parent       = &naginata_node_B_K_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
   .value        = "guxi",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_F = {
-  .parent       = &naginata_node_B_SCLN,
+const naginata_node_t naginata_node_B_N_B_SCLN_B_V = {
+  .parent       = &naginata_node_B_N_B_SCLN,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_F,
-  .value        = "bu",
-};
-
-const naginata_node_t* naginata_node_B_R_B_J_children[4] = {
-  &naginata_node_B_R_B_J_B_I,
-  &naginata_node_B_R_B_J_B_P,
-  &naginata_node_B_R_B_J_B_H,
-  &naginata_node_B_R_B_J_B_O,
-};
-const PROGMEM naginata_node_t naginata_node_B_R_B_J = {
-  .parent       = &naginata_node_B_R,
-  .children     = naginata_node_B_R_B_J_children,
-  .children_num = 4,
-  .key          = B_J,
-  .value        = "zi",
+  .key          = B_V,
+  .value        = "fo",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_A = {
+const naginata_node_t naginata_node_B_SCLN_B_N_B_V = {
+  .parent       = &naginata_node_B_SCLN_B_N,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "fo",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_X = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "%",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_R_B_M = {
+  .parent       = &naginata_node_B_O_B_R,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "sye",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_Y = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = "]",
+};
+
+const naginata_node_t* naginata_node_B_SCLN_B_K_children[1] = {
+  &naginata_node_B_SCLN_B_K_B_V,
+};
+const naginata_node_t naginata_node_B_SCLN_B_K = {
+  .parent       = &naginata_node_B_SCLN,
+  .children     = naginata_node_B_SCLN_B_K_children,
+  .children_num = 1,
+  .key          = B_K,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_L = {
   .parent       = &naginata_node_B_RS2,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_A,
-  .value        = "se",
+  .key          = B_L,
+  .value        = "tu",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_K = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "mo",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_R_B_J = {
+  .parent       = &naginata_node_B_H_B_R,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "zya",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_SCLN = {
+  .parent       = &naginata_node_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "bu",
+};
+
+const naginata_node_t* naginata_node_B_M_B_H_children[1] = {
+  &naginata_node_B_M_B_H_B_X,
+};
+const naginata_node_t naginata_node_B_M_B_H = {
+  .parent       = &naginata_node_B_M,
+  .children     = naginata_node_B_M_B_H_children,
+  .children_num = 1,
+  .key          = B_H,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_H_B_J_children[6] = {
+  &naginata_node_B_H_B_J_B_R,
+  &naginata_node_B_H_B_J_B_W,
+  &naginata_node_B_H_B_J_B_G,
+  &naginata_node_B_H_B_J_B_X,
+  &naginata_node_B_H_B_J_B_F,
+  &naginata_node_B_H_B_J_B_V,
+};
+const naginata_node_t naginata_node_B_H_B_J = {
+  .parent       = &naginata_node_B_H,
+  .children     = naginata_node_B_H_B_J_children,
+  .children_num = 6,
+  .key          = B_J,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_U_children[3] = {
+  &naginata_node_B_U_B_LS2,
+  &naginata_node_B_U_B_RS2,
+  &naginata_node_B_U_B_F,
+};
+const naginata_node_t naginata_node_B_U = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_U_children,
+  .children_num = 3,
+  .key          = B_U,
+  .value        = "sa",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_H = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "6",
+};
+
+
+const naginata_node_t naginata_node_B_E_B_H = {
+  .parent       = &naginata_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "rya",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_F_B_H = {
+  .parent       = &naginata_node_B_O_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "kuxe",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_LS2 = {
+  .parent       = &naginata_node_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = ".",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_B = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = "=",
+};
+
+const naginata_node_t* naginata_node_B_D_B_M_children[1] = {
+  &naginata_node_B_D_B_M_B_L,
+};
+const naginata_node_t naginata_node_B_D_B_M = {
+  .parent       = &naginata_node_B_D,
+  .children     = naginata_node_B_D_B_M_children,
+  .children_num = 1,
+  .key          = B_M,
+  .value        = NULL,
 };
 
 const naginata_node_t* naginata_node_B_F_B_O_children[2] = {
   &naginata_node_B_F_B_O_B_L,
   &naginata_node_B_F_B_O_B_H,
 };
-const PROGMEM naginata_node_t naginata_node_B_F_B_O = {
+const naginata_node_t naginata_node_B_F_B_O = {
   .parent       = &naginata_node_B_F,
   .children     = naginata_node_B_F_B_O_children,
   .children_num = 2,
@@ -1741,70 +1481,64 @@ const PROGMEM naginata_node_t naginata_node_B_F_B_O = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_F_B_H_B_J = {
-  .parent       = &naginata_node_B_F_B_H,
+const naginata_node_t naginata_node_B_J_B_K_B_R = {
+  .parent       = &naginata_node_B_J_B_K,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_J,
-  .value        = "kuxa",
+  .key          = B_R,
+  .value        = "&",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_K_B_L_B_F = {
-  .parent       = &naginata_node_B_K_B_L,
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_G = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_F,
-  .value        = "vi",
+  .key          = B_G,
+  .value        = "5",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_M_B_I_B_X = {
-  .parent       = &naginata_node_B_M_B_I,
+const naginata_node_t naginata_node_B_X_B_H_B_M = {
+  .parent       = &naginata_node_B_X_B_H,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_X,
-  .value        = "pyo",
+  .key          = B_M,
+  .value        = "pya",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_C = {
-  .parent       = &naginata_node_B_RS2,
+const naginata_node_t naginata_node_B_K_B_E_B_M = {
+  .parent       = &naginata_node_B_K_B_E,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_C,
-  .value        = "wo",
+  .key          = B_M,
+  .value        = "thi",
+};
+
+const naginata_node_t* naginata_node_B_P_B_M_children[2] = {
+  &naginata_node_B_P_B_M_B_X,
+  &naginata_node_B_P_B_M_B_E,
+};
+const naginata_node_t naginata_node_B_P_B_M = {
+  .parent       = &naginata_node_B_P,
+  .children     = naginata_node_B_P_B_M_children,
+  .children_num = 2,
+  .key          = B_M,
+  .value        = NULL,
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_K_B_LS2 = {
-  .parent       = &naginata_node_B_K,
+const naginata_node_t naginata_node_B_SCLN_B_RS2 = {
+  .parent       = &naginata_node_B_SCLN,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_LS2,
-  .value        = "mo",
+  .key          = B_RS2,
+  .value        = "fu",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_L_B_F_B_P = {
-  .parent       = &naginata_node_B_L_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "vuxyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_G_B_O_B_J = {
-  .parent       = &naginata_node_B_G_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "dye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_H = {
+const naginata_node_t naginata_node_B_LS2_B_H = {
   .parent       = &naginata_node_B_LS2,
   .children     = NULL,
   .children_num = 0,
@@ -1813,21 +1547,318 @@ const PROGMEM naginata_node_t naginata_node_B_LS2_B_H = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_I_B_J_B_G = {
-  .parent       = &naginata_node_B_I_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = "dyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_G_B_H_B_J = {
-  .parent       = &naginata_node_B_G_B_H,
+const naginata_node_t naginata_node_B_K_B_E_B_J = {
+  .parent       = &naginata_node_B_K_B_E,
   .children     = NULL,
   .children_num = 0,
   .key          = B_J,
+  .value        = "dhi",
+};
+
+const naginata_node_t* naginata_node_B_F_B_H_children[4] = {
+  &naginata_node_B_F_B_H_B_O,
+  &naginata_node_B_F_B_H_B_J,
+  &naginata_node_B_F_B_H_B_K,
+  &naginata_node_B_F_B_H_B_N,
+};
+const naginata_node_t naginata_node_B_F_B_H = {
+  .parent       = &naginata_node_B_F,
+  .children     = naginata_node_B_F_B_H_children,
+  .children_num = 4,
+  .key          = B_H,
+  .value        = "gu",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_D_B_J = {
+  .parent       = &naginata_node_B_L_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "doxu",
+};
+
+const naginata_node_t* naginata_node_B_J_B_L_children[3] = {
+  &naginata_node_B_J_B_L_B_D,
+  &naginata_node_B_J_B_L_B_F,
+  &naginata_node_B_J_B_L_B_V,
+};
+const naginata_node_t naginata_node_B_J_B_L = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_L_children,
+  .children_num = 3,
+  .key          = B_L,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_F_B_K_children[2] = {
+  &naginata_node_B_F_B_K_B_L,
+  &naginata_node_B_F_B_K_B_H,
+};
+const naginata_node_t naginata_node_B_F_B_K = {
+  .parent       = &naginata_node_B_F,
+  .children     = naginata_node_B_F_B_K_children,
+  .children_num = 2,
+  .key          = B_K,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_J_B_K_B_Q = {
+  .parent       = &naginata_node_B_J_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Q,
+  .value        = "`",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_W_B_I = {
+  .parent       = &naginata_node_B_J_B_W,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "gyo",
+};
+
+const naginata_node_t* naginata_node_B_D_B_L_children[2] = {
+  &naginata_node_B_D_B_L_B_M,
+  &naginata_node_B_D_B_L_B_J,
+};
+const naginata_node_t naginata_node_B_D_B_L = {
+  .parent       = &naginata_node_B_D,
+  .children     = naginata_node_B_D_B_L_children,
+  .children_num = 2,
+  .key          = B_L,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_SCLN_B_L_children[1] = {
+  &naginata_node_B_SCLN_B_L_B_V,
+};
+const naginata_node_t naginata_node_B_SCLN_B_L = {
+  .parent       = &naginata_node_B_SCLN,
+  .children     = naginata_node_B_SCLN_B_L_children,
+  .children_num = 1,
+  .key          = B_L,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_J_B_G_B_H = {
+  .parent       = &naginata_node_B_J_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
   .value        = "dya",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_G_B_P = {
+  .parent       = &naginata_node_B_J_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "dyu",
+};
+
+const naginata_node_t* naginata_node_B_W_B_I_children[1] = {
+  &naginata_node_B_W_B_I_B_J,
+};
+const naginata_node_t naginata_node_B_W_B_I = {
+  .parent       = &naginata_node_B_W,
+  .children     = naginata_node_B_W_B_I_children,
+  .children_num = 1,
+  .key          = B_I,
+  .value        = "kyo",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_F = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "ma",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_RS2 = {
+  .parent       = &naginata_node_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "no",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_H_B_N = {
+  .parent       = &naginata_node_B_F_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "kuxo",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_V_B_N = {
+  .parent       = &naginata_node_B_L_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "uxo",
+};
+
+
+const naginata_node_t naginata_node_B_X_B_P_B_M = {
+  .parent       = &naginata_node_B_X_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "pyu",
+};
+
+
+const naginata_node_t naginata_node_B_E_B_K_B_M = {
+  .parent       = &naginata_node_B_E_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "thi",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_F_B_N = {
+  .parent       = &naginata_node_B_H_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "kuxo",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_F_B_J = {
+  .parent       = &naginata_node_B_H_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "kuxa",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_O_B_H = {
+  .parent       = &naginata_node_B_F_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "kuxe",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_V_B_J = {
+  .parent       = &naginata_node_B_H_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "guxa",
+};
+
+const naginata_node_t* naginata_node_B_X_B_M_children[3] = {
+  &naginata_node_B_X_B_M_B_I,
+  &naginata_node_B_X_B_M_B_P,
+  &naginata_node_B_X_B_M_B_H,
+};
+const naginata_node_t naginata_node_B_X_B_M = {
+  .parent       = &naginata_node_B_X,
+  .children     = naginata_node_B_X_B_M_children,
+  .children_num = 3,
+  .key          = B_M,
+  .value        = "pi",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_L = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "tu",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_W = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "nu",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_D = {
+  .parent       = &naginata_node_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "nyu",
+};
+
+
+const naginata_node_t naginata_node_B_DOT_B_LS2 = {
+  .parent       = &naginata_node_B_DOT,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "wa",
+};
+
+
+const naginata_node_t naginata_node_B_SCLN_B_V_B_L = {
+  .parent       = &naginata_node_B_SCLN_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "fe",
+};
+
+const naginata_node_t* naginata_node_B_O_B_V_children[3] = {
+  &naginata_node_B_O_B_V_B_K,
+  &naginata_node_B_O_B_V_B_L,
+  &naginata_node_B_O_B_V_B_H,
+};
+const naginata_node_t naginata_node_B_O_B_V = {
+  .parent       = &naginata_node_B_O,
+  .children     = naginata_node_B_O_B_V_children,
+  .children_num = 3,
+  .key          = B_V,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_N_B_H_B_V = {
+  .parent       = &naginata_node_B_N_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "guxo",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_G = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "ti",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_C = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = "wo",
 };
 
 const naginata_node_t* naginata_node_B_I_children[11] = {
@@ -1843,7 +1874,7 @@ const naginata_node_t* naginata_node_B_I_children[11] = {
   &naginata_node_B_I_B_B,
   &naginata_node_B_I_B_E,
 };
-const PROGMEM naginata_node_t naginata_node_B_I = {
+const naginata_node_t naginata_node_B_I = {
   .parent       = &naginata_node_root,
   .children     = naginata_node_B_I_children,
   .children_num = 11,
@@ -1851,434 +1882,26 @@ const PROGMEM naginata_node_t naginata_node_B_I = {
   .value        = "ru",
 };
 
-const naginata_node_t* naginata_node_B_J_B_P_children[5] = {
-  &naginata_node_B_J_B_P_B_R,
-  &naginata_node_B_J_B_P_B_W,
-  &naginata_node_B_J_B_P_B_G,
-  &naginata_node_B_J_B_P_B_X,
-  &naginata_node_B_J_B_P_B_E,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_P = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_P_children,
-  .children_num = 5,
-  .key          = B_P,
-  .value        = NULL,
-};
 
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_L_B_K = {
-  .parent       = &naginata_node_B_V_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "wi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_SCLN = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = "fu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_V_B_N = {
-  .parent       = &naginata_node_B_H_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "guxo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_F_B_H = {
-  .parent       = &naginata_node_B_K_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "kuxi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_W_B_H_B_J = {
-  .parent       = &naginata_node_B_W_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "gya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_R_B_J_B_P = {
-  .parent       = &naginata_node_B_R_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "zyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_W_B_J = {
-  .parent       = &naginata_node_B_I_B_W,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "gyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_E_B_I = {
-  .parent       = &naginata_node_B_E,
+const naginata_node_t naginata_node_B_M_B_X_B_I = {
+  .parent       = &naginata_node_B_M_B_X,
   .children     = NULL,
   .children_num = 0,
   .key          = B_I,
-  .value        = "ryo",
-};
-
-const naginata_node_t* naginata_node_B_O_B_L_children[2] = {
-  &naginata_node_B_O_B_L_B_V,
-  &naginata_node_B_O_B_L_B_F,
-};
-const PROGMEM naginata_node_t naginata_node_B_O_B_L = {
-  .parent       = &naginata_node_B_O,
-  .children     = naginata_node_B_O_B_L_children,
-  .children_num = 2,
-  .key          = B_L,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_E_B_M_children[2] = {
-  &naginata_node_B_E_B_M_B_P,
-  &naginata_node_B_E_B_M_B_K,
-};
-const PROGMEM naginata_node_t naginata_node_B_E_B_M = {
-  .parent       = &naginata_node_B_E,
-  .children     = naginata_node_B_E_B_M_children,
-  .children_num = 2,
-  .key          = B_M,
-  .value        = NULL,
+  .value        = "pyo",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_B_B_P = {
-  .parent       = &naginata_node_B_B,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "myu",
-};
-
-const naginata_node_t* naginata_node_B_I_B_X_children[2] = {
-  &naginata_node_B_I_B_X_B_J,
-  &naginata_node_B_I_B_X_B_M,
-};
-const PROGMEM naginata_node_t naginata_node_B_I_B_X = {
-  .parent       = &naginata_node_B_I,
-  .children     = naginata_node_B_I_B_X_children,
-  .children_num = 2,
-  .key          = B_X,
-  .value        = "hyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_COMM_B_LS2 = {
-  .parent       = &naginata_node_B_COMM,
+const naginata_node_t naginata_node_B_A_B_LS2 = {
+  .parent       = &naginata_node_B_A,
   .children     = NULL,
   .children_num = 0,
   .key          = B_LS2,
-  .value        = "mu",
+  .value        = "se",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_J_B_V = {
-  .parent       = &naginata_node_B_SCLN_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "fa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_P_B_L = {
-  .parent       = &naginata_node_B_F_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "vuxyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_M_B_L_B_D = {
-  .parent       = &naginata_node_B_M_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = "toxu",
-};
-
-const naginata_node_t* naginata_node_B_H_B_K_children[2] = {
-  &naginata_node_B_H_B_K_B_F,
-  &naginata_node_B_H_B_K_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_H_B_K = {
-  .parent       = &naginata_node_B_H,
-  .children     = naginata_node_B_H_B_K_children,
-  .children_num = 2,
-  .key          = B_K,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_V_B_P_children[1] = {
-  &naginata_node_B_V_B_P_B_SCLN,
-};
-const PROGMEM naginata_node_t naginata_node_B_V_B_P = {
-  .parent       = &naginata_node_B_V,
-  .children     = naginata_node_B_V_B_P_children,
-  .children_num = 1,
-  .key          = B_P,
-  .value        = "pe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_P_B_SCLN = {
-  .parent       = &naginata_node_B_V_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = "fyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_LS2 = {
-  .parent       = &naginata_node_B_SCLN,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "fu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_V_B_SCLN = {
-  .parent       = &naginata_node_B_J_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = "fa",
-};
-
-const naginata_node_t* naginata_node_B_K_B_E_children[2] = {
-  &naginata_node_B_K_B_E_B_M,
-  &naginata_node_B_K_B_E_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_K_B_E = {
-  .parent       = &naginata_node_B_K,
-  .children     = naginata_node_B_K_B_E_children,
-  .children_num = 2,
-  .key          = B_E,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_R_B_J = {
-  .parent       = &naginata_node_B_P_B_R,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "zyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_V_B_L = {
-  .parent       = &naginata_node_B_O_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "we",
-};
-
-const naginata_node_t* naginata_node_B_H_B_J_children[6] = {
-  &naginata_node_B_H_B_J_B_R,
-  &naginata_node_B_H_B_J_B_W,
-  &naginata_node_B_H_B_J_B_G,
-  &naginata_node_B_H_B_J_B_X,
-  &naginata_node_B_H_B_J_B_F,
-  &naginata_node_B_H_B_J_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_H_B_J = {
-  .parent       = &naginata_node_B_H,
-  .children     = naginata_node_B_H_B_J_children,
-  .children_num = 6,
-  .key          = B_J,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_E_B_J = {
-  .parent       = &naginata_node_B_K_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "dhi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_LS2 = {
-  .parent       = &naginata_node_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "ma",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_F_B_L = {
-  .parent       = &naginata_node_B_O_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "ve",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_V_B_J = {
-  .parent       = &naginata_node_B_SCLN_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "fa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_N_B_H_B_V = {
-  .parent       = &naginata_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "guxo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_D_B_LS2 = {
-  .parent       = &naginata_node_B_D,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "ni",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_X_B_J = {
-  .parent       = &naginata_node_B_I_B_X,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "byo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_E = {
-  .parent       = &naginata_node_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "rya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_O_B_V = {
-  .parent       = &naginata_node_B_K_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "ixe",
-};
-
-const naginata_node_t* naginata_node_B_X_B_J_children[3] = {
-  &naginata_node_B_X_B_J_B_I,
-  &naginata_node_B_X_B_J_B_P,
-  &naginata_node_B_X_B_J_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_X_B_J = {
-  .parent       = &naginata_node_B_X,
-  .children     = naginata_node_B_X_B_J_children,
-  .children_num = 3,
-  .key          = B_J,
-  .value        = "bi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_N_B_L_B_F = {
-  .parent       = &naginata_node_B_N_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "vo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_SCLN_B_V = {
-  .parent       = &naginata_node_B_K_B_SCLN,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "fi",
-};
-
-const naginata_node_t* naginata_node_B_H_B_X_children[2] = {
-  &naginata_node_B_H_B_X_B_J,
-  &naginata_node_B_H_B_X_B_M,
-};
-const PROGMEM naginata_node_t naginata_node_B_H_B_X = {
-  .parent       = &naginata_node_B_H,
-  .children     = naginata_node_B_H_B_X_children,
-  .children_num = 2,
-  .key          = B_X,
-  .value        = "hya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_K = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "mo",
-};
-
-const naginata_node_t* naginata_node_B_SCLN_B_P_children[1] = {
-  &naginata_node_B_SCLN_B_P_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_P = {
-  .parent       = &naginata_node_B_SCLN,
-  .children     = naginata_node_B_SCLN_B_P_children,
-  .children_num = 1,
-  .key          = B_P,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_P_B_E = {
-  .parent       = &naginata_node_B_J_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "dhu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_SLSH = {
-  .parent       = &naginata_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SLSH,
-  .value        = "re",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_SCLN_B_V = {
+const naginata_node_t naginata_node_B_J_B_SCLN_B_V = {
   .parent       = &naginata_node_B_J_B_SCLN,
   .children     = NULL,
   .children_num = 0,
@@ -2287,1474 +1910,15 @@ const PROGMEM naginata_node_t naginata_node_B_J_B_SCLN_B_V = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_V_B_L_B_N = {
-  .parent       = &naginata_node_B_V_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "uxo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_RS2 = {
-  .parent       = &naginata_node_B_SCLN,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "fu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_M_B_E = {
-  .parent       = &naginata_node_B_P_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "thu",
-};
-
-const naginata_node_t* naginata_node_B_J_B_O_children[2] = {
-  &naginata_node_B_J_B_O_B_R,
-  &naginata_node_B_J_B_O_B_G,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_O = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_O_children,
-  .children_num = 2,
-  .key          = B_O,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_G_B_M = {
-  .parent       = &naginata_node_B_O_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "tye",
-};
-
-const naginata_node_t* naginata_node_B_S_children[3] = {
-  &naginata_node_B_S_B_LS2,
-  &naginata_node_B_S_B_RS2,
-  &naginata_node_B_S_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_S = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_S_children,
-  .children_num = 3,
-  .key          = B_S,
-  .value        = "ke",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_G_B_H = {
-  .parent       = &naginata_node_B_J_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "dya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_B = {
-  .parent       = &naginata_node_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = "myo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_X_B_P_B_J = {
-  .parent       = &naginata_node_B_X_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "byu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_C_B_RS2 = {
-  .parent       = &naginata_node_B_C,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "wo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_E_B_K_B_M = {
-  .parent       = &naginata_node_B_E_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "thi",
-};
-
-const naginata_node_t* naginata_node_B_H_B_O_children[2] = {
-  &naginata_node_B_H_B_O_B_F,
-  &naginata_node_B_H_B_O_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_H_B_O = {
-  .parent       = &naginata_node_B_H,
-  .children     = naginata_node_B_H_B_O_children,
-  .children_num = 2,
-  .key          = B_O,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_G_B_J_B_H = {
-  .parent       = &naginata_node_B_G_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "dya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_J_B_E = {
-  .parent       = &naginata_node_B_P_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "dhu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_O_B_K = {
-  .parent       = &naginata_node_B_V_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "ixe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_R_B_J_B_H = {
-  .parent       = &naginata_node_B_R_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "zya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_V_B_K = {
-  .parent       = &naginata_node_B_SCLN_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "fi",
-};
-
-const naginata_node_t* naginata_node_B_P_B_X_children[2] = {
-  &naginata_node_B_P_B_X_B_J,
-  &naginata_node_B_P_B_X_B_M,
-};
-const PROGMEM naginata_node_t naginata_node_B_P_B_X = {
-  .parent       = &naginata_node_B_P,
-  .children     = naginata_node_B_P_B_X_children,
-  .children_num = 2,
-  .key          = B_X,
-  .value        = "hyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_D = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = "ni",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_H_B_W = {
-  .parent       = &naginata_node_B_J_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = "gya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_Q_B_J = {
-  .parent       = &naginata_node_B_Q,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "xa",
-};
-
-const naginata_node_t* naginata_node_B_O_B_F_children[2] = {
-  &naginata_node_B_O_B_F_B_L,
-  &naginata_node_B_O_B_F_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_O_B_F = {
-  .parent       = &naginata_node_B_O,
-  .children     = naginata_node_B_O_B_F_children,
-  .children_num = 2,
-  .key          = B_F,
-  .value        = "zu",
-};
-
-const naginata_node_t* naginata_node_B_H_B_M_children[1] = {
-  &naginata_node_B_H_B_M_B_X,
-};
-const PROGMEM naginata_node_t naginata_node_B_H_B_M = {
-  .parent       = &naginata_node_B_H,
-  .children     = naginata_node_B_H_B_M_children,
-  .children_num = 1,
-  .key          = B_M,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_L_B_D_children[2] = {
-  &naginata_node_B_L_B_D_B_M,
-  &naginata_node_B_L_B_D_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_L_B_D = {
-  .parent       = &naginata_node_B_L,
-  .children     = naginata_node_B_L_B_D_children,
-  .children_num = 2,
-  .key          = B_D,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_W_B_RS2 = {
-  .parent       = &naginata_node_B_W,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "nu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_K_B_SCLN = {
-  .parent       = &naginata_node_B_V_B_K,
+const naginata_node_t naginata_node_B_J_B_V_B_SCLN = {
+  .parent       = &naginata_node_B_J_B_V,
   .children     = NULL,
   .children_num = 0,
   .key          = B_SCLN,
-  .value        = "fi",
+  .value        = "fa",
 };
 
-const naginata_node_t* naginata_node_B_P_B_J_children[5] = {
-  &naginata_node_B_P_B_J_B_R,
-  &naginata_node_B_P_B_J_B_W,
-  &naginata_node_B_P_B_J_B_G,
-  &naginata_node_B_P_B_J_B_X,
-  &naginata_node_B_P_B_J_B_E,
-};
-const PROGMEM naginata_node_t naginata_node_B_P_B_J = {
-  .parent       = &naginata_node_B_P,
-  .children     = naginata_node_B_P_B_J_children,
-  .children_num = 5,
-  .key          = B_J,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_K_B_H = {
-  .parent       = &naginata_node_B_F_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "kuxi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_F_B_H = {
-  .parent       = &naginata_node_B_J_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "kuxa",
-};
-
-const naginata_node_t* naginata_node_B_I_B_G_children[1] = {
-  &naginata_node_B_I_B_G_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_I_B_G = {
-  .parent       = &naginata_node_B_I,
-  .children     = naginata_node_B_I_B_G_children,
-  .children_num = 1,
-  .key          = B_G,
-  .value        = "tyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_R_B_J = {
-  .parent       = &naginata_node_B_I_B_R,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "zyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_H_B_F = {
-  .parent       = &naginata_node_B_K_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "kuxi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_Q_B_K = {
-  .parent       = &naginata_node_B_Q,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "xi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_DOT = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = "wa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_Q_B_I = {
-  .parent       = &naginata_node_B_Q,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "xyo",
-};
-
-const naginata_node_t* naginata_node_B_I_B_M_children[1] = {
-  &naginata_node_B_I_B_M_B_X,
-};
-const PROGMEM naginata_node_t naginata_node_B_I_B_M = {
-  .parent       = &naginata_node_B_I,
-  .children     = naginata_node_B_I_B_M_children,
-  .children_num = 1,
-  .key          = B_M,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_SCLN_children[9] = {
-  &naginata_node_B_SCLN_B_LS2,
-  &naginata_node_B_SCLN_B_RS2,
-  &naginata_node_B_SCLN_B_F,
-  &naginata_node_B_SCLN_B_V,
-  &naginata_node_B_SCLN_B_P,
-  &naginata_node_B_SCLN_B_J,
-  &naginata_node_B_SCLN_B_K,
-  &naginata_node_B_SCLN_B_L,
-  &naginata_node_B_SCLN_B_N,
-};
-const PROGMEM naginata_node_t naginata_node_B_SCLN = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_SCLN_children,
-  .children_num = 9,
-  .key          = B_SCLN,
-  .value        = "-",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_H_B_K = {
-  .parent       = &naginata_node_B_F_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "kuxi",
-};
-
-const naginata_node_t* naginata_node_B_R_children[8] = {
-  &naginata_node_B_R_B_LS2,
-  &naginata_node_B_R_B_RS2,
-  &naginata_node_B_R_B_J,
-  &naginata_node_B_R_B_I,
-  &naginata_node_B_R_B_P,
-  &naginata_node_B_R_B_H,
-  &naginata_node_B_R_B_O,
-  &naginata_node_B_R_B_M,
-};
-const PROGMEM naginata_node_t naginata_node_B_R = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_R_children,
-  .children_num = 8,
-  .key          = B_R,
-  .value        = "si",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_U = {
-  .parent       = &naginata_node_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = "za",
-};
-
-const naginata_node_t* naginata_node_B_L_B_O_children[2] = {
-  &naginata_node_B_L_B_O_B_V,
-  &naginata_node_B_L_B_O_B_F,
-};
-const PROGMEM naginata_node_t naginata_node_B_L_B_O = {
-  .parent       = &naginata_node_B_L,
-  .children     = naginata_node_B_L_B_O_children,
-  .children_num = 2,
-  .key          = B_O,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_X_B_P_B_M = {
-  .parent       = &naginata_node_B_X_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "pyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_E_B_M = {
-  .parent       = &naginata_node_B_K_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "thi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_F_B_L = {
-  .parent       = &naginata_node_B_K_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "vi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_F = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "ma",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_O_B_L = {
-  .parent       = &naginata_node_B_F_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "ve",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_J_B_X = {
-  .parent       = &naginata_node_B_P_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "byu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_N_B_F_B_L = {
-  .parent       = &naginata_node_B_N_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "vo",
-};
-
-const naginata_node_t* naginata_node_B_O_B_V_children[3] = {
-  &naginata_node_B_O_B_V_B_K,
-  &naginata_node_B_O_B_V_B_L,
-  &naginata_node_B_O_B_V_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_O_B_V = {
-  .parent       = &naginata_node_B_O,
-  .children     = naginata_node_B_O_B_V_children,
-  .children_num = 3,
-  .key          = B_V,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_SCLN = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = "fu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_G_B_J = {
-  .parent       = &naginata_node_B_O_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "dye",
-};
-
-const naginata_node_t* naginata_node_B_N_children[7] = {
-  &naginata_node_B_N_B_LS2,
-  &naginata_node_B_N_B_RS2,
-  &naginata_node_B_N_B_F,
-  &naginata_node_B_N_B_SCLN,
-  &naginata_node_B_N_B_V,
-  &naginata_node_B_N_B_L,
-  &naginata_node_B_N_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_N = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_N_children,
-  .children_num = 7,
-  .key          = B_N,
-  .value        = "ta",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_J_B_G = {
-  .parent       = &naginata_node_B_P_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = "dyu",
-};
-
-const naginata_node_t* naginata_node_B_E_children[8] = {
-  &naginata_node_B_E_B_LS2,
-  &naginata_node_B_E_B_RS2,
-  &naginata_node_B_E_B_J,
-  &naginata_node_B_E_B_I,
-  &naginata_node_B_E_B_P,
-  &naginata_node_B_E_B_H,
-  &naginata_node_B_E_B_M,
-  &naginata_node_B_E_B_K,
-};
-const PROGMEM naginata_node_t naginata_node_B_E = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_E_children,
-  .children_num = 8,
-  .key          = B_E,
-  .value        = "te",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_B = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = "mi",
-};
-
-const naginata_node_t* naginata_node_B_L_B_N_children[2] = {
-  &naginata_node_B_L_B_N_B_V,
-  &naginata_node_B_L_B_N_B_F,
-};
-const PROGMEM naginata_node_t naginata_node_B_L_B_N = {
-  .parent       = &naginata_node_B_L,
-  .children     = naginata_node_B_L_B_N_children,
-  .children_num = 2,
-  .key          = B_N,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_M_B_E_B_P = {
-  .parent       = &naginata_node_B_M_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "thu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_N_B_LS2 = {
-  .parent       = &naginata_node_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "o",
-};
-
-const naginata_node_t* naginata_node_B_F_children[12] = {
-  &naginata_node_B_F_B_LS2,
-  &naginata_node_B_F_B_RS2,
-  &naginata_node_B_F_B_J,
-  &naginata_node_B_F_B_U,
-  &naginata_node_B_F_B_O,
-  &naginata_node_B_F_B_P,
-  &naginata_node_B_F_B_H,
-  &naginata_node_B_F_B_L,
-  &naginata_node_B_F_B_SCLN,
-  &naginata_node_B_F_B_N,
-  &naginata_node_B_F_B_K,
-  &naginata_node_B_F_B_G,
-};
-const PROGMEM naginata_node_t naginata_node_B_F = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_F_children,
-  .children_num = 12,
-  .key          = B_F,
-  .value        = "ka",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_R = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "ne",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_SCLN_B_L = {
-  .parent       = &naginata_node_B_V_B_SCLN,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "fe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_J_B_L = {
-  .parent       = &naginata_node_B_V_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "tsa",
-};
-
-const naginata_node_t* naginata_node_B_K_B_SCLN_children[1] = {
-  &naginata_node_B_K_B_SCLN_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_K_B_SCLN = {
-  .parent       = &naginata_node_B_K,
-  .children     = naginata_node_B_K_B_SCLN_children,
-  .children_num = 1,
-  .key          = B_SCLN,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_P_B_L_children[1] = {
-  &naginata_node_B_P_B_L_B_F,
-};
-const PROGMEM naginata_node_t naginata_node_B_P_B_L = {
-  .parent       = &naginata_node_B_P,
-  .children     = naginata_node_B_P_B_L_children,
-  .children_num = 1,
-  .key          = B_L,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_P_B_R = {
-  .parent       = &naginata_node_B_J_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "zyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_SCLN_B_V = {
-  .parent       = &naginata_node_B_P_B_SCLN,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "fyu",
-};
-
-const naginata_node_t* naginata_node_B_P_B_W_children[1] = {
-  &naginata_node_B_P_B_W_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_P_B_W = {
-  .parent       = &naginata_node_B_P,
-  .children     = naginata_node_B_P_B_W_children,
-  .children_num = 1,
-  .key          = B_W,
-  .value        = "kyu",
-};
-
-const naginata_node_t* naginata_node_B_D_B_L_children[2] = {
-  &naginata_node_B_D_B_L_B_M,
-  &naginata_node_B_D_B_L_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_D_B_L = {
-  .parent       = &naginata_node_B_D,
-  .children     = naginata_node_B_D_B_L_children,
-  .children_num = 2,
-  .key          = B_L,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_RS2 = {
-  .parent       = &naginata_node_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "yo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_R_B_H_B_J = {
-  .parent       = &naginata_node_B_R_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "zya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_R_B_O_B_J = {
-  .parent       = &naginata_node_B_R_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "zye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_LS2 = {
-  .parent       = &naginata_node_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "no",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_W_B_H = {
-  .parent       = &naginata_node_B_J_B_W,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "gya",
-};
-
-const naginata_node_t* naginata_node_B_V_children[10] = {
-  &naginata_node_B_V_B_LS2,
-  &naginata_node_B_V_B_RS2,
-  &naginata_node_B_V_B_J,
-  &naginata_node_B_V_B_P,
-  &naginata_node_B_V_B_SCLN,
-  &naginata_node_B_V_B_K,
-  &naginata_node_B_V_B_L,
-  &naginata_node_B_V_B_N,
-  &naginata_node_B_V_B_O,
-  &naginata_node_B_V_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_V = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_V_children,
-  .children_num = 10,
-  .key          = B_V,
-  .value        = "ko",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_W_B_P_B_J = {
-  .parent       = &naginata_node_B_W_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "gyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_J_B_V = {
-  .parent       = &naginata_node_B_H_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "guxa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_V_B_O = {
-  .parent       = &naginata_node_B_H_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "guxe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_C = {
-  .parent       = &naginata_node_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = "ba",
-};
-
-const naginata_node_t* naginata_node_B_Z_children[2] = {
-  &naginata_node_B_Z_B_J,
-  &naginata_node_B_Z_B_M,
-};
-const PROGMEM naginata_node_t naginata_node_B_Z = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_Z_children,
-  .children_num = 2,
-  .key          = B_Z,
-  .value        = "ho",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_R_B_J_B_I = {
-  .parent       = &naginata_node_B_R_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "zyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_O_B_H = {
-  .parent       = &naginata_node_B_V_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "guxe",
-};
-
-const naginata_node_t* naginata_node_B_J_B_I_children[4] = {
-  &naginata_node_B_J_B_I_B_R,
-  &naginata_node_B_J_B_I_B_W,
-  &naginata_node_B_J_B_I_B_G,
-  &naginata_node_B_J_B_I_B_X,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_I = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_I_children,
-  .children_num = 4,
-  .key          = B_I,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_P_B_R_children[1] = {
-  &naginata_node_B_P_B_R_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_P_B_R = {
-  .parent       = &naginata_node_B_P,
-  .children     = naginata_node_B_P_B_R_children,
-  .children_num = 1,
-  .key          = B_R,
-  .value        = "syu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_V_B_P = {
-  .parent       = &naginata_node_B_SCLN_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "fyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_O = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "e",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_LS2 = {
-  .parent       = &naginata_node_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "tu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_X_B_I = {
-  .parent       = &naginata_node_B_J_B_X,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "byo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_A = {
-  .parent       = &naginata_node_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = "ze",
-};
-
-const naginata_node_t* naginata_node_B_J_B_D_children[1] = {
-  &naginata_node_B_J_B_D_B_L,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_D = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_D_children,
-  .children_num = 1,
-  .key          = B_D,
-  .value        = "do",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_RS2 = {
-  .parent       = &naginata_node_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "e",
-};
-
-const naginata_node_t* naginata_node_B_SCLN_B_L_children[1] = {
-  &naginata_node_B_SCLN_B_L_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_L = {
-  .parent       = &naginata_node_B_SCLN,
-  .children     = naginata_node_B_SCLN_B_L_children,
-  .children_num = 1,
-  .key          = B_L,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_P_B_V_children[1] = {
-  &naginata_node_B_P_B_V_B_SCLN,
-};
-const PROGMEM naginata_node_t naginata_node_B_P_B_V = {
-  .parent       = &naginata_node_B_P,
-  .children     = naginata_node_B_P_B_V_children,
-  .children_num = 1,
-  .key          = B_V,
-  .value        = "pe",
-};
-
-const naginata_node_t* naginata_node_B_H_children[16] = {
-  &naginata_node_B_H_B_LS2,
-  &naginata_node_B_H_B_RS2,
-  &naginata_node_B_H_B_F,
-  &naginata_node_B_H_B_R,
-  &naginata_node_B_H_B_J,
-  &naginata_node_B_H_B_W,
-  &naginata_node_B_H_B_G,
-  &naginata_node_B_H_B_D,
-  &naginata_node_B_H_B_X,
-  &naginata_node_B_H_B_M,
-  &naginata_node_B_H_B_B,
-  &naginata_node_B_H_B_E,
-  &naginata_node_B_H_B_O,
-  &naginata_node_B_H_B_K,
-  &naginata_node_B_H_B_N,
-  &naginata_node_B_H_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_H = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_H_children,
-  .children_num = 16,
-  .key          = B_H,
-  .value        = "ku",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_F_B_J = {
-  .parent       = &naginata_node_B_H_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "kuxa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_K_B_F = {
-  .parent       = &naginata_node_B_H_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "kuxi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_U = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = "sa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_B = {
-  .parent       = &naginata_node_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = "mya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_P = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "yu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_E_B_M_B_K = {
-  .parent       = &naginata_node_B_E_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "thi",
-};
-
-const naginata_node_t* naginata_node_B_V_B_H_children[4] = {
-  &naginata_node_B_V_B_H_B_O,
-  &naginata_node_B_V_B_H_B_J,
-  &naginata_node_B_V_B_H_B_K,
-  &naginata_node_B_V_B_H_B_N,
-};
-const PROGMEM naginata_node_t naginata_node_B_V_B_H = {
-  .parent       = &naginata_node_B_V,
-  .children     = naginata_node_B_V_B_H_children,
-  .children_num = 4,
-  .key          = B_H,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_I = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "yo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_O_B_F = {
-  .parent       = &naginata_node_B_L_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "ve",
-};
-
-const naginata_node_t* naginata_node_B_V_B_O_children[3] = {
-  &naginata_node_B_V_B_O_B_K,
-  &naginata_node_B_V_B_O_B_L,
-  &naginata_node_B_V_B_O_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_V_B_O = {
-  .parent       = &naginata_node_B_V,
-  .children     = naginata_node_B_V_B_O_children,
-  .children_num = 3,
-  .key          = B_O,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_DOT_B_LS2 = {
-  .parent       = &naginata_node_B_DOT,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "wa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_SCLN_B_P = {
-  .parent       = &naginata_node_B_V_B_SCLN,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "fyu",
-};
-
-const naginata_node_t* naginata_node_B_L_B_SCLN_children[1] = {
-  &naginata_node_B_L_B_SCLN_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_L_B_SCLN = {
-  .parent       = &naginata_node_B_L,
-  .children     = naginata_node_B_L_B_SCLN_children,
-  .children_num = 1,
-  .key          = B_SCLN,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_I_B_W = {
-  .parent       = &naginata_node_B_J_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = "gyo",
-};
-
-const naginata_node_t* naginata_node_B_J_B_R_children[4] = {
-  &naginata_node_B_J_B_R_B_I,
-  &naginata_node_B_J_B_R_B_P,
-  &naginata_node_B_J_B_R_B_H,
-  &naginata_node_B_J_B_R_B_O,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_R = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_R_children,
-  .children_num = 4,
-  .key          = B_R,
-  .value        = "zi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_E_B_K_B_J = {
-  .parent       = &naginata_node_B_E_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "dhi",
-};
-
-const naginata_node_t* naginata_node_B_G_B_O_children[2] = {
-  &naginata_node_B_G_B_O_B_M,
-  &naginata_node_B_G_B_O_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_G_B_O = {
-  .parent       = &naginata_node_B_G,
-  .children     = naginata_node_B_G_B_O_children,
-  .children_num = 2,
-  .key          = B_O,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_A_children[3] = {
-  &naginata_node_B_A_B_LS2,
-  &naginata_node_B_A_B_RS2,
-  &naginata_node_B_A_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_A = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_A_children,
-  .children_num = 3,
-  .key          = B_A,
-  .value        = "ro",
-};
-
-const naginata_node_t* naginata_node_B_P_B_SCLN_children[1] = {
-  &naginata_node_B_P_B_SCLN_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_P_B_SCLN = {
-  .parent       = &naginata_node_B_P,
-  .children     = naginata_node_B_P_B_SCLN_children,
-  .children_num = 1,
-  .key          = B_SCLN,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_N_B_H = {
-  .parent       = &naginata_node_B_F_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "kuxo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_B = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = "mi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_E = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "ri",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_B = {
-  .parent       = &naginata_node_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = "myu",
-};
-
-const naginata_node_t* naginata_node_B_W_B_J_children[3] = {
-  &naginata_node_B_W_B_J_B_I,
-  &naginata_node_B_W_B_J_B_P,
-  &naginata_node_B_W_B_J_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_W_B_J = {
-  .parent       = &naginata_node_B_W,
-  .children     = naginata_node_B_W_B_J_children,
-  .children_num = 3,
-  .key          = B_J,
-  .value        = "gi",
-};
-
-const naginata_node_t* naginata_node_B_C_children[4] = {
-  &naginata_node_B_C_B_LS2,
-  &naginata_node_B_C_B_RS2,
-  &naginata_node_B_C_B_J,
-  &naginata_node_B_C_B_M,
-};
-const PROGMEM naginata_node_t naginata_node_B_C = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_C_children,
-  .children_num = 4,
-  .key          = B_C,
-  .value        = "ha",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_N_B_V_B_L = {
-  .parent       = &naginata_node_B_N_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "uxo",
-};
-
-const naginata_node_t* naginata_node_B_M_B_K_children[1] = {
-  &naginata_node_B_M_B_K_B_E,
-};
-const PROGMEM naginata_node_t naginata_node_B_M_B_K = {
-  .parent       = &naginata_node_B_M,
-  .children     = naginata_node_B_M_B_K_children,
-  .children_num = 1,
-  .key          = B_K,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_N_B_L_children[2] = {
-  &naginata_node_B_N_B_L_B_V,
-  &naginata_node_B_N_B_L_B_F,
-};
-const PROGMEM naginata_node_t naginata_node_B_N_B_L = {
-  .parent       = &naginata_node_B_N,
-  .children     = naginata_node_B_N_B_L_children,
-  .children_num = 2,
-  .key          = B_L,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_M_B_K_B_E = {
-  .parent       = &naginata_node_B_M_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "thi",
-};
-
-const naginata_node_t* naginata_node_B_V_B_J_children[3] = {
-  &naginata_node_B_V_B_J_B_SCLN,
-  &naginata_node_B_V_B_J_B_H,
-  &naginata_node_B_V_B_J_B_L,
-};
-const PROGMEM naginata_node_t naginata_node_B_V_B_J = {
-  .parent       = &naginata_node_B_V,
-  .children     = naginata_node_B_V_B_J_children,
-  .children_num = 3,
-  .key          = B_J,
-  .value        = "go",
-};
-
-const naginata_node_t* naginata_node_B_SCLN_B_J_children[1] = {
-  &naginata_node_B_SCLN_B_J_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_J = {
-  .parent       = &naginata_node_B_SCLN,
-  .children     = naginata_node_B_SCLN_B_J_children,
-  .children_num = 1,
-  .key          = B_J,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_J_B_R = {
-  .parent       = &naginata_node_B_P_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "zyu",
-};
-
-const naginata_node_t* naginata_node_B_M_B_P_children[2] = {
-  &naginata_node_B_M_B_P_B_X,
-  &naginata_node_B_M_B_P_B_E,
-};
-const PROGMEM naginata_node_t naginata_node_B_M_B_P = {
-  .parent       = &naginata_node_B_M,
-  .children     = naginata_node_B_M_B_P_children,
-  .children_num = 2,
-  .key          = B_P,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_V_B_L = {
-  .parent       = &naginata_node_B_SCLN_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "fe",
-};
-
-const naginata_node_t* naginata_node_B_M_B_R_children[1] = {
-  &naginata_node_B_M_B_R_B_O,
-};
-const PROGMEM naginata_node_t naginata_node_B_M_B_R = {
-  .parent       = &naginata_node_B_M,
-  .children     = naginata_node_B_M_B_R_children,
-  .children_num = 1,
-  .key          = B_R,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_S = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = "me",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_Q_B_N = {
-  .parent       = &naginata_node_B_Q,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "xo",
-};
-
-const naginata_node_t* naginata_node_B_L_B_P_children[1] = {
-  &naginata_node_B_L_B_P_B_F,
-};
-const PROGMEM naginata_node_t naginata_node_B_L_B_P = {
-  .parent       = &naginata_node_B_L,
-  .children     = naginata_node_B_L_B_P_children,
-  .children_num = 1,
-  .key          = B_P,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_RS2 = {
-  .parent       = &naginata_node_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "no",
-};
-
-const naginata_node_t* naginata_node_B_N_B_SCLN_children[1] = {
-  &naginata_node_B_N_B_SCLN_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_N_B_SCLN = {
-  .parent       = &naginata_node_B_N,
-  .children     = naginata_node_B_N_B_SCLN_children,
-  .children_num = 1,
-  .key          = B_SCLN,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_H_B_V = {
-  .parent       = &naginata_node_B_O_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "guxe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_COMM = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = "mu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_F_B_N = {
-  .parent       = &naginata_node_B_L_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "vo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_L_B_N = {
-  .parent       = &naginata_node_B_F_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "vo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_M_B_D_B_L = {
-  .parent       = &naginata_node_B_M_B_D,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "toxu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_H_B_O = {
-  .parent       = &naginata_node_B_V_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "guxe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_F_B_O = {
-  .parent       = &naginata_node_B_H_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "kuxe",
-};
-
-const naginata_node_t* naginata_node_B_G_B_I_children[1] = {
-  &naginata_node_B_G_B_I_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_G_B_I = {
-  .parent       = &naginata_node_B_G,
-  .children     = naginata_node_B_G_B_I_children,
-  .children_num = 1,
-  .key          = B_I,
-  .value        = "tyo",
-};
-
-const naginata_node_t* naginata_node_B_D_children[8] = {
+const naginata_node_t* naginata_node_B_D_children[9] = {
   &naginata_node_B_D_B_LS2,
   &naginata_node_B_D_B_RS2,
   &naginata_node_B_D_B_J,
@@ -3763,667 +1927,72 @@ const naginata_node_t* naginata_node_B_D_children[8] = {
   &naginata_node_B_D_B_H,
   &naginata_node_B_D_B_M,
   &naginata_node_B_D_B_L,
+  &naginata_node_B_D_B_F,
 };
-const PROGMEM naginata_node_t naginata_node_B_D = {
+const naginata_node_t naginata_node_B_D = {
   .parent       = &naginata_node_root,
   .children     = naginata_node_B_D_children,
-  .children_num = 8,
+  .children_num = 9,
   .key          = B_D,
   .value        = "to",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_K_B_V_B_H = {
-  .parent       = &naginata_node_B_K_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "guxi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_N_B_F_B_H = {
-  .parent       = &naginata_node_B_N_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "kuxo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_R_B_M = {
-  .parent       = &naginata_node_B_O_B_R,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "sye",
-};
-
-const naginata_node_t* naginata_node_B_G_children[9] = {
-  &naginata_node_B_G_B_LS2,
-  &naginata_node_B_G_B_RS2,
-  &naginata_node_B_G_B_J,
-  &naginata_node_B_G_B_I,
-  &naginata_node_B_G_B_P,
-  &naginata_node_B_G_B_H,
-  &naginata_node_B_G_B_O,
-  &naginata_node_B_G_B_M,
-  &naginata_node_B_G_B_F,
-};
-const PROGMEM naginata_node_t naginata_node_B_G = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_G_children,
-  .children_num = 9,
-  .key          = B_G,
-  .value        = "xtu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_N = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "o",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_K_B_H = {
-  .parent       = &naginata_node_B_V_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "guxi",
-};
-
-const naginata_node_t* naginata_node_B_K_B_L_children[2] = {
-  &naginata_node_B_K_B_L_B_V,
-  &naginata_node_B_K_B_L_B_F,
-};
-const PROGMEM naginata_node_t naginata_node_B_K_B_L = {
-  .parent       = &naginata_node_B_K,
-  .children     = naginata_node_B_K_B_L_children,
-  .children_num = 2,
-  .key          = B_L,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_W_B_I_children[1] = {
-  &naginata_node_B_W_B_I_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_W_B_I = {
-  .parent       = &naginata_node_B_W,
-  .children     = naginata_node_B_W_B_I_children,
-  .children_num = 1,
-  .key          = B_I,
-  .value        = "kyo",
-};
-
-const naginata_node_t* naginata_node_B_M_B_D_children[1] = {
-  &naginata_node_B_M_B_D_B_L,
-};
-const PROGMEM naginata_node_t naginata_node_B_M_B_D = {
-  .parent       = &naginata_node_B_M,
-  .children     = naginata_node_B_M_B_D_children,
-  .children_num = 1,
-  .key          = B_D,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_E_B_M = {
-  .parent       = &naginata_node_B_P_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "thu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_I_B_X = {
-  .parent       = &naginata_node_B_J_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "byo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_RS2 = {
-  .parent       = &naginata_node_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = ",",
-};
-
-const naginata_node_t* naginata_node_B_J_B_X_children[3] = {
-  &naginata_node_B_J_B_X_B_I,
-  &naginata_node_B_J_B_X_B_P,
-  &naginata_node_B_J_B_X_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_X = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_X_children,
-  .children_num = 3,
-  .key          = B_X,
-  .value        = "bi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_W_B_J_B_H = {
-  .parent       = &naginata_node_B_W_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "gya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_DOT_B_RS2 = {
-  .parent       = &naginata_node_B_DOT,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "wa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_Q_B_L = {
-  .parent       = &naginata_node_B_Q,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "xu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_V_B_O = {
-  .parent       = &naginata_node_B_K_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "ixe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_H_B_R = {
-  .parent       = &naginata_node_B_J_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "zya",
-};
-
-const naginata_node_t* naginata_node_B_L_B_K_children[2] = {
-  &naginata_node_B_L_B_K_B_V,
-  &naginata_node_B_L_B_K_B_F,
-};
-const PROGMEM naginata_node_t naginata_node_B_L_B_K = {
-  .parent       = &naginata_node_B_L,
-  .children     = naginata_node_B_L_B_K_children,
-  .children_num = 2,
-  .key          = B_K,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_X_B_M_children[3] = {
-  &naginata_node_B_X_B_M_B_I,
-  &naginata_node_B_X_B_M_B_P,
-  &naginata_node_B_X_B_M_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_X_B_M = {
-  .parent       = &naginata_node_B_X,
-  .children     = naginata_node_B_X_B_M_children,
-  .children_num = 3,
-  .key          = B_M,
-  .value        = "pi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_Q_B_O = {
-  .parent       = &naginata_node_B_Q,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "xe",
-};
-
-const naginata_node_t* naginata_node_B_D_B_M_children[1] = {
-  &naginata_node_B_D_B_M_B_L,
-};
-const PROGMEM naginata_node_t naginata_node_B_D_B_M = {
-  .parent       = &naginata_node_B_D,
-  .children     = naginata_node_B_D_B_M_children,
-  .children_num = 1,
-  .key          = B_M,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_D_B_I = {
-  .parent       = &naginata_node_B_D,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "nyo",
-};
-
-const naginata_node_t* naginata_node_B_SCLN_B_K_children[1] = {
-  &naginata_node_B_SCLN_B_K_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_K = {
-  .parent       = &naginata_node_B_SCLN,
-  .children     = naginata_node_B_SCLN_B_K_children,
-  .children_num = 1,
-  .key          = B_K,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_Q_B_P = {
-  .parent       = &naginata_node_B_Q,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "xyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_K_B_O = {
-  .parent       = &naginata_node_B_V_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "ixe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_X_B_J_B_H = {
-  .parent       = &naginata_node_B_X_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "bya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_L_B_V = {
-  .parent       = &naginata_node_B_J_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "tsa",
-};
-
-const naginata_node_t* naginata_node_B_R_B_M_children[1] = {
-  &naginata_node_B_R_B_M_B_O,
-};
-const PROGMEM naginata_node_t naginata_node_B_R_B_M = {
-  .parent       = &naginata_node_B_R,
-  .children     = naginata_node_B_R_B_M_children,
-  .children_num = 1,
-  .key          = B_M,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_G = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = "ti",
-};
-
-const naginata_node_t* naginata_node_B_R_B_P_children[1] = {
-  &naginata_node_B_R_B_P_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_R_B_P = {
-  .parent       = &naginata_node_B_R,
-  .children     = naginata_node_B_R_B_P_children,
-  .children_num = 1,
-  .key          = B_P,
-  .value        = "syu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_R_B_O_B_M = {
-  .parent       = &naginata_node_B_R_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "sye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_RS2 = {
-  .parent       = &naginata_node_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "yu",
-};
-
-const naginata_node_t* naginata_node_B_I_B_J_children[4] = {
-  &naginata_node_B_I_B_J_B_R,
-  &naginata_node_B_I_B_J_B_W,
-  &naginata_node_B_I_B_J_B_G,
-  &naginata_node_B_I_B_J_B_X,
-};
-const PROGMEM naginata_node_t naginata_node_B_I_B_J = {
-  .parent       = &naginata_node_B_I,
-  .children     = naginata_node_B_I_B_J_children,
-  .children_num = 4,
-  .key          = B_J,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_V_B_N = {
-  .parent       = &naginata_node_B_SCLN_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "fo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_X_B_H_B_J = {
-  .parent       = &naginata_node_B_X_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "bya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_E = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "ri",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_V_B_SCLN = {
-  .parent       = &naginata_node_B_P_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = "fyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_J_B_R = {
-  .parent       = &naginata_node_B_H_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "zya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_L_B_F = {
-  .parent       = &naginata_node_B_J_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "va",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_J = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "no",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_A_B_J = {
-  .parent       = &naginata_node_B_A,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "ze",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_V_B_L = {
-  .parent       = &naginata_node_B_J_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "tsa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_J = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "no",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_N_B_RS2 = {
-  .parent       = &naginata_node_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "o",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_H_B_X = {
-  .parent       = &naginata_node_B_J_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "bya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_X_B_M = {
-  .parent       = &naginata_node_B_H_B_X,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "pya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_G_B_J = {
-  .parent       = &naginata_node_B_P_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "dyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_F_B_H = {
-  .parent       = &naginata_node_B_O_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "kuxe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_X_B_M_B_I = {
-  .parent       = &naginata_node_B_X_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "pyo",
-};
-
-const naginata_node_t* naginata_node_B_O_B_J_children[2] = {
-  &naginata_node_B_O_B_J_B_R,
-  &naginata_node_B_O_B_J_B_G,
-};
-const PROGMEM naginata_node_t naginata_node_B_O_B_J = {
-  .parent       = &naginata_node_B_O,
-  .children     = naginata_node_B_O_B_J_children,
-  .children_num = 2,
-  .key          = B_J,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_A_B_LS2 = {
-  .parent       = &naginata_node_B_A,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "se",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_N_B_SCLN = {
-  .parent       = &naginata_node_B_V_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = "fo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_H_B_G = {
-  .parent       = &naginata_node_B_J_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = "dya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_P = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "yu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_M_B_E = {
-  .parent       = &naginata_node_B_K_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "thi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_V_B_SCLN = {
-  .parent       = &naginata_node_B_K_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = "fi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_SCLN_B_N = {
-  .parent       = &naginata_node_B_V_B_SCLN,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "fo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_I_B_G = {
-  .parent       = &naginata_node_B_J_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = "dyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_F_B_N = {
-  .parent       = &naginata_node_B_H_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "kuxo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_S = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = "me",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_N_B_F = {
-  .parent       = &naginata_node_B_L_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "vo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_D = {
-  .parent       = &naginata_node_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = "nyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_L_B_V = {
+const naginata_node_t naginata_node_B_O_B_L_B_F = {
   .parent       = &naginata_node_B_O_B_L,
   .children     = NULL,
   .children_num = 0,
+  .key          = B_F,
+  .value        = "ve",
+};
+
+const naginata_node_t* naginata_node_B_L_B_V_children[5] = {
+  &naginata_node_B_L_B_V_B_SCLN,
+  &naginata_node_B_L_B_V_B_O,
+  &naginata_node_B_L_B_V_B_K,
+  &naginata_node_B_L_B_V_B_N,
+  &naginata_node_B_L_B_V_B_J,
+};
+const naginata_node_t naginata_node_B_L_B_V = {
+  .parent       = &naginata_node_B_L,
+  .children     = naginata_node_B_L_B_V_children,
+  .children_num = 5,
   .key          = B_V,
-  .value        = "we",
+  .value        = NULL,
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_J_B_R_B_I = {
-  .parent       = &naginata_node_B_J_B_R,
+const naginata_node_t naginata_node_B_H_B_J_B_X = {
+  .parent       = &naginata_node_B_H_B_J,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_I,
-  .value        = "zyo",
+  .key          = B_X,
+  .value        = "bya",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_L_B_N_B_V = {
-  .parent       = &naginata_node_B_L_B_N,
+const naginata_node_t naginata_node_B_X_B_M_B_P = {
+  .parent       = &naginata_node_B_X_B_M,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_V,
-  .value        = "uxo",
+  .key          = B_P,
+  .value        = "pyu",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_U_B_LS2 = {
-  .parent       = &naginata_node_B_U,
+const naginata_node_t naginata_node_B_G_B_J_B_P = {
+  .parent       = &naginata_node_B_G_B_J,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_LS2,
-  .value        = "sa",
+  .key          = B_P,
+  .value        = "dyu",
 };
 
 const naginata_node_t* naginata_node_B_M_B_E_children[2] = {
   &naginata_node_B_M_B_E_B_P,
   &naginata_node_B_M_B_E_B_K,
 };
-const PROGMEM naginata_node_t naginata_node_B_M_B_E = {
+const naginata_node_t naginata_node_B_M_B_E = {
   .parent       = &naginata_node_B_M,
   .children     = naginata_node_B_M_B_E_children,
   .children_num = 2,
@@ -4431,295 +2000,58 @@ const PROGMEM naginata_node_t naginata_node_B_M_B_E = {
   .value        = NULL,
 };
 
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_W = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = "nu",
+const naginata_node_t* naginata_node_B_E_B_M_children[2] = {
+  &naginata_node_B_E_B_M_B_P,
+  &naginata_node_B_E_B_M_B_K,
 };
-
-
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_L_B_V = {
-  .parent       = &naginata_node_B_SCLN_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "fe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_G_B_I = {
-  .parent       = &naginata_node_B_J_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "dyo",
-};
-
-const naginata_node_t* naginata_node_B_H_B_N_children[2] = {
-  &naginata_node_B_H_B_N_B_F,
-  &naginata_node_B_H_B_N_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_H_B_N = {
-  .parent       = &naginata_node_B_H,
-  .children     = naginata_node_B_H_B_N_children,
+const naginata_node_t naginata_node_B_E_B_M = {
+  .parent       = &naginata_node_B_E,
+  .children     = naginata_node_B_E_B_M_children,
   .children_num = 2,
-  .key          = B_N,
+  .key          = B_M,
   .value        = NULL,
 };
 
-const naginata_node_t* naginata_node_B_W_B_H_children[1] = {
-  &naginata_node_B_W_B_H_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_W_B_H = {
-  .parent       = &naginata_node_B_W,
-  .children     = naginata_node_B_W_B_H_children,
-  .children_num = 1,
-  .key          = B_H,
-  .value        = "kya",
-};
 
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_D_B_J = {
-  .parent       = &naginata_node_B_L_B_D,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "doxu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_D_B_J_B_L = {
-  .parent       = &naginata_node_B_D_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "doxu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_D_B_P = {
-  .parent       = &naginata_node_B_D,
+const naginata_node_t naginata_node_B_SCLN_B_V_B_P = {
+  .parent       = &naginata_node_B_SCLN_B_V,
   .children     = NULL,
   .children_num = 0,
   .key          = B_P,
-  .value        = "nyu",
-};
-
-const naginata_node_t* naginata_node_B_H_B_G_children[1] = {
-  &naginata_node_B_H_B_G_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_H_B_G = {
-  .parent       = &naginata_node_B_H,
-  .children     = naginata_node_B_H_B_G_children,
-  .children_num = 1,
-  .key          = B_G,
-  .value        = "tya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_X_B_I_B_J = {
-  .parent       = &naginata_node_B_X_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "byo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_SCLN_B_K = {
-  .parent       = &naginata_node_B_V_B_SCLN,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "fi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_V = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = ",",
-};
-
-const naginata_node_t* naginata_node_B_V_B_SCLN_children[5] = {
-  &naginata_node_B_V_B_SCLN_B_P,
-  &naginata_node_B_V_B_SCLN_B_J,
-  &naginata_node_B_V_B_SCLN_B_K,
-  &naginata_node_B_V_B_SCLN_B_L,
-  &naginata_node_B_V_B_SCLN_B_N,
-};
-const PROGMEM naginata_node_t naginata_node_B_V_B_SCLN = {
-  .parent       = &naginata_node_B_V,
-  .children     = naginata_node_B_V_B_SCLN_children,
-  .children_num = 5,
-  .key          = B_SCLN,
-  .value        = "pu",
-};
-
-const naginata_node_t* naginata_node_B_RS2_children[24] = {
-  &naginata_node_B_RS2_B_W,
-  &naginata_node_B_RS2_B_E,
-  &naginata_node_B_RS2_B_R,
-  &naginata_node_B_RS2_B_U,
-  &naginata_node_B_RS2_B_I,
-  &naginata_node_B_RS2_B_O,
-  &naginata_node_B_RS2_B_P,
-  &naginata_node_B_RS2_B_A,
-  &naginata_node_B_RS2_B_S,
-  &naginata_node_B_RS2_B_D,
-  &naginata_node_B_RS2_B_F,
-  &naginata_node_B_RS2_B_G,
-  &naginata_node_B_RS2_B_H,
-  &naginata_node_B_RS2_B_J,
-  &naginata_node_B_RS2_B_K,
-  &naginata_node_B_RS2_B_L,
-  &naginata_node_B_RS2_B_SCLN,
-  &naginata_node_B_RS2_B_C,
-  &naginata_node_B_RS2_B_V,
-  &naginata_node_B_RS2_B_B,
-  &naginata_node_B_RS2_B_N,
-  &naginata_node_B_RS2_B_M,
-  &naginata_node_B_RS2_B_COMM,
-  &naginata_node_B_RS2_B_DOT,
-};
-const PROGMEM naginata_node_t naginata_node_B_RS2 = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_RS2_children,
-  .children_num = 24,
-  .key          = B_RS2,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_K_B_O_children[1] = {
-  &naginata_node_B_K_B_O_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_K_B_O = {
-  .parent       = &naginata_node_B_K,
-  .children     = naginata_node_B_K_B_O_children,
-  .children_num = 1,
-  .key          = B_O,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_U_B_RS2 = {
-  .parent       = &naginata_node_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "sa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_V_B_J = {
-  .parent       = &naginata_node_B_H_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "guxa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_P_B_V = {
-  .parent       = &naginata_node_B_SCLN_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
   .value        = "fyu",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_J_B_L_B_D = {
-  .parent       = &naginata_node_B_J_B_L,
+const naginata_node_t naginata_node_B_F_B_L_B_N = {
+  .parent       = &naginata_node_B_F_B_L,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_D,
-  .value        = "doxu",
+  .key          = B_N,
+  .value        = "vo",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_F_B_J_B_L = {
-  .parent       = &naginata_node_B_F_B_J,
+const naginata_node_t naginata_node_B_V_B_L_B_J = {
+  .parent       = &naginata_node_B_V_B_L,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_L,
-  .value        = "va",
+  .key          = B_J,
+  .value        = "tsa",
 };
 
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_V_B_SCLN = {
-  .parent       = &naginata_node_B_L_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = "fe",
+const naginata_node_t* naginata_node_B_P_B_F_children[1] = {
+  &naginata_node_B_P_B_F_B_L,
 };
-
-const naginata_node_t* naginata_node_B_P_B_G_children[1] = {
-  &naginata_node_B_P_B_G_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_P_B_G = {
+const naginata_node_t naginata_node_B_P_B_F = {
   .parent       = &naginata_node_B_P,
-  .children     = naginata_node_B_P_B_G_children,
+  .children     = naginata_node_B_P_B_F_children,
   .children_num = 1,
-  .key          = B_G,
-  .value        = "tyu",
+  .key          = B_F,
+  .value        = "be",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_D_B_H = {
-  .parent       = &naginata_node_B_D,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "nya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_V_B_H = {
-  .parent       = &naginata_node_B_O_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "guxe",
-};
-
-const naginata_node_t* naginata_node_B_J_B_SCLN_children[1] = {
-  &naginata_node_B_J_B_SCLN_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_SCLN = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_SCLN_children,
-  .children_num = 1,
-  .key          = B_SCLN,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_E_B_RS2 = {
-  .parent       = &naginata_node_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "ri",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_M_B_D = {
-  .parent       = &naginata_node_B_L_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = "toxu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_J_B_W = {
+const naginata_node_t naginata_node_B_P_B_J_B_W = {
   .parent       = &naginata_node_B_P_B_J,
   .children     = NULL,
   .children_num = 0,
@@ -4728,570 +2060,30 @@ const PROGMEM naginata_node_t naginata_node_B_P_B_J_B_W = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_J_B_E_B_K = {
-  .parent       = &naginata_node_B_J_B_E,
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_W = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_K,
-  .value        = "dhi",
+  .key          = B_W,
+  .value        = "/",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_N_B_L_B_V = {
+const naginata_node_t naginata_node_B_N_B_L_B_F = {
   .parent       = &naginata_node_B_N_B_L,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_V,
-  .value        = "uxo",
-};
-
-const naginata_node_t* naginata_node_B_K_B_F_children[2] = {
-  &naginata_node_B_K_B_F_B_L,
-  &naginata_node_B_K_B_F_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_K_B_F = {
-  .parent       = &naginata_node_B_K,
-  .children     = naginata_node_B_K_B_F_children,
-  .children_num = 2,
   .key          = B_F,
-  .value        = NULL,
+  .value        = "vo",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_O_B_R_B_J = {
-  .parent       = &naginata_node_B_O_B_R,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "zye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_O_B_G = {
-  .parent       = &naginata_node_B_J_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = "dye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_L_B_F = {
-  .parent       = &naginata_node_B_P_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "vuxyu",
-};
-
-const naginata_node_t* naginata_node_B_W_children[6] = {
-  &naginata_node_B_W_B_LS2,
-  &naginata_node_B_W_B_RS2,
-  &naginata_node_B_W_B_J,
-  &naginata_node_B_W_B_I,
-  &naginata_node_B_W_B_P,
-  &naginata_node_B_W_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_W = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_W_children,
-  .children_num = 6,
-  .key          = B_W,
-  .value        = "ki",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_A = {
+const naginata_node_t naginata_node_B_LS2_B_A = {
   .parent       = &naginata_node_B_LS2,
   .children     = NULL,
   .children_num = 0,
   .key          = B_A,
   .value        = "se",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_R_B_J = {
-  .parent       = &naginata_node_B_H_B_R,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "zya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_L_B_P = {
-  .parent       = &naginata_node_B_F_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "vuxyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_S = {
-  .parent       = &naginata_node_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = "ge",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_F_B_O = {
-  .parent       = &naginata_node_B_L_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "ve",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_V_B_K = {
-  .parent       = &naginata_node_B_L_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "wi",
-};
-
-const naginata_node_t* naginata_node_B_V_B_L_children[5] = {
-  &naginata_node_B_V_B_L_B_SCLN,
-  &naginata_node_B_V_B_L_B_O,
-  &naginata_node_B_V_B_L_B_K,
-  &naginata_node_B_V_B_L_B_N,
-  &naginata_node_B_V_B_L_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_V_B_L = {
-  .parent       = &naginata_node_B_V,
-  .children     = naginata_node_B_V_B_L_children,
-  .children_num = 5,
-  .key          = B_L,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_G_B_J_B_I = {
-  .parent       = &naginata_node_B_G_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "dyo",
-};
-
-const naginata_node_t* naginata_node_B_I_B_W_children[1] = {
-  &naginata_node_B_I_B_W_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_I_B_W = {
-  .parent       = &naginata_node_B_I,
-  .children     = naginata_node_B_I_B_W_children,
-  .children_num = 1,
-  .key          = B_W,
-  .value        = "kyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_RS2 = {
-  .parent       = &naginata_node_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "tu",
-};
-
-const naginata_node_t* naginata_node_B_G_B_H_children[1] = {
-  &naginata_node_B_G_B_H_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_G_B_H = {
-  .parent       = &naginata_node_B_G,
-  .children     = naginata_node_B_G_B_H_children,
-  .children_num = 1,
-  .key          = B_H,
-  .value        = "tya",
-};
-
-const naginata_node_t* naginata_node_B_O_B_M_children[2] = {
-  &naginata_node_B_O_B_M_B_R,
-  &naginata_node_B_O_B_M_B_G,
-};
-const PROGMEM naginata_node_t naginata_node_B_O_B_M = {
-  .parent       = &naginata_node_B_O,
-  .children     = naginata_node_B_O_B_M_children,
-  .children_num = 2,
-  .key          = B_M,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_RS2 = {
-  .parent       = &naginata_node_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "ya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_V_B_N = {
-  .parent       = &naginata_node_B_L_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "uxo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_J_B_R = {
-  .parent       = &naginata_node_B_I_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "zyo",
-};
-
-const naginata_node_t* naginata_node_B_K_B_V_children[4] = {
-  &naginata_node_B_K_B_V_B_SCLN,
-  &naginata_node_B_K_B_V_B_O,
-  &naginata_node_B_K_B_V_B_L,
-  &naginata_node_B_K_B_V_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_K_B_V = {
-  .parent       = &naginata_node_B_K,
-  .children     = naginata_node_B_K_B_V_children,
-  .children_num = 4,
-  .key          = B_V,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_O_children[11] = {
-  &naginata_node_B_O_B_LS2,
-  &naginata_node_B_O_B_RS2,
-  &naginata_node_B_O_B_F,
-  &naginata_node_B_O_B_R,
-  &naginata_node_B_O_B_M,
-  &naginata_node_B_O_B_J,
-  &naginata_node_B_O_B_G,
-  &naginata_node_B_O_B_K,
-  &naginata_node_B_O_B_V,
-  &naginata_node_B_O_B_L,
-  &naginata_node_B_O_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_O = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_O_children,
-  .children_num = 11,
-  .key          = B_O,
-  .value        = "su",
-};
-
-const naginata_node_t* naginata_node_B_F_B_N_children[2] = {
-  &naginata_node_B_F_B_N_B_L,
-  &naginata_node_B_F_B_N_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_F_B_N = {
-  .parent       = &naginata_node_B_F,
-  .children     = naginata_node_B_F_B_N_children,
-  .children_num = 2,
-  .key          = B_N,
-  .value        = "da",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_S_B_J = {
-  .parent       = &naginata_node_B_S,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "ge",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_N_B_H = {
-  .parent       = &naginata_node_B_V_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "guxo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_D_B_L_B_J = {
-  .parent       = &naginata_node_B_D_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "doxu",
-};
-
-const naginata_node_t* naginata_node_B_R_B_O_children[2] = {
-  &naginata_node_B_R_B_O_B_M,
-  &naginata_node_B_R_B_O_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_R_B_O = {
-  .parent       = &naginata_node_B_R,
-  .children     = naginata_node_B_R_B_O_children,
-  .children_num = 2,
-  .key          = B_O,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_E_B_P_children[2] = {
-  &naginata_node_B_E_B_P_B_M,
-  &naginata_node_B_E_B_P_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_E_B_P = {
-  .parent       = &naginata_node_B_E,
-  .children     = naginata_node_B_E_B_P_children,
-  .children_num = 2,
-  .key          = B_P,
-  .value        = "ryu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_J_B_W = {
-  .parent       = &naginata_node_B_H_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = "gya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_H_B_N = {
-  .parent       = &naginata_node_B_F_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "kuxo",
-};
-
-const naginata_node_t* naginata_node_B_H_B_W_children[1] = {
-  &naginata_node_B_H_B_W_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_H_B_W = {
-  .parent       = &naginata_node_B_H,
-  .children     = naginata_node_B_H_B_W_children,
-  .children_num = 1,
-  .key          = B_W,
-  .value        = "kya",
-};
-
-const naginata_node_t* naginata_node_B_J_B_W_children[3] = {
-  &naginata_node_B_J_B_W_B_I,
-  &naginata_node_B_J_B_W_B_P,
-  &naginata_node_B_J_B_W_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_W = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_W_children,
-  .children_num = 3,
-  .key          = B_W,
-  .value        = "gi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_U = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = "sa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_RS2 = {
-  .parent       = &naginata_node_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "ma",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_L_B_SCLN = {
-  .parent       = &naginata_node_B_V_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = "fe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_G_B_P_B_J = {
-  .parent       = &naginata_node_B_G_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "dyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_I_B_R = {
-  .parent       = &naginata_node_B_J_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "zyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_R_B_P_B_J = {
-  .parent       = &naginata_node_B_R_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "zyu",
-};
-
-const naginata_node_t* naginata_node_B_F_B_L_children[5] = {
-  &naginata_node_B_F_B_L_B_O,
-  &naginata_node_B_F_B_L_B_P,
-  &naginata_node_B_F_B_L_B_J,
-  &naginata_node_B_F_B_L_B_K,
-  &naginata_node_B_F_B_L_B_N,
-};
-const PROGMEM naginata_node_t naginata_node_B_F_B_L = {
-  .parent       = &naginata_node_B_F,
-  .children     = naginata_node_B_F_B_L_children,
-  .children_num = 5,
-  .key          = B_L,
-  .value        = "du",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_LS2 = {
-  .parent       = &naginata_node_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = ",",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_C_B_M = {
-  .parent       = &naginata_node_B_C,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "pa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_D_B_L_B_M = {
-  .parent       = &naginata_node_B_D_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "toxu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_P_B_G = {
-  .parent       = &naginata_node_B_J_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = "dyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_E_B_P = {
-  .parent       = &naginata_node_B_J_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "dhu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_LS2 = {
-  .parent       = &naginata_node_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "yo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_O = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "e",
-};
-
-const naginata_node_t* naginata_node_B_M_B_I_children[1] = {
-  &naginata_node_B_M_B_I_B_X,
-};
-const PROGMEM naginata_node_t naginata_node_B_M_B_I = {
-  .parent       = &naginata_node_B_M,
-  .children     = naginata_node_B_M_B_I_children,
-  .children_num = 1,
-  .key          = B_I,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_H_B_J = {
-  .parent       = &naginata_node_B_V_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "guxa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_R = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "ne",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_X_B_J = {
-  .parent       = &naginata_node_B_P_B_X,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "byu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_O_B_V = {
-  .parent       = &naginata_node_B_H_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "guxe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_R_B_P = {
-  .parent       = &naginata_node_B_J_B_R,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "zyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_B_B_RS2 = {
-  .parent       = &naginata_node_B_B,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "mi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_V_B_K = {
-  .parent       = &naginata_node_B_H_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "guxi",
 };
 
 const naginata_node_t* naginata_node_B_L_B_F_children[5] = {
@@ -5301,7 +2093,7 @@ const naginata_node_t* naginata_node_B_L_B_F_children[5] = {
   &naginata_node_B_L_B_F_B_K,
   &naginata_node_B_L_B_F_B_N,
 };
-const PROGMEM naginata_node_t naginata_node_B_L_B_F = {
+const naginata_node_t naginata_node_B_L_B_F = {
   .parent       = &naginata_node_B_L,
   .children     = naginata_node_B_L_B_F_children,
   .children_num = 5,
@@ -5310,91 +2102,97 @@ const PROGMEM naginata_node_t naginata_node_B_L_B_F = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_O_B_M_B_G = {
-  .parent       = &naginata_node_B_O_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = "tye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_M_B_X = {
-  .parent       = &naginata_node_B_H_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "pya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_X_B_J_B_I = {
-  .parent       = &naginata_node_B_X_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "byo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_K_B_E = {
-  .parent       = &naginata_node_B_J_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "dhi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_W_B_LS2 = {
-  .parent       = &naginata_node_B_W,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "nu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_G_B_I_B_J = {
-  .parent       = &naginata_node_B_G_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "dyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_E_B_P_B_J = {
-  .parent       = &naginata_node_B_E_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "dhu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_F_B_K = {
-  .parent       = &naginata_node_B_H_B_F,
+const naginata_node_t naginata_node_B_H_B_V_B_K = {
+  .parent       = &naginata_node_B_H_B_V,
   .children     = NULL,
   .children_num = 0,
   .key          = B_K,
-  .value        = "kuxi",
-};
-
-const naginata_node_t* naginata_node_B_E_B_J_children[2] = {
-  &naginata_node_B_E_B_J_B_P,
-  &naginata_node_B_E_B_J_B_K,
-};
-const PROGMEM naginata_node_t naginata_node_B_E_B_J = {
-  .parent       = &naginata_node_B_E,
-  .children     = naginata_node_B_E_B_J_children,
-  .children_num = 2,
-  .key          = B_J,
-  .value        = "de",
+  .value        = "guxi",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_V_B_H_B_K = {
+const naginata_node_t naginata_node_B_O_B_K_B_V = {
+  .parent       = &naginata_node_B_O_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "ixe",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_A = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_A,
+  .value        = "se",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_J_B_X = {
+  .parent       = &naginata_node_B_P_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "byu",
+};
+
+const naginata_node_t* naginata_node_B_J_B_K_children[6] = {
+  &naginata_node_B_J_B_K_B_E,
+  &naginata_node_B_J_B_K_B_Q,
+  &naginata_node_B_J_B_K_B_W,
+  &naginata_node_B_J_B_K_B_R,
+  &naginata_node_B_J_B_K_B_T,
+  &naginata_node_B_J_B_K_B_G,
+};
+const naginata_node_t naginata_node_B_J_B_K = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_K_children,
+  .children_num = 6,
+  .key          = B_K,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_L_B_J_B_F = {
+  .parent       = &naginata_node_B_L_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "va",
+};
+
+const naginata_node_t* naginata_node_B_L_B_P_children[1] = {
+  &naginata_node_B_L_B_P_B_F,
+};
+const naginata_node_t naginata_node_B_L_B_P = {
+  .parent       = &naginata_node_B_L,
+  .children     = naginata_node_B_L_B_P_children,
+  .children_num = 1,
+  .key          = B_P,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_I_B_E = {
+  .parent       = &naginata_node_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "ryo",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_J_B_R = {
+  .parent       = &naginata_node_B_H_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "zya",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_H_B_K = {
   .parent       = &naginata_node_B_V_B_H,
   .children     = NULL,
   .children_num = 0,
@@ -5403,216 +2201,18 @@ const PROGMEM naginata_node_t naginata_node_B_V_B_H_B_K = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_F_B_K_B_L = {
-  .parent       = &naginata_node_B_F_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "vi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_C_B_J = {
-  .parent       = &naginata_node_B_C,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "ba",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_M_B_P_B_E = {
-  .parent       = &naginata_node_B_M_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "thu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_G_B_O = {
-  .parent       = &naginata_node_B_J_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "dye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_V_B_J_B_H = {
-  .parent       = &naginata_node_B_V_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "guxa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_L_B_O = {
-  .parent       = &naginata_node_B_F_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "ve",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_N = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "o",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_F_B_L = {
-  .parent       = &naginata_node_B_P_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "vuxyu",
-};
-
-const naginata_node_t* naginata_node_B_X_B_I_children[2] = {
-  &naginata_node_B_X_B_I_B_J,
-  &naginata_node_B_X_B_I_B_M,
-};
-const PROGMEM naginata_node_t naginata_node_B_X_B_I = {
-  .parent       = &naginata_node_B_X,
-  .children     = naginata_node_B_X_B_I_children,
-  .children_num = 2,
-  .key          = B_I,
-  .value        = "hyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_G = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = "ti",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_E_B_P_B_M = {
-  .parent       = &naginata_node_B_E_B_P,
+const naginata_node_t naginata_node_B_D_B_L_B_M = {
+  .parent       = &naginata_node_B_D_B_L,
   .children     = NULL,
   .children_num = 0,
   .key          = B_M,
-  .value        = "thu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_X_B_M = {
-  .parent       = &naginata_node_B_I_B_X,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "pyo",
-};
-
-const naginata_node_t* naginata_node_B_D_B_J_children[1] = {
-  &naginata_node_B_D_B_J_B_L,
-};
-const PROGMEM naginata_node_t naginata_node_B_D_B_J = {
-  .parent       = &naginata_node_B_D,
-  .children     = naginata_node_B_D_B_J_children,
-  .children_num = 1,
-  .key          = B_J,
-  .value        = "do",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_X_B_M_B_P = {
-  .parent       = &naginata_node_B_X_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "pyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_K_B_V = {
-  .parent       = &naginata_node_B_O_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "ixe",
-};
-
-const naginata_node_t* naginata_node_B_L_B_M_children[1] = {
-  &naginata_node_B_L_B_M_B_D,
-};
-const PROGMEM naginata_node_t naginata_node_B_L_B_M = {
-  .parent       = &naginata_node_B_L,
-  .children     = naginata_node_B_L_B_M_children,
-  .children_num = 1,
-  .key          = B_M,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_G_B_P_children[1] = {
-  &naginata_node_B_G_B_P_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_G_B_P = {
-  .parent       = &naginata_node_B_G,
-  .children     = naginata_node_B_G_B_P_children,
-  .children_num = 1,
-  .key          = B_P,
-  .value        = "tyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_H_B_F = {
-  .parent       = &naginata_node_B_O_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "kuxe",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_X_B_M = {
-  .parent       = &naginata_node_B_P_B_X,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "pyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_SCLN = {
-  .parent       = &naginata_node_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = "bu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_U_B_F = {
-  .parent       = &naginata_node_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "za",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_R_B_O = {
-  .parent       = &naginata_node_B_J_B_R,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "zye",
+  .value        = "toxu",
 };
 
 const naginata_node_t* naginata_node_B_K_B_M_children[1] = {
   &naginata_node_B_K_B_M_B_E,
 };
-const PROGMEM naginata_node_t naginata_node_B_K_B_M = {
+const naginata_node_t naginata_node_B_K_B_M = {
   .parent       = &naginata_node_B_K,
   .children     = naginata_node_B_K_B_M_children,
   .children_num = 1,
@@ -5621,334 +2221,389 @@ const PROGMEM naginata_node_t naginata_node_B_K_B_M = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_M_B_RS2 = {
-  .parent       = &naginata_node_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = ".",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_D = {
+const naginata_node_t naginata_node_B_LS2_B_N = {
   .parent       = &naginata_node_B_LS2,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_D,
-  .value        = "ni",
+  .key          = B_N,
+  .value        = "o",
 };
 
-const naginata_node_t* naginata_node_B_G_B_M_children[1] = {
-  &naginata_node_B_G_B_M_B_O,
+const naginata_node_t* naginata_node_B_J_B_G_children[4] = {
+  &naginata_node_B_J_B_G_B_I,
+  &naginata_node_B_J_B_G_B_P,
+  &naginata_node_B_J_B_G_B_H,
+  &naginata_node_B_J_B_G_B_O,
 };
-const PROGMEM naginata_node_t naginata_node_B_G_B_M = {
-  .parent       = &naginata_node_B_G,
-  .children     = naginata_node_B_G_B_M_children,
-  .children_num = 1,
-  .key          = B_M,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_M = {
-  .parent       = &naginata_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = ".",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_J_B_G = {
-  .parent       = &naginata_node_B_O_B_J,
-  .children     = NULL,
-  .children_num = 0,
+const naginata_node_t naginata_node_B_J_B_G = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_G_children,
+  .children_num = 4,
   .key          = B_G,
-  .value        = "dye",
+  .value        = "di",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_R_B_M_B_O = {
-  .parent       = &naginata_node_B_R_B_M,
+const naginata_node_t naginata_node_B_H_B_LS2 = {
+  .parent       = &naginata_node_B_H,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_O,
-  .value        = "sye",
+  .key          = B_LS2,
+  .value        = "ya",
 };
 
-const naginata_node_t* naginata_node_B_DOT_children[2] = {
-  &naginata_node_B_DOT_B_LS2,
-  &naginata_node_B_DOT_B_RS2,
+
+const naginata_node_t naginata_node_B_DOT_B_RS2 = {
+  .parent       = &naginata_node_B_DOT,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "wa",
 };
-const PROGMEM naginata_node_t naginata_node_B_DOT = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_DOT_children,
+
+const naginata_node_t* naginata_node_B_LS2_B_RS2_children[27] = {
+  &naginata_node_B_LS2_B_RS2_B_Q,
+  &naginata_node_B_LS2_B_RS2_B_W,
+  &naginata_node_B_LS2_B_RS2_B_E,
+  &naginata_node_B_LS2_B_RS2_B_R,
+  &naginata_node_B_LS2_B_RS2_B_T,
+  &naginata_node_B_LS2_B_RS2_B_Y,
+  &naginata_node_B_LS2_B_RS2_B_U,
+  &naginata_node_B_LS2_B_RS2_B_I,
+  &naginata_node_B_LS2_B_RS2_B_O,
+  &naginata_node_B_LS2_B_RS2_B_A,
+  &naginata_node_B_LS2_B_RS2_B_S,
+  &naginata_node_B_LS2_B_RS2_B_D,
+  &naginata_node_B_LS2_B_RS2_B_F,
+  &naginata_node_B_LS2_B_RS2_B_G,
+  &naginata_node_B_LS2_B_RS2_B_H,
+  &naginata_node_B_LS2_B_RS2_B_J,
+  &naginata_node_B_LS2_B_RS2_B_K,
+  &naginata_node_B_LS2_B_RS2_B_L,
+  &naginata_node_B_LS2_B_RS2_B_SCLN,
+  &naginata_node_B_LS2_B_RS2_B_X,
+  &naginata_node_B_LS2_B_RS2_B_C,
+  &naginata_node_B_LS2_B_RS2_B_V,
+  &naginata_node_B_LS2_B_RS2_B_B,
+  &naginata_node_B_LS2_B_RS2_B_N,
+  &naginata_node_B_LS2_B_RS2_B_M,
+  &naginata_node_B_LS2_B_RS2_B_COMM,
+  &naginata_node_B_LS2_B_RS2_B_DOT,
+};
+const naginata_node_t naginata_node_B_LS2_B_RS2 = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = naginata_node_B_LS2_B_RS2_children,
+  .children_num = 27,
+  .key          = B_RS2,
+  .value        = SS_LSFT(" "),
+};
+
+const naginata_node_t* naginata_node_B_H_B_X_children[2] = {
+  &naginata_node_B_H_B_X_B_J,
+  &naginata_node_B_H_B_X_B_M,
+};
+const naginata_node_t naginata_node_B_H_B_X = {
+  .parent       = &naginata_node_B_H,
+  .children     = naginata_node_B_H_B_X_children,
   .children_num = 2,
-  .key          = B_DOT,
-  .value        = "ra",
-};
-
-const naginata_node_t* naginata_node_B_U_children[3] = {
-  &naginata_node_B_U_B_LS2,
-  &naginata_node_B_U_B_RS2,
-  &naginata_node_B_U_B_F,
-};
-const PROGMEM naginata_node_t naginata_node_B_U = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_U_children,
-  .children_num = 3,
-  .key          = B_U,
-  .value        = "sa",
+  .key          = B_X,
+  .value        = "hya",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_K_B_L_B_V = {
-  .parent       = &naginata_node_B_K_B_L,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "wi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_X_B_M_B_H = {
-  .parent       = &naginata_node_B_X_B_M,
+const naginata_node_t naginata_node_B_V_B_K_B_H = {
+  .parent       = &naginata_node_B_V_B_K,
   .children     = NULL,
   .children_num = 0,
   .key          = B_H,
-  .value        = "pya",
+  .value        = "guxi",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_W_B_J_B_P = {
-  .parent       = &naginata_node_B_W_B_J,
+const naginata_node_t naginata_node_B_H_B_O_B_V = {
+  .parent       = &naginata_node_B_H_B_O,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_P,
-  .value        = "gyu",
+  .key          = B_V,
+  .value        = "guxe",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_P_B_LS2 = {
-  .parent       = &naginata_node_B_P,
+const naginata_node_t naginata_node_B_V_B_O_B_L = {
+  .parent       = &naginata_node_B_V_B_O,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_LS2,
-  .value        = "yu",
+  .key          = B_L,
+  .value        = "we",
 };
 
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_J_B_X = {
-  .parent       = &naginata_node_B_H_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "bya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_B_B_LS2 = {
-  .parent       = &naginata_node_B_B,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "mi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_G_B_P = {
-  .parent       = &naginata_node_B_J_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "dyu",
-};
-
-const naginata_node_t* naginata_node_B_K_B_J_children[1] = {
+const naginata_node_t* naginata_node_B_K_B_J_children[6] = {
   &naginata_node_B_K_B_J_B_E,
+  &naginata_node_B_K_B_J_B_Q,
+  &naginata_node_B_K_B_J_B_W,
+  &naginata_node_B_K_B_J_B_R,
+  &naginata_node_B_K_B_J_B_T,
+  &naginata_node_B_K_B_J_B_G,
 };
-const PROGMEM naginata_node_t naginata_node_B_K_B_J = {
+const naginata_node_t naginata_node_B_K_B_J = {
   .parent       = &naginata_node_B_K,
   .children     = naginata_node_B_K_B_J_children,
-  .children_num = 1,
+  .children_num = 6,
   .key          = B_J,
   .value        = NULL,
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_P_B_M_B_X = {
-  .parent       = &naginata_node_B_P_B_M,
+const naginata_node_t naginata_node_B_J_B_D_B_L = {
+  .parent       = &naginata_node_B_J_B_D,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_X,
-  .value        = "pyu",
+  .key          = B_L,
+  .value        = "doxu",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_F_B_H_B_O = {
-  .parent       = &naginata_node_B_F_B_H,
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_W = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "/",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_M = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = ".",
+};
+
+const naginata_node_t* naginata_node_B_I_B_R_children[1] = {
+  &naginata_node_B_I_B_R_B_J,
+};
+const naginata_node_t naginata_node_B_I_B_R = {
+  .parent       = &naginata_node_B_I,
+  .children     = naginata_node_B_I_B_R_children,
+  .children_num = 1,
+  .key          = B_R,
+  .value        = "syo",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_O = {
+  .parent       = &naginata_node_B_LS2,
   .children     = NULL,
   .children_num = 0,
   .key          = B_O,
-  .value        = "kuxe",
+  .value        = "e",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_M_B_X_B_I = {
-  .parent       = &naginata_node_B_M_B_X,
+const naginata_node_t naginata_node_B_K_B_H_B_F = {
+  .parent       = &naginata_node_B_K_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "kuxi",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_S = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = "me",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_H_B_J = {
+  .parent       = &naginata_node_B_V_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "guxa",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_P_B_L = {
+  .parent       = &naginata_node_B_F_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "vuxyu",
+};
+
+const naginata_node_t* naginata_node_B_SCLN_B_P_children[1] = {
+  &naginata_node_B_SCLN_B_P_B_V,
+};
+const naginata_node_t naginata_node_B_SCLN_B_P = {
+  .parent       = &naginata_node_B_SCLN,
+  .children     = naginata_node_B_SCLN_B_P_children,
+  .children_num = 1,
+  .key          = B_P,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_S_B_LS2 = {
+  .parent       = &naginata_node_B_S,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "me",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_K_B_O = {
+  .parent       = &naginata_node_B_V_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "ixe",
+};
+
+
+const naginata_node_t naginata_node_B_Z_B_J = {
+  .parent       = &naginata_node_B_Z,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "bo",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_C = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = "|",
+};
+
+
+const naginata_node_t naginata_node_B_B_B_H = {
+  .parent       = &naginata_node_B_B,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "mya",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_I = {
+  .parent       = &naginata_node_B_RS2,
   .children     = NULL,
   .children_num = 0,
   .key          = B_I,
-  .value        = "pyo",
-};
-
-const naginata_node_t* naginata_node_B_M_B_O_children[2] = {
-  &naginata_node_B_M_B_O_B_R,
-  &naginata_node_B_M_B_O_B_G,
-};
-const PROGMEM naginata_node_t naginata_node_B_M_B_O = {
-  .parent       = &naginata_node_B_M,
-  .children     = naginata_node_B_M_B_O_children,
-  .children_num = 2,
-  .key          = B_O,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_K_B_H_children[2] = {
-  &naginata_node_B_K_B_H_B_F,
-  &naginata_node_B_K_B_H_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_K_B_H = {
-  .parent       = &naginata_node_B_K,
-  .children     = naginata_node_B_K_B_H_children,
-  .children_num = 2,
-  .key          = B_H,
-  .value        = NULL,
+  .value        = "yo",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_H_B_J_B_F = {
-  .parent       = &naginata_node_B_H_B_J,
+const naginata_node_t naginata_node_B_M_B_E_B_K = {
+  .parent       = &naginata_node_B_M_B_E,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_F,
-  .value        = "kuxa",
-};
-
-const naginata_node_t* naginata_node_B_O_B_H_children[2] = {
-  &naginata_node_B_O_B_H_B_F,
-  &naginata_node_B_O_B_H_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_O_B_H = {
-  .parent       = &naginata_node_B_O,
-  .children     = naginata_node_B_O_B_H_children,
-  .children_num = 2,
-  .key          = B_H,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_N_B_V = {
-  .parent       = &naginata_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "guxo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_X_B_H = {
-  .parent       = &naginata_node_B_J_B_X,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "bya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_N_B_V_B_H = {
-  .parent       = &naginata_node_B_N_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "guxo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_O_B_R = {
-  .parent       = &naginata_node_B_J_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "zye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_M_B_R_B_O = {
-  .parent       = &naginata_node_B_M_B_R,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "sye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_G_B_O_B_M = {
-  .parent       = &naginata_node_B_G_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "tye",
-};
-
-const naginata_node_t* naginata_node_B_H_B_F_children[4] = {
-  &naginata_node_B_H_B_F_B_O,
-  &naginata_node_B_H_B_F_B_J,
-  &naginata_node_B_H_B_F_B_K,
-  &naginata_node_B_H_B_F_B_N,
-};
-const PROGMEM naginata_node_t naginata_node_B_H_B_F = {
-  .parent       = &naginata_node_B_H,
-  .children     = naginata_node_B_H_B_F_children,
-  .children_num = 4,
-  .key          = B_F,
-  .value        = "gu",
-};
-
-const naginata_node_t* naginata_node_B_J_B_K_children[1] = {
-  &naginata_node_B_J_B_K_B_E,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_K = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_K_children,
-  .children_num = 1,
   .key          = B_K,
-  .value        = NULL,
-};
-
-const naginata_node_t* naginata_node_B_P_B_M_children[2] = {
-  &naginata_node_B_P_B_M_B_X,
-  &naginata_node_B_P_B_M_B_E,
-};
-const PROGMEM naginata_node_t naginata_node_B_P_B_M = {
-  .parent       = &naginata_node_B_P,
-  .children     = naginata_node_B_P_B_M_children,
-  .children_num = 2,
-  .key          = B_M,
-  .value        = NULL,
+  .value        = "thi",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_L_B_J_B_V = {
-  .parent       = &naginata_node_B_L_B_J,
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_T = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_V,
-  .value        = "tsa",
+  .key          = B_T,
+  .value        = "[",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_F_B_L_B_J = {
+const naginata_node_t naginata_node_B_P_B_W_B_J = {
+  .parent       = &naginata_node_B_P_B_W,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "gyu",
+};
+
+const naginata_node_t* naginata_node_B_J_B_R_children[4] = {
+  &naginata_node_B_J_B_R_B_I,
+  &naginata_node_B_J_B_R_B_P,
+  &naginata_node_B_J_B_R_B_H,
+  &naginata_node_B_J_B_R_B_O,
+};
+const naginata_node_t naginata_node_B_J_B_R = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_R_children,
+  .children_num = 4,
+  .key          = B_R,
+  .value        = "zi",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_RS2 = {
+  .parent       = &naginata_node_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "tu",
+};
+
+const naginata_node_t* naginata_node_B_G_B_P_children[1] = {
+  &naginata_node_B_G_B_P_B_J,
+};
+const naginata_node_t naginata_node_B_G_B_P = {
+  .parent       = &naginata_node_B_G,
+  .children     = naginata_node_B_G_B_P_children,
+  .children_num = 1,
+  .key          = B_P,
+  .value        = "tyu",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_K_B_SCLN = {
+  .parent       = &naginata_node_B_V_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "fi",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_LS2 = {
+  .parent       = &naginata_node_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "ni",
+};
+
+const naginata_node_t* naginata_node_B_V_B_O_children[3] = {
+  &naginata_node_B_V_B_O_B_K,
+  &naginata_node_B_V_B_O_B_L,
+  &naginata_node_B_V_B_O_B_H,
+};
+const naginata_node_t naginata_node_B_V_B_O = {
+  .parent       = &naginata_node_B_V,
+  .children     = naginata_node_B_V_B_O_children,
+  .children_num = 3,
+  .key          = B_O,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_Q_B_I = {
+  .parent       = &naginata_node_B_Q,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "xyo",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_L_B_J = {
   .parent       = &naginata_node_B_F_B_L,
   .children     = NULL,
   .children_num = 0,
@@ -5957,95 +2612,12 @@ const PROGMEM naginata_node_t naginata_node_B_F_B_L_B_J = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_P_B_D = {
+const naginata_node_t naginata_node_B_P_B_B = {
   .parent       = &naginata_node_B_P,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_D,
-  .value        = "nyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_P_B_W_B_J = {
-  .parent       = &naginata_node_B_P_B_W,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "gyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_J_B_H = {
-  .parent       = &naginata_node_B_F_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "kuxa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_G_B_RS2 = {
-  .parent       = &naginata_node_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "ti",
-};
-
-const naginata_node_t* naginata_node_B_M_B_L_children[1] = {
-  &naginata_node_B_M_B_L_B_D,
-};
-const PROGMEM naginata_node_t naginata_node_B_M_B_L = {
-  .parent       = &naginata_node_B_M,
-  .children     = naginata_node_B_M_B_L_children,
-  .children_num = 1,
-  .key          = B_L,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_C = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = "wo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_X_B_P = {
-  .parent       = &naginata_node_B_J_B_X,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "byu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_H_B_V = {
-  .parent       = &naginata_node_B_J_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "guxa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_O_B_LS2 = {
-  .parent       = &naginata_node_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = "e",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_R_B_J_B_O = {
-  .parent       = &naginata_node_B_R_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "zye",
+  .key          = B_B,
+  .value        = "myu",
 };
 
 const naginata_node_t* naginata_node_B_Q_children[8] = {
@@ -6058,7 +2630,7 @@ const naginata_node_t* naginata_node_B_Q_children[8] = {
   &naginata_node_B_Q_B_L,
   &naginata_node_B_Q_B_N,
 };
-const PROGMEM naginata_node_t naginata_node_B_Q = {
+const naginata_node_t naginata_node_B_Q = {
   .parent       = &naginata_node_root,
   .children     = naginata_node_B_Q_children,
   .children_num = 8,
@@ -6067,224 +2639,7 @@ const PROGMEM naginata_node_t naginata_node_B_Q = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_O_B_M_B_R = {
-  .parent       = &naginata_node_B_O_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "sye",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_G_B_F = {
-  .parent       = &naginata_node_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "dvo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_M_B_O_B_R = {
-  .parent       = &naginata_node_B_M_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "sye",
-};
-
-const naginata_node_t* naginata_node_B_X_B_P_children[2] = {
-  &naginata_node_B_X_B_P_B_J,
-  &naginata_node_B_X_B_P_B_M,
-};
-const PROGMEM naginata_node_t naginata_node_B_X_B_P = {
-  .parent       = &naginata_node_B_X,
-  .children     = naginata_node_B_X_B_P_children,
-  .children_num = 2,
-  .key          = B_P,
-  .value        = "hyu",
-};
-
-const naginata_node_t* naginata_node_B_M_B_X_children[3] = {
-  &naginata_node_B_M_B_X_B_I,
-  &naginata_node_B_M_B_X_B_P,
-  &naginata_node_B_M_B_X_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_M_B_X = {
-  .parent       = &naginata_node_B_M,
-  .children     = naginata_node_B_M_B_X_children,
-  .children_num = 3,
-  .key          = B_X,
-  .value        = "pi",
-};
-
-const naginata_node_t* naginata_node_B_H_B_R_children[1] = {
-  &naginata_node_B_H_B_R_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_H_B_R = {
-  .parent       = &naginata_node_B_H,
-  .children     = naginata_node_B_H_B_R_children,
-  .children_num = 1,
-  .key          = B_R,
-  .value        = "sya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_A_B_RS2 = {
-  .parent       = &naginata_node_B_A,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "se",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_V_B_J = {
-  .parent       = &naginata_node_B_L_B_V,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "tsa",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_K_B_F = {
-  .parent       = &naginata_node_B_L_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "vi",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_R_B_RS2 = {
-  .parent       = &naginata_node_B_R,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "ne",
-};
-
-const naginata_node_t* naginata_node_B_F_B_P_children[1] = {
-  &naginata_node_B_F_B_P_B_L,
-};
-const PROGMEM naginata_node_t naginata_node_B_F_B_P = {
-  .parent       = &naginata_node_B_F,
-  .children     = naginata_node_B_F_B_P_children,
-  .children_num = 1,
-  .key          = B_P,
-  .value        = "be",
-};
-
-const naginata_node_t* naginata_node_B_R_B_H_children[1] = {
-  &naginata_node_B_R_B_H_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_R_B_H = {
-  .parent       = &naginata_node_B_R,
-  .children     = naginata_node_B_R_B_H_children,
-  .children_num = 1,
-  .key          = B_H,
-  .value        = "sya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_X_B_J = {
-  .parent       = &naginata_node_B_H_B_X,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "bya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_L = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "tu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_X_B_H_B_M = {
-  .parent       = &naginata_node_B_X_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "pya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_COMM = {
-  .parent       = &naginata_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = "mu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_O_B_V = {
-  .parent       = &naginata_node_B_L_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "we",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_H_B_N_B_F = {
-  .parent       = &naginata_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "kuxo",
-};
-
-const naginata_node_t* naginata_node_B_N_B_F_children[2] = {
-  &naginata_node_B_N_B_F_B_L,
-  &naginata_node_B_N_B_F_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_N_B_F = {
-  .parent       = &naginata_node_B_N,
-  .children     = naginata_node_B_N_B_F_children,
-  .children_num = 2,
-  .key          = B_F,
-  .value        = "da",
-};
-
-const naginata_node_t* naginata_node_B_X_B_H_children[2] = {
-  &naginata_node_B_X_B_H_B_J,
-  &naginata_node_B_X_B_H_B_M,
-};
-const PROGMEM naginata_node_t naginata_node_B_X_B_H = {
-  .parent       = &naginata_node_B_X,
-  .children     = naginata_node_B_X_B_H_children,
-  .children_num = 2,
-  .key          = B_H,
-  .value        = "hya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_E = {
-  .parent       = &naginata_node_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "ryo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_J_B_F = {
-  .parent       = &naginata_node_B_L_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "va",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_F_B_G = {
+const naginata_node_t naginata_node_B_F_B_G = {
   .parent       = &naginata_node_B_F,
   .children     = NULL,
   .children_num = 0,
@@ -6293,66 +2648,16 @@ const PROGMEM naginata_node_t naginata_node_B_F_B_G = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_X_B_J_B_P = {
-  .parent       = &naginata_node_B_X_B_J,
+const naginata_node_t naginata_node_B_H_B_J_B_G = {
+  .parent       = &naginata_node_B_H_B_J,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_P,
-  .value        = "byu",
+  .key          = B_G,
+  .value        = "dya",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_M_B_LS2 = {
-  .parent       = &naginata_node_B_M,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = ".",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_M_B_X_B_H = {
-  .parent       = &naginata_node_B_M_B_X,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "pya",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_J_B_D = {
-  .parent       = &naginata_node_B_L_B_J,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = "doxu",
-};
-
-const naginata_node_t* naginata_node_B_F_B_H_children[4] = {
-  &naginata_node_B_F_B_H_B_O,
-  &naginata_node_B_F_B_H_B_J,
-  &naginata_node_B_F_B_H_B_K,
-  &naginata_node_B_F_B_H_B_N,
-};
-const PROGMEM naginata_node_t naginata_node_B_F_B_H = {
-  .parent       = &naginata_node_B_F,
-  .children     = naginata_node_B_F_B_H_children,
-  .children_num = 4,
-  .key          = B_H,
-  .value        = "gu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_J_B_P_B_W = {
-  .parent       = &naginata_node_B_J_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = "gyu",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_K_B_V = {
+const naginata_node_t naginata_node_B_SCLN_B_K_B_V = {
   .parent       = &naginata_node_B_SCLN_B_K,
   .children     = NULL,
   .children_num = 0,
@@ -6361,65 +2666,106 @@ const PROGMEM naginata_node_t naginata_node_B_SCLN_B_K_B_V = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_LS2_B_F = {
-  .parent       = &naginata_node_B_LS2,
+const naginata_node_t naginata_node_B_O_B_H_B_V = {
+  .parent       = &naginata_node_B_O_B_H,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_F,
+  .key          = B_V,
+  .value        = "guxe",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_R = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "(",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_X_B_H = {
+  .parent       = &naginata_node_B_J_B_X,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "bya",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_RS2 = {
+  .parent       = &naginata_node_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
   .value        = "ma",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_D_B_RS2 = {
-  .parent       = &naginata_node_B_D,
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_Q = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_RS2,
-  .value        = "ni",
+  .key          = B_Q,
+  .value        = "#",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_S_B_RS2 = {
-  .parent       = &naginata_node_B_S,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "me",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_K_B_RS2 = {
-  .parent       = &naginata_node_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = "mo",
-};
-
-const naginata_node_t* naginata_node_B_L_B_J_children[3] = {
-  &naginata_node_B_L_B_J_B_D,
-  &naginata_node_B_L_B_J_B_F,
-  &naginata_node_B_L_B_J_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_L_B_J = {
-  .parent       = &naginata_node_B_L,
-  .children     = naginata_node_B_L_B_J_children,
-  .children_num = 3,
-  .key          = B_J,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_N_B_H_B_F = {
-  .parent       = &naginata_node_B_N_B_H,
+const naginata_node_t naginata_node_B_J_B_L_B_F = {
+  .parent       = &naginata_node_B_J_B_L,
   .children     = NULL,
   .children_num = 0,
   .key          = B_F,
-  .value        = "kuxo",
+  .value        = "va",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_J_B_W_B_P = {
+const naginata_node_t naginata_node_B_RS2_B_SCLN = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "fu",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_O_B_V = {
+  .parent       = &naginata_node_B_L_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "we",
+};
+
+
+const naginata_node_t naginata_node_B_SCLN_B_V_B_N = {
+  .parent       = &naginata_node_B_SCLN_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "fo",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_I_B_W = {
+  .parent       = &naginata_node_B_J_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "gyo",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_N_B_L = {
+  .parent       = &naginata_node_B_F_B_N,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "vo",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_W_B_P = {
   .parent       = &naginata_node_B_J_B_W,
   .children     = NULL,
   .children_num = 0,
@@ -6427,232 +2773,446 @@ const PROGMEM naginata_node_t naginata_node_B_J_B_W_B_P = {
   .value        = "gyu",
 };
 
+const naginata_node_t* naginata_node_B_R_children[8] = {
+  &naginata_node_B_R_B_LS2,
+  &naginata_node_B_R_B_RS2,
+  &naginata_node_B_R_B_J,
+  &naginata_node_B_R_B_I,
+  &naginata_node_B_R_B_P,
+  &naginata_node_B_R_B_H,
+  &naginata_node_B_R_B_O,
+  &naginata_node_B_R_B_M,
+};
+const naginata_node_t naginata_node_B_R = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_R_children,
+  .children_num = 8,
+  .key          = B_R,
+  .value        = "si",
+};
 
-const PROGMEM naginata_node_t naginata_node_B_V_B_J_B_SCLN = {
-  .parent       = &naginata_node_B_V_B_J,
+
+const naginata_node_t naginata_node_B_S_B_J = {
+  .parent       = &naginata_node_B_S,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "ge",
+};
+
+const naginata_node_t* naginata_node_B_R_B_I_children[1] = {
+  &naginata_node_B_R_B_I_B_J,
+};
+const naginata_node_t naginata_node_B_R_B_I = {
+  .parent       = &naginata_node_B_R,
+  .children     = naginata_node_B_R_B_I_children,
+  .children_num = 1,
+  .key          = B_I,
+  .value        = "syo",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_SCLN = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
   .children     = NULL,
   .children_num = 0,
   .key          = B_SCLN,
-  .value        = "fa",
+  .value        = "0",
+};
+
+const naginata_node_t* naginata_node_B_H_B_W_children[1] = {
+  &naginata_node_B_H_B_W_B_J,
+};
+const naginata_node_t naginata_node_B_H_B_W = {
+  .parent       = &naginata_node_B_H,
+  .children     = naginata_node_B_H_B_W_children,
+  .children_num = 1,
+  .key          = B_W,
+  .value        = "kya",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_L_B_F_B_J = {
-  .parent       = &naginata_node_B_L_B_F,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "va",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_L_B_K_B_V = {
-  .parent       = &naginata_node_B_L_B_K,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "wi",
-};
-
-const naginata_node_t* naginata_node_B_L_children[12] = {
-  &naginata_node_B_L_B_LS2,
-  &naginata_node_B_L_B_RS2,
-  &naginata_node_B_L_B_F,
-  &naginata_node_B_L_B_M,
-  &naginata_node_B_L_B_D,
-  &naginata_node_B_L_B_J,
-  &naginata_node_B_L_B_SCLN,
-  &naginata_node_B_L_B_V,
-  &naginata_node_B_L_B_O,
-  &naginata_node_B_L_B_K,
-  &naginata_node_B_L_B_N,
-  &naginata_node_B_L_B_P,
-};
-const PROGMEM naginata_node_t naginata_node_B_L = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_L_children,
-  .children_num = 12,
-  .key          = B_L,
-  .value        = "u",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_I_B_G_B_J = {
-  .parent       = &naginata_node_B_I_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "dyo",
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_G_B_J_B_O = {
-  .parent       = &naginata_node_B_G_B_J,
+const naginata_node_t naginata_node_B_M_B_R_B_O = {
+  .parent       = &naginata_node_B_M_B_R,
   .children     = NULL,
   .children_num = 0,
   .key          = B_O,
-  .value        = "dye",
+  .value        = "sye",
+};
+
+const naginata_node_t* naginata_node_B_N_B_V_children[3] = {
+  &naginata_node_B_N_B_V_B_SCLN,
+  &naginata_node_B_N_B_V_B_L,
+  &naginata_node_B_N_B_V_B_H,
+};
+const naginata_node_t naginata_node_B_N_B_V = {
+  .parent       = &naginata_node_B_N,
+  .children     = naginata_node_B_N_B_V_children,
+  .children_num = 3,
+  .key          = B_V,
+  .value        = NULL,
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_I_B_M_B_X = {
-  .parent       = &naginata_node_B_I_B_M,
+const naginata_node_t naginata_node_B_J_B_Z = {
+  .parent       = &naginata_node_B_J,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_X,
-  .value        = "pyo",
+  .key          = B_Z,
+  .value        = "bo",
 };
 
-const naginata_node_t* naginata_node_B_M_children[15] = {
-  &naginata_node_B_M_B_LS2,
-  &naginata_node_B_M_B_RS2,
-  &naginata_node_B_M_B_Z,
-  &naginata_node_B_M_B_X,
-  &naginata_node_B_M_B_C,
-  &naginata_node_B_M_B_I,
-  &naginata_node_B_M_B_P,
-  &naginata_node_B_M_B_H,
-  &naginata_node_B_M_B_E,
-  &naginata_node_B_M_B_K,
-  &naginata_node_B_M_B_L,
-  &naginata_node_B_M_B_D,
-  &naginata_node_B_M_B_O,
-  &naginata_node_B_M_B_R,
-  &naginata_node_B_M_B_G,
+const naginata_node_t* naginata_node_B_E_B_J_children[2] = {
+  &naginata_node_B_E_B_J_B_P,
+  &naginata_node_B_E_B_J_B_K,
 };
-const PROGMEM naginata_node_t naginata_node_B_M = {
+const naginata_node_t naginata_node_B_E_B_J = {
+  .parent       = &naginata_node_B_E,
+  .children     = naginata_node_B_E_B_J_children,
+  .children_num = 2,
+  .key          = B_J,
+  .value        = "de",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_H_B_F = {
+  .parent       = &naginata_node_B_J_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "kuxa",
+};
+
+const naginata_node_t* naginata_node_B_R_B_O_children[2] = {
+  &naginata_node_B_R_B_O_B_M,
+  &naginata_node_B_R_B_O_B_J,
+};
+const naginata_node_t naginata_node_B_R_B_O = {
+  .parent       = &naginata_node_B_R,
+  .children     = naginata_node_B_R_B_O_children,
+  .children_num = 2,
+  .key          = B_O,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_I_B_LS2 = {
+  .parent       = &naginata_node_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "yo",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_W_B_J = {
+  .parent       = &naginata_node_B_H_B_W,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "gya",
+};
+
+const naginata_node_t* naginata_node_B_M_B_I_children[1] = {
+  &naginata_node_B_M_B_I_B_X,
+};
+const naginata_node_t naginata_node_B_M_B_I = {
+  .parent       = &naginata_node_B_M,
+  .children     = naginata_node_B_M_B_I_children,
+  .children_num = 1,
+  .key          = B_I,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_DOT = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_DOT,
+  .value        = "^",
+};
+
+
+const naginata_node_t naginata_node_B_I_B_J_B_R = {
+  .parent       = &naginata_node_B_I_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "zyo",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_N = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "!",
+};
+
+
+const naginata_node_t naginata_node_B_E_B_LS2 = {
+  .parent       = &naginata_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "ri",
+};
+
+const naginata_node_t* naginata_node_B_O_B_J_children[2] = {
+  &naginata_node_B_O_B_J_B_R,
+  &naginata_node_B_O_B_J_B_G,
+};
+const naginata_node_t naginata_node_B_O_B_J = {
+  .parent       = &naginata_node_B_O,
+  .children     = naginata_node_B_O_B_J_children,
+  .children_num = 2,
+  .key          = B_J,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_P = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "yu",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_E = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "{",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_D_B_P = {
+  .parent       = &naginata_node_B_F_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "$",
+};
+
+const naginata_node_t* naginata_node_B_K_children[11] = {
+  &naginata_node_B_K_B_LS2,
+  &naginata_node_B_K_B_RS2,
+  &naginata_node_B_K_B_E,
+  &naginata_node_B_K_B_M,
+  &naginata_node_B_K_B_J,
+  &naginata_node_B_K_B_SCLN,
+  &naginata_node_B_K_B_V,
+  &naginata_node_B_K_B_O,
+  &naginata_node_B_K_B_L,
+  &naginata_node_B_K_B_F,
+  &naginata_node_B_K_B_H,
+};
+const naginata_node_t naginata_node_B_K = {
   .parent       = &naginata_node_root,
-  .children     = naginata_node_B_M_children,
-  .children_num = 15,
-  .key          = B_M,
-  .value        = "na",
+  .children     = naginata_node_B_K_children,
+  .children_num = 11,
+  .key          = B_K,
+  .value        = "i",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_K_B_V_B_L = {
-  .parent       = &naginata_node_B_K_B_V,
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_V = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "+",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_J_B_L = {
+  .parent       = &naginata_node_B_V_B_J,
   .children     = NULL,
   .children_num = 0,
   .key          = B_L,
-  .value        = "wi",
+  .value        = "tsa",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_J_B_V_B_H = {
-  .parent       = &naginata_node_B_J_B_V,
+const naginata_node_t naginata_node_B_F_B_U = {
+  .parent       = &naginata_node_B_F,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_H,
-  .value        = "guxa",
+  .key          = B_U,
+  .value        = "za",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_F_B_O_B_H = {
-  .parent       = &naginata_node_B_F_B_O,
+const naginata_node_t naginata_node_B_G_B_J_B_I = {
+  .parent       = &naginata_node_B_G_B_J,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_H,
+  .key          = B_I,
+  .value        = "dyo",
+};
+
+const naginata_node_t* naginata_node_B_H_B_R_children[1] = {
+  &naginata_node_B_H_B_R_B_J,
+};
+const naginata_node_t naginata_node_B_H_B_R = {
+  .parent       = &naginata_node_B_H,
+  .children     = naginata_node_B_H_B_R_children,
+  .children_num = 1,
+  .key          = B_R,
+  .value        = "sya",
+};
+
+
+const naginata_node_t naginata_node_B_X_B_H_B_J = {
+  .parent       = &naginata_node_B_X_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "bya",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_J = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "no",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_J = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "7",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_RS2 = {
+  .parent       = &naginata_node_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "e",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_C = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = "wo",
+};
+
+const naginata_node_t* naginata_node_B_I_B_J_children[4] = {
+  &naginata_node_B_I_B_J_B_R,
+  &naginata_node_B_I_B_J_B_W,
+  &naginata_node_B_I_B_J_B_G,
+  &naginata_node_B_I_B_J_B_X,
+};
+const naginata_node_t naginata_node_B_I_B_J = {
+  .parent       = &naginata_node_B_I,
+  .children     = naginata_node_B_I_B_J_children,
+  .children_num = 4,
+  .key          = B_J,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_O = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "e",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_F_B_O = {
+  .parent       = &naginata_node_B_H_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
   .value        = "kuxe",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_L_B_P_B_F = {
-  .parent       = &naginata_node_B_L_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "vuxyu",
-};
-
-const naginata_node_t* naginata_node_B_J_B_H_children[6] = {
-  &naginata_node_B_J_B_H_B_R,
-  &naginata_node_B_J_B_H_B_W,
-  &naginata_node_B_J_B_H_B_G,
-  &naginata_node_B_J_B_H_B_X,
-  &naginata_node_B_J_B_H_B_F,
-  &naginata_node_B_J_B_H_B_V,
-};
-const PROGMEM naginata_node_t naginata_node_B_J_B_H = {
-  .parent       = &naginata_node_B_J,
-  .children     = naginata_node_B_J_B_H_children,
-  .children_num = 6,
-  .key          = B_H,
-  .value        = NULL,
-};
-
-
-const PROGMEM naginata_node_t naginata_node_B_RS2_B_I = {
-  .parent       = &naginata_node_B_RS2,
+const naginata_node_t naginata_node_B_E_B_I = {
+  .parent       = &naginata_node_B_E,
   .children     = NULL,
   .children_num = 0,
   .key          = B_I,
-  .value        = "yo",
-};
-
-const naginata_node_t* naginata_node_B_E_B_K_children[2] = {
-  &naginata_node_B_E_B_K_B_M,
-  &naginata_node_B_E_B_K_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_E_B_K = {
-  .parent       = &naginata_node_B_E,
-  .children     = naginata_node_B_E_B_K_children,
-  .children_num = 2,
-  .key          = B_K,
-  .value        = NULL,
+  .value        = "ryo",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_M_B_Z = {
-  .parent       = &naginata_node_B_M,
+const naginata_node_t naginata_node_B_V_B_N_B_H = {
+  .parent       = &naginata_node_B_V_B_N,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_Z,
-  .value        = "po",
-};
-
-const naginata_node_t* naginata_node_B_X_children[5] = {
-  &naginata_node_B_X_B_J,
-  &naginata_node_B_X_B_M,
-  &naginata_node_B_X_B_I,
-  &naginata_node_B_X_B_P,
-  &naginata_node_B_X_B_H,
-};
-const PROGMEM naginata_node_t naginata_node_B_X = {
-  .parent       = &naginata_node_root,
-  .children     = naginata_node_B_X_children,
-  .children_num = 5,
-  .key          = B_X,
-  .value        = "hi",
+  .key          = B_H,
+  .value        = "guxo",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_H_B_G_B_J = {
-  .parent       = &naginata_node_B_H_B_G,
+const naginata_node_t naginata_node_B_I_B_R_B_J = {
+  .parent       = &naginata_node_B_I_B_R,
   .children     = NULL,
   .children_num = 0,
   .key          = B_J,
-  .value        = "dya",
+  .value        = "zyo",
 };
 
-const naginata_node_t* naginata_node_B_L_B_V_children[5] = {
-  &naginata_node_B_L_B_V_B_SCLN,
-  &naginata_node_B_L_B_V_B_O,
-  &naginata_node_B_L_B_V_B_K,
-  &naginata_node_B_L_B_V_B_N,
-  &naginata_node_B_L_B_V_B_J,
-};
-const PROGMEM naginata_node_t naginata_node_B_L_B_V = {
-  .parent       = &naginata_node_B_L,
-  .children     = naginata_node_B_L_B_V_children,
-  .children_num = 5,
+
+const naginata_node_t naginata_node_B_K_B_O_B_V = {
+  .parent       = &naginata_node_B_K_B_O,
+  .children     = NULL,
+  .children_num = 0,
   .key          = B_V,
-  .value        = NULL,
+  .value        = "ixe",
 };
 
-const naginata_node_t* naginata_node_root_children[30] = {
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_D = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "3",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_SCLN = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "0",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_DOT = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_DOT,
+  .value        = "wa",
+};
+
+const naginata_node_t* naginata_node_root_children[32] = {
   &naginata_node_B_W,
   &naginata_node_B_E,
   &naginata_node_B_R,
+  &naginata_node_B_T,
+  &naginata_node_B_Y,
   &naginata_node_B_U,
   &naginata_node_B_I,
   &naginata_node_B_O,
@@ -6681,36 +3241,1060 @@ const naginata_node_t* naginata_node_root_children[30] = {
   &naginata_node_B_RS2,
   &naginata_node_B_Q,
 };
-const PROGMEM naginata_node_t naginata_node_root = {
+const naginata_node_t naginata_node_root = {
   .parent       = NULL,
   .children     = naginata_node_root_children,
-  .children_num = 30,
+  .children_num = 32,
   .key          = -1,
   .value        = NULL,
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_M_B_C = {
-  .parent       = &naginata_node_B_M,
+const naginata_node_t naginata_node_B_P_B_M_B_E = {
+  .parent       = &naginata_node_B_P_B_M,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_C,
-  .value        = "pa",
+  .key          = B_E,
+  .value        = "thu",
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_W_B_J_B_I = {
+const naginata_node_t naginata_node_B_H_B_X_B_M = {
+  .parent       = &naginata_node_B_H_B_X,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "pya",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_E = {
+  .parent       = &naginata_node_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "rya",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_SCLN_B_V = {
+  .parent       = &naginata_node_B_K_B_SCLN,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "fi",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_COMM = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_COMM,
+  .value        = "*",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_L_B_K = {
+  .parent       = &naginata_node_B_V_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "wi",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_F = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "ma",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_F_B_N = {
+  .parent       = &naginata_node_B_L_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "vo",
+};
+
+const naginata_node_t* naginata_node_B_H_children[16] = {
+  &naginata_node_B_H_B_LS2,
+  &naginata_node_B_H_B_RS2,
+  &naginata_node_B_H_B_F,
+  &naginata_node_B_H_B_R,
+  &naginata_node_B_H_B_J,
+  &naginata_node_B_H_B_W,
+  &naginata_node_B_H_B_G,
+  &naginata_node_B_H_B_D,
+  &naginata_node_B_H_B_X,
+  &naginata_node_B_H_B_M,
+  &naginata_node_B_H_B_B,
+  &naginata_node_B_H_B_E,
+  &naginata_node_B_H_B_O,
+  &naginata_node_B_H_B_K,
+  &naginata_node_B_H_B_N,
+  &naginata_node_B_H_B_V,
+};
+const naginata_node_t naginata_node_B_H = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_H_children,
+  .children_num = 16,
+  .key          = B_H,
+  .value        = "ku",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_W = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "nu",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_G = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "ti",
+};
+
+const naginata_node_t* naginata_node_B_L_B_SCLN_children[1] = {
+  &naginata_node_B_L_B_SCLN_B_V,
+};
+const naginata_node_t naginata_node_B_L_B_SCLN = {
+  .parent       = &naginata_node_B_L,
+  .children     = naginata_node_B_L_B_SCLN_children,
+  .children_num = 1,
+  .key          = B_SCLN,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_F = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "4",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_B = {
+  .parent       = &naginata_node_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = "mya",
+};
+
+const naginata_node_t* naginata_node_B_N_B_H_children[2] = {
+  &naginata_node_B_N_B_H_B_F,
+  &naginata_node_B_N_B_H_B_V,
+};
+const naginata_node_t naginata_node_B_N_B_H = {
+  .parent       = &naginata_node_B_N,
+  .children     = naginata_node_B_N_B_H_children,
+  .children_num = 2,
+  .key          = B_H,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_F = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "4",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_F_B_L = {
+  .parent       = &naginata_node_B_P_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "vuxyu",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_O_B_K = {
+  .parent       = &naginata_node_B_V_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "ixe",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_E_B_M = {
+  .parent       = &naginata_node_B_P_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "thu",
+};
+
+const naginata_node_t* naginata_node_B_H_B_G_children[1] = {
+  &naginata_node_B_H_B_G_B_J,
+};
+const naginata_node_t naginata_node_B_H_B_G = {
+  .parent       = &naginata_node_B_H,
+  .children     = naginata_node_B_H_B_G_children,
+  .children_num = 1,
+  .key          = B_G,
+  .value        = "tya",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_H_B_N = {
+  .parent       = &naginata_node_B_V_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "guxo",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_I_B_X = {
+  .parent       = &naginata_node_B_M_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "pyo",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_S = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = "2",
+};
+
+const naginata_node_t* naginata_node_B_F_children[13] = {
+  &naginata_node_B_F_B_LS2,
+  &naginata_node_B_F_B_RS2,
+  &naginata_node_B_F_B_J,
+  &naginata_node_B_F_B_U,
+  &naginata_node_B_F_B_O,
+  &naginata_node_B_F_B_P,
+  &naginata_node_B_F_B_H,
+  &naginata_node_B_F_B_L,
+  &naginata_node_B_F_B_SCLN,
+  &naginata_node_B_F_B_N,
+  &naginata_node_B_F_B_K,
+  &naginata_node_B_F_B_D,
+  &naginata_node_B_F_B_G,
+};
+const naginata_node_t naginata_node_B_F = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_F_children,
+  .children_num = 13,
+  .key          = B_F,
+  .value        = "ka",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_H = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "6",
+};
+
+
+const naginata_node_t naginata_node_B_X_B_I_B_J = {
+  .parent       = &naginata_node_B_X_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "byo",
+};
+
+
+const naginata_node_t naginata_node_B_R_B_M_B_O = {
+  .parent       = &naginata_node_B_R_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "sye",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_H_B_K = {
+  .parent       = &naginata_node_B_F_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "kuxi",
+};
+
+
+const naginata_node_t naginata_node_B_R_B_O_B_M = {
+  .parent       = &naginata_node_B_R_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "sye",
+};
+
+const naginata_node_t* naginata_node_B_I_B_W_children[1] = {
+  &naginata_node_B_I_B_W_B_J,
+};
+const naginata_node_t naginata_node_B_I_B_W = {
+  .parent       = &naginata_node_B_I,
+  .children     = naginata_node_B_I_B_W_children,
+  .children_num = 1,
+  .key          = B_W,
+  .value        = "kyo",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_P_B_E = {
+  .parent       = &naginata_node_B_J_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "dhu",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_V = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = ",",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_LS2 = {
+  .parent       = &naginata_node_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = ",",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_V_B_SCLN = {
+  .parent       = &naginata_node_B_L_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "fe",
+};
+
+const naginata_node_t* naginata_node_B_R_B_M_children[1] = {
+  &naginata_node_B_R_B_M_B_O,
+};
+const naginata_node_t naginata_node_B_R_B_M = {
+  .parent       = &naginata_node_B_R,
+  .children     = naginata_node_B_R_B_M_children,
+  .children_num = 1,
+  .key          = B_M,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_R_B_J_B_O = {
+  .parent       = &naginata_node_B_R_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "zye",
+};
+
+
+const naginata_node_t naginata_node_B_SCLN_B_V_B_J = {
+  .parent       = &naginata_node_B_SCLN_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "fa",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_P_B_R = {
+  .parent       = &naginata_node_B_J_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "zyu",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_R_B_J = {
+  .parent       = &naginata_node_B_P_B_R,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "zyu",
+};
+
+
+const naginata_node_t naginata_node_B_E_B_K_B_J = {
+  .parent       = &naginata_node_B_E_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "dhi",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_V_B_L = {
+  .parent       = &naginata_node_B_O_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "we",
+};
+
+const naginata_node_t* naginata_node_B_P_B_W_children[1] = {
+  &naginata_node_B_P_B_W_B_J,
+};
+const naginata_node_t naginata_node_B_P_B_W = {
+  .parent       = &naginata_node_B_P,
+  .children     = naginata_node_B_P_B_W_children,
+  .children_num = 1,
+  .key          = B_W,
+  .value        = "kyu",
+};
+
+
+const naginata_node_t naginata_node_B_G_B_O_B_J = {
+  .parent       = &naginata_node_B_G_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "dye",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_LS2 = {
+  .parent       = &naginata_node_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "no",
+};
+
+const naginata_node_t* naginata_node_B_X_children[5] = {
+  &naginata_node_B_X_B_J,
+  &naginata_node_B_X_B_M,
+  &naginata_node_B_X_B_I,
+  &naginata_node_B_X_B_P,
+  &naginata_node_B_X_B_H,
+};
+const naginata_node_t naginata_node_B_X = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_X_children,
+  .children_num = 5,
+  .key          = B_X,
+  .value        = "hi",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_W_B_H = {
+  .parent       = &naginata_node_B_J_B_W,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "gya",
+};
+
+const naginata_node_t* naginata_node_B_I_B_M_children[1] = {
+  &naginata_node_B_I_B_M_B_X,
+};
+const naginata_node_t naginata_node_B_I_B_M = {
+  .parent       = &naginata_node_B_I,
+  .children     = naginata_node_B_I_B_M_children,
+  .children_num = 1,
+  .key          = B_M,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_H_B_N_children[2] = {
+  &naginata_node_B_H_B_N_B_F,
+  &naginata_node_B_H_B_N_B_V,
+};
+const naginata_node_t naginata_node_B_H_B_N = {
+  .parent       = &naginata_node_B_H,
+  .children     = naginata_node_B_H_B_N_children,
+  .children_num = 2,
+  .key          = B_N,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_U = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = "sa",
+};
+
+const naginata_node_t* naginata_node_B_RS2_children[25] = {
+  &naginata_node_B_RS2_B_W,
+  &naginata_node_B_RS2_B_E,
+  &naginata_node_B_RS2_B_R,
+  &naginata_node_B_RS2_B_U,
+  &naginata_node_B_RS2_B_I,
+  &naginata_node_B_RS2_B_O,
+  &naginata_node_B_RS2_B_P,
+  &naginata_node_B_RS2_B_A,
+  &naginata_node_B_RS2_B_S,
+  &naginata_node_B_RS2_B_D,
+  &naginata_node_B_RS2_B_F,
+  &naginata_node_B_RS2_B_G,
+  &naginata_node_B_RS2_B_H,
+  &naginata_node_B_RS2_B_J,
+  &naginata_node_B_RS2_B_K,
+  &naginata_node_B_RS2_B_L,
+  &naginata_node_B_RS2_B_SCLN,
+  &naginata_node_B_RS2_B_C,
+  &naginata_node_B_RS2_B_V,
+  &naginata_node_B_RS2_B_B,
+  &naginata_node_B_RS2_B_N,
+  &naginata_node_B_RS2_B_M,
+  &naginata_node_B_RS2_B_COMM,
+  &naginata_node_B_RS2_B_DOT,
+  &naginata_node_B_RS2_B_LS2,
+};
+const naginata_node_t naginata_node_B_RS2 = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_RS2_children,
+  .children_num = 25,
+  .key          = B_RS2,
+  .value        = SS_TAP(X_ENT),
+};
+
+
+const naginata_node_t naginata_node_B_V_B_SCLN_B_J = {
+  .parent       = &naginata_node_B_V_B_SCLN,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "fa",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_N_B_SCLN = {
+  .parent       = &naginata_node_B_V_B_N,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "fo",
+};
+
+const naginata_node_t* naginata_node_B_P_B_E_children[2] = {
+  &naginata_node_B_P_B_E_B_M,
+  &naginata_node_B_P_B_E_B_J,
+};
+const naginata_node_t naginata_node_B_P_B_E = {
+  .parent       = &naginata_node_B_P,
+  .children     = naginata_node_B_P_B_E_children,
+  .children_num = 2,
+  .key          = B_E,
+  .value        = "ryu",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_COMM = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_COMM,
+  .value        = "*",
+};
+
+
+const naginata_node_t naginata_node_B_R_B_O_B_J = {
+  .parent       = &naginata_node_B_R_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "zye",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_L_B_P = {
+  .parent       = &naginata_node_B_F_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "vuxyu",
+};
+
+const naginata_node_t* naginata_node_B_SCLN_B_V_children[5] = {
+  &naginata_node_B_SCLN_B_V_B_P,
+  &naginata_node_B_SCLN_B_V_B_J,
+  &naginata_node_B_SCLN_B_V_B_K,
+  &naginata_node_B_SCLN_B_V_B_L,
+  &naginata_node_B_SCLN_B_V_B_N,
+};
+const naginata_node_t naginata_node_B_SCLN_B_V = {
+  .parent       = &naginata_node_B_SCLN,
+  .children     = naginata_node_B_SCLN_B_V_children,
+  .children_num = 5,
+  .key          = B_V,
+  .value        = "pu",
+};
+
+const naginata_node_t* naginata_node_B_V_B_J_children[3] = {
+  &naginata_node_B_V_B_J_B_SCLN,
+  &naginata_node_B_V_B_J_B_H,
+  &naginata_node_B_V_B_J_B_L,
+};
+const naginata_node_t naginata_node_B_V_B_J = {
+  .parent       = &naginata_node_B_V,
+  .children     = naginata_node_B_V_B_J_children,
+  .children_num = 3,
+  .key          = B_J,
+  .value        = "go",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_V_B_O = {
+  .parent       = &naginata_node_B_K_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "ixe",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_D = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "ni",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_K_B_E = {
+  .parent       = &naginata_node_B_M_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "thi",
+};
+
+const naginata_node_t* naginata_node_B_O_B_H_children[2] = {
+  &naginata_node_B_O_B_H_B_F,
+  &naginata_node_B_O_B_H_B_V,
+};
+const naginata_node_t naginata_node_B_O_B_H = {
+  .parent       = &naginata_node_B_O,
+  .children     = naginata_node_B_O_B_H_children,
+  .children_num = 2,
+  .key          = B_H,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_H_B_J_B_F = {
+  .parent       = &naginata_node_B_H_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "kuxa",
+};
+
+const naginata_node_t* naginata_node_B_O_B_K_children[1] = {
+  &naginata_node_B_O_B_K_B_V,
+};
+const naginata_node_t naginata_node_B_O_B_K = {
+  .parent       = &naginata_node_B_O,
+  .children     = naginata_node_B_O_B_K_children,
+  .children_num = 1,
+  .key          = B_K,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_B = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = "=",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_LS2 = {
+  .parent       = &naginata_node_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "tu",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_L_B_K = {
+  .parent       = &naginata_node_B_F_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "vi",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_E_B_K = {
+  .parent       = &naginata_node_B_J_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "dhi",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_K_B_L = {
+  .parent       = &naginata_node_B_V_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "wi",
+};
+
+const naginata_node_t* naginata_node_B_N_B_F_children[2] = {
+  &naginata_node_B_N_B_F_B_L,
+  &naginata_node_B_N_B_F_B_H,
+};
+const naginata_node_t naginata_node_B_N_B_F = {
+  .parent       = &naginata_node_B_N,
+  .children     = naginata_node_B_N_B_F_children,
+  .children_num = 2,
+  .key          = B_F,
+  .value        = "da",
+};
+
+
+const naginata_node_t naginata_node_B_W_B_J_B_H = {
   .parent       = &naginata_node_B_W_B_J,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_I,
-  .value        = "gyo",
+  .key          = B_H,
+  .value        = "gya",
+};
+
+const naginata_node_t* naginata_node_B_J_B_D_children[1] = {
+  &naginata_node_B_J_B_D_B_L,
+};
+const naginata_node_t naginata_node_B_J_B_D = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_D_children,
+  .children_num = 1,
+  .key          = B_D,
+  .value        = "do",
+};
+
+const naginata_node_t* naginata_node_B_H_B_O_children[2] = {
+  &naginata_node_B_H_B_O_B_F,
+  &naginata_node_B_H_B_O_B_V,
+};
+const naginata_node_t naginata_node_B_H_B_O = {
+  .parent       = &naginata_node_B_H,
+  .children     = naginata_node_B_H_B_O_children,
+  .children_num = 2,
+  .key          = B_O,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_P_B_LS2 = {
+  .parent       = &naginata_node_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "yu",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_G_B_J = {
+  .parent       = &naginata_node_B_P_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "dyu",
+};
+
+
+const naginata_node_t naginata_node_B_N_B_H_B_F = {
+  .parent       = &naginata_node_B_N_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "kuxo",
+};
+
+
+const naginata_node_t naginata_node_B_N_B_RS2 = {
+  .parent       = &naginata_node_B_N,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "o",
+};
+
+const naginata_node_t* naginata_node_B_D_B_F_children[6] = {
+  &naginata_node_B_D_B_F_B_Y,
+  &naginata_node_B_D_B_F_B_U,
+  &naginata_node_B_D_B_F_B_I,
+  &naginata_node_B_D_B_F_B_O,
+  &naginata_node_B_D_B_F_B_P,
+  &naginata_node_B_D_B_F_B_H,
+};
+const naginata_node_t naginata_node_B_D_B_F = {
+  .parent       = &naginata_node_B_D,
+  .children     = naginata_node_B_D_B_F_children,
+  .children_num = 6,
+  .key          = B_F,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_I_B_D = {
+  .parent       = &naginata_node_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "nyo",
+};
+
+
+const naginata_node_t naginata_node_B_B_B_RS2 = {
+  .parent       = &naginata_node_B_B,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "mi",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_J = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "7",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_N = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "o",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_A = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_A,
+  .value        = "1",
+};
+
+
+const naginata_node_t naginata_node_B_SLSH = {
+  .parent       = &naginata_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SLSH,
+  .value        = "re",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_F_B_J = {
+  .parent       = &naginata_node_B_L_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "va",
+};
+
+
+const naginata_node_t naginata_node_B_Y = {
+  .parent       = &naginata_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = SS_TAP(X_RIGHT),
+};
+
+
+const naginata_node_t naginata_node_B_F_B_H_B_J = {
+  .parent       = &naginata_node_B_F_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "kuxa",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_H_B_R = {
+  .parent       = &naginata_node_B_J_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "zya",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_L = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "9",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_K = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "8",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_B = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = "mi",
+};
+
+const naginata_node_t* naginata_node_B_O_B_G_children[2] = {
+  &naginata_node_B_O_B_G_B_M,
+  &naginata_node_B_O_B_G_B_J,
+};
+const naginata_node_t naginata_node_B_O_B_G = {
+  .parent       = &naginata_node_B_O,
+  .children     = naginata_node_B_O_B_G_children,
+  .children_num = 2,
+  .key          = B_G,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_I_B_J_B_G = {
+  .parent       = &naginata_node_B_I_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "dyo",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_SCLN_B_P = {
+  .parent       = &naginata_node_B_V_B_SCLN,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "fyu",
+};
+
+
+const naginata_node_t naginata_node_B_SCLN_B_J_B_V = {
+  .parent       = &naginata_node_B_SCLN_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "fa",
+};
+
+const naginata_node_t* naginata_node_B_M_children[15] = {
+  &naginata_node_B_M_B_LS2,
+  &naginata_node_B_M_B_RS2,
+  &naginata_node_B_M_B_Z,
+  &naginata_node_B_M_B_X,
+  &naginata_node_B_M_B_C,
+  &naginata_node_B_M_B_I,
+  &naginata_node_B_M_B_P,
+  &naginata_node_B_M_B_H,
+  &naginata_node_B_M_B_E,
+  &naginata_node_B_M_B_K,
+  &naginata_node_B_M_B_L,
+  &naginata_node_B_M_B_D,
+  &naginata_node_B_M_B_O,
+  &naginata_node_B_M_B_R,
+  &naginata_node_B_M_B_G,
+};
+const naginata_node_t naginata_node_B_M = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_M_children,
+  .children_num = 15,
+  .key          = B_M,
+  .value        = "na",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_I_B_G = {
+  .parent       = &naginata_node_B_J_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "dyo",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_P_B_X = {
+  .parent       = &naginata_node_B_M_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "pyu",
+};
+
+
+const naginata_node_t naginata_node_B_N_B_F_B_H = {
+  .parent       = &naginata_node_B_N_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "kuxo",
+};
+
+
+const naginata_node_t naginata_node_B_E_B_J_B_P = {
+  .parent       = &naginata_node_B_E_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "dhu",
+};
+
+
+const naginata_node_t naginata_node_B_Q_B_O = {
+  .parent       = &naginata_node_B_Q,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "xe",
 };
 
 const naginata_node_t* naginata_node_B_SCLN_B_N_children[1] = {
   &naginata_node_B_SCLN_B_N_B_V,
 };
-const PROGMEM naginata_node_t naginata_node_B_SCLN_B_N = {
+const naginata_node_t naginata_node_B_SCLN_B_N = {
   .parent       = &naginata_node_B_SCLN,
   .children     = naginata_node_B_SCLN_B_N_children,
   .children_num = 1,
@@ -6719,7 +4303,193 @@ const PROGMEM naginata_node_t naginata_node_B_SCLN_B_N = {
 };
 
 
-const PROGMEM naginata_node_t naginata_node_B_C_B_LS2 = {
+const naginata_node_t naginata_node_B_D_B_F_B_O = {
+  .parent       = &naginata_node_B_D_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "%",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_F_B_P = {
+  .parent       = &naginata_node_B_L_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "vuxyu",
+};
+
+
+const naginata_node_t naginata_node_B_X_B_J_B_I = {
+  .parent       = &naginata_node_B_X_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "byo",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_RS2 = {
+  .parent       = &naginata_node_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = ".",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_L_B_V = {
+  .parent       = &naginata_node_B_J_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "tsa",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_A = {
+  .parent       = &naginata_node_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_A,
+  .value        = "ze",
+};
+
+const naginata_node_t* naginata_node_B_L_B_K_children[2] = {
+  &naginata_node_B_L_B_K_B_V,
+  &naginata_node_B_L_B_K_B_F,
+};
+const naginata_node_t naginata_node_B_L_B_K = {
+  .parent       = &naginata_node_B_L,
+  .children     = naginata_node_B_L_B_K_children,
+  .children_num = 2,
+  .key          = B_K,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_G_B_M_children[1] = {
+  &naginata_node_B_G_B_M_B_O,
+};
+const naginata_node_t naginata_node_B_G_B_M = {
+  .parent       = &naginata_node_B_G,
+  .children     = naginata_node_B_G_B_M_children,
+  .children_num = 1,
+  .key          = B_M,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_K_B_L_children[2] = {
+  &naginata_node_B_K_B_L_B_V,
+  &naginata_node_B_K_B_L_B_F,
+};
+const naginata_node_t naginata_node_B_K_B_L = {
+  .parent       = &naginata_node_B_K,
+  .children     = naginata_node_B_K_B_L_children,
+  .children_num = 2,
+  .key          = B_L,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_V_B_RS2 = {
+  .parent       = &naginata_node_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = ",",
+};
+
+const naginata_node_t* naginata_node_B_E_children[9] = {
+  &naginata_node_B_E_B_LS2,
+  &naginata_node_B_E_B_RS2,
+  &naginata_node_B_E_B_J,
+  &naginata_node_B_E_B_I,
+  &naginata_node_B_E_B_P,
+  &naginata_node_B_E_B_H,
+  &naginata_node_B_E_B_M,
+  &naginata_node_B_E_B_K,
+  &naginata_node_B_E_B_W,
+};
+const naginata_node_t naginata_node_B_E = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_E_children,
+  .children_num = 9,
+  .key          = B_E,
+  .value        = "te",
+};
+
+
+const naginata_node_t naginata_node_B_B_B_P = {
+  .parent       = &naginata_node_B_B,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "myu",
+};
+
+
+const naginata_node_t naginata_node_B_X_B_M_B_I = {
+  .parent       = &naginata_node_B_X_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "pyo",
+};
+
+const naginata_node_t* naginata_node_B_M_B_O_children[2] = {
+  &naginata_node_B_M_B_O_B_R,
+  &naginata_node_B_M_B_O_B_G,
+};
+const naginata_node_t naginata_node_B_M_B_O = {
+  .parent       = &naginata_node_B_M,
+  .children     = naginata_node_B_M_B_O_children,
+  .children_num = 2,
+  .key          = B_O,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_A_B_J = {
+  .parent       = &naginata_node_B_A,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "ze",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_J = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "no",
+};
+
+const naginata_node_t* naginata_node_B_E_B_K_children[2] = {
+  &naginata_node_B_E_B_K_B_M,
+  &naginata_node_B_E_B_K_B_J,
+};
+const naginata_node_t naginata_node_B_E_B_K = {
+  .parent       = &naginata_node_B_E,
+  .children     = naginata_node_B_E_B_K_children,
+  .children_num = 2,
+  .key          = B_K,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_H_B_J_B_W = {
+  .parent       = &naginata_node_B_H_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "gya",
+};
+
+
+const naginata_node_t naginata_node_B_C_B_LS2 = {
   .parent       = &naginata_node_B_C,
   .children     = NULL,
   .children_num = 0,
@@ -6727,15 +4497,1699 @@ const PROGMEM naginata_node_t naginata_node_B_C_B_LS2 = {
   .value        = "wo",
 };
 
-const naginata_node_t* naginata_node_B_O_B_K_children[1] = {
-  &naginata_node_B_O_B_K_B_V,
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_Q = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Q,
+  .value        = "#",
 };
-const PROGMEM naginata_node_t naginata_node_B_O_B_K = {
-  .parent       = &naginata_node_B_O,
-  .children     = naginata_node_B_O_B_K_children,
+
+
+const naginata_node_t naginata_node_B_O_B_L_B_V = {
+  .parent       = &naginata_node_B_O_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "we",
+};
+
+
+const naginata_node_t naginata_node_B_R_B_I_B_J = {
+  .parent       = &naginata_node_B_R_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "zyo",
+};
+
+const naginata_node_t* naginata_node_B_K_B_SCLN_children[1] = {
+  &naginata_node_B_K_B_SCLN_B_V,
+};
+const naginata_node_t naginata_node_B_K_B_SCLN = {
+  .parent       = &naginata_node_B_K,
+  .children     = naginata_node_B_K_B_SCLN_children,
   .children_num = 1,
+  .key          = B_SCLN,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_M_B_Z = {
+  .parent       = &naginata_node_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Z,
+  .value        = "po",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_J_B_T = {
+  .parent       = &naginata_node_B_K_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = "?",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_D_B_L = {
+  .parent       = &naginata_node_B_M_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "toxu",
+};
+
+const naginata_node_t* naginata_node_B_J_B_W_children[3] = {
+  &naginata_node_B_J_B_W_B_I,
+  &naginata_node_B_J_B_W_B_P,
+  &naginata_node_B_J_B_W_B_H,
+};
+const naginata_node_t naginata_node_B_J_B_W = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_W_children,
+  .children_num = 3,
+  .key          = B_W,
+  .value        = "gi",
+};
+
+
+const naginata_node_t naginata_node_B_I_B_X_B_J = {
+  .parent       = &naginata_node_B_I_B_X,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "byo",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_J_B_L = {
+  .parent       = &naginata_node_B_D_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "doxu",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_N_B_F = {
+  .parent       = &naginata_node_B_H_B_N,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "kuxo",
+};
+
+const naginata_node_t* naginata_node_B_H_B_K_children[2] = {
+  &naginata_node_B_H_B_K_B_F,
+  &naginata_node_B_H_B_K_B_V,
+};
+const naginata_node_t naginata_node_B_H_B_K = {
+  .parent       = &naginata_node_B_H,
+  .children     = naginata_node_B_H_B_K_children,
+  .children_num = 2,
   .key          = B_K,
   .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_W_children[7] = {
+  &naginata_node_B_W_B_LS2,
+  &naginata_node_B_W_B_RS2,
+  &naginata_node_B_W_B_J,
+  &naginata_node_B_W_B_I,
+  &naginata_node_B_W_B_P,
+  &naginata_node_B_W_B_H,
+  &naginata_node_B_W_B_E,
+};
+const naginata_node_t naginata_node_B_W = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_W_children,
+  .children_num = 7,
+  .key          = B_W,
+  .value        = "ki",
+};
+
+const naginata_node_t* naginata_node_B_B_children[6] = {
+  &naginata_node_B_B_B_LS2,
+  &naginata_node_B_B_B_RS2,
+  &naginata_node_B_B_B_J,
+  &naginata_node_B_B_B_I,
+  &naginata_node_B_B_B_P,
+  &naginata_node_B_B_B_H,
+};
+const naginata_node_t naginata_node_B_B = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_B_children,
+  .children_num = 6,
+  .key          = B_B,
+  .value        = "so",
+};
+
+
+const naginata_node_t naginata_node_B_N_B_V_B_L = {
+  .parent       = &naginata_node_B_N_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "uxo",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_V = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = ",",
+};
+
+const naginata_node_t* naginata_node_B_M_B_D_children[1] = {
+  &naginata_node_B_M_B_D_B_L,
+};
+const naginata_node_t naginata_node_B_M_B_D = {
+  .parent       = &naginata_node_B_M,
+  .children     = naginata_node_B_M_B_D_children,
+  .children_num = 1,
+  .key          = B_D,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_L_B_J_B_D = {
+  .parent       = &naginata_node_B_L_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "doxu",
+};
+
+const naginata_node_t* naginata_node_B_M_B_G_children[1] = {
+  &naginata_node_B_M_B_G_B_O,
+};
+const naginata_node_t naginata_node_B_M_B_G = {
+  .parent       = &naginata_node_B_M,
+  .children     = naginata_node_B_M_B_G_children,
+  .children_num = 1,
+  .key          = B_G,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_P_B_G_children[1] = {
+  &naginata_node_B_P_B_G_B_J,
+};
+const naginata_node_t naginata_node_B_P_B_G = {
+  .parent       = &naginata_node_B_P,
+  .children     = naginata_node_B_P_B_G_children,
+  .children_num = 1,
+  .key          = B_G,
+  .value        = "tyu",
+};
+
+const naginata_node_t* naginata_node_B_F_B_N_children[2] = {
+  &naginata_node_B_F_B_N_B_L,
+  &naginata_node_B_F_B_N_B_H,
+};
+const naginata_node_t naginata_node_B_F_B_N = {
+  .parent       = &naginata_node_B_F,
+  .children     = naginata_node_B_F_B_N_children,
+  .children_num = 2,
+  .key          = B_N,
+  .value        = "da",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_S = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = "2",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_U = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = "sa",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_J_B_H = {
+  .parent       = &naginata_node_B_V_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "guxa",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_K_B_L = {
+  .parent       = &naginata_node_B_F_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "vi",
+};
+
+const naginata_node_t* naginata_node_B_D_B_J_children[1] = {
+  &naginata_node_B_D_B_J_B_L,
+};
+const naginata_node_t naginata_node_B_D_B_J = {
+  .parent       = &naginata_node_B_D,
+  .children     = naginata_node_B_D_B_J_children,
+  .children_num = 1,
+  .key          = B_J,
+  .value        = "do",
+};
+
+const naginata_node_t* naginata_node_B_J_children[22] = {
+  &naginata_node_B_J_B_LS2,
+  &naginata_node_B_J_B_RS2,
+  &naginata_node_B_J_B_W,
+  &naginata_node_B_J_B_E,
+  &naginata_node_B_J_B_R,
+  &naginata_node_B_J_B_A,
+  &naginata_node_B_J_B_S,
+  &naginata_node_B_J_B_D,
+  &naginata_node_B_J_B_F,
+  &naginata_node_B_J_B_G,
+  &naginata_node_B_J_B_Z,
+  &naginata_node_B_J_B_X,
+  &naginata_node_B_J_B_C,
+  &naginata_node_B_J_B_V,
+  &naginata_node_B_J_B_B,
+  &naginata_node_B_J_B_I,
+  &naginata_node_B_J_B_P,
+  &naginata_node_B_J_B_H,
+  &naginata_node_B_J_B_K,
+  &naginata_node_B_J_B_L,
+  &naginata_node_B_J_B_O,
+  &naginata_node_B_J_B_SCLN,
+};
+const naginata_node_t naginata_node_B_J = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_J_children,
+  .children_num = 22,
+  .key          = B_J,
+  .value        = "a",
+};
+
+
+const naginata_node_t naginata_node_B_E_B_J_B_K = {
+  .parent       = &naginata_node_B_E_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "dhi",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_E_B_J = {
+  .parent       = &naginata_node_B_P_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "dhu",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_D_B_U = {
+  .parent       = &naginata_node_B_F_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = "@",
+};
+
+
+const naginata_node_t naginata_node_B_I_B_J_B_X = {
+  .parent       = &naginata_node_B_I_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "byo",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_P_B_X = {
+  .parent       = &naginata_node_B_J_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "byu",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_D_B_Y = {
+  .parent       = &naginata_node_B_F_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = "!",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_C = {
+  .parent       = &naginata_node_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = "pa",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_M_B_E = {
+  .parent       = &naginata_node_B_K_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "thi",
+};
+
+const naginata_node_t* naginata_node_B_Z_children[2] = {
+  &naginata_node_B_Z_B_J,
+  &naginata_node_B_Z_B_M,
+};
+const naginata_node_t naginata_node_B_Z = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_Z_children,
+  .children_num = 2,
+  .key          = B_Z,
+  .value        = "ho",
+};
+
+const naginata_node_t* naginata_node_B_P_B_SCLN_children[1] = {
+  &naginata_node_B_P_B_SCLN_B_V,
+};
+const naginata_node_t naginata_node_B_P_B_SCLN = {
+  .parent       = &naginata_node_B_P,
+  .children     = naginata_node_B_P_B_SCLN_children,
+  .children_num = 1,
+  .key          = B_SCLN,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_J_B_H_B_V = {
+  .parent       = &naginata_node_B_J_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "guxa",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_V_B_J = {
+  .parent       = &naginata_node_B_L_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "tsa",
+};
+
+const naginata_node_t* naginata_node_B_P_B_R_children[1] = {
+  &naginata_node_B_P_B_R_B_J,
+};
+const naginata_node_t naginata_node_B_P_B_R = {
+  .parent       = &naginata_node_B_P,
+  .children     = naginata_node_B_P_B_R_children,
+  .children_num = 1,
+  .key          = B_R,
+  .value        = "syu",
+};
+
+
+const naginata_node_t naginata_node_B_COMM_B_LS2 = {
+  .parent       = &naginata_node_B_COMM,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "mu",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_DOT = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_DOT,
+  .value        = "wa",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_K = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "8",
+};
+
+const naginata_node_t* naginata_node_B_M_B_X_children[3] = {
+  &naginata_node_B_M_B_X_B_I,
+  &naginata_node_B_M_B_X_B_P,
+  &naginata_node_B_M_B_X_B_H,
+};
+const naginata_node_t naginata_node_B_M_B_X = {
+  .parent       = &naginata_node_B_M,
+  .children     = naginata_node_B_M_B_X_children,
+  .children_num = 3,
+  .key          = B_X,
+  .value        = "pi",
+};
+
+
+const naginata_node_t naginata_node_B_I_B_J_B_W = {
+  .parent       = &naginata_node_B_I_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "gyo",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_H_B_F = {
+  .parent       = &naginata_node_B_O_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "kuxe",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_J_B_R = {
+  .parent       = &naginata_node_B_P_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "zyu",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_V_B_K = {
+  .parent       = &naginata_node_B_L_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "wi",
+};
+
+const naginata_node_t* naginata_node_B_R_B_H_children[1] = {
+  &naginata_node_B_R_B_H_B_J,
+};
+const naginata_node_t naginata_node_B_R_B_H = {
+  .parent       = &naginata_node_B_R,
+  .children     = naginata_node_B_R_B_H_children,
+  .children_num = 1,
+  .key          = B_H,
+  .value        = "sya",
+};
+
+
+const naginata_node_t naginata_node_B_I_B_RS2 = {
+  .parent       = &naginata_node_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "yo",
+};
+
+const naginata_node_t* naginata_node_B_X_B_I_children[2] = {
+  &naginata_node_B_X_B_I_B_J,
+  &naginata_node_B_X_B_I_B_M,
+};
+const naginata_node_t naginata_node_B_X_B_I = {
+  .parent       = &naginata_node_B_X,
+  .children     = naginata_node_B_X_B_I_children,
+  .children_num = 2,
+  .key          = B_I,
+  .value        = "hyo",
+};
+
+const naginata_node_t* naginata_node_B_O_children[11] = {
+  &naginata_node_B_O_B_LS2,
+  &naginata_node_B_O_B_RS2,
+  &naginata_node_B_O_B_F,
+  &naginata_node_B_O_B_R,
+  &naginata_node_B_O_B_M,
+  &naginata_node_B_O_B_J,
+  &naginata_node_B_O_B_G,
+  &naginata_node_B_O_B_K,
+  &naginata_node_B_O_B_V,
+  &naginata_node_B_O_B_L,
+  &naginata_node_B_O_B_H,
+};
+const naginata_node_t naginata_node_B_O = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_O_children,
+  .children_num = 11,
+  .key          = B_O,
+  .value        = "su",
+};
+
+
+const naginata_node_t naginata_node_B_X_B_I_B_M = {
+  .parent       = &naginata_node_B_X_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "pyo",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_X_B_P = {
+  .parent       = &naginata_node_B_M_B_X,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "pyu",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_O_B_F = {
+  .parent       = &naginata_node_B_L_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "ve",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_O = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "%",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_M_B_X = {
+  .parent       = &naginata_node_B_H_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "pya",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_H = {
+  .parent       = &naginata_node_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "nya",
+};
+
+const naginata_node_t* naginata_node_B_L_B_M_children[1] = {
+  &naginata_node_B_L_B_M_B_D,
+};
+const naginata_node_t naginata_node_B_L_B_M = {
+  .parent       = &naginata_node_B_L,
+  .children     = naginata_node_B_L_B_M_children,
+  .children_num = 1,
+  .key          = B_M,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_V_B_P_children[1] = {
+  &naginata_node_B_V_B_P_B_SCLN,
+};
+const naginata_node_t naginata_node_B_V_B_P = {
+  .parent       = &naginata_node_B_V,
+  .children     = naginata_node_B_V_B_P_children,
+  .children_num = 1,
+  .key          = B_P,
+  .value        = "pe",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_X_B_M = {
+  .parent       = &naginata_node_B_P_B_X,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "pyu",
+};
+
+const naginata_node_t* naginata_node_B_H_B_V_children[4] = {
+  &naginata_node_B_H_B_V_B_O,
+  &naginata_node_B_H_B_V_B_J,
+  &naginata_node_B_H_B_V_B_K,
+  &naginata_node_B_H_B_V_B_N,
+};
+const naginata_node_t naginata_node_B_H_B_V = {
+  .parent       = &naginata_node_B_H,
+  .children     = naginata_node_B_H_B_V_children,
+  .children_num = 4,
+  .key          = B_V,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_O_B_G_B_J = {
+  .parent       = &naginata_node_B_O_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "dye",
+};
+
+const naginata_node_t* naginata_node_B_O_B_F_children[2] = {
+  &naginata_node_B_O_B_F_B_L,
+  &naginata_node_B_O_B_F_B_H,
+};
+const naginata_node_t naginata_node_B_O_B_F = {
+  .parent       = &naginata_node_B_O,
+  .children     = naginata_node_B_O_B_F_children,
+  .children_num = 2,
+  .key          = B_F,
+  .value        = "zu",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_F_B_L = {
+  .parent       = &naginata_node_B_J_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "va",
+};
+
+
+const naginata_node_t naginata_node_B_E_B_RS2 = {
+  .parent       = &naginata_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "ri",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_R_B_J = {
+  .parent       = &naginata_node_B_O_B_R,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "zye",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_K_B_V = {
+  .parent       = &naginata_node_B_L_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "wi",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_V_B_SCLN = {
+  .parent       = &naginata_node_B_K_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "fi",
+};
+
+
+const naginata_node_t naginata_node_B_A_B_RS2 = {
+  .parent       = &naginata_node_B_A,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "se",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_RS2 = {
+  .parent       = &naginata_node_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "ya",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_D_B_H = {
+  .parent       = &naginata_node_B_F_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "_",
+};
+
+const naginata_node_t* naginata_node_B_J_B_P_children[5] = {
+  &naginata_node_B_J_B_P_B_R,
+  &naginata_node_B_J_B_P_B_W,
+  &naginata_node_B_J_B_P_B_G,
+  &naginata_node_B_J_B_P_B_X,
+  &naginata_node_B_J_B_P_B_E,
+};
+const naginata_node_t naginata_node_B_J_B_P = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_P_children,
+  .children_num = 5,
+  .key          = B_P,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_O_B_G_B_M = {
+  .parent       = &naginata_node_B_O_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "tye",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_M_B_G = {
+  .parent       = &naginata_node_B_O_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "tye",
+};
+
+
+const naginata_node_t naginata_node_B_W_B_P_B_J = {
+  .parent       = &naginata_node_B_W_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "gyu",
+};
+
+const naginata_node_t* naginata_node_B_K_B_V_children[4] = {
+  &naginata_node_B_K_B_V_B_SCLN,
+  &naginata_node_B_K_B_V_B_O,
+  &naginata_node_B_K_B_V_B_L,
+  &naginata_node_B_K_B_V_B_H,
+};
+const naginata_node_t naginata_node_B_K_B_V = {
+  .parent       = &naginata_node_B_K,
+  .children     = naginata_node_B_K_B_V_children,
+  .children_num = 4,
+  .key          = B_V,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_O_B_M_B_R = {
+  .parent       = &naginata_node_B_O_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "sye",
+};
+
+
+const naginata_node_t naginata_node_B_W_B_RS2 = {
+  .parent       = &naginata_node_B_W,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "nu",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_F_B_U = {
+  .parent       = &naginata_node_B_D_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = "@",
+};
+
+const naginata_node_t* naginata_node_B_F_B_J_children[2] = {
+  &naginata_node_B_F_B_J_B_L,
+  &naginata_node_B_F_B_J_B_H,
+};
+const naginata_node_t naginata_node_B_F_B_J = {
+  .parent       = &naginata_node_B_F,
+  .children     = naginata_node_B_F_B_J_children,
+  .children_num = 2,
+  .key          = B_J,
+  .value        = "ga",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_O_B_R = {
+  .parent       = &naginata_node_B_J_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "zye",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_J_B_G = {
+  .parent       = &naginata_node_B_K_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "\\",
+};
+
+const naginata_node_t* naginata_node_B_K_B_O_children[1] = {
+  &naginata_node_B_K_B_O_B_V,
+};
+const naginata_node_t naginata_node_B_K_B_O = {
+  .parent       = &naginata_node_B_K,
+  .children     = naginata_node_B_K_B_O_children,
+  .children_num = 1,
+  .key          = B_O,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_F_B_L_B_O = {
+  .parent       = &naginata_node_B_F_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "ve",
+};
+
+const naginata_node_t* naginata_node_B_J_B_F_children[2] = {
+  &naginata_node_B_J_B_F_B_L,
+  &naginata_node_B_J_B_F_B_H,
+};
+const naginata_node_t naginata_node_B_J_B_F = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_F_children,
+  .children_num = 2,
+  .key          = B_F,
+  .value        = "ga",
+};
+
+
+const naginata_node_t naginata_node_B_G_B_J_B_H = {
+  .parent       = &naginata_node_B_G_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "dya",
+};
+
+const naginata_node_t* naginata_node_B_C_children[4] = {
+  &naginata_node_B_C_B_LS2,
+  &naginata_node_B_C_B_RS2,
+  &naginata_node_B_C_B_J,
+  &naginata_node_B_C_B_M,
+};
+const naginata_node_t naginata_node_B_C = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_C_children,
+  .children_num = 4,
+  .key          = B_C,
+  .value        = "ha",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_H_B_X = {
+  .parent       = &naginata_node_B_M_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "pya",
+};
+
+
+const naginata_node_t naginata_node_B_R_B_J_B_H = {
+  .parent       = &naginata_node_B_R_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "zya",
+};
+
+
+const naginata_node_t naginata_node_B_E_B_M_B_K = {
+  .parent       = &naginata_node_B_E_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "thi",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_T = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = "[",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_O_B_G = {
+  .parent       = &naginata_node_B_M_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "tye",
+};
+
+const naginata_node_t* naginata_node_B_L_children[12] = {
+  &naginata_node_B_L_B_LS2,
+  &naginata_node_B_L_B_RS2,
+  &naginata_node_B_L_B_F,
+  &naginata_node_B_L_B_M,
+  &naginata_node_B_L_B_D,
+  &naginata_node_B_L_B_J,
+  &naginata_node_B_L_B_SCLN,
+  &naginata_node_B_L_B_V,
+  &naginata_node_B_L_B_O,
+  &naginata_node_B_L_B_K,
+  &naginata_node_B_L_B_N,
+  &naginata_node_B_L_B_P,
+};
+const naginata_node_t naginata_node_B_L = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_L_children,
+  .children_num = 12,
+  .key          = B_L,
+  .value        = "u",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_G_B_O = {
+  .parent       = &naginata_node_B_M_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "tye",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_O_B_F = {
+  .parent       = &naginata_node_B_H_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "kuxe",
+};
+
+
+const naginata_node_t naginata_node_B_G_B_M_B_O = {
+  .parent       = &naginata_node_B_G_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "tye",
+};
+
+const naginata_node_t* naginata_node_B_H_B_F_children[4] = {
+  &naginata_node_B_H_B_F_B_O,
+  &naginata_node_B_H_B_F_B_J,
+  &naginata_node_B_H_B_F_B_K,
+  &naginata_node_B_H_B_F_B_N,
+};
+const naginata_node_t naginata_node_B_H_B_F = {
+  .parent       = &naginata_node_B_H,
+  .children     = naginata_node_B_H_B_F_children,
+  .children_num = 4,
+  .key          = B_F,
+  .value        = "gu",
+};
+
+
+const naginata_node_t naginata_node_B_G_B_F = {
+  .parent       = &naginata_node_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "dvo",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_D_B_O = {
+  .parent       = &naginata_node_B_F_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "%",
+};
+
+
+const naginata_node_t naginata_node_B_G_B_P_B_J = {
+  .parent       = &naginata_node_B_G_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "dyu",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_J_B_V = {
+  .parent       = &naginata_node_B_H_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "guxa",
+};
+
+const naginata_node_t* naginata_node_B_J_B_SCLN_children[1] = {
+  &naginata_node_B_J_B_SCLN_B_V,
+};
+const naginata_node_t naginata_node_B_J_B_SCLN = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_SCLN_children,
+  .children_num = 1,
+  .key          = B_SCLN,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_M_B_L_children[1] = {
+  &naginata_node_B_M_B_L_B_D,
+};
+const naginata_node_t naginata_node_B_M_B_L = {
+  .parent       = &naginata_node_B_M,
+  .children     = naginata_node_B_M_B_L_children,
+  .children_num = 1,
+  .key          = B_L,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_I_B_G_children[1] = {
+  &naginata_node_B_I_B_G_B_J,
+};
+const naginata_node_t naginata_node_B_I_B_G = {
+  .parent       = &naginata_node_B_I,
+  .children     = naginata_node_B_I_B_G_children,
+  .children_num = 1,
+  .key          = B_G,
+  .value        = "tyo",
+};
+
+const naginata_node_t* naginata_node_B_E_B_P_children[2] = {
+  &naginata_node_B_E_B_P_B_M,
+  &naginata_node_B_E_B_P_B_J,
+};
+const naginata_node_t naginata_node_B_E_B_P = {
+  .parent       = &naginata_node_B_E,
+  .children     = naginata_node_B_E_B_P_children,
+  .children_num = 2,
+  .key          = B_P,
+  .value        = "ryu",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_J_B_SCLN = {
+  .parent       = &naginata_node_B_V_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "fa",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_X_B_H = {
+  .parent       = &naginata_node_B_M_B_X,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "pya",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_V_B_N = {
+  .parent       = &naginata_node_B_H_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "guxo",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_K_B_F = {
+  .parent       = &naginata_node_B_H_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "kuxi",
+};
+
+const naginata_node_t* naginata_node_B_J_B_X_children[3] = {
+  &naginata_node_B_J_B_X_B_I,
+  &naginata_node_B_J_B_X_B_P,
+  &naginata_node_B_J_B_X_B_H,
+};
+const naginata_node_t naginata_node_B_J_B_X = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_X_children,
+  .children_num = 3,
+  .key          = B_X,
+  .value        = "bi",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_O_B_H = {
+  .parent       = &naginata_node_B_V_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "guxe",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_R = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "ne",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_D = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "3",
+};
+
+const naginata_node_t* naginata_node_B_X_B_P_children[2] = {
+  &naginata_node_B_X_B_P_B_J,
+  &naginata_node_B_X_B_P_B_M,
+};
+const naginata_node_t naginata_node_B_X_B_P = {
+  .parent       = &naginata_node_B_X,
+  .children     = naginata_node_B_X_B_P_children,
+  .children_num = 2,
+  .key          = B_P,
+  .value        = "hyu",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_N_B_V = {
+  .parent       = &naginata_node_B_H_B_N,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "guxo",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_X_B_I = {
+  .parent       = &naginata_node_B_J_B_X,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "byo",
+};
+
+
+const naginata_node_t naginata_node_B_X_B_M_B_H = {
+  .parent       = &naginata_node_B_X_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "pya",
+};
+
+
+const naginata_node_t naginata_node_B_X_B_J_B_H = {
+  .parent       = &naginata_node_B_X_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "bya",
+};
+
+
+const naginata_node_t naginata_node_B_N_B_L_B_V = {
+  .parent       = &naginata_node_B_N_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "uxo",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_R = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "(",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_P_B_SCLN = {
+  .parent       = &naginata_node_B_V_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "fyu",
+};
+
+
+const naginata_node_t naginata_node_B_E_B_W = {
+  .parent       = &naginata_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = SS_TAP(X_ESC),
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_C = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = "|",
+};
+
+const naginata_node_t* naginata_node_B_J_B_I_children[4] = {
+  &naginata_node_B_J_B_I_B_R,
+  &naginata_node_B_J_B_I_B_W,
+  &naginata_node_B_J_B_I_B_G,
+  &naginata_node_B_J_B_I_B_X,
+};
+const naginata_node_t naginata_node_B_J_B_I = {
+  .parent       = &naginata_node_B_J,
+  .children     = naginata_node_B_J_B_I_children,
+  .children_num = 4,
+  .key          = B_I,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_L_B_F_B_O = {
+  .parent       = &naginata_node_B_L_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "ve",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_V_B_H = {
+  .parent       = &naginata_node_B_J_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "guxa",
+};
+
+
+const naginata_node_t naginata_node_B_E_B_M_B_P = {
+  .parent       = &naginata_node_B_E_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "thu",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_I = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "}",
+};
+
+
+const naginata_node_t naginata_node_B_G_B_LS2 = {
+  .parent       = &naginata_node_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "ti",
+};
+
+const naginata_node_t* naginata_node_B_W_B_P_children[1] = {
+  &naginata_node_B_W_B_P_B_J,
+};
+const naginata_node_t naginata_node_B_W_B_P = {
+  .parent       = &naginata_node_B_W,
+  .children     = naginata_node_B_W_B_P_children,
+  .children_num = 1,
+  .key          = B_P,
+  .value        = "kyu",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_P_B_F = {
+  .parent       = &naginata_node_B_L_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "vuxyu",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_SCLN_B_V = {
+  .parent       = &naginata_node_B_L_B_SCLN,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "fe",
+};
+
+
+const naginata_node_t naginata_node_B_W_B_E = {
+  .parent       = &naginata_node_B_W,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = SS_TAP(X_ESC),
+};
+
+
+const naginata_node_t naginata_node_B_J_B_F_B_H = {
+  .parent       = &naginata_node_B_J_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "kuxa",
+};
+
+
+const naginata_node_t naginata_node_B_R_B_P_B_J = {
+  .parent       = &naginata_node_B_R_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "zyu",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_LS2 = {
+  .parent       = &naginata_node_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "ma",
+};
+
+
+const naginata_node_t naginata_node_B_Q_B_P = {
+  .parent       = &naginata_node_B_Q,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "xyu",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_J_B_Q = {
+  .parent       = &naginata_node_B_K_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Q,
+  .value        = "`",
+};
+
+const naginata_node_t* naginata_node_B_N_B_L_children[2] = {
+  &naginata_node_B_N_B_L_B_V,
+  &naginata_node_B_N_B_L_B_F,
+};
+const naginata_node_t naginata_node_B_N_B_L = {
+  .parent       = &naginata_node_B_N,
+  .children     = naginata_node_B_N_B_L_children,
+  .children_num = 2,
+  .key          = B_L,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_E_B_P_B_J = {
+  .parent       = &naginata_node_B_E_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "dhu",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_V_B_SCLN = {
+  .parent       = &naginata_node_B_P_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "fyu",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_N_B_F = {
+  .parent       = &naginata_node_B_L_B_N,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "vo",
+};
+
+
+const naginata_node_t naginata_node_B_Z_B_M = {
+  .parent       = &naginata_node_B_Z,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "po",
+};
+
+
+const naginata_node_t naginata_node_B_R_B_J_B_P = {
+  .parent       = &naginata_node_B_R_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "zyu",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_F_B_P = {
+  .parent       = &naginata_node_B_D_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "$",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_F_B_K = {
+  .parent       = &naginata_node_B_L_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "vi",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_COMM = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_COMM,
+  .value        = "mu",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_RS2 = {
+  .parent       = &naginata_node_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "yu",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_V = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "+",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_L = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "9",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_E = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "ri",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_U = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = ")",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_E = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "{",
+};
+
+const naginata_node_t* naginata_node_B_G_B_I_children[1] = {
+  &naginata_node_B_G_B_I_B_J,
+};
+const naginata_node_t naginata_node_B_G_B_I = {
+  .parent       = &naginata_node_B_G,
+  .children     = naginata_node_B_G_B_I_children,
+  .children_num = 1,
+  .key          = B_I,
+  .value        = "tyo",
+};
+
+
+const naginata_node_t naginata_node_B_E_B_P_B_M = {
+  .parent       = &naginata_node_B_E_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "thu",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_H_B_X = {
+  .parent       = &naginata_node_B_J_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "bya",
+};
+
+
+const naginata_node_t naginata_node_B_Q_B_K = {
+  .parent       = &naginata_node_B_Q,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "xi",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_RS2 = {
+  .parent       = &naginata_node_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "mo",
+};
+
+const naginata_node_t* naginata_node_B_G_B_H_children[1] = {
+  &naginata_node_B_G_B_H_B_J,
+};
+const naginata_node_t naginata_node_B_G_B_H = {
+  .parent       = &naginata_node_B_G,
+  .children     = naginata_node_B_G_B_H_children,
+  .children_num = 1,
+  .key          = B_H,
+  .value        = "tya",
+};
+
+
+const naginata_node_t naginata_node_B_B_B_I = {
+  .parent       = &naginata_node_B_B,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "myo",
+};
+
+
+const naginata_node_t naginata_node_B_C_B_J = {
+  .parent       = &naginata_node_B_C,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "ba",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_X_B_J = {
+  .parent       = &naginata_node_B_P_B_X,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "byu",
+};
+
+const naginata_node_t* naginata_node_B_V_B_N_children[3] = {
+  &naginata_node_B_V_B_N_B_SCLN,
+  &naginata_node_B_V_B_N_B_L,
+  &naginata_node_B_V_B_N_B_H,
+};
+const naginata_node_t naginata_node_B_V_B_N = {
+  .parent       = &naginata_node_B_V,
+  .children     = naginata_node_B_V_B_N_children,
+  .children_num = 3,
+  .key          = B_N,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_DOT = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_DOT,
+  .value        = "^",
+};
+
+
+const naginata_node_t naginata_node_B_X_B_P_B_J = {
+  .parent       = &naginata_node_B_X_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "byu",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_R_B_P = {
+  .parent       = &naginata_node_B_J_B_R,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "zyu",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_SCLN_B_N = {
+  .parent       = &naginata_node_B_V_B_SCLN,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "fo",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_U = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = ")",
 };
 
 const naginata_node_t* naginata_node_B_J_B_V_children[3] = {
@@ -6743,10 +6197,1484 @@ const naginata_node_t* naginata_node_B_J_B_V_children[3] = {
   &naginata_node_B_J_B_V_B_H,
   &naginata_node_B_J_B_V_B_L,
 };
-const PROGMEM naginata_node_t naginata_node_B_J_B_V = {
+const naginata_node_t naginata_node_B_J_B_V = {
   .parent       = &naginata_node_B_J,
   .children     = naginata_node_B_J_B_V_children,
   .children_num = 3,
   .key          = B_V,
   .value        = "go",
+};
+
+const naginata_node_t* naginata_node_B_N_B_SCLN_children[1] = {
+  &naginata_node_B_N_B_SCLN_B_V,
+};
+const naginata_node_t naginata_node_B_N_B_SCLN = {
+  .parent       = &naginata_node_B_N,
+  .children     = naginata_node_B_N_B_SCLN_children,
+  .children_num = 1,
+  .key          = B_SCLN,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_COMM = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_COMM,
+  .value        = "mu",
+};
+
+const naginata_node_t* naginata_node_B_V_B_SCLN_children[5] = {
+  &naginata_node_B_V_B_SCLN_B_P,
+  &naginata_node_B_V_B_SCLN_B_J,
+  &naginata_node_B_V_B_SCLN_B_K,
+  &naginata_node_B_V_B_SCLN_B_L,
+  &naginata_node_B_V_B_SCLN_B_N,
+};
+const naginata_node_t naginata_node_B_V_B_SCLN = {
+  .parent       = &naginata_node_B_V,
+  .children     = naginata_node_B_V_B_SCLN_children,
+  .children_num = 5,
+  .key          = B_SCLN,
+  .value        = "pu",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_SCLN = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "fu",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_L_B_SCLN = {
+  .parent       = &naginata_node_B_V_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "fe",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_M = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "-",
+};
+
+const naginata_node_t* naginata_node_B_L_B_J_children[3] = {
+  &naginata_node_B_L_B_J_B_D,
+  &naginata_node_B_L_B_J_B_F,
+  &naginata_node_B_L_B_J_B_V,
+};
+const naginata_node_t naginata_node_B_L_B_J = {
+  .parent       = &naginata_node_B_L,
+  .children     = naginata_node_B_L_B_J_children,
+  .children_num = 3,
+  .key          = B_J,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_G_children[9] = {
+  &naginata_node_B_G_B_LS2,
+  &naginata_node_B_G_B_RS2,
+  &naginata_node_B_G_B_J,
+  &naginata_node_B_G_B_I,
+  &naginata_node_B_G_B_P,
+  &naginata_node_B_G_B_H,
+  &naginata_node_B_G_B_O,
+  &naginata_node_B_G_B_M,
+  &naginata_node_B_G_B_F,
+};
+const naginata_node_t naginata_node_B_G = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_G_children,
+  .children_num = 9,
+  .key          = B_G,
+  .value        = "xtu",
+};
+
+
+const naginata_node_t naginata_node_B_G_B_H_B_J = {
+  .parent       = &naginata_node_B_G_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "dya",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_F_B_Y = {
+  .parent       = &naginata_node_B_D_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = "!",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_F_B_L = {
+  .parent       = &naginata_node_B_O_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "ve",
+};
+
+const naginata_node_t* naginata_node_B_SCLN_children[9] = {
+  &naginata_node_B_SCLN_B_LS2,
+  &naginata_node_B_SCLN_B_RS2,
+  &naginata_node_B_SCLN_B_F,
+  &naginata_node_B_SCLN_B_V,
+  &naginata_node_B_SCLN_B_P,
+  &naginata_node_B_SCLN_B_J,
+  &naginata_node_B_SCLN_B_K,
+  &naginata_node_B_SCLN_B_L,
+  &naginata_node_B_SCLN_B_N,
+};
+const naginata_node_t naginata_node_B_SCLN = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_SCLN_children,
+  .children_num = 9,
+  .key          = B_SCLN,
+  .value        = "-",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_F_B_K = {
+  .parent       = &naginata_node_B_H_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "kuxi",
+};
+
+const naginata_node_t* naginata_node_B_O_B_R_children[2] = {
+  &naginata_node_B_O_B_R_B_M,
+  &naginata_node_B_O_B_R_B_J,
+};
+const naginata_node_t naginata_node_B_O_B_R = {
+  .parent       = &naginata_node_B_O,
+  .children     = naginata_node_B_O_B_R_children,
+  .children_num = 2,
+  .key          = B_R,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_K_B_H_children[2] = {
+  &naginata_node_B_K_B_H_B_F,
+  &naginata_node_B_K_B_H_B_V,
+};
+const naginata_node_t naginata_node_B_K_B_H = {
+  .parent       = &naginata_node_B_K,
+  .children     = naginata_node_B_K_B_H_children,
+  .children_num = 2,
+  .key          = B_H,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_E = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "ri",
+};
+
+const naginata_node_t* naginata_node_B_L_B_O_children[2] = {
+  &naginata_node_B_L_B_O_B_V,
+  &naginata_node_B_L_B_O_B_F,
+};
+const naginata_node_t naginata_node_B_L_B_O = {
+  .parent       = &naginata_node_B_L,
+  .children     = naginata_node_B_L_B_O_children,
+  .children_num = 2,
+  .key          = B_O,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_J_B_H_B_G = {
+  .parent       = &naginata_node_B_J_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "dya",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_D_B_M = {
+  .parent       = &naginata_node_B_L_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "toxu",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_M = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "-",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_P = {
+  .parent       = &naginata_node_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "nyu",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_V_B_K = {
+  .parent       = &naginata_node_B_O_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "ixe",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_X_B_J = {
+  .parent       = &naginata_node_B_H_B_X,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "bya",
+};
+
+const naginata_node_t* naginata_node_B_V_B_K_children[4] = {
+  &naginata_node_B_V_B_K_B_SCLN,
+  &naginata_node_B_V_B_K_B_O,
+  &naginata_node_B_V_B_K_B_L,
+  &naginata_node_B_V_B_K_B_H,
+};
+const naginata_node_t naginata_node_B_V_B_K = {
+  .parent       = &naginata_node_B_V,
+  .children     = naginata_node_B_V_B_K_children,
+  .children_num = 4,
+  .key          = B_K,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_V_B_H_B_O = {
+  .parent       = &naginata_node_B_V_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "guxe",
+};
+
+const naginata_node_t* naginata_node_B_LS2_children[25] = {
+  &naginata_node_B_LS2_B_W,
+  &naginata_node_B_LS2_B_E,
+  &naginata_node_B_LS2_B_R,
+  &naginata_node_B_LS2_B_U,
+  &naginata_node_B_LS2_B_I,
+  &naginata_node_B_LS2_B_O,
+  &naginata_node_B_LS2_B_P,
+  &naginata_node_B_LS2_B_A,
+  &naginata_node_B_LS2_B_S,
+  &naginata_node_B_LS2_B_D,
+  &naginata_node_B_LS2_B_F,
+  &naginata_node_B_LS2_B_G,
+  &naginata_node_B_LS2_B_H,
+  &naginata_node_B_LS2_B_J,
+  &naginata_node_B_LS2_B_K,
+  &naginata_node_B_LS2_B_L,
+  &naginata_node_B_LS2_B_SCLN,
+  &naginata_node_B_LS2_B_C,
+  &naginata_node_B_LS2_B_V,
+  &naginata_node_B_LS2_B_B,
+  &naginata_node_B_LS2_B_N,
+  &naginata_node_B_LS2_B_M,
+  &naginata_node_B_LS2_B_COMM,
+  &naginata_node_B_LS2_B_DOT,
+  &naginata_node_B_LS2_B_RS2,
+};
+const naginata_node_t naginata_node_B_LS2 = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_LS2_children,
+  .children_num = 25,
+  .key          = B_LS2,
+  .value        = " ",
+};
+
+
+const naginata_node_t naginata_node_B_I_B_W_B_J = {
+  .parent       = &naginata_node_B_I_B_W,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "gyo",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_N_B_H = {
+  .parent       = &naginata_node_B_F_B_N,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "kuxo",
+};
+
+
+const naginata_node_t naginata_node_B_L_B_N_B_V = {
+  .parent       = &naginata_node_B_L_B_N,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "uxo",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_O_B_R = {
+  .parent       = &naginata_node_B_M_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "sye",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_R_B_I = {
+  .parent       = &naginata_node_B_J_B_R,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "zyo",
+};
+
+
+const naginata_node_t naginata_node_B_G_B_RS2 = {
+  .parent       = &naginata_node_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "ti",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_SCLN_B_K = {
+  .parent       = &naginata_node_B_V_B_SCLN,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "fi",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_E_B_P = {
+  .parent       = &naginata_node_B_J_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "dhu",
+};
+
+const naginata_node_t* naginata_node_B_P_B_X_children[2] = {
+  &naginata_node_B_P_B_X_B_J,
+  &naginata_node_B_P_B_X_B_M,
+};
+const naginata_node_t naginata_node_B_P_B_X = {
+  .parent       = &naginata_node_B_P,
+  .children     = naginata_node_B_P_B_X_children,
+  .children_num = 2,
+  .key          = B_X,
+  .value        = "hyu",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_V_B_H = {
+  .parent       = &naginata_node_B_O_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "guxe",
+};
+
+const naginata_node_t* naginata_node_B_S_children[3] = {
+  &naginata_node_B_S_B_LS2,
+  &naginata_node_B_S_B_RS2,
+  &naginata_node_B_S_B_J,
+};
+const naginata_node_t naginata_node_B_S = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_S_children,
+  .children_num = 3,
+  .key          = B_S,
+  .value        = "ke",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_G_B_J = {
+  .parent       = &naginata_node_B_H_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "dya",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_K_B_E = {
+  .parent       = &naginata_node_B_J_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "dhi",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_N_B_L = {
+  .parent       = &naginata_node_B_V_B_N,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "uxo",
+};
+
+const naginata_node_t* naginata_node_B_O_B_L_children[2] = {
+  &naginata_node_B_O_B_L_B_V,
+  &naginata_node_B_O_B_L_B_F,
+};
+const naginata_node_t naginata_node_B_O_B_L = {
+  .parent       = &naginata_node_B_O,
+  .children     = naginata_node_B_O_B_L_children,
+  .children_num = 2,
+  .key          = B_L,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_Y = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = "]",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_P_B_G = {
+  .parent       = &naginata_node_B_J_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "dyu",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_B = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = "mi",
+};
+
+
+const naginata_node_t naginata_node_B_N_B_V_B_H = {
+  .parent       = &naginata_node_B_N_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "guxo",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_F_B_H = {
+  .parent       = &naginata_node_B_K_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "kuxi",
+};
+
+
+const naginata_node_t naginata_node_B_R_B_LS2 = {
+  .parent       = &naginata_node_B_R,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "ne",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_R = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "ne",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_P_B_W = {
+  .parent       = &naginata_node_B_J_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "gyu",
+};
+
+
+const naginata_node_t naginata_node_B_I_B_G_B_J = {
+  .parent       = &naginata_node_B_I_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "dyo",
+};
+
+
+const naginata_node_t naginata_node_B_W_B_LS2 = {
+  .parent       = &naginata_node_B_W,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "nu",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_L_B_D = {
+  .parent       = &naginata_node_B_M_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "toxu",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_L_B_F = {
+  .parent       = &naginata_node_B_P_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "vuxyu",
+};
+
+const naginata_node_t* naginata_node_B_M_B_R_children[1] = {
+  &naginata_node_B_M_B_R_B_O,
+};
+const naginata_node_t naginata_node_B_M_B_R = {
+  .parent       = &naginata_node_B_M,
+  .children     = naginata_node_B_M_B_R_children,
+  .children_num = 1,
+  .key          = B_R,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_X = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "%",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_J_B_L = {
+  .parent       = &naginata_node_B_F_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "va",
+};
+
+
+const naginata_node_t naginata_node_B_B_B_LS2 = {
+  .parent       = &naginata_node_B_B,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "mi",
+};
+
+
+const naginata_node_t naginata_node_B_SCLN_B_L_B_V = {
+  .parent       = &naginata_node_B_SCLN_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "fe",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_M_B_L = {
+  .parent       = &naginata_node_B_D_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "toxu",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_H_B_V = {
+  .parent       = &naginata_node_B_K_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "guxi",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_J_B_H = {
+  .parent       = &naginata_node_B_F_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "kuxa",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_L_B_V = {
+  .parent       = &naginata_node_B_K_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "wi",
+};
+
+
+const naginata_node_t naginata_node_B_T = {
+  .parent       = &naginata_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = SS_TAP(X_LEFT),
+};
+
+
+const naginata_node_t naginata_node_B_J_B_G_B_O = {
+  .parent       = &naginata_node_B_J_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "dye",
+};
+
+const naginata_node_t* naginata_node_B_M_B_K_children[1] = {
+  &naginata_node_B_M_B_K_B_E,
+};
+const naginata_node_t naginata_node_B_M_B_K = {
+  .parent       = &naginata_node_B_M,
+  .children     = naginata_node_B_M_B_K_children,
+  .children_num = 1,
+  .key          = B_K,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_U_B_RS2 = {
+  .parent       = &naginata_node_B_U,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "sa",
+};
+
+
+const naginata_node_t naginata_node_B_U_B_F = {
+  .parent       = &naginata_node_B_U,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "za",
+};
+
+
+const naginata_node_t naginata_node_B_N_B_F_B_L = {
+  .parent       = &naginata_node_B_N_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "vo",
+};
+
+const naginata_node_t* naginata_node_B_M_B_P_children[2] = {
+  &naginata_node_B_M_B_P_B_X,
+  &naginata_node_B_M_B_P_B_E,
+};
+const naginata_node_t naginata_node_B_M_B_P = {
+  .parent       = &naginata_node_B_M,
+  .children     = naginata_node_B_M_B_P_children,
+  .children_num = 2,
+  .key          = B_P,
+  .value        = NULL,
+};
+
+const naginata_node_t* naginata_node_B_O_B_M_children[2] = {
+  &naginata_node_B_O_B_M_B_R,
+  &naginata_node_B_O_B_M_B_G,
+};
+const naginata_node_t naginata_node_B_O_B_M = {
+  .parent       = &naginata_node_B_O,
+  .children     = naginata_node_B_O_B_M_children,
+  .children_num = 2,
+  .key          = B_M,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_J_B_R_B_H = {
+  .parent       = &naginata_node_B_J_B_R,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "zya",
+};
+
+const naginata_node_t* naginata_node_B_K_B_E_children[2] = {
+  &naginata_node_B_K_B_E_B_M,
+  &naginata_node_B_K_B_E_B_J,
+};
+const naginata_node_t naginata_node_B_K_B_E = {
+  .parent       = &naginata_node_B_K,
+  .children     = naginata_node_B_K_B_E_children,
+  .children_num = 2,
+  .key          = B_E,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_Q_B_L = {
+  .parent       = &naginata_node_B_Q,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "xu",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_F_B_H = {
+  .parent       = &naginata_node_B_D_B_F,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "_",
+};
+
+const naginata_node_t* naginata_node_B_P_B_J_children[5] = {
+  &naginata_node_B_P_B_J_B_R,
+  &naginata_node_B_P_B_J_B_W,
+  &naginata_node_B_P_B_J_B_G,
+  &naginata_node_B_P_B_J_B_X,
+  &naginata_node_B_P_B_J_B_E,
+};
+const naginata_node_t naginata_node_B_P_B_J = {
+  .parent       = &naginata_node_B_P,
+  .children     = naginata_node_B_P_B_J_children,
+  .children_num = 5,
+  .key          = B_J,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_J_B_I_B_R = {
+  .parent       = &naginata_node_B_J_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "zyo",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_G_B_I = {
+  .parent       = &naginata_node_B_J_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "dyo",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_B = {
+  .parent       = &naginata_node_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = "zo",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_L_B_O = {
+  .parent       = &naginata_node_B_V_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "we",
+};
+
+
+const naginata_node_t naginata_node_B_G_B_O_B_M = {
+  .parent       = &naginata_node_B_G_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "tye",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_K_B_G = {
+  .parent       = &naginata_node_B_J_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "\\",
+};
+
+
+const naginata_node_t naginata_node_B_I_B_M_B_X = {
+  .parent       = &naginata_node_B_I_B_M,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "pyo",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_K_B_V = {
+  .parent       = &naginata_node_B_H_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "guxi",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_O_B_G = {
+  .parent       = &naginata_node_B_J_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "dye",
+};
+
+const naginata_node_t* naginata_node_B_X_B_J_children[3] = {
+  &naginata_node_B_X_B_J_B_I,
+  &naginata_node_B_X_B_J_B_P,
+  &naginata_node_B_X_B_J_B_H,
+};
+const naginata_node_t naginata_node_B_X_B_J = {
+  .parent       = &naginata_node_B_X,
+  .children     = naginata_node_B_X_B_J_children,
+  .children_num = 3,
+  .key          = B_J,
+  .value        = "bi",
+};
+
+
+const naginata_node_t naginata_node_B_W_B_I_B_J = {
+  .parent       = &naginata_node_B_W_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "gyo",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_D_B_I = {
+  .parent       = &naginata_node_B_F_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "~",
+};
+
+const naginata_node_t* naginata_node_B_SCLN_B_J_children[1] = {
+  &naginata_node_B_SCLN_B_J_B_V,
+};
+const naginata_node_t naginata_node_B_SCLN_B_J = {
+  .parent       = &naginata_node_B_SCLN,
+  .children     = naginata_node_B_SCLN_B_J_children,
+  .children_num = 1,
+  .key          = B_J,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_O = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "%",
+};
+
+
+const naginata_node_t naginata_node_B_G_B_J_B_O = {
+  .parent       = &naginata_node_B_G_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "dye",
+};
+
+const naginata_node_t* naginata_node_B_P_B_V_children[1] = {
+  &naginata_node_B_P_B_V_B_SCLN,
+};
+const naginata_node_t naginata_node_B_P_B_V = {
+  .parent       = &naginata_node_B_P,
+  .children     = naginata_node_B_P_B_V_children,
+  .children_num = 1,
+  .key          = B_V,
+  .value        = "pe",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_A = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_A,
+  .value        = "1",
+};
+
+
+const naginata_node_t naginata_node_B_B_B_J = {
+  .parent       = &naginata_node_B_B,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "zo",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_K = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "mo",
+};
+
+
+const naginata_node_t naginata_node_B_R_B_RS2 = {
+  .parent       = &naginata_node_B_R,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "ne",
+};
+
+const naginata_node_t* naginata_node_B_I_B_X_children[2] = {
+  &naginata_node_B_I_B_X_B_J,
+  &naginata_node_B_I_B_X_B_M,
+};
+const naginata_node_t naginata_node_B_I_B_X = {
+  .parent       = &naginata_node_B_I,
+  .children     = naginata_node_B_I_B_X_children,
+  .children_num = 2,
+  .key          = B_X,
+  .value        = "hyo",
+};
+
+const naginata_node_t* naginata_node_B_F_B_L_children[5] = {
+  &naginata_node_B_F_B_L_B_O,
+  &naginata_node_B_F_B_L_B_P,
+  &naginata_node_B_F_B_L_B_J,
+  &naginata_node_B_F_B_L_B_K,
+  &naginata_node_B_F_B_L_B_N,
+};
+const naginata_node_t naginata_node_B_F_B_L = {
+  .parent       = &naginata_node_B_F,
+  .children     = naginata_node_B_F_B_L_children,
+  .children_num = 5,
+  .key          = B_L,
+  .value        = "du",
+};
+
+const naginata_node_t* naginata_node_B_G_B_J_children[4] = {
+  &naginata_node_B_G_B_J_B_I,
+  &naginata_node_B_G_B_J_B_P,
+  &naginata_node_B_G_B_J_B_H,
+  &naginata_node_B_G_B_J_B_O,
+};
+const naginata_node_t naginata_node_B_G_B_J = {
+  .parent       = &naginata_node_B_G,
+  .children     = naginata_node_B_G_B_J_children,
+  .children_num = 4,
+  .key          = B_J,
+  .value        = "di",
+};
+
+
+const naginata_node_t naginata_node_B_N_B_V_B_SCLN = {
+  .parent       = &naginata_node_B_N_B_V,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = "fo",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_LS2 = {
+  .parent       = &naginata_node_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "e",
+};
+
+const naginata_node_t* naginata_node_B_R_B_P_children[1] = {
+  &naginata_node_B_R_B_P_B_J,
+};
+const naginata_node_t naginata_node_B_R_B_P = {
+  .parent       = &naginata_node_B_R,
+  .children     = naginata_node_B_R_B_P_children,
+  .children_num = 1,
+  .key          = B_P,
+  .value        = "syu",
+};
+
+const naginata_node_t* naginata_node_B_COMM_children[2] = {
+  &naginata_node_B_COMM_B_LS2,
+  &naginata_node_B_COMM_B_RS2,
+};
+const naginata_node_t naginata_node_B_COMM = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_COMM_children,
+  .children_num = 2,
+  .key          = B_COMM,
+  .value        = "nn",
+};
+
+
+const naginata_node_t naginata_node_B_M_B_P_B_E = {
+  .parent       = &naginata_node_B_M_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "thu",
+};
+
+
+const naginata_node_t naginata_node_B_W_B_J_B_P = {
+  .parent       = &naginata_node_B_W_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "gyu",
+};
+
+
+const naginata_node_t naginata_node_B_SCLN_B_P_B_V = {
+  .parent       = &naginata_node_B_SCLN_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "fyu",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_P = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "yu",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_RS2_B_I = {
+  .parent       = &naginata_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "}",
+};
+
+const naginata_node_t* naginata_node_B_W_B_J_children[3] = {
+  &naginata_node_B_W_B_J_B_I,
+  &naginata_node_B_W_B_J_B_P,
+  &naginata_node_B_W_B_J_B_H,
+};
+const naginata_node_t naginata_node_B_W_B_J = {
+  .parent       = &naginata_node_B_W,
+  .children     = naginata_node_B_W_B_J_children,
+  .children_num = 3,
+  .key          = B_J,
+  .value        = "gi",
+};
+
+
+const naginata_node_t naginata_node_B_H_B_D = {
+  .parent       = &naginata_node_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "nya",
+};
+
+const naginata_node_t* naginata_node_B_V_B_L_children[5] = {
+  &naginata_node_B_V_B_L_B_SCLN,
+  &naginata_node_B_V_B_L_B_O,
+  &naginata_node_B_V_B_L_B_K,
+  &naginata_node_B_V_B_L_B_N,
+  &naginata_node_B_V_B_L_B_J,
+};
+const naginata_node_t naginata_node_B_V_B_L = {
+  .parent       = &naginata_node_B_V,
+  .children     = naginata_node_B_V_B_L_children,
+  .children_num = 5,
+  .key          = B_L,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_M_B_E_B_P = {
+  .parent       = &naginata_node_B_M_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "thu",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_LS2_B_N = {
+  .parent       = &naginata_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "!",
+};
+
+const naginata_node_t* naginata_node_B_A_children[3] = {
+  &naginata_node_B_A_B_LS2,
+  &naginata_node_B_A_B_RS2,
+  &naginata_node_B_A_B_J,
+};
+const naginata_node_t naginata_node_B_A = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_A_children,
+  .children_num = 3,
+  .key          = B_A,
+  .value        = "ro",
+};
+
+
+const naginata_node_t naginata_node_B_R_B_H_B_J = {
+  .parent       = &naginata_node_B_R_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "zya",
+};
+
+
+const naginata_node_t naginata_node_B_RS2_B_H = {
+  .parent       = &naginata_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "ya",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_SCLN_B_V = {
+  .parent       = &naginata_node_B_P_B_SCLN,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "fyu",
+};
+
+const naginata_node_t* naginata_node_B_N_children[7] = {
+  &naginata_node_B_N_B_LS2,
+  &naginata_node_B_N_B_RS2,
+  &naginata_node_B_N_B_F,
+  &naginata_node_B_N_B_SCLN,
+  &naginata_node_B_N_B_V,
+  &naginata_node_B_N_B_L,
+  &naginata_node_B_N_B_H,
+};
+const naginata_node_t naginata_node_B_N = {
+  .parent       = &naginata_node_root,
+  .children     = naginata_node_B_N_children,
+  .children_num = 7,
+  .key          = B_N,
+  .value        = "ta",
+};
+
+
+const naginata_node_t naginata_node_B_R_B_J_B_I = {
+  .parent       = &naginata_node_B_R_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "zyo",
+};
+
+const naginata_node_t* naginata_node_B_P_B_L_children[1] = {
+  &naginata_node_B_P_B_L_B_F,
+};
+const naginata_node_t naginata_node_B_P_B_L = {
+  .parent       = &naginata_node_B_P,
+  .children     = naginata_node_B_P_B_L_children,
+  .children_num = 1,
+  .key          = B_L,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_J_B_K_B_T = {
+  .parent       = &naginata_node_B_J_B_K,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = "?",
+};
+
+const naginata_node_t* naginata_node_B_R_B_J_children[4] = {
+  &naginata_node_B_R_B_J_B_I,
+  &naginata_node_B_R_B_J_B_P,
+  &naginata_node_B_R_B_J_B_H,
+  &naginata_node_B_R_B_J_B_O,
+};
+const naginata_node_t naginata_node_B_R_B_J = {
+  .parent       = &naginata_node_B_R,
+  .children     = naginata_node_B_R_B_J_children,
+  .children_num = 4,
+  .key          = B_J,
+  .value        = "zi",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_J_B_R = {
+  .parent       = &naginata_node_B_K_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "&",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_L_B_D = {
+  .parent       = &naginata_node_B_J_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "doxu",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_H_B_O = {
+  .parent       = &naginata_node_B_F_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "kuxe",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_H_B_W = {
+  .parent       = &naginata_node_B_J_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "gya",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_RS2 = {
+  .parent       = &naginata_node_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "ni",
+};
+
+
+const naginata_node_t naginata_node_B_W_B_J_B_I = {
+  .parent       = &naginata_node_B_W_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "gyo",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_J_B_E = {
+  .parent       = &naginata_node_B_K_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "dhi",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_J_B_R = {
+  .parent       = &naginata_node_B_O_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "zye",
+};
+
+
+const naginata_node_t naginata_node_B_LS2_B_S = {
+  .parent       = &naginata_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = "me",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_L_B_N = {
+  .parent       = &naginata_node_B_V_B_L,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "uxo",
+};
+
+
+const naginata_node_t naginata_node_B_F_B_O_B_L = {
+  .parent       = &naginata_node_B_F_B_O,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "ve",
+};
+
+
+const naginata_node_t naginata_node_B_COMM_B_RS2 = {
+  .parent       = &naginata_node_B_COMM,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "mu",
+};
+
+const naginata_node_t* naginata_node_B_V_B_H_children[4] = {
+  &naginata_node_B_V_B_H_B_O,
+  &naginata_node_B_V_B_H_B_J,
+  &naginata_node_B_V_B_H_B_K,
+  &naginata_node_B_V_B_H_B_N,
+};
+const naginata_node_t naginata_node_B_V_B_H = {
+  .parent       = &naginata_node_B_V,
+  .children     = naginata_node_B_V_B_H_children,
+  .children_num = 4,
+  .key          = B_H,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_SCLN_B_LS2 = {
+  .parent       = &naginata_node_B_SCLN,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_LS2,
+  .value        = "fu",
+};
+
+
+const naginata_node_t naginata_node_B_D_B_I = {
+  .parent       = &naginata_node_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "nyo",
+};
+
+
+const naginata_node_t naginata_node_B_K_B_J_B_W = {
+  .parent       = &naginata_node_B_K_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "/",
+};
+
+
+const naginata_node_t naginata_node_B_P_B_J_B_E = {
+  .parent       = &naginata_node_B_P_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "dhu",
+};
+
+
+const naginata_node_t naginata_node_B_O_B_J_B_G = {
+  .parent       = &naginata_node_B_O_B_J,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "dye",
+};
+
+
+const naginata_node_t naginata_node_B_V_B_SCLN_B_L = {
+  .parent       = &naginata_node_B_V_B_SCLN,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "fe",
+};
+
+
+const naginata_node_t naginata_node_B_J_B_I_B_X = {
+  .parent       = &naginata_node_B_J_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "byo",
+};
+
+
+const naginata_node_t naginata_node_B_SCLN_B_F = {
+  .parent       = &naginata_node_B_SCLN,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "bu",
+};
+
+const naginata_node_t* naginata_node_B_F_B_D_children[6] = {
+  &naginata_node_B_F_B_D_B_Y,
+  &naginata_node_B_F_B_D_B_U,
+  &naginata_node_B_F_B_D_B_I,
+  &naginata_node_B_F_B_D_B_O,
+  &naginata_node_B_F_B_D_B_P,
+  &naginata_node_B_F_B_D_B_H,
+};
+const naginata_node_t naginata_node_B_F_B_D = {
+  .parent       = &naginata_node_B_F,
+  .children     = naginata_node_B_F_B_D_children,
+  .children_num = 6,
+  .key          = B_D,
+  .value        = NULL,
+};
+
+
+const naginata_node_t naginata_node_B_C_B_RS2 = {
+  .parent       = &naginata_node_B_C,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_RS2,
+  .value        = "wo",
+};
+
+
+const naginata_node_t naginata_node_B_I_B_X_B_M = {
+  .parent       = &naginata_node_B_I_B_X,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "pyo",
 };

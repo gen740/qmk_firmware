@@ -6,14 +6,24 @@ import itertools as it
 from parser import parse_mapping
 
 
-def parse_value(value: str):
+def parse_string(value: str):
     if value == "<s>":
-        return '" "'
+        value = " "
     elif value == "<r>":
         return "SS_TAP(X_ENT)"
+    elif value == "<b>":
+        return "SS_TAP(X_BSPC)"
+    elif value == "←":
+        return "SS_TAP(X_LEFT)"
+    elif value == "→":
+        return "SS_TAP(X_RIGHT)"
+    return f"{json.dumps(value)}"
+
+
+def parse_value(value: str):
     if len(value) > 1 and "-" in value:
         v = value.split("-")
-        ret = f'"{v[1]}"'
+        ret = f'{parse_string(v[1])}'
         if "c" in v[0]:
             ret = f"SS_LCTL({ret})"
         if "s" in v[0]:
@@ -23,7 +33,8 @@ def parse_value(value: str):
         if "g" in v[0]:
             ret = f"SS_LGUI({ret})"
         return ret
-    return f"{json.dumps(value)}"
+
+    return f"{parse_string(value)}"
 
 
 def generate_basekeys_and_keymaps(file_path: str):

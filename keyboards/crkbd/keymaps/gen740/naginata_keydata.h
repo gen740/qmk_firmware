@@ -18,4 +18,4 @@ struct naginata_node {
     const char*       value;
 };
 
-const PROGMEM naginata_node_t naginata_node_root;
+const naginata_node_t naginata_node_root;
