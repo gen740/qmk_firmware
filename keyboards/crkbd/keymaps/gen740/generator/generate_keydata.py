@@ -1,7 +1,5 @@
 #!python3
 
-import sys
-
 import json
 import copy
 import itertools as it

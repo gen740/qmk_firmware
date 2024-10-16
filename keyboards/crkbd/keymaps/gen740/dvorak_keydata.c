@@ -43,7 +43,6 @@
 
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_A;
 const dvorak_node_t PROGMEM dvorak_node_B_E_B_G;
-const dvorak_node_t PROGMEM dvorak_node_B_E_B_P;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_G;
 const dvorak_node_t PROGMEM dvorak_node_B_O;
 const dvorak_node_t PROGMEM dvorak_node_B_T;
@@ -52,56 +51,47 @@ const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_Z;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_T;
 const dvorak_node_t PROGMEM dvorak_node_B_L;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2;
+const dvorak_node_t PROGMEM dvorak_node_B_LS3_B_D;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_E;
+const dvorak_node_t PROGMEM dvorak_node_B_LS3_B_I;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_M;
-const dvorak_node_t PROGMEM dvorak_node_B_H_B_Y;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_B;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_M;
 const dvorak_node_t PROGMEM dvorak_node_B_I_B_U;
-const dvorak_node_t PROGMEM dvorak_node_B_E_B_DOT;
-const dvorak_node_t PROGMEM dvorak_node_B_QUOT;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_P;
-const dvorak_node_t PROGMEM dvorak_node_B_T_B_R;
+const dvorak_node_t PROGMEM dvorak_node_B_QUOT;
+const dvorak_node_t PROGMEM dvorak_node_B_LS3_B_E;
 const dvorak_node_t PROGMEM dvorak_node_B_SCLN;
-const dvorak_node_t PROGMEM dvorak_node_B_H_B_J;
+const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_A;
 const dvorak_node_t PROGMEM dvorak_node_B_D;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_B;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_DOT;
 const dvorak_node_t PROGMEM dvorak_node_B_DOT_B_COMM;
-const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_A;
+const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_X;
 const dvorak_node_t PROGMEM dvorak_node_B_E_B_T;
 const dvorak_node_t PROGMEM dvorak_node_B_H;
-const dvorak_node_t PROGMEM dvorak_node_B_H_B_COMM;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_F;
-const dvorak_node_t PROGMEM dvorak_node_B_E_B_QUOT;
-const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_X;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_W;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_N_B_E;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_O;
+const dvorak_node_t PROGMEM dvorak_node_B_LS3_B_S;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_L;
 const dvorak_node_t PROGMEM dvorak_node_B_R;
-const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_G;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_Z;
-const dvorak_node_t PROGMEM dvorak_node_B_U_B_B;
+const dvorak_node_t PROGMEM dvorak_node_B_LS3_B_A;
 const dvorak_node_t PROGMEM dvorak_node_B_X;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_U;
-const dvorak_node_t PROGMEM dvorak_node_B_U_B_F;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_E;
 const dvorak_node_t PROGMEM dvorak_node_B_A;
 const dvorak_node_t PROGMEM dvorak_node_B_F;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_COMM;
-const dvorak_node_t PROGMEM dvorak_node_B_H_B_P;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_N;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_H;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_T;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_T_B_E;
-const dvorak_node_t PROGMEM dvorak_node_B_H_B_O;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_I;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_B;
-const dvorak_node_t PROGMEM dvorak_node_B_H_B_QUOT;
-const dvorak_node_t PROGMEM dvorak_node_B_U_B_N;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_SCLN;
-const dvorak_node_t PROGMEM dvorak_node_B_E_B_COMM;
 const dvorak_node_t PROGMEM dvorak_node_B_V;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_C;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_L;
@@ -112,23 +102,21 @@ const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_QUOT;
 const dvorak_node_t PROGMEM dvorak_node_B_T_B_DOT;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_V;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_H;
-const dvorak_node_t PROGMEM dvorak_node_B_H_B_Q;
-const dvorak_node_t PROGMEM dvorak_node_B_U_B_L;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_K;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_QUOT;
+const dvorak_node_t PROGMEM dvorak_node_B_E_B_W;
 const dvorak_node_t PROGMEM dvorak_node_B_J;
-const dvorak_node_t PROGMEM dvorak_node_B_U_B_S;
+const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_S;
 const dvorak_node_t PROGMEM dvorak_node_B_P;
 const dvorak_node_t PROGMEM dvorak_node_B_Y;
-const dvorak_node_t PROGMEM dvorak_node_B_U_B_G;
-const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_S;
-const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_U;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_H;
-const dvorak_node_t PROGMEM dvorak_node_B_U_B_V;
+const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_U;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_F;
 const dvorak_node_t PROGMEM dvorak_node_B_H_B_D;
+const dvorak_node_t PROGMEM dvorak_node_B_E_B_N;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_COMM;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_K;
+const dvorak_node_t PROGMEM dvorak_node_B_LS3_B_O;
 const dvorak_node_t PROGMEM dvorak_node_B_T_B_P;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_L;
 const dvorak_node_t PROGMEM dvorak_node_B_T_B_COMM;
@@ -137,19 +125,22 @@ const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_Z;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_B;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_R;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_H;
+const dvorak_node_t PROGMEM dvorak_node_B_LS3_B_N;
 const dvorak_node_t PROGMEM dvorak_node_B_B;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_K;
 const dvorak_node_t PROGMEM dvorak_node_B_COMM;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_Q;
+const dvorak_node_t PROGMEM dvorak_node_B_LS3_B_U;
 const dvorak_node_t PROGMEM dvorak_node_B_U_B_I;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_S;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_SCLN;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_A;
-const dvorak_node_t PROGMEM dvorak_node_B_H_B_K;
+const dvorak_node_t PROGMEM dvorak_node_B_T_B_O;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_P;
 const dvorak_node_t PROGMEM dvorak_node_B_D_B_H;
-const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_W;
+const dvorak_node_t PROGMEM dvorak_node_B_T_B_A;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_N;
+const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_W;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_D;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_W;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_Q;
@@ -159,13 +150,13 @@ const dvorak_node_t PROGMEM dvorak_node_B_U;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_COMM;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_J;
 const dvorak_node_t PROGMEM dvorak_node_B_E_B_F;
-const dvorak_node_t PROGMEM dvorak_node_B_H_B_X;
-const dvorak_node_t PROGMEM dvorak_node_B_U_B_D;
 const dvorak_node_t PROGMEM dvorak_node_B_E_B_C;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_I;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_D;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_G;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_SCLN;
+const dvorak_node_t PROGMEM dvorak_node_B_T_B_K;
+const dvorak_node_t PROGMEM dvorak_node_B_LS3_B_H;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_J;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_Y;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_DOT;
@@ -173,26 +164,23 @@ const dvorak_node_t PROGMEM dvorak_node_B_N;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_R;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_T;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_P;
-const dvorak_node_t PROGMEM dvorak_node_B_T_B_C;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_W;
 const dvorak_node_t PROGMEM dvorak_node_B_S;
+const dvorak_node_t PROGMEM dvorak_node_B_E_B_M;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_J;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_QUOT;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_R;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_X;
-const dvorak_node_t PROGMEM dvorak_node_B_E_B_Y;
-const dvorak_node_t PROGMEM dvorak_node_B_T_B_G;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_SCLN;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_QUOT;
-const dvorak_node_t PROGMEM dvorak_node_B_H_B_DOT;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_V;
 const dvorak_node_t PROGMEM dvorak_node_B_COMM_B_DOT;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_E_B_T;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_T;
+const dvorak_node_t PROGMEM dvorak_node_B_E_B_B;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_F;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_C;
-const dvorak_node_t PROGMEM dvorak_node_B_T_B_F;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_M;
 const dvorak_node_t PROGMEM dvorak_node_B_T_B_QUOT;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_X;
@@ -207,43 +195,45 @@ const dvorak_node_t PROGMEM dvorak_node_B_W;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_J;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_Y;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_O;
+const dvorak_node_t PROGMEM dvorak_node_B_T_B_J;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_U;
 const dvorak_node_t PROGMEM dvorak_node_B_T_B_Y;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_S;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_A;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_Y;
 const dvorak_node_t PROGMEM dvorak_node_B_T_B_E;
-const dvorak_node_t PROGMEM dvorak_node_B_U_B_C;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_Y;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_S;
-const dvorak_node_t PROGMEM dvorak_node_B_U_B_M;
+const dvorak_node_t PROGMEM dvorak_node_B_E_B_D;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_N;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_DOT;
 const dvorak_node_t PROGMEM dvorak_node_B_LS3;
-const dvorak_node_t PROGMEM dvorak_node_B_U_B_R;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_K;
+const dvorak_node_t PROGMEM dvorak_node_B_T_B_X;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_R;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_E_B_N;
 const dvorak_node_t PROGMEM dvorak_node_B_Z;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_E;
+const dvorak_node_t PROGMEM dvorak_node_B_T_B_Q;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_Q;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_Q;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_M;
-const dvorak_node_t PROGMEM dvorak_node_B_H_B_A;
-const dvorak_node_t PROGMEM dvorak_node_B_T_B_L;
+const dvorak_node_t PROGMEM dvorak_node_B_T_B_I;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_C;
 const dvorak_node_t PROGMEM dvorak_node_B_DOT;
 const dvorak_node_t PROGMEM dvorak_node_B_Q;
 const dvorak_node_t PROGMEM dvorak_node_B_I;
-const dvorak_node_t PROGMEM dvorak_node_B_U_B_W;
+const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_P;
 const dvorak_node_t PROGMEM dvorak_node_B_K;
+const dvorak_node_t PROGMEM dvorak_node_B_LS3_B_T;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2;
-const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_V;
+const dvorak_node_t PROGMEM dvorak_node_B_E_B_S;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_DOT;
+const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_V;
+const dvorak_node_t PROGMEM dvorak_node_B_E_B_V;
 const dvorak_node_t PROGMEM dvorak_node_B_G;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_O;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_O;
-const dvorak_node_t PROGMEM dvorak_node_B_H_B_I;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_E;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_D;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2_B_COMM;
@@ -251,2139 +241,2040 @@ const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_X;
 const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_RS2;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_D;
 const dvorak_node_t PROGMEM dvorak_node_B_RS2_B_LS2_B_N;
-const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_P;
+const dvorak_node_t PROGMEM dvorak_node_B_LS2_B_G;
 
 
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_E_B_N = {
-       .parent       = &dvorak_node_B_LS2_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_N,
-       .value        = SS_LCTL("^"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_A = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_A,
-       .value        = SS_LSFT(SS_LCTL("a")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_X = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_X,
-       .value        = SS_LCTL("x"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_H_B_P = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_P,
-       .value        = "(",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_P = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_P,
-       .value        = SS_LCTL("p"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_E_B_T = {
-       .parent       = &dvorak_node_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_T,
-       .value        = SS_TAP(X_TAB),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_R = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_R,
-       .value        = "R",
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_B = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = "B",
 };
 
 const dvorak_node_t* dvorak_node_B_RS2_children[31] = {
-	&dvorak_node_B_RS2_B_QUOT,
-	&dvorak_node_B_RS2_B_COMM,
-	&dvorak_node_B_RS2_B_DOT,
-	&dvorak_node_B_RS2_B_P,
-	&dvorak_node_B_RS2_B_Y,
-	&dvorak_node_B_RS2_B_F,
-	&dvorak_node_B_RS2_B_G,
-	&dvorak_node_B_RS2_B_C,
-	&dvorak_node_B_RS2_B_R,
-	&dvorak_node_B_RS2_B_L,
-	&dvorak_node_B_RS2_B_A,
-	&dvorak_node_B_RS2_B_O,
-	&dvorak_node_B_RS2_B_E,
-	&dvorak_node_B_RS2_B_U,
-	&dvorak_node_B_RS2_B_I,
-	&dvorak_node_B_RS2_B_D,
-	&dvorak_node_B_RS2_B_H,
-	&dvorak_node_B_RS2_B_T,
-	&dvorak_node_B_RS2_B_N,
-	&dvorak_node_B_RS2_B_S,
-	&dvorak_node_B_RS2_B_SCLN,
-	&dvorak_node_B_RS2_B_Q,
-	&dvorak_node_B_RS2_B_J,
-	&dvorak_node_B_RS2_B_K,
-	&dvorak_node_B_RS2_B_X,
-	&dvorak_node_B_RS2_B_B,
-	&dvorak_node_B_RS2_B_M,
-	&dvorak_node_B_RS2_B_W,
-	&dvorak_node_B_RS2_B_V,
-	&dvorak_node_B_RS2_B_Z,
-	&dvorak_node_B_RS2_B_LS2,
+  &dvorak_node_B_RS2_B_QUOT,
+  &dvorak_node_B_RS2_B_COMM,
+  &dvorak_node_B_RS2_B_DOT,
+  &dvorak_node_B_RS2_B_P,
+  &dvorak_node_B_RS2_B_Y,
+  &dvorak_node_B_RS2_B_F,
+  &dvorak_node_B_RS2_B_G,
+  &dvorak_node_B_RS2_B_C,
+  &dvorak_node_B_RS2_B_R,
+  &dvorak_node_B_RS2_B_L,
+  &dvorak_node_B_RS2_B_A,
+  &dvorak_node_B_RS2_B_O,
+  &dvorak_node_B_RS2_B_E,
+  &dvorak_node_B_RS2_B_U,
+  &dvorak_node_B_RS2_B_I,
+  &dvorak_node_B_RS2_B_D,
+  &dvorak_node_B_RS2_B_H,
+  &dvorak_node_B_RS2_B_T,
+  &dvorak_node_B_RS2_B_N,
+  &dvorak_node_B_RS2_B_S,
+  &dvorak_node_B_RS2_B_SCLN,
+  &dvorak_node_B_RS2_B_Q,
+  &dvorak_node_B_RS2_B_J,
+  &dvorak_node_B_RS2_B_K,
+  &dvorak_node_B_RS2_B_X,
+  &dvorak_node_B_RS2_B_B,
+  &dvorak_node_B_RS2_B_M,
+  &dvorak_node_B_RS2_B_W,
+  &dvorak_node_B_RS2_B_V,
+  &dvorak_node_B_RS2_B_Z,
+  &dvorak_node_B_RS2_B_LS2,
 };
 const PROGMEM dvorak_node_t dvorak_node_B_RS2 = {
-       .parent       = &dvorak_node_root,
-       .children     = dvorak_node_B_RS2_children,
-       .children_num = 31,
-       .key          = B_RS2,
-       .value        = SS_TAP(X_ENT),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_O = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_O,
-       .value        = "o",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_DOT_B_COMM = {
-       .parent       = &dvorak_node_B_DOT,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_COMM,
-       .value        = SS_TAP(X_ESC),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_K = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_K,
-       .value        = "k",
-};
-
-const dvorak_node_t* dvorak_node_B_T_children[11] = {
-	&dvorak_node_B_T_B_QUOT,
-	&dvorak_node_B_T_B_COMM,
-	&dvorak_node_B_T_B_DOT,
-	&dvorak_node_B_T_B_P,
-	&dvorak_node_B_T_B_Y,
-	&dvorak_node_B_T_B_F,
-	&dvorak_node_B_T_B_G,
-	&dvorak_node_B_T_B_C,
-	&dvorak_node_B_T_B_R,
-	&dvorak_node_B_T_B_L,
-	&dvorak_node_B_T_B_E,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_T = {
-       .parent       = &dvorak_node_root,
-       .children     = dvorak_node_B_T_children,
-       .children_num = 11,
-       .key          = B_T,
-       .value        = "t",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_H_B_I = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_I,
-       .value        = "|",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_I = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_I,
-       .value        = SS_LCTL("i"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_N = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_N,
-       .value        = "n",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_C = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_C,
-       .value        = "c",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_H_B_QUOT = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_QUOT,
-       .value        = "`",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_H_B_COMM = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_COMM,
-       .value        = "%",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_I = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_I,
-       .value        = "I",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_P = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_P,
-       .value        = "p",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_S = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_S,
-       .value        = "s",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_G = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_G,
-       .value        = "G",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_J = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_J,
-       .value        = SS_LSFT(SS_LCTL("j")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_SCLN = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_SCLN,
-       .value        = SS_LSFT(SS_LCTL(";")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_T_B_R = {
-       .parent       = &dvorak_node_B_T,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_R,
-       .value        = "9",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_L = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_L,
-       .value        = "!",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_H = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_H,
-       .value        = SS_LSFT(SS_LCTL("h")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_G = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_G,
-       .value        = SS_LSFT(SS_LCTL("g")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_B = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_B,
-       .value        = SS_LSFT(SS_LCTL("b")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_DOT = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_DOT,
-       .value        = SS_LSFT(SS_LCTL(".")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_B = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_B,
-       .value        = "-",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_D = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_D,
-       .value        = SS_LSFT(SS_LCTL("d")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_D = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_D,
-       .value        = "D",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_COMM_B_DOT = {
-       .parent       = &dvorak_node_B_COMM,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_DOT,
-       .value        = SS_TAP(X_ESC),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_E_B_P = {
-       .parent       = &dvorak_node_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_P,
-       .value        = "4",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_N = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_N,
-       .value        = SS_LSFT(SS_LCTL("n")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_E = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_E,
-       .value        = "E",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_L = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_L,
-       .value        = "L",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_H_B_A = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_A,
-       .value        = "#",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_K = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_K,
-       .value        = SS_LSFT(SS_LCTL("k")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_R = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_R,
-       .value        = "$",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_O = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_O,
-       .value        = SS_LCTL("o"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_U = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_U,
-       .value        = "U",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_E = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_E,
-       .value        = SS_LSFT(SS_LCTL("e")),
-};
-
-const dvorak_node_t* dvorak_node_root_children[33] = {
-	&dvorak_node_B_QUOT,
-	&dvorak_node_B_COMM,
-	&dvorak_node_B_DOT,
-	&dvorak_node_B_P,
-	&dvorak_node_B_Y,
-	&dvorak_node_B_F,
-	&dvorak_node_B_G,
-	&dvorak_node_B_C,
-	&dvorak_node_B_R,
-	&dvorak_node_B_L,
-	&dvorak_node_B_A,
-	&dvorak_node_B_O,
-	&dvorak_node_B_E,
-	&dvorak_node_B_U,
-	&dvorak_node_B_I,
-	&dvorak_node_B_D,
-	&dvorak_node_B_H,
-	&dvorak_node_B_T,
-	&dvorak_node_B_N,
-	&dvorak_node_B_S,
-	&dvorak_node_B_SCLN,
-	&dvorak_node_B_Q,
-	&dvorak_node_B_J,
-	&dvorak_node_B_K,
-	&dvorak_node_B_X,
-	&dvorak_node_B_B,
-	&dvorak_node_B_M,
-	&dvorak_node_B_W,
-	&dvorak_node_B_V,
-	&dvorak_node_B_Z,
-	&dvorak_node_B_LS2,
-	&dvorak_node_B_LS3,
-	&dvorak_node_B_RS2,
-};
-const PROGMEM dvorak_node_t dvorak_node_root = {
-       .parent       = NULL,
-       .children     = dvorak_node_root_children,
-       .children_num = 33,
-       .key          = -1,
-       .value        = NULL,
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_K = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_K,
-       .value        = SS_LCTL("k"),
+  .parent       = &dvorak_node_root,
+  .children     = dvorak_node_B_RS2_children,
+  .children_num = 31,
+  .key          = B_RS2,
+  .value        = SS_TAP(X_ENT),
 };
 
 
 const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_U = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_U,
-       .value        = SS_LSFT(SS_LCTL("u")),
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = SS_LSFT(SS_LCTL("u")),
 };
 
 
-const PROGMEM dvorak_node_t dvorak_node_B_T_B_G = {
-       .parent       = &dvorak_node_B_T,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_G,
-       .value        = "7",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_U = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_U,
-       .value        = SS_LCTL("u"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_E_B_COMM = {
-       .parent       = &dvorak_node_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_COMM,
-       .value        = "2",
-};
-
-const dvorak_node_t* dvorak_node_B_I_children[1] = {
-	&dvorak_node_B_I_B_U,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_I = {
-       .parent       = &dvorak_node_root,
-       .children     = dvorak_node_B_I_children,
-       .children_num = 1,
-       .key          = B_I,
-       .value        = "i",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_C = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_C,
-       .value        = SS_LSFT(SS_LCTL("c")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_H_B_O = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_O,
-       .value        = "/",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_V = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_V,
-       .value        = SS_LCTL("v"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_H_B_Q = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Q,
-       .value        = "\\",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_X = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_X,
-       .value        = SS_LSFT(SS_LCTL("x")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_S = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_S,
-       .value        = "S",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_Z = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Z,
-       .value        = "Z",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_J = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_J,
-       .value        = SS_LCTL("j"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_R = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_R,
-       .value        = SS_LCTL("r"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_E = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_E,
-       .value        = SS_LSFT(SS_LCTL("e")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_A = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_A,
-       .value        = SS_LCTL("a"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_H = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_H,
-       .value        = SS_LSFT(SS_LCTL("h")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_W = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_W,
-       .value        = SS_LSFT(SS_LCTL("w")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_F = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_F,
-       .value        = SS_LCTL("f"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_H_B_J = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_J,
-       .value        = "&",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_G = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_G,
-       .value        = SS_LSFT(SS_LCTL("g")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_QUOT = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_QUOT,
-       .value        = SS_LSFT(SS_LCTL("'")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_Y = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Y,
-       .value        = SS_LSFT(SS_LCTL("y")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_L = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_L,
-       .value        = SS_LSFT(SS_LCTL("l")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_Z = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Z,
-       .value        = SS_LSFT(SS_LCTL("z")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_D = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_D,
-       .value        = SS_LSFT(SS_LCTL("d")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_S = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_S,
-       .value        = SS_LSFT(SS_LCTL("s")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_DOT = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_DOT,
-       .value        = SS_LCTL("."),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_QUOT = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_QUOT,
-       .value        = SS_LSFT(SS_LCTL("'")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_E_B_QUOT = {
-       .parent       = &dvorak_node_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_QUOT,
-       .value        = "1",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_L = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_L,
-       .value        = SS_LCTL("l"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_H = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_H,
-       .value        = "H",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_T = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_T,
-       .value        = "T",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_B = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_B,
-       .value        = "b",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_SCLN = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_SCLN,
-       .value        = SS_LSFT(SS_LCTL(";")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_W = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_W,
-       .value        = "W",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_COMM = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_COMM,
-       .value        = SS_LCTL(","),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_Q = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Q,
-       .value        = SS_LSFT(SS_LCTL("q")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_O = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_O,
-       .value        = SS_LSFT(SS_LCTL("o")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_V = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_V,
-       .value        = "*",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_C = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_C,
-       .value        = SS_LCTL("c"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_S = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_S,
-       .value        = "~",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_T_B_COMM = {
-       .parent       = &dvorak_node_B_T,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_COMM,
-       .value        = "2",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_T_B_P = {
-       .parent       = &dvorak_node_B_T,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_P,
-       .value        = "4",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_T = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_T,
-       .value        = SS_LSFT(SS_LCTL("t")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_SCLN = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_SCLN,
-       .value        = ";",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_J = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_J,
-       .value        = SS_LSFT(SS_LCTL("j")),
+const PROGMEM dvorak_node_t dvorak_node_B_LS3_B_I = {
+  .parent       = &dvorak_node_B_LS3,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "5",
 };
 
 
 const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_M = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_M,
-       .value        = SS_LCTL("m"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_E_B_F = {
-       .parent       = &dvorak_node_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_F,
-       .value        = "6",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_R = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_R,
-       .value        = SS_LSFT(SS_LCTL("r")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_E_B_R = {
-       .parent       = &dvorak_node_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_R,
-       .value        = "9",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_QUOT = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_QUOT,
-       .value        = "\"",
-};
-
-const dvorak_node_t* dvorak_node_B_LS2_B_N_children[1] = {
-	&dvorak_node_B_LS2_B_N_B_E,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_N = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = dvorak_node_B_LS2_B_N_children,
-       .children_num = 1,
-       .key          = B_N,
-       .value        = SS_LCTL("n"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_X = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_X,
-       .value        = SS_LSFT(SS_LCTL("x")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_R = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_R,
-       .value        = "r",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_J = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_J,
-       .value        = "J",
-};
-
-const dvorak_node_t* dvorak_node_B_RS2_B_LS2_children[30] = {
-	&dvorak_node_B_RS2_B_LS2_B_QUOT,
-	&dvorak_node_B_RS2_B_LS2_B_COMM,
-	&dvorak_node_B_RS2_B_LS2_B_DOT,
-	&dvorak_node_B_RS2_B_LS2_B_P,
-	&dvorak_node_B_RS2_B_LS2_B_Y,
-	&dvorak_node_B_RS2_B_LS2_B_F,
-	&dvorak_node_B_RS2_B_LS2_B_G,
-	&dvorak_node_B_RS2_B_LS2_B_C,
-	&dvorak_node_B_RS2_B_LS2_B_R,
-	&dvorak_node_B_RS2_B_LS2_B_L,
-	&dvorak_node_B_RS2_B_LS2_B_A,
-	&dvorak_node_B_RS2_B_LS2_B_O,
-	&dvorak_node_B_RS2_B_LS2_B_E,
-	&dvorak_node_B_RS2_B_LS2_B_U,
-	&dvorak_node_B_RS2_B_LS2_B_I,
-	&dvorak_node_B_RS2_B_LS2_B_D,
-	&dvorak_node_B_RS2_B_LS2_B_H,
-	&dvorak_node_B_RS2_B_LS2_B_T,
-	&dvorak_node_B_RS2_B_LS2_B_N,
-	&dvorak_node_B_RS2_B_LS2_B_S,
-	&dvorak_node_B_RS2_B_LS2_B_SCLN,
-	&dvorak_node_B_RS2_B_LS2_B_Q,
-	&dvorak_node_B_RS2_B_LS2_B_J,
-	&dvorak_node_B_RS2_B_LS2_B_K,
-	&dvorak_node_B_RS2_B_LS2_B_X,
-	&dvorak_node_B_RS2_B_LS2_B_B,
-	&dvorak_node_B_RS2_B_LS2_B_M,
-	&dvorak_node_B_RS2_B_LS2_B_W,
-	&dvorak_node_B_RS2_B_LS2_B_V,
-	&dvorak_node_B_RS2_B_LS2_B_Z,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2 = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = dvorak_node_B_RS2_B_LS2_children,
-       .children_num = 30,
-       .key          = B_LS2,
-       .value        = NULL,
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_E_B_C = {
-       .parent       = &dvorak_node_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_C,
-       .value        = "8",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_T_B_E = {
-       .parent       = &dvorak_node_B_T,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_E,
-       .value        = SS_TAP(X_TAB),
-};
-
-const dvorak_node_t* dvorak_node_B_DOT_children[1] = {
-	&dvorak_node_B_DOT_B_COMM,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_DOT = {
-       .parent       = &dvorak_node_root,
-       .children     = dvorak_node_B_DOT_children,
-       .children_num = 1,
-       .key          = B_DOT,
-       .value        = ".",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_X = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_X,
-       .value        = "X",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_V = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_V,
-       .value        = "V",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_E_B_DOT = {
-       .parent       = &dvorak_node_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_DOT,
-       .value        = "3",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS3 = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_LS3,
-       .value        = "hey",
-};
-
-const dvorak_node_t* dvorak_node_B_COMM_children[1] = {
-	&dvorak_node_B_COMM_B_DOT,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_COMM = {
-       .parent       = &dvorak_node_root,
-       .children     = dvorak_node_B_COMM_children,
-       .children_num = 1,
-       .key          = B_COMM,
-       .value        = ",",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_N_B_E = {
-       .parent       = &dvorak_node_B_LS2_B_N,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_E,
-       .value        = SS_LCTL("^"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_X = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_X,
-       .value        = "x",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_W = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_W,
-       .value        = SS_LCTL("w"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_L = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_L,
-       .value        = SS_LSFT(SS_LCTL("l")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_W = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_W,
-       .value        = "w",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_D = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_D,
-       .value        = SS_LCTL("d"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_T_B_E = {
-       .parent       = &dvorak_node_B_LS2_B_T,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_E,
-       .value        = SS_LCTL(SS_TAP(X_TAB)),
-};
-
-const dvorak_node_t* dvorak_node_B_D_children[1] = {
-	&dvorak_node_B_D_B_H,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_D = {
-       .parent       = &dvorak_node_root,
-       .children     = dvorak_node_B_D_children,
-       .children_num = 1,
-       .key          = B_D,
-       .value        = "d",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_M = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_M,
-       .value        = "m",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_W = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_W,
-       .value        = "?",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_H_B_X = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_X,
-       .value        = "+",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_DOT = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_DOT,
-       .value        = ">",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_V = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_V,
-       .value        = "v",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_DOT = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_DOT,
-       .value        = SS_LSFT(SS_LCTL(".")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_G = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_G,
-       .value        = "g",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_F = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_F,
-       .value        = "f",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_J = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_J,
-       .value        = "j",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_I_B_U = {
-       .parent       = &dvorak_node_B_I,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_U,
-       .value        = "",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_Z = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Z,
-       .value        = SS_LCTL("z"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_B = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_B,
-       .value        = SS_LSFT(SS_LCTL("b")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_H_B_Y = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Y,
-       .value        = "[",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_I = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_I,
-       .value        = SS_LSFT(SS_LCTL("i")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_T_B_F = {
-       .parent       = &dvorak_node_B_T,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_F,
-       .value        = "6",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_K = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_K,
-       .value        = SS_LSFT(SS_LCTL("k")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_I = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_I,
-       .value        = "",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_M = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_M,
-       .value        = SS_LSFT(SS_LCTL("m")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_M = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_M,
-       .value        = "@",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_COMM = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_COMM,
-       .value        = SS_LSFT(SS_LCTL(",")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_O = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_O,
-       .value        = "O",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_P = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_P,
-       .value        = SS_LSFT(SS_LCTL("p")),
-};
-
-const dvorak_node_t* dvorak_node_B_E_children[11] = {
-	&dvorak_node_B_E_B_QUOT,
-	&dvorak_node_B_E_B_COMM,
-	&dvorak_node_B_E_B_DOT,
-	&dvorak_node_B_E_B_P,
-	&dvorak_node_B_E_B_Y,
-	&dvorak_node_B_E_B_F,
-	&dvorak_node_B_E_B_G,
-	&dvorak_node_B_E_B_C,
-	&dvorak_node_B_E_B_R,
-	&dvorak_node_B_E_B_L,
-	&dvorak_node_B_E_B_T,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_E = {
-       .parent       = &dvorak_node_root,
-       .children     = dvorak_node_B_E_children,
-       .children_num = 11,
-       .key          = B_E,
-       .value        = "e",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_B = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_B,
-       .value        = SS_LCTL("b"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_E_B_Y = {
-       .parent       = &dvorak_node_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Y,
-       .value        = "5",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_C = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_C,
-       .value        = "C",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_A = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_A,
-       .value        = "A",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_I = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_I,
-       .value        = SS_LSFT(SS_LCTL("i")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_SCLN = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_SCLN,
-       .value        = ":",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_T_B_DOT = {
-       .parent       = &dvorak_node_B_T,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_DOT,
-       .value        = "3",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_N = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_N,
-       .value        = SS_LSFT(SS_LCTL("n")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_A = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_A,
-       .value        = "a",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_R = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_R,
-       .value        = SS_LSFT(SS_LCTL("r")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_P = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_P,
-       .value        = "P",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_D_B_H = {
-       .parent       = &dvorak_node_B_D,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_H,
-       .value        = "nag",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_W = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_W,
-       .value        = SS_LSFT(SS_LCTL("w")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_M = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_M,
-       .value        = "M",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_E_B_T = {
-       .parent       = &dvorak_node_B_LS2_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_T,
-       .value        = SS_LCTL("^"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_Y = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Y,
-       .value        = "Y",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_F = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_F,
-       .value        = SS_LSFT(SS_LCTL("f")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_Y = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Y,
-       .value        = SS_LCTL("y"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_SCLN = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_SCLN,
-       .value        = SS_LCTL(";"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_Q = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Q,
-       .value        = SS_LCTL("q"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_S = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_S,
-       .value        = SS_LSFT(SS_LCTL("s")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_Y = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Y,
-       .value        = SS_LSFT(SS_LCTL("y")),
-};
-
-const dvorak_node_t* dvorak_node_B_H_children[13] = {
-	&dvorak_node_B_H_B_QUOT,
-	&dvorak_node_B_H_B_COMM,
-	&dvorak_node_B_H_B_DOT,
-	&dvorak_node_B_H_B_P,
-	&dvorak_node_B_H_B_Y,
-	&dvorak_node_B_H_B_A,
-	&dvorak_node_B_H_B_O,
-	&dvorak_node_B_H_B_I,
-	&dvorak_node_B_H_B_Q,
-	&dvorak_node_B_H_B_J,
-	&dvorak_node_B_H_B_K,
-	&dvorak_node_B_H_B_X,
-	&dvorak_node_B_H_B_D,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_H = {
-       .parent       = &dvorak_node_root,
-       .children     = dvorak_node_B_H_children,
-       .children_num = 13,
-       .key          = B_H,
-       .value        = "h",
-};
-
-const dvorak_node_t* dvorak_node_B_U_children[13] = {
-	&dvorak_node_B_U_B_F,
-	&dvorak_node_B_U_B_G,
-	&dvorak_node_B_U_B_C,
-	&dvorak_node_B_U_B_R,
-	&dvorak_node_B_U_B_L,
-	&dvorak_node_B_U_B_D,
-	&dvorak_node_B_U_B_N,
-	&dvorak_node_B_U_B_S,
-	&dvorak_node_B_U_B_B,
-	&dvorak_node_B_U_B_M,
-	&dvorak_node_B_U_B_W,
-	&dvorak_node_B_U_B_V,
-	&dvorak_node_B_U_B_I,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_U = {
-       .parent       = &dvorak_node_root,
-       .children     = dvorak_node_B_U_children,
-       .children_num = 13,
-       .key          = B_U,
-       .value        = "u",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_T = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_T,
-       .value        = SS_LSFT(SS_LCTL("t")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_Q = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Q,
-       .value        = "q",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_M = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_M,
-       .value        = SS_LSFT(SS_LCTL("m")),
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = SS_LCTL("m"),
+};
+
+const dvorak_node_t* dvorak_node_B_LS2_B_RS2_children[30] = {
+  &dvorak_node_B_LS2_B_RS2_B_QUOT,
+  &dvorak_node_B_LS2_B_RS2_B_COMM,
+  &dvorak_node_B_LS2_B_RS2_B_DOT,
+  &dvorak_node_B_LS2_B_RS2_B_P,
+  &dvorak_node_B_LS2_B_RS2_B_Y,
+  &dvorak_node_B_LS2_B_RS2_B_F,
+  &dvorak_node_B_LS2_B_RS2_B_G,
+  &dvorak_node_B_LS2_B_RS2_B_C,
+  &dvorak_node_B_LS2_B_RS2_B_R,
+  &dvorak_node_B_LS2_B_RS2_B_L,
+  &dvorak_node_B_LS2_B_RS2_B_A,
+  &dvorak_node_B_LS2_B_RS2_B_O,
+  &dvorak_node_B_LS2_B_RS2_B_E,
+  &dvorak_node_B_LS2_B_RS2_B_U,
+  &dvorak_node_B_LS2_B_RS2_B_I,
+  &dvorak_node_B_LS2_B_RS2_B_D,
+  &dvorak_node_B_LS2_B_RS2_B_H,
+  &dvorak_node_B_LS2_B_RS2_B_T,
+  &dvorak_node_B_LS2_B_RS2_B_N,
+  &dvorak_node_B_LS2_B_RS2_B_S,
+  &dvorak_node_B_LS2_B_RS2_B_SCLN,
+  &dvorak_node_B_LS2_B_RS2_B_Q,
+  &dvorak_node_B_LS2_B_RS2_B_J,
+  &dvorak_node_B_LS2_B_RS2_B_K,
+  &dvorak_node_B_LS2_B_RS2_B_X,
+  &dvorak_node_B_LS2_B_RS2_B_B,
+  &dvorak_node_B_LS2_B_RS2_B_M,
+  &dvorak_node_B_LS2_B_RS2_B_W,
+  &dvorak_node_B_LS2_B_RS2_B_V,
+  &dvorak_node_B_LS2_B_RS2_B_Z,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2 = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = dvorak_node_B_LS2_B_RS2_children,
+  .children_num = 30,
+  .key          = B_RS2,
+  .value        = NULL,
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_COMM = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_COMM,
+  .value        = SS_LCTL(","),
 };
 
 
 const PROGMEM dvorak_node_t dvorak_node_B_H_B_D = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_D,
-       .value        = "nag",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_T_B_L = {
-       .parent       = &dvorak_node_B_T,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_L,
-       .value        = "0",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_U = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_U,
-       .value        = SS_LSFT(SS_LCTL("u")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_Y = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Y,
-       .value        = "y",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_E_B_G = {
-       .parent       = &dvorak_node_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_G,
-       .value        = "7",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_N = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_N,
-       .value        = "N",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_K = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_K,
-       .value        = "K",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_E_B_L = {
-       .parent       = &dvorak_node_B_E,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_L,
-       .value        = "0",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_QUOT = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_QUOT,
-       .value        = SS_LCTL("'"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_T_B_QUOT = {
-       .parent       = &dvorak_node_B_T,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_QUOT,
-       .value        = "1",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_S = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_S,
-       .value        = SS_LCTL("s"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_C = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_C,
-       .value        = SS_LSFT(SS_LCTL("c")),
-};
-
-const dvorak_node_t* dvorak_node_B_LS2_B_RS2_children[30] = {
-	&dvorak_node_B_LS2_B_RS2_B_QUOT,
-	&dvorak_node_B_LS2_B_RS2_B_COMM,
-	&dvorak_node_B_LS2_B_RS2_B_DOT,
-	&dvorak_node_B_LS2_B_RS2_B_P,
-	&dvorak_node_B_LS2_B_RS2_B_Y,
-	&dvorak_node_B_LS2_B_RS2_B_F,
-	&dvorak_node_B_LS2_B_RS2_B_G,
-	&dvorak_node_B_LS2_B_RS2_B_C,
-	&dvorak_node_B_LS2_B_RS2_B_R,
-	&dvorak_node_B_LS2_B_RS2_B_L,
-	&dvorak_node_B_LS2_B_RS2_B_A,
-	&dvorak_node_B_LS2_B_RS2_B_O,
-	&dvorak_node_B_LS2_B_RS2_B_E,
-	&dvorak_node_B_LS2_B_RS2_B_U,
-	&dvorak_node_B_LS2_B_RS2_B_I,
-	&dvorak_node_B_LS2_B_RS2_B_D,
-	&dvorak_node_B_LS2_B_RS2_B_H,
-	&dvorak_node_B_LS2_B_RS2_B_T,
-	&dvorak_node_B_LS2_B_RS2_B_N,
-	&dvorak_node_B_LS2_B_RS2_B_S,
-	&dvorak_node_B_LS2_B_RS2_B_SCLN,
-	&dvorak_node_B_LS2_B_RS2_B_Q,
-	&dvorak_node_B_LS2_B_RS2_B_J,
-	&dvorak_node_B_LS2_B_RS2_B_K,
-	&dvorak_node_B_LS2_B_RS2_B_X,
-	&dvorak_node_B_LS2_B_RS2_B_B,
-	&dvorak_node_B_LS2_B_RS2_B_M,
-	&dvorak_node_B_LS2_B_RS2_B_W,
-	&dvorak_node_B_LS2_B_RS2_B_V,
-	&dvorak_node_B_LS2_B_RS2_B_Z,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2 = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = dvorak_node_B_LS2_B_RS2_children,
-       .children_num = 30,
-       .key          = B_RS2,
-       .value        = NULL,
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_Q = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Q,
-       .value        = SS_LSFT(SS_LCTL("q")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_Z = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Z,
-       .value        = "z",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_QUOT = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_QUOT,
-       .value        = "'",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_A = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_A,
-       .value        = SS_LSFT(SS_LCTL("a")),
-};
-
-const dvorak_node_t* dvorak_node_B_LS2_children[31] = {
-	&dvorak_node_B_LS2_B_QUOT,
-	&dvorak_node_B_LS2_B_COMM,
-	&dvorak_node_B_LS2_B_DOT,
-	&dvorak_node_B_LS2_B_P,
-	&dvorak_node_B_LS2_B_Y,
-	&dvorak_node_B_LS2_B_F,
-	&dvorak_node_B_LS2_B_G,
-	&dvorak_node_B_LS2_B_C,
-	&dvorak_node_B_LS2_B_R,
-	&dvorak_node_B_LS2_B_L,
-	&dvorak_node_B_LS2_B_A,
-	&dvorak_node_B_LS2_B_O,
-	&dvorak_node_B_LS2_B_E,
-	&dvorak_node_B_LS2_B_U,
-	&dvorak_node_B_LS2_B_I,
-	&dvorak_node_B_LS2_B_D,
-	&dvorak_node_B_LS2_B_H,
-	&dvorak_node_B_LS2_B_T,
-	&dvorak_node_B_LS2_B_N,
-	&dvorak_node_B_LS2_B_S,
-	&dvorak_node_B_LS2_B_SCLN,
-	&dvorak_node_B_LS2_B_Q,
-	&dvorak_node_B_LS2_B_J,
-	&dvorak_node_B_LS2_B_K,
-	&dvorak_node_B_LS2_B_X,
-	&dvorak_node_B_LS2_B_B,
-	&dvorak_node_B_LS2_B_M,
-	&dvorak_node_B_LS2_B_W,
-	&dvorak_node_B_LS2_B_V,
-	&dvorak_node_B_LS2_B_Z,
-	&dvorak_node_B_LS2_B_RS2,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_LS2 = {
-       .parent       = &dvorak_node_root,
-       .children     = dvorak_node_B_LS2_children,
-       .children_num = 31,
-       .key          = B_LS2,
-       .value        = " ",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_Q = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Q,
-       .value        = "Q",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_H_B_DOT = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_DOT,
-       .value        = "{",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_C = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_C,
-       .value        = "}",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_O = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_O,
-       .value        = SS_LSFT(SS_LCTL("o")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_COMM = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_COMM,
-       .value        = "<",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_F = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_F,
-       .value        = SS_LSFT(SS_LCTL("f")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_Z = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Z,
-       .value        = SS_LSFT(SS_LCTL("z")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_F = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_F,
-       .value        = "F",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_T_B_Y = {
-       .parent       = &dvorak_node_B_T,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_Y,
-       .value        = "5",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_V = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_V,
-       .value        = SS_LSFT(SS_LCTL("v")),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_D = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_D,
-       .value        = "_",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_H_B_K = {
-       .parent       = &dvorak_node_B_H,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_K,
-       .value        = "=",
-};
-
-const dvorak_node_t* dvorak_node_B_LS2_B_T_children[1] = {
-	&dvorak_node_B_LS2_B_T_B_E,
-};
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_T = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = dvorak_node_B_LS2_B_T_children,
-       .children_num = 1,
-       .key          = B_T,
-       .value        = SS_LCTL("t"),
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_F = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_F,
-       .value        = "]",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_N = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_N,
-       .value        = "^",
-};
-
-
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_V = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_V,
-       .value        = SS_LSFT(SS_LCTL("v")),
+  .parent       = &dvorak_node_B_H,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "nag",
 };
 
 
 const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_P = {
-       .parent       = &dvorak_node_B_LS2_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_P,
-       .value        = SS_LSFT(SS_LCTL("p")),
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = SS_LSFT(SS_LCTL("p")),
 };
 
 
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_COMM = {
-       .parent       = &dvorak_node_B_RS2_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_COMM,
-       .value        = SS_LSFT(SS_LCTL(",")),
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_Z = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Z,
+  .value        = SS_LSFT(SS_LCTL("z")),
 };
 
 
-const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_B = {
-       .parent       = &dvorak_node_B_RS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_B,
-       .value        = "B",
+const PROGMEM dvorak_node_t dvorak_node_B_M = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "m",
 };
 
 
-const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_G = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_G,
-       .value        = SS_LCTL("g"),
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_V = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = SS_LSFT(SS_LCTL("v")),
 };
 
 
-const PROGMEM dvorak_node_t dvorak_node_B_U_B_G = {
-       .parent       = &dvorak_node_B_U,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_G,
-       .value        = ")",
+const PROGMEM dvorak_node_t dvorak_node_B_DOT_B_COMM = {
+  .parent       = &dvorak_node_B_DOT,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_COMM,
+  .value        = SS_TAP(X_ESC),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_L = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "!",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_T = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = "T",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_DOT = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_DOT,
+  .value        = SS_LCTL("."),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_QUOT = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_QUOT,
+  .value        = SS_LSFT(SS_LCTL("'")),
 };
 
 
 const PROGMEM dvorak_node_t dvorak_node_B_L = {
-       .parent       = &dvorak_node_root,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_L,
-       .value        = "l",
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "l",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_Y = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = SS_LSFT(SS_LCTL("y")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_Q = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Q,
+  .value        = SS_LSFT(SS_LCTL("q")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_P = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "(",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_U = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = SS_LSFT(SS_LCTL("u")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_J = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = SS_LCTL("j"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_D = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = SS_LCTL("d"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_E_B_N = {
+  .parent       = &dvorak_node_B_LS2_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = SS_LCTL("^"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_D = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = SS_LSFT(SS_LCTL("d")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_Z = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Z,
+  .value        = SS_LSFT(SS_LCTL("z")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_N = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = SS_LSFT(SS_LCTL("n")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_S = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = "~",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_W = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = SS_LSFT(SS_LCTL("w")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS3_B_T = {
+  .parent       = &dvorak_node_B_LS3,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = "8",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_E = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = SS_LSFT(SS_LCTL("e")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_R = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "$",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_Q = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Q,
+  .value        = SS_LCTL("q"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_COMM = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_COMM,
+  .value        = "<",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_I = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = SS_LSFT(SS_LCTL("i")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_V = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "V",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_SCLN = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = SS_LSFT(SS_LCTL(";")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_O = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "/",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_D = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "_",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_SCLN = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = SS_LCTL(";"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_B = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = SS_LSFT(SS_LCTL("b")),
+};
+
+const dvorak_node_t* dvorak_node_B_DOT_children[1] = {
+  &dvorak_node_B_DOT_B_COMM,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_DOT = {
+  .parent       = &dvorak_node_root,
+  .children     = dvorak_node_B_DOT_children,
+  .children_num = 1,
+  .key          = B_DOT,
+  .value        = ".",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_B = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = "-",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS3_B_E = {
+  .parent       = &dvorak_node_B_LS3,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "3",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_X = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = SS_LSFT(SS_LCTL("x")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_G = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = ")",
+};
+
+const dvorak_node_t* dvorak_node_B_LS2_B_T_children[1] = {
+  &dvorak_node_B_LS2_B_T_B_E,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_T = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = dvorak_node_B_LS2_B_T_children,
+  .children_num = 1,
+  .key          = B_T,
+  .value        = SS_LCTL("t"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_QUOT = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_QUOT,
+  .value        = SS_LCTL("'"),
+};
+
+const dvorak_node_t* dvorak_node_B_COMM_children[1] = {
+  &dvorak_node_B_COMM_B_DOT,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_COMM = {
+  .parent       = &dvorak_node_root,
+  .children     = dvorak_node_B_COMM_children,
+  .children_num = 1,
+  .key          = B_COMM,
+  .value        = ",",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_V = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = SS_LSFT(SS_LCTL("v")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_I = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "I",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_G = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = SS_LCTL("g"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_T = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = SS_LSFT(SS_LCTL("t")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_Y = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = SS_LSFT(SS_LCTL("y")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_O = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = SS_LCTL("o"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_K = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = SS_LSFT(SS_LCTL("k")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_E = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "E",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_R = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = SS_LSFT(SS_LCTL("r")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_G = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "g",
+};
+
+const dvorak_node_t* dvorak_node_B_D_children[1] = {
+  &dvorak_node_B_D_B_H,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_D = {
+  .parent       = &dvorak_node_root,
+  .children     = dvorak_node_B_D_children,
+  .children_num = 1,
+  .key          = B_D,
+  .value        = "d",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_I = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = SS_LSFT(SS_LCTL("i")),
+};
+
+const dvorak_node_t* dvorak_node_B_RS2_B_LS2_children[30] = {
+  &dvorak_node_B_RS2_B_LS2_B_QUOT,
+  &dvorak_node_B_RS2_B_LS2_B_COMM,
+  &dvorak_node_B_RS2_B_LS2_B_DOT,
+  &dvorak_node_B_RS2_B_LS2_B_P,
+  &dvorak_node_B_RS2_B_LS2_B_Y,
+  &dvorak_node_B_RS2_B_LS2_B_F,
+  &dvorak_node_B_RS2_B_LS2_B_G,
+  &dvorak_node_B_RS2_B_LS2_B_C,
+  &dvorak_node_B_RS2_B_LS2_B_R,
+  &dvorak_node_B_RS2_B_LS2_B_L,
+  &dvorak_node_B_RS2_B_LS2_B_A,
+  &dvorak_node_B_RS2_B_LS2_B_O,
+  &dvorak_node_B_RS2_B_LS2_B_E,
+  &dvorak_node_B_RS2_B_LS2_B_U,
+  &dvorak_node_B_RS2_B_LS2_B_I,
+  &dvorak_node_B_RS2_B_LS2_B_D,
+  &dvorak_node_B_RS2_B_LS2_B_H,
+  &dvorak_node_B_RS2_B_LS2_B_T,
+  &dvorak_node_B_RS2_B_LS2_B_N,
+  &dvorak_node_B_RS2_B_LS2_B_S,
+  &dvorak_node_B_RS2_B_LS2_B_SCLN,
+  &dvorak_node_B_RS2_B_LS2_B_Q,
+  &dvorak_node_B_RS2_B_LS2_B_J,
+  &dvorak_node_B_RS2_B_LS2_B_K,
+  &dvorak_node_B_RS2_B_LS2_B_X,
+  &dvorak_node_B_RS2_B_LS2_B_B,
+  &dvorak_node_B_RS2_B_LS2_B_M,
+  &dvorak_node_B_RS2_B_LS2_B_W,
+  &dvorak_node_B_RS2_B_LS2_B_V,
+  &dvorak_node_B_RS2_B_LS2_B_Z,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2 = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = dvorak_node_B_RS2_B_LS2_children,
+  .children_num = 30,
+  .key          = B_LS2,
+  .value        = NULL,
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_A = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_A,
+  .value        = SS_LSFT(SS_LCTL("a")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS3_B_H = {
+  .parent       = &dvorak_node_B_LS3,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "7",
+};
+
+const dvorak_node_t* dvorak_node_B_E_children[13] = {
+  &dvorak_node_B_E_B_F,
+  &dvorak_node_B_E_B_G,
+  &dvorak_node_B_E_B_C,
+  &dvorak_node_B_E_B_R,
+  &dvorak_node_B_E_B_L,
+  &dvorak_node_B_E_B_D,
+  &dvorak_node_B_E_B_N,
+  &dvorak_node_B_E_B_S,
+  &dvorak_node_B_E_B_B,
+  &dvorak_node_B_E_B_M,
+  &dvorak_node_B_E_B_W,
+  &dvorak_node_B_E_B_V,
+  &dvorak_node_B_E_B_T,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_E = {
+  .parent       = &dvorak_node_root,
+  .children     = dvorak_node_B_E_children,
+  .children_num = 13,
+  .key          = B_E,
+  .value        = "e",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_M = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "@",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS3_B_O = {
+  .parent       = &dvorak_node_B_LS3,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "2",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_X = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "x",
+};
+
+const dvorak_node_t* dvorak_node_B_I_children[1] = {
+  &dvorak_node_B_I_B_U,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_I = {
+  .parent       = &dvorak_node_root,
+  .children     = dvorak_node_B_I_children,
+  .children_num = 1,
+  .key          = B_I,
+  .value        = "i",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_J = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "J",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_Q = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Q,
+  .value        = "q",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_W = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "W",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_P = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = SS_LSFT(SS_LCTL("p")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_A = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_A,
+  .value        = "A",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_P = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = SS_LCTL("p"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_COMM = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_COMM,
+  .value        = "%",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_K = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = SS_LSFT(SS_LCTL("k")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_DOT = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_DOT,
+  .value        = SS_LSFT(SS_LCTL(".")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_K = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "k",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_G = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = SS_LSFT(SS_LCTL("g")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_T = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = SS_TAP(X_TAB),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_SCLN = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = SS_LSFT(SS_LCTL(";")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_C = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = SS_LCTL("c"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_P = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "P",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_M = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = SS_LSFT(SS_LCTL("m")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_V = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = SS_LCTL("v"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_C = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = "}",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_DOT = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_DOT,
+  .value        = "{",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_A = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_A,
+  .value        = SS_LCTL("a"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_S = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = SS_LCTL("s"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_R = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "R",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_L = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = SS_LSFT(SS_LCTL("l")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_D_B_H = {
+  .parent       = &dvorak_node_B_D,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "nag",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_N = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "N",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_H = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = SS_LSFT(SS_LCTL("h")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS3_B_S = {
+  .parent       = &dvorak_node_B_LS3,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = "0",
+};
+
+const dvorak_node_t* dvorak_node_B_H_children[1] = {
+  &dvorak_node_B_H_B_D,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_H = {
+  .parent       = &dvorak_node_root,
+  .children     = dvorak_node_B_H_children,
+  .children_num = 1,
+  .key          = B_H,
+  .value        = "h",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_D = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = SS_LSFT(SS_LCTL("d")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_Y = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = "y",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_S = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = "S",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_COMM = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_COMM,
+  .value        = SS_LSFT(SS_LCTL(",")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_N_B_E = {
+  .parent       = &dvorak_node_B_LS2_B_N,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = SS_LCTL("^"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_B = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = SS_LCTL("b"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_X = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = SS_LSFT(SS_LCTL("x")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_A = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_A,
+  .value        = "a",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_N = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "^",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_K = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "K",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_M = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = SS_LSFT(SS_LCTL("m")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_K = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = "=",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_R = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = SS_LSFT(SS_LCTL("r")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_R = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = SS_LCTL("r"),
+};
+
+const dvorak_node_t* dvorak_node_B_T_children[13] = {
+  &dvorak_node_B_T_B_QUOT,
+  &dvorak_node_B_T_B_COMM,
+  &dvorak_node_B_T_B_DOT,
+  &dvorak_node_B_T_B_P,
+  &dvorak_node_B_T_B_Y,
+  &dvorak_node_B_T_B_A,
+  &dvorak_node_B_T_B_O,
+  &dvorak_node_B_T_B_I,
+  &dvorak_node_B_T_B_Q,
+  &dvorak_node_B_T_B_J,
+  &dvorak_node_B_T_B_K,
+  &dvorak_node_B_T_B_X,
+  &dvorak_node_B_T_B_E,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_T = {
+  .parent       = &dvorak_node_root,
+  .children     = dvorak_node_B_T_children,
+  .children_num = 13,
+  .key          = B_T,
+  .value        = "t",
+};
+
+const dvorak_node_t* dvorak_node_B_LS2_B_N_children[1] = {
+  &dvorak_node_B_LS2_B_N_B_E,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_N = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = dvorak_node_B_LS2_B_N_children,
+  .children_num = 1,
+  .key          = B_N,
+  .value        = SS_LCTL("n"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_V = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "v",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_C = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = "c",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_E = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = SS_TAP(X_TAB),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_Y = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = "[",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_A = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_A,
+  .value        = "#",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_T_B_E = {
+  .parent       = &dvorak_node_B_LS2_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = SS_LCTL(SS_TAP(X_TAB)),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_W = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = SS_LCTL("w"),
 };
 
 
 const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_H = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_H,
-       .value        = SS_LCTL("h"),
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = SS_LCTL("h"),
 };
 
 
-const PROGMEM dvorak_node_t dvorak_node_B_T_B_C = {
-       .parent       = &dvorak_node_B_T,
-       .children     = NULL,
-       .children_num = 0,
-       .key          = B_C,
-       .value        = "8",
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_J = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = SS_LSFT(SS_LCTL("j")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_C = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = SS_LSFT(SS_LCTL("c")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_L = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = SS_LSFT(SS_LCTL("l")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_X = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "+",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_E = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = SS_LSFT(SS_LCTL("e")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_H = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = SS_LSFT(SS_LCTL("h")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_S = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = "s",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_Q = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Q,
+  .value        = "\\",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_S = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = SS_LSFT(SS_LCTL("s")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_O = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "o",
 };
 
 const dvorak_node_t* dvorak_node_B_LS2_B_E_children[2] = {
-	&dvorak_node_B_LS2_B_E_B_N,
-	&dvorak_node_B_LS2_B_E_B_T,
+  &dvorak_node_B_LS2_B_E_B_N,
+  &dvorak_node_B_LS2_B_E_B_T,
 };
 const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_E = {
-       .parent       = &dvorak_node_B_LS2,
-       .children     = dvorak_node_B_LS2_B_E_children,
-       .children_num = 2,
-       .key          = B_E,
-       .value        = SS_LCTL("e"),
+  .parent       = &dvorak_node_B_LS2,
+  .children     = dvorak_node_B_LS2_B_E_children,
+  .children_num = 2,
+  .key          = B_E,
+  .value        = SS_LCTL("e"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_B = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = SS_LSFT(SS_LCTL("b")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_J = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = SS_LSFT(SS_LCTL("j")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_U = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = "U",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_F = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = SS_LSFT(SS_LCTL("f")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS3_B_U = {
+  .parent       = &dvorak_node_B_LS3,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = "4",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS3_B_N = {
+  .parent       = &dvorak_node_B_LS3,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "9",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_W = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "w",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_J = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "j",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_COMM_B_DOT = {
+  .parent       = &dvorak_node_B_COMM,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_DOT,
+  .value        = SS_TAP(X_ESC),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_U = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = SS_LCTL("u"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_QUOT = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_QUOT,
+  .value        = SS_LSFT(SS_LCTL("'")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_QUOT = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_QUOT,
+  .value        = "`",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_L = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = "L",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_T = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = SS_LSFT(SS_LCTL("t")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_E_B_T = {
+  .parent       = &dvorak_node_B_LS2_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = SS_LCTL("^"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_Z = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Z,
+  .value        = "z",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_SCLN = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = ";",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_Z = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Z,
+  .value        = SS_LCTL("z"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_Y = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = SS_LCTL("y"),
+};
+
+const dvorak_node_t* dvorak_node_root_children[33] = {
+  &dvorak_node_B_QUOT,
+  &dvorak_node_B_COMM,
+  &dvorak_node_B_DOT,
+  &dvorak_node_B_P,
+  &dvorak_node_B_Y,
+  &dvorak_node_B_F,
+  &dvorak_node_B_G,
+  &dvorak_node_B_C,
+  &dvorak_node_B_R,
+  &dvorak_node_B_L,
+  &dvorak_node_B_A,
+  &dvorak_node_B_O,
+  &dvorak_node_B_E,
+  &dvorak_node_B_U,
+  &dvorak_node_B_I,
+  &dvorak_node_B_D,
+  &dvorak_node_B_H,
+  &dvorak_node_B_T,
+  &dvorak_node_B_N,
+  &dvorak_node_B_S,
+  &dvorak_node_B_SCLN,
+  &dvorak_node_B_Q,
+  &dvorak_node_B_J,
+  &dvorak_node_B_K,
+  &dvorak_node_B_X,
+  &dvorak_node_B_B,
+  &dvorak_node_B_M,
+  &dvorak_node_B_W,
+  &dvorak_node_B_V,
+  &dvorak_node_B_Z,
+  &dvorak_node_B_LS2,
+  &dvorak_node_B_RS2,
+  &dvorak_node_B_LS3,
+};
+const PROGMEM dvorak_node_t dvorak_node_root = {
+  .parent       = NULL,
+  .children     = dvorak_node_root_children,
+  .children_num = 33,
+  .key          = -1,
+  .value        = NULL,
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_B = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = "b",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_X = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = "X",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_QUOT = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_QUOT,
+  .value        = "\"",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_W = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = "?",
+};
+
+const dvorak_node_t* dvorak_node_B_LS3_children[10] = {
+  &dvorak_node_B_LS3_B_A,
+  &dvorak_node_B_LS3_B_O,
+  &dvorak_node_B_LS3_B_E,
+  &dvorak_node_B_LS3_B_U,
+  &dvorak_node_B_LS3_B_I,
+  &dvorak_node_B_LS3_B_D,
+  &dvorak_node_B_LS3_B_H,
+  &dvorak_node_B_LS3_B_T,
+  &dvorak_node_B_LS3_B_N,
+  &dvorak_node_B_LS3_B_S,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_LS3 = {
+  .parent       = &dvorak_node_root,
+  .children     = dvorak_node_B_LS3_children,
+  .children_num = 10,
+  .key          = B_LS3,
+  .value        = NULL,
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_F = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "f",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_N = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = SS_LSFT(SS_LCTL("n")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_G = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = "G",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_F = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = SS_LCTL("f"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_F = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "F",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_DOT = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_DOT,
+  .value        = SS_LSFT(SS_LCTL(".")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_L = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = SS_LCTL("l"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_C = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = "C",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_QUOT = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_QUOT,
+  .value        = "'",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_O = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = SS_LSFT(SS_LCTL("o")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_I = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "|",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_S = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = SS_LSFT(SS_LCTL("s")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_I_B_U = {
+  .parent       = &dvorak_node_B_I,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = "",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_O = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = "O",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_H = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = "H",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_N = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = "n",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_R = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = "r",
+};
+
+const dvorak_node_t* dvorak_node_B_U_children[1] = {
+  &dvorak_node_B_U_B_I,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_U = {
+  .parent       = &dvorak_node_root,
+  .children     = dvorak_node_B_U_children,
+  .children_num = 1,
+  .key          = B_U,
+  .value        = "u",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_I = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = SS_LCTL("i"),
+};
+
+const dvorak_node_t* dvorak_node_B_LS2_children[31] = {
+  &dvorak_node_B_LS2_B_QUOT,
+  &dvorak_node_B_LS2_B_COMM,
+  &dvorak_node_B_LS2_B_DOT,
+  &dvorak_node_B_LS2_B_P,
+  &dvorak_node_B_LS2_B_Y,
+  &dvorak_node_B_LS2_B_F,
+  &dvorak_node_B_LS2_B_G,
+  &dvorak_node_B_LS2_B_C,
+  &dvorak_node_B_LS2_B_R,
+  &dvorak_node_B_LS2_B_L,
+  &dvorak_node_B_LS2_B_A,
+  &dvorak_node_B_LS2_B_O,
+  &dvorak_node_B_LS2_B_E,
+  &dvorak_node_B_LS2_B_U,
+  &dvorak_node_B_LS2_B_I,
+  &dvorak_node_B_LS2_B_D,
+  &dvorak_node_B_LS2_B_H,
+  &dvorak_node_B_LS2_B_T,
+  &dvorak_node_B_LS2_B_N,
+  &dvorak_node_B_LS2_B_S,
+  &dvorak_node_B_LS2_B_SCLN,
+  &dvorak_node_B_LS2_B_Q,
+  &dvorak_node_B_LS2_B_J,
+  &dvorak_node_B_LS2_B_K,
+  &dvorak_node_B_LS2_B_X,
+  &dvorak_node_B_LS2_B_B,
+  &dvorak_node_B_LS2_B_M,
+  &dvorak_node_B_LS2_B_W,
+  &dvorak_node_B_LS2_B_V,
+  &dvorak_node_B_LS2_B_Z,
+  &dvorak_node_B_LS2_B_RS2,
+};
+const PROGMEM dvorak_node_t dvorak_node_B_LS2 = {
+  .parent       = &dvorak_node_root,
+  .children     = dvorak_node_B_LS2_children,
+  .children_num = 31,
+  .key          = B_LS2,
+  .value        = " ",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_Y = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = "Y",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_K = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = SS_LCTL("k"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_U_B_I = {
+  .parent       = &dvorak_node_B_U,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = "",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_P = {
+  .parent       = &dvorak_node_root,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = "p",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_O = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = SS_LSFT(SS_LCTL("o")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_C = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = SS_LSFT(SS_LCTL("c")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_DOT = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_DOT,
+  .value        = ">",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_M = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = "M",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_Q = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Q,
+  .value        = "Q",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_F = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = "]",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_A = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_A,
+  .value        = SS_LSFT(SS_LCTL("a")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS3_B_A = {
+  .parent       = &dvorak_node_B_LS3,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_A,
+  .value        = "1",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_W = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = SS_LSFT(SS_LCTL("w")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_Q = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Q,
+  .value        = SS_LSFT(SS_LCTL("q")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_F = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = SS_LSFT(SS_LCTL("f")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_X = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = SS_LCTL("x"),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_E_B_V = {
+  .parent       = &dvorak_node_B_E,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = "*",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_T_B_J = {
+  .parent       = &dvorak_node_B_T,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = "&",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS2_B_RS2_B_COMM = {
+  .parent       = &dvorak_node_B_LS2_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_COMM,
+  .value        = SS_LSFT(SS_LCTL(",")),
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_LS3_B_D = {
+  .parent       = &dvorak_node_B_LS3,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "6",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_D = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = "D",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_Z = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Z,
+  .value        = "Z",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_SCLN = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = ":",
+};
+
+
+const PROGMEM dvorak_node_t dvorak_node_B_RS2_B_LS2_B_G = {
+  .parent       = &dvorak_node_B_RS2_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = SS_LSFT(SS_LCTL("g")),
 };
