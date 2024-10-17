@@ -10,8 +10,4 @@ typedef enum my_keycodes {
     MK_SAFE_RANGE,
 } MYKEYS;
 
-enum layer_number {
-  L_DVO,
-  L_NAG,
-  L_MOD,
-};
+enum layer_number { L_DVO, L_NAG, L_MOD, L_GAME, L_GAME2 };
