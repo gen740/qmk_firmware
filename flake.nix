@@ -14,11 +14,13 @@
         devShells.default = pkgs.mkShellNoCC {
           packages = [
             pkgs.qmk
+            pkgs.llvmPackages_18.clang-tools
+            pkgs.python312
+            pkgs.python312Packages.graphviz
+            pkgs.python312Packages.numpy
             pkgs.pyright
             pkgs.ruff-lsp
             pkgs.ruff
-            pkgs.llvmPackages_18.clang-tools
-            pkgs.python312Packages.venvShellHook
           ];
           shellHook = ''
             unset NIX_CFLAGS_COMPILE
