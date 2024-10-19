@@ -13,16 +13,17 @@
       {
         devShells.default = pkgs.mkShellNoCC {
           packages = [
-              pkgs.qmk
-              pkgs.pyright
-              pkgs.ruff-lsp
-              pkgs.ruff
-              pkgs.python312
-              pkgs.llvmPackages_18.clang-tools
+            pkgs.qmk
+            pkgs.pyright
+            pkgs.ruff-lsp
+            pkgs.ruff
+            pkgs.llvmPackages_18.clang-tools
+            pkgs.python312Packages.venvShellHook
           ];
           shellHook = ''
             unset NIX_CFLAGS_COMPILE
           '';
+          venvDir = "venv";
         };
       }
     );

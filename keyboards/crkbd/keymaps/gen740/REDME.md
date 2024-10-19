@@ -27,8 +27,19 @@ a b
 
 # Algorithm
 
-- key buffer
-- modifier buffer
 
-1. Check one key
+
+Node 1
+
+
+Node 2
+
+
+
+
+
+
+
+
+
 

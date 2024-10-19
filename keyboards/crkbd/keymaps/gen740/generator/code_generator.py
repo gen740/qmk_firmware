@@ -14,12 +14,16 @@ class Node:
         value: str | None = None,
         struct_name: str | None = None,
         parent: Union["Node", None] = None,
+        reverse: bool = False,
+        reverse_children: list["Node"] = [],
     ):
         self.children: list[Node] = []
         self.parent: Node | None = parent
         self.value: str | None = value
         self.key: str | None = key
         self.struct_name: str | None = struct_name
+        self.reverse: bool = reverse
+        self.reverse_children: list[Node] = reverse_children
 
     def search_next(self, key: str):
         for i in self.children:
@@ -34,7 +38,11 @@ key        : {self.key}
 parent     : {self.parent.struct_name if self.parent else None}
 children   : {[i.struct_name for i in self.children]}
 value      : {self.value}
+reverse    : {self.reverse}
         """
+
+    def __eq__(self, other):
+        return self.struct_name == other.struct_name
 
 
 def create_declarelations_and_definitions(
@@ -47,20 +55,15 @@ def create_declarelations_and_definitions(
 f"""const {title}_node_t* {node.struct_name}_children[{len(node.children)}] = {{
 {"\n".join([f"  &{i.struct_name}," for i in node.children])}
 }};""" if len(node.children) != 0 else "" }
-const {title}_node_t {node.struct_name} = {{
+const {title}_{"reverse" if node.reverse else ""}node_t {node.struct_name} = {{
   .parent       = {f"&{node.parent.struct_name}" if node.parent else "NULL"},
   .children     = {f"{node.struct_name}_children" if len(node.children) != 0 else "NULL"},
   .children_num = {len(node.children)},
   .key          = {node.key or "-1"},
   .value        = {node.value or "NULL"},
+  .reverse      = {"true" if node.reverse else "false"},
 }};
 """)
-
-
-def visit_all(node: Node, fun: Callable[[Node], None]):
-    fun(node)
-    for i in node.children:
-        visit_all(i, fun)
 
 
 def generate_tree(title: str, file_name: str):
@@ -68,9 +71,11 @@ def generate_tree(title: str, file_name: str):
 
     root_node = Node(struct_name=f"{title}_node_root")
 
+    # Create all node first
     for i in keydata:
         current_node = root_node
         key = []
+        print(i)
 
         for j in i:
             key.append(j)
@@ -93,6 +98,17 @@ def generate_tree(title: str, file_name: str):
                 print("Error: Node not found")
                 sys.exit(1)
         current_node.value = keydata[i]
+    return root_node
+
+
+def visit_all(node: Node, fun: Callable[[Node], None]):
+    fun(node)
+    for i in node.children:
+        visit_all(i, fun)
+
+
+def generate_decl_def(title: str, file_name: str):
+    root_node = generate_tree(title, file_name)
 
     declarelations: set[str] = set()
     definitions: set[str] = set()
@@ -108,7 +124,7 @@ def generate_tree(title: str, file_name: str):
 
 
 def generate_code(title: str, file_name: str):
-    declarelations, definitions = generate_tree(title, file_name)
+    declarelations, definitions = generate_decl_def(title, file_name)
     print(f"Generated {len(declarelations)} declarelations")
 
     with open("./generate_config.toml", "rb") as f:

@@ -42,6 +42,7 @@
 #define B_RS3  35
 
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_DOT;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_N;
 const dvorak_node_t dvorak_node_B_LS2_B_F;
 const dvorak_node_t dvorak_node_B_RS2_B_A;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_E;
@@ -60,13 +61,20 @@ const dvorak_node_t dvorak_node_B_RS2_B_QUOT;
 const dvorak_node_t dvorak_node_B_U_B_O_B_D;
 const dvorak_node_t dvorak_node_B_LS2_B_W;
 const dvorak_node_t dvorak_node_B_O_B_U_B_D;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_N;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_P;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_X;
 const dvorak_node_t dvorak_node_B_LS2_B_M;
 const dvorak_node_t dvorak_node_B_LS1_B_K;
 const dvorak_node_t dvorak_node_B_T_B_COMM;
 const dvorak_node_t dvorak_node_B_RS2_B_F;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_R;
+const dvorak_node_t dvorak_node_B_LS2_B_P_B_G;
 const dvorak_node_t dvorak_node_B_O_B_U_B_W;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_Y;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_F;
 const dvorak_node_t dvorak_node_B_K;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_U;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_R;
 const dvorak_node_t dvorak_node_B_V;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2;
@@ -77,8 +85,8 @@ const dvorak_node_t dvorak_node_B_H_B_N_B_Y;
 const dvorak_node_t dvorak_node_B_RS1_B_Z;
 const dvorak_node_t dvorak_node_B_RS2_B_COMM;
 const dvorak_node_t dvorak_node_B_A;
-const dvorak_node_t dvorak_node_B_RS1_B_L;
 const dvorak_node_t dvorak_node_B_LS2_B_B;
+const dvorak_node_t dvorak_node_B_RS1_B_L;
 const dvorak_node_t dvorak_node_B_LS2_B_E;
 const dvorak_node_t dvorak_node_B_LS1_B_Z;
 const dvorak_node_t dvorak_node_B_O_B_U_B_L;
@@ -87,6 +95,7 @@ const dvorak_node_t dvorak_node_B_LS1_B_DOT;
 const dvorak_node_t dvorak_node_B_RS1_B_B;
 const dvorak_node_t dvorak_node_B_G;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_C;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_K;
 const dvorak_node_t dvorak_node_B_R;
 const dvorak_node_t dvorak_node_B_RS1_B_Q;
 const dvorak_node_t dvorak_node_B_H_B_N_B_DOT;
@@ -106,11 +115,13 @@ const dvorak_node_t dvorak_node_B_RS1_B_Y;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_K;
 const dvorak_node_t dvorak_node_B_RS2_B_T;
 const dvorak_node_t dvorak_node_B_H_B_N_B_SCLN;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_X;
 const dvorak_node_t dvorak_node_B_M;
-const dvorak_node_t dvorak_node_B_LS2_B_T_B_E;
 const dvorak_node_t dvorak_node_B_U_B_O_B_B;
 const dvorak_node_t dvorak_node_B_LS2_B_J;
 const dvorak_node_t dvorak_node_B_H_B_N;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_SCLN;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_S;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_H;
 const dvorak_node_t dvorak_node_B_LS1_B_S;
 const dvorak_node_t dvorak_node_B_RS2_B_Y;
@@ -124,6 +135,7 @@ const dvorak_node_t dvorak_node_B_Y;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_I;
 const dvorak_node_t dvorak_node_B_RS2_B_W;
 const dvorak_node_t dvorak_node_B_LS2_B_X;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_H;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_J;
 const dvorak_node_t dvorak_node_B_RS1_B_V;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_D;
@@ -132,6 +144,7 @@ const dvorak_node_t dvorak_node_B_T_B_Y;
 const dvorak_node_t dvorak_node_B_LS1_B_U;
 const dvorak_node_t dvorak_node_B_O_B_U_B_R;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_T;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_V;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_E;
 const dvorak_node_t dvorak_node_B_QUOT;
 const dvorak_node_t dvorak_node_B_E_B_R;
@@ -145,22 +158,32 @@ const dvorak_node_t dvorak_node_B_H;
 const dvorak_node_t dvorak_node_B_N_B_H_B_QUOT;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_P;
 const dvorak_node_t dvorak_node_B_RS2_B_V;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_L;
 const dvorak_node_t dvorak_node_B_LS2;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_Z;
 const dvorak_node_t dvorak_node_B_LS2_B_P;
 const dvorak_node_t dvorak_node_B_H_B_N_B_QUOT;
 const dvorak_node_t dvorak_node_B_H_B_N_B_Q;
 const dvorak_node_t dvorak_node_B_O_B_U_B_V;
 const dvorak_node_t dvorak_node_B_RS3;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_D;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_R;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_SCLN;
 const dvorak_node_t dvorak_node_B_RS2_B_I;
 const dvorak_node_t dvorak_node_B_U_B_O_B_RS2;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_V;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_DOT;
 const dvorak_node_t dvorak_node_B_U_B_O_B_W;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_K;
 const dvorak_node_t dvorak_node_B_U_B_O_B_M;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_W;
+const dvorak_node_t dvorak_node_B_LS2_B_G_B_P;
 const dvorak_node_t dvorak_node_B_O_B_U_B_B;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_F;
 const dvorak_node_t dvorak_node_B_LS1_B_Q;
 const dvorak_node_t dvorak_node_B_U;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_G;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_U;
 const dvorak_node_t dvorak_node_B_COMM_B_DOT;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_S;
 const dvorak_node_t dvorak_node_B_RS1_B_A;
@@ -174,6 +197,7 @@ const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_DOT;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_N;
 const dvorak_node_t dvorak_node_B_H_B_N_B_J;
 const dvorak_node_t dvorak_node_B_U_B_O;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_S;
 const dvorak_node_t dvorak_node_B_RS1_B_LS1;
 const dvorak_node_t dvorak_node_B_RS2_B_L;
 const dvorak_node_t dvorak_node_B_N_B_H_B_P;
@@ -187,33 +211,45 @@ const dvorak_node_t dvorak_node_B_LS2_B_G;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_K;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_U;
 const dvorak_node_t dvorak_node_B_RS2_B_C;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_QUOT;
 const dvorak_node_t dvorak_node_B_LS2_B_D;
 const dvorak_node_t dvorak_node_B_LS1_B_W;
 const dvorak_node_t dvorak_node_B_RS1_B_K;
-const dvorak_node_t dvorak_node_B_RS2_B_T_B_E;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_R;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_O;
 const dvorak_node_t dvorak_node_B_N_B_H_B_Y;
 const dvorak_node_t dvorak_node_B_G_B_P;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_C;
 const dvorak_node_t dvorak_node_B_U_B_O_B_V;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_T;
 const dvorak_node_t dvorak_node_B_LS1_B_QUOT;
 const dvorak_node_t dvorak_node_B_T_B_Q;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_Q;
 const dvorak_node_t dvorak_node_B_RS3_B_O;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_F;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_I;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_S;
 const dvorak_node_t dvorak_node_B_RS2_B_S;
 const dvorak_node_t dvorak_node_B_U_B_O_B_L;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_W;
 const dvorak_node_t dvorak_node_B_RS2_B_U;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_O;
 const dvorak_node_t dvorak_node_B_RS2_B_O;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_J;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2;
 const dvorak_node_t dvorak_node_B_J;
 const dvorak_node_t dvorak_node_B_RS2_B_DOT;
 const dvorak_node_t dvorak_node_B_RS1_B_SCLN;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_O;
 const dvorak_node_t dvorak_node_B_O_B_U_B_F;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1;
 const dvorak_node_t dvorak_node_B_E_B_B;
 const dvorak_node_t dvorak_node_B_RS1_B_G;
 const dvorak_node_t dvorak_node_B_O_B_U_B_H;
 const dvorak_node_t dvorak_node_B_RS1_B_COMM;
 const dvorak_node_t dvorak_node_B_LS2_B_H;
 const dvorak_node_t dvorak_node_B_RS1_B_DOT;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_M;
 const dvorak_node_t dvorak_node_B_L;
 const dvorak_node_t dvorak_node_B_H_B_N_B_LS2;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_T;
@@ -222,12 +258,12 @@ const dvorak_node_t dvorak_node_B_U_B_O_B_Z;
 const dvorak_node_t dvorak_node_B_O_B_U_B_G;
 const dvorak_node_t dvorak_node_B_RS1_B_T;
 const dvorak_node_t dvorak_node_B_U_B_O_B_N;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_COMM;
 const dvorak_node_t dvorak_node_B_RS2_B_J;
 const dvorak_node_t dvorak_node_B_W;
 const dvorak_node_t dvorak_node_B_LS1_B_R;
 const dvorak_node_t dvorak_node_B_LS2_B_U;
 const dvorak_node_t dvorak_node_B_U_B_O_B_G;
-const dvorak_node_t dvorak_node_B_RS2_B_E_B_T;
 const dvorak_node_t dvorak_node_B_RS1;
 const dvorak_node_t dvorak_node_B_X;
 const dvorak_node_t dvorak_node_B_S;
@@ -238,7 +274,9 @@ const dvorak_node_t dvorak_node_B_D;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_N;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_J;
 const dvorak_node_t dvorak_node_B_U_B_O_B_F;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_COMM;
 const dvorak_node_t dvorak_node_B_RS2_B_D;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_F;
 const dvorak_node_t dvorak_node_B_E_B_L;
 const dvorak_node_t dvorak_node_B_N_B_H_B_DOT;
 const dvorak_node_t dvorak_node_B_N_B_H_B_Q;
@@ -246,24 +284,34 @@ const dvorak_node_t dvorak_node_B_LS1_B_M;
 const dvorak_node_t dvorak_node_B_N_B_H_B_K;
 const dvorak_node_t dvorak_node_B_E;
 const dvorak_node_t dvorak_node_B_LS2_B_S;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_T;
 const dvorak_node_t dvorak_node_B_LS2_B_SCLN;
 const dvorak_node_t dvorak_node_B_RS1_B_LS2;
 const dvorak_node_t dvorak_node_B_LS1_B_C;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_D;
 const dvorak_node_t dvorak_node_B_D_B_H;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_A;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_COMM;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_Z;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_QUOT;
 const dvorak_node_t dvorak_node_B_LS1_B_E;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_P;
 const dvorak_node_t dvorak_node_B_N_B_H_B_I;
 const dvorak_node_t dvorak_node_B_RS1_B_S;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_P;
 const dvorak_node_t dvorak_node_B_I;
 const dvorak_node_t dvorak_node_B_N;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_I;
 const dvorak_node_t dvorak_node_B_E_B_F;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_M;
 const dvorak_node_t dvorak_node_B_DOT;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_L;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_H;
 const dvorak_node_t dvorak_node_B_RS2_B_Z;
 const dvorak_node_t dvorak_node_B_RS3_B_E;
 const dvorak_node_t dvorak_node_B_LS2_B_Y;
 const dvorak_node_t dvorak_node_B_O;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_V;
 const dvorak_node_t dvorak_node_B_H_B_N_B_P;
 const dvorak_node_t dvorak_node_B_U_B_O_B_H;
 const dvorak_node_t dvorak_node_B_COMM;
@@ -272,12 +320,16 @@ const dvorak_node_t dvorak_node_B_T;
 const dvorak_node_t dvorak_node_B_RS1_B_X;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_Y;
 const dvorak_node_t dvorak_node_B_LS1_B_T;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_E;
 const dvorak_node_t dvorak_node_B_RS2_B_M;
 const dvorak_node_t dvorak_node_B_N_B_H_B_SCLN;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_DOT;
 const dvorak_node_t dvorak_node_B_F;
 const dvorak_node_t dvorak_node_B_RS2;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_Y;
 const dvorak_node_t dvorak_node_B_LS2_B_C;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_M;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_J;
 const dvorak_node_t dvorak_node_B_N_B_H_B_J;
 const dvorak_node_t dvorak_node_B_H_B_N_B_I;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_B;
@@ -295,10 +347,12 @@ const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_COMM;
 const dvorak_node_t dvorak_node_B_H_B_N_B_O;
 const dvorak_node_t dvorak_node_B_H_B_N_B_X;
 const dvorak_node_t dvorak_node_B_LS1_B_Y;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_A;
 const dvorak_node_t dvorak_node_B_I_B_U;
 const dvorak_node_t dvorak_node_B_RS1_B_QUOT;
 const dvorak_node_t dvorak_node_B_LS2_B_R;
 const dvorak_node_t dvorak_node_B_U_B_I;
+const dvorak_node_t dvorak_node_B_RS2_B_P_B_G;
 const dvorak_node_t dvorak_node_B_RS1_B_RS2;
 const dvorak_node_t dvorak_node_B_RS1_B_O;
 const dvorak_node_t dvorak_node_B_RS1_B_M;
@@ -313,12 +367,15 @@ const dvorak_node_t dvorak_node_B_RS1_B_P;
 const dvorak_node_t dvorak_node_B_C;
 const dvorak_node_t dvorak_node_B_N_B_H_B_O;
 const dvorak_node_t dvorak_node_B_LS1_B_B;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_C;
 const dvorak_node_t dvorak_node_B_RS1_B_C;
 const dvorak_node_t dvorak_node_B_N_B_H_B_X;
 const dvorak_node_t dvorak_node_B_LS1_B_V;
+const dvorak_node_t dvorak_node_B_RS2_B_G_B_P;
 const dvorak_node_t dvorak_node_B_LS2_B_N;
 const dvorak_node_t dvorak_node_B_RS2_B_H;
 const dvorak_node_t dvorak_node_B_LS2_B_A;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_B;
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_U;
 const dvorak_node_t dvorak_node_B_E_B_G;
 const dvorak_node_t dvorak_node_B_LS1_B_A;
@@ -332,13 +389,18 @@ const dvorak_node_t dvorak_node_B_LS2_B_QUOT;
 const dvorak_node_t dvorak_node_B_LS1_B_I;
 const dvorak_node_t dvorak_node_B_RS1_B_E;
 const dvorak_node_t dvorak_node_B_O_B_U_B_N;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_G;
 const dvorak_node_t dvorak_node_B_LS1_B_O;
 const dvorak_node_t dvorak_node_B_RS2_B_X;
 const dvorak_node_t dvorak_node_B_RS1_B_R;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_Q;
 const dvorak_node_t dvorak_node_B_N_B_H_B_A;
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_X;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_A;
 const dvorak_node_t dvorak_node_B_LS2_B_E_B_T;
 const dvorak_node_t dvorak_node_B_LS1_B_D;
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_B;
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_E;
 const dvorak_node_t dvorak_node_B_Z;
 const dvorak_node_t dvorak_node_B_RS2_B_K;
 const dvorak_node_t dvorak_node_B_RS1_B_H;
@@ -397,6 +459,15 @@ const dvorak_node_t dvorak_node_B_COMM_B_DOT = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_F = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = SS_LGUI(SS_LALT("f")),
+};
+
+
 const dvorak_node_t dvorak_node_B_U_B_O_B_Z = {
   .parent       = &dvorak_node_B_U_B_O,
   .children     = NULL,
@@ -412,6 +483,15 @@ const dvorak_node_t dvorak_node_B_U_B_O_B_G = {
   .children_num = 0,
   .key          = B_G,
   .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("g")))),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_Z = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Z,
+  .value        = SS_LGUI(SS_LALT("z")),
 };
 
 
@@ -471,6 +551,15 @@ const dvorak_node_t dvorak_node_B_RS1_B_J = {
 };
 
 
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_Y = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = SS_LGUI(SS_LALT("y")),
+};
+
+
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_X = {
   .parent       = &dvorak_node_B_LS2_B_RS2,
   .children     = NULL,
@@ -489,12 +578,39 @@ const dvorak_node_t dvorak_node_B_N_B_H_B_A = {
 };
 
 
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_U = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = SS_LGUI(SS_LALT("u")),
+};
+
+
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_D = {
   .parent       = &dvorak_node_B_LS2_B_RS2,
   .children     = NULL,
   .children_num = 0,
   .key          = B_D,
   .value        = "6",
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_H = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = SS_LGUI(SS_LALT("h")),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_W = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = SS_LGUI(SS_LALT("w")),
 };
 
 
@@ -513,6 +629,15 @@ const dvorak_node_t dvorak_node_B_RS1_B_C = {
   .children_num = 0,
   .key          = B_C,
   .value        = SS_LGUI("c"),
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_QUOT = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_QUOT,
+  .value        = SS_LGUI(SS_LALT("'")),
 };
 
 
@@ -561,12 +686,12 @@ const dvorak_node_t dvorak_node_B_LS2_B_A = {
 };
 
 
-const dvorak_node_t dvorak_node_B_LS2_B_T_B_E = {
-  .parent       = &dvorak_node_B_LS2_B_T,
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_I = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_E,
-  .value        = SS_LCTL(SS_TAP(X_TAB)),
+  .key          = B_I,
+  .value        = SS_LGUI(SS_LALT("i")),
 };
 
 const dvorak_node_t* dvorak_node_root_children[35] = {
@@ -632,6 +757,15 @@ const dvorak_node_t dvorak_node_B_COMM = {
   .children_num = 1,
   .key          = B_COMM,
   .value        = ",",
+};
+
+
+const dvorak_node_t dvorak_node_B_LS2_B_P_B_G = {
+  .parent       = &dvorak_node_B_LS2_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = SS_LCTL(SS_TAP(X_TAB)),
 };
 
 
@@ -791,6 +925,46 @@ const dvorak_node_t dvorak_node_B_RS2_B_U = {
   .value        = "U",
 };
 
+const dvorak_node_t* dvorak_node_B_LS1_B_RS1_children[30] = {
+  &dvorak_node_B_LS1_B_RS1_B_QUOT,
+  &dvorak_node_B_LS1_B_RS1_B_COMM,
+  &dvorak_node_B_LS1_B_RS1_B_DOT,
+  &dvorak_node_B_LS1_B_RS1_B_P,
+  &dvorak_node_B_LS1_B_RS1_B_Y,
+  &dvorak_node_B_LS1_B_RS1_B_F,
+  &dvorak_node_B_LS1_B_RS1_B_G,
+  &dvorak_node_B_LS1_B_RS1_B_C,
+  &dvorak_node_B_LS1_B_RS1_B_R,
+  &dvorak_node_B_LS1_B_RS1_B_L,
+  &dvorak_node_B_LS1_B_RS1_B_A,
+  &dvorak_node_B_LS1_B_RS1_B_O,
+  &dvorak_node_B_LS1_B_RS1_B_E,
+  &dvorak_node_B_LS1_B_RS1_B_U,
+  &dvorak_node_B_LS1_B_RS1_B_I,
+  &dvorak_node_B_LS1_B_RS1_B_D,
+  &dvorak_node_B_LS1_B_RS1_B_H,
+  &dvorak_node_B_LS1_B_RS1_B_T,
+  &dvorak_node_B_LS1_B_RS1_B_N,
+  &dvorak_node_B_LS1_B_RS1_B_S,
+  &dvorak_node_B_LS1_B_RS1_B_SCLN,
+  &dvorak_node_B_LS1_B_RS1_B_Q,
+  &dvorak_node_B_LS1_B_RS1_B_J,
+  &dvorak_node_B_LS1_B_RS1_B_K,
+  &dvorak_node_B_LS1_B_RS1_B_X,
+  &dvorak_node_B_LS1_B_RS1_B_B,
+  &dvorak_node_B_LS1_B_RS1_B_M,
+  &dvorak_node_B_LS1_B_RS1_B_W,
+  &dvorak_node_B_LS1_B_RS1_B_V,
+  &dvorak_node_B_LS1_B_RS1_B_Z,
+};
+const dvorak_node_t dvorak_node_B_LS1_B_RS1 = {
+  .parent       = &dvorak_node_B_LS1,
+  .children     = dvorak_node_B_LS1_B_RS1_children,
+  .children_num = 30,
+  .key          = B_RS1,
+  .value        = NULL,
+};
+
 
 const dvorak_node_t dvorak_node_B_O_B_U_B_R = {
   .parent       = &dvorak_node_B_O_B_U,
@@ -807,15 +981,6 @@ const dvorak_node_t dvorak_node_B_LS2_B_QUOT = {
   .children_num = 0,
   .key          = B_QUOT,
   .value        = SS_LCTL("'"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_E_B_T = {
-  .parent       = &dvorak_node_B_RS2_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_T,
-  .value        = SS_LSFT(SS_TAP(X_TAB)),
 };
 
 
@@ -955,6 +1120,15 @@ const dvorak_node_t dvorak_node_B_LS2_B_N = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_X = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = SS_LGUI(SS_LALT("x")),
+};
+
+
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_H = {
   .parent       = &dvorak_node_B_LS2_B_RS2,
   .children     = NULL,
@@ -964,12 +1138,30 @@ const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_H = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_E = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = SS_LGUI(SS_LALT("e")),
+};
+
+
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_P = {
   .parent       = &dvorak_node_B_LS2_B_RS2,
   .children     = NULL,
   .children_num = 0,
   .key          = B_P,
   .value        = "(",
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_J = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = SS_LGUI(SS_LALT("j")),
 };
 
 
@@ -1026,6 +1218,17 @@ const dvorak_node_t dvorak_node_B_J = {
   .value        = "j",
 };
 
+const dvorak_node_t* dvorak_node_B_RS2_B_G_children[1] = {
+  &dvorak_node_B_RS2_B_G_B_P,
+};
+const dvorak_node_t dvorak_node_B_RS2_B_G = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = dvorak_node_B_RS2_B_G_children,
+  .children_num = 1,
+  .key          = B_G,
+  .value        = "G",
+};
+
 
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_K = {
   .parent       = &dvorak_node_B_RS2_B_LS2,
@@ -1063,6 +1266,15 @@ const dvorak_node_t dvorak_node_B_O_B_U_B_C = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_SCLN = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = SS_LGUI(SS_LALT(";")),
+};
+
+
 const dvorak_node_t dvorak_node_B_LS1_B_U = {
   .parent       = &dvorak_node_B_LS1,
   .children     = NULL,
@@ -1078,6 +1290,15 @@ const dvorak_node_t dvorak_node_B_RS1_B_Y = {
   .children_num = 0,
   .key          = B_Y,
   .value        = SS_LGUI("y"),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_R = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_R,
+  .value        = SS_LGUI(SS_LALT("r")),
 };
 
 
@@ -1194,6 +1415,15 @@ const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_A = {
 };
 
 
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_B = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = SS_LGUI(SS_LALT("b")),
+};
+
+
 const dvorak_node_t dvorak_node_B_U_B_I = {
   .parent       = &dvorak_node_B_U,
   .children     = NULL,
@@ -1209,6 +1439,15 @@ const dvorak_node_t dvorak_node_B_RS1_B_F = {
   .children_num = 0,
   .key          = B_F,
   .value        = SS_LGUI("f"),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_V = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = SS_LGUI(SS_LALT("v")),
 };
 
 
@@ -1236,6 +1475,17 @@ const dvorak_node_t dvorak_node_B_C = {
   .children_num = 0,
   .key          = B_C,
   .value        = "c",
+};
+
+const dvorak_node_t* dvorak_node_B_LS2_B_P_children[1] = {
+  &dvorak_node_B_LS2_B_P_B_G,
+};
+const dvorak_node_t dvorak_node_B_LS2_B_P = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = dvorak_node_B_LS2_B_P_children,
+  .children_num = 1,
+  .key          = B_P,
+  .value        = SS_LCTL("p"),
 };
 
 
@@ -1275,23 +1525,21 @@ const dvorak_node_t dvorak_node_B_E_B_L = {
 };
 
 
+const dvorak_node_t dvorak_node_B_LS2_B_T = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = SS_LCTL("t"),
+};
+
+
 const dvorak_node_t dvorak_node_B_N_B_H_B_U = {
   .parent       = &dvorak_node_B_N_B_H,
   .children     = NULL,
   .children_num = 0,
   .key          = B_U,
   .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("u")))),
-};
-
-const dvorak_node_t* dvorak_node_B_RS2_B_E_children[1] = {
-  &dvorak_node_B_RS2_B_E_B_T,
-};
-const dvorak_node_t dvorak_node_B_RS2_B_E = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = dvorak_node_B_RS2_B_E_children,
-  .children_num = 1,
-  .key          = B_E,
-  .value        = "E",
 };
 
 
@@ -1301,6 +1549,15 @@ const dvorak_node_t dvorak_node_B_B = {
   .children_num = 0,
   .key          = B_B,
   .value        = "b",
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_N = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = SS_LGUI(SS_LALT("n")),
 };
 
 
@@ -1319,6 +1576,15 @@ const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_X = {
   .children_num = 0,
   .key          = B_X,
   .value        = "=",
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_K = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = SS_LGUI(SS_LALT("k")),
 };
 
 
@@ -1358,6 +1624,15 @@ const dvorak_node_t dvorak_node_B_U_B_O_B_V = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_I = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_I,
+  .value        = SS_LGUI(SS_LALT("i")),
+};
+
+
 const dvorak_node_t dvorak_node_B_QUOT = {
   .parent       = &dvorak_node_root,
   .children     = NULL,
@@ -1382,17 +1657,6 @@ const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_T = {
   .children_num = 0,
   .key          = B_T,
   .value        = "8",
-};
-
-const dvorak_node_t* dvorak_node_B_LS2_B_T_children[1] = {
-  &dvorak_node_B_LS2_B_T_B_E,
-};
-const dvorak_node_t dvorak_node_B_LS2_B_T = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = dvorak_node_B_LS2_B_T_children,
-  .children_num = 1,
-  .key          = B_T,
-  .value        = SS_LCTL("t"),
 };
 
 
@@ -1423,12 +1687,12 @@ const dvorak_node_t dvorak_node_B_U_B_O_B_D = {
 };
 
 
-const dvorak_node_t dvorak_node_B_RS1_B_LS1 = {
-  .parent       = &dvorak_node_B_RS1,
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_R = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_LS1,
-  .value        = SS_LGUI(SS_TAP(X_BSPC)),
+  .key          = B_R,
+  .value        = SS_LGUI(SS_LALT("r")),
 };
 
 
@@ -1438,6 +1702,15 @@ const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_H = {
   .children_num = 0,
   .key          = B_H,
   .value        = "7",
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_M = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = SS_LGUI(SS_LALT("m")),
 };
 
 
@@ -1477,6 +1750,15 @@ const dvorak_node_t dvorak_node_B_H_B_D = {
 };
 
 
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_T = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = SS_LGUI(SS_LALT("t")),
+};
+
+
 const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_O = {
   .parent       = &dvorak_node_B_LS2_B_RS2,
   .children     = NULL,
@@ -1501,6 +1783,24 @@ const dvorak_node_t dvorak_node_B_RS1_B_LS2 = {
   .children_num = 0,
   .key          = B_LS2,
   .value        = SS_LGUI(" "),
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_U = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_U,
+  .value        = SS_LGUI(SS_LALT("u")),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_C = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = SS_LGUI(SS_LALT("c")),
 };
 
 const dvorak_node_t* dvorak_node_B_P_children[1] = {
@@ -1530,6 +1830,15 @@ const dvorak_node_t dvorak_node_B_N_B_H_B_Q = {
   .children_num = 0,
   .key          = B_Q,
   .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("q")))),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_A = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_A,
+  .value        = SS_LGUI(SS_LALT("a")),
 };
 
 
@@ -1619,6 +1928,15 @@ const dvorak_node_t dvorak_node_B_RS2_B_Y = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_M = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_M,
+  .value        = SS_LGUI(SS_LALT("m")),
+};
+
+
 const dvorak_node_t dvorak_node_B_LS1_B_P = {
   .parent       = &dvorak_node_B_LS1,
   .children     = NULL,
@@ -1634,6 +1952,15 @@ const dvorak_node_t dvorak_node_B_RS2_B_W = {
   .children_num = 0,
   .key          = B_W,
   .value        = "W",
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_C = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_C,
+  .value        = SS_LGUI(SS_LALT("c")),
 };
 
 
@@ -1712,6 +2039,15 @@ const dvorak_node_t dvorak_node_B_O_B_U_B_G = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS2_B_G_B_P = {
+  .parent       = &dvorak_node_B_RS2_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = SS_LSFT(SS_TAP(X_TAB)),
+};
+
+
 const dvorak_node_t dvorak_node_B_RS2_B_DOT = {
   .parent       = &dvorak_node_B_RS2,
   .children     = NULL,
@@ -1748,12 +2084,12 @@ const dvorak_node_t dvorak_node_B_RS1_B_X = {
 };
 
 
-const dvorak_node_t dvorak_node_B_RS2_B_G = {
-  .parent       = &dvorak_node_B_RS2,
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_A = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_G,
-  .value        = "G",
+  .key          = B_A,
+  .value        = SS_LGUI(SS_LALT("a")),
 };
 
 
@@ -1919,6 +2255,24 @@ const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_B = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_DOT = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_DOT,
+  .value        = SS_LGUI(SS_LALT(".")),
+};
+
+
+const dvorak_node_t dvorak_node_B_RS2_B_T = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_T,
+  .value        = "T",
+};
+
+
 const dvorak_node_t dvorak_node_B_RS2_B_D = {
   .parent       = &dvorak_node_B_RS2,
   .children     = NULL,
@@ -1974,48 +2328,6 @@ const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_DOT = {
   .value        = "{",
 };
 
-const dvorak_node_t* dvorak_node_B_LS1_children[32] = {
-  &dvorak_node_B_LS1_B_QUOT,
-  &dvorak_node_B_LS1_B_COMM,
-  &dvorak_node_B_LS1_B_DOT,
-  &dvorak_node_B_LS1_B_P,
-  &dvorak_node_B_LS1_B_Y,
-  &dvorak_node_B_LS1_B_F,
-  &dvorak_node_B_LS1_B_G,
-  &dvorak_node_B_LS1_B_C,
-  &dvorak_node_B_LS1_B_R,
-  &dvorak_node_B_LS1_B_L,
-  &dvorak_node_B_LS1_B_A,
-  &dvorak_node_B_LS1_B_O,
-  &dvorak_node_B_LS1_B_E,
-  &dvorak_node_B_LS1_B_U,
-  &dvorak_node_B_LS1_B_I,
-  &dvorak_node_B_LS1_B_D,
-  &dvorak_node_B_LS1_B_H,
-  &dvorak_node_B_LS1_B_T,
-  &dvorak_node_B_LS1_B_N,
-  &dvorak_node_B_LS1_B_S,
-  &dvorak_node_B_LS1_B_SCLN,
-  &dvorak_node_B_LS1_B_Q,
-  &dvorak_node_B_LS1_B_J,
-  &dvorak_node_B_LS1_B_K,
-  &dvorak_node_B_LS1_B_X,
-  &dvorak_node_B_LS1_B_B,
-  &dvorak_node_B_LS1_B_M,
-  &dvorak_node_B_LS1_B_W,
-  &dvorak_node_B_LS1_B_V,
-  &dvorak_node_B_LS1_B_Z,
-  &dvorak_node_B_LS1_B_LS2,
-  &dvorak_node_B_LS1_B_RS2,
-};
-const dvorak_node_t dvorak_node_B_LS1 = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_LS1_children,
-  .children_num = 32,
-  .key          = B_LS1,
-  .value        = SS_TAP(X_BSPC),
-};
-
 
 const dvorak_node_t dvorak_node_B_RS2_B_O = {
   .parent       = &dvorak_node_B_RS2,
@@ -2023,6 +2335,15 @@ const dvorak_node_t dvorak_node_B_RS2_B_O = {
   .children_num = 0,
   .key          = B_O,
   .value        = "O",
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_W = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_W,
+  .value        = SS_LGUI(SS_LALT("w")),
 };
 
 
@@ -2059,15 +2380,6 @@ const dvorak_node_t dvorak_node_B_RS1_B_SCLN = {
   .children_num = 0,
   .key          = B_SCLN,
   .value        = SS_LGUI(";"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_P = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = SS_LCTL("p"),
 };
 
 
@@ -2133,12 +2445,12 @@ const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_I = {
 };
 
 
-const dvorak_node_t dvorak_node_B_RS2_B_P = {
-  .parent       = &dvorak_node_B_RS2,
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_L = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_P,
-  .value        = "P",
+  .key          = B_L,
+  .value        = SS_LGUI(SS_LALT("l")),
 };
 
 
@@ -2196,6 +2508,15 @@ const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_T = {
 };
 
 
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_S = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = SS_LGUI(SS_LALT("s")),
+};
+
+
 const dvorak_node_t dvorak_node_B_P_B_G = {
   .parent       = &dvorak_node_B_P,
   .children     = NULL,
@@ -2238,6 +2559,15 @@ const dvorak_node_t dvorak_node_B_H_B_N_B_SCLN = {
   .children_num = 0,
   .key          = B_SCLN,
   .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(";")))),
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_D = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = SS_LGUI(SS_LALT("d")),
 };
 
 
@@ -2349,6 +2679,15 @@ const dvorak_node_t dvorak_node_B_N = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_Q = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Q,
+  .value        = SS_LGUI(SS_LALT("q")),
+};
+
+
 const dvorak_node_t dvorak_node_B_LS1_B_O = {
   .parent       = &dvorak_node_B_LS1,
   .children     = NULL,
@@ -2409,6 +2748,26 @@ const dvorak_node_t dvorak_node_B_V = {
   .children_num = 0,
   .key          = B_V,
   .value        = "v",
+};
+
+const dvorak_node_t* dvorak_node_B_LS2_B_G_children[1] = {
+  &dvorak_node_B_LS2_B_G_B_P,
+};
+const dvorak_node_t dvorak_node_B_LS2_B_G = {
+  .parent       = &dvorak_node_B_LS2,
+  .children     = dvorak_node_B_LS2_B_G_children,
+  .children_num = 1,
+  .key          = B_G,
+  .value        = SS_LCTL("g"),
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_B = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_B,
+  .value        = SS_LGUI(SS_LALT("b")),
 };
 
 
@@ -2485,6 +2844,49 @@ const dvorak_node_t dvorak_node_B_O_B_U = {
   .value        = NULL,
 };
 
+const dvorak_node_t* dvorak_node_B_LS1_children[33] = {
+  &dvorak_node_B_LS1_B_QUOT,
+  &dvorak_node_B_LS1_B_COMM,
+  &dvorak_node_B_LS1_B_DOT,
+  &dvorak_node_B_LS1_B_P,
+  &dvorak_node_B_LS1_B_Y,
+  &dvorak_node_B_LS1_B_F,
+  &dvorak_node_B_LS1_B_G,
+  &dvorak_node_B_LS1_B_C,
+  &dvorak_node_B_LS1_B_R,
+  &dvorak_node_B_LS1_B_L,
+  &dvorak_node_B_LS1_B_A,
+  &dvorak_node_B_LS1_B_O,
+  &dvorak_node_B_LS1_B_E,
+  &dvorak_node_B_LS1_B_U,
+  &dvorak_node_B_LS1_B_I,
+  &dvorak_node_B_LS1_B_D,
+  &dvorak_node_B_LS1_B_H,
+  &dvorak_node_B_LS1_B_T,
+  &dvorak_node_B_LS1_B_N,
+  &dvorak_node_B_LS1_B_S,
+  &dvorak_node_B_LS1_B_SCLN,
+  &dvorak_node_B_LS1_B_Q,
+  &dvorak_node_B_LS1_B_J,
+  &dvorak_node_B_LS1_B_K,
+  &dvorak_node_B_LS1_B_X,
+  &dvorak_node_B_LS1_B_B,
+  &dvorak_node_B_LS1_B_M,
+  &dvorak_node_B_LS1_B_W,
+  &dvorak_node_B_LS1_B_V,
+  &dvorak_node_B_LS1_B_Z,
+  &dvorak_node_B_LS1_B_LS2,
+  &dvorak_node_B_LS1_B_RS2,
+  &dvorak_node_B_LS1_B_RS1,
+};
+const dvorak_node_t dvorak_node_B_LS1 = {
+  .parent       = &dvorak_node_root,
+  .children     = dvorak_node_B_LS1_children,
+  .children_num = 33,
+  .key          = B_LS1,
+  .value        = SS_TAP(X_BSPC),
+};
+
 
 const dvorak_node_t dvorak_node_B_RS1_B_S = {
   .parent       = &dvorak_node_B_RS1,
@@ -2542,17 +2944,6 @@ const dvorak_node_t dvorak_node_B_N_B_H_B_QUOT = {
   .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("'")))),
 };
 
-const dvorak_node_t* dvorak_node_B_RS2_B_T_children[1] = {
-  &dvorak_node_B_RS2_B_T_B_E,
-};
-const dvorak_node_t dvorak_node_B_RS2_B_T = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = dvorak_node_B_RS2_B_T_children,
-  .children_num = 1,
-  .key          = B_T,
-  .value        = "T",
-};
-
 
 const dvorak_node_t dvorak_node_B_O_B_U_B_H = {
   .parent       = &dvorak_node_B_O_B_U,
@@ -2569,6 +2960,15 @@ const dvorak_node_t dvorak_node_B_LS1_B_X = {
   .children_num = 0,
   .key          = B_X,
   .value        = SS_LALT("x"),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_COMM = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_COMM,
+  .value        = SS_LGUI(SS_LALT(",")),
 };
 
 
@@ -2660,6 +3060,15 @@ const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_F = {
 };
 
 
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_J = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_J,
+  .value        = SS_LGUI(SS_LALT("j")),
+};
+
+
 const dvorak_node_t dvorak_node_B_Y = {
   .parent       = &dvorak_node_root,
   .children     = NULL,
@@ -2684,6 +3093,33 @@ const dvorak_node_t dvorak_node_B_LS2_B_W = {
   .children_num = 0,
   .key          = B_W,
   .value        = SS_LCTL("w"),
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_O = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = SS_LGUI(SS_LALT("o")),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_X = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_X,
+  .value        = SS_LGUI(SS_LALT("x")),
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_G = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = SS_LGUI(SS_LALT("g")),
 };
 
 
@@ -2779,6 +3215,15 @@ const dvorak_node_t dvorak_node_B_H_B_N_B_A = {
 };
 
 
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_SCLN = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_SCLN,
+  .value        = SS_LGUI(SS_LALT(";")),
+};
+
+
 const dvorak_node_t dvorak_node_B_LS1_B_W = {
   .parent       = &dvorak_node_B_LS1,
   .children     = NULL,
@@ -2803,6 +3248,15 @@ const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_Y = {
   .children_num = 0,
   .key          = B_Y,
   .value        = "[",
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_P = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = SS_LGUI(SS_LALT("p")),
 };
 
 
@@ -2878,12 +3332,30 @@ const dvorak_node_t dvorak_node_B_LS2_B_B = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_Y = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Y,
+  .value        = SS_LGUI(SS_LALT("y")),
+};
+
+
 const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_W = {
   .parent       = &dvorak_node_B_RS2_B_LS2,
   .children     = NULL,
   .children_num = 0,
   .key          = B_W,
   .value        = "*",
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_F = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_F,
+  .value        = SS_LGUI(SS_LALT("f")),
 };
 
 
@@ -2995,6 +3467,15 @@ const dvorak_node_t dvorak_node_B_T_B_COMM = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_S = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_S,
+  .value        = SS_LGUI(SS_LALT("s")),
+};
+
+
 const dvorak_node_t dvorak_node_B_LS1_B_M = {
   .parent       = &dvorak_node_B_LS1,
   .children     = NULL,
@@ -3033,12 +3514,90 @@ const dvorak_node_t dvorak_node_B_N_B_H_B_LS2 = {
 };
 
 
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_DOT = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_DOT,
+  .value        = SS_LGUI(SS_LALT(".")),
+};
+
+
 const dvorak_node_t dvorak_node_B_O_B_U_B_F = {
   .parent       = &dvorak_node_B_O_B_U,
   .children     = NULL,
   .children_num = 0,
   .key          = B_F,
   .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("f")))),
+};
+
+const dvorak_node_t* dvorak_node_B_RS2_B_P_children[1] = {
+  &dvorak_node_B_RS2_B_P_B_G,
+};
+const dvorak_node_t dvorak_node_B_RS2_B_P = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = dvorak_node_B_RS2_B_P_children,
+  .children_num = 1,
+  .key          = B_P,
+  .value        = "P",
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_L = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_L,
+  .value        = SS_LGUI(SS_LALT("l")),
+};
+
+const dvorak_node_t* dvorak_node_B_RS1_B_LS1_children[30] = {
+  &dvorak_node_B_RS1_B_LS1_B_QUOT,
+  &dvorak_node_B_RS1_B_LS1_B_COMM,
+  &dvorak_node_B_RS1_B_LS1_B_DOT,
+  &dvorak_node_B_RS1_B_LS1_B_P,
+  &dvorak_node_B_RS1_B_LS1_B_Y,
+  &dvorak_node_B_RS1_B_LS1_B_F,
+  &dvorak_node_B_RS1_B_LS1_B_G,
+  &dvorak_node_B_RS1_B_LS1_B_C,
+  &dvorak_node_B_RS1_B_LS1_B_R,
+  &dvorak_node_B_RS1_B_LS1_B_L,
+  &dvorak_node_B_RS1_B_LS1_B_A,
+  &dvorak_node_B_RS1_B_LS1_B_O,
+  &dvorak_node_B_RS1_B_LS1_B_E,
+  &dvorak_node_B_RS1_B_LS1_B_U,
+  &dvorak_node_B_RS1_B_LS1_B_I,
+  &dvorak_node_B_RS1_B_LS1_B_D,
+  &dvorak_node_B_RS1_B_LS1_B_H,
+  &dvorak_node_B_RS1_B_LS1_B_T,
+  &dvorak_node_B_RS1_B_LS1_B_N,
+  &dvorak_node_B_RS1_B_LS1_B_S,
+  &dvorak_node_B_RS1_B_LS1_B_SCLN,
+  &dvorak_node_B_RS1_B_LS1_B_Q,
+  &dvorak_node_B_RS1_B_LS1_B_J,
+  &dvorak_node_B_RS1_B_LS1_B_K,
+  &dvorak_node_B_RS1_B_LS1_B_X,
+  &dvorak_node_B_RS1_B_LS1_B_B,
+  &dvorak_node_B_RS1_B_LS1_B_M,
+  &dvorak_node_B_RS1_B_LS1_B_W,
+  &dvorak_node_B_RS1_B_LS1_B_V,
+  &dvorak_node_B_RS1_B_LS1_B_Z,
+};
+const dvorak_node_t dvorak_node_B_RS1_B_LS1 = {
+  .parent       = &dvorak_node_B_RS1,
+  .children     = dvorak_node_B_RS1_B_LS1_children,
+  .children_num = 30,
+  .key          = B_LS1,
+  .value        = SS_LGUI(SS_TAP(X_BSPC)),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS2_B_G_B_P = {
+  .parent       = &dvorak_node_B_LS2_B_G,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = SS_LCTL(SS_TAP(X_TAB)),
 };
 
 
@@ -3051,12 +3610,21 @@ const dvorak_node_t dvorak_node_B_E_B_C = {
 };
 
 
-const dvorak_node_t dvorak_node_B_LS2_B_G = {
-  .parent       = &dvorak_node_B_LS2,
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_T = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
   .children     = NULL,
   .children_num = 0,
-  .key          = B_G,
-  .value        = SS_LCTL("g"),
+  .key          = B_T,
+  .value        = SS_LGUI(SS_LALT("t")),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_QUOT = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_QUOT,
+  .value        = SS_LGUI(SS_LALT("'")),
 };
 
 
@@ -3069,12 +3637,48 @@ const dvorak_node_t dvorak_node_B_N_B_H_B_Y = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS2_B_E = {
+  .parent       = &dvorak_node_B_RS2,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = "E",
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_H = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_H,
+  .value        = SS_LGUI(SS_LALT("h")),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_D = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_D,
+  .value        = SS_LGUI(SS_LALT("d")),
+};
+
+
 const dvorak_node_t dvorak_node_B_U_B_O_B_W = {
   .parent       = &dvorak_node_B_U_B_O,
   .children     = NULL,
   .children_num = 0,
   .key          = B_W,
   .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("w")))),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_E = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_E,
+  .value        = SS_LGUI(SS_LALT("e")),
 };
 
 
@@ -3093,6 +3697,15 @@ const dvorak_node_t dvorak_node_B_LS2_B_U = {
   .children_num = 0,
   .key          = B_U,
   .value        = SS_LCTL("u"),
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_COMM = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_COMM,
+  .value        = SS_LGUI(SS_LALT(",")),
 };
 
 
@@ -3140,6 +3753,15 @@ const dvorak_node_t dvorak_node_B_LS1_B_K = {
 };
 
 
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_N = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_N,
+  .value        = SS_LGUI(SS_LALT("n")),
+};
+
+
 const dvorak_node_t dvorak_node_B_LS2_B_C = {
   .parent       = &dvorak_node_B_LS2,
   .children     = NULL,
@@ -3182,6 +3804,15 @@ const dvorak_node_t dvorak_node_B_LS2_B_J = {
   .children_num = 0,
   .key          = B_J,
   .value        = SS_LCTL("j"),
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_V = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_V,
+  .value        = SS_LGUI(SS_LALT("v")),
 };
 
 
@@ -3246,6 +3877,15 @@ const dvorak_node_t dvorak_node_B_RS3_B_E = {
 };
 
 
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_O = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_O,
+  .value        = SS_LGUI(SS_LALT("o")),
+};
+
+
 const dvorak_node_t dvorak_node_B_U_B_O_B_T = {
   .parent       = &dvorak_node_B_U_B_O,
   .children     = NULL,
@@ -3270,6 +3910,24 @@ const dvorak_node_t dvorak_node_B_U_B_O_B_L = {
   .children_num = 0,
   .key          = B_L,
   .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("l")))),
+};
+
+
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_P = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_P,
+  .value        = SS_LGUI(SS_LALT("p")),
+};
+
+
+const dvorak_node_t dvorak_node_B_RS2_B_P_B_G = {
+  .parent       = &dvorak_node_B_RS2_B_P,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = SS_LSFT(SS_TAP(X_TAB)),
 };
 
 
@@ -3415,15 +4073,6 @@ const dvorak_node_t dvorak_node_B_K = {
 };
 
 
-const dvorak_node_t dvorak_node_B_RS2_B_T_B_E = {
-  .parent       = &dvorak_node_B_RS2_B_T,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = SS_LSFT(SS_TAP(X_TAB)),
-};
-
-
 const dvorak_node_t dvorak_node_B_RS1_B_DOT = {
   .parent       = &dvorak_node_B_RS1,
   .children     = NULL,
@@ -3451,6 +4100,15 @@ const dvorak_node_t dvorak_node_B_LS1_B_J = {
 };
 
 
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_G = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_G,
+  .value        = SS_LGUI(SS_LALT("g")),
+};
+
+
 const dvorak_node_t dvorak_node_B_LS1_B_G = {
   .parent       = &dvorak_node_B_LS1,
   .children     = NULL,
@@ -3471,10 +4129,37 @@ const dvorak_node_t dvorak_node_B_O = {
 };
 
 
+const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_Z = {
+  .parent       = &dvorak_node_B_RS1_B_LS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Z,
+  .value        = SS_LGUI(SS_LALT("z")),
+};
+
+
 const dvorak_node_t dvorak_node_B_O_B_U_B_RS2 = {
   .parent       = &dvorak_node_B_O_B_U,
   .children     = NULL,
   .children_num = 0,
   .key          = B_RS2,
   .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(SS_TAP(X_ENT))))),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_K = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_K,
+  .value        = SS_LGUI(SS_LALT("k")),
+};
+
+
+const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_Q = {
+  .parent       = &dvorak_node_B_LS1_B_RS1,
+  .children     = NULL,
+  .children_num = 0,
+  .key          = B_Q,
+  .value        = SS_LGUI(SS_LALT("q")),
 };

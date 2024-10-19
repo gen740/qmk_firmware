@@ -13,9 +13,10 @@ typedef struct naginata_node naginata_node_t;
 struct naginata_node {
     const naginata_node_t*  parent;
     const naginata_node_t** children;
-    uint8_t           children_num;
-    int8_t            key;
-    const char*       value;
+    uint8_t                 children_num;
+    int8_t                  key;
+    const char*             value;
+    bool                    reverse;
 };
 
 const naginata_node_t naginata_node_root;

@@ -11,4 +11,4 @@
 #undef LOCKING_RESYNC_ENABLE
 
 #define GRAVE_ESC_GUI_OVERRIDE
-#define DEBOUNCE 14
+/*#define DEBOUNCE 14*/
