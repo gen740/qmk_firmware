@@ -4,4162 +4,16237 @@
  */
 #include "dvorak_keydata.h"
 
-#define B_A    0
-#define B_B    1
-#define B_C    2
-#define B_D    3
-#define B_E    4
-#define B_F    5
-#define B_G    6
-#define B_H    7
-#define B_I    8
-#define B_J    9
-#define B_K    10
-#define B_L    11
-#define B_M    12
-#define B_N    13
-#define B_O    14
-#define B_P    15
-#define B_Q    16
-#define B_R    17
-#define B_S    18
-#define B_T    19
-#define B_U    20
-#define B_V    21
-#define B_W    22
-#define B_X    23
-#define B_Y    24
-#define B_Z    25
-#define B_QUOT 26
-#define B_COMM 27
-#define B_DOT  28
-#define B_SCLN 29
-#define B_LS1  30
-#define B_RS1  31
-#define B_LS2  32
-#define B_RS2  33
-#define B_LS3  34
-#define B_RS3  35
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_J;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_W;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_DOT;
+const dvorak_node_t dvorak_reversenode_DV_F;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_Y;
+const dvorak_node_t dvorak_node_DV_E_DV_F;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_M;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_SCLN;
+const dvorak_node_t dvorak_node_DV_SCLN;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_COMM;
+const dvorak_node_t dvorak_node_DV_H_DV_D;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_Y;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_T;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_S;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_QUOT;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_N;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_B;
+const dvorak_node_t dvorak_node_DV_N;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_C;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_W;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_G;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_K;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_RSFT2;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_DOT;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_D;
+const dvorak_node_t dvorak_node_DV_QUOT;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_X;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_U;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_I;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_J;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_Y;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_E;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_N;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_QUOT;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_F;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_A;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_F;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_E;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_COMM;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_U;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_R;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_W;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_W;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_G;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_D;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_S;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_E;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_Q;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_I;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_K;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_M;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_P_DV_G;
+const dvorak_node_t dvorak_reversenode_DV_M;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_DOT;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_C;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_D;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_E;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_X;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_K;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_Y;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_B;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_Y;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_A;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_H;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_Q;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_E;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_U;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_SCLN;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_SCLN;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_E;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_J;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_Z;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_Q;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_M;
+const dvorak_node_t dvorak_node_DV_E_DV_G;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_L;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_O;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_V;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_E_DV_T;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_P;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_Q;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_LSFT2;
+const dvorak_node_t dvorak_node_DV_U_DV_O;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_O;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_S;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_D;
+const dvorak_node_t dvorak_reversenode_DV_G;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_D;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_L;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_W;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_U;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_F;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_W;
+const dvorak_node_t dvorak_reversenode_DV_COMM;
+const dvorak_node_t dvorak_node_DV_Y;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_R;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_M;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_Z;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_H;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_QUOT;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_H;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_I;
+const dvorak_node_t dvorak_reversenode_DV_K;
+const dvorak_node_t dvorak_node_DV_S;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_Z;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_F;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_COMM;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_QUOT;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_J;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_K;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_X;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_P;
+const dvorak_node_t dvorak_reversenode_DV_A;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_V;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_V;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_H;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_C;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_O;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_D;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_K;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_F;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_G;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_N;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_R;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_N;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_COMM;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_B;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_N;
+const dvorak_node_t dvorak_node_DV_Q;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_V;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_I;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_D;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_W;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_C;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_I;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_Z;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_F;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_B;
+const dvorak_node_t dvorak_reversenode_DV_E_DV_N;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_Z;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_O;
+const dvorak_node_t dvorak_node_DV_I_DV_U;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_P;
+const dvorak_node_t dvorak_node_DV_RSFT2;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_E;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_U;
+const dvorak_node_t dvorak_node_DV_COMM;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_A;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_G;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_M;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_P;
+const dvorak_node_t dvorak_node_DV_DOT;
+const dvorak_node_t dvorak_reversenode_DV_G_DV_P;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_I;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_V;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_O;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_D;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_A;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_C;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_O;
+const dvorak_node_t dvorak_node_DV_O_DV_U;
+const dvorak_node_t dvorak_node_DV_DOT_DV_COMM;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_X;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_W;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_T;
+const dvorak_node_t dvorak_node_DV_T_DV_P;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_SCLN;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_V;
+const dvorak_node_t dvorak_node_DV_X;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_L;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_L;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_P;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_L;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_Y;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_I;
+const dvorak_node_t dvorak_node_DV_LSFT2;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_P;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_J;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_QUOT;
+const dvorak_node_t dvorak_reversenode_DV_R;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_P;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_N_DV_E;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_O;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_N;
+const dvorak_node_t dvorak_node_DV_P_DV_G;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_R;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_K;
+const dvorak_node_t dvorak_node_DV_J;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_Q;
+const dvorak_node_t dvorak_node_DV_A;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_QUOT;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_K;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_A;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_E;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_L;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_H;
+const dvorak_node_t dvorak_reversenode_DV_B;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_H;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_K;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_W;
+const dvorak_node_t dvorak_reversenode_DV_Q;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_G;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_Y;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_DOT;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_N;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_U;
+const dvorak_node_t dvorak_reversenode_DV_D;
+const dvorak_node_t dvorak_node_DV_K;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_D;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_T;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_Q;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_C;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_X;
+const dvorak_node_t dvorak_reversenode_DV_V;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_A;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_COMM;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_RSFT2;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_V;
+const dvorak_node_t dvorak_node_root;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_F;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_K;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_C;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_S;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_DOT;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_A;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_H;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_D;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_DOT;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_LSFT2;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_U;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_U;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_X;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_A;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_F;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT2;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_S;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_B;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_QUOT;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_B;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_H;
+const dvorak_node_t dvorak_node_DV_N_DV_H;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_L;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_P_DV_G;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_E;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_DOT;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_G_DV_P;
+const dvorak_node_t dvorak_node_DV_E_DV_B;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_SCLN;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_N;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_O;
+const dvorak_node_t dvorak_reversenode_DV_T;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_H;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_N;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_DOT;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_Y;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_R;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_W;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_LSFT2;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_R;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_B;
+const dvorak_node_t dvorak_node_DV_I;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_E;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_A;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_O;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_Z;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_N;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_W;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_N;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_S;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_Y;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_RSFT2;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_G;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_M;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_G;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_M;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_S;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_V;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_D;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_N;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_S;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_C;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_Z;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_U;
+const dvorak_node_t dvorak_reversenode_DV_DOT;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_R;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_U;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_S;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_U;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_M;
+const dvorak_node_t dvorak_node_DV_R;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_X;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_T;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_Y;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_C;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_Q;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_U;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_N;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_B;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_A;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2;
+const dvorak_node_t dvorak_node_DV_E_DV_R;
+const dvorak_node_t dvorak_node_DV_RSFT3_DV_E;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_DOT;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2;
+const dvorak_node_t dvorak_node_DV_H;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_P;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_G;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_R;
+const dvorak_node_t dvorak_node_DV_LSFT1;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_N;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_QUOT;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_K;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_R;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_QUOT;
+const dvorak_node_t dvorak_reversenode_DV_Y;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_DOT;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_H;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_Q;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_K;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_F;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_A;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_G;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_E_DV_N;
+const dvorak_node_t dvorak_node_DV_T_DV_DOT;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_S;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_U;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_I;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_X;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_C;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_D;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_T;
+const dvorak_node_t dvorak_node_DV_W;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_W;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_L;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_J;
+const dvorak_node_t dvorak_reversenode_DV_P_DV_G;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_T;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_M;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_J;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_U;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_SCLN;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_I;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_M;
+const dvorak_node_t dvorak_node_DV_COMM_DV_DOT;
+const dvorak_node_t dvorak_node_DV_O;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_X;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_J;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_X;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_B;
+const dvorak_node_t dvorak_reversenode_DV_C;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_T;
+const dvorak_node_t dvorak_node_DV_G_DV_P;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_T;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_R;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_P;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_SCLN;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_COMM;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_J;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_D;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_E;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_A;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_B;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_W;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_B;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_S;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_P;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_C;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_G;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_COMM;
+const dvorak_node_t dvorak_reversenode_DV_E;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_I;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_T;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_D;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_X;
+const dvorak_node_t dvorak_reversenode_DV_N;
+const dvorak_node_t dvorak_node_DV_T;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_G;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_N;
+const dvorak_node_t dvorak_reversenode_DV_W;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_DOT;
+const dvorak_node_t dvorak_node_DV_Z;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_R;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_G;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_COMM;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_M;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_G;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_O;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_DOT;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_G_DV_P;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_T;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_F;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_DOT;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_Y;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_J;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_B;
+const dvorak_node_t dvorak_node_DV_T_DV_Q;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_Z;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_E;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_J;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_H;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_H;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_V;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_L;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_B;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT2;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_P;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_B;
+const dvorak_node_t dvorak_reversenode_DV_RSFT3;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_M;
+const dvorak_node_t dvorak_reversenode_DV_X;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_Y;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_O;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_X;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_J;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_F;
+const dvorak_node_t dvorak_node_DV_L;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_W;
+const dvorak_node_t dvorak_node_DV_E_DV_L;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_I;
+const dvorak_node_t dvorak_node_DV_H_DV_N;
+const dvorak_node_t dvorak_node_DV_RSFT3_DV_O;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_T;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_DOT;
+const dvorak_node_t dvorak_node_DV_B;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_T;
+const dvorak_node_t dvorak_node_DV_T_DV_COMM;
+const dvorak_node_t dvorak_node_DV_T_DV_QUOT;
+const dvorak_node_t dvorak_reversenode_DV_H;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_SCLN;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_A;
+const dvorak_node_t dvorak_node_DV_U_DV_I;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_R;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_QUOT;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_Y;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_G;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_L;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_Z;
+const dvorak_node_t dvorak_node_DV_RSFT3;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_L;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_LSFT2;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_COMM;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_S;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_H;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_O;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_U;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_COMM;
+const dvorak_node_t dvorak_node_DV_E_DV_C;
+const dvorak_node_t dvorak_reversenode_DV_S;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_C;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_V;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_Q;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_X;
+const dvorak_node_t dvorak_node_DV_C;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_C;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_Y;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_V;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_W;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_C;
+const dvorak_node_t dvorak_node_DV_RSFT1;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_R;
+const dvorak_node_t dvorak_reversenode_DV_E_DV_T;
+const dvorak_node_t dvorak_reversenode_DV_J;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_I;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_T;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_QUOT;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_P;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_T;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_SCLN;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_H;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_I;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_X;
+const dvorak_node_t dvorak_reversenode_DV_I;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_K;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_V;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_G;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_L;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_M;
+const dvorak_node_t dvorak_reversenode_DV_U;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_K;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_J;
+const dvorak_node_t dvorak_node_DV_RSFT3_DV_A;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_S;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_K;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_COMM;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_F;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_DOT;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_COMM;
+const dvorak_node_t dvorak_reversenode_DV_Z;
+const dvorak_node_t dvorak_node_DV_U;
+const dvorak_node_t dvorak_node_DV_T_DV_Y;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_COMM;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_H;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_B;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_Z;
+const dvorak_node_t dvorak_node_DV_D_DV_H;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_F;
+const dvorak_node_t dvorak_node_DV_E;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_QUOT;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_H;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_C;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_U;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_R;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_Q;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_I;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_T;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_M;
+const dvorak_node_t dvorak_node_DV_D;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+const dvorak_node_t dvorak_reversenode_DV_O;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_A;
+const dvorak_node_t dvorak_node_DV_M;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_O;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_E;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_D;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_G;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_A;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_J;
+const dvorak_node_t dvorak_node_DV_P;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_M;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_F;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_S;
+const dvorak_node_t dvorak_reversenode_DV_SCLN;
+const dvorak_node_t dvorak_node_DV_V;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_K;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_Z;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_DOT;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_F;
+const dvorak_node_t dvorak_reversenode_DV_L;
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_P;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_C;
+const dvorak_node_t dvorak_reversenode_DV_QUOT;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_B;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_Y;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_O;
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_F;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_S;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_P;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_Q;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_J;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_X;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_V;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_RSFT2;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_A;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_U;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_T;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_LSFT2;
+const dvorak_node_t dvorak_node_DV_F;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_D;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_V;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_W;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_V;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_COMM;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_Z;
+const dvorak_node_t dvorak_node_DV_G;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_SCLN;
+const dvorak_node_t dvorak_reversenode_DV_O_DV_R;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_S;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_H;
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_M;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_E;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_K;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_E;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_I;
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_E;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_J;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_RSFT2;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_O;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_COMM;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_X;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_Y;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_R;
+const dvorak_node_t dvorak_reversenode_DV_N_DV_SCLN;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_I;
+const dvorak_node_t dvorak_reversenode_DV_U_DV_V;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_COMM;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_Q;
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_P;
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_SCLN;
+const dvorak_node_t dvorak_reversenode_DV_P;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_N;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_N;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_O;
+const dvorak_node_t dvorak_reversenode_DV_H_DV_P;
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_O;
 
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_DOT;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_N;
-const dvorak_node_t dvorak_node_B_LS2_B_F;
-const dvorak_node_t dvorak_node_B_RS2_B_A;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_E;
-const dvorak_node_t dvorak_node_B_E_B_C;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_A;
-const dvorak_node_t dvorak_node_B_LS1;
-const dvorak_node_t dvorak_node_B_RS1_B_U;
-const dvorak_node_t dvorak_node_B_U_B_O_B_R;
-const dvorak_node_t dvorak_node_B_LS1_B_RS2;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_D;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_V;
-const dvorak_node_t dvorak_node_B_N_B_H_B_U;
-const dvorak_node_t dvorak_node_B_LS1_B_COMM;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_B;
-const dvorak_node_t dvorak_node_B_RS2_B_QUOT;
-const dvorak_node_t dvorak_node_B_U_B_O_B_D;
-const dvorak_node_t dvorak_node_B_LS2_B_W;
-const dvorak_node_t dvorak_node_B_O_B_U_B_D;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_N;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_P;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_X;
-const dvorak_node_t dvorak_node_B_LS2_B_M;
-const dvorak_node_t dvorak_node_B_LS1_B_K;
-const dvorak_node_t dvorak_node_B_T_B_COMM;
-const dvorak_node_t dvorak_node_B_RS2_B_F;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_R;
-const dvorak_node_t dvorak_node_B_LS2_B_P_B_G;
-const dvorak_node_t dvorak_node_B_O_B_U_B_W;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_Y;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_F;
-const dvorak_node_t dvorak_node_B_K;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_U;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_R;
-const dvorak_node_t dvorak_node_B_V;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2;
-const dvorak_node_t dvorak_node_B_LS2_B_Z;
-const dvorak_node_t dvorak_node_B_LS1_B_F;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_G;
-const dvorak_node_t dvorak_node_B_H_B_N_B_Y;
-const dvorak_node_t dvorak_node_B_RS1_B_Z;
-const dvorak_node_t dvorak_node_B_RS2_B_COMM;
-const dvorak_node_t dvorak_node_B_A;
-const dvorak_node_t dvorak_node_B_LS2_B_B;
-const dvorak_node_t dvorak_node_B_RS1_B_L;
-const dvorak_node_t dvorak_node_B_LS2_B_E;
-const dvorak_node_t dvorak_node_B_LS1_B_Z;
-const dvorak_node_t dvorak_node_B_O_B_U_B_L;
-const dvorak_node_t dvorak_node_B_O_B_U_B_RS2;
-const dvorak_node_t dvorak_node_B_LS1_B_DOT;
-const dvorak_node_t dvorak_node_B_RS1_B_B;
-const dvorak_node_t dvorak_node_B_G;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_C;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_K;
-const dvorak_node_t dvorak_node_B_R;
-const dvorak_node_t dvorak_node_B_RS1_B_Q;
-const dvorak_node_t dvorak_node_B_H_B_N_B_DOT;
-const dvorak_node_t dvorak_node_B_LS2_B_COMM;
-const dvorak_node_t dvorak_node_B_LS1_B_G;
-const dvorak_node_t dvorak_node_B_LS1_B_LS2;
-const dvorak_node_t dvorak_node_B_LS1_B_L;
-const dvorak_node_t dvorak_node_B_LS2_B_T;
-const dvorak_node_t dvorak_node_B_U_B_O_B_S;
-const dvorak_node_t dvorak_node_B_LS1_B_J;
-const dvorak_node_t dvorak_node_B_RS1_B_J;
-const dvorak_node_t dvorak_node_B_O_B_U;
-const dvorak_node_t dvorak_node_B_LS1_B_H;
-const dvorak_node_t dvorak_node_B_P;
-const dvorak_node_t dvorak_node_B_RS2_B_R;
-const dvorak_node_t dvorak_node_B_RS1_B_Y;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_K;
-const dvorak_node_t dvorak_node_B_RS2_B_T;
-const dvorak_node_t dvorak_node_B_H_B_N_B_SCLN;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_X;
-const dvorak_node_t dvorak_node_B_M;
-const dvorak_node_t dvorak_node_B_U_B_O_B_B;
-const dvorak_node_t dvorak_node_B_LS2_B_J;
-const dvorak_node_t dvorak_node_B_H_B_N;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_SCLN;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_S;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_H;
-const dvorak_node_t dvorak_node_B_LS1_B_S;
-const dvorak_node_t dvorak_node_B_RS2_B_Y;
-const dvorak_node_t dvorak_node_B_LS2_B_Q;
-const dvorak_node_t dvorak_node_B_U_B_O_B_C;
-const dvorak_node_t dvorak_node_B_RS2_B_P;
-const dvorak_node_t dvorak_node_B_H_B_N_B_U;
-const dvorak_node_t dvorak_node_B_LS2_B_E_B_N;
-const dvorak_node_t dvorak_node_B_N_B_H;
-const dvorak_node_t dvorak_node_B_Y;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_I;
-const dvorak_node_t dvorak_node_B_RS2_B_W;
-const dvorak_node_t dvorak_node_B_LS2_B_X;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_H;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_J;
-const dvorak_node_t dvorak_node_B_RS1_B_V;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_D;
-const dvorak_node_t dvorak_node_B_H_B_N_B_COMM;
-const dvorak_node_t dvorak_node_B_T_B_Y;
-const dvorak_node_t dvorak_node_B_LS1_B_U;
-const dvorak_node_t dvorak_node_B_O_B_U_B_R;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_T;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_V;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_E;
-const dvorak_node_t dvorak_node_B_QUOT;
-const dvorak_node_t dvorak_node_B_E_B_R;
-const dvorak_node_t dvorak_node_B_Q;
-const dvorak_node_t dvorak_node_B_RS2_B_E;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_C;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_G;
-const dvorak_node_t dvorak_node_B_LS2_B_O;
-const dvorak_node_t dvorak_node_B_H_B_D;
-const dvorak_node_t dvorak_node_B_H;
-const dvorak_node_t dvorak_node_B_N_B_H_B_QUOT;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_P;
-const dvorak_node_t dvorak_node_B_RS2_B_V;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_L;
-const dvorak_node_t dvorak_node_B_LS2;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_Z;
-const dvorak_node_t dvorak_node_B_LS2_B_P;
-const dvorak_node_t dvorak_node_B_H_B_N_B_QUOT;
-const dvorak_node_t dvorak_node_B_H_B_N_B_Q;
-const dvorak_node_t dvorak_node_B_O_B_U_B_V;
-const dvorak_node_t dvorak_node_B_RS3;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_D;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_R;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_SCLN;
-const dvorak_node_t dvorak_node_B_RS2_B_I;
-const dvorak_node_t dvorak_node_B_U_B_O_B_RS2;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_V;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_DOT;
-const dvorak_node_t dvorak_node_B_U_B_O_B_W;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_K;
-const dvorak_node_t dvorak_node_B_U_B_O_B_M;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_W;
-const dvorak_node_t dvorak_node_B_LS2_B_G_B_P;
-const dvorak_node_t dvorak_node_B_O_B_U_B_B;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_F;
-const dvorak_node_t dvorak_node_B_LS1_B_Q;
-const dvorak_node_t dvorak_node_B_U;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_G;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_U;
-const dvorak_node_t dvorak_node_B_COMM_B_DOT;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_S;
-const dvorak_node_t dvorak_node_B_RS1_B_A;
-const dvorak_node_t dvorak_node_B_SCLN;
-const dvorak_node_t dvorak_node_B_RS1_B_D;
-const dvorak_node_t dvorak_node_B_RS2_B_B;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_W;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_Y;
-const dvorak_node_t dvorak_node_B_RS1_B_W;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_DOT;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_N;
-const dvorak_node_t dvorak_node_B_H_B_N_B_J;
-const dvorak_node_t dvorak_node_B_U_B_O;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_S;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1;
-const dvorak_node_t dvorak_node_B_RS2_B_L;
-const dvorak_node_t dvorak_node_B_N_B_H_B_P;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_M;
-const dvorak_node_t dvorak_node_B_T_B_DOT;
-const dvorak_node_t dvorak_node_B_T_B_P;
-const dvorak_node_t dvorak_node_B_B;
-const dvorak_node_t dvorak_node_B_N_B_H_B_E;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_O;
-const dvorak_node_t dvorak_node_B_LS2_B_G;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_K;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_U;
-const dvorak_node_t dvorak_node_B_RS2_B_C;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_QUOT;
-const dvorak_node_t dvorak_node_B_LS2_B_D;
-const dvorak_node_t dvorak_node_B_LS1_B_W;
-const dvorak_node_t dvorak_node_B_RS1_B_K;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_R;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_O;
-const dvorak_node_t dvorak_node_B_N_B_H_B_Y;
-const dvorak_node_t dvorak_node_B_G_B_P;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_C;
-const dvorak_node_t dvorak_node_B_U_B_O_B_V;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_T;
-const dvorak_node_t dvorak_node_B_LS1_B_QUOT;
-const dvorak_node_t dvorak_node_B_T_B_Q;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_Q;
-const dvorak_node_t dvorak_node_B_RS3_B_O;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_F;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_I;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_S;
-const dvorak_node_t dvorak_node_B_RS2_B_S;
-const dvorak_node_t dvorak_node_B_U_B_O_B_L;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_W;
-const dvorak_node_t dvorak_node_B_RS2_B_U;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_O;
-const dvorak_node_t dvorak_node_B_RS2_B_O;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_J;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2;
-const dvorak_node_t dvorak_node_B_J;
-const dvorak_node_t dvorak_node_B_RS2_B_DOT;
-const dvorak_node_t dvorak_node_B_RS1_B_SCLN;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_O;
-const dvorak_node_t dvorak_node_B_O_B_U_B_F;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1;
-const dvorak_node_t dvorak_node_B_E_B_B;
-const dvorak_node_t dvorak_node_B_RS1_B_G;
-const dvorak_node_t dvorak_node_B_O_B_U_B_H;
-const dvorak_node_t dvorak_node_B_RS1_B_COMM;
-const dvorak_node_t dvorak_node_B_LS2_B_H;
-const dvorak_node_t dvorak_node_B_RS1_B_DOT;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_M;
-const dvorak_node_t dvorak_node_B_L;
-const dvorak_node_t dvorak_node_B_H_B_N_B_LS2;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_T;
-const dvorak_node_t dvorak_node_B_RS2_B_SCLN;
-const dvorak_node_t dvorak_node_B_U_B_O_B_Z;
-const dvorak_node_t dvorak_node_B_O_B_U_B_G;
-const dvorak_node_t dvorak_node_B_RS1_B_T;
-const dvorak_node_t dvorak_node_B_U_B_O_B_N;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_COMM;
-const dvorak_node_t dvorak_node_B_RS2_B_J;
-const dvorak_node_t dvorak_node_B_W;
-const dvorak_node_t dvorak_node_B_LS1_B_R;
-const dvorak_node_t dvorak_node_B_LS2_B_U;
-const dvorak_node_t dvorak_node_B_U_B_O_B_G;
-const dvorak_node_t dvorak_node_B_RS1;
-const dvorak_node_t dvorak_node_B_X;
-const dvorak_node_t dvorak_node_B_S;
-const dvorak_node_t dvorak_node_B_H_B_N_B_K;
-const dvorak_node_t dvorak_node_B_LS2_B_L;
-const dvorak_node_t dvorak_node_B_DOT_B_COMM;
-const dvorak_node_t dvorak_node_B_D;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_N;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_J;
-const dvorak_node_t dvorak_node_B_U_B_O_B_F;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_COMM;
-const dvorak_node_t dvorak_node_B_RS2_B_D;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_F;
-const dvorak_node_t dvorak_node_B_E_B_L;
-const dvorak_node_t dvorak_node_B_N_B_H_B_DOT;
-const dvorak_node_t dvorak_node_B_N_B_H_B_Q;
-const dvorak_node_t dvorak_node_B_LS1_B_M;
-const dvorak_node_t dvorak_node_B_N_B_H_B_K;
-const dvorak_node_t dvorak_node_B_E;
-const dvorak_node_t dvorak_node_B_LS2_B_S;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_T;
-const dvorak_node_t dvorak_node_B_LS2_B_SCLN;
-const dvorak_node_t dvorak_node_B_RS1_B_LS2;
-const dvorak_node_t dvorak_node_B_LS1_B_C;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_D;
-const dvorak_node_t dvorak_node_B_D_B_H;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_A;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_COMM;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_Z;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_QUOT;
-const dvorak_node_t dvorak_node_B_LS1_B_E;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_P;
-const dvorak_node_t dvorak_node_B_N_B_H_B_I;
-const dvorak_node_t dvorak_node_B_RS1_B_S;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_P;
-const dvorak_node_t dvorak_node_B_I;
-const dvorak_node_t dvorak_node_B_N;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_I;
-const dvorak_node_t dvorak_node_B_E_B_F;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_M;
-const dvorak_node_t dvorak_node_B_DOT;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_L;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_H;
-const dvorak_node_t dvorak_node_B_RS2_B_Z;
-const dvorak_node_t dvorak_node_B_RS3_B_E;
-const dvorak_node_t dvorak_node_B_LS2_B_Y;
-const dvorak_node_t dvorak_node_B_O;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_V;
-const dvorak_node_t dvorak_node_B_H_B_N_B_P;
-const dvorak_node_t dvorak_node_B_U_B_O_B_H;
-const dvorak_node_t dvorak_node_B_COMM;
-const dvorak_node_t dvorak_node_B_H_B_N_B_E;
-const dvorak_node_t dvorak_node_B_T;
-const dvorak_node_t dvorak_node_B_RS1_B_X;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_Y;
-const dvorak_node_t dvorak_node_B_LS1_B_T;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_E;
-const dvorak_node_t dvorak_node_B_RS2_B_M;
-const dvorak_node_t dvorak_node_B_N_B_H_B_SCLN;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_DOT;
-const dvorak_node_t dvorak_node_B_F;
-const dvorak_node_t dvorak_node_B_RS2;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_Y;
-const dvorak_node_t dvorak_node_B_LS2_B_C;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_M;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_J;
-const dvorak_node_t dvorak_node_B_N_B_H_B_J;
-const dvorak_node_t dvorak_node_B_H_B_N_B_I;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_B;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_H;
-const dvorak_node_t dvorak_node_B_LS1_B_SCLN;
-const dvorak_node_t dvorak_node_B_RS2_B_N;
-const dvorak_node_t dvorak_node_B_O_B_U_B_M;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_W;
-const dvorak_node_t dvorak_node_B_O_B_U_B_T;
-const dvorak_node_t dvorak_node_B_N_B_H_B_LS2;
-const dvorak_node_t dvorak_node_B_RS2_B_Q;
-const dvorak_node_t dvorak_node_B_LS2_B_N_B_E;
-const dvorak_node_t dvorak_node_B_RS3_B_A;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_COMM;
-const dvorak_node_t dvorak_node_B_H_B_N_B_O;
-const dvorak_node_t dvorak_node_B_H_B_N_B_X;
-const dvorak_node_t dvorak_node_B_LS1_B_Y;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_A;
-const dvorak_node_t dvorak_node_B_I_B_U;
-const dvorak_node_t dvorak_node_B_RS1_B_QUOT;
-const dvorak_node_t dvorak_node_B_LS2_B_R;
-const dvorak_node_t dvorak_node_B_U_B_I;
-const dvorak_node_t dvorak_node_B_RS2_B_P_B_G;
-const dvorak_node_t dvorak_node_B_RS1_B_RS2;
-const dvorak_node_t dvorak_node_B_RS1_B_O;
-const dvorak_node_t dvorak_node_B_RS1_B_M;
-const dvorak_node_t dvorak_node_B_U_B_O_B_T;
-const dvorak_node_t dvorak_node_B_RS1_B_N;
-const dvorak_node_t dvorak_node_B_LS1_B_X;
-const dvorak_node_t dvorak_node_B_O_B_U_B_S;
-const dvorak_node_t dvorak_node_B_LS2_B_V;
-const dvorak_node_t dvorak_node_B_O_B_U_B_C;
-const dvorak_node_t dvorak_node_B_N_B_H_B_COMM;
-const dvorak_node_t dvorak_node_B_RS1_B_P;
-const dvorak_node_t dvorak_node_B_C;
-const dvorak_node_t dvorak_node_B_N_B_H_B_O;
-const dvorak_node_t dvorak_node_B_LS1_B_B;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_C;
-const dvorak_node_t dvorak_node_B_RS1_B_C;
-const dvorak_node_t dvorak_node_B_N_B_H_B_X;
-const dvorak_node_t dvorak_node_B_LS1_B_V;
-const dvorak_node_t dvorak_node_B_RS2_B_G_B_P;
-const dvorak_node_t dvorak_node_B_LS2_B_N;
-const dvorak_node_t dvorak_node_B_RS2_B_H;
-const dvorak_node_t dvorak_node_B_LS2_B_A;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_B;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_U;
-const dvorak_node_t dvorak_node_B_E_B_G;
-const dvorak_node_t dvorak_node_B_LS1_B_A;
-const dvorak_node_t dvorak_node_B_RS1_B_I;
-const dvorak_node_t dvorak_node_B_LS2_B_I;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_I;
-const dvorak_node_t dvorak_node_B_RS1_B_F;
-const dvorak_node_t dvorak_node_B_T_B_QUOT;
-const dvorak_node_t dvorak_node_B_RS2_B_G;
-const dvorak_node_t dvorak_node_B_LS2_B_QUOT;
-const dvorak_node_t dvorak_node_B_LS1_B_I;
-const dvorak_node_t dvorak_node_B_RS1_B_E;
-const dvorak_node_t dvorak_node_B_O_B_U_B_N;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_G;
-const dvorak_node_t dvorak_node_B_LS1_B_O;
-const dvorak_node_t dvorak_node_B_RS2_B_X;
-const dvorak_node_t dvorak_node_B_RS1_B_R;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_Q;
-const dvorak_node_t dvorak_node_B_N_B_H_B_A;
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_X;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_A;
-const dvorak_node_t dvorak_node_B_LS2_B_E_B_T;
-const dvorak_node_t dvorak_node_B_LS1_B_D;
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_B;
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_E;
-const dvorak_node_t dvorak_node_B_Z;
-const dvorak_node_t dvorak_node_B_RS2_B_K;
-const dvorak_node_t dvorak_node_B_RS1_B_H;
-const dvorak_node_t dvorak_node_B_LS1_B_P;
-const dvorak_node_t dvorak_node_B_LS1_B_N;
-const dvorak_node_t dvorak_node_B_LS2_B_DOT;
-const dvorak_node_t dvorak_node_B_O_B_U_B_Z;
-const dvorak_node_t dvorak_node_B_H_B_N_B_A;
-const dvorak_node_t dvorak_node_B_P_B_G;
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_X;
-const dvorak_node_t dvorak_node_B_LS2_B_K;
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        case DV_P: return &dvorak_node_DV_LSFT2_DV_G_DV_P;
 
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_LS2_B_H = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = SS_LCTL("h"),
-};
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_LSFT2;
 
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_LS1_B_I = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = SS_LALT("i"),
-};
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_G = {
+    .parent       = NULL,
+    .key          = DV_G,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_G_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_G_prev_node,
+    };
 
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_G_B_P = {
-  .parent       = &dvorak_node_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = SS_TAP(X_TAB),
-};
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_COMM;
+case DV_H: return &dvorak_reversenode_DV_N_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_N_DV_H;
 
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_RS1_B_D = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = SS_LGUI("d"),
-};
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_COMM = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_COMM,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(",")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_COMM_prev_node,
+    };
 
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_COMM_B_DOT = {
-  .parent       = &dvorak_node_B_COMM,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = SS_TAP(X_ESC),
-};
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_T;
+case DV_U: return &dvorak_reversenode_DV_O_DV_T;
+case DV_T: return &dvorak_reversenode_DV_O_DV_U;
 
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_F = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = SS_LGUI(SS_LALT("f")),
-};
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_T = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_T,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("t")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_T_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_T_prev_node,
+    };
 
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_U_B_O_B_Z = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Z,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("z")))),
-};
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_B;
+case DV_B: return &dvorak_reversenode_DV_U;
 
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_U_B_O_B_G = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("g")))),
-};
+const dvorak_node_t dvorak_reversenode_DV_U_DV_B = {
+    .parent       = NULL,
+    .key          = DV_B,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_B_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_B_prev_node,
+    };
 
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_Z = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Z,
-  .value        = SS_LGUI(SS_LALT("z")),
-};
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_I;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_I;
+case DV_I: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
 
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_U_B_O_B_C = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("c")))),
-};
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_I = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_I,
+    .value        = "5",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_I_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_I_prev_node,
+    };
 
-const dvorak_node_t* dvorak_node_B_DOT_children[1] = {
-  &dvorak_node_B_DOT_B_COMM,
-};
-const dvorak_node_t dvorak_node_B_DOT = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_DOT_children,
-  .children_num = 1,
-  .key          = B_DOT,
-  .value        = ".",
-};
+const dvorak_node_t* dvorak_node_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
 
+const dvorak_node_t* dvorak_node_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_L: return &dvorak_node_root;
 
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_A = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = "1",
-};
+        default: return NULL;
+    }
+}
 
+const dvorak_node_t dvorak_node_DV_L = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_L,
+    .value        = "l",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_L_next_node,
+    .prev_node    = dvorak_node_DV_L_prev_node,
+    };
 
-const dvorak_node_t dvorak_node_B_RS2_B_QUOT = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_QUOT,
-  .value        = "\"",
-};
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
 
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_I;
+case DV_I: return &dvorak_reversenode_DV_LSFT2;
 
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_I = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "5",
-};
+        default: return NULL;
+    }
+}
 
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_I = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_I,
+    .value        = SS_LCTL("i"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_I_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_I_prev_node,
+    };
 
-const dvorak_node_t dvorak_node_B_RS1_B_J = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = SS_LGUI("j"),
-};
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
 
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_C;
+case DV_C: return &dvorak_reversenode_DV_U;
 
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_Y = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Y,
-  .value        = SS_LGUI(SS_LALT("y")),
-};
+        default: return NULL;
+    }
+}
 
+const dvorak_node_t dvorak_reversenode_DV_U_DV_C = {
+    .parent       = NULL,
+    .key          = DV_C,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_C_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_C_prev_node,
+    };
 
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_X = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "=",
-};
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
 
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_LSFT1;
 
-const dvorak_node_t dvorak_node_B_N_B_H_B_A = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("a")))),
-};
+        default: return NULL;
+    }
+}
 
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_P = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_P,
+    .value        = SS_LALT("p"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_P_prev_node,
+    };
 
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_U = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = SS_LGUI(SS_LALT("u")),
-};
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_node_DV_LSFT2_DV_N_DV_E;
 
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_D = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = "6",
-};
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_LSFT2;
 
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_H = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = SS_LGUI(SS_LALT("h")),
-};
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_N = {
+    .parent       = NULL,
+    .key          = DV_N,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_N_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_N_prev_node,
+    };
 
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_W = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = SS_LGUI(SS_LALT("w")),
-};
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_COMM;
+case DV_N: return &dvorak_reversenode_DV_H_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_H_DV_N;
 
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_LS2_B_E_B_T = {
-  .parent       = &dvorak_node_B_LS2_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_T,
-  .value        = SS_LCTL("^"),
-};
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_COMM = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_COMM,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(",")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_COMM_prev_node,
+    };
 
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_RS1_B_C = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = SS_LGUI("c"),
-};
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_R;
+case DV_R: return &dvorak_reversenode_DV_RSFT1;
 
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_QUOT = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_QUOT,
-  .value        = SS_LGUI(SS_LALT("'")),
-};
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_R = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_R,
+    .value        = SS_LGUI("r"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_R_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_R_prev_node,
+    };
 
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_RS2_B_X = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "X",
-};
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_C;
+case DV_C: return &dvorak_reversenode_DV_RSFT1;
 
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_J = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "|",
-};
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_C = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_C,
+    .value        = SS_LGUI("c"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_C_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_C_prev_node,
+    };
 
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_O = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "2",
-};
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_W;
+case DV_W: return &dvorak_reversenode_DV_LSFT1;
 
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t dvorak_node_B_M = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "m",
-};
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_W = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_W,
+    .value        = SS_LALT("w"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_W_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_W_prev_node,
+    };
 
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        case DV_G: return &dvorak_node_DV_LSFT2_DV_P_DV_G;
 
-const dvorak_node_t dvorak_node_B_LS2_B_A = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = SS_LCTL("a"),
-};
+        default: return NULL;
+    }
+}
 
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_LSFT2;
 
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_I = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = SS_LGUI(SS_LALT("i")),
-};
+        default: return NULL;
+    }
+}
 
-const dvorak_node_t* dvorak_node_root_children[35] = {
-  &dvorak_node_B_QUOT,
-  &dvorak_node_B_COMM,
-  &dvorak_node_B_DOT,
-  &dvorak_node_B_P,
-  &dvorak_node_B_Y,
-  &dvorak_node_B_F,
-  &dvorak_node_B_G,
-  &dvorak_node_B_C,
-  &dvorak_node_B_R,
-  &dvorak_node_B_L,
-  &dvorak_node_B_A,
-  &dvorak_node_B_O,
-  &dvorak_node_B_E,
-  &dvorak_node_B_U,
-  &dvorak_node_B_I,
-  &dvorak_node_B_D,
-  &dvorak_node_B_H,
-  &dvorak_node_B_T,
-  &dvorak_node_B_N,
-  &dvorak_node_B_S,
-  &dvorak_node_B_SCLN,
-  &dvorak_node_B_Q,
-  &dvorak_node_B_J,
-  &dvorak_node_B_K,
-  &dvorak_node_B_X,
-  &dvorak_node_B_B,
-  &dvorak_node_B_M,
-  &dvorak_node_B_W,
-  &dvorak_node_B_V,
-  &dvorak_node_B_Z,
-  &dvorak_node_B_LS1,
-  &dvorak_node_B_LS2,
-  &dvorak_node_B_RS2,
-  &dvorak_node_B_RS1,
-  &dvorak_node_B_RS3,
-};
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_P = {
+    .parent       = NULL,
+    .key          = DV_P,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_P_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_E;
+case DV_N: return &dvorak_reversenode_DV_H_DV_E;
+case DV_E: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_E = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_E,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("e")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_Z;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_Z;
+case DV_Z: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_Z = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_Z,
+    .value        = SS_LGUI(SS_LALT("z")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_Z_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_W;
+case DV_O: return &dvorak_reversenode_DV_U_DV_W;
+case DV_W: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_W = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_W,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("w")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_W_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_V;
+case DV_V: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_V = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_V,
+    .value        = SS_LALT("v"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_V_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        case DV_F: return &dvorak_node_DV_E_DV_F;
+case DV_G: return &dvorak_node_DV_E_DV_G;
+case DV_C: return &dvorak_node_DV_E_DV_C;
+case DV_R: return &dvorak_node_DV_E_DV_R;
+case DV_L: return &dvorak_node_DV_E_DV_L;
+case DV_B: return &dvorak_node_DV_E_DV_B;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_E = {
+    .parent       = NULL,
+    .key          = DV_E,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_E_next_node,
+    .prev_node    = dvorak_reversenode_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_COMM = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_COMM,
+    .value        = SS_LALT(","),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_I;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_I;
+case DV_I: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_I = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_I,
+    .value        = "5",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_I_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_P_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_P_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_P: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_P;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_P_DV_G = {
+    .parent       = &dvorak_reversenode_DV_P,
+    .key          = DV_G,
+    .value        = SS_TAP(X_TAB),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_P_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_P_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_QUOT = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_QUOT,
+    .value        = SS_LALT("'"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_QUOT_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_W;
+case DV_W: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_W = {
+    .parent       = NULL,
+    .key          = DV_W,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_W_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_C;
+case DV_C: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_C = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_C,
+    .value        = SS_LALT("c"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_C_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        case DV_COMM: return &dvorak_node_DV_DOT_DV_COMM;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_DOT: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_DOT = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_DOT,
+    .value        = ".",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_node_DV_U_DV_O;
+case DV_I: return &dvorak_node_DV_U_DV_I;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U = {
+    .parent       = NULL,
+    .key          = DV_U,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_P;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_P;
+case DV_P: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_P = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_P,
+    .value        = "(",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_D;
+case DV_D: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_D = {
+    .parent       = NULL,
+    .key          = DV_D,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_D_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_B;
+case DV_B: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_B = {
+    .parent       = NULL,
+    .key          = DV_B,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_B_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_COMM;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_COMM = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_COMM,
+    .value        = "/",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_N_DV_H_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_N_DV_H_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_N_DV_H_DV_DOT;
+case DV_P: return &dvorak_node_DV_N_DV_H_DV_P;
+case DV_Y: return &dvorak_node_DV_N_DV_H_DV_Y;
+case DV_A: return &dvorak_node_DV_N_DV_H_DV_A;
+case DV_O: return &dvorak_node_DV_N_DV_H_DV_O;
+case DV_E: return &dvorak_node_DV_N_DV_H_DV_E;
+case DV_U: return &dvorak_node_DV_N_DV_H_DV_U;
+case DV_I: return &dvorak_node_DV_N_DV_H_DV_I;
+case DV_SCLN: return &dvorak_node_DV_N_DV_H_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_N_DV_H_DV_Q;
+case DV_J: return &dvorak_node_DV_N_DV_H_DV_J;
+case DV_K: return &dvorak_node_DV_N_DV_H_DV_K;
+case DV_X: return &dvorak_node_DV_N_DV_H_DV_X;
+case DV_LSFT2: return &dvorak_node_DV_N_DV_H_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_H = {
+    .parent       = NULL,
+    .key          = DV_H,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_H_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_DOT = {
+    .parent       = NULL,
+    .key          = DV_DOT,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_DOT_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_Z: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_Z = {
+    .parent       = NULL,
+    .key          = DV_Z,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_Z_next_node,
+    .prev_node    = dvorak_reversenode_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_S;
+case DV_S: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_S = {
+    .parent       = NULL,
+    .key          = DV_S,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_S_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_O = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_O,
+    .value        = SS_LALT("o"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_G_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_G_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_G_DV_P;
+case DV_G: return &dvorak_reversenode_DV_LSFT2_DV_P;
+case DV_P: return &dvorak_reversenode_DV_LSFT2_DV_G;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_G_DV_P = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_G,
+    .key          = DV_P,
+    .value        = SS_LCTL(SS_TAP(X_TAB)),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_G_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_G_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_LSFT2_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_LSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_LSFT2;
+case DV_LSFT2: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_LSFT2 = {
+    .parent       = NULL,
+    .key          = DV_LSFT2,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_LSFT2_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_LSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_J;
+case DV_J: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_J = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_J,
+    .value        = SS_LCTL("j"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_J_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_V;
+case DV_V: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_V = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_V,
+    .value        = SS_LCTL("v"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_V_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_P = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_P,
+    .value        = SS_LGUI("p"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_W;
+case DV_W: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_W = {
+    .parent       = NULL,
+    .key          = DV_W,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_W_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_H;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_H;
+case DV_H: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_H = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_H,
+    .value        = "7",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_Z;
+case DV_Z: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_Z = {
+    .parent       = NULL,
+    .key          = DV_Z,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_Z_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_Z;
+case DV_Z: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_Z = {
+    .parent       = NULL,
+    .key          = DV_Z,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_Z_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_E;
+case DV_E: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_E = {
+    .parent       = NULL,
+    .key          = DV_E,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_E_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_E;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_E;
+case DV_E: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_E = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_E,
+    .value        = SS_LGUI(SS_LALT("e")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_T;
+case DV_T: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_T = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_T,
+    .value        = "T",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_T_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_L;
+case DV_L: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_L = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_L,
+    .value        = "L",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_L_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT3_next_node(uint16_t key) {
+    switch (key) {
+        case DV_A: return &dvorak_node_DV_RSFT3_DV_A;
+case DV_O: return &dvorak_node_DV_RSFT3_DV_O;
+case DV_E: return &dvorak_node_DV_RSFT3_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT3_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT3: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT3 = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_RSFT3,
+    .value        = NULL,
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT3_next_node,
+    .prev_node    = dvorak_node_DV_RSFT3_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT3_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT3_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT3: return &dvorak_reversenode_DV_E;
+case DV_E: return &dvorak_reversenode_DV_RSFT3;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT3_DV_E = {
+    .parent       = &dvorak_reversenode_DV_RSFT3,
+    .key          = DV_E,
+    .value        = SS_LGUI(SS_LSFT("5")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT3_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_RSFT3_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_F;
+case DV_F: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_F = {
+    .parent       = NULL,
+    .key          = DV_F,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_F_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_E_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_E_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_reversenode_DV_L;
+case DV_L: return &dvorak_reversenode_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_E_DV_L = {
+    .parent       = &dvorak_reversenode_DV_E,
+    .key          = DV_L,
+    .value        = "$",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_E_DV_L_next_node,
+    .prev_node    = dvorak_node_DV_E_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_G = {
+    .parent       = NULL,
+    .key          = DV_G,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_G_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_Q = {
+    .parent       = NULL,
+    .key          = DV_Q,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_Q_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_M: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_M = {
+    .parent       = NULL,
+    .key          = DV_M,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_M_next_node,
+    .prev_node    = dvorak_reversenode_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_RSFT1_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_DOT;
+case DV_P: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_P;
+case DV_Y: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_Y;
+case DV_F: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_F;
+case DV_G: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_G;
+case DV_C: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_C;
+case DV_R: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_R;
+case DV_L: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_L;
+case DV_A: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_A;
+case DV_O: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_O;
+case DV_E: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_E;
+case DV_U: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_U;
+case DV_I: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_I;
+case DV_D: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_D;
+case DV_H: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_H;
+case DV_T: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_T;
+case DV_N: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_N;
+case DV_S: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_S;
+case DV_SCLN: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_Q;
+case DV_J: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_J;
+case DV_K: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_K;
+case DV_X: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_X;
+case DV_B: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_B;
+case DV_M: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_M;
+case DV_W: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_W;
+case DV_V: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_V;
+case DV_Z: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_Z;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_RSFT1_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_RSFT1 = {
+    .parent       = NULL,
+    .key          = DV_RSFT1,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_RSFT1_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_RSFT1_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_M;
+case DV_M: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_M = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_M,
+    .value        = SS_LCTL("m"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_M_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_F;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_F;
+case DV_F: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_F = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_F,
+    .value        = "]",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_F_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_COMM = {
+    .parent       = NULL,
+    .key          = DV_COMM,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_COMM_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_O = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_O,
+    .value        = SS_LCTL("o"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_node_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O = {
+    .parent       = NULL,
+    .key          = DV_O,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_R;
+case DV_R: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_R = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_R,
+    .value        = SS_LCTL("r"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_R_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_M;
+case DV_M: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_M = {
+    .parent       = NULL,
+    .key          = DV_M,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_M_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_G = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_G,
+    .value        = SS_LGUI("g"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_O = {
+    .parent       = NULL,
+    .key          = DV_O,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_O_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_L;
+case DV_L: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_L = {
+    .parent       = NULL,
+    .key          = DV_L,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_L_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_node_DV_I_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_I: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_I = {
+    .parent       = NULL,
+    .key          = DV_I,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_I_next_node,
+    .prev_node    = dvorak_reversenode_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_X;
+case DV_X: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_X = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_X,
+    .value        = SS_LGUI("x"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_X_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_H;
+case DV_U: return &dvorak_reversenode_DV_O_DV_H;
+case DV_H: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_H = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_H,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("h")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        case DV_P: return &dvorak_node_DV_G_DV_P;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_G: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_G = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_G,
+    .value        = "g",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_V;
+case DV_V: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_V = {
+    .parent       = NULL,
+    .key          = DV_V,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_V_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_RSFT2_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_RSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_RSFT2;
+case DV_RSFT2: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_RSFT2 = {
+    .parent       = NULL,
+    .key          = DV_RSFT2,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_RSFT2_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_RSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_H = {
+    .parent       = NULL,
+    .key          = DV_H,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_H_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_DOT = {
+    .parent       = NULL,
+    .key          = DV_DOT,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_DOT_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_F;
+case DV_U: return &dvorak_reversenode_DV_O_DV_F;
+case DV_F: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_F = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_F,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("f")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_F_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_C;
+case DV_C: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_C = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_C,
+    .value        = "C",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_C_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_X;
+case DV_H: return &dvorak_reversenode_DV_N_DV_X;
+case DV_X: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_X = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_X,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("x")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_X_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_Z: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_Z = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_Z,
+    .value        = "z",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_Z_next_node,
+    .prev_node    = dvorak_node_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_L;
+case DV_L: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_L = {
+    .parent       = NULL,
+    .key          = DV_L,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_L_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_D;
+case DV_D: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_D = {
+    .parent       = &dvorak_reversenode_DV_H,
+    .key          = DV_D,
+    .value        = "nag",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_D_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_X;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_X;
+case DV_X: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_X = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_X,
+    .value        = "=",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_X_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_T_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_T_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_T: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_T;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_T_DV_P = {
+    .parent       = &dvorak_reversenode_DV_T,
+    .key          = DV_P,
+    .value        = "&",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_T_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_T_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_Z;
+case DV_O: return &dvorak_reversenode_DV_U_DV_Z;
+case DV_Z: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_Z = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_Z,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("z")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_Z_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_node_DV_U_DV_O;
+case DV_I: return &dvorak_node_DV_U_DV_I;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_U,
+    .value        = "u",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_U = {
+    .parent       = NULL,
+    .key          = DV_U,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_U_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_P_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_P_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_P: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_P;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_P_DV_G = {
+    .parent       = NULL,
+    .key          = DV_G,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_P_DV_G_next_node,
+    .prev_node    = dvorak_reversenode_DV_P_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_RSFT2_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_RSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_RSFT2;
+case DV_RSFT2: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_RSFT2 = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_RSFT2,
+    .value        = SS_LGUI(SS_TAP(X_ENT)),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_RSFT2_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_RSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_O = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_O,
+    .value        = "O",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_Q = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_Q,
+    .value        = "Q",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_Q_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_B;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_B;
+case DV_B: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_B = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_B,
+    .value        = SS_LGUI(SS_LALT("b")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_B_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_root_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_DOT;
+case DV_P: return &dvorak_node_DV_P;
+case DV_Y: return &dvorak_node_DV_Y;
+case DV_F: return &dvorak_node_DV_F;
+case DV_G: return &dvorak_node_DV_G;
+case DV_C: return &dvorak_node_DV_C;
+case DV_R: return &dvorak_node_DV_R;
+case DV_L: return &dvorak_node_DV_L;
+case DV_A: return &dvorak_node_DV_A;
+case DV_O: return &dvorak_node_DV_O;
+case DV_E: return &dvorak_node_DV_E;
+case DV_U: return &dvorak_node_DV_U;
+case DV_I: return &dvorak_node_DV_I;
+case DV_D: return &dvorak_node_DV_D;
+case DV_H: return &dvorak_node_DV_H;
+case DV_T: return &dvorak_node_DV_T;
+case DV_N: return &dvorak_node_DV_N;
+case DV_S: return &dvorak_node_DV_S;
+case DV_SCLN: return &dvorak_node_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_Q;
+case DV_J: return &dvorak_node_DV_J;
+case DV_K: return &dvorak_node_DV_K;
+case DV_X: return &dvorak_node_DV_X;
+case DV_B: return &dvorak_node_DV_B;
+case DV_M: return &dvorak_node_DV_M;
+case DV_W: return &dvorak_node_DV_W;
+case DV_V: return &dvorak_node_DV_V;
+case DV_Z: return &dvorak_node_DV_Z;
+case DV_LSFT1: return &dvorak_node_DV_LSFT1;
+case DV_LSFT2: return &dvorak_node_DV_LSFT2;
+case DV_RSFT2: return &dvorak_node_DV_RSFT2;
+case DV_RSFT1: return &dvorak_node_DV_RSFT1;
+case DV_RSFT3: return &dvorak_node_DV_RSFT3;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_root_prev_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
 const dvorak_node_t dvorak_node_root = {
-  .parent       = NULL,
-  .children     = dvorak_node_root_children,
-  .children_num = 35,
-  .key          = -1,
-  .value        = NULL,
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_COMM = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(",")))),
-};
-
-const dvorak_node_t* dvorak_node_B_COMM_children[1] = {
-  &dvorak_node_B_COMM_B_DOT,
-};
-const dvorak_node_t dvorak_node_B_COMM = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_COMM_children,
-  .children_num = 1,
-  .key          = B_COMM,
-  .value        = ",",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_P_B_G = {
-  .parent       = &dvorak_node_B_LS2_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = SS_LCTL(SS_TAP(X_TAB)),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_Z = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Z,
-  .value        = SS_LCTL("z"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_H = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = SS_LGUI("h"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_H = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = SS_LALT("h"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_K = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "+",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_R = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "R",
-};
-
-const dvorak_node_t* dvorak_node_B_RS3_children[3] = {
-  &dvorak_node_B_RS3_B_A,
-  &dvorak_node_B_RS3_B_O,
-  &dvorak_node_B_RS3_B_E,
-};
-const dvorak_node_t dvorak_node_B_RS3 = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_RS3_children,
-  .children_num = 3,
-  .key          = B_RS3,
-  .value        = NULL,
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_F = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = SS_LALT("f"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS3_B_A = {
-  .parent       = &dvorak_node_B_RS3,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = SS_LGUI("@"),
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_R = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("r")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_COMM = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = "/",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_B = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = SS_LALT("b"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_Y = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Y,
-  .value        = SS_LALT("y"),
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_COMM = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(",")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_COMM = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = SS_LALT(","),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_I = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = SS_LGUI("i"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_DOT = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = SS_LALT("."),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_U = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = "U",
-};
-
-const dvorak_node_t* dvorak_node_B_LS1_B_RS1_children[30] = {
-  &dvorak_node_B_LS1_B_RS1_B_QUOT,
-  &dvorak_node_B_LS1_B_RS1_B_COMM,
-  &dvorak_node_B_LS1_B_RS1_B_DOT,
-  &dvorak_node_B_LS1_B_RS1_B_P,
-  &dvorak_node_B_LS1_B_RS1_B_Y,
-  &dvorak_node_B_LS1_B_RS1_B_F,
-  &dvorak_node_B_LS1_B_RS1_B_G,
-  &dvorak_node_B_LS1_B_RS1_B_C,
-  &dvorak_node_B_LS1_B_RS1_B_R,
-  &dvorak_node_B_LS1_B_RS1_B_L,
-  &dvorak_node_B_LS1_B_RS1_B_A,
-  &dvorak_node_B_LS1_B_RS1_B_O,
-  &dvorak_node_B_LS1_B_RS1_B_E,
-  &dvorak_node_B_LS1_B_RS1_B_U,
-  &dvorak_node_B_LS1_B_RS1_B_I,
-  &dvorak_node_B_LS1_B_RS1_B_D,
-  &dvorak_node_B_LS1_B_RS1_B_H,
-  &dvorak_node_B_LS1_B_RS1_B_T,
-  &dvorak_node_B_LS1_B_RS1_B_N,
-  &dvorak_node_B_LS1_B_RS1_B_S,
-  &dvorak_node_B_LS1_B_RS1_B_SCLN,
-  &dvorak_node_B_LS1_B_RS1_B_Q,
-  &dvorak_node_B_LS1_B_RS1_B_J,
-  &dvorak_node_B_LS1_B_RS1_B_K,
-  &dvorak_node_B_LS1_B_RS1_B_X,
-  &dvorak_node_B_LS1_B_RS1_B_B,
-  &dvorak_node_B_LS1_B_RS1_B_M,
-  &dvorak_node_B_LS1_B_RS1_B_W,
-  &dvorak_node_B_LS1_B_RS1_B_V,
-  &dvorak_node_B_LS1_B_RS1_B_Z,
-};
-const dvorak_node_t dvorak_node_B_LS1_B_RS1 = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = dvorak_node_B_LS1_B_RS1_children,
-  .children_num = 30,
-  .key          = B_RS1,
-  .value        = NULL,
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_R = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("r")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_QUOT = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_QUOT,
-  .value        = SS_LCTL("'"),
-};
-
-
-const dvorak_node_t dvorak_node_B_T_B_DOT = {
-  .parent       = &dvorak_node_B_T,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = "#",
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_M = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("m")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_L = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "L",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_SCLN = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = SS_LALT(";"),
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_Q = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Q,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("q")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_F = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("f")))),
-};
-
-const dvorak_node_t* dvorak_node_B_H_B_N_children[16] = {
-  &dvorak_node_B_H_B_N_B_QUOT,
-  &dvorak_node_B_H_B_N_B_COMM,
-  &dvorak_node_B_H_B_N_B_DOT,
-  &dvorak_node_B_H_B_N_B_P,
-  &dvorak_node_B_H_B_N_B_Y,
-  &dvorak_node_B_H_B_N_B_A,
-  &dvorak_node_B_H_B_N_B_O,
-  &dvorak_node_B_H_B_N_B_E,
-  &dvorak_node_B_H_B_N_B_U,
-  &dvorak_node_B_H_B_N_B_I,
-  &dvorak_node_B_H_B_N_B_SCLN,
-  &dvorak_node_B_H_B_N_B_Q,
-  &dvorak_node_B_H_B_N_B_J,
-  &dvorak_node_B_H_B_N_B_K,
-  &dvorak_node_B_H_B_N_B_X,
-  &dvorak_node_B_H_B_N_B_LS2,
-};
-const dvorak_node_t dvorak_node_B_H_B_N = {
-  .parent       = &dvorak_node_B_H,
-  .children     = dvorak_node_B_H_B_N_children,
-  .children_num = 16,
-  .key          = B_N,
-  .value        = NULL,
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_QUOT = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_QUOT,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("'")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_B = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = "!",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_I = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "I",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_DOT = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = SS_LCTL("."),
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_K = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("k")))),
-};
-
-const dvorak_node_t* dvorak_node_B_LS2_B_N_children[1] = {
-  &dvorak_node_B_LS2_B_N_B_E,
-};
-const dvorak_node_t dvorak_node_B_LS2_B_N = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = dvorak_node_B_LS2_B_N_children,
-  .children_num = 1,
-  .key          = B_N,
-  .value        = SS_LCTL("n"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_X = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = SS_LGUI(SS_LALT("x")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_H = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "7",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_E = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = SS_LGUI(SS_LALT("e")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_P = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "(",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_J = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = SS_LGUI(SS_LALT("j")),
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_U = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("u")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_C = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = "}",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_J = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "J",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_N = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "9",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_R = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = SS_LGUI("r"),
-};
-
-
-const dvorak_node_t dvorak_node_B_J = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "j",
-};
-
-const dvorak_node_t* dvorak_node_B_RS2_B_G_children[1] = {
-  &dvorak_node_B_RS2_B_G_B_P,
-};
-const dvorak_node_t dvorak_node_B_RS2_B_G = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = dvorak_node_B_RS2_B_G_children,
-  .children_num = 1,
-  .key          = B_G,
-  .value        = "G",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_K = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "+",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_U = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = "4",
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_P = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("p")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_C = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("c")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_SCLN = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = SS_LGUI(SS_LALT(";")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_U = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = SS_LALT("u"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_Y = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Y,
-  .value        = SS_LGUI("y"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_R = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = SS_LGUI(SS_LALT("r")),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_M = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = SS_LGUI("m"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_D = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = SS_LCTL("d"),
-};
-
-const dvorak_node_t* dvorak_node_B_RS2_children[31] = {
-  &dvorak_node_B_RS2_B_QUOT,
-  &dvorak_node_B_RS2_B_COMM,
-  &dvorak_node_B_RS2_B_DOT,
-  &dvorak_node_B_RS2_B_P,
-  &dvorak_node_B_RS2_B_Y,
-  &dvorak_node_B_RS2_B_F,
-  &dvorak_node_B_RS2_B_G,
-  &dvorak_node_B_RS2_B_C,
-  &dvorak_node_B_RS2_B_R,
-  &dvorak_node_B_RS2_B_L,
-  &dvorak_node_B_RS2_B_A,
-  &dvorak_node_B_RS2_B_O,
-  &dvorak_node_B_RS2_B_E,
-  &dvorak_node_B_RS2_B_U,
-  &dvorak_node_B_RS2_B_I,
-  &dvorak_node_B_RS2_B_D,
-  &dvorak_node_B_RS2_B_H,
-  &dvorak_node_B_RS2_B_T,
-  &dvorak_node_B_RS2_B_N,
-  &dvorak_node_B_RS2_B_S,
-  &dvorak_node_B_RS2_B_SCLN,
-  &dvorak_node_B_RS2_B_Q,
-  &dvorak_node_B_RS2_B_J,
-  &dvorak_node_B_RS2_B_K,
-  &dvorak_node_B_RS2_B_X,
-  &dvorak_node_B_RS2_B_B,
-  &dvorak_node_B_RS2_B_M,
-  &dvorak_node_B_RS2_B_W,
-  &dvorak_node_B_RS2_B_V,
-  &dvorak_node_B_RS2_B_Z,
-  &dvorak_node_B_RS2_B_LS2,
-};
-const dvorak_node_t dvorak_node_B_RS2 = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_RS2_children,
-  .children_num = 31,
-  .key          = B_RS2,
-  .value        = SS_TAP(X_ENT),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_K = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = SS_LGUI("k"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_N = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = SS_LALT("n"),
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_I = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("i")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_K = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "K",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_N_B_E = {
-  .parent       = &dvorak_node_B_LS2_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = SS_LCTL("^"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_A = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = "1",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_B = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = SS_LGUI(SS_LALT("b")),
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_I = {
-  .parent       = &dvorak_node_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_F = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = SS_LGUI("f"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_V = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = SS_LGUI(SS_LALT("v")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_LS2 = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = SS_LALT(" "),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_V = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = SS_LALT("v"),
-};
-
-
-const dvorak_node_t dvorak_node_B_C = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = "c",
-};
-
-const dvorak_node_t* dvorak_node_B_LS2_B_P_children[1] = {
-  &dvorak_node_B_LS2_B_P_B_G,
-};
-const dvorak_node_t dvorak_node_B_LS2_B_P = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = dvorak_node_B_LS2_B_P_children,
-  .children_num = 1,
-  .key          = B_P,
-  .value        = SS_LCTL("p"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_X = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = SS_LCTL("x"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_Y = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Y,
-  .value        = SS_LCTL("y"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_L = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = SS_LALT("l"),
-};
-
-
-const dvorak_node_t dvorak_node_B_E_B_L = {
-  .parent       = &dvorak_node_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "$",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_T = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_T,
-  .value        = SS_LCTL("t"),
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_U = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("u")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_B = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = "b",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_N = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = SS_LGUI(SS_LALT("n")),
-};
-
-
-const dvorak_node_t dvorak_node_B_A = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = "a",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_X = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "=",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_K = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = SS_LGUI(SS_LALT("k")),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_E = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "3",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_W = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = SS_LGUI("w"),
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_P = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("p")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_V = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("v")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_I = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = SS_LGUI(SS_LALT("i")),
-};
-
-
-const dvorak_node_t dvorak_node_B_QUOT = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_QUOT,
-  .value        = "'",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_Z = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Z,
-  .value        = SS_LGUI("z"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_T = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_T,
-  .value        = "8",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_QUOT = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_QUOT,
-  .value        = SS_LGUI("'"),
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_M = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("m")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_D = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("d")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_R = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = SS_LGUI(SS_LALT("r")),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_H = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "7",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_M = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = SS_LGUI(SS_LALT("m")),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_S = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = "0",
-};
-
-
-const dvorak_node_t dvorak_node_B_D_B_H = {
-  .parent       = &dvorak_node_B_D,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "nag",
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_O = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("o")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_D = {
-  .parent       = &dvorak_node_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = "nag",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_T = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_T,
-  .value        = SS_LGUI(SS_LALT("t")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_O = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "2",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_U = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = "4",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS2 = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = SS_LGUI(" "),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_U = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = SS_LGUI(SS_LALT("u")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_C = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = SS_LGUI(SS_LALT("c")),
-};
-
-const dvorak_node_t* dvorak_node_B_P_children[1] = {
-  &dvorak_node_B_P_B_G,
-};
-const dvorak_node_t dvorak_node_B_P = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_P_children,
-  .children_num = 1,
-  .key          = B_P,
-  .value        = "p",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_A = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = "A",
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_Q = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Q,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("q")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_A = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = SS_LGUI(SS_LALT("a")),
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_N = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("n")))),
-};
-
-const dvorak_node_t* dvorak_node_B_LS2_children[31] = {
-  &dvorak_node_B_LS2_B_QUOT,
-  &dvorak_node_B_LS2_B_COMM,
-  &dvorak_node_B_LS2_B_DOT,
-  &dvorak_node_B_LS2_B_P,
-  &dvorak_node_B_LS2_B_Y,
-  &dvorak_node_B_LS2_B_F,
-  &dvorak_node_B_LS2_B_G,
-  &dvorak_node_B_LS2_B_C,
-  &dvorak_node_B_LS2_B_R,
-  &dvorak_node_B_LS2_B_L,
-  &dvorak_node_B_LS2_B_A,
-  &dvorak_node_B_LS2_B_O,
-  &dvorak_node_B_LS2_B_E,
-  &dvorak_node_B_LS2_B_U,
-  &dvorak_node_B_LS2_B_I,
-  &dvorak_node_B_LS2_B_D,
-  &dvorak_node_B_LS2_B_H,
-  &dvorak_node_B_LS2_B_T,
-  &dvorak_node_B_LS2_B_N,
-  &dvorak_node_B_LS2_B_S,
-  &dvorak_node_B_LS2_B_SCLN,
-  &dvorak_node_B_LS2_B_Q,
-  &dvorak_node_B_LS2_B_J,
-  &dvorak_node_B_LS2_B_K,
-  &dvorak_node_B_LS2_B_X,
-  &dvorak_node_B_LS2_B_B,
-  &dvorak_node_B_LS2_B_M,
-  &dvorak_node_B_LS2_B_W,
-  &dvorak_node_B_LS2_B_V,
-  &dvorak_node_B_LS2_B_Z,
-  &dvorak_node_B_LS2_B_RS2,
-};
-const dvorak_node_t dvorak_node_B_LS2 = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_LS2_children,
-  .children_num = 31,
-  .key          = B_LS2,
-  .value        = " ",
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_I = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("i")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_T = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_T,
-  .value        = SS_LGUI("t"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_C = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = "}",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_Y = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Y,
-  .value        = "Y",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_M = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = SS_LGUI(SS_LALT("m")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_P = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = SS_LALT("p"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_W = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = "W",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_C = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = SS_LGUI(SS_LALT("c")),
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_DOT = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(".")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_R = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "%",
-};
-
-const dvorak_node_t* dvorak_node_B_U_children[2] = {
-  &dvorak_node_B_U_B_O,
-  &dvorak_node_B_U_B_I,
-};
-const dvorak_node_t dvorak_node_B_U = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_U_children,
-  .children_num = 2,
-  .key          = B_U,
-  .value        = "u",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_A = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = SS_LALT("a"),
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_N = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("n")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_QUOT = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_QUOT,
-  .value        = SS_LALT("'"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_S = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = SS_LALT("s"),
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_G = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("g")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_G_B_P = {
-  .parent       = &dvorak_node_B_RS2_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = SS_LSFT(SS_TAP(X_TAB)),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_DOT = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = ">",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_S = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = "S",
-};
-
-
-const dvorak_node_t dvorak_node_B_DOT_B_COMM = {
-  .parent       = &dvorak_node_B_DOT,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = SS_TAP(X_ESC),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_X = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = SS_LGUI("x"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_A = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = SS_LGUI(SS_LALT("a")),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_O = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = SS_LGUI("o"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_W = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = "*",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_S = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = "0",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_B = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = "B",
-};
-
-
-const dvorak_node_t dvorak_node_B_T_B_QUOT = {
-  .parent       = &dvorak_node_B_T,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_QUOT,
-  .value        = "`",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_A = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = SS_LGUI("a"),
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_S = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("s")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_T = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_T,
-  .value        = SS_LALT("t"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_Z = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Z,
-  .value        = SS_LALT("z"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_V = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "V",
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_L = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("l")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_S = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("s")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_DOT = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(".")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_R = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = SS_LALT("r"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_O = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = SS_LCTL("o"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_D = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = "6",
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_X = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("x")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_B = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = "!",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_DOT = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = SS_LGUI(SS_LALT(".")),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_T = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_T,
-  .value        = "T",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_D = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = "D",
-};
-
-const dvorak_node_t* dvorak_node_B_G_children[1] = {
-  &dvorak_node_B_G_B_P,
-};
-const dvorak_node_t dvorak_node_B_G = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_G_children,
-  .children_num = 1,
-  .key          = B_G,
-  .value        = "g",
-};
-
-
-const dvorak_node_t dvorak_node_B_S = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = "s",
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_Y = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Y,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("y")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_COMM = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = "/",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_DOT = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = "{",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_O = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = "O",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_W = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = SS_LGUI(SS_LALT("w")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_Q = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Q,
-  .value        = SS_LCTL("q"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_V = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = SS_LCTL("v"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_J = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = "|",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_SCLN = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = SS_LGUI(";"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_I = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = SS_LCTL("i"),
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_X = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("x")))),
-};
-
-const dvorak_node_t* dvorak_node_B_RS2_B_LS2_children[25] = {
-  &dvorak_node_B_RS2_B_LS2_B_COMM,
-  &dvorak_node_B_RS2_B_LS2_B_DOT,
-  &dvorak_node_B_RS2_B_LS2_B_P,
-  &dvorak_node_B_RS2_B_LS2_B_Y,
-  &dvorak_node_B_RS2_B_LS2_B_F,
-  &dvorak_node_B_RS2_B_LS2_B_G,
-  &dvorak_node_B_RS2_B_LS2_B_C,
-  &dvorak_node_B_RS2_B_LS2_B_R,
-  &dvorak_node_B_RS2_B_LS2_B_A,
-  &dvorak_node_B_RS2_B_LS2_B_O,
-  &dvorak_node_B_RS2_B_LS2_B_E,
-  &dvorak_node_B_RS2_B_LS2_B_U,
-  &dvorak_node_B_RS2_B_LS2_B_I,
-  &dvorak_node_B_RS2_B_LS2_B_D,
-  &dvorak_node_B_RS2_B_LS2_B_H,
-  &dvorak_node_B_RS2_B_LS2_B_T,
-  &dvorak_node_B_RS2_B_LS2_B_N,
-  &dvorak_node_B_RS2_B_LS2_B_S,
-  &dvorak_node_B_RS2_B_LS2_B_J,
-  &dvorak_node_B_RS2_B_LS2_B_K,
-  &dvorak_node_B_RS2_B_LS2_B_X,
-  &dvorak_node_B_RS2_B_LS2_B_B,
-  &dvorak_node_B_RS2_B_LS2_B_M,
-  &dvorak_node_B_RS2_B_LS2_B_W,
-  &dvorak_node_B_RS2_B_LS2_B_V,
-};
-const dvorak_node_t dvorak_node_B_RS2_B_LS2 = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = dvorak_node_B_RS2_B_LS2_children,
-  .children_num = 25,
-  .key          = B_LS2,
-  .value        = NULL,
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_I = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_I,
-  .value        = "5",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_L = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = SS_LGUI(SS_LALT("l")),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_B = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = SS_LGUI("b"),
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_RS2 = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(SS_TAP(X_ENT))))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_N = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "N",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_N = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = SS_LGUI("n"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_U = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = SS_LGUI("u"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_T = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_T,
-  .value        = "8",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_S = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = SS_LGUI(SS_LALT("s")),
-};
-
-
-const dvorak_node_t dvorak_node_B_P_B_G = {
-  .parent       = &dvorak_node_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = SS_TAP(X_TAB),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_L = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = SS_LGUI("l"),
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_D = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("d")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_DOT = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = "{",
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_SCLN = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(";")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_D = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = SS_LGUI(SS_LALT("d")),
-};
-
-
-const dvorak_node_t dvorak_node_B_T_B_P = {
-  .parent       = &dvorak_node_B_T,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "&",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_K = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = SS_LCTL("k"),
-};
-
-const dvorak_node_t* dvorak_node_B_LS2_B_RS2_children[25] = {
-  &dvorak_node_B_LS2_B_RS2_B_COMM,
-  &dvorak_node_B_LS2_B_RS2_B_DOT,
-  &dvorak_node_B_LS2_B_RS2_B_P,
-  &dvorak_node_B_LS2_B_RS2_B_Y,
-  &dvorak_node_B_LS2_B_RS2_B_F,
-  &dvorak_node_B_LS2_B_RS2_B_G,
-  &dvorak_node_B_LS2_B_RS2_B_C,
-  &dvorak_node_B_LS2_B_RS2_B_R,
-  &dvorak_node_B_LS2_B_RS2_B_A,
-  &dvorak_node_B_LS2_B_RS2_B_O,
-  &dvorak_node_B_LS2_B_RS2_B_E,
-  &dvorak_node_B_LS2_B_RS2_B_U,
-  &dvorak_node_B_LS2_B_RS2_B_I,
-  &dvorak_node_B_LS2_B_RS2_B_D,
-  &dvorak_node_B_LS2_B_RS2_B_H,
-  &dvorak_node_B_LS2_B_RS2_B_T,
-  &dvorak_node_B_LS2_B_RS2_B_N,
-  &dvorak_node_B_LS2_B_RS2_B_S,
-  &dvorak_node_B_LS2_B_RS2_B_J,
-  &dvorak_node_B_LS2_B_RS2_B_K,
-  &dvorak_node_B_LS2_B_RS2_B_X,
-  &dvorak_node_B_LS2_B_RS2_B_B,
-  &dvorak_node_B_LS2_B_RS2_B_M,
-  &dvorak_node_B_LS2_B_RS2_B_W,
-  &dvorak_node_B_LS2_B_RS2_B_V,
-};
-const dvorak_node_t dvorak_node_B_LS2_B_RS2 = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = dvorak_node_B_LS2_B_RS2_children,
-  .children_num = 25,
-  .key          = B_RS2,
-  .value        = NULL,
-};
-
-const dvorak_node_t* dvorak_node_B_U_B_O_children[16] = {
-  &dvorak_node_B_U_B_O_B_F,
-  &dvorak_node_B_U_B_O_B_G,
-  &dvorak_node_B_U_B_O_B_C,
-  &dvorak_node_B_U_B_O_B_R,
-  &dvorak_node_B_U_B_O_B_L,
-  &dvorak_node_B_U_B_O_B_D,
-  &dvorak_node_B_U_B_O_B_H,
-  &dvorak_node_B_U_B_O_B_T,
-  &dvorak_node_B_U_B_O_B_N,
-  &dvorak_node_B_U_B_O_B_S,
-  &dvorak_node_B_U_B_O_B_B,
-  &dvorak_node_B_U_B_O_B_M,
-  &dvorak_node_B_U_B_O_B_W,
-  &dvorak_node_B_U_B_O_B_V,
-  &dvorak_node_B_U_B_O_B_Z,
-  &dvorak_node_B_U_B_O_B_RS2,
-};
-const dvorak_node_t dvorak_node_B_U_B_O = {
-  .parent       = &dvorak_node_B_U,
-  .children     = dvorak_node_B_U_B_O_children,
-  .children_num = 16,
-  .key          = B_O,
-  .value        = NULL,
-};
-
-
-const dvorak_node_t dvorak_node_B_F = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "f",
-};
-
-
-const dvorak_node_t dvorak_node_B_I_B_U = {
-  .parent       = &dvorak_node_B_I,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = "",
-};
-
-const dvorak_node_t* dvorak_node_B_N_children[1] = {
-  &dvorak_node_B_N_B_H,
-};
-const dvorak_node_t dvorak_node_B_N = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_N_children,
-  .children_num = 1,
-  .key          = B_N,
-  .value        = "n",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_Q = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Q,
-  .value        = SS_LGUI(SS_LALT("q")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_O = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = SS_LALT("o"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_D = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = SS_LALT("d"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_G = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = SS_LGUI("g"),
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_E = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("e")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_Z = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Z,
-  .value        = "z",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_V = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "^",
-};
-
-
-const dvorak_node_t dvorak_node_B_V = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "v",
-};
-
-const dvorak_node_t* dvorak_node_B_LS2_B_G_children[1] = {
-  &dvorak_node_B_LS2_B_G_B_P,
-};
-const dvorak_node_t dvorak_node_B_LS2_B_G = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = dvorak_node_B_LS2_B_G_children,
-  .children_num = 1,
-  .key          = B_G,
-  .value        = SS_LCTL("g"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_B = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = SS_LGUI(SS_LALT("b")),
-};
-
-
-const dvorak_node_t dvorak_node_B_L = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = "l",
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_J = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("j")))),
-};
-
-const dvorak_node_t* dvorak_node_B_H_children[2] = {
-  &dvorak_node_B_H_B_N,
-  &dvorak_node_B_H_B_D,
-};
-const dvorak_node_t dvorak_node_B_H = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_H_children,
-  .children_num = 2,
-  .key          = B_H,
-  .value        = "h",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_Q = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Q,
-  .value        = "Q",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_V = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = SS_LGUI("v"),
-};
-
-const dvorak_node_t* dvorak_node_B_O_B_U_children[16] = {
-  &dvorak_node_B_O_B_U_B_F,
-  &dvorak_node_B_O_B_U_B_G,
-  &dvorak_node_B_O_B_U_B_C,
-  &dvorak_node_B_O_B_U_B_R,
-  &dvorak_node_B_O_B_U_B_L,
-  &dvorak_node_B_O_B_U_B_D,
-  &dvorak_node_B_O_B_U_B_H,
-  &dvorak_node_B_O_B_U_B_T,
-  &dvorak_node_B_O_B_U_B_N,
-  &dvorak_node_B_O_B_U_B_S,
-  &dvorak_node_B_O_B_U_B_B,
-  &dvorak_node_B_O_B_U_B_M,
-  &dvorak_node_B_O_B_U_B_W,
-  &dvorak_node_B_O_B_U_B_V,
-  &dvorak_node_B_O_B_U_B_Z,
-  &dvorak_node_B_O_B_U_B_RS2,
-};
-const dvorak_node_t dvorak_node_B_O_B_U = {
-  .parent       = &dvorak_node_B_O,
-  .children     = dvorak_node_B_O_B_U_children,
-  .children_num = 16,
-  .key          = B_U,
-  .value        = NULL,
-};
-
-const dvorak_node_t* dvorak_node_B_LS1_children[33] = {
-  &dvorak_node_B_LS1_B_QUOT,
-  &dvorak_node_B_LS1_B_COMM,
-  &dvorak_node_B_LS1_B_DOT,
-  &dvorak_node_B_LS1_B_P,
-  &dvorak_node_B_LS1_B_Y,
-  &dvorak_node_B_LS1_B_F,
-  &dvorak_node_B_LS1_B_G,
-  &dvorak_node_B_LS1_B_C,
-  &dvorak_node_B_LS1_B_R,
-  &dvorak_node_B_LS1_B_L,
-  &dvorak_node_B_LS1_B_A,
-  &dvorak_node_B_LS1_B_O,
-  &dvorak_node_B_LS1_B_E,
-  &dvorak_node_B_LS1_B_U,
-  &dvorak_node_B_LS1_B_I,
-  &dvorak_node_B_LS1_B_D,
-  &dvorak_node_B_LS1_B_H,
-  &dvorak_node_B_LS1_B_T,
-  &dvorak_node_B_LS1_B_N,
-  &dvorak_node_B_LS1_B_S,
-  &dvorak_node_B_LS1_B_SCLN,
-  &dvorak_node_B_LS1_B_Q,
-  &dvorak_node_B_LS1_B_J,
-  &dvorak_node_B_LS1_B_K,
-  &dvorak_node_B_LS1_B_X,
-  &dvorak_node_B_LS1_B_B,
-  &dvorak_node_B_LS1_B_M,
-  &dvorak_node_B_LS1_B_W,
-  &dvorak_node_B_LS1_B_V,
-  &dvorak_node_B_LS1_B_Z,
-  &dvorak_node_B_LS1_B_LS2,
-  &dvorak_node_B_LS1_B_RS2,
-  &dvorak_node_B_LS1_B_RS1,
-};
-const dvorak_node_t dvorak_node_B_LS1 = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_LS1_children,
-  .children_num = 33,
-  .key          = B_LS1,
-  .value        = SS_TAP(X_BSPC),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_S = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = SS_LGUI("s"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_SCLN = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = SS_LCTL(";"),
-};
-
-const dvorak_node_t* dvorak_node_B_LS2_B_E_children[2] = {
-  &dvorak_node_B_LS2_B_E_B_N,
-  &dvorak_node_B_LS2_B_E_B_T,
-};
-const dvorak_node_t dvorak_node_B_LS2_B_E = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = dvorak_node_B_LS2_B_E_children,
-  .children_num = 2,
-  .key          = B_E,
-  .value        = SS_LCTL("e"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_G = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = ")",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_V = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = "^",
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_QUOT = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_QUOT,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("'")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_H = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("h")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_X = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = SS_LALT("x"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_COMM = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = SS_LGUI(SS_LALT(",")),
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_J = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("j")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_COMM = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = SS_LGUI(","),
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_LS2 = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(" ")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_E_B_G = {
-  .parent       = &dvorak_node_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = "@",
-};
-
-const dvorak_node_t* dvorak_node_B_RS1_children[33] = {
-  &dvorak_node_B_RS1_B_QUOT,
-  &dvorak_node_B_RS1_B_COMM,
-  &dvorak_node_B_RS1_B_DOT,
-  &dvorak_node_B_RS1_B_P,
-  &dvorak_node_B_RS1_B_Y,
-  &dvorak_node_B_RS1_B_F,
-  &dvorak_node_B_RS1_B_G,
-  &dvorak_node_B_RS1_B_C,
-  &dvorak_node_B_RS1_B_R,
-  &dvorak_node_B_RS1_B_L,
-  &dvorak_node_B_RS1_B_A,
-  &dvorak_node_B_RS1_B_O,
-  &dvorak_node_B_RS1_B_E,
-  &dvorak_node_B_RS1_B_U,
-  &dvorak_node_B_RS1_B_I,
-  &dvorak_node_B_RS1_B_D,
-  &dvorak_node_B_RS1_B_H,
-  &dvorak_node_B_RS1_B_T,
-  &dvorak_node_B_RS1_B_N,
-  &dvorak_node_B_RS1_B_S,
-  &dvorak_node_B_RS1_B_SCLN,
-  &dvorak_node_B_RS1_B_Q,
-  &dvorak_node_B_RS1_B_J,
-  &dvorak_node_B_RS1_B_K,
-  &dvorak_node_B_RS1_B_X,
-  &dvorak_node_B_RS1_B_B,
-  &dvorak_node_B_RS1_B_M,
-  &dvorak_node_B_RS1_B_W,
-  &dvorak_node_B_RS1_B_V,
-  &dvorak_node_B_RS1_B_Z,
-  &dvorak_node_B_RS1_B_LS1,
-  &dvorak_node_B_RS1_B_LS2,
-  &dvorak_node_B_RS1_B_RS2,
-};
-const dvorak_node_t dvorak_node_B_RS1 = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_RS1_children,
-  .children_num = 33,
-  .key          = B_RS1,
-  .value        = NULL,
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_F = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "]",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_J = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = SS_LGUI(SS_LALT("j")),
-};
-
-
-const dvorak_node_t dvorak_node_B_Y = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Y,
-  .value        = "y",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_RS2 = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = SS_LGUI(SS_TAP(X_ENT)),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_W = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = SS_LCTL("w"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_O = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = SS_LGUI(SS_LALT("o")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_X = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = SS_LGUI(SS_LALT("x")),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_G = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = SS_LGUI(SS_LALT("g")),
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_E = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("e")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS2 = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = SS_LALT(SS_TAP(X_ENT)),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_Y = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Y,
-  .value        = "[",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_COMM = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = "<",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_C = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = "C",
-};
-
-const dvorak_node_t* dvorak_node_B_I_children[1] = {
-  &dvorak_node_B_I_B_U,
-};
-const dvorak_node_t dvorak_node_B_I = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_I_children,
-  .children_num = 1,
-  .key          = B_I,
-  .value        = "i",
-};
-
-
-const dvorak_node_t dvorak_node_B_R = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "r",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_E = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "3",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_F = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "]",
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_A = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_A,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("a")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_SCLN = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = SS_LGUI(SS_LALT(";")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_W = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = SS_LALT("w"),
-};
-
-
-const dvorak_node_t dvorak_node_B_W = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = "w",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_Y = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Y,
-  .value        = "[",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_P = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = SS_LGUI(SS_LALT("p")),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_G = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = ")",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_P = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = SS_LGUI("p"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_C = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = SS_LALT("c"),
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_K = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("k")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_E_B_N = {
-  .parent       = &dvorak_node_B_LS2_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = SS_LCTL("^"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_M = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "-",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_F = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "F",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_B = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = SS_LCTL("b"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_Y = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Y,
-  .value        = SS_LGUI(SS_LALT("y")),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_W = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = "*",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_F = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = SS_LGUI(SS_LALT("f")),
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_Z = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Z,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("z")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_H = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = "H",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_SCLN = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = ":",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_P = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = "(",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_F = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = SS_LCTL("f"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_M = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = SS_LCTL("m"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_S = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = SS_LCTL("s"),
-};
-
-
-const dvorak_node_t dvorak_node_B_Q = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Q,
-  .value        = "q",
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_H = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("h")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_SCLN = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(";")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_Q = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Q,
-  .value        = SS_LGUI("q"),
-};
-
-
-const dvorak_node_t dvorak_node_B_T_B_COMM = {
-  .parent       = &dvorak_node_B_T,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = "/",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_S = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_S,
-  .value        = SS_LGUI(SS_LALT("s")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_M = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = SS_LALT("m"),
-};
-
-const dvorak_node_t* dvorak_node_B_D_children[1] = {
-  &dvorak_node_B_D_B_H,
-};
-const dvorak_node_t dvorak_node_B_D = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_D_children,
-  .children_num = 1,
-  .key          = B_D,
-  .value        = "d",
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_W = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("w")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_LS2 = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_LS2,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(" ")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_DOT = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = SS_LGUI(SS_LALT(".")),
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_F = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("f")))),
-};
-
-const dvorak_node_t* dvorak_node_B_RS2_B_P_children[1] = {
-  &dvorak_node_B_RS2_B_P_B_G,
-};
-const dvorak_node_t dvorak_node_B_RS2_B_P = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = dvorak_node_B_RS2_B_P_children,
-  .children_num = 1,
-  .key          = B_P,
-  .value        = "P",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_L = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = SS_LGUI(SS_LALT("l")),
-};
-
-const dvorak_node_t* dvorak_node_B_RS1_B_LS1_children[30] = {
-  &dvorak_node_B_RS1_B_LS1_B_QUOT,
-  &dvorak_node_B_RS1_B_LS1_B_COMM,
-  &dvorak_node_B_RS1_B_LS1_B_DOT,
-  &dvorak_node_B_RS1_B_LS1_B_P,
-  &dvorak_node_B_RS1_B_LS1_B_Y,
-  &dvorak_node_B_RS1_B_LS1_B_F,
-  &dvorak_node_B_RS1_B_LS1_B_G,
-  &dvorak_node_B_RS1_B_LS1_B_C,
-  &dvorak_node_B_RS1_B_LS1_B_R,
-  &dvorak_node_B_RS1_B_LS1_B_L,
-  &dvorak_node_B_RS1_B_LS1_B_A,
-  &dvorak_node_B_RS1_B_LS1_B_O,
-  &dvorak_node_B_RS1_B_LS1_B_E,
-  &dvorak_node_B_RS1_B_LS1_B_U,
-  &dvorak_node_B_RS1_B_LS1_B_I,
-  &dvorak_node_B_RS1_B_LS1_B_D,
-  &dvorak_node_B_RS1_B_LS1_B_H,
-  &dvorak_node_B_RS1_B_LS1_B_T,
-  &dvorak_node_B_RS1_B_LS1_B_N,
-  &dvorak_node_B_RS1_B_LS1_B_S,
-  &dvorak_node_B_RS1_B_LS1_B_SCLN,
-  &dvorak_node_B_RS1_B_LS1_B_Q,
-  &dvorak_node_B_RS1_B_LS1_B_J,
-  &dvorak_node_B_RS1_B_LS1_B_K,
-  &dvorak_node_B_RS1_B_LS1_B_X,
-  &dvorak_node_B_RS1_B_LS1_B_B,
-  &dvorak_node_B_RS1_B_LS1_B_M,
-  &dvorak_node_B_RS1_B_LS1_B_W,
-  &dvorak_node_B_RS1_B_LS1_B_V,
-  &dvorak_node_B_RS1_B_LS1_B_Z,
-};
-const dvorak_node_t dvorak_node_B_RS1_B_LS1 = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = dvorak_node_B_RS1_B_LS1_children,
-  .children_num = 30,
-  .key          = B_LS1,
-  .value        = SS_LGUI(SS_TAP(X_BSPC)),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_G_B_P = {
-  .parent       = &dvorak_node_B_LS2_B_G,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = SS_LCTL(SS_TAP(X_TAB)),
-};
-
-
-const dvorak_node_t dvorak_node_B_E_B_C = {
-  .parent       = &dvorak_node_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = "~",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_T = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_T,
-  .value        = SS_LGUI(SS_LALT("t")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_QUOT = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_QUOT,
-  .value        = SS_LGUI(SS_LALT("'")),
-};
-
-
-const dvorak_node_t dvorak_node_B_N_B_H_B_Y = {
-  .parent       = &dvorak_node_B_N_B_H,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Y,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("y")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_E = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = "E",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_H = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_H,
-  .value        = SS_LGUI(SS_LALT("h")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_D = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_D,
-  .value        = SS_LGUI(SS_LALT("d")),
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_W = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_W,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("w")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_E = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = SS_LGUI(SS_LALT("e")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_L = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = SS_LCTL("l"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_U = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_U,
-  .value        = SS_LCTL("u"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_COMM = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = SS_LGUI(SS_LALT(",")),
-};
-
-
-const dvorak_node_t dvorak_node_B_E_B_F = {
-  .parent       = &dvorak_node_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_F,
-  .value        = "!",
-};
-
-const dvorak_node_t* dvorak_node_B_N_B_H_children[16] = {
-  &dvorak_node_B_N_B_H_B_QUOT,
-  &dvorak_node_B_N_B_H_B_COMM,
-  &dvorak_node_B_N_B_H_B_DOT,
-  &dvorak_node_B_N_B_H_B_P,
-  &dvorak_node_B_N_B_H_B_Y,
-  &dvorak_node_B_N_B_H_B_A,
-  &dvorak_node_B_N_B_H_B_O,
-  &dvorak_node_B_N_B_H_B_E,
-  &dvorak_node_B_N_B_H_B_U,
-  &dvorak_node_B_N_B_H_B_I,
-  &dvorak_node_B_N_B_H_B_SCLN,
-  &dvorak_node_B_N_B_H_B_Q,
-  &dvorak_node_B_N_B_H_B_J,
-  &dvorak_node_B_N_B_H_B_K,
-  &dvorak_node_B_N_B_H_B_X,
-  &dvorak_node_B_N_B_H_B_LS2,
-};
-const dvorak_node_t dvorak_node_B_N_B_H = {
-  .parent       = &dvorak_node_B_N,
-  .children     = dvorak_node_B_N_B_H_children,
-  .children_num = 16,
-  .key          = B_H,
-  .value        = NULL,
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_K = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = SS_LALT("k"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_N = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = SS_LGUI(SS_LALT("n")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_C = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_C,
-  .value        = SS_LCTL("c"),
-};
-
-
-const dvorak_node_t dvorak_node_B_T_B_Q = {
-  .parent       = &dvorak_node_B_T,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Q,
-  .value        = "\\",
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_B = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("b")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_E = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = SS_LGUI("e"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_J = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = SS_LCTL("j"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_V = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = SS_LGUI(SS_LALT("v")),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS3_B_O = {
-  .parent       = &dvorak_node_B_RS3,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = SS_LGUI(SS_LSFT("4")),
-};
-
-const dvorak_node_t* dvorak_node_B_E_children[6] = {
-  &dvorak_node_B_E_B_F,
-  &dvorak_node_B_E_B_G,
-  &dvorak_node_B_E_B_C,
-  &dvorak_node_B_E_B_R,
-  &dvorak_node_B_E_B_L,
-  &dvorak_node_B_E_B_B,
-};
-const dvorak_node_t dvorak_node_B_E = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_E_children,
-  .children_num = 6,
-  .key          = B_E,
-  .value        = "e",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_R = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = SS_LCTL("r"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_Q = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Q,
-  .value        = SS_LALT("q"),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_M = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "M",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS3_B_E = {
-  .parent       = &dvorak_node_B_RS3,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = SS_LGUI(SS_LSFT("5")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_O = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = SS_LGUI(SS_LALT("o")),
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_T = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_T,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("t")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_R = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "%",
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_L = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_L,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("l")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_P = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_P,
-  .value        = SS_LGUI(SS_LALT("p")),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_P_B_G = {
-  .parent       = &dvorak_node_B_RS2_B_P,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = SS_LSFT(SS_TAP(X_TAB)),
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_V = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_V,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("v")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_LS2_B_N = {
-  .parent       = &dvorak_node_B_RS2_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_N,
-  .value        = "9",
-};
-
-
-const dvorak_node_t dvorak_node_B_X = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_X,
-  .value        = "x",
-};
-
-const dvorak_node_t* dvorak_node_B_T_children[6] = {
-  &dvorak_node_B_T_B_QUOT,
-  &dvorak_node_B_T_B_COMM,
-  &dvorak_node_B_T_B_DOT,
-  &dvorak_node_B_T_B_P,
-  &dvorak_node_B_T_B_Y,
-  &dvorak_node_B_T_B_Q,
-};
-const dvorak_node_t dvorak_node_B_T = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_T_children,
-  .children_num = 6,
-  .key          = B_T,
-  .value        = "t",
-};
-
-
-const dvorak_node_t dvorak_node_B_E_B_R = {
-  .parent       = &dvorak_node_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_R,
-  .value        = "%",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_RS2_B_M = {
-  .parent       = &dvorak_node_B_LS2_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_M,
-  .value        = "-",
-};
-
-
-const dvorak_node_t dvorak_node_B_LS2_B_COMM = {
-  .parent       = &dvorak_node_B_LS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_COMM,
-  .value        = SS_LCTL(","),
-};
-
-
-const dvorak_node_t dvorak_node_B_H_B_N_B_O = {
-  .parent       = &dvorak_node_B_H_B_N,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_O,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("o")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_SCLN = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_SCLN,
-  .value        = ";",
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_T = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_T,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("t")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_E = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_E,
-  .value        = SS_LALT("e"),
-};
-
-
-const dvorak_node_t dvorak_node_B_T_B_Y = {
-  .parent       = &dvorak_node_B_T,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Y,
-  .value        = "?",
-};
-
-
-const dvorak_node_t dvorak_node_B_E_B_B = {
-  .parent       = &dvorak_node_B_E,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = "_",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS2_B_Z = {
-  .parent       = &dvorak_node_B_RS2,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Z,
-  .value        = "Z",
-};
-
-
-const dvorak_node_t dvorak_node_B_K = {
-  .parent       = &dvorak_node_root,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = "k",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_DOT = {
-  .parent       = &dvorak_node_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_DOT,
-  .value        = SS_LGUI("."),
-};
-
-
-const dvorak_node_t dvorak_node_B_U_B_O_B_B = {
-  .parent       = &dvorak_node_B_U_B_O,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_B,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("b")))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_J = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_J,
-  .value        = SS_LALT("j"),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_G = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = SS_LGUI(SS_LALT("g")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_G = {
-  .parent       = &dvorak_node_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_G,
-  .value        = SS_LALT("g"),
-};
-
-const dvorak_node_t* dvorak_node_B_O_children[1] = {
-  &dvorak_node_B_O_B_U,
-};
-const dvorak_node_t dvorak_node_B_O = {
-  .parent       = &dvorak_node_root,
-  .children     = dvorak_node_B_O_children,
-  .children_num = 1,
-  .key          = B_O,
-  .value        = "o",
-};
-
-
-const dvorak_node_t dvorak_node_B_RS1_B_LS1_B_Z = {
-  .parent       = &dvorak_node_B_RS1_B_LS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Z,
-  .value        = SS_LGUI(SS_LALT("z")),
-};
-
-
-const dvorak_node_t dvorak_node_B_O_B_U_B_RS2 = {
-  .parent       = &dvorak_node_B_O_B_U,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_RS2,
-  .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(SS_TAP(X_ENT))))),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_K = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_K,
-  .value        = SS_LGUI(SS_LALT("k")),
-};
-
-
-const dvorak_node_t dvorak_node_B_LS1_B_RS1_B_Q = {
-  .parent       = &dvorak_node_B_LS1_B_RS1,
-  .children     = NULL,
-  .children_num = 0,
-  .key          = B_Q,
-  .value        = SS_LGUI(SS_LALT("q")),
-};
+    .parent       = NULL,
+    .key          = -1,
+    .value        = NULL,
+    .reverse      = false,
+    .next_node    = dvorak_node_root_next_node,
+    .prev_node    = dvorak_node_root_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_RSFT2_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_RSFT2_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_RSFT2_DV_DOT;
+case DV_P: return &dvorak_node_DV_RSFT2_DV_P;
+case DV_Y: return &dvorak_node_DV_RSFT2_DV_Y;
+case DV_F: return &dvorak_node_DV_RSFT2_DV_F;
+case DV_G: return &dvorak_node_DV_RSFT2_DV_G;
+case DV_C: return &dvorak_node_DV_RSFT2_DV_C;
+case DV_R: return &dvorak_node_DV_RSFT2_DV_R;
+case DV_L: return &dvorak_node_DV_RSFT2_DV_L;
+case DV_A: return &dvorak_node_DV_RSFT2_DV_A;
+case DV_O: return &dvorak_node_DV_RSFT2_DV_O;
+case DV_E: return &dvorak_node_DV_RSFT2_DV_E;
+case DV_U: return &dvorak_node_DV_RSFT2_DV_U;
+case DV_I: return &dvorak_node_DV_RSFT2_DV_I;
+case DV_D: return &dvorak_node_DV_RSFT2_DV_D;
+case DV_H: return &dvorak_node_DV_RSFT2_DV_H;
+case DV_T: return &dvorak_node_DV_RSFT2_DV_T;
+case DV_N: return &dvorak_node_DV_RSFT2_DV_N;
+case DV_S: return &dvorak_node_DV_RSFT2_DV_S;
+case DV_SCLN: return &dvorak_node_DV_RSFT2_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_RSFT2_DV_Q;
+case DV_J: return &dvorak_node_DV_RSFT2_DV_J;
+case DV_K: return &dvorak_node_DV_RSFT2_DV_K;
+case DV_X: return &dvorak_node_DV_RSFT2_DV_X;
+case DV_B: return &dvorak_node_DV_RSFT2_DV_B;
+case DV_M: return &dvorak_node_DV_RSFT2_DV_M;
+case DV_W: return &dvorak_node_DV_RSFT2_DV_W;
+case DV_V: return &dvorak_node_DV_RSFT2_DV_V;
+case DV_Z: return &dvorak_node_DV_RSFT2_DV_Z;
+case DV_LSFT2: return &dvorak_node_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2 = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_RSFT2,
+    .value        = SS_TAP(X_ENT),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_V;
+case DV_U: return &dvorak_reversenode_DV_O_DV_V;
+case DV_V: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_V = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_V,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("v")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_V_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_I;
+case DV_I: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_I = {
+    .parent       = NULL,
+    .key          = DV_I,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_I_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_V;
+case DV_V: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_V = {
+    .parent       = NULL,
+    .key          = DV_V,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_V_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_DOT;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_DOT = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_DOT,
+    .value        = "{",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_N;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_N;
+case DV_N: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_N = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_N,
+    .value        = "9",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_RSFT2_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_RSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_RSFT2;
+case DV_RSFT2: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_RSFT2 = {
+    .parent       = NULL,
+    .key          = DV_RSFT2,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_RSFT2_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_RSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_M;
+case DV_U: return &dvorak_reversenode_DV_O_DV_M;
+case DV_M: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_M = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_M,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("m")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_M_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_B;
+case DV_U: return &dvorak_reversenode_DV_O_DV_B;
+case DV_B: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_B = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_B,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("b")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_B_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_S;
+case DV_S: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_S = {
+    .parent       = NULL,
+    .key          = DV_S,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_S_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_A;
+case DV_A: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_A = {
+    .parent       = NULL,
+    .key          = DV_A,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_A_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_N = {
+    .parent       = NULL,
+    .key          = DV_N,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_N_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_C;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_C;
+case DV_C: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_C = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_C,
+    .value        = SS_LGUI(SS_LALT("c")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_C_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_P_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_P_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_P_DV_G;
+case DV_P: return &dvorak_reversenode_DV_RSFT2_DV_G;
+case DV_G: return &dvorak_reversenode_DV_RSFT2_DV_P;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_P_DV_G = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_P,
+    .key          = DV_G,
+    .value        = SS_LSFT(SS_TAP(X_TAB)),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_P_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_P_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_D;
+case DV_D: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_D = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_D,
+    .value        = SS_LALT("d"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_D_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_node_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N = {
+    .parent       = NULL,
+    .key          = DV_N,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_LSFT1_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_LSFT1_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_LSFT1_DV_DOT;
+case DV_P: return &dvorak_node_DV_LSFT1_DV_P;
+case DV_Y: return &dvorak_node_DV_LSFT1_DV_Y;
+case DV_F: return &dvorak_node_DV_LSFT1_DV_F;
+case DV_G: return &dvorak_node_DV_LSFT1_DV_G;
+case DV_C: return &dvorak_node_DV_LSFT1_DV_C;
+case DV_R: return &dvorak_node_DV_LSFT1_DV_R;
+case DV_L: return &dvorak_node_DV_LSFT1_DV_L;
+case DV_A: return &dvorak_node_DV_LSFT1_DV_A;
+case DV_O: return &dvorak_node_DV_LSFT1_DV_O;
+case DV_E: return &dvorak_node_DV_LSFT1_DV_E;
+case DV_U: return &dvorak_node_DV_LSFT1_DV_U;
+case DV_I: return &dvorak_node_DV_LSFT1_DV_I;
+case DV_D: return &dvorak_node_DV_LSFT1_DV_D;
+case DV_H: return &dvorak_node_DV_LSFT1_DV_H;
+case DV_T: return &dvorak_node_DV_LSFT1_DV_T;
+case DV_N: return &dvorak_node_DV_LSFT1_DV_N;
+case DV_S: return &dvorak_node_DV_LSFT1_DV_S;
+case DV_SCLN: return &dvorak_node_DV_LSFT1_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_LSFT1_DV_Q;
+case DV_J: return &dvorak_node_DV_LSFT1_DV_J;
+case DV_K: return &dvorak_node_DV_LSFT1_DV_K;
+case DV_X: return &dvorak_node_DV_LSFT1_DV_X;
+case DV_B: return &dvorak_node_DV_LSFT1_DV_B;
+case DV_M: return &dvorak_node_DV_LSFT1_DV_M;
+case DV_W: return &dvorak_node_DV_LSFT1_DV_W;
+case DV_V: return &dvorak_node_DV_LSFT1_DV_V;
+case DV_Z: return &dvorak_node_DV_LSFT1_DV_Z;
+case DV_LSFT2: return &dvorak_node_DV_LSFT1_DV_LSFT2;
+case DV_RSFT2: return &dvorak_node_DV_LSFT1_DV_RSFT2;
+case DV_RSFT1: return &dvorak_node_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1 = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_LSFT1,
+    .value        = SS_TAP(X_BSPC),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_E;
+case DV_E: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_E = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_E,
+    .value        = SS_LGUI("e"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        case DV_G: return &dvorak_node_DV_RSFT2_DV_P_DV_G;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_P = {
+    .parent       = NULL,
+    .key          = DV_P,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_P_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_LSFT2_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_LSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_LSFT2;
+case DV_N: return &dvorak_reversenode_DV_H_DV_LSFT2;
+case DV_LSFT2: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_LSFT2 = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_LSFT2,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(" ")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_LSFT2_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_LSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_A;
+case DV_A: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_A = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_A,
+    .value        = SS_LALT("a"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_A_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_DOT;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_DOT = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_DOT,
+    .value        = SS_LGUI(SS_LALT(".")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_A;
+case DV_A: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_A = {
+    .parent       = NULL,
+    .key          = DV_A,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_A_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_Y;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_Y = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_Y,
+    .value        = SS_LGUI(SS_LALT("y")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_Y_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_N = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_N,
+    .value        = SS_LGUI("n"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_node_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_O,
+    .value        = "o",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_T_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_T_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_T: return &dvorak_reversenode_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_T;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_T_DV_DOT = {
+    .parent       = &dvorak_reversenode_DV_T,
+    .key          = DV_DOT,
+    .value        = "#",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_T_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_T_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_X;
+case DV_X: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_X = {
+    .parent       = NULL,
+    .key          = DV_X,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_X_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_L;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_L;
+case DV_L: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_L = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_L,
+    .value        = SS_LGUI(SS_LALT("l")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_L_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_E_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_E_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_E_DV_T;
+case DV_E: return &dvorak_reversenode_DV_LSFT2_DV_T;
+case DV_T: return &dvorak_reversenode_DV_LSFT2_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_E_DV_T = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_E,
+    .key          = DV_T,
+    .value        = SS_LCTL("^"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_E_DV_T_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_E_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_COMM;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_COMM = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_COMM,
+    .value        = "/",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_W: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_W = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_W,
+    .value        = "w",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_W_next_node,
+    .prev_node    = dvorak_node_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_X;
+case DV_X: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_X = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_X,
+    .value        = SS_LCTL("x"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_X_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_Q;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_Q = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_Q,
+    .value        = SS_LGUI(SS_LALT("q")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_Q_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_M;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_M;
+case DV_M: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_M = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_M,
+    .value        = "-",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_M_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_SCLN;
+case DV_SCLN: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_SCLN = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_SCLN,
+    .value        = ":",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_SCLN_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_O;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_O;
+case DV_O: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_O = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_O,
+    .value        = SS_LGUI(SS_LALT("o")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_J;
+case DV_H: return &dvorak_reversenode_DV_N_DV_J;
+case DV_J: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_J = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_J,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("j")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_J_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_W;
+case DV_W: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_W = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_W,
+    .value        = "W",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_W_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_F;
+case DV_F: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_F = {
+    .parent       = NULL,
+    .key          = DV_F,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_F_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_node_DV_H_DV_N;
+case DV_D: return &dvorak_node_DV_H_DV_D;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H = {
+    .parent       = NULL,
+    .key          = DV_H,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT3_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT3_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT3: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_RSFT3;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT3_DV_O = {
+    .parent       = &dvorak_reversenode_DV_RSFT3,
+    .key          = DV_O,
+    .value        = SS_LGUI(SS_LSFT("4")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT3_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_RSFT3_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_S;
+case DV_S: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_S = {
+    .parent       = NULL,
+    .key          = DV_S,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_S_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_K;
+case DV_K: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_K = {
+    .parent       = NULL,
+    .key          = DV_K,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_K_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_J;
+case DV_J: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_J = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_J,
+    .value        = SS_LALT("j"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_J_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_O;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_O;
+case DV_O: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_O = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_O,
+    .value        = SS_LGUI(SS_LALT("o")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_L;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_L;
+case DV_L: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_L = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_L,
+    .value        = SS_LGUI(SS_LALT("l")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_L_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_R: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_R = {
+    .parent       = NULL,
+    .key          = DV_R,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_R_next_node,
+    .prev_node    = dvorak_reversenode_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_J;
+case DV_J: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_J = {
+    .parent       = NULL,
+    .key          = DV_J,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_J_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_T;
+case DV_T: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_T = {
+    .parent       = NULL,
+    .key          = DV_T,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_T_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_COMM = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_COMM,
+    .value        = "<",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_T;
+case DV_T: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_T = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_T,
+    .value        = SS_LCTL("t"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_T_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_RSFT1_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_RSFT1_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_RSFT1_DV_DOT;
+case DV_P: return &dvorak_node_DV_RSFT1_DV_P;
+case DV_Y: return &dvorak_node_DV_RSFT1_DV_Y;
+case DV_F: return &dvorak_node_DV_RSFT1_DV_F;
+case DV_G: return &dvorak_node_DV_RSFT1_DV_G;
+case DV_C: return &dvorak_node_DV_RSFT1_DV_C;
+case DV_R: return &dvorak_node_DV_RSFT1_DV_R;
+case DV_L: return &dvorak_node_DV_RSFT1_DV_L;
+case DV_A: return &dvorak_node_DV_RSFT1_DV_A;
+case DV_O: return &dvorak_node_DV_RSFT1_DV_O;
+case DV_E: return &dvorak_node_DV_RSFT1_DV_E;
+case DV_U: return &dvorak_node_DV_RSFT1_DV_U;
+case DV_I: return &dvorak_node_DV_RSFT1_DV_I;
+case DV_D: return &dvorak_node_DV_RSFT1_DV_D;
+case DV_H: return &dvorak_node_DV_RSFT1_DV_H;
+case DV_T: return &dvorak_node_DV_RSFT1_DV_T;
+case DV_N: return &dvorak_node_DV_RSFT1_DV_N;
+case DV_S: return &dvorak_node_DV_RSFT1_DV_S;
+case DV_SCLN: return &dvorak_node_DV_RSFT1_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_RSFT1_DV_Q;
+case DV_J: return &dvorak_node_DV_RSFT1_DV_J;
+case DV_K: return &dvorak_node_DV_RSFT1_DV_K;
+case DV_X: return &dvorak_node_DV_RSFT1_DV_X;
+case DV_B: return &dvorak_node_DV_RSFT1_DV_B;
+case DV_M: return &dvorak_node_DV_RSFT1_DV_M;
+case DV_W: return &dvorak_node_DV_RSFT1_DV_W;
+case DV_V: return &dvorak_node_DV_RSFT1_DV_V;
+case DV_Z: return &dvorak_node_DV_RSFT1_DV_Z;
+case DV_LSFT1: return &dvorak_node_DV_RSFT1_DV_LSFT1;
+case DV_LSFT2: return &dvorak_node_DV_RSFT1_DV_LSFT2;
+case DV_RSFT2: return &dvorak_node_DV_RSFT1_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1 = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_RSFT1,
+    .value        = NULL,
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_U;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_U;
+case DV_U: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_U = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_U,
+    .value        = "4",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_DOT = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_DOT,
+    .value        = ">",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_P;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_P;
+case DV_P: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_P = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_P,
+    .value        = SS_LGUI(SS_LALT("p")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_R;
+case DV_R: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_R = {
+    .parent       = NULL,
+    .key          = DV_R,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_R_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_B;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_B;
+case DV_B: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_B = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_B,
+    .value        = "!",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_B_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_M;
+case DV_M: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_M = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_M,
+    .value        = SS_LALT("m"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_M_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_SCLN;
+case DV_SCLN: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_SCLN = {
+    .parent       = NULL,
+    .key          = DV_SCLN,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_SCLN_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_K;
+case DV_K: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_K = {
+    .parent       = NULL,
+    .key          = DV_K,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_K_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_node_DV_LSFT2_DV_N_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_N = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_N,
+    .value        = SS_LCTL("n"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_Y = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_Y,
+    .value        = SS_LCTL("y"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_Y_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_F;
+case DV_O: return &dvorak_reversenode_DV_U_DV_F;
+case DV_F: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_F = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_F,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("f")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_F_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_E_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_E_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_reversenode_DV_B;
+case DV_B: return &dvorak_reversenode_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_E_DV_B = {
+    .parent       = &dvorak_reversenode_DV_E,
+    .key          = DV_B,
+    .value        = "_",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_E_DV_B_next_node,
+    .prev_node    = dvorak_node_DV_E_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_M;
+case DV_M: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_M = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_M,
+    .value        = "M",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_M_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_Z;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_Z;
+case DV_Z: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_Z = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_Z,
+    .value        = SS_LGUI(SS_LALT("z")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_Z_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_QUOT = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_QUOT,
+    .value        = SS_LCTL("'"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_QUOT_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        case DV_COMM: return &dvorak_node_DV_DOT_DV_COMM;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_DOT: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_DOT = {
+    .parent       = NULL,
+    .key          = DV_DOT,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_DOT_next_node,
+    .prev_node    = dvorak_reversenode_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_S;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_S;
+case DV_S: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_S = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_S,
+    .value        = "0",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_S_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_X;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_X;
+case DV_X: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_X = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_X,
+    .value        = SS_LGUI(SS_LALT("x")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_X_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_S;
+case DV_S: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_S = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_S,
+    .value        = "S",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_S_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_P = {
+    .parent       = NULL,
+    .key          = DV_P,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_P_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_E_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_E_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_E_DV_N = {
+    .parent       = NULL,
+    .key          = DV_N,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_E_DV_N_next_node,
+    .prev_node    = dvorak_reversenode_DV_E_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_Q = {
+    .parent       = NULL,
+    .key          = DV_Q,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_Q_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_LSFT1_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_LSFT1_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_LSFT1_DV_DOT;
+case DV_P: return &dvorak_node_DV_LSFT1_DV_P;
+case DV_Y: return &dvorak_node_DV_LSFT1_DV_Y;
+case DV_F: return &dvorak_node_DV_LSFT1_DV_F;
+case DV_G: return &dvorak_node_DV_LSFT1_DV_G;
+case DV_C: return &dvorak_node_DV_LSFT1_DV_C;
+case DV_R: return &dvorak_node_DV_LSFT1_DV_R;
+case DV_L: return &dvorak_node_DV_LSFT1_DV_L;
+case DV_A: return &dvorak_node_DV_LSFT1_DV_A;
+case DV_O: return &dvorak_node_DV_LSFT1_DV_O;
+case DV_E: return &dvorak_node_DV_LSFT1_DV_E;
+case DV_U: return &dvorak_node_DV_LSFT1_DV_U;
+case DV_I: return &dvorak_node_DV_LSFT1_DV_I;
+case DV_D: return &dvorak_node_DV_LSFT1_DV_D;
+case DV_H: return &dvorak_node_DV_LSFT1_DV_H;
+case DV_T: return &dvorak_node_DV_LSFT1_DV_T;
+case DV_N: return &dvorak_node_DV_LSFT1_DV_N;
+case DV_S: return &dvorak_node_DV_LSFT1_DV_S;
+case DV_SCLN: return &dvorak_node_DV_LSFT1_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_LSFT1_DV_Q;
+case DV_J: return &dvorak_node_DV_LSFT1_DV_J;
+case DV_K: return &dvorak_node_DV_LSFT1_DV_K;
+case DV_X: return &dvorak_node_DV_LSFT1_DV_X;
+case DV_B: return &dvorak_node_DV_LSFT1_DV_B;
+case DV_M: return &dvorak_node_DV_LSFT1_DV_M;
+case DV_W: return &dvorak_node_DV_LSFT1_DV_W;
+case DV_V: return &dvorak_node_DV_LSFT1_DV_V;
+case DV_Z: return &dvorak_node_DV_LSFT1_DV_Z;
+case DV_LSFT2: return &dvorak_node_DV_LSFT1_DV_LSFT2;
+case DV_RSFT2: return &dvorak_node_DV_LSFT1_DV_RSFT2;
+case DV_RSFT1: return &dvorak_node_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1 = {
+    .parent       = NULL,
+    .key          = DV_LSFT1,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_COMM = {
+    .parent       = NULL,
+    .key          = DV_COMM,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_COMM_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_RSFT1_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_RSFT1_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_RSFT1_DV_DOT;
+case DV_P: return &dvorak_node_DV_RSFT1_DV_P;
+case DV_Y: return &dvorak_node_DV_RSFT1_DV_Y;
+case DV_F: return &dvorak_node_DV_RSFT1_DV_F;
+case DV_G: return &dvorak_node_DV_RSFT1_DV_G;
+case DV_C: return &dvorak_node_DV_RSFT1_DV_C;
+case DV_R: return &dvorak_node_DV_RSFT1_DV_R;
+case DV_L: return &dvorak_node_DV_RSFT1_DV_L;
+case DV_A: return &dvorak_node_DV_RSFT1_DV_A;
+case DV_O: return &dvorak_node_DV_RSFT1_DV_O;
+case DV_E: return &dvorak_node_DV_RSFT1_DV_E;
+case DV_U: return &dvorak_node_DV_RSFT1_DV_U;
+case DV_I: return &dvorak_node_DV_RSFT1_DV_I;
+case DV_D: return &dvorak_node_DV_RSFT1_DV_D;
+case DV_H: return &dvorak_node_DV_RSFT1_DV_H;
+case DV_T: return &dvorak_node_DV_RSFT1_DV_T;
+case DV_N: return &dvorak_node_DV_RSFT1_DV_N;
+case DV_S: return &dvorak_node_DV_RSFT1_DV_S;
+case DV_SCLN: return &dvorak_node_DV_RSFT1_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_RSFT1_DV_Q;
+case DV_J: return &dvorak_node_DV_RSFT1_DV_J;
+case DV_K: return &dvorak_node_DV_RSFT1_DV_K;
+case DV_X: return &dvorak_node_DV_RSFT1_DV_X;
+case DV_B: return &dvorak_node_DV_RSFT1_DV_B;
+case DV_M: return &dvorak_node_DV_RSFT1_DV_M;
+case DV_W: return &dvorak_node_DV_RSFT1_DV_W;
+case DV_V: return &dvorak_node_DV_RSFT1_DV_V;
+case DV_Z: return &dvorak_node_DV_RSFT1_DV_Z;
+case DV_LSFT1: return &dvorak_node_DV_RSFT1_DV_LSFT1;
+case DV_LSFT2: return &dvorak_node_DV_RSFT1_DV_LSFT2;
+case DV_RSFT2: return &dvorak_node_DV_RSFT1_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1 = {
+    .parent       = NULL,
+    .key          = DV_RSFT1,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_J: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_J = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_J,
+    .value        = "j",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_J_next_node,
+    .prev_node    = dvorak_node_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_N = {
+    .parent       = NULL,
+    .key          = DV_N,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_N_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_K;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_K;
+case DV_K: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_K = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_K,
+    .value        = "+",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_K_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_Q = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_Q,
+    .value        = SS_LALT("q"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_Q_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_F;
+case DV_F: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_F = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_F,
+    .value        = SS_LALT("f"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_F_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_X;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_X;
+case DV_X: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_X = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_X,
+    .value        = "=",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_X_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_R;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_R;
+case DV_R: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_R = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_R,
+    .value        = "%",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_R_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_LSFT2_next_node(uint16_t key) {
+    switch (key) {
+        case DV_COMM: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_DOT;
+case DV_P: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_P;
+case DV_Y: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_Y;
+case DV_F: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_F;
+case DV_G: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_G;
+case DV_C: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_C;
+case DV_R: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_R;
+case DV_A: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_A;
+case DV_O: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_O;
+case DV_E: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_E;
+case DV_U: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_U;
+case DV_I: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_I;
+case DV_D: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_D;
+case DV_H: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_H;
+case DV_T: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_T;
+case DV_N: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_N;
+case DV_S: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_S;
+case DV_J: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_J;
+case DV_K: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_K;
+case DV_X: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_X;
+case DV_B: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_B;
+case DV_M: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_M;
+case DV_W: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_W;
+case DV_V: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_V;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_LSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_LSFT2 = {
+    .parent       = NULL,
+    .key          = DV_LSFT2,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_LSFT2_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_LSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_RSFT2_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_RSFT2_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_RSFT2_DV_DOT;
+case DV_P: return &dvorak_node_DV_RSFT2_DV_P;
+case DV_Y: return &dvorak_node_DV_RSFT2_DV_Y;
+case DV_F: return &dvorak_node_DV_RSFT2_DV_F;
+case DV_G: return &dvorak_node_DV_RSFT2_DV_G;
+case DV_C: return &dvorak_node_DV_RSFT2_DV_C;
+case DV_R: return &dvorak_node_DV_RSFT2_DV_R;
+case DV_L: return &dvorak_node_DV_RSFT2_DV_L;
+case DV_A: return &dvorak_node_DV_RSFT2_DV_A;
+case DV_O: return &dvorak_node_DV_RSFT2_DV_O;
+case DV_E: return &dvorak_node_DV_RSFT2_DV_E;
+case DV_U: return &dvorak_node_DV_RSFT2_DV_U;
+case DV_I: return &dvorak_node_DV_RSFT2_DV_I;
+case DV_D: return &dvorak_node_DV_RSFT2_DV_D;
+case DV_H: return &dvorak_node_DV_RSFT2_DV_H;
+case DV_T: return &dvorak_node_DV_RSFT2_DV_T;
+case DV_N: return &dvorak_node_DV_RSFT2_DV_N;
+case DV_S: return &dvorak_node_DV_RSFT2_DV_S;
+case DV_SCLN: return &dvorak_node_DV_RSFT2_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_RSFT2_DV_Q;
+case DV_J: return &dvorak_node_DV_RSFT2_DV_J;
+case DV_K: return &dvorak_node_DV_RSFT2_DV_K;
+case DV_X: return &dvorak_node_DV_RSFT2_DV_X;
+case DV_B: return &dvorak_node_DV_RSFT2_DV_B;
+case DV_M: return &dvorak_node_DV_RSFT2_DV_M;
+case DV_W: return &dvorak_node_DV_RSFT2_DV_W;
+case DV_V: return &dvorak_node_DV_RSFT2_DV_V;
+case DV_Z: return &dvorak_node_DV_RSFT2_DV_Z;
+case DV_LSFT2: return &dvorak_node_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2 = {
+    .parent       = NULL,
+    .key          = DV_RSFT2,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT2_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT2;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT2 = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_LSFT2,
+    .value        = SS_LGUI(" "),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT2_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_G;
+case DV_U: return &dvorak_reversenode_DV_O_DV_G;
+case DV_G: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_G = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_G,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("g")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_F;
+case DV_F: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_F = {
+    .parent       = NULL,
+    .key          = DV_F,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_F_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_Q = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_Q,
+    .value        = SS_LGUI("q"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_Q_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_J;
+case DV_N: return &dvorak_reversenode_DV_H_DV_J;
+case DV_J: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_J = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_J,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("j")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_J_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_X;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_X;
+case DV_X: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_X = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_X,
+    .value        = SS_LGUI(SS_LALT("x")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_X_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_Y = {
+    .parent       = NULL,
+    .key          = DV_Y,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_Y_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_S;
+case DV_S: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_S = {
+    .parent       = NULL,
+    .key          = DV_S,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_S_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_D;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_D;
+case DV_D: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_D = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_D,
+    .value        = SS_LGUI(SS_LALT("d")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_D_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_DOT;
+case DV_N: return &dvorak_reversenode_DV_H_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_DOT = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_DOT,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(".")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_V;
+case DV_V: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_V = {
+    .parent       = NULL,
+    .key          = DV_V,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_V_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_L;
+case DV_L: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_L = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_L,
+    .value        = SS_LCTL("l"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_L_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_H = {
+    .parent       = NULL,
+    .key          = DV_H,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_H_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_B;
+case DV_B: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_B = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_B,
+    .value        = SS_LALT("b"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_B_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_D;
+case DV_D: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_D = {
+    .parent       = NULL,
+    .key          = DV_D,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_D_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_T;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_T;
+case DV_T: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_T = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_T,
+    .value        = "8",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_T_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_J;
+case DV_J: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_J = {
+    .parent       = NULL,
+    .key          = DV_J,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_J_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_QUOT;
+case DV_N: return &dvorak_reversenode_DV_H_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_QUOT = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_QUOT,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("'")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_QUOT_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_A;
+case DV_A: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_A = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_A,
+    .value        = SS_LGUI("a"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_A_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_J;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_J;
+case DV_J: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_J = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_J,
+    .value        = "|",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_J_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_D_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_D_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_D: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_D;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_D_DV_H = {
+    .parent       = &dvorak_reversenode_DV_D,
+    .key          = DV_H,
+    .value        = "nag",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_D_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_D_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_DOT = {
+    .parent       = NULL,
+    .key          = DV_DOT,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_DOT_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_Y = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_Y,
+    .value        = SS_LGUI("y"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_Y_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_Z;
+case DV_U: return &dvorak_reversenode_DV_O_DV_Z;
+case DV_Z: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_Z = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_Z,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("z")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_Z_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_node_DV_H_DV_N;
+case DV_D: return &dvorak_node_DV_H_DV_D;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_H,
+    .value        = "h",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_W;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_W;
+case DV_W: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_W = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_W,
+    .value        = SS_LGUI(SS_LALT("w")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_W_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_N;
+case DV_U: return &dvorak_reversenode_DV_O_DV_N;
+case DV_N: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_N = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_N,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("n")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_Z;
+case DV_Z: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_Z = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_Z,
+    .value        = SS_LCTL("z"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_Z_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_F;
+case DV_F: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_F = {
+    .parent       = NULL,
+    .key          = DV_F,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_F_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_U = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_U,
+    .value        = "U",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_DOT;
+case DV_H: return &dvorak_reversenode_DV_N_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_DOT = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_DOT,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(".")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_Q = {
+    .parent       = NULL,
+    .key          = DV_Q,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_Q_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_R: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_R = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_R,
+    .value        = "r",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_R_next_node,
+    .prev_node    = dvorak_node_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_A;
+case DV_H: return &dvorak_reversenode_DV_N_DV_A;
+case DV_A: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_A = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_A,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("a")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_A_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_QUOT = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_QUOT,
+    .value        = SS_LGUI("'"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_QUOT_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_W;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_W;
+case DV_W: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_W = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_W,
+    .value        = "*",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_W_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_Q;
+case DV_H: return &dvorak_reversenode_DV_N_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_Q = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_Q,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("q")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_Q_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_E_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_E_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_reversenode_DV_C;
+case DV_C: return &dvorak_reversenode_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_E_DV_C = {
+    .parent       = &dvorak_reversenode_DV_E,
+    .key          = DV_C,
+    .value        = "~",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_E_DV_C_next_node,
+    .prev_node    = dvorak_node_DV_E_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_E_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_E_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_E_DV_N;
+case DV_E: return &dvorak_reversenode_DV_LSFT2_DV_N;
+case DV_N: return &dvorak_reversenode_DV_LSFT2_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_E_DV_N = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_E,
+    .key          = DV_N,
+    .value        = SS_LCTL("^"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_E_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_E_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_K;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_K;
+case DV_K: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_K = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_K,
+    .value        = SS_LGUI(SS_LALT("k")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_K_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_S;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_S;
+case DV_S: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_S = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_S,
+    .value        = SS_LGUI(SS_LALT("s")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_S_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_Y = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_Y,
+    .value        = "Y",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_Y_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_D;
+case DV_D: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_D = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_D,
+    .value        = "D",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_D_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_LSFT2_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_LSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_LSFT2;
+case DV_LSFT2: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_LSFT2 = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_LSFT2,
+    .value        = SS_LALT(" "),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_LSFT2_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_LSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_V;
+case DV_V: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_V = {
+    .parent       = NULL,
+    .key          = DV_V,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_V_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_N = {
+    .parent       = NULL,
+    .key          = DV_N,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_N_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_O = {
+    .parent       = NULL,
+    .key          = DV_O,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_O_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_F: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_F = {
+    .parent       = NULL,
+    .key          = DV_F,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_F_next_node,
+    .prev_node    = dvorak_reversenode_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_V;
+case DV_V: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_V = {
+    .parent       = NULL,
+    .key          = DV_V,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_V_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_U = {
+    .parent       = NULL,
+    .key          = DV_U,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_U_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_T;
+case DV_T: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_T = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_T,
+    .value        = SS_LGUI("t"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_T_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_J;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_J;
+case DV_J: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_J = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_J,
+    .value        = "|",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_J_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_node_DV_LSFT2_DV_E_DV_N;
+case DV_T: return &dvorak_node_DV_LSFT2_DV_E_DV_T;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_E;
+case DV_E: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_E = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_E,
+    .value        = SS_LCTL("e"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        case DV_G: return &dvorak_node_DV_P_DV_G;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_P: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_P = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_P,
+    .value        = "p",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_N;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_N;
+case DV_N: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_N = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_N,
+    .value        = "9",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_I;
+case DV_H: return &dvorak_reversenode_DV_N_DV_I;
+case DV_I: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_I = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_I,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("i")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_I_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_E_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_E_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_reversenode_DV_F;
+case DV_F: return &dvorak_reversenode_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_E_DV_F = {
+    .parent       = &dvorak_reversenode_DV_E,
+    .key          = DV_F,
+    .value        = "!",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_E_DV_F_next_node,
+    .prev_node    = dvorak_node_DV_E_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_D;
+case DV_D: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_D = {
+    .parent       = NULL,
+    .key          = DV_D,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_D_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_A: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_A = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_A,
+    .value        = "a",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_A_next_node,
+    .prev_node    = dvorak_node_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_G;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_G;
+case DV_G: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_G = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_G,
+    .value        = ")",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_S;
+case DV_S: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_S = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_S,
+    .value        = SS_LGUI("s"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_S_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        case DV_F: return &dvorak_node_DV_U_DV_O_DV_F;
+case DV_G: return &dvorak_node_DV_U_DV_O_DV_G;
+case DV_C: return &dvorak_node_DV_U_DV_O_DV_C;
+case DV_R: return &dvorak_node_DV_U_DV_O_DV_R;
+case DV_L: return &dvorak_node_DV_U_DV_O_DV_L;
+case DV_D: return &dvorak_node_DV_U_DV_O_DV_D;
+case DV_H: return &dvorak_node_DV_U_DV_O_DV_H;
+case DV_T: return &dvorak_node_DV_U_DV_O_DV_T;
+case DV_N: return &dvorak_node_DV_U_DV_O_DV_N;
+case DV_S: return &dvorak_node_DV_U_DV_O_DV_S;
+case DV_B: return &dvorak_node_DV_U_DV_O_DV_B;
+case DV_M: return &dvorak_node_DV_U_DV_O_DV_M;
+case DV_W: return &dvorak_node_DV_U_DV_O_DV_W;
+case DV_V: return &dvorak_node_DV_U_DV_O_DV_V;
+case DV_Z: return &dvorak_node_DV_U_DV_O_DV_Z;
+case DV_RSFT2: return &dvorak_node_DV_U_DV_O_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O = {
+    .parent       = &dvorak_reversenode_DV_U,
+    .key          = DV_O,
+    .value        = "o",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_F;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_F;
+case DV_F: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_F = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_F,
+    .value        = SS_LGUI(SS_LALT("f")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_F_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_V: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_V = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_V,
+    .value        = "v",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_V_next_node,
+    .prev_node    = dvorak_node_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_R;
+case DV_R: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_R = {
+    .parent       = NULL,
+    .key          = DV_R,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_R_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_U = {
+    .parent       = NULL,
+    .key          = DV_U,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_U_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        case DV_F: return &dvorak_node_DV_U_DV_O_DV_F;
+case DV_G: return &dvorak_node_DV_U_DV_O_DV_G;
+case DV_C: return &dvorak_node_DV_U_DV_O_DV_C;
+case DV_R: return &dvorak_node_DV_U_DV_O_DV_R;
+case DV_L: return &dvorak_node_DV_U_DV_O_DV_L;
+case DV_D: return &dvorak_node_DV_U_DV_O_DV_D;
+case DV_H: return &dvorak_node_DV_U_DV_O_DV_H;
+case DV_T: return &dvorak_node_DV_U_DV_O_DV_T;
+case DV_N: return &dvorak_node_DV_U_DV_O_DV_N;
+case DV_S: return &dvorak_node_DV_U_DV_O_DV_S;
+case DV_B: return &dvorak_node_DV_U_DV_O_DV_B;
+case DV_M: return &dvorak_node_DV_U_DV_O_DV_M;
+case DV_W: return &dvorak_node_DV_U_DV_O_DV_W;
+case DV_V: return &dvorak_node_DV_U_DV_O_DV_V;
+case DV_Z: return &dvorak_node_DV_U_DV_O_DV_Z;
+case DV_RSFT2: return &dvorak_node_DV_U_DV_O_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_O = {
+    .parent       = NULL,
+    .key          = DV_O,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_O_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        case DV_DOT: return &dvorak_node_DV_COMM_DV_DOT;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_COMM: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_COMM = {
+    .parent       = NULL,
+    .key          = DV_COMM,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_COMM_next_node,
+    .prev_node    = dvorak_reversenode_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_C: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_C = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_C,
+    .value        = "c",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_C_next_node,
+    .prev_node    = dvorak_node_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_E_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_E_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_E_DV_G = {
+    .parent       = &dvorak_reversenode_DV_E,
+    .key          = DV_G,
+    .value        = "@",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_E_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_E_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_DOT = {
+    .parent       = NULL,
+    .key          = DV_DOT,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_DOT_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_S;
+case DV_S: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_S = {
+    .parent       = NULL,
+    .key          = DV_S,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_S_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_COMM = {
+    .parent       = NULL,
+    .key          = DV_COMM,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_COMM_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_node_DV_D_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_D: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_D = {
+    .parent       = NULL,
+    .key          = DV_D,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_D_next_node,
+    .prev_node    = dvorak_reversenode_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_J;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_J;
+case DV_J: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_J = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_J,
+    .value        = SS_LGUI(SS_LALT("j")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_J_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_U;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_U;
+case DV_U: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_U = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_U,
+    .value        = "4",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_K;
+case DV_K: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_K = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_K,
+    .value        = "K",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_K_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_Y;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_Y = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_Y,
+    .value        = "[",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_Y_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_V;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_V;
+case DV_V: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_V = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_V,
+    .value        = "^",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_V_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_QUOT = {
+    .parent       = NULL,
+    .key          = DV_QUOT,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_QUOT_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_D;
+case DV_D: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_D = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_D,
+    .value        = SS_LGUI("d"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_D_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_M;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_M;
+case DV_M: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_M = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_M,
+    .value        = SS_LGUI(SS_LALT("m")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_M_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_K;
+case DV_N: return &dvorak_reversenode_DV_H_DV_K;
+case DV_K: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_K = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_K,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("k")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_K_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_E;
+case DV_H: return &dvorak_reversenode_DV_N_DV_E;
+case DV_E: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_E = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_E,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("e")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_W;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_W;
+case DV_W: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_W = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_W,
+    .value        = "*",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_W_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_G_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_G_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_G: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_G;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_G_DV_P = {
+    .parent       = &dvorak_reversenode_DV_G,
+    .key          = DV_P,
+    .value        = SS_TAP(X_TAB),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_G_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_G_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_W;
+case DV_W: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_W = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_W,
+    .value        = SS_LCTL("w"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_W_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_V: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_V = {
+    .parent       = NULL,
+    .key          = DV_V,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_V_next_node,
+    .prev_node    = dvorak_reversenode_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_L;
+case DV_L: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_L = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_L,
+    .value        = SS_LGUI("l"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_L_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_I_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_I_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_I: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_I;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_I_DV_U = {
+    .parent       = &dvorak_reversenode_DV_I,
+    .key          = DV_U,
+    .value        = "",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_I_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_I_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_M;
+case DV_M: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_M = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_M,
+    .value        = SS_LGUI("m"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_M_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_next_node(uint16_t key) {
+    switch (key) {
+        case DV_COMM: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_DOT;
+case DV_P: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_P;
+case DV_Y: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_Y;
+case DV_F: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_F;
+case DV_G: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_G;
+case DV_C: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_C;
+case DV_R: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_R;
+case DV_A: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_A;
+case DV_O: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_O;
+case DV_E: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_E;
+case DV_U: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_U;
+case DV_I: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_I;
+case DV_D: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_D;
+case DV_H: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_H;
+case DV_T: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_T;
+case DV_N: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_N;
+case DV_S: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_S;
+case DV_J: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_J;
+case DV_K: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_K;
+case DV_X: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_X;
+case DV_B: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_B;
+case DV_M: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_M;
+case DV_W: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_W;
+case DV_V: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_V;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2 = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_RSFT2,
+    .value        = SS_TAP(X_ENT),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_N;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_N;
+case DV_N: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_N = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_N,
+    .value        = SS_LGUI(SS_LALT("n")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        case DV_F: return &dvorak_node_DV_E_DV_F;
+case DV_G: return &dvorak_node_DV_E_DV_G;
+case DV_C: return &dvorak_node_DV_E_DV_C;
+case DV_R: return &dvorak_node_DV_E_DV_R;
+case DV_L: return &dvorak_node_DV_E_DV_L;
+case DV_B: return &dvorak_node_DV_E_DV_B;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_E = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_E,
+    .value        = "e",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_N_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_N_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_N_DV_E;
+case DV_N: return &dvorak_reversenode_DV_LSFT2_DV_E;
+case DV_E: return &dvorak_reversenode_DV_LSFT2_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_N_DV_E = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_N,
+    .key          = DV_E,
+    .value        = SS_LCTL("^"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_N_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_N_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_SCLN;
+case DV_H: return &dvorak_reversenode_DV_N_DV_SCLN;
+case DV_SCLN: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_SCLN = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_SCLN,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(";")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_SCLN_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_O;
+case DV_N: return &dvorak_reversenode_DV_H_DV_O;
+case DV_O: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_O = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_O,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("o")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_F;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_F;
+case DV_F: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_F = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_F,
+    .value        = "]",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_F_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_DOT;
+case DV_P: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_P;
+case DV_Y: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_Y;
+case DV_F: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_F;
+case DV_G: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_G;
+case DV_C: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_C;
+case DV_R: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_R;
+case DV_L: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_L;
+case DV_A: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_A;
+case DV_O: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_O;
+case DV_E: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_E;
+case DV_U: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_U;
+case DV_I: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_I;
+case DV_D: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_D;
+case DV_H: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_H;
+case DV_T: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_T;
+case DV_N: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_N;
+case DV_S: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_S;
+case DV_SCLN: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_Q;
+case DV_J: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_J;
+case DV_K: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_K;
+case DV_X: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_X;
+case DV_B: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_B;
+case DV_M: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_M;
+case DV_W: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_W;
+case DV_V: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_V;
+case DV_Z: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_Z;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1 = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_LSFT1,
+    .value        = SS_LGUI(SS_TAP(X_BSPC)),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_COMM = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_COMM,
+    .value        = SS_LGUI(","),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_F;
+case DV_F: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_F = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_F,
+    .value        = SS_LCTL("f"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_F_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_N_DV_H_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_N_DV_H_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_N_DV_H_DV_DOT;
+case DV_P: return &dvorak_node_DV_N_DV_H_DV_P;
+case DV_Y: return &dvorak_node_DV_N_DV_H_DV_Y;
+case DV_A: return &dvorak_node_DV_N_DV_H_DV_A;
+case DV_O: return &dvorak_node_DV_N_DV_H_DV_O;
+case DV_E: return &dvorak_node_DV_N_DV_H_DV_E;
+case DV_U: return &dvorak_node_DV_N_DV_H_DV_U;
+case DV_I: return &dvorak_node_DV_N_DV_H_DV_I;
+case DV_SCLN: return &dvorak_node_DV_N_DV_H_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_N_DV_H_DV_Q;
+case DV_J: return &dvorak_node_DV_N_DV_H_DV_J;
+case DV_K: return &dvorak_node_DV_N_DV_H_DV_K;
+case DV_X: return &dvorak_node_DV_N_DV_H_DV_X;
+case DV_LSFT2: return &dvorak_node_DV_N_DV_H_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H = {
+    .parent       = &dvorak_reversenode_DV_N,
+    .key          = DV_H,
+    .value        = "h",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_S;
+case DV_U: return &dvorak_reversenode_DV_O_DV_S;
+case DV_S: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_S = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_S,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("s")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_S_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_DOT;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_DOT = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_DOT,
+    .value        = SS_LGUI(SS_LALT(".")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_J;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_J;
+case DV_J: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_J = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_J,
+    .value        = SS_LGUI(SS_LALT("j")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_J_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_L;
+case DV_L: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_L = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_L,
+    .value        = SS_LALT("l"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_L_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_O;
+case DV_H: return &dvorak_reversenode_DV_N_DV_O;
+case DV_O: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_O = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_O,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("o")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_X;
+case DV_X: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_X = {
+    .parent       = NULL,
+    .key          = DV_X,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_X_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_I;
+case DV_I: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_I = {
+    .parent       = NULL,
+    .key          = DV_I,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_I_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_X;
+case DV_X: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_X = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_X,
+    .value        = SS_LALT("x"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_X_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_K;
+case DV_K: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_K = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_K,
+    .value        = SS_LGUI("k"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_K_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_V;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_V;
+case DV_V: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_V = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_V,
+    .value        = SS_LGUI(SS_LALT("v")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_V_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_A;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_A;
+case DV_A: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_A = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_A,
+    .value        = SS_LGUI(SS_LALT("a")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_A_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_J;
+case DV_J: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_J = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_J,
+    .value        = SS_LGUI("j"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_J_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_S;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_S;
+case DV_S: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_S = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_S,
+    .value        = "0",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_S_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_LSFT2_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_LSFT2_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_LSFT2_DV_DOT;
+case DV_P: return &dvorak_node_DV_LSFT2_DV_P;
+case DV_Y: return &dvorak_node_DV_LSFT2_DV_Y;
+case DV_F: return &dvorak_node_DV_LSFT2_DV_F;
+case DV_G: return &dvorak_node_DV_LSFT2_DV_G;
+case DV_C: return &dvorak_node_DV_LSFT2_DV_C;
+case DV_R: return &dvorak_node_DV_LSFT2_DV_R;
+case DV_L: return &dvorak_node_DV_LSFT2_DV_L;
+case DV_A: return &dvorak_node_DV_LSFT2_DV_A;
+case DV_O: return &dvorak_node_DV_LSFT2_DV_O;
+case DV_E: return &dvorak_node_DV_LSFT2_DV_E;
+case DV_U: return &dvorak_node_DV_LSFT2_DV_U;
+case DV_I: return &dvorak_node_DV_LSFT2_DV_I;
+case DV_D: return &dvorak_node_DV_LSFT2_DV_D;
+case DV_H: return &dvorak_node_DV_LSFT2_DV_H;
+case DV_T: return &dvorak_node_DV_LSFT2_DV_T;
+case DV_N: return &dvorak_node_DV_LSFT2_DV_N;
+case DV_S: return &dvorak_node_DV_LSFT2_DV_S;
+case DV_SCLN: return &dvorak_node_DV_LSFT2_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_LSFT2_DV_Q;
+case DV_J: return &dvorak_node_DV_LSFT2_DV_J;
+case DV_K: return &dvorak_node_DV_LSFT2_DV_K;
+case DV_X: return &dvorak_node_DV_LSFT2_DV_X;
+case DV_B: return &dvorak_node_DV_LSFT2_DV_B;
+case DV_M: return &dvorak_node_DV_LSFT2_DV_M;
+case DV_W: return &dvorak_node_DV_LSFT2_DV_W;
+case DV_V: return &dvorak_node_DV_LSFT2_DV_V;
+case DV_Z: return &dvorak_node_DV_LSFT2_DV_Z;
+case DV_RSFT2: return &dvorak_node_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2 = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_LSFT2,
+    .value        = " ",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_K;
+case DV_K: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_K = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_K,
+    .value        = SS_LCTL("k"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_K_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_W;
+case DV_W: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_W = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_W,
+    .value        = SS_LGUI("w"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_W_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        case DV_G: return &dvorak_node_DV_LSFT2_DV_P_DV_G;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_P = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_P,
+    .value        = SS_LCTL("p"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_Y;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_Y = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_Y,
+    .value        = SS_LGUI(SS_LALT("y")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_Y_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_C;
+case DV_C: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_C = {
+    .parent       = NULL,
+    .key          = DV_C,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_C_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_O = {
+    .parent       = NULL,
+    .key          = DV_O,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_O_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_R;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_R;
+case DV_R: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_R = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_R,
+    .value        = SS_LGUI(SS_LALT("r")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_R_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_M;
+case DV_O: return &dvorak_reversenode_DV_U_DV_M;
+case DV_M: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_M = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_M,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("m")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_M_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_K: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_K = {
+    .parent       = NULL,
+    .key          = DV_K,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_K_next_node,
+    .prev_node    = dvorak_reversenode_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_R;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_R;
+case DV_R: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_R = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_R,
+    .value        = "%",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_R_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_QUOT = {
+    .parent       = NULL,
+    .key          = DV_QUOT,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_QUOT_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_LSFT2_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_LSFT2_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_LSFT2_DV_DOT;
+case DV_P: return &dvorak_node_DV_LSFT2_DV_P;
+case DV_Y: return &dvorak_node_DV_LSFT2_DV_Y;
+case DV_F: return &dvorak_node_DV_LSFT2_DV_F;
+case DV_G: return &dvorak_node_DV_LSFT2_DV_G;
+case DV_C: return &dvorak_node_DV_LSFT2_DV_C;
+case DV_R: return &dvorak_node_DV_LSFT2_DV_R;
+case DV_L: return &dvorak_node_DV_LSFT2_DV_L;
+case DV_A: return &dvorak_node_DV_LSFT2_DV_A;
+case DV_O: return &dvorak_node_DV_LSFT2_DV_O;
+case DV_E: return &dvorak_node_DV_LSFT2_DV_E;
+case DV_U: return &dvorak_node_DV_LSFT2_DV_U;
+case DV_I: return &dvorak_node_DV_LSFT2_DV_I;
+case DV_D: return &dvorak_node_DV_LSFT2_DV_D;
+case DV_H: return &dvorak_node_DV_LSFT2_DV_H;
+case DV_T: return &dvorak_node_DV_LSFT2_DV_T;
+case DV_N: return &dvorak_node_DV_LSFT2_DV_N;
+case DV_S: return &dvorak_node_DV_LSFT2_DV_S;
+case DV_SCLN: return &dvorak_node_DV_LSFT2_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_LSFT2_DV_Q;
+case DV_J: return &dvorak_node_DV_LSFT2_DV_J;
+case DV_K: return &dvorak_node_DV_LSFT2_DV_K;
+case DV_X: return &dvorak_node_DV_LSFT2_DV_X;
+case DV_B: return &dvorak_node_DV_LSFT2_DV_B;
+case DV_M: return &dvorak_node_DV_LSFT2_DV_M;
+case DV_W: return &dvorak_node_DV_LSFT2_DV_W;
+case DV_V: return &dvorak_node_DV_LSFT2_DV_V;
+case DV_Z: return &dvorak_node_DV_LSFT2_DV_Z;
+case DV_RSFT2: return &dvorak_node_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2 = {
+    .parent       = NULL,
+    .key          = DV_LSFT2,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_SCLN;
+case DV_N: return &dvorak_reversenode_DV_H_DV_SCLN;
+case DV_SCLN: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_SCLN = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_SCLN,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(";")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_SCLN_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_B;
+case DV_O: return &dvorak_reversenode_DV_U_DV_B;
+case DV_B: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_B = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_B,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("b")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_B_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        case DV_G: return &dvorak_node_DV_RSFT2_DV_P_DV_G;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_P = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_P,
+    .value        = "P",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_R;
+case DV_R: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_R = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_R,
+    .value        = SS_LALT("r"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_R_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_LSFT1_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_DOT;
+case DV_P: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_P;
+case DV_Y: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_Y;
+case DV_F: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_F;
+case DV_G: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_G;
+case DV_C: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_C;
+case DV_R: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_R;
+case DV_L: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_L;
+case DV_A: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_A;
+case DV_O: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_O;
+case DV_E: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_E;
+case DV_U: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_U;
+case DV_I: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_I;
+case DV_D: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_D;
+case DV_H: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_H;
+case DV_T: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_T;
+case DV_N: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_N;
+case DV_S: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_S;
+case DV_SCLN: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_Q;
+case DV_J: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_J;
+case DV_K: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_K;
+case DV_X: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_X;
+case DV_B: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_B;
+case DV_M: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_M;
+case DV_W: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_W;
+case DV_V: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_V;
+case DV_Z: return &dvorak_node_DV_RSFT1_DV_LSFT1_DV_Z;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_LSFT1_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_LSFT1 = {
+    .parent       = NULL,
+    .key          = DV_LSFT1,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_LSFT1_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_LSFT1_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_V;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_V;
+case DV_V: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_V = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_V,
+    .value        = "^",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_V_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_V;
+case DV_V: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_V = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_V,
+    .value        = "V",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_V_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_T;
+case DV_T: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_T = {
+    .parent       = NULL,
+    .key          = DV_T,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_T_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_H = {
+    .parent       = NULL,
+    .key          = DV_H,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_H_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_F;
+case DV_F: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_F = {
+    .parent       = NULL,
+    .key          = DV_F,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_F_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_T_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_T_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_T_DV_DOT;
+case DV_P: return &dvorak_node_DV_T_DV_P;
+case DV_Y: return &dvorak_node_DV_T_DV_Y;
+case DV_Q: return &dvorak_node_DV_T_DV_Q;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_T: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_T = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_T,
+    .value        = "t",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_T_next_node,
+    .prev_node    = dvorak_node_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_A: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_A = {
+    .parent       = NULL,
+    .key          = DV_A,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_A_next_node,
+    .prev_node    = dvorak_reversenode_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_B;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_B;
+case DV_B: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_B = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_B,
+    .value        = SS_LGUI(SS_LALT("b")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_B_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_U = {
+    .parent       = NULL,
+    .key          = DV_U,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_U_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_Y: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_Y = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_Y,
+    .value        = "y",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_Y_next_node,
+    .prev_node    = dvorak_node_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_R;
+case DV_O: return &dvorak_reversenode_DV_U_DV_R;
+case DV_R: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_R = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_R,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("r")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_R_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_node_DV_I_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_I: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_I = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_I,
+    .value        = "i",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_I_next_node,
+    .prev_node    = dvorak_node_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_L;
+case DV_U: return &dvorak_reversenode_DV_O_DV_L;
+case DV_L: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_L = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_L,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("l")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_L_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_S;
+case DV_S: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_S = {
+    .parent       = NULL,
+    .key          = DV_S,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_S_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_T_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_T_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_T: return &dvorak_reversenode_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_T;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_T_DV_QUOT = {
+    .parent       = &dvorak_reversenode_DV_T,
+    .key          = DV_QUOT,
+    .value        = "`",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_T_DV_QUOT_next_node,
+    .prev_node    = dvorak_node_DV_T_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_K;
+case DV_K: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_K = {
+    .parent       = NULL,
+    .key          = DV_K,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_K_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_QUOT = {
+    .parent       = NULL,
+    .key          = DV_QUOT,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_QUOT_next_node,
+    .prev_node    = dvorak_reversenode_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_RSFT2_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_RSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_RSFT2;
+case DV_U: return &dvorak_reversenode_DV_O_DV_RSFT2;
+case DV_RSFT2: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_RSFT2 = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_RSFT2,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(SS_TAP(X_ENT))))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_RSFT2_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_RSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_M;
+case DV_M: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_M = {
+    .parent       = NULL,
+    .key          = DV_M,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_M_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        case DV_F: return &dvorak_node_DV_O_DV_U_DV_F;
+case DV_G: return &dvorak_node_DV_O_DV_U_DV_G;
+case DV_C: return &dvorak_node_DV_O_DV_U_DV_C;
+case DV_R: return &dvorak_node_DV_O_DV_U_DV_R;
+case DV_L: return &dvorak_node_DV_O_DV_U_DV_L;
+case DV_D: return &dvorak_node_DV_O_DV_U_DV_D;
+case DV_H: return &dvorak_node_DV_O_DV_U_DV_H;
+case DV_T: return &dvorak_node_DV_O_DV_U_DV_T;
+case DV_N: return &dvorak_node_DV_O_DV_U_DV_N;
+case DV_S: return &dvorak_node_DV_O_DV_U_DV_S;
+case DV_B: return &dvorak_node_DV_O_DV_U_DV_B;
+case DV_M: return &dvorak_node_DV_O_DV_U_DV_M;
+case DV_W: return &dvorak_node_DV_O_DV_U_DV_W;
+case DV_V: return &dvorak_node_DV_O_DV_U_DV_V;
+case DV_Z: return &dvorak_node_DV_O_DV_U_DV_Z;
+case DV_RSFT2: return &dvorak_node_DV_O_DV_U_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U = {
+    .parent       = &dvorak_reversenode_DV_O,
+    .key          = DV_U,
+    .value        = "u",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_M;
+case DV_M: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_M = {
+    .parent       = NULL,
+    .key          = DV_M,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_M_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_P = {
+    .parent       = NULL,
+    .key          = DV_P,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_P_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_SCLN: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_SCLN = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_SCLN,
+    .value        = ";",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_SCLN_next_node,
+    .prev_node    = dvorak_node_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_B;
+case DV_B: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_B = {
+    .parent       = NULL,
+    .key          = DV_B,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_B_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_P;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_P;
+case DV_P: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_P = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_P,
+    .value        = SS_LGUI(SS_LALT("p")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_J;
+case DV_J: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_J = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_J,
+    .value        = "J",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_J_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_COMM = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_COMM,
+    .value        = SS_LCTL(","),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_O = {
+    .parent       = NULL,
+    .key          = DV_O,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_O_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_Q: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_Q = {
+    .parent       = NULL,
+    .key          = DV_Q,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_Q_next_node,
+    .prev_node    = dvorak_reversenode_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_R;
+case DV_U: return &dvorak_reversenode_DV_O_DV_R;
+case DV_R: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_R = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_R,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("r")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_R_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_B: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_B = {
+    .parent       = NULL,
+    .key          = DV_B,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_B_next_node,
+    .prev_node    = dvorak_reversenode_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_S;
+case DV_O: return &dvorak_reversenode_DV_U_DV_S;
+case DV_S: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_S = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_S,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("s")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_S_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_L;
+case DV_O: return &dvorak_reversenode_DV_U_DV_L;
+case DV_L: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_L = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_L,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("l")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_L_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_M;
+case DV_M: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_M = {
+    .parent       = NULL,
+    .key          = DV_M,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_M_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_J;
+case DV_J: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_J = {
+    .parent       = NULL,
+    .key          = DV_J,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_J_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_U = {
+    .parent       = NULL,
+    .key          = DV_U,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_U_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT3_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT3_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT3: return &dvorak_reversenode_DV_A;
+case DV_A: return &dvorak_reversenode_DV_RSFT3;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT3_DV_A = {
+    .parent       = &dvorak_reversenode_DV_RSFT3,
+    .key          = DV_A,
+    .value        = SS_LGUI("@"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT3_DV_A_next_node,
+    .prev_node    = dvorak_node_DV_RSFT3_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_Q;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_Q = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_Q,
+    .value        = SS_LGUI(SS_LALT("q")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_Q_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_J;
+case DV_J: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_J = {
+    .parent       = NULL,
+    .key          = DV_J,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_J_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_U = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_U,
+    .value        = SS_LCTL("u"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_C;
+case DV_U: return &dvorak_reversenode_DV_O_DV_C;
+case DV_C: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_C = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_C,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("c")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_C_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_S;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_S;
+case DV_S: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_S = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_S,
+    .value        = SS_LGUI(SS_LALT("s")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_S_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_COMM;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_COMM = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_COMM,
+    .value        = SS_LGUI(SS_LALT(",")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_K: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_K = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_K,
+    .value        = "k",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_K_next_node,
+    .prev_node    = dvorak_node_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_T;
+case DV_T: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_T = {
+    .parent       = NULL,
+    .key          = DV_T,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_T_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_I;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_I;
+case DV_I: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_I = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_I,
+    .value        = SS_LGUI(SS_LALT("i")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_I_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_B;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_B;
+case DV_B: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_B = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_B,
+    .value        = "!",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_B_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_Y;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_Y = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_Y,
+    .value        = "[",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_Y_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_D;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_D;
+case DV_D: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_D = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_D,
+    .value        = SS_LGUI(SS_LALT("d")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_D_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_E;
+case DV_E: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_E = {
+    .parent       = NULL,
+    .key          = DV_E,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_E_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_Y = {
+    .parent       = NULL,
+    .key          = DV_Y,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_Y_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_T;
+case DV_T: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_T = {
+    .parent       = NULL,
+    .key          = DV_T,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_T_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_R;
+case DV_R: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_R = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_R,
+    .value        = "R",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_R_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_M;
+case DV_M: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_M = {
+    .parent       = NULL,
+    .key          = DV_M,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_M_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_D;
+case DV_D: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_D = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_D,
+    .value        = SS_LCTL("d"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_D_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_RSFT2_next_node(uint16_t key) {
+    switch (key) {
+        case DV_COMM: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_DOT;
+case DV_P: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_P;
+case DV_Y: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_Y;
+case DV_F: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_F;
+case DV_G: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_G;
+case DV_C: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_C;
+case DV_R: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_R;
+case DV_A: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_A;
+case DV_O: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_O;
+case DV_E: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_E;
+case DV_U: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_U;
+case DV_I: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_I;
+case DV_D: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_D;
+case DV_H: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_H;
+case DV_T: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_T;
+case DV_N: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_N;
+case DV_S: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_S;
+case DV_J: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_J;
+case DV_K: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_K;
+case DV_X: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_X;
+case DV_B: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_B;
+case DV_M: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_M;
+case DV_W: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_W;
+case DV_V: return &dvorak_node_DV_LSFT2_DV_RSFT2_DV_V;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_RSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_RSFT2 = {
+    .parent       = NULL,
+    .key          = DV_RSFT2,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_RSFT2_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_RSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_H_DV_N_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_H_DV_N_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_H_DV_N_DV_DOT;
+case DV_P: return &dvorak_node_DV_H_DV_N_DV_P;
+case DV_Y: return &dvorak_node_DV_H_DV_N_DV_Y;
+case DV_A: return &dvorak_node_DV_H_DV_N_DV_A;
+case DV_O: return &dvorak_node_DV_H_DV_N_DV_O;
+case DV_E: return &dvorak_node_DV_H_DV_N_DV_E;
+case DV_U: return &dvorak_node_DV_H_DV_N_DV_U;
+case DV_I: return &dvorak_node_DV_H_DV_N_DV_I;
+case DV_SCLN: return &dvorak_node_DV_H_DV_N_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_H_DV_N_DV_Q;
+case DV_J: return &dvorak_node_DV_H_DV_N_DV_J;
+case DV_K: return &dvorak_node_DV_H_DV_N_DV_K;
+case DV_X: return &dvorak_node_DV_H_DV_N_DV_X;
+case DV_LSFT2: return &dvorak_node_DV_H_DV_N_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N = {
+    .parent       = &dvorak_reversenode_DV_H,
+    .key          = DV_N,
+    .value        = "n",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_SCLN;
+case DV_SCLN: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_SCLN = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_SCLN,
+    .value        = SS_LALT(";"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_SCLN_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_U = {
+    .parent       = NULL,
+    .key          = DV_U,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_U_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_I;
+case DV_N: return &dvorak_reversenode_DV_H_DV_I;
+case DV_I: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_I = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_I,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("i")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_I_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        case DV_F: return &dvorak_node_DV_O_DV_U_DV_F;
+case DV_G: return &dvorak_node_DV_O_DV_U_DV_G;
+case DV_C: return &dvorak_node_DV_O_DV_U_DV_C;
+case DV_R: return &dvorak_node_DV_O_DV_U_DV_R;
+case DV_L: return &dvorak_node_DV_O_DV_U_DV_L;
+case DV_D: return &dvorak_node_DV_O_DV_U_DV_D;
+case DV_H: return &dvorak_node_DV_O_DV_U_DV_H;
+case DV_T: return &dvorak_node_DV_O_DV_U_DV_T;
+case DV_N: return &dvorak_node_DV_O_DV_U_DV_N;
+case DV_S: return &dvorak_node_DV_O_DV_U_DV_S;
+case DV_B: return &dvorak_node_DV_O_DV_U_DV_B;
+case DV_M: return &dvorak_node_DV_O_DV_U_DV_M;
+case DV_W: return &dvorak_node_DV_O_DV_U_DV_W;
+case DV_V: return &dvorak_node_DV_O_DV_U_DV_V;
+case DV_Z: return &dvorak_node_DV_O_DV_U_DV_Z;
+case DV_RSFT2: return &dvorak_node_DV_O_DV_U_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_U = {
+    .parent       = NULL,
+    .key          = DV_U,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_U_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_H = {
+    .parent       = NULL,
+    .key          = DV_H,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_H_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_DOT = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_DOT,
+    .value        = SS_LGUI("."),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_I;
+case DV_I: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_I = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_I,
+    .value        = SS_LALT("i"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_I_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_W;
+case DV_W: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_W = {
+    .parent       = NULL,
+    .key          = DV_W,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_W_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_T;
+case DV_O: return &dvorak_reversenode_DV_U_DV_T;
+case DV_T: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_T = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_T,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("t")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_T_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_J: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_J = {
+    .parent       = NULL,
+    .key          = DV_J,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_J_next_node,
+    .prev_node    = dvorak_reversenode_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_T_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_T_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_T: return &dvorak_reversenode_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_T;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_T_DV_Q = {
+    .parent       = &dvorak_reversenode_DV_T,
+    .key          = DV_Q,
+    .value        = "\\",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_T_DV_Q_next_node,
+    .prev_node    = dvorak_node_DV_T_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_U = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_U,
+    .value        = SS_LGUI("u"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_P_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_P_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_P_DV_G;
+case DV_P: return &dvorak_reversenode_DV_LSFT2_DV_G;
+case DV_G: return &dvorak_reversenode_DV_LSFT2_DV_P;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_P_DV_G = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_P,
+    .key          = DV_G,
+    .value        = SS_LCTL(SS_TAP(X_TAB)),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_P_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_P_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_Z;
+case DV_Z: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_Z = {
+    .parent       = NULL,
+    .key          = DV_Z,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_Z_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_D;
+case DV_O: return &dvorak_reversenode_DV_U_DV_D;
+case DV_D: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_D = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_D,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("d")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_D_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_A;
+case DV_A: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_A = {
+    .parent       = NULL,
+    .key          = DV_A,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_A_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_SCLN;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_SCLN;
+case DV_SCLN: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_SCLN = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_SCLN,
+    .value        = SS_LGUI(SS_LALT(";")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_SCLN_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_W;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_W;
+case DV_W: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_W = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_W,
+    .value        = SS_LGUI(SS_LALT("w")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_W_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_A;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_A;
+case DV_A: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_A = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_A,
+    .value        = SS_LGUI(SS_LALT("a")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_A_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_I;
+case DV_I: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_I = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_I,
+    .value        = "I",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_I_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_P = {
+    .parent       = NULL,
+    .key          = DV_P,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_P_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_D;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_D;
+case DV_D: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_D = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_D,
+    .value        = "6",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_D_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        case DV_G: return &dvorak_node_DV_P_DV_G;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_P: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_P = {
+    .parent       = NULL,
+    .key          = DV_P,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_P_next_node,
+    .prev_node    = dvorak_reversenode_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_H = {
+    .parent       = NULL,
+    .key          = DV_H,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_H_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_C: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_C = {
+    .parent       = NULL,
+    .key          = DV_C,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_C_next_node,
+    .prev_node    = dvorak_reversenode_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_Y = {
+    .parent       = NULL,
+    .key          = DV_Y,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_Y_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_node_DV_LSFT2_DV_E_DV_N;
+case DV_T: return &dvorak_node_DV_LSFT2_DV_E_DV_T;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_E;
+case DV_E: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_E = {
+    .parent       = NULL,
+    .key          = DV_E,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_E_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_SCLN: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_SCLN = {
+    .parent       = NULL,
+    .key          = DV_SCLN,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_SCLN_next_node,
+    .prev_node    = dvorak_reversenode_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_A;
+case DV_A: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_A = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_A,
+    .value        = SS_LCTL("a"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_A_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_T;
+case DV_T: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_T = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_T,
+    .value        = SS_LALT("t"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_T_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_LSFT2_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_LSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_LSFT2;
+case DV_H: return &dvorak_reversenode_DV_N_DV_LSFT2;
+case DV_LSFT2: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_LSFT2 = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_LSFT2,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(" ")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_LSFT2_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_LSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_Q;
+case DV_N: return &dvorak_reversenode_DV_H_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_Q = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_Q,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("q")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_Q_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_H;
+case DV_O: return &dvorak_reversenode_DV_U_DV_H;
+case DV_H: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_H = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_H,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("h")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_LSFT2_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_LSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_LSFT2;
+case DV_LSFT2: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_LSFT2 = {
+    .parent       = NULL,
+    .key          = DV_LSFT2,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_LSFT2_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_LSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_S: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_S = {
+    .parent       = NULL,
+    .key          = DV_S,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_S_next_node,
+    .prev_node    = dvorak_reversenode_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_X;
+case DV_X: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_X = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_X,
+    .value        = "X",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_X_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_K;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_K;
+case DV_K: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_K = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_K,
+    .value        = "+",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_K_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_DOT;
+case DV_P: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_P;
+case DV_Y: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_Y;
+case DV_F: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_F;
+case DV_G: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_G;
+case DV_C: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_C;
+case DV_R: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_R;
+case DV_L: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_L;
+case DV_A: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_A;
+case DV_O: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_O;
+case DV_E: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_E;
+case DV_U: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_U;
+case DV_I: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_I;
+case DV_D: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_D;
+case DV_H: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_H;
+case DV_T: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_T;
+case DV_N: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_N;
+case DV_S: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_S;
+case DV_SCLN: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_Q;
+case DV_J: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_J;
+case DV_K: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_K;
+case DV_X: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_X;
+case DV_B: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_B;
+case DV_M: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_M;
+case DV_W: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_W;
+case DV_V: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_V;
+case DV_Z: return &dvorak_node_DV_LSFT1_DV_RSFT1_DV_Z;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1 = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_RSFT1,
+    .value        = NULL,
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_node_DV_D_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_D: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_D = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_D,
+    .value        = "d",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_D_next_node,
+    .prev_node    = dvorak_node_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_J;
+case DV_J: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_J = {
+    .parent       = NULL,
+    .key          = DV_J,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_J_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_M: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_M = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_M,
+    .value        = "m",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_M_next_node,
+    .prev_node    = dvorak_node_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_T_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_T_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_T_DV_DOT;
+case DV_P: return &dvorak_node_DV_T_DV_P;
+case DV_Y: return &dvorak_node_DV_T_DV_Y;
+case DV_Q: return &dvorak_node_DV_T_DV_Q;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_T: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_T = {
+    .parent       = NULL,
+    .key          = DV_T,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_T_next_node,
+    .prev_node    = dvorak_reversenode_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        case DV_P: return &dvorak_node_DV_LSFT2_DV_G_DV_P;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_G = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_G,
+    .value        = SS_LCTL("g"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_Z;
+case DV_Z: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_Z = {
+    .parent       = NULL,
+    .key          = DV_Z,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_Z_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_RSFT2_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_RSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_RSFT2;
+case DV_O: return &dvorak_reversenode_DV_U_DV_RSFT2;
+case DV_RSFT2: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_RSFT2 = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_RSFT2,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL(SS_TAP(X_ENT))))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_RSFT2_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_RSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_S: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_S = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_S,
+    .value        = "s",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_S_next_node,
+    .prev_node    = dvorak_node_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_U;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_U;
+case DV_U: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_U = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_U,
+    .value        = SS_LGUI(SS_LALT("u")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_M;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_M;
+case DV_M: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_M = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_M,
+    .value        = "-",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_M_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_H = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_H,
+    .value        = "H",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_X;
+case DV_X: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_X = {
+    .parent       = NULL,
+    .key          = DV_X,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_X_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_H;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_H;
+case DV_H: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_H = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_H,
+    .value        = SS_LGUI(SS_LALT("h")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_node_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_N,
+    .value        = "n",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_next_node(uint16_t key) {
+    switch (key) {
+        case DV_COMM: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_DOT;
+case DV_P: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_P;
+case DV_Y: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_Y;
+case DV_F: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_F;
+case DV_G: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_G;
+case DV_C: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_C;
+case DV_R: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_R;
+case DV_A: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_A;
+case DV_O: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_O;
+case DV_E: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_E;
+case DV_U: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_U;
+case DV_I: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_I;
+case DV_D: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_D;
+case DV_H: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_H;
+case DV_T: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_T;
+case DV_N: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_N;
+case DV_S: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_S;
+case DV_J: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_J;
+case DV_K: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_K;
+case DV_X: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_X;
+case DV_B: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_B;
+case DV_M: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_M;
+case DV_W: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_W;
+case DV_V: return &dvorak_node_DV_RSFT2_DV_LSFT2_DV_V;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2 = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_LSFT2,
+    .value        = " ",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_X;
+case DV_N: return &dvorak_reversenode_DV_H_DV_X;
+case DV_X: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_X = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_X,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("x")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_X_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        case DV_P: return &dvorak_node_DV_RSFT2_DV_G_DV_P;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_G = {
+    .parent       = NULL,
+    .key          = DV_G,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_G_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_K;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_K;
+case DV_K: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_K = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_K,
+    .value        = SS_LGUI(SS_LALT("k")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_K_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_N = {
+    .parent       = NULL,
+    .key          = DV_N,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_N_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_QUOT;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_QUOT = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_QUOT,
+    .value        = SS_LGUI(SS_LALT("'")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_QUOT_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_U;
+case DV_H: return &dvorak_reversenode_DV_N_DV_U;
+case DV_U: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_U = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_U,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("u")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_P;
+case DV_H: return &dvorak_reversenode_DV_N_DV_P;
+case DV_P: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_P = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_P,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("p")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_G;
+case DV_O: return &dvorak_reversenode_DV_U_DV_G;
+case DV_G: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_G = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_G,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("g")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_X;
+case DV_X: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_X = {
+    .parent       = NULL,
+    .key          = DV_X,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_X_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_Q = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_Q,
+    .value        = SS_LCTL("q"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_Q_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        case DV_P: return &dvorak_node_DV_G_DV_P;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_G: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_G = {
+    .parent       = NULL,
+    .key          = DV_G,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_G_next_node,
+    .prev_node    = dvorak_reversenode_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_Z;
+case DV_Z: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_Z = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_Z,
+    .value        = SS_LALT("z"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_Z_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_U;
+case DV_U: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_U = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_U,
+    .value        = SS_LALT("u"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_I;
+case DV_I: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_I = {
+    .parent       = NULL,
+    .key          = DV_I,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_I_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_Y = {
+    .parent       = NULL,
+    .key          = DV_Y,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_Y_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_W: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_W = {
+    .parent       = NULL,
+    .key          = DV_W,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_W_next_node,
+    .prev_node    = dvorak_reversenode_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_H = {
+    .parent       = NULL,
+    .key          = DV_H,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_H_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_Y: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_Y = {
+    .parent       = NULL,
+    .key          = DV_Y,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_Y_next_node,
+    .prev_node    = dvorak_reversenode_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_C;
+case DV_C: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_C = {
+    .parent       = NULL,
+    .key          = DV_C,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_C_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_I;
+case DV_I: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_I = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_I,
+    .value        = SS_LGUI("i"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_I_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_H;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_H;
+case DV_H: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_H = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_H,
+    .value        = "7",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_S;
+case DV_S: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_S = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_S,
+    .value        = SS_LCTL("s"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_S_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_I;
+case DV_I: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_I = {
+    .parent       = &dvorak_reversenode_DV_U,
+    .key          = DV_I,
+    .value        = "",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_I_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_SCLN;
+case DV_SCLN: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_SCLN = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_SCLN,
+    .value        = SS_LCTL(";"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_SCLN_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_Y = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_Y,
+    .value        = SS_LALT("y"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_Y_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_O;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_O;
+case DV_O: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_O = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_O,
+    .value        = "2",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_C;
+case DV_C: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_C = {
+    .parent       = NULL,
+    .key          = DV_C,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_C_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_T;
+case DV_T: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_T = {
+    .parent       = NULL,
+    .key          = DV_T,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_T_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_B;
+case DV_B: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_B = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_B,
+    .value        = SS_LCTL("b"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_B_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_F;
+case DV_F: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_F = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_F,
+    .value        = SS_LGUI("f"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_F_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_DOT = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_DOT,
+    .value        = SS_LALT("."),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_G = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_G,
+    .value        = SS_LALT("g"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_O;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_O;
+case DV_O: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_O = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_O,
+    .value        = "2",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_N = {
+    .parent       = NULL,
+    .key          = DV_N,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_N_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_SCLN;
+case DV_SCLN: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_SCLN = {
+    .parent       = NULL,
+    .key          = DV_SCLN,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_SCLN_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_D;
+case DV_D: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_D = {
+    .parent       = NULL,
+    .key          = DV_D,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_D_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_C;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_C;
+case DV_C: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_C = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_C,
+    .value        = "}",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_C_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_U;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_U;
+case DV_U: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_U = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_U,
+    .value        = SS_LGUI(SS_LALT("u")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_W;
+case DV_U: return &dvorak_reversenode_DV_O_DV_W;
+case DV_W: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_W = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_W,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("w")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_W_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_Z;
+case DV_Z: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_Z = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_Z,
+    .value        = SS_LGUI("z"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_Z_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_T;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_T;
+case DV_T: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_T = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_T,
+    .value        = "8",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_T_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_QUOT = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_QUOT,
+    .value        = "'",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_QUOT_next_node,
+    .prev_node    = dvorak_node_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_A;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_A;
+case DV_A: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_A = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_A,
+    .value        = "1",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_A_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_E;
+case DV_E: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_E = {
+    .parent       = NULL,
+    .key          = DV_E,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_E_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_G = {
+    .parent       = NULL,
+    .key          = DV_G,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_G_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_L: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_L = {
+    .parent       = NULL,
+    .key          = DV_L,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_L_next_node,
+    .prev_node    = dvorak_reversenode_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_C;
+case DV_C: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_C = {
+    .parent       = NULL,
+    .key          = DV_C,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_C_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_A;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_A;
+case DV_A: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_A = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_A,
+    .value        = "1",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_A_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_A;
+case DV_A: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_A = {
+    .parent       = NULL,
+    .key          = DV_A,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_A_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_A;
+case DV_A: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_A = {
+    .parent       = NULL,
+    .key          = DV_A,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_A_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_G;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_G;
+case DV_G: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_G = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_G,
+    .value        = SS_LGUI(SS_LALT("g")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_R;
+case DV_R: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_R = {
+    .parent       = NULL,
+    .key          = DV_R,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_R_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        case DV_DOT: return &dvorak_node_DV_COMM_DV_DOT;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_COMM: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_COMM = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_COMM,
+    .value        = ",",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_U_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_W;
+case DV_W: return &dvorak_reversenode_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_U_DV_W = {
+    .parent       = NULL,
+    .key          = DV_W,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_U_DV_W_next_node,
+    .prev_node    = dvorak_reversenode_DV_U_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_V;
+case DV_O: return &dvorak_reversenode_DV_U_DV_V;
+case DV_V: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_V = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_V,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("v")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_V_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_N = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_N,
+    .value        = "N",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_Y = {
+    .parent       = NULL,
+    .key          = DV_Y,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_Y_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_A;
+case DV_A: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_A = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_A,
+    .value        = "A",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_A_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_O = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_O,
+    .value        = SS_LGUI("o"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_O_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT3_next_node(uint16_t key) {
+    switch (key) {
+        case DV_A: return &dvorak_node_DV_RSFT3_DV_A;
+case DV_O: return &dvorak_node_DV_RSFT3_DV_O;
+case DV_E: return &dvorak_node_DV_RSFT3_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT3_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT3: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT3 = {
+    .parent       = NULL,
+    .key          = DV_RSFT3,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT3_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT3_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_D;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_D;
+case DV_D: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_D = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_D,
+    .value        = "6",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_D_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_E_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_E_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_reversenode_DV_R;
+case DV_R: return &dvorak_reversenode_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_E_DV_R = {
+    .parent       = &dvorak_reversenode_DV_E,
+    .key          = DV_R,
+    .value        = "%",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_E_DV_R_next_node,
+    .prev_node    = dvorak_node_DV_E_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_H = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_H,
+    .value        = SS_LGUI("h"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_D;
+case DV_D: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_D = {
+    .parent       = NULL,
+    .key          = DV_D,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_D_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_E;
+case DV_E: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_E = {
+    .parent       = NULL,
+    .key          = DV_E,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_E_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_H = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_H,
+    .value        = SS_LCTL("h"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_COMM = {
+    .parent       = NULL,
+    .key          = DV_COMM,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_COMM_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_R;
+case DV_R: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_R = {
+    .parent       = NULL,
+    .key          = DV_R,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_R_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_G = {
+    .parent       = NULL,
+    .key          = DV_G,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_G_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_B: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_B = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_B,
+    .value        = "b",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_B_next_node,
+    .prev_node    = dvorak_node_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_C;
+case DV_C: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_C = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_C,
+    .value        = SS_LCTL("c"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_C_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_QUOT = {
+    .parent       = NULL,
+    .key          = DV_QUOT,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_QUOT_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_DOT = {
+    .parent       = NULL,
+    .key          = DV_DOT,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_DOT_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_T_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_T_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_T: return &dvorak_reversenode_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_T;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_T_DV_Y = {
+    .parent       = &dvorak_reversenode_DV_T,
+    .key          = DV_Y,
+    .value        = "?",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_T_DV_Y_next_node,
+    .prev_node    = dvorak_node_DV_T_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_H;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_H;
+case DV_H: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_H = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_H,
+    .value        = SS_LGUI(SS_LALT("h")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_A;
+case DV_N: return &dvorak_reversenode_DV_H_DV_A;
+case DV_A: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_A = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_A,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("a")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_A_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_N = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_N,
+    .value        = SS_LALT("n"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_B;
+case DV_B: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_B = {
+    .parent       = NULL,
+    .key          = DV_B,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_B_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_G;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_G;
+case DV_G: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_G = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_G,
+    .value        = ")",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_Q: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_Q = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_Q,
+    .value        = "q",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_Q_next_node,
+    .prev_node    = dvorak_node_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_C;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_C;
+case DV_C: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_C = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_C,
+    .value        = "}",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_C_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_L;
+case DV_L: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_L = {
+    .parent       = NULL,
+    .key          = DV_L,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_L_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_G;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_G;
+case DV_G: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_G = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_G,
+    .value        = SS_LGUI(SS_LALT("g")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_Z_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_Z_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_Z;
+case DV_Z: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_Z = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_Z,
+    .value        = "Z",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_Z_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_Z_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_I;
+case DV_I: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_I = {
+    .parent       = NULL,
+    .key          = DV_I,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_I_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_E;
+case DV_E: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_E = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_E,
+    .value        = "E",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_D;
+case DV_D: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_D = {
+    .parent       = NULL,
+    .key          = DV_D,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_D_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_DOT = {
+    .parent       = &dvorak_reversenode_DV_LSFT2,
+    .key          = DV_DOT,
+    .value        = SS_LCTL("."),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_B;
+case DV_B: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_B = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_B,
+    .value        = "B",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_B_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_QUOT;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_QUOT = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_QUOT,
+    .value        = SS_LGUI(SS_LALT("'")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_QUOT_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_D_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_D_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_U_DV_D;
+case DV_U: return &dvorak_reversenode_DV_O_DV_D;
+case DV_D: return &dvorak_reversenode_DV_O_DV_U;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_D = {
+    .parent       = &dvorak_reversenode_DV_O_DV_U,
+    .key          = DV_D,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("d")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_O_DV_U_DV_D_next_node,
+    .prev_node    = dvorak_node_DV_O_DV_U_DV_D_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_node_DV_H_DV_N_DV_QUOT;
+case DV_COMM: return &dvorak_node_DV_H_DV_N_DV_COMM;
+case DV_DOT: return &dvorak_node_DV_H_DV_N_DV_DOT;
+case DV_P: return &dvorak_node_DV_H_DV_N_DV_P;
+case DV_Y: return &dvorak_node_DV_H_DV_N_DV_Y;
+case DV_A: return &dvorak_node_DV_H_DV_N_DV_A;
+case DV_O: return &dvorak_node_DV_H_DV_N_DV_O;
+case DV_E: return &dvorak_node_DV_H_DV_N_DV_E;
+case DV_U: return &dvorak_node_DV_H_DV_N_DV_U;
+case DV_I: return &dvorak_node_DV_H_DV_N_DV_I;
+case DV_SCLN: return &dvorak_node_DV_H_DV_N_DV_SCLN;
+case DV_Q: return &dvorak_node_DV_H_DV_N_DV_Q;
+case DV_J: return &dvorak_node_DV_H_DV_N_DV_J;
+case DV_K: return &dvorak_node_DV_H_DV_N_DV_K;
+case DV_X: return &dvorak_node_DV_H_DV_N_DV_X;
+case DV_LSFT2: return &dvorak_node_DV_H_DV_N_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N;
+case DV_N: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_N = {
+    .parent       = NULL,
+    .key          = DV_N,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_N_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_K;
+case DV_K: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_K = {
+    .parent       = NULL,
+    .key          = DV_K,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_K_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_J_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_J_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_J;
+case DV_J: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_J = {
+    .parent       = NULL,
+    .key          = DV_J,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_J_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_J_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_T;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_T;
+case DV_T: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_T = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_T,
+    .value        = SS_LGUI(SS_LALT("t")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_T_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_QUOT;
+case DV_H: return &dvorak_reversenode_DV_N_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_QUOT = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_QUOT,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("'")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_QUOT_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_F;
+case DV_F: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_F = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_F,
+    .value        = "F",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_F_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_A_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_A_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_A;
+case DV_A: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_A = {
+    .parent       = NULL,
+    .key          = DV_A,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_A_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_A_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_V;
+case DV_V: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_V = {
+    .parent       = NULL,
+    .key          = DV_V,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_V_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_T_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_T_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_T: return &dvorak_reversenode_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_T;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_T_DV_COMM = {
+    .parent       = &dvorak_reversenode_DV_T,
+    .key          = DV_COMM,
+    .value        = "/",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_T_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_T_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_QUOT = {
+    .parent       = NULL,
+    .key          = DV_QUOT,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_QUOT_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_F;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_F;
+case DV_F: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_F = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_F,
+    .value        = SS_LGUI(SS_LALT("f")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_F_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_SCLN;
+case DV_SCLN: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_SCLN = {
+    .parent       = NULL,
+    .key          = DV_SCLN,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_SCLN_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_Y = {
+    .parent       = NULL,
+    .key          = DV_Y,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_Y_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_H_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_H_DV_COMM = {
+    .parent       = NULL,
+    .key          = DV_COMM,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_H_DV_COMM_next_node,
+    .prev_node    = dvorak_reversenode_DV_H_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_T;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_T;
+case DV_T: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_T = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_T,
+    .value        = SS_LGUI(SS_LALT("t")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_T_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_N;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_N;
+case DV_N: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_N = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_N,
+    .value        = SS_LGUI(SS_LALT("n")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_P;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_P;
+case DV_P: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_P = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_P,
+    .value        = "(",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_W;
+case DV_W: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_W = {
+    .parent       = NULL,
+    .key          = DV_W,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_W_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_E_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_E_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_reversenode_DV_T;
+case DV_T: return &dvorak_reversenode_DV_E;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_E_DV_T = {
+    .parent       = NULL,
+    .key          = DV_T,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_E_DV_T_next_node,
+    .prev_node    = dvorak_reversenode_DV_E_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        case DV_P: return &dvorak_node_DV_RSFT2_DV_G_DV_P;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_G = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_G,
+    .value        = "G",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_G_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_Q_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_Q_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_Q;
+case DV_Q: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_Q = {
+    .parent       = NULL,
+    .key          = DV_Q,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_Q_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_Q_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_P = {
+    .parent       = NULL,
+    .key          = DV_P,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_P_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT2_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT2_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT2;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT2 = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_RSFT2,
+    .value        = SS_LALT(SS_TAP(X_ENT)),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT2_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT2_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_E;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_E;
+case DV_E: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_E = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_E,
+    .value        = SS_LGUI(SS_LALT("e")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_QUOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_QUOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_QUOT;
+case DV_QUOT: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_QUOT = {
+    .parent       = &dvorak_reversenode_DV_RSFT2,
+    .key          = DV_QUOT,
+    .value        = "\"",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_QUOT_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_QUOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_E;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_E;
+case DV_E: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_E = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_E,
+    .value        = "3",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_E;
+case DV_E: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_E = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_E,
+    .value        = SS_LALT("e"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_F: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_F = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_F,
+    .value        = "f",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_F_next_node,
+    .prev_node    = dvorak_node_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_H_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_H_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_H;
+case DV_H: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_H = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_H,
+    .value        = SS_LALT("h"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_H_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_H_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_O = {
+    .parent       = NULL,
+    .key          = DV_O,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_O_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_COMM: return &dvorak_reversenode_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_COMM;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_COMM_DV_DOT = {
+    .parent       = &dvorak_reversenode_DV_COMM,
+    .key          = DV_DOT,
+    .value        = SS_TAP(X_ESC),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_COMM_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_COMM_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_COMM = {
+    .parent       = NULL,
+    .key          = DV_COMM,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_COMM_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_C;
+case DV_C: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_C = {
+    .parent       = NULL,
+    .key          = DV_C,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_C_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_R;
+case DV_R: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_R = {
+    .parent       = NULL,
+    .key          = DV_R,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_R_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_X;
+case DV_X: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_X = {
+    .parent       = NULL,
+    .key          = DV_X,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_X_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_M;
+case DV_M: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_M = {
+    .parent       = NULL,
+    .key          = DV_M,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_M_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_Y;
+case DV_N: return &dvorak_reversenode_DV_H_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_Y = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_Y,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("y")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_Y_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_SCLN;
+case DV_SCLN: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_SCLN = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_SCLN,
+    .value        = SS_LGUI(";"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_SCLN_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_G_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_G_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_G: return &dvorak_reversenode_DV_P;
+case DV_P: return &dvorak_reversenode_DV_G;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_G_DV_P = {
+    .parent       = NULL,
+    .key          = DV_P,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_G_DV_P_next_node,
+    .prev_node    = dvorak_reversenode_DV_G_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_K;
+case DV_K: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_K = {
+    .parent       = NULL,
+    .key          = DV_K,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_K_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_B;
+case DV_B: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_B = {
+    .parent       = NULL,
+    .key          = DV_B,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_B_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_Y_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_Y_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_Y;
+case DV_H: return &dvorak_reversenode_DV_N_DV_Y;
+case DV_Y: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_Y = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_Y,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("y")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_Y_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_Y_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_P;
+case DV_N: return &dvorak_reversenode_DV_H_DV_P;
+case DV_P: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_P = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_P,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("p")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_I;
+case DV_I: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_I = {
+    .parent       = NULL,
+    .key          = DV_I,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_I_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_COMM;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_COMM = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_COMM,
+    .value        = SS_LGUI(SS_LALT(",")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_O_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_reversenode_DV_B;
+case DV_B: return &dvorak_reversenode_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_O_DV_B = {
+    .parent       = NULL,
+    .key          = DV_B,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_O_DV_B_next_node,
+    .prev_node    = dvorak_reversenode_DV_O_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_K;
+case DV_K: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_K = {
+    .parent       = NULL,
+    .key          = DV_K,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_K_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_I;
+case DV_I: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_I = {
+    .parent       = NULL,
+    .key          = DV_I,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_I_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_DOT = {
+    .parent       = NULL,
+    .key          = DV_DOT,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_DOT_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_DOT_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_R;
+case DV_R: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_R = {
+    .parent       = NULL,
+    .key          = DV_R,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_R_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_C;
+case DV_O: return &dvorak_reversenode_DV_U_DV_C;
+case DV_C: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_C = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_C,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("c")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_C_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_G_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_G_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_G;
+case DV_G: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_G = {
+    .parent       = NULL,
+    .key          = DV_G,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_G_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_G_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_N_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_N_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_reversenode_DV_O_DV_N;
+case DV_O: return &dvorak_reversenode_DV_U_DV_N;
+case DV_N: return &dvorak_reversenode_DV_U_DV_O;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_N = {
+    .parent       = &dvorak_reversenode_DV_U_DV_O,
+    .key          = DV_N,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("n")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_U_DV_O_DV_N_next_node,
+    .prev_node    = dvorak_node_DV_U_DV_O_DV_N_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_C_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_C_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_C;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_C;
+case DV_C: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_C = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_C,
+    .value        = SS_LGUI(SS_LALT("c")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_C_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_C_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_I_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_I_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_I;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_I;
+case DV_I: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_I = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_I,
+    .value        = SS_LGUI(SS_LALT("i")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_I_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_I_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_L_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_L_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_L;
+case DV_L: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_L = {
+    .parent       = NULL,
+    .key          = DV_L,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_L_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_L_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_M_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_M_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_M;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_M;
+case DV_M: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_M = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_M,
+    .value        = SS_LGUI(SS_LALT("m")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_M_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_M_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_T_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT1_DV_T_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_T;
+case DV_T: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT1_DV_T = {
+    .parent       = NULL,
+    .key          = DV_T,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT1_DV_T_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT1_DV_T_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_U_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_U_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_reversenode_DV_N_DV_U;
+case DV_N: return &dvorak_reversenode_DV_H_DV_U;
+case DV_U: return &dvorak_reversenode_DV_H_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_U = {
+    .parent       = &dvorak_reversenode_DV_H_DV_N,
+    .key          = DV_U,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("u")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_H_DV_N_DV_U_next_node,
+    .prev_node    = dvorak_node_DV_H_DV_N_DV_U_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_F_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT1_DV_F_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_F;
+case DV_F: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT1_DV_F = {
+    .parent       = NULL,
+    .key          = DV_F,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT1_DV_F_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT1_DV_F_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_O_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_O_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_O;
+case DV_O: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_O = {
+    .parent       = NULL,
+    .key          = DV_O,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_O_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_O_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_SCLN;
+case DV_SCLN: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_SCLN = {
+    .parent       = NULL,
+    .key          = DV_SCLN,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_SCLN_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_B_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_B_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_B;
+case DV_B: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_B = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_B,
+    .value        = SS_LGUI("b"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_B_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_B_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_X: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_X = {
+    .parent       = &dvorak_node_root,
+    .key          = DV_X,
+    .value        = "x",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_X_next_node,
+    .prev_node    = dvorak_node_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_K;
+case DV_K: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_K = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_K,
+    .value        = SS_LALT("k"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_K_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_X: return &dvorak_node_root;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_X = {
+    .parent       = NULL,
+    .key          = DV_X,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_X_next_node,
+    .prev_node    = dvorak_reversenode_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_W_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_RSFT2_DV_W_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_W;
+case DV_W: return &dvorak_reversenode_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_RSFT2_DV_W = {
+    .parent       = NULL,
+    .key          = DV_W,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_RSFT2_DV_W_next_node,
+    .prev_node    = dvorak_reversenode_DV_RSFT2_DV_W_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_N_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_E;
+case DV_E: return &dvorak_reversenode_DV_N;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_N_DV_E = {
+    .parent       = NULL,
+    .key          = DV_E,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_N_DV_E_next_node,
+    .prev_node    = dvorak_reversenode_DV_N_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_V;
+case DV_V: return &dvorak_reversenode_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_V = {
+    .parent       = &dvorak_reversenode_DV_RSFT1,
+    .key          = DV_V,
+    .value        = SS_LGUI("v"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_V_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_E_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_LSFT2_DV_E_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_E;
+case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_E;
+case DV_E: return &dvorak_reversenode_DV_RSFT2_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_LSFT2_DV_E = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_LSFT2,
+    .key          = DV_E,
+    .value        = "3",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_E_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_LSFT2_DV_E_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_SCLN_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_SCLN_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_SCLN;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_SCLN;
+case DV_SCLN: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_SCLN = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_SCLN,
+    .value        = SS_LGUI(SS_LALT(";")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_SCLN_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_SCLN_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_R_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_DV_R_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_R;
+case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_R;
+case DV_R: return &dvorak_reversenode_DV_RSFT1_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1_DV_R = {
+    .parent       = &dvorak_reversenode_DV_RSFT1_DV_LSFT1,
+    .key          = DV_R,
+    .value        = SS_LGUI(SS_LALT("r")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_R_next_node,
+    .prev_node    = dvorak_node_DV_RSFT1_DV_LSFT1_DV_R_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_K_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_K_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_reversenode_DV_H_DV_K;
+case DV_H: return &dvorak_reversenode_DV_N_DV_K;
+case DV_K: return &dvorak_reversenode_DV_N_DV_H;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_K = {
+    .parent       = &dvorak_reversenode_DV_N_DV_H,
+    .key          = DV_K,
+    .value        = SS_LGUI(SS_LALT(SS_LSFT(SS_LCTL("k")))),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_N_DV_H_DV_K_next_node,
+    .prev_node    = dvorak_node_DV_N_DV_H_DV_K_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_V_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_DV_V_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_RSFT1_DV_V;
+case DV_RSFT1: return &dvorak_reversenode_DV_LSFT1_DV_V;
+case DV_V: return &dvorak_reversenode_DV_LSFT1_DV_RSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1_DV_V = {
+    .parent       = &dvorak_reversenode_DV_LSFT1_DV_RSFT1,
+    .key          = DV_V,
+    .value        = SS_LGUI(SS_LALT("v")),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_V_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_RSFT1_DV_V_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_DOT: return &dvorak_reversenode_DV_COMM;
+case DV_COMM: return &dvorak_reversenode_DV_DOT;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_DOT_DV_COMM = {
+    .parent       = &dvorak_reversenode_DV_DOT,
+    .key          = DV_COMM,
+    .value        = SS_TAP(X_ESC),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_DOT_DV_COMM_next_node,
+    .prev_node    = dvorak_node_DV_DOT_DV_COMM_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_G_DV_P_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_RSFT2_DV_G_DV_P_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_RSFT2: return &dvorak_reversenode_DV_G_DV_P;
+case DV_G: return &dvorak_reversenode_DV_RSFT2_DV_P;
+case DV_P: return &dvorak_reversenode_DV_RSFT2_DV_G;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_RSFT2_DV_G_DV_P = {
+    .parent       = &dvorak_reversenode_DV_RSFT2_DV_G,
+    .key          = DV_P,
+    .value        = SS_LSFT(SS_TAP(X_TAB)),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_RSFT2_DV_G_DV_P_next_node,
+    .prev_node    = dvorak_node_DV_RSFT2_DV_G_DV_P_prev_node,
+    };
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_X_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_reversenode_DV_LSFT2_DV_X_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_X;
+case DV_X: return &dvorak_reversenode_DV_LSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_reversenode_DV_LSFT2_DV_X = {
+    .parent       = NULL,
+    .key          = DV_X,
+    .value        = NULL,
+    .reverse      = true,
+    .next_node    = dvorak_reversenode_DV_LSFT2_DV_X_next_node,
+    .prev_node    = dvorak_reversenode_DV_LSFT2_DV_X_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_S_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_S_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT1: return &dvorak_reversenode_DV_S;
+case DV_S: return &dvorak_reversenode_DV_LSFT1;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_S = {
+    .parent       = &dvorak_reversenode_DV_LSFT1,
+    .key          = DV_S,
+    .value        = SS_LALT("s"),
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT1_DV_S_next_node,
+    .prev_node    = dvorak_node_DV_LSFT1_DV_S_prev_node,
+    };
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_DOT_next_node(uint16_t key) {
+    switch (key) {
+        
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT2_DV_DOT_prev_node(uint16_t key) {
+    switch (key) {
+        case DV_LSFT2: return &dvorak_reversenode_DV_RSFT2_DV_DOT;
+case DV_RSFT2: return &dvorak_reversenode_DV_LSFT2_DV_DOT;
+case DV_DOT: return &dvorak_reversenode_DV_LSFT2_DV_RSFT2;
+
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT2_DV_DOT = {
+    .parent       = &dvorak_reversenode_DV_LSFT2_DV_RSFT2,
+    .key          = DV_DOT,
+    .value        = "{",
+    .reverse      = false,
+    .next_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_DOT_next_node,
+    .prev_node    = dvorak_node_DV_LSFT2_DV_RSFT2_DV_DOT_prev_node,
+    };

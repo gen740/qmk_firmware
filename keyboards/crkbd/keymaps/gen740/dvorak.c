@@ -2,59 +2,8 @@
 #include "dvorak_keydata.h"
 
 const dvorak_node_t* dv_current_node = &dvorak_node_root;
-bool                 dv_emmitted     = false;
-int8_t               dv_dangling_key = -1;
 
-int8_t               dv_find_child(uint8_t key) {
-    for (uint8_t i = 0; i < dv_current_node->children_num; i++) {
-        if (dv_current_node->children[i]->key == key) {
-            return i;
-        }
-    }
-    return -1;
-}
-
-bool dv_forward(uint8_t key) {
-    dv_dangling_key    = -1;
-    int8_t child_index = dv_find_child(key);
-    if (child_index != -1) {
-        dv_current_node = dv_current_node->children[child_index];
-        return true;
-    }
-    dv_dangling_key = key;
-    return false;
-}
-
-void dv_back_one(void) {
-    if (dv_current_node->parent != NULL) {
-        dv_current_node = dv_current_node->parent;
-    }
-}
-
-void dv_rollback(uint8_t key) {
-    // Search parent until root
-    uint8_t keys[16];
-    uint8_t keys_len = 0;
-    while (dv_current_node->parent != NULL) {
-        if (dv_current_node->key == key) {
-            dv_back_one();
-            break;
-        }
-        keys[keys_len++] = dv_current_node->key;
-        dv_back_one();
-    }
-    int8_t dangling_buf = dv_dangling_key;
-    for (int8_t i = keys_len - 1; i >= 0; i--) {
-        dv_forward(keys[i]);
-    }
-    if (dangling_buf != -1) {
-        dv_emmitted = false;
-        dv_forward(dangling_buf);
-    }
-}
-
-void dv_send_string(const char* str) {
-    dv_emmitted = true;
+void                 dv_send_string(const char* str) {
     if (strcmp(str, "nag") == 0) {
         tap_code(KC_LNG1);
         layer_move(L_NAG);
@@ -63,29 +12,52 @@ void dv_send_string(const char* str) {
     send_string(str);
 }
 
-// Process dvorak keycodes
 bool process_dvorak(uint16_t keycode, keyrecord_t* record) {
     switch (keycode) {
         case DV_A ... DV_RSFT3: {
-            uint8_t key = keycode - DV_A;
             if (record->event.pressed) {
-                // search next
-                dv_emmitted = false;
-                dv_forward(key);
-                if (dv_current_node->children_num == 0) {
+                const dvorak_node_t* next_node = dv_current_node->next_node(keycode);
+
+                // if not found, rollback
+                if (next_node == NULL) {
                     dv_send_string(dv_current_node->value);
-                    dv_back_one();
+
+                    uint16_t keybuf[8];
+                    uint8_t  keybuf_len = 0;
+
+                    while (dv_current_node->parent != NULL) {
+                        dv_current_node        = dv_current_node->parent;
+                        const dvorak_node_t* n = dv_current_node->next_node(keycode);
+                        if (n != NULL) {
+                            dv_current_node = n;
+                            break;
+                        }
+                        keybuf[keybuf_len++] = dv_current_node->key;
+                    }
+
+                    for (int8_t i = keybuf_len - 1; i >= 0; i--) {
+                        const dvorak_node_t* n = dv_current_node->next_node(keybuf[i]);
+                        if (n == NULL) {
+                            break;
+                        } else {
+                            dv_current_node = n;
+                        }
+                    }
+
+                } else {
+                    dv_current_node = next_node;
                 }
             } else {
-                if (dv_dangling_key == key) {
-                    dv_dangling_key = -1;
-                }
-                if (dv_current_node->value != NULL) {
-                    if (!dv_emmitted) {
+                const dvorak_node_t* n = dv_current_node->prev_node(keycode);
+                if (n != NULL) {
+                    dv_send_string(dv_current_node->value);
+                    dv_current_node = n;
+                } else {
+                    while (dv_current_node->parent != NULL) {
                         dv_send_string(dv_current_node->value);
+                        dv_current_node = dv_current_node->parent;
                     }
                 }
-                dv_rollback(key);
             }
             return false;
         }

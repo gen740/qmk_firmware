@@ -10,15 +10,15 @@ g-: gui
 a-: alt
 
 ###**### key data
-┏━━━━━━━━┳━━━━━━━━┳━━━━━━━━┳━━━━━━━━┳━━━━━━━━┓               ┏━━━━━━━━┳━━━━━━━━┳━━━━━━━━┳━━━━━━━━┳━━━━━━━━┓
-┃ B_QUOT ┃ B_COMM ┃ B_DOT  ┃  B_P   ┃  B_Y   ┃               ┃  B_F   ┃  B_G   ┃  B_C   ┃  B_R   ┃  B_L   ┃
-┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━┫               ┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━┫
-┃  B_A   ┃  B_O   ┃  B_E   ┃  B_U   ┃  B_I   ┃               ┃  B_D   ┃  B_H   ┃  B_T   ┃  B_N   ┃  B_S   ┃
-┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━┫               ┣━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━╋━━━━━━━━┫
-┃ B_SCLN ┃  B_Q   ┃  B_J   ┃  B_K   ┃  B_X   ┃               ┃  B_B   ┃  B_M   ┃  B_W   ┃  B_V   ┃  B_Z   ┃
-┗━━━━━━━━┻━━━━━━━━┻━━━━━━┳━┻━━━━━━┳━┻━━━━━━┳━┻━━━━━━┓ ┏━━━━━━┻━┳━━━━━━┻━┳━━━━━━┻━┳━━━━━━┻━━━━━━━━┻━━━━━━━━┛
-                         ┃ B_LS1  ┃ B_LS2  ┃ B_LS3  ┃ ┃ B_RS3  ┃ B_RS2  ┃ B_RS1  ┃
-                         ┗━━━━━━━━┻━━━━━━━━┻━━━━━━━━┛ ┗━━━━━━━━┻━━━━━━━━┻━━━━━━━━┛
+┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓                   ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓
+┃ DV_QUOT  ┃ DV_COMM  ┃  DV_DOT  ┃   DV_P   ┃   DV_Y   ┃                   ┃   DV_F   ┃   DV_G   ┃   DV_C   ┃   DV_R   ┃   DV_L   ┃
+┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫                   ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫
+┃   DV_A   ┃   DV_O   ┃   DV_E   ┃   DV_U   ┃   DV_I   ┃                   ┃   DV_D   ┃   DV_H   ┃   DV_T   ┃   DV_N   ┃   DV_S   ┃
+┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫                   ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫
+┃ DV_SCLN  ┃   DV_Q   ┃   DV_J   ┃   DV_K   ┃   DV_X   ┃                   ┃   DV_B   ┃   DV_M   ┃   DV_W   ┃   DV_V   ┃   DV_Z   ┃
+┗━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━┳━┻━━━━━━━━┳━┻━━━━━━━━┳━┻━━━━━━━━┓ ┏━━━━━━━━┻━┳━━━━━━━━┻━┳━━━━━━━━┻━┳━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┛
+                               ┃ DV_LSFT1 ┃ DV_LSFT2 ┃ DV_LSFT3 ┃ ┃ DV_RSFT3 ┃ DV_RSFT2 ┃ DV_RSFT1 ┃
+                               ┗━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┛ ┗━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┛
 
 ###*### Normal
 ┏━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┓         ┏━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┓
@@ -153,18 +153,18 @@ a-: alt
                    ┗━━━━━━┻━━━━━━┻━━━━━━┛ ┗━━━━━━┻━━━━━━┻━━━━━━┛
 
 ##***## Extra keys
-B_COMM B_DOT  = SS_TAP(X_ESC)
-B_DOT B_COMM  = SS_TAP(X_ESC)
-B_U B_I       = ""
-B_I B_U       = ""
-B_P B_G       = SS_TAP(X_TAB)
-B_G B_P       = SS_TAP(X_TAB)
-B_RS2 B_G B_P = SS_LSFT(SS_TAP(X_TAB))
-B_RS2 B_P B_G = SS_LSFT(SS_TAP(X_TAB))
-B_LS2 B_G B_P = SS_LCTL(SS_TAP(X_TAB))
-B_LS2 B_P B_G = SS_LCTL(SS_TAP(X_TAB))
-B_D B_H       = "nag"
-B_H B_D       = "nag"
-B_LS2 B_E B_N = SS_LCTL("^")
-B_LS2 B_N B_E = SS_LCTL("^")
-B_LS2 B_E B_T = SS_LCTL("^")
+DV_COMM DV_DOT  = SS_TAP(X_ESC)
+DV_DOT DV_COMM  = SS_TAP(X_ESC)
+DV_U DV_I       = ""
+DV_I DV_U       = ""
+DV_P DV_G       = SS_TAP(X_TAB)
+DV_G DV_P       = SS_TAP(X_TAB)
+DV_RSFT2 DV_G DV_P = SS_LSFT(SS_TAP(X_TAB))
+DV_RSFT2 DV_P DV_G = SS_LSFT(SS_TAP(X_TAB))
+DV_LSFT2 DV_G DV_P = SS_LCTL(SS_TAP(X_TAB))
+DV_LSFT2 DV_P DV_G = SS_LCTL(SS_TAP(X_TAB))
+DV_D DV_H       = "nag"
+DV_H DV_D       = "nag"
+DV_LSFT2 DV_E DV_N = SS_LCTL("^")
+DV_LSFT2 DV_N DV_E = SS_LCTL("^")
+DV_LSFT2 DV_E DV_T = SS_LCTL("^")

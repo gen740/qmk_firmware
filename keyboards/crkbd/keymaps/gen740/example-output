@@ -1,0 +1,2549 @@
+// Example Graph
+digraph {
+	naginata_node_root [label=None]
+	naginata_node_root [label="None
+None"]
+	naginata_node_B_W [label="B_W
+\"ki\""]
+	naginata_node_root -> naginata_node_B_W [constraint=true]
+	naginata_node_B_W_B_LS2 [label="B_LS2
+\"nu\""]
+	naginata_node_B_W -> naginata_node_B_W_B_LS2 [constraint=true]
+	naginata_node_B_W_B_RS2 [label="B_RS2
+\"nu\""]
+	naginata_node_B_W -> naginata_node_B_W_B_RS2 [constraint=true]
+	naginata_node_B_W_B_J [label="B_J
+\"gi\""]
+	naginata_node_B_W -> naginata_node_B_W_B_J [constraint=true]
+	naginata_node_B_W_B_J_B_I [label="B_I
+\"gyo\""]
+	naginata_node_B_W_B_J -> naginata_node_B_W_B_J_B_I [constraint=true]
+	naginata_node_B_W_B_J_B_P [label="B_P
+\"gyu\""]
+	naginata_node_B_W_B_J -> naginata_node_B_W_B_J_B_P [constraint=true]
+	naginata_node_B_W_B_J_B_H [label="B_H
+\"gya\""]
+	naginata_node_B_W_B_J -> naginata_node_B_W_B_J_B_H [constraint=true]
+	naginata_node_B_W_B_I [label="B_I
+\"kyo\""]
+	naginata_node_B_W -> naginata_node_B_W_B_I [constraint=true]
+	naginata_node_B_W_B_I_B_J [label="B_J
+\"gyo\""]
+	naginata_node_B_W_B_I -> naginata_node_B_W_B_I_B_J [constraint=true]
+	naginata_node_B_W_B_P [label="B_P
+\"kyu\""]
+	naginata_node_B_W -> naginata_node_B_W_B_P [constraint=true]
+	naginata_node_B_W_B_P_B_J [label="B_J
+\"gyu\""]
+	naginata_node_B_W_B_P -> naginata_node_B_W_B_P_B_J [constraint=true]
+	naginata_node_B_W_B_H [label="B_H
+\"kya\""]
+	naginata_node_B_W -> naginata_node_B_W_B_H [constraint=true]
+	naginata_node_B_W_B_H_B_J [label="B_J
+\"gya\""]
+	naginata_node_B_W_B_H -> naginata_node_B_W_B_H_B_J [constraint=true]
+	naginata_node_B_W_B_E [label="B_E
+SS_TAP(X_ESC)"]
+	naginata_node_B_W -> naginata_node_B_W_B_E [constraint=true]
+	naginata_node_B_E [label="B_E
+\"te\""]
+	naginata_node_root -> naginata_node_B_E [constraint=true]
+	naginata_node_B_E_B_LS2 [label="B_LS2
+\"ri\""]
+	naginata_node_B_E -> naginata_node_B_E_B_LS2 [constraint=true]
+	naginata_node_B_E_B_RS2 [label="B_RS2
+\"ri\""]
+	naginata_node_B_E -> naginata_node_B_E_B_RS2 [constraint=true]
+	naginata_node_B_E_B_J [label="B_J
+\"de\""]
+	naginata_node_B_E -> naginata_node_B_E_B_J [constraint=true]
+	naginata_node_B_E_B_J_B_P [label="B_P
+\"dhu\""]
+	naginata_node_B_E_B_J -> naginata_node_B_E_B_J_B_P [constraint=true]
+	naginata_node_B_E_B_J_B_K [label="B_K
+\"dhi\""]
+	naginata_node_B_E_B_J -> naginata_node_B_E_B_J_B_K [constraint=true]
+	naginata_node_B_E_B_I [label="B_I
+\"ryo\""]
+	naginata_node_B_E -> naginata_node_B_E_B_I [constraint=true]
+	naginata_node_B_E_B_P [label="B_P
+\"ryu\""]
+	naginata_node_B_E -> naginata_node_B_E_B_P [constraint=true]
+	naginata_node_B_E_B_P_B_M [label="B_M
+\"thu\""]
+	naginata_node_B_E_B_P -> naginata_node_B_E_B_P_B_M [constraint=true]
+	naginata_node_B_E_B_P_B_J [label="B_J
+\"dhu\""]
+	naginata_node_B_E_B_P -> naginata_node_B_E_B_P_B_J [constraint=true]
+	naginata_node_B_E_B_H [label="B_H
+\"rya\""]
+	naginata_node_B_E -> naginata_node_B_E_B_H [constraint=true]
+	naginata_node_B_E_B_M [label="B_M
+None"]
+	naginata_node_B_E -> naginata_node_B_E_B_M [constraint=true]
+	naginata_node_B_E_B_M_B_P [label="B_P
+\"thu\""]
+	naginata_node_B_E_B_M -> naginata_node_B_E_B_M_B_P [constraint=true]
+	naginata_node_B_E_B_M_B_K [label="B_K
+\"thi\""]
+	naginata_node_B_E_B_M -> naginata_node_B_E_B_M_B_K [constraint=true]
+	naginata_node_B_E_B_K [label="B_K
+None"]
+	naginata_node_B_E -> naginata_node_B_E_B_K [constraint=true]
+	naginata_node_B_E_B_K_B_M [label="B_M
+\"thi\""]
+	naginata_node_B_E_B_K -> naginata_node_B_E_B_K_B_M [constraint=true]
+	naginata_node_B_E_B_K_B_J [label="B_J
+\"dhi\""]
+	naginata_node_B_E_B_K -> naginata_node_B_E_B_K_B_J [constraint=true]
+	naginata_node_B_E_B_W [label="B_W
+SS_TAP(X_ESC)"]
+	naginata_node_B_E -> naginata_node_B_E_B_W [constraint=true]
+	naginata_node_B_R [label="B_R
+\"si\""]
+	naginata_node_root -> naginata_node_B_R [constraint=true]
+	naginata_node_B_R_B_LS2 [label="B_LS2
+\"ne\""]
+	naginata_node_B_R -> naginata_node_B_R_B_LS2 [constraint=true]
+	naginata_node_B_R_B_RS2 [label="B_RS2
+\"ne\""]
+	naginata_node_B_R -> naginata_node_B_R_B_RS2 [constraint=true]
+	naginata_node_B_R_B_J [label="B_J
+\"zi\""]
+	naginata_node_B_R -> naginata_node_B_R_B_J [constraint=true]
+	naginata_node_B_R_B_J_B_I [label="B_I
+\"zyo\""]
+	naginata_node_B_R_B_J -> naginata_node_B_R_B_J_B_I [constraint=true]
+	naginata_node_B_R_B_J_B_P [label="B_P
+\"zyu\""]
+	naginata_node_B_R_B_J -> naginata_node_B_R_B_J_B_P [constraint=true]
+	naginata_node_B_R_B_J_B_H [label="B_H
+\"zya\""]
+	naginata_node_B_R_B_J -> naginata_node_B_R_B_J_B_H [constraint=true]
+	naginata_node_B_R_B_J_B_O [label="B_O
+\"zye\""]
+	naginata_node_B_R_B_J -> naginata_node_B_R_B_J_B_O [constraint=true]
+	naginata_node_B_R_B_I [label="B_I
+\"syo\""]
+	naginata_node_B_R -> naginata_node_B_R_B_I [constraint=true]
+	naginata_node_B_R_B_I_B_J [label="B_J
+\"zyo\""]
+	naginata_node_B_R_B_I -> naginata_node_B_R_B_I_B_J [constraint=true]
+	naginata_node_B_R_B_P [label="B_P
+\"syu\""]
+	naginata_node_B_R -> naginata_node_B_R_B_P [constraint=true]
+	naginata_node_B_R_B_P_B_J [label="B_J
+\"zyu\""]
+	naginata_node_B_R_B_P -> naginata_node_B_R_B_P_B_J [constraint=true]
+	naginata_node_B_R_B_H [label="B_H
+\"sya\""]
+	naginata_node_B_R -> naginata_node_B_R_B_H [constraint=true]
+	naginata_node_B_R_B_H_B_J [label="B_J
+\"zya\""]
+	naginata_node_B_R_B_H -> naginata_node_B_R_B_H_B_J [constraint=true]
+	naginata_node_B_R_B_O [label="B_O
+None"]
+	naginata_node_B_R -> naginata_node_B_R_B_O [constraint=true]
+	naginata_node_B_R_B_O_B_M [label="B_M
+\"sye\""]
+	naginata_node_B_R_B_O -> naginata_node_B_R_B_O_B_M [constraint=true]
+	naginata_node_B_R_B_O_B_J [label="B_J
+\"zye\""]
+	naginata_node_B_R_B_O -> naginata_node_B_R_B_O_B_J [constraint=true]
+	naginata_node_B_R_B_M [label="B_M
+None"]
+	naginata_node_B_R -> naginata_node_B_R_B_M [constraint=true]
+	naginata_node_B_R_B_M_B_O [label="B_O
+\"sye\""]
+	naginata_node_B_R_B_M -> naginata_node_B_R_B_M_B_O [constraint=true]
+	naginata_node_B_T [label="B_T
+SS_TAP(X_LEFT)"]
+	naginata_node_root -> naginata_node_B_T [constraint=true]
+	naginata_node_B_Y [label="B_Y
+SS_TAP(X_RIGHT)"]
+	naginata_node_root -> naginata_node_B_Y [constraint=true]
+	naginata_node_B_U [label="B_U
+\"sa\""]
+	naginata_node_root -> naginata_node_B_U [constraint=true]
+	naginata_node_B_U_B_LS2 [label="B_LS2
+\"sa\""]
+	naginata_node_B_U -> naginata_node_B_U_B_LS2 [constraint=true]
+	naginata_node_B_U_B_RS2 [label="B_RS2
+\"sa\""]
+	naginata_node_B_U -> naginata_node_B_U_B_RS2 [constraint=true]
+	naginata_node_B_U_B_F [label="B_F
+\"za\""]
+	naginata_node_B_U -> naginata_node_B_U_B_F [constraint=true]
+	naginata_node_B_I [label="B_I
+\"ru\""]
+	naginata_node_root -> naginata_node_B_I [constraint=true]
+	naginata_node_B_I_B_LS2 [label="B_LS2
+\"yo\""]
+	naginata_node_B_I -> naginata_node_B_I_B_LS2 [constraint=true]
+	naginata_node_B_I_B_RS2 [label="B_RS2
+\"yo\""]
+	naginata_node_B_I -> naginata_node_B_I_B_RS2 [constraint=true]
+	naginata_node_B_I_B_R [label="B_R
+\"syo\""]
+	naginata_node_B_I -> naginata_node_B_I_B_R [constraint=true]
+	naginata_node_B_I_B_R_B_J [label="B_J
+\"zyo\""]
+	naginata_node_B_I_B_R -> naginata_node_B_I_B_R_B_J [constraint=true]
+	naginata_node_B_I_B_J [label="B_J
+None"]
+	naginata_node_B_I -> naginata_node_B_I_B_J [constraint=true]
+	naginata_node_B_I_B_J_B_R [label="B_R
+\"zyo\""]
+	naginata_node_B_I_B_J -> naginata_node_B_I_B_J_B_R [constraint=true]
+	naginata_node_B_I_B_J_B_W [label="B_W
+\"gyo\""]
+	naginata_node_B_I_B_J -> naginata_node_B_I_B_J_B_W [constraint=true]
+	naginata_node_B_I_B_J_B_G [label="B_G
+\"dyo\""]
+	naginata_node_B_I_B_J -> naginata_node_B_I_B_J_B_G [constraint=true]
+	naginata_node_B_I_B_J_B_X [label="B_X
+\"byo\""]
+	naginata_node_B_I_B_J -> naginata_node_B_I_B_J_B_X [constraint=true]
+	naginata_node_B_I_B_W [label="B_W
+\"kyo\""]
+	naginata_node_B_I -> naginata_node_B_I_B_W [constraint=true]
+	naginata_node_B_I_B_W_B_J [label="B_J
+\"gyo\""]
+	naginata_node_B_I_B_W -> naginata_node_B_I_B_W_B_J [constraint=true]
+	naginata_node_B_I_B_G [label="B_G
+\"tyo\""]
+	naginata_node_B_I -> naginata_node_B_I_B_G [constraint=true]
+	naginata_node_B_I_B_G_B_J [label="B_J
+\"dyo\""]
+	naginata_node_B_I_B_G -> naginata_node_B_I_B_G_B_J [constraint=true]
+	naginata_node_B_I_B_D [label="B_D
+\"nyo\""]
+	naginata_node_B_I -> naginata_node_B_I_B_D [constraint=true]
+	naginata_node_B_I_B_X [label="B_X
+\"hyo\""]
+	naginata_node_B_I -> naginata_node_B_I_B_X [constraint=true]
+	naginata_node_B_I_B_X_B_J [label="B_J
+\"byo\""]
+	naginata_node_B_I_B_X -> naginata_node_B_I_B_X_B_J [constraint=true]
+	naginata_node_B_I_B_X_B_M [label="B_M
+\"pyo\""]
+	naginata_node_B_I_B_X -> naginata_node_B_I_B_X_B_M [constraint=true]
+	naginata_node_B_I_B_M [label="B_M
+None"]
+	naginata_node_B_I -> naginata_node_B_I_B_M [constraint=true]
+	naginata_node_B_I_B_M_B_X [label="B_X
+\"pyo\""]
+	naginata_node_B_I_B_M -> naginata_node_B_I_B_M_B_X [constraint=true]
+	naginata_node_B_I_B_B [label="B_B
+\"myo\""]
+	naginata_node_B_I -> naginata_node_B_I_B_B [constraint=true]
+	naginata_node_B_I_B_E [label="B_E
+\"ryo\""]
+	naginata_node_B_I -> naginata_node_B_I_B_E [constraint=true]
+	naginata_node_B_O [label="B_O
+\"su\""]
+	naginata_node_root -> naginata_node_B_O [constraint=true]
+	naginata_node_B_O_B_LS2 [label="B_LS2
+\"e\""]
+	naginata_node_B_O -> naginata_node_B_O_B_LS2 [constraint=true]
+	naginata_node_B_O_B_RS2 [label="B_RS2
+\"e\""]
+	naginata_node_B_O -> naginata_node_B_O_B_RS2 [constraint=true]
+	naginata_node_B_O_B_F [label="B_F
+\"zu\""]
+	naginata_node_B_O -> naginata_node_B_O_B_F [constraint=true]
+	naginata_node_B_O_B_F_B_L [label="B_L
+\"ve\""]
+	naginata_node_B_O_B_F -> naginata_node_B_O_B_F_B_L [constraint=true]
+	naginata_node_B_O_B_F_B_H [label="B_H
+\"kuxe\""]
+	naginata_node_B_O_B_F -> naginata_node_B_O_B_F_B_H [constraint=true]
+	naginata_node_B_O_B_R [label="B_R
+None"]
+	naginata_node_B_O -> naginata_node_B_O_B_R [constraint=true]
+	naginata_node_B_O_B_R_B_M [label="B_M
+\"sye\""]
+	naginata_node_B_O_B_R -> naginata_node_B_O_B_R_B_M [constraint=true]
+	naginata_node_B_O_B_R_B_J [label="B_J
+\"zye\""]
+	naginata_node_B_O_B_R -> naginata_node_B_O_B_R_B_J [constraint=true]
+	naginata_node_B_O_B_M [label="B_M
+None"]
+	naginata_node_B_O -> naginata_node_B_O_B_M [constraint=true]
+	naginata_node_B_O_B_M_B_R [label="B_R
+\"sye\""]
+	naginata_node_B_O_B_M -> naginata_node_B_O_B_M_B_R [constraint=true]
+	naginata_node_B_O_B_M_B_G [label="B_G
+\"tye\""]
+	naginata_node_B_O_B_M -> naginata_node_B_O_B_M_B_G [constraint=true]
+	naginata_node_B_O_B_J [label="B_J
+None"]
+	naginata_node_B_O -> naginata_node_B_O_B_J [constraint=true]
+	naginata_node_B_O_B_J_B_R [label="B_R
+\"zye\""]
+	naginata_node_B_O_B_J -> naginata_node_B_O_B_J_B_R [constraint=true]
+	naginata_node_B_O_B_J_B_G [label="B_G
+\"dye\""]
+	naginata_node_B_O_B_J -> naginata_node_B_O_B_J_B_G [constraint=true]
+	naginata_node_B_O_B_G [label="B_G
+None"]
+	naginata_node_B_O -> naginata_node_B_O_B_G [constraint=true]
+	naginata_node_B_O_B_G_B_M [label="B_M
+\"tye\""]
+	naginata_node_B_O_B_G -> naginata_node_B_O_B_G_B_M [constraint=true]
+	naginata_node_B_O_B_G_B_J [label="B_J
+\"dye\""]
+	naginata_node_B_O_B_G -> naginata_node_B_O_B_G_B_J [constraint=true]
+	naginata_node_B_O_B_K [label="B_K
+None"]
+	naginata_node_B_O -> naginata_node_B_O_B_K [constraint=true]
+	naginata_node_B_O_B_K_B_V [label="B_V
+\"ixe\""]
+	naginata_node_B_O_B_K -> naginata_node_B_O_B_K_B_V [constraint=true]
+	naginata_node_B_O_B_V [label="B_V
+None"]
+	naginata_node_B_O -> naginata_node_B_O_B_V [constraint=true]
+	naginata_node_B_O_B_V_B_K [label="B_K
+\"ixe\""]
+	naginata_node_B_O_B_V -> naginata_node_B_O_B_V_B_K [constraint=true]
+	naginata_node_B_O_B_V_B_L [label="B_L
+\"we\""]
+	naginata_node_B_O_B_V -> naginata_node_B_O_B_V_B_L [constraint=true]
+	naginata_node_B_O_B_V_B_H [label="B_H
+\"guxe\""]
+	naginata_node_B_O_B_V -> naginata_node_B_O_B_V_B_H [constraint=true]
+	naginata_node_B_O_B_L [label="B_L
+None"]
+	naginata_node_B_O -> naginata_node_B_O_B_L [constraint=true]
+	naginata_node_B_O_B_L_B_V [label="B_V
+\"we\""]
+	naginata_node_B_O_B_L -> naginata_node_B_O_B_L_B_V [constraint=true]
+	naginata_node_B_O_B_L_B_F [label="B_F
+\"ve\""]
+	naginata_node_B_O_B_L -> naginata_node_B_O_B_L_B_F [constraint=true]
+	naginata_node_B_O_B_H [label="B_H
+None"]
+	naginata_node_B_O -> naginata_node_B_O_B_H [constraint=true]
+	naginata_node_B_O_B_H_B_F [label="B_F
+\"kuxe\""]
+	naginata_node_B_O_B_H -> naginata_node_B_O_B_H_B_F [constraint=true]
+	naginata_node_B_O_B_H_B_V [label="B_V
+\"guxe\""]
+	naginata_node_B_O_B_H -> naginata_node_B_O_B_H_B_V [constraint=true]
+	naginata_node_B_P [label="B_P
+\"he\""]
+	naginata_node_root -> naginata_node_B_P [constraint=true]
+	naginata_node_B_P_B_LS2 [label="B_LS2
+\"yu\""]
+	naginata_node_B_P -> naginata_node_B_P_B_LS2 [constraint=true]
+	naginata_node_B_P_B_RS2 [label="B_RS2
+\"yu\""]
+	naginata_node_B_P -> naginata_node_B_P_B_RS2 [constraint=true]
+	naginata_node_B_P_B_F [label="B_F
+\"be\""]
+	naginata_node_B_P -> naginata_node_B_P_B_F [constraint=true]
+	naginata_node_B_P_B_F_B_L [label="B_L
+\"vuxyu\""]
+	naginata_node_B_P_B_F -> naginata_node_B_P_B_F_B_L [constraint=true]
+	naginata_node_B_P_B_V [label="B_V
+\"pe\""]
+	naginata_node_B_P -> naginata_node_B_P_B_V [constraint=true]
+	naginata_node_B_P_B_V_B_SCLN [label="B_SCLN
+\"fyu\""]
+	naginata_node_B_P_B_V -> naginata_node_B_P_B_V_B_SCLN [constraint=true]
+	naginata_node_B_P_B_R [label="B_R
+\"syu\""]
+	naginata_node_B_P -> naginata_node_B_P_B_R [constraint=true]
+	naginata_node_B_P_B_R_B_J [label="B_J
+\"zyu\""]
+	naginata_node_B_P_B_R -> naginata_node_B_P_B_R_B_J [constraint=true]
+	naginata_node_B_P_B_J [label="B_J
+None"]
+	naginata_node_B_P -> naginata_node_B_P_B_J [constraint=true]
+	naginata_node_B_P_B_J_B_R [label="B_R
+\"zyu\""]
+	naginata_node_B_P_B_J -> naginata_node_B_P_B_J_B_R [constraint=true]
+	naginata_node_B_P_B_J_B_W [label="B_W
+\"gyu\""]
+	naginata_node_B_P_B_J -> naginata_node_B_P_B_J_B_W [constraint=true]
+	naginata_node_B_P_B_J_B_G [label="B_G
+\"dyu\""]
+	naginata_node_B_P_B_J -> naginata_node_B_P_B_J_B_G [constraint=true]
+	naginata_node_B_P_B_J_B_X [label="B_X
+\"byu\""]
+	naginata_node_B_P_B_J -> naginata_node_B_P_B_J_B_X [constraint=true]
+	naginata_node_B_P_B_J_B_E [label="B_E
+\"dhu\""]
+	naginata_node_B_P_B_J -> naginata_node_B_P_B_J_B_E [constraint=true]
+	naginata_node_B_P_B_W [label="B_W
+\"kyu\""]
+	naginata_node_B_P -> naginata_node_B_P_B_W [constraint=true]
+	naginata_node_B_P_B_W_B_J [label="B_J
+\"gyu\""]
+	naginata_node_B_P_B_W -> naginata_node_B_P_B_W_B_J [constraint=true]
+	naginata_node_B_P_B_G [label="B_G
+\"tyu\""]
+	naginata_node_B_P -> naginata_node_B_P_B_G [constraint=true]
+	naginata_node_B_P_B_G_B_J [label="B_J
+\"dyu\""]
+	naginata_node_B_P_B_G -> naginata_node_B_P_B_G_B_J [constraint=true]
+	naginata_node_B_P_B_D [label="B_D
+\"nyu\""]
+	naginata_node_B_P -> naginata_node_B_P_B_D [constraint=true]
+	naginata_node_B_P_B_X [label="B_X
+\"hyu\""]
+	naginata_node_B_P -> naginata_node_B_P_B_X [constraint=true]
+	naginata_node_B_P_B_X_B_J [label="B_J
+\"byu\""]
+	naginata_node_B_P_B_X -> naginata_node_B_P_B_X_B_J [constraint=true]
+	naginata_node_B_P_B_X_B_M [label="B_M
+\"pyu\""]
+	naginata_node_B_P_B_X -> naginata_node_B_P_B_X_B_M [constraint=true]
+	naginata_node_B_P_B_M [label="B_M
+None"]
+	naginata_node_B_P -> naginata_node_B_P_B_M [constraint=true]
+	naginata_node_B_P_B_M_B_X [label="B_X
+\"pyu\""]
+	naginata_node_B_P_B_M -> naginata_node_B_P_B_M_B_X [constraint=true]
+	naginata_node_B_P_B_M_B_E [label="B_E
+\"thu\""]
+	naginata_node_B_P_B_M -> naginata_node_B_P_B_M_B_E [constraint=true]
+	naginata_node_B_P_B_B [label="B_B
+\"myu\""]
+	naginata_node_B_P -> naginata_node_B_P_B_B [constraint=true]
+	naginata_node_B_P_B_E [label="B_E
+\"ryu\""]
+	naginata_node_B_P -> naginata_node_B_P_B_E [constraint=true]
+	naginata_node_B_P_B_E_B_M [label="B_M
+\"thu\""]
+	naginata_node_B_P_B_E -> naginata_node_B_P_B_E_B_M [constraint=true]
+	naginata_node_B_P_B_E_B_J [label="B_J
+\"dhu\""]
+	naginata_node_B_P_B_E -> naginata_node_B_P_B_E_B_J [constraint=true]
+	naginata_node_B_P_B_SCLN [label="B_SCLN
+None"]
+	naginata_node_B_P -> naginata_node_B_P_B_SCLN [constraint=true]
+	naginata_node_B_P_B_SCLN_B_V [label="B_V
+\"fyu\""]
+	naginata_node_B_P_B_SCLN -> naginata_node_B_P_B_SCLN_B_V [constraint=true]
+	naginata_node_B_P_B_L [label="B_L
+None"]
+	naginata_node_B_P -> naginata_node_B_P_B_L [constraint=true]
+	naginata_node_B_P_B_L_B_F [label="B_F
+\"vuxyu\""]
+	naginata_node_B_P_B_L -> naginata_node_B_P_B_L_B_F [constraint=true]
+	naginata_node_B_A [label="B_A
+\"ro\""]
+	naginata_node_root -> naginata_node_B_A [constraint=true]
+	naginata_node_B_A_B_LS2 [label="B_LS2
+\"se\""]
+	naginata_node_B_A -> naginata_node_B_A_B_LS2 [constraint=true]
+	naginata_node_B_A_B_RS2 [label="B_RS2
+\"se\""]
+	naginata_node_B_A -> naginata_node_B_A_B_RS2 [constraint=true]
+	naginata_node_B_A_B_J [label="B_J
+\"ze\""]
+	naginata_node_B_A -> naginata_node_B_A_B_J [constraint=true]
+	naginata_node_B_S [label="B_S
+\"ke\""]
+	naginata_node_root -> naginata_node_B_S [constraint=true]
+	naginata_node_B_S_B_LS2 [label="B_LS2
+\"me\""]
+	naginata_node_B_S -> naginata_node_B_S_B_LS2 [constraint=true]
+	naginata_node_B_S_B_RS2 [label="B_RS2
+\"me\""]
+	naginata_node_B_S -> naginata_node_B_S_B_RS2 [constraint=true]
+	naginata_node_B_S_B_J [label="B_J
+\"ge\""]
+	naginata_node_B_S -> naginata_node_B_S_B_J [constraint=true]
+	naginata_node_B_D [label="B_D
+\"to\""]
+	naginata_node_root -> naginata_node_B_D [constraint=true]
+	naginata_node_B_D_B_LS2 [label="B_LS2
+\"ni\""]
+	naginata_node_B_D -> naginata_node_B_D_B_LS2 [constraint=true]
+	naginata_node_B_D_B_RS2 [label="B_RS2
+\"ni\""]
+	naginata_node_B_D -> naginata_node_B_D_B_RS2 [constraint=true]
+	naginata_node_B_D_B_J [label="B_J
+\"do\""]
+	naginata_node_B_D -> naginata_node_B_D_B_J [constraint=true]
+	naginata_node_B_D_B_J_B_L [label="B_L
+\"doxu\""]
+	naginata_node_B_D_B_J -> naginata_node_B_D_B_J_B_L [constraint=true]
+	naginata_node_B_D_B_I [label="B_I
+\"nyo\""]
+	naginata_node_B_D -> naginata_node_B_D_B_I [constraint=true]
+	naginata_node_B_D_B_P [label="B_P
+\"nyu\""]
+	naginata_node_B_D -> naginata_node_B_D_B_P [constraint=true]
+	naginata_node_B_D_B_H [label="B_H
+\"nya\""]
+	naginata_node_B_D -> naginata_node_B_D_B_H [constraint=true]
+	naginata_node_B_D_B_M [label="B_M
+None"]
+	naginata_node_B_D -> naginata_node_B_D_B_M [constraint=true]
+	naginata_node_B_D_B_M_B_L [label="B_L
+\"toxu\""]
+	naginata_node_B_D_B_M -> naginata_node_B_D_B_M_B_L [constraint=true]
+	naginata_node_B_D_B_L [label="B_L
+None"]
+	naginata_node_B_D -> naginata_node_B_D_B_L [constraint=true]
+	naginata_node_B_D_B_L_B_M [label="B_M
+\"toxu\""]
+	naginata_node_B_D_B_L -> naginata_node_B_D_B_L_B_M [constraint=true]
+	naginata_node_B_D_B_L_B_J [label="B_J
+\"doxu\""]
+	naginata_node_B_D_B_L -> naginata_node_B_D_B_L_B_J [constraint=true]
+	naginata_node_B_D_B_F [label="B_F
+None"]
+	naginata_node_B_D -> naginata_node_B_D_B_F [constraint=true]
+	naginata_node_B_D_B_F_B_Y [label="B_Y
+\"!\""]
+	naginata_node_B_D_B_F -> naginata_node_B_D_B_F_B_Y [constraint=true]
+	naginata_node_B_D_B_F_B_U [label="B_U
+\"@\""]
+	naginata_node_B_D_B_F -> naginata_node_B_D_B_F_B_U [constraint=true]
+	naginata_node_B_D_B_F_B_I [label="B_I
+\"~\""]
+	naginata_node_B_D_B_F -> naginata_node_B_D_B_F_B_I [constraint=true]
+	naginata_node_B_D_B_F_B_O [label="B_O
+\"%\""]
+	naginata_node_B_D_B_F -> naginata_node_B_D_B_F_B_O [constraint=true]
+	naginata_node_B_D_B_F_B_P [label="B_P
+\"$\""]
+	naginata_node_B_D_B_F -> naginata_node_B_D_B_F_B_P [constraint=true]
+	naginata_node_B_D_B_F_B_H [label="B_H
+\"_\""]
+	naginata_node_B_D_B_F -> naginata_node_B_D_B_F_B_H [constraint=true]
+	naginata_node_B_F [label="B_F
+\"ka\""]
+	naginata_node_root -> naginata_node_B_F [constraint=true]
+	naginata_node_B_F_B_LS2 [label="B_LS2
+\"ma\""]
+	naginata_node_B_F -> naginata_node_B_F_B_LS2 [constraint=true]
+	naginata_node_B_F_B_RS2 [label="B_RS2
+\"ma\""]
+	naginata_node_B_F -> naginata_node_B_F_B_RS2 [constraint=true]
+	naginata_node_B_F_B_J [label="B_J
+\"ga\""]
+	naginata_node_B_F -> naginata_node_B_F_B_J [constraint=true]
+	naginata_node_B_F_B_J_B_L [label="B_L
+\"va\""]
+	naginata_node_B_F_B_J -> naginata_node_B_F_B_J_B_L [constraint=true]
+	naginata_node_B_F_B_J_B_H [label="B_H
+\"kuxa\""]
+	naginata_node_B_F_B_J -> naginata_node_B_F_B_J_B_H [constraint=true]
+	naginata_node_B_F_B_U [label="B_U
+\"za\""]
+	naginata_node_B_F -> naginata_node_B_F_B_U [constraint=true]
+	naginata_node_B_F_B_O [label="B_O
+\"zu\""]
+	naginata_node_B_F -> naginata_node_B_F_B_O [constraint=true]
+	naginata_node_B_F_B_O_B_L [label="B_L
+\"ve\""]
+	naginata_node_B_F_B_O -> naginata_node_B_F_B_O_B_L [constraint=true]
+	naginata_node_B_F_B_O_B_H [label="B_H
+\"kuxe\""]
+	naginata_node_B_F_B_O -> naginata_node_B_F_B_O_B_H [constraint=true]
+	naginata_node_B_F_B_P [label="B_P
+\"be\""]
+	naginata_node_B_F -> naginata_node_B_F_B_P [constraint=true]
+	naginata_node_B_F_B_P_B_L [label="B_L
+\"vuxyu\""]
+	naginata_node_B_F_B_P -> naginata_node_B_F_B_P_B_L [constraint=true]
+	naginata_node_B_F_B_H [label="B_H
+\"gu\""]
+	naginata_node_B_F -> naginata_node_B_F_B_H [constraint=true]
+	naginata_node_B_F_B_H_B_O [label="B_O
+\"kuxe\""]
+	naginata_node_B_F_B_H -> naginata_node_B_F_B_H_B_O [constraint=true]
+	naginata_node_B_F_B_H_B_J [label="B_J
+\"kuxa\""]
+	naginata_node_B_F_B_H -> naginata_node_B_F_B_H_B_J [constraint=true]
+	naginata_node_B_F_B_H_B_K [label="B_K
+\"kuxi\""]
+	naginata_node_B_F_B_H -> naginata_node_B_F_B_H_B_K [constraint=true]
+	naginata_node_B_F_B_H_B_N [label="B_N
+\"kuxo\""]
+	naginata_node_B_F_B_H -> naginata_node_B_F_B_H_B_N [constraint=true]
+	naginata_node_B_F_B_L [label="B_L
+\"du\""]
+	naginata_node_B_F -> naginata_node_B_F_B_L [constraint=true]
+	naginata_node_B_F_B_L_B_O [label="B_O
+\"ve\""]
+	naginata_node_B_F_B_L -> naginata_node_B_F_B_L_B_O [constraint=true]
+	naginata_node_B_F_B_L_B_P [label="B_P
+\"vuxyu\""]
+	naginata_node_B_F_B_L -> naginata_node_B_F_B_L_B_P [constraint=true]
+	naginata_node_B_F_B_L_B_J [label="B_J
+\"va\""]
+	naginata_node_B_F_B_L -> naginata_node_B_F_B_L_B_J [constraint=true]
+	naginata_node_B_F_B_L_B_K [label="B_K
+\"vi\""]
+	naginata_node_B_F_B_L -> naginata_node_B_F_B_L_B_K [constraint=true]
+	naginata_node_B_F_B_L_B_N [label="B_N
+\"vo\""]
+	naginata_node_B_F_B_L -> naginata_node_B_F_B_L_B_N [constraint=true]
+	naginata_node_B_F_B_SCLN [label="B_SCLN
+\"bu\""]
+	naginata_node_B_F -> naginata_node_B_F_B_SCLN [constraint=true]
+	naginata_node_B_F_B_N [label="B_N
+\"da\""]
+	naginata_node_B_F -> naginata_node_B_F_B_N [constraint=true]
+	naginata_node_B_F_B_N_B_L [label="B_L
+\"vo\""]
+	naginata_node_B_F_B_N -> naginata_node_B_F_B_N_B_L [constraint=true]
+	naginata_node_B_F_B_N_B_H [label="B_H
+\"kuxo\""]
+	naginata_node_B_F_B_N -> naginata_node_B_F_B_N_B_H [constraint=true]
+	naginata_node_B_F_B_K [label="B_K
+None"]
+	naginata_node_B_F -> naginata_node_B_F_B_K [constraint=true]
+	naginata_node_B_F_B_K_B_L [label="B_L
+\"vi\""]
+	naginata_node_B_F_B_K -> naginata_node_B_F_B_K_B_L [constraint=true]
+	naginata_node_B_F_B_K_B_H [label="B_H
+\"kuxi\""]
+	naginata_node_B_F_B_K -> naginata_node_B_F_B_K_B_H [constraint=true]
+	naginata_node_B_F_B_D [label="B_D
+None"]
+	naginata_node_B_F -> naginata_node_B_F_B_D [constraint=true]
+	naginata_node_B_F_B_D_B_Y [label="B_Y
+\"!\""]
+	naginata_node_B_F_B_D -> naginata_node_B_F_B_D_B_Y [constraint=true]
+	naginata_node_B_F_B_D_B_U [label="B_U
+\"@\""]
+	naginata_node_B_F_B_D -> naginata_node_B_F_B_D_B_U [constraint=true]
+	naginata_node_B_F_B_D_B_I [label="B_I
+\"~\""]
+	naginata_node_B_F_B_D -> naginata_node_B_F_B_D_B_I [constraint=true]
+	naginata_node_B_F_B_D_B_O [label="B_O
+\"%\""]
+	naginata_node_B_F_B_D -> naginata_node_B_F_B_D_B_O [constraint=true]
+	naginata_node_B_F_B_D_B_P [label="B_P
+\"$\""]
+	naginata_node_B_F_B_D -> naginata_node_B_F_B_D_B_P [constraint=true]
+	naginata_node_B_F_B_D_B_H [label="B_H
+\"_\""]
+	naginata_node_B_F_B_D -> naginata_node_B_F_B_D_B_H [constraint=true]
+	naginata_node_B_F_B_G [label="B_G
+\"dvo\""]
+	naginata_node_B_F -> naginata_node_B_F_B_G [constraint=true]
+	naginata_node_B_G [label="B_G
+\"xtu\""]
+	naginata_node_root -> naginata_node_B_G [constraint=true]
+	naginata_node_B_G_B_LS2 [label="B_LS2
+\"ti\""]
+	naginata_node_B_G -> naginata_node_B_G_B_LS2 [constraint=true]
+	naginata_node_B_G_B_RS2 [label="B_RS2
+\"ti\""]
+	naginata_node_B_G -> naginata_node_B_G_B_RS2 [constraint=true]
+	naginata_node_B_G_B_J [label="B_J
+\"di\""]
+	naginata_node_B_G -> naginata_node_B_G_B_J [constraint=true]
+	naginata_node_B_G_B_J_B_I [label="B_I
+\"dyo\""]
+	naginata_node_B_G_B_J -> naginata_node_B_G_B_J_B_I [constraint=true]
+	naginata_node_B_G_B_J_B_P [label="B_P
+\"dyu\""]
+	naginata_node_B_G_B_J -> naginata_node_B_G_B_J_B_P [constraint=true]
+	naginata_node_B_G_B_J_B_H [label="B_H
+\"dya\""]
+	naginata_node_B_G_B_J -> naginata_node_B_G_B_J_B_H [constraint=true]
+	naginata_node_B_G_B_J_B_O [label="B_O
+\"dye\""]
+	naginata_node_B_G_B_J -> naginata_node_B_G_B_J_B_O [constraint=true]
+	naginata_node_B_G_B_I [label="B_I
+\"tyo\""]
+	naginata_node_B_G -> naginata_node_B_G_B_I [constraint=true]
+	naginata_node_B_G_B_I_B_J [label="B_J
+\"dyo\""]
+	naginata_node_B_G_B_I -> naginata_node_B_G_B_I_B_J [constraint=true]
+	naginata_node_B_G_B_P [label="B_P
+\"tyu\""]
+	naginata_node_B_G -> naginata_node_B_G_B_P [constraint=true]
+	naginata_node_B_G_B_P_B_J [label="B_J
+\"dyu\""]
+	naginata_node_B_G_B_P -> naginata_node_B_G_B_P_B_J [constraint=true]
+	naginata_node_B_G_B_H [label="B_H
+\"tya\""]
+	naginata_node_B_G -> naginata_node_B_G_B_H [constraint=true]
+	naginata_node_B_G_B_H_B_J [label="B_J
+\"dya\""]
+	naginata_node_B_G_B_H -> naginata_node_B_G_B_H_B_J [constraint=true]
+	naginata_node_B_G_B_O [label="B_O
+None"]
+	naginata_node_B_G -> naginata_node_B_G_B_O [constraint=true]
+	naginata_node_B_G_B_O_B_M [label="B_M
+\"tye\""]
+	naginata_node_B_G_B_O -> naginata_node_B_G_B_O_B_M [constraint=true]
+	naginata_node_B_G_B_O_B_J [label="B_J
+\"dye\""]
+	naginata_node_B_G_B_O -> naginata_node_B_G_B_O_B_J [constraint=true]
+	naginata_node_B_G_B_M [label="B_M
+None"]
+	naginata_node_B_G -> naginata_node_B_G_B_M [constraint=true]
+	naginata_node_B_G_B_M_B_O [label="B_O
+\"tye\""]
+	naginata_node_B_G_B_M -> naginata_node_B_G_B_M_B_O [constraint=true]
+	naginata_node_B_G_B_F [label="B_F
+\"dvo\""]
+	naginata_node_B_G -> naginata_node_B_G_B_F [constraint=true]
+	naginata_node_B_H [label="B_H
+\"ku\""]
+	naginata_node_root -> naginata_node_B_H [constraint=true]
+	naginata_node_B_H_B_LS2 [label="B_LS2
+\"ya\""]
+	naginata_node_B_H -> naginata_node_B_H_B_LS2 [constraint=true]
+	naginata_node_B_H_B_RS2 [label="B_RS2
+\"ya\""]
+	naginata_node_B_H -> naginata_node_B_H_B_RS2 [constraint=true]
+	naginata_node_B_H_B_F [label="B_F
+\"gu\""]
+	naginata_node_B_H -> naginata_node_B_H_B_F [constraint=true]
+	naginata_node_B_H_B_F_B_O [label="B_O
+\"kuxe\""]
+	naginata_node_B_H_B_F -> naginata_node_B_H_B_F_B_O [constraint=true]
+	naginata_node_B_H_B_F_B_J [label="B_J
+\"kuxa\""]
+	naginata_node_B_H_B_F -> naginata_node_B_H_B_F_B_J [constraint=true]
+	naginata_node_B_H_B_F_B_K [label="B_K
+\"kuxi\""]
+	naginata_node_B_H_B_F -> naginata_node_B_H_B_F_B_K [constraint=true]
+	naginata_node_B_H_B_F_B_N [label="B_N
+\"kuxo\""]
+	naginata_node_B_H_B_F -> naginata_node_B_H_B_F_B_N [constraint=true]
+	naginata_node_B_H_B_R [label="B_R
+\"sya\""]
+	naginata_node_B_H -> naginata_node_B_H_B_R [constraint=true]
+	naginata_node_B_H_B_R_B_J [label="B_J
+\"zya\""]
+	naginata_node_B_H_B_R -> naginata_node_B_H_B_R_B_J [constraint=true]
+	naginata_node_B_H_B_J [label="B_J
+None"]
+	naginata_node_B_H -> naginata_node_B_H_B_J [constraint=true]
+	naginata_node_B_H_B_J_B_R [label="B_R
+\"zya\""]
+	naginata_node_B_H_B_J -> naginata_node_B_H_B_J_B_R [constraint=true]
+	naginata_node_B_H_B_J_B_W [label="B_W
+\"gya\""]
+	naginata_node_B_H_B_J -> naginata_node_B_H_B_J_B_W [constraint=true]
+	naginata_node_B_H_B_J_B_G [label="B_G
+\"dya\""]
+	naginata_node_B_H_B_J -> naginata_node_B_H_B_J_B_G [constraint=true]
+	naginata_node_B_H_B_J_B_X [label="B_X
+\"bya\""]
+	naginata_node_B_H_B_J -> naginata_node_B_H_B_J_B_X [constraint=true]
+	naginata_node_B_H_B_J_B_F [label="B_F
+\"kuxa\""]
+	naginata_node_B_H_B_J -> naginata_node_B_H_B_J_B_F [constraint=true]
+	naginata_node_B_H_B_J_B_V [label="B_V
+\"guxa\""]
+	naginata_node_B_H_B_J -> naginata_node_B_H_B_J_B_V [constraint=true]
+	naginata_node_B_H_B_W [label="B_W
+\"kya\""]
+	naginata_node_B_H -> naginata_node_B_H_B_W [constraint=true]
+	naginata_node_B_H_B_W_B_J [label="B_J
+\"gya\""]
+	naginata_node_B_H_B_W -> naginata_node_B_H_B_W_B_J [constraint=true]
+	naginata_node_B_H_B_G [label="B_G
+\"tya\""]
+	naginata_node_B_H -> naginata_node_B_H_B_G [constraint=true]
+	naginata_node_B_H_B_G_B_J [label="B_J
+\"dya\""]
+	naginata_node_B_H_B_G -> naginata_node_B_H_B_G_B_J [constraint=true]
+	naginata_node_B_H_B_D [label="B_D
+\"nya\""]
+	naginata_node_B_H -> naginata_node_B_H_B_D [constraint=true]
+	naginata_node_B_H_B_X [label="B_X
+\"hya\""]
+	naginata_node_B_H -> naginata_node_B_H_B_X [constraint=true]
+	naginata_node_B_H_B_X_B_J [label="B_J
+\"bya\""]
+	naginata_node_B_H_B_X -> naginata_node_B_H_B_X_B_J [constraint=true]
+	naginata_node_B_H_B_X_B_M [label="B_M
+\"pya\""]
+	naginata_node_B_H_B_X -> naginata_node_B_H_B_X_B_M [constraint=true]
+	naginata_node_B_H_B_M [label="B_M
+None"]
+	naginata_node_B_H -> naginata_node_B_H_B_M [constraint=true]
+	naginata_node_B_H_B_M_B_X [label="B_X
+\"pya\""]
+	naginata_node_B_H_B_M -> naginata_node_B_H_B_M_B_X [constraint=true]
+	naginata_node_B_H_B_B [label="B_B
+\"mya\""]
+	naginata_node_B_H -> naginata_node_B_H_B_B [constraint=true]
+	naginata_node_B_H_B_E [label="B_E
+\"rya\""]
+	naginata_node_B_H -> naginata_node_B_H_B_E [constraint=true]
+	naginata_node_B_H_B_O [label="B_O
+None"]
+	naginata_node_B_H -> naginata_node_B_H_B_O [constraint=true]
+	naginata_node_B_H_B_O_B_F [label="B_F
+\"kuxe\""]
+	naginata_node_B_H_B_O -> naginata_node_B_H_B_O_B_F [constraint=true]
+	naginata_node_B_H_B_O_B_V [label="B_V
+\"guxe\""]
+	naginata_node_B_H_B_O -> naginata_node_B_H_B_O_B_V [constraint=true]
+	naginata_node_B_H_B_K [label="B_K
+None"]
+	naginata_node_B_H -> naginata_node_B_H_B_K [constraint=true]
+	naginata_node_B_H_B_K_B_F [label="B_F
+\"kuxi\""]
+	naginata_node_B_H_B_K -> naginata_node_B_H_B_K_B_F [constraint=true]
+	naginata_node_B_H_B_K_B_V [label="B_V
+\"guxi\""]
+	naginata_node_B_H_B_K -> naginata_node_B_H_B_K_B_V [constraint=true]
+	naginata_node_B_H_B_N [label="B_N
+None"]
+	naginata_node_B_H -> naginata_node_B_H_B_N [constraint=true]
+	naginata_node_B_H_B_N_B_F [label="B_F
+\"kuxo\""]
+	naginata_node_B_H_B_N -> naginata_node_B_H_B_N_B_F [constraint=true]
+	naginata_node_B_H_B_N_B_V [label="B_V
+\"guxo\""]
+	naginata_node_B_H_B_N -> naginata_node_B_H_B_N_B_V [constraint=true]
+	naginata_node_B_H_B_V [label="B_V
+None"]
+	naginata_node_B_H -> naginata_node_B_H_B_V [constraint=true]
+	naginata_node_B_H_B_V_B_O [label="B_O
+\"guxe\""]
+	naginata_node_B_H_B_V -> naginata_node_B_H_B_V_B_O [constraint=true]
+	naginata_node_B_H_B_V_B_J [label="B_J
+\"guxa\""]
+	naginata_node_B_H_B_V -> naginata_node_B_H_B_V_B_J [constraint=true]
+	naginata_node_B_H_B_V_B_K [label="B_K
+\"guxi\""]
+	naginata_node_B_H_B_V -> naginata_node_B_H_B_V_B_K [constraint=true]
+	naginata_node_B_H_B_V_B_N [label="B_N
+\"guxo\""]
+	naginata_node_B_H_B_V -> naginata_node_B_H_B_V_B_N [constraint=true]
+	naginata_node_B_J [label="B_J
+\"a\""]
+	naginata_node_root -> naginata_node_B_J [constraint=true]
+	naginata_node_B_J_B_LS2 [label="B_LS2
+\"no\""]
+	naginata_node_B_J -> naginata_node_B_J_B_LS2 [constraint=true]
+	naginata_node_B_J_B_RS2 [label="B_RS2
+\"no\""]
+	naginata_node_B_J -> naginata_node_B_J_B_RS2 [constraint=true]
+	naginata_node_B_J_B_W [label="B_W
+\"gi\""]
+	naginata_node_B_J -> naginata_node_B_J_B_W [constraint=true]
+	naginata_node_B_J_B_W_B_I [label="B_I
+\"gyo\""]
+	naginata_node_B_J_B_W -> naginata_node_B_J_B_W_B_I [constraint=true]
+	naginata_node_B_J_B_W_B_P [label="B_P
+\"gyu\""]
+	naginata_node_B_J_B_W -> naginata_node_B_J_B_W_B_P [constraint=true]
+	naginata_node_B_J_B_W_B_H [label="B_H
+\"gya\""]
+	naginata_node_B_J_B_W -> naginata_node_B_J_B_W_B_H [constraint=true]
+	naginata_node_B_J_B_E [label="B_E
+\"de\""]
+	naginata_node_B_J -> naginata_node_B_J_B_E [constraint=true]
+	naginata_node_B_J_B_E_B_P [label="B_P
+\"dhu\""]
+	naginata_node_B_J_B_E -> naginata_node_B_J_B_E_B_P [constraint=true]
+	naginata_node_B_J_B_E_B_K [label="B_K
+\"dhi\""]
+	naginata_node_B_J_B_E -> naginata_node_B_J_B_E_B_K [constraint=true]
+	naginata_node_B_J_B_R [label="B_R
+\"zi\""]
+	naginata_node_B_J -> naginata_node_B_J_B_R [constraint=true]
+	naginata_node_B_J_B_R_B_I [label="B_I
+\"zyo\""]
+	naginata_node_B_J_B_R -> naginata_node_B_J_B_R_B_I [constraint=true]
+	naginata_node_B_J_B_R_B_P [label="B_P
+\"zyu\""]
+	naginata_node_B_J_B_R -> naginata_node_B_J_B_R_B_P [constraint=true]
+	naginata_node_B_J_B_R_B_H [label="B_H
+\"zya\""]
+	naginata_node_B_J_B_R -> naginata_node_B_J_B_R_B_H [constraint=true]
+	naginata_node_B_J_B_R_B_O [label="B_O
+\"zye\""]
+	naginata_node_B_J_B_R -> naginata_node_B_J_B_R_B_O [constraint=true]
+	naginata_node_B_J_B_A [label="B_A
+\"ze\""]
+	naginata_node_B_J -> naginata_node_B_J_B_A [constraint=true]
+	naginata_node_B_J_B_S [label="B_S
+\"ge\""]
+	naginata_node_B_J -> naginata_node_B_J_B_S [constraint=true]
+	naginata_node_B_J_B_D [label="B_D
+\"do\""]
+	naginata_node_B_J -> naginata_node_B_J_B_D [constraint=true]
+	naginata_node_B_J_B_D_B_L [label="B_L
+\"doxu\""]
+	naginata_node_B_J_B_D -> naginata_node_B_J_B_D_B_L [constraint=true]
+	naginata_node_B_J_B_F [label="B_F
+\"ga\""]
+	naginata_node_B_J -> naginata_node_B_J_B_F [constraint=true]
+	naginata_node_B_J_B_F_B_L [label="B_L
+\"va\""]
+	naginata_node_B_J_B_F -> naginata_node_B_J_B_F_B_L [constraint=true]
+	naginata_node_B_J_B_F_B_H [label="B_H
+\"kuxa\""]
+	naginata_node_B_J_B_F -> naginata_node_B_J_B_F_B_H [constraint=true]
+	naginata_node_B_J_B_G [label="B_G
+\"di\""]
+	naginata_node_B_J -> naginata_node_B_J_B_G [constraint=true]
+	naginata_node_B_J_B_G_B_I [label="B_I
+\"dyo\""]
+	naginata_node_B_J_B_G -> naginata_node_B_J_B_G_B_I [constraint=true]
+	naginata_node_B_J_B_G_B_P [label="B_P
+\"dyu\""]
+	naginata_node_B_J_B_G -> naginata_node_B_J_B_G_B_P [constraint=true]
+	naginata_node_B_J_B_G_B_H [label="B_H
+\"dya\""]
+	naginata_node_B_J_B_G -> naginata_node_B_J_B_G_B_H [constraint=true]
+	naginata_node_B_J_B_G_B_O [label="B_O
+\"dye\""]
+	naginata_node_B_J_B_G -> naginata_node_B_J_B_G_B_O [constraint=true]
+	naginata_node_B_J_B_Z [label="B_Z
+\"bo\""]
+	naginata_node_B_J -> naginata_node_B_J_B_Z [constraint=true]
+	naginata_node_B_J_B_X [label="B_X
+\"bi\""]
+	naginata_node_B_J -> naginata_node_B_J_B_X [constraint=true]
+	naginata_node_B_J_B_X_B_I [label="B_I
+\"byo\""]
+	naginata_node_B_J_B_X -> naginata_node_B_J_B_X_B_I [constraint=true]
+	naginata_node_B_J_B_X_B_P [label="B_P
+\"byu\""]
+	naginata_node_B_J_B_X -> naginata_node_B_J_B_X_B_P [constraint=true]
+	naginata_node_B_J_B_X_B_H [label="B_H
+\"bya\""]
+	naginata_node_B_J_B_X -> naginata_node_B_J_B_X_B_H [constraint=true]
+	naginata_node_B_J_B_C [label="B_C
+\"ba\""]
+	naginata_node_B_J -> naginata_node_B_J_B_C [constraint=true]
+	naginata_node_B_J_B_V [label="B_V
+\"go\""]
+	naginata_node_B_J -> naginata_node_B_J_B_V [constraint=true]
+	naginata_node_B_J_B_V_B_SCLN [label="B_SCLN
+\"fa\""]
+	naginata_node_B_J_B_V -> naginata_node_B_J_B_V_B_SCLN [constraint=true]
+	naginata_node_B_J_B_V_B_H [label="B_H
+\"guxa\""]
+	naginata_node_B_J_B_V -> naginata_node_B_J_B_V_B_H [constraint=true]
+	naginata_node_B_J_B_V_B_L [label="B_L
+\"tsa\""]
+	naginata_node_B_J_B_V -> naginata_node_B_J_B_V_B_L [constraint=true]
+	naginata_node_B_J_B_B [label="B_B
+\"zo\""]
+	naginata_node_B_J -> naginata_node_B_J_B_B [constraint=true]
+	naginata_node_B_J_B_I [label="B_I
+None"]
+	naginata_node_B_J -> naginata_node_B_J_B_I [constraint=true]
+	naginata_node_B_J_B_I_B_R [label="B_R
+\"zyo\""]
+	naginata_node_B_J_B_I -> naginata_node_B_J_B_I_B_R [constraint=true]
+	naginata_node_B_J_B_I_B_W [label="B_W
+\"gyo\""]
+	naginata_node_B_J_B_I -> naginata_node_B_J_B_I_B_W [constraint=true]
+	naginata_node_B_J_B_I_B_G [label="B_G
+\"dyo\""]
+	naginata_node_B_J_B_I -> naginata_node_B_J_B_I_B_G [constraint=true]
+	naginata_node_B_J_B_I_B_X [label="B_X
+\"byo\""]
+	naginata_node_B_J_B_I -> naginata_node_B_J_B_I_B_X [constraint=true]
+	naginata_node_B_J_B_P [label="B_P
+None"]
+	naginata_node_B_J -> naginata_node_B_J_B_P [constraint=true]
+	naginata_node_B_J_B_P_B_R [label="B_R
+\"zyu\""]
+	naginata_node_B_J_B_P -> naginata_node_B_J_B_P_B_R [constraint=true]
+	naginata_node_B_J_B_P_B_W [label="B_W
+\"gyu\""]
+	naginata_node_B_J_B_P -> naginata_node_B_J_B_P_B_W [constraint=true]
+	naginata_node_B_J_B_P_B_G [label="B_G
+\"dyu\""]
+	naginata_node_B_J_B_P -> naginata_node_B_J_B_P_B_G [constraint=true]
+	naginata_node_B_J_B_P_B_X [label="B_X
+\"byu\""]
+	naginata_node_B_J_B_P -> naginata_node_B_J_B_P_B_X [constraint=true]
+	naginata_node_B_J_B_P_B_E [label="B_E
+\"dhu\""]
+	naginata_node_B_J_B_P -> naginata_node_B_J_B_P_B_E [constraint=true]
+	naginata_node_B_J_B_H [label="B_H
+None"]
+	naginata_node_B_J -> naginata_node_B_J_B_H [constraint=true]
+	naginata_node_B_J_B_H_B_R [label="B_R
+\"zya\""]
+	naginata_node_B_J_B_H -> naginata_node_B_J_B_H_B_R [constraint=true]
+	naginata_node_B_J_B_H_B_W [label="B_W
+\"gya\""]
+	naginata_node_B_J_B_H -> naginata_node_B_J_B_H_B_W [constraint=true]
+	naginata_node_B_J_B_H_B_G [label="B_G
+\"dya\""]
+	naginata_node_B_J_B_H -> naginata_node_B_J_B_H_B_G [constraint=true]
+	naginata_node_B_J_B_H_B_X [label="B_X
+\"bya\""]
+	naginata_node_B_J_B_H -> naginata_node_B_J_B_H_B_X [constraint=true]
+	naginata_node_B_J_B_H_B_F [label="B_F
+\"kuxa\""]
+	naginata_node_B_J_B_H -> naginata_node_B_J_B_H_B_F [constraint=true]
+	naginata_node_B_J_B_H_B_V [label="B_V
+\"guxa\""]
+	naginata_node_B_J_B_H -> naginata_node_B_J_B_H_B_V [constraint=true]
+	naginata_node_B_J_B_K [label="B_K
+None"]
+	naginata_node_B_J -> naginata_node_B_J_B_K [constraint=true]
+	naginata_node_B_J_B_K_B_E [label="B_E
+\"dhi\""]
+	naginata_node_B_J_B_K -> naginata_node_B_J_B_K_B_E [constraint=true]
+	naginata_node_B_J_B_K_B_Q [label="B_Q
+\"`\""]
+	naginata_node_B_J_B_K -> naginata_node_B_J_B_K_B_Q [constraint=true]
+	naginata_node_B_J_B_K_B_W [label="B_W
+\"/\""]
+	naginata_node_B_J_B_K -> naginata_node_B_J_B_K_B_W [constraint=true]
+	naginata_node_B_J_B_K_B_R [label="B_R
+\"&\""]
+	naginata_node_B_J_B_K -> naginata_node_B_J_B_K_B_R [constraint=true]
+	naginata_node_B_J_B_K_B_T [label="B_T
+\"?\""]
+	naginata_node_B_J_B_K -> naginata_node_B_J_B_K_B_T [constraint=true]
+	naginata_node_B_J_B_K_B_G [label="B_G
+\"\\\""]
+	naginata_node_B_J_B_K -> naginata_node_B_J_B_K_B_G [constraint=true]
+	naginata_node_B_J_B_L [label="B_L
+None"]
+	naginata_node_B_J -> naginata_node_B_J_B_L [constraint=true]
+	naginata_node_B_J_B_L_B_D [label="B_D
+\"doxu\""]
+	naginata_node_B_J_B_L -> naginata_node_B_J_B_L_B_D [constraint=true]
+	naginata_node_B_J_B_L_B_F [label="B_F
+\"va\""]
+	naginata_node_B_J_B_L -> naginata_node_B_J_B_L_B_F [constraint=true]
+	naginata_node_B_J_B_L_B_V [label="B_V
+\"tsa\""]
+	naginata_node_B_J_B_L -> naginata_node_B_J_B_L_B_V [constraint=true]
+	naginata_node_B_J_B_O [label="B_O
+None"]
+	naginata_node_B_J -> naginata_node_B_J_B_O [constraint=true]
+	naginata_node_B_J_B_O_B_R [label="B_R
+\"zye\""]
+	naginata_node_B_J_B_O -> naginata_node_B_J_B_O_B_R [constraint=true]
+	naginata_node_B_J_B_O_B_G [label="B_G
+\"dye\""]
+	naginata_node_B_J_B_O -> naginata_node_B_J_B_O_B_G [constraint=true]
+	naginata_node_B_J_B_SCLN [label="B_SCLN
+None"]
+	naginata_node_B_J -> naginata_node_B_J_B_SCLN [constraint=true]
+	naginata_node_B_J_B_SCLN_B_V [label="B_V
+\"fa\""]
+	naginata_node_B_J_B_SCLN -> naginata_node_B_J_B_SCLN_B_V [constraint=true]
+	naginata_node_B_K [label="B_K
+\"i\""]
+	naginata_node_root -> naginata_node_B_K [constraint=true]
+	naginata_node_B_K_B_LS2 [label="B_LS2
+\"mo\""]
+	naginata_node_B_K -> naginata_node_B_K_B_LS2 [constraint=true]
+	naginata_node_B_K_B_RS2 [label="B_RS2
+\"mo\""]
+	naginata_node_B_K -> naginata_node_B_K_B_RS2 [constraint=true]
+	naginata_node_B_K_B_E [label="B_E
+None"]
+	naginata_node_B_K -> naginata_node_B_K_B_E [constraint=true]
+	naginata_node_B_K_B_E_B_M [label="B_M
+\"thi\""]
+	naginata_node_B_K_B_E -> naginata_node_B_K_B_E_B_M [constraint=true]
+	naginata_node_B_K_B_E_B_J [label="B_J
+\"dhi\""]
+	naginata_node_B_K_B_E -> naginata_node_B_K_B_E_B_J [constraint=true]
+	naginata_node_B_K_B_M [label="B_M
+None"]
+	naginata_node_B_K -> naginata_node_B_K_B_M [constraint=true]
+	naginata_node_B_K_B_M_B_E [label="B_E
+\"thi\""]
+	naginata_node_B_K_B_M -> naginata_node_B_K_B_M_B_E [constraint=true]
+	naginata_node_B_K_B_J [label="B_J
+None"]
+	naginata_node_B_K -> naginata_node_B_K_B_J [constraint=true]
+	naginata_node_B_K_B_J_B_E [label="B_E
+\"dhi\""]
+	naginata_node_B_K_B_J -> naginata_node_B_K_B_J_B_E [constraint=true]
+	naginata_node_B_K_B_J_B_Q [label="B_Q
+\"`\""]
+	naginata_node_B_K_B_J -> naginata_node_B_K_B_J_B_Q [constraint=true]
+	naginata_node_B_K_B_J_B_W [label="B_W
+\"/\""]
+	naginata_node_B_K_B_J -> naginata_node_B_K_B_J_B_W [constraint=true]
+	naginata_node_B_K_B_J_B_R [label="B_R
+\"&\""]
+	naginata_node_B_K_B_J -> naginata_node_B_K_B_J_B_R [constraint=true]
+	naginata_node_B_K_B_J_B_T [label="B_T
+\"?\""]
+	naginata_node_B_K_B_J -> naginata_node_B_K_B_J_B_T [constraint=true]
+	naginata_node_B_K_B_J_B_G [label="B_G
+\"\\\""]
+	naginata_node_B_K_B_J -> naginata_node_B_K_B_J_B_G [constraint=true]
+	naginata_node_B_K_B_SCLN [label="B_SCLN
+None"]
+	naginata_node_B_K -> naginata_node_B_K_B_SCLN [constraint=true]
+	naginata_node_B_K_B_SCLN_B_V [label="B_V
+\"fi\""]
+	naginata_node_B_K_B_SCLN -> naginata_node_B_K_B_SCLN_B_V [constraint=true]
+	naginata_node_B_K_B_V [label="B_V
+None"]
+	naginata_node_B_K -> naginata_node_B_K_B_V [constraint=true]
+	naginata_node_B_K_B_V_B_SCLN [label="B_SCLN
+\"fi\""]
+	naginata_node_B_K_B_V -> naginata_node_B_K_B_V_B_SCLN [constraint=true]
+	naginata_node_B_K_B_V_B_O [label="B_O
+\"ixe\""]
+	naginata_node_B_K_B_V -> naginata_node_B_K_B_V_B_O [constraint=true]
+	naginata_node_B_K_B_V_B_L [label="B_L
+\"wi\""]
+	naginata_node_B_K_B_V -> naginata_node_B_K_B_V_B_L [constraint=true]
+	naginata_node_B_K_B_V_B_H [label="B_H
+\"guxi\""]
+	naginata_node_B_K_B_V -> naginata_node_B_K_B_V_B_H [constraint=true]
+	naginata_node_B_K_B_O [label="B_O
+None"]
+	naginata_node_B_K -> naginata_node_B_K_B_O [constraint=true]
+	naginata_node_B_K_B_O_B_V [label="B_V
+\"ixe\""]
+	naginata_node_B_K_B_O -> naginata_node_B_K_B_O_B_V [constraint=true]
+	naginata_node_B_K_B_L [label="B_L
+None"]
+	naginata_node_B_K -> naginata_node_B_K_B_L [constraint=true]
+	naginata_node_B_K_B_L_B_V [label="B_V
+\"wi\""]
+	naginata_node_B_K_B_L -> naginata_node_B_K_B_L_B_V [constraint=true]
+	naginata_node_B_K_B_L_B_F [label="B_F
+\"vi\""]
+	naginata_node_B_K_B_L -> naginata_node_B_K_B_L_B_F [constraint=true]
+	naginata_node_B_K_B_F [label="B_F
+None"]
+	naginata_node_B_K -> naginata_node_B_K_B_F [constraint=true]
+	naginata_node_B_K_B_F_B_L [label="B_L
+\"vi\""]
+	naginata_node_B_K_B_F -> naginata_node_B_K_B_F_B_L [constraint=true]
+	naginata_node_B_K_B_F_B_H [label="B_H
+\"kuxi\""]
+	naginata_node_B_K_B_F -> naginata_node_B_K_B_F_B_H [constraint=true]
+	naginata_node_B_K_B_H [label="B_H
+None"]
+	naginata_node_B_K -> naginata_node_B_K_B_H [constraint=true]
+	naginata_node_B_K_B_H_B_F [label="B_F
+\"kuxi\""]
+	naginata_node_B_K_B_H -> naginata_node_B_K_B_H_B_F [constraint=true]
+	naginata_node_B_K_B_H_B_V [label="B_V
+\"guxi\""]
+	naginata_node_B_K_B_H -> naginata_node_B_K_B_H_B_V [constraint=true]
+	naginata_node_B_L [label="B_L
+\"u\""]
+	naginata_node_root -> naginata_node_B_L [constraint=true]
+	naginata_node_B_L_B_LS2 [label="B_LS2
+\"tu\""]
+	naginata_node_B_L -> naginata_node_B_L_B_LS2 [constraint=true]
+	naginata_node_B_L_B_RS2 [label="B_RS2
+\"tu\""]
+	naginata_node_B_L -> naginata_node_B_L_B_RS2 [constraint=true]
+	naginata_node_B_L_B_F [label="B_F
+\"du\""]
+	naginata_node_B_L -> naginata_node_B_L_B_F [constraint=true]
+	naginata_node_B_L_B_F_B_O [label="B_O
+\"ve\""]
+	naginata_node_B_L_B_F -> naginata_node_B_L_B_F_B_O [constraint=true]
+	naginata_node_B_L_B_F_B_P [label="B_P
+\"vuxyu\""]
+	naginata_node_B_L_B_F -> naginata_node_B_L_B_F_B_P [constraint=true]
+	naginata_node_B_L_B_F_B_J [label="B_J
+\"va\""]
+	naginata_node_B_L_B_F -> naginata_node_B_L_B_F_B_J [constraint=true]
+	naginata_node_B_L_B_F_B_K [label="B_K
+\"vi\""]
+	naginata_node_B_L_B_F -> naginata_node_B_L_B_F_B_K [constraint=true]
+	naginata_node_B_L_B_F_B_N [label="B_N
+\"vo\""]
+	naginata_node_B_L_B_F -> naginata_node_B_L_B_F_B_N [constraint=true]
+	naginata_node_B_L_B_M [label="B_M
+None"]
+	naginata_node_B_L -> naginata_node_B_L_B_M [constraint=true]
+	naginata_node_B_L_B_M_B_D [label="B_D
+\"toxu\""]
+	naginata_node_B_L_B_M -> naginata_node_B_L_B_M_B_D [constraint=true]
+	naginata_node_B_L_B_D [label="B_D
+None"]
+	naginata_node_B_L -> naginata_node_B_L_B_D [constraint=true]
+	naginata_node_B_L_B_D_B_M [label="B_M
+\"toxu\""]
+	naginata_node_B_L_B_D -> naginata_node_B_L_B_D_B_M [constraint=true]
+	naginata_node_B_L_B_D_B_J [label="B_J
+\"doxu\""]
+	naginata_node_B_L_B_D -> naginata_node_B_L_B_D_B_J [constraint=true]
+	naginata_node_B_L_B_J [label="B_J
+None"]
+	naginata_node_B_L -> naginata_node_B_L_B_J [constraint=true]
+	naginata_node_B_L_B_J_B_D [label="B_D
+\"doxu\""]
+	naginata_node_B_L_B_J -> naginata_node_B_L_B_J_B_D [constraint=true]
+	naginata_node_B_L_B_J_B_F [label="B_F
+\"va\""]
+	naginata_node_B_L_B_J -> naginata_node_B_L_B_J_B_F [constraint=true]
+	naginata_node_B_L_B_J_B_V [label="B_V
+\"tsa\""]
+	naginata_node_B_L_B_J -> naginata_node_B_L_B_J_B_V [constraint=true]
+	naginata_node_B_L_B_SCLN [label="B_SCLN
+None"]
+	naginata_node_B_L -> naginata_node_B_L_B_SCLN [constraint=true]
+	naginata_node_B_L_B_SCLN_B_V [label="B_V
+\"fe\""]
+	naginata_node_B_L_B_SCLN -> naginata_node_B_L_B_SCLN_B_V [constraint=true]
+	naginata_node_B_L_B_V [label="B_V
+None"]
+	naginata_node_B_L -> naginata_node_B_L_B_V [constraint=true]
+	naginata_node_B_L_B_V_B_SCLN [label="B_SCLN
+\"fe\""]
+	naginata_node_B_L_B_V -> naginata_node_B_L_B_V_B_SCLN [constraint=true]
+	naginata_node_B_L_B_V_B_O [label="B_O
+\"we\""]
+	naginata_node_B_L_B_V -> naginata_node_B_L_B_V_B_O [constraint=true]
+	naginata_node_B_L_B_V_B_K [label="B_K
+\"wi\""]
+	naginata_node_B_L_B_V -> naginata_node_B_L_B_V_B_K [constraint=true]
+	naginata_node_B_L_B_V_B_N [label="B_N
+\"uxo\""]
+	naginata_node_B_L_B_V -> naginata_node_B_L_B_V_B_N [constraint=true]
+	naginata_node_B_L_B_V_B_J [label="B_J
+\"tsa\""]
+	naginata_node_B_L_B_V -> naginata_node_B_L_B_V_B_J [constraint=true]
+	naginata_node_B_L_B_O [label="B_O
+None"]
+	naginata_node_B_L -> naginata_node_B_L_B_O [constraint=true]
+	naginata_node_B_L_B_O_B_V [label="B_V
+\"we\""]
+	naginata_node_B_L_B_O -> naginata_node_B_L_B_O_B_V [constraint=true]
+	naginata_node_B_L_B_O_B_F [label="B_F
+\"ve\""]
+	naginata_node_B_L_B_O -> naginata_node_B_L_B_O_B_F [constraint=true]
+	naginata_node_B_L_B_K [label="B_K
+None"]
+	naginata_node_B_L -> naginata_node_B_L_B_K [constraint=true]
+	naginata_node_B_L_B_K_B_V [label="B_V
+\"wi\""]
+	naginata_node_B_L_B_K -> naginata_node_B_L_B_K_B_V [constraint=true]
+	naginata_node_B_L_B_K_B_F [label="B_F
+\"vi\""]
+	naginata_node_B_L_B_K -> naginata_node_B_L_B_K_B_F [constraint=true]
+	naginata_node_B_L_B_N [label="B_N
+None"]
+	naginata_node_B_L -> naginata_node_B_L_B_N [constraint=true]
+	naginata_node_B_L_B_N_B_V [label="B_V
+\"uxo\""]
+	naginata_node_B_L_B_N -> naginata_node_B_L_B_N_B_V [constraint=true]
+	naginata_node_B_L_B_N_B_F [label="B_F
+\"vo\""]
+	naginata_node_B_L_B_N -> naginata_node_B_L_B_N_B_F [constraint=true]
+	naginata_node_B_L_B_P [label="B_P
+None"]
+	naginata_node_B_L -> naginata_node_B_L_B_P [constraint=true]
+	naginata_node_B_L_B_P_B_F [label="B_F
+\"vuxyu\""]
+	naginata_node_B_L_B_P -> naginata_node_B_L_B_P_B_F [constraint=true]
+	naginata_node_B_SCLN [label="B_SCLN
+\"-\""]
+	naginata_node_root -> naginata_node_B_SCLN [constraint=true]
+	naginata_node_B_SCLN_B_LS2 [label="B_LS2
+\"fu\""]
+	naginata_node_B_SCLN -> naginata_node_B_SCLN_B_LS2 [constraint=true]
+	naginata_node_B_SCLN_B_RS2 [label="B_RS2
+\"fu\""]
+	naginata_node_B_SCLN -> naginata_node_B_SCLN_B_RS2 [constraint=true]
+	naginata_node_B_SCLN_B_F [label="B_F
+\"bu\""]
+	naginata_node_B_SCLN -> naginata_node_B_SCLN_B_F [constraint=true]
+	naginata_node_B_SCLN_B_V [label="B_V
+\"pu\""]
+	naginata_node_B_SCLN -> naginata_node_B_SCLN_B_V [constraint=true]
+	naginata_node_B_SCLN_B_V_B_P [label="B_P
+\"fyu\""]
+	naginata_node_B_SCLN_B_V -> naginata_node_B_SCLN_B_V_B_P [constraint=true]
+	naginata_node_B_SCLN_B_V_B_J [label="B_J
+\"fa\""]
+	naginata_node_B_SCLN_B_V -> naginata_node_B_SCLN_B_V_B_J [constraint=true]
+	naginata_node_B_SCLN_B_V_B_K [label="B_K
+\"fi\""]
+	naginata_node_B_SCLN_B_V -> naginata_node_B_SCLN_B_V_B_K [constraint=true]
+	naginata_node_B_SCLN_B_V_B_L [label="B_L
+\"fe\""]
+	naginata_node_B_SCLN_B_V -> naginata_node_B_SCLN_B_V_B_L [constraint=true]
+	naginata_node_B_SCLN_B_V_B_N [label="B_N
+\"fo\""]
+	naginata_node_B_SCLN_B_V -> naginata_node_B_SCLN_B_V_B_N [constraint=true]
+	naginata_node_B_SCLN_B_P [label="B_P
+None"]
+	naginata_node_B_SCLN -> naginata_node_B_SCLN_B_P [constraint=true]
+	naginata_node_B_SCLN_B_P_B_V [label="B_V
+\"fyu\""]
+	naginata_node_B_SCLN_B_P -> naginata_node_B_SCLN_B_P_B_V [constraint=true]
+	naginata_node_B_SCLN_B_J [label="B_J
+None"]
+	naginata_node_B_SCLN -> naginata_node_B_SCLN_B_J [constraint=true]
+	naginata_node_B_SCLN_B_J_B_V [label="B_V
+\"fa\""]
+	naginata_node_B_SCLN_B_J -> naginata_node_B_SCLN_B_J_B_V [constraint=true]
+	naginata_node_B_SCLN_B_K [label="B_K
+None"]
+	naginata_node_B_SCLN -> naginata_node_B_SCLN_B_K [constraint=true]
+	naginata_node_B_SCLN_B_K_B_V [label="B_V
+\"fi\""]
+	naginata_node_B_SCLN_B_K -> naginata_node_B_SCLN_B_K_B_V [constraint=true]
+	naginata_node_B_SCLN_B_L [label="B_L
+None"]
+	naginata_node_B_SCLN -> naginata_node_B_SCLN_B_L [constraint=true]
+	naginata_node_B_SCLN_B_L_B_V [label="B_V
+\"fe\""]
+	naginata_node_B_SCLN_B_L -> naginata_node_B_SCLN_B_L_B_V [constraint=true]
+	naginata_node_B_SCLN_B_N [label="B_N
+None"]
+	naginata_node_B_SCLN -> naginata_node_B_SCLN_B_N [constraint=true]
+	naginata_node_B_SCLN_B_N_B_V [label="B_V
+\"fo\""]
+	naginata_node_B_SCLN_B_N -> naginata_node_B_SCLN_B_N_B_V [constraint=true]
+	naginata_node_B_Z [label="B_Z
+\"ho\""]
+	naginata_node_root -> naginata_node_B_Z [constraint=true]
+	naginata_node_B_Z_B_J [label="B_J
+\"bo\""]
+	naginata_node_B_Z -> naginata_node_B_Z_B_J [constraint=true]
+	naginata_node_B_Z_B_M [label="B_M
+\"po\""]
+	naginata_node_B_Z -> naginata_node_B_Z_B_M [constraint=true]
+	naginata_node_B_X [label="B_X
+\"hi\""]
+	naginata_node_root -> naginata_node_B_X [constraint=true]
+	naginata_node_B_X_B_J [label="B_J
+\"bi\""]
+	naginata_node_B_X -> naginata_node_B_X_B_J [constraint=true]
+	naginata_node_B_X_B_J_B_I [label="B_I
+\"byo\""]
+	naginata_node_B_X_B_J -> naginata_node_B_X_B_J_B_I [constraint=true]
+	naginata_node_B_X_B_J_B_P [label="B_P
+\"byu\""]
+	naginata_node_B_X_B_J -> naginata_node_B_X_B_J_B_P [constraint=true]
+	naginata_node_B_X_B_J_B_H [label="B_H
+\"bya\""]
+	naginata_node_B_X_B_J -> naginata_node_B_X_B_J_B_H [constraint=true]
+	naginata_node_B_X_B_M [label="B_M
+\"pi\""]
+	naginata_node_B_X -> naginata_node_B_X_B_M [constraint=true]
+	naginata_node_B_X_B_M_B_I [label="B_I
+\"pyo\""]
+	naginata_node_B_X_B_M -> naginata_node_B_X_B_M_B_I [constraint=true]
+	naginata_node_B_X_B_M_B_P [label="B_P
+\"pyu\""]
+	naginata_node_B_X_B_M -> naginata_node_B_X_B_M_B_P [constraint=true]
+	naginata_node_B_X_B_M_B_H [label="B_H
+\"pya\""]
+	naginata_node_B_X_B_M -> naginata_node_B_X_B_M_B_H [constraint=true]
+	naginata_node_B_X_B_I [label="B_I
+\"hyo\""]
+	naginata_node_B_X -> naginata_node_B_X_B_I [constraint=true]
+	naginata_node_B_X_B_I_B_J [label="B_J
+\"byo\""]
+	naginata_node_B_X_B_I -> naginata_node_B_X_B_I_B_J [constraint=true]
+	naginata_node_B_X_B_I_B_M [label="B_M
+\"pyo\""]
+	naginata_node_B_X_B_I -> naginata_node_B_X_B_I_B_M [constraint=true]
+	naginata_node_B_X_B_P [label="B_P
+\"hyu\""]
+	naginata_node_B_X -> naginata_node_B_X_B_P [constraint=true]
+	naginata_node_B_X_B_P_B_J [label="B_J
+\"byu\""]
+	naginata_node_B_X_B_P -> naginata_node_B_X_B_P_B_J [constraint=true]
+	naginata_node_B_X_B_P_B_M [label="B_M
+\"pyu\""]
+	naginata_node_B_X_B_P -> naginata_node_B_X_B_P_B_M [constraint=true]
+	naginata_node_B_X_B_H [label="B_H
+\"hya\""]
+	naginata_node_B_X -> naginata_node_B_X_B_H [constraint=true]
+	naginata_node_B_X_B_H_B_J [label="B_J
+\"bya\""]
+	naginata_node_B_X_B_H -> naginata_node_B_X_B_H_B_J [constraint=true]
+	naginata_node_B_X_B_H_B_M [label="B_M
+\"pya\""]
+	naginata_node_B_X_B_H -> naginata_node_B_X_B_H_B_M [constraint=true]
+	naginata_node_B_C [label="B_C
+\"ha\""]
+	naginata_node_root -> naginata_node_B_C [constraint=true]
+	naginata_node_B_C_B_LS2 [label="B_LS2
+\"wo\""]
+	naginata_node_B_C -> naginata_node_B_C_B_LS2 [constraint=true]
+	naginata_node_B_C_B_RS2 [label="B_RS2
+\"wo\""]
+	naginata_node_B_C -> naginata_node_B_C_B_RS2 [constraint=true]
+	naginata_node_B_C_B_J [label="B_J
+\"ba\""]
+	naginata_node_B_C -> naginata_node_B_C_B_J [constraint=true]
+	naginata_node_B_C_B_M [label="B_M
+\"pa\""]
+	naginata_node_B_C -> naginata_node_B_C_B_M [constraint=true]
+	naginata_node_B_V [label="B_V
+\"ko\""]
+	naginata_node_root -> naginata_node_B_V [constraint=true]
+	naginata_node_B_V_B_LS2 [label="B_LS2
+\",\""]
+	naginata_node_B_V -> naginata_node_B_V_B_LS2 [constraint=true]
+	naginata_node_B_V_B_RS2 [label="B_RS2
+\",\""]
+	naginata_node_B_V -> naginata_node_B_V_B_RS2 [constraint=true]
+	naginata_node_B_V_B_J [label="B_J
+\"go\""]
+	naginata_node_B_V -> naginata_node_B_V_B_J [constraint=true]
+	naginata_node_B_V_B_J_B_SCLN [label="B_SCLN
+\"fa\""]
+	naginata_node_B_V_B_J -> naginata_node_B_V_B_J_B_SCLN [constraint=true]
+	naginata_node_B_V_B_J_B_H [label="B_H
+\"guxa\""]
+	naginata_node_B_V_B_J -> naginata_node_B_V_B_J_B_H [constraint=true]
+	naginata_node_B_V_B_J_B_L [label="B_L
+\"tsa\""]
+	naginata_node_B_V_B_J -> naginata_node_B_V_B_J_B_L [constraint=true]
+	naginata_node_B_V_B_P [label="B_P
+\"pe\""]
+	naginata_node_B_V -> naginata_node_B_V_B_P [constraint=true]
+	naginata_node_B_V_B_P_B_SCLN [label="B_SCLN
+\"fyu\""]
+	naginata_node_B_V_B_P -> naginata_node_B_V_B_P_B_SCLN [constraint=true]
+	naginata_node_B_V_B_SCLN [label="B_SCLN
+\"pu\""]
+	naginata_node_B_V -> naginata_node_B_V_B_SCLN [constraint=true]
+	naginata_node_B_V_B_SCLN_B_P [label="B_P
+\"fyu\""]
+	naginata_node_B_V_B_SCLN -> naginata_node_B_V_B_SCLN_B_P [constraint=true]
+	naginata_node_B_V_B_SCLN_B_J [label="B_J
+\"fa\""]
+	naginata_node_B_V_B_SCLN -> naginata_node_B_V_B_SCLN_B_J [constraint=true]
+	naginata_node_B_V_B_SCLN_B_K [label="B_K
+\"fi\""]
+	naginata_node_B_V_B_SCLN -> naginata_node_B_V_B_SCLN_B_K [constraint=true]
+	naginata_node_B_V_B_SCLN_B_L [label="B_L
+\"fe\""]
+	naginata_node_B_V_B_SCLN -> naginata_node_B_V_B_SCLN_B_L [constraint=true]
+	naginata_node_B_V_B_SCLN_B_N [label="B_N
+\"fo\""]
+	naginata_node_B_V_B_SCLN -> naginata_node_B_V_B_SCLN_B_N [constraint=true]
+	naginata_node_B_V_B_K [label="B_K
+None"]
+	naginata_node_B_V -> naginata_node_B_V_B_K [constraint=true]
+	naginata_node_B_V_B_K_B_SCLN [label="B_SCLN
+\"fi\""]
+	naginata_node_B_V_B_K -> naginata_node_B_V_B_K_B_SCLN [constraint=true]
+	naginata_node_B_V_B_K_B_O [label="B_O
+\"ixe\""]
+	naginata_node_B_V_B_K -> naginata_node_B_V_B_K_B_O [constraint=true]
+	naginata_node_B_V_B_K_B_L [label="B_L
+\"wi\""]
+	naginata_node_B_V_B_K -> naginata_node_B_V_B_K_B_L [constraint=true]
+	naginata_node_B_V_B_K_B_H [label="B_H
+\"guxi\""]
+	naginata_node_B_V_B_K -> naginata_node_B_V_B_K_B_H [constraint=true]
+	naginata_node_B_V_B_L [label="B_L
+None"]
+	naginata_node_B_V -> naginata_node_B_V_B_L [constraint=true]
+	naginata_node_B_V_B_L_B_SCLN [label="B_SCLN
+\"fe\""]
+	naginata_node_B_V_B_L -> naginata_node_B_V_B_L_B_SCLN [constraint=true]
+	naginata_node_B_V_B_L_B_O [label="B_O
+\"we\""]
+	naginata_node_B_V_B_L -> naginata_node_B_V_B_L_B_O [constraint=true]
+	naginata_node_B_V_B_L_B_K [label="B_K
+\"wi\""]
+	naginata_node_B_V_B_L -> naginata_node_B_V_B_L_B_K [constraint=true]
+	naginata_node_B_V_B_L_B_N [label="B_N
+\"uxo\""]
+	naginata_node_B_V_B_L -> naginata_node_B_V_B_L_B_N [constraint=true]
+	naginata_node_B_V_B_L_B_J [label="B_J
+\"tsa\""]
+	naginata_node_B_V_B_L -> naginata_node_B_V_B_L_B_J [constraint=true]
+	naginata_node_B_V_B_N [label="B_N
+None"]
+	naginata_node_B_V -> naginata_node_B_V_B_N [constraint=true]
+	naginata_node_B_V_B_N_B_SCLN [label="B_SCLN
+\"fo\""]
+	naginata_node_B_V_B_N -> naginata_node_B_V_B_N_B_SCLN [constraint=true]
+	naginata_node_B_V_B_N_B_L [label="B_L
+\"uxo\""]
+	naginata_node_B_V_B_N -> naginata_node_B_V_B_N_B_L [constraint=true]
+	naginata_node_B_V_B_N_B_H [label="B_H
+\"guxo\""]
+	naginata_node_B_V_B_N -> naginata_node_B_V_B_N_B_H [constraint=true]
+	naginata_node_B_V_B_O [label="B_O
+None"]
+	naginata_node_B_V -> naginata_node_B_V_B_O [constraint=true]
+	naginata_node_B_V_B_O_B_K [label="B_K
+\"ixe\""]
+	naginata_node_B_V_B_O -> naginata_node_B_V_B_O_B_K [constraint=true]
+	naginata_node_B_V_B_O_B_L [label="B_L
+\"we\""]
+	naginata_node_B_V_B_O -> naginata_node_B_V_B_O_B_L [constraint=true]
+	naginata_node_B_V_B_O_B_H [label="B_H
+\"guxe\""]
+	naginata_node_B_V_B_O -> naginata_node_B_V_B_O_B_H [constraint=true]
+	naginata_node_B_V_B_H [label="B_H
+None"]
+	naginata_node_B_V -> naginata_node_B_V_B_H [constraint=true]
+	naginata_node_B_V_B_H_B_O [label="B_O
+\"guxe\""]
+	naginata_node_B_V_B_H -> naginata_node_B_V_B_H_B_O [constraint=true]
+	naginata_node_B_V_B_H_B_J [label="B_J
+\"guxa\""]
+	naginata_node_B_V_B_H -> naginata_node_B_V_B_H_B_J [constraint=true]
+	naginata_node_B_V_B_H_B_K [label="B_K
+\"guxi\""]
+	naginata_node_B_V_B_H -> naginata_node_B_V_B_H_B_K [constraint=true]
+	naginata_node_B_V_B_H_B_N [label="B_N
+\"guxo\""]
+	naginata_node_B_V_B_H -> naginata_node_B_V_B_H_B_N [constraint=true]
+	naginata_node_B_B [label="B_B
+\"so\""]
+	naginata_node_root -> naginata_node_B_B [constraint=true]
+	naginata_node_B_B_B_LS2 [label="B_LS2
+\"mi\""]
+	naginata_node_B_B -> naginata_node_B_B_B_LS2 [constraint=true]
+	naginata_node_B_B_B_RS2 [label="B_RS2
+\"mi\""]
+	naginata_node_B_B -> naginata_node_B_B_B_RS2 [constraint=true]
+	naginata_node_B_B_B_J [label="B_J
+\"zo\""]
+	naginata_node_B_B -> naginata_node_B_B_B_J [constraint=true]
+	naginata_node_B_B_B_I [label="B_I
+\"myo\""]
+	naginata_node_B_B -> naginata_node_B_B_B_I [constraint=true]
+	naginata_node_B_B_B_P [label="B_P
+\"myu\""]
+	naginata_node_B_B -> naginata_node_B_B_B_P [constraint=true]
+	naginata_node_B_B_B_H [label="B_H
+\"mya\""]
+	naginata_node_B_B -> naginata_node_B_B_B_H [constraint=true]
+	naginata_node_B_N [label="B_N
+\"ta\""]
+	naginata_node_root -> naginata_node_B_N [constraint=true]
+	naginata_node_B_N_B_LS2 [label="B_LS2
+\"o\""]
+	naginata_node_B_N -> naginata_node_B_N_B_LS2 [constraint=true]
+	naginata_node_B_N_B_RS2 [label="B_RS2
+\"o\""]
+	naginata_node_B_N -> naginata_node_B_N_B_RS2 [constraint=true]
+	naginata_node_B_N_B_F [label="B_F
+\"da\""]
+	naginata_node_B_N -> naginata_node_B_N_B_F [constraint=true]
+	naginata_node_B_N_B_F_B_L [label="B_L
+\"vo\""]
+	naginata_node_B_N_B_F -> naginata_node_B_N_B_F_B_L [constraint=true]
+	naginata_node_B_N_B_F_B_H [label="B_H
+\"kuxo\""]
+	naginata_node_B_N_B_F -> naginata_node_B_N_B_F_B_H [constraint=true]
+	naginata_node_B_N_B_SCLN [label="B_SCLN
+None"]
+	naginata_node_B_N -> naginata_node_B_N_B_SCLN [constraint=true]
+	naginata_node_B_N_B_SCLN_B_V [label="B_V
+\"fo\""]
+	naginata_node_B_N_B_SCLN -> naginata_node_B_N_B_SCLN_B_V [constraint=true]
+	naginata_node_B_N_B_V [label="B_V
+None"]
+	naginata_node_B_N -> naginata_node_B_N_B_V [constraint=true]
+	naginata_node_B_N_B_V_B_SCLN [label="B_SCLN
+\"fo\""]
+	naginata_node_B_N_B_V -> naginata_node_B_N_B_V_B_SCLN [constraint=true]
+	naginata_node_B_N_B_V_B_L [label="B_L
+\"uxo\""]
+	naginata_node_B_N_B_V -> naginata_node_B_N_B_V_B_L [constraint=true]
+	naginata_node_B_N_B_V_B_H [label="B_H
+\"guxo\""]
+	naginata_node_B_N_B_V -> naginata_node_B_N_B_V_B_H [constraint=true]
+	naginata_node_B_N_B_L [label="B_L
+None"]
+	naginata_node_B_N -> naginata_node_B_N_B_L [constraint=true]
+	naginata_node_B_N_B_L_B_V [label="B_V
+\"uxo\""]
+	naginata_node_B_N_B_L -> naginata_node_B_N_B_L_B_V [constraint=true]
+	naginata_node_B_N_B_L_B_F [label="B_F
+\"vo\""]
+	naginata_node_B_N_B_L -> naginata_node_B_N_B_L_B_F [constraint=true]
+	naginata_node_B_N_B_H [label="B_H
+None"]
+	naginata_node_B_N -> naginata_node_B_N_B_H [constraint=true]
+	naginata_node_B_N_B_H_B_F [label="B_F
+\"kuxo\""]
+	naginata_node_B_N_B_H -> naginata_node_B_N_B_H_B_F [constraint=true]
+	naginata_node_B_N_B_H_B_V [label="B_V
+\"guxo\""]
+	naginata_node_B_N_B_H -> naginata_node_B_N_B_H_B_V [constraint=true]
+	naginata_node_B_M [label="B_M
+\"na\""]
+	naginata_node_root -> naginata_node_B_M [constraint=true]
+	naginata_node_B_M_B_LS2 [label="B_LS2
+\".\""]
+	naginata_node_B_M -> naginata_node_B_M_B_LS2 [constraint=true]
+	naginata_node_B_M_B_RS2 [label="B_RS2
+\".\""]
+	naginata_node_B_M -> naginata_node_B_M_B_RS2 [constraint=true]
+	naginata_node_B_M_B_Z [label="B_Z
+\"po\""]
+	naginata_node_B_M -> naginata_node_B_M_B_Z [constraint=true]
+	naginata_node_B_M_B_X [label="B_X
+\"pi\""]
+	naginata_node_B_M -> naginata_node_B_M_B_X [constraint=true]
+	naginata_node_B_M_B_X_B_I [label="B_I
+\"pyo\""]
+	naginata_node_B_M_B_X -> naginata_node_B_M_B_X_B_I [constraint=true]
+	naginata_node_B_M_B_X_B_P [label="B_P
+\"pyu\""]
+	naginata_node_B_M_B_X -> naginata_node_B_M_B_X_B_P [constraint=true]
+	naginata_node_B_M_B_X_B_H [label="B_H
+\"pya\""]
+	naginata_node_B_M_B_X -> naginata_node_B_M_B_X_B_H [constraint=true]
+	naginata_node_B_M_B_C [label="B_C
+\"pa\""]
+	naginata_node_B_M -> naginata_node_B_M_B_C [constraint=true]
+	naginata_node_B_M_B_I [label="B_I
+None"]
+	naginata_node_B_M -> naginata_node_B_M_B_I [constraint=true]
+	naginata_node_B_M_B_I_B_X [label="B_X
+\"pyo\""]
+	naginata_node_B_M_B_I -> naginata_node_B_M_B_I_B_X [constraint=true]
+	naginata_node_B_M_B_P [label="B_P
+None"]
+	naginata_node_B_M -> naginata_node_B_M_B_P [constraint=true]
+	naginata_node_B_M_B_P_B_X [label="B_X
+\"pyu\""]
+	naginata_node_B_M_B_P -> naginata_node_B_M_B_P_B_X [constraint=true]
+	naginata_node_B_M_B_P_B_E [label="B_E
+\"thu\""]
+	naginata_node_B_M_B_P -> naginata_node_B_M_B_P_B_E [constraint=true]
+	naginata_node_B_M_B_H [label="B_H
+None"]
+	naginata_node_B_M -> naginata_node_B_M_B_H [constraint=true]
+	naginata_node_B_M_B_H_B_X [label="B_X
+\"pya\""]
+	naginata_node_B_M_B_H -> naginata_node_B_M_B_H_B_X [constraint=true]
+	naginata_node_B_M_B_E [label="B_E
+None"]
+	naginata_node_B_M -> naginata_node_B_M_B_E [constraint=true]
+	naginata_node_B_M_B_E_B_P [label="B_P
+\"thu\""]
+	naginata_node_B_M_B_E -> naginata_node_B_M_B_E_B_P [constraint=true]
+	naginata_node_B_M_B_E_B_K [label="B_K
+\"thi\""]
+	naginata_node_B_M_B_E -> naginata_node_B_M_B_E_B_K [constraint=true]
+	naginata_node_B_M_B_K [label="B_K
+None"]
+	naginata_node_B_M -> naginata_node_B_M_B_K [constraint=true]
+	naginata_node_B_M_B_K_B_E [label="B_E
+\"thi\""]
+	naginata_node_B_M_B_K -> naginata_node_B_M_B_K_B_E [constraint=true]
+	naginata_node_B_M_B_L [label="B_L
+None"]
+	naginata_node_B_M -> naginata_node_B_M_B_L [constraint=true]
+	naginata_node_B_M_B_L_B_D [label="B_D
+\"toxu\""]
+	naginata_node_B_M_B_L -> naginata_node_B_M_B_L_B_D [constraint=true]
+	naginata_node_B_M_B_D [label="B_D
+None"]
+	naginata_node_B_M -> naginata_node_B_M_B_D [constraint=true]
+	naginata_node_B_M_B_D_B_L [label="B_L
+\"toxu\""]
+	naginata_node_B_M_B_D -> naginata_node_B_M_B_D_B_L [constraint=true]
+	naginata_node_B_M_B_O [label="B_O
+None"]
+	naginata_node_B_M -> naginata_node_B_M_B_O [constraint=true]
+	naginata_node_B_M_B_O_B_R [label="B_R
+\"sye\""]
+	naginata_node_B_M_B_O -> naginata_node_B_M_B_O_B_R [constraint=true]
+	naginata_node_B_M_B_O_B_G [label="B_G
+\"tye\""]
+	naginata_node_B_M_B_O -> naginata_node_B_M_B_O_B_G [constraint=true]
+	naginata_node_B_M_B_R [label="B_R
+None"]
+	naginata_node_B_M -> naginata_node_B_M_B_R [constraint=true]
+	naginata_node_B_M_B_R_B_O [label="B_O
+\"sye\""]
+	naginata_node_B_M_B_R -> naginata_node_B_M_B_R_B_O [constraint=true]
+	naginata_node_B_M_B_G [label="B_G
+None"]
+	naginata_node_B_M -> naginata_node_B_M_B_G [constraint=true]
+	naginata_node_B_M_B_G_B_O [label="B_O
+\"tye\""]
+	naginata_node_B_M_B_G -> naginata_node_B_M_B_G_B_O [constraint=true]
+	naginata_node_B_COMM [label="B_COMM
+\"nn\""]
+	naginata_node_root -> naginata_node_B_COMM [constraint=true]
+	naginata_node_B_COMM_B_LS2 [label="B_LS2
+\"mu\""]
+	naginata_node_B_COMM -> naginata_node_B_COMM_B_LS2 [constraint=true]
+	naginata_node_B_COMM_B_RS2 [label="B_RS2
+\"mu\""]
+	naginata_node_B_COMM -> naginata_node_B_COMM_B_RS2 [constraint=true]
+	naginata_node_B_DOT [label="B_DOT
+\"ra\""]
+	naginata_node_root -> naginata_node_B_DOT [constraint=true]
+	naginata_node_B_DOT_B_LS2 [label="B_LS2
+\"wa\""]
+	naginata_node_B_DOT -> naginata_node_B_DOT_B_LS2 [constraint=true]
+	naginata_node_B_DOT_B_RS2 [label="B_RS2
+\"wa\""]
+	naginata_node_B_DOT -> naginata_node_B_DOT_B_RS2 [constraint=true]
+	naginata_node_B_SLSH [label="B_SLSH
+\"re\""]
+	naginata_node_root -> naginata_node_B_SLSH [constraint=true]
+	naginata_node_B_LS2 [label="B_LS2
+\" \""]
+	naginata_node_root -> naginata_node_B_LS2 [constraint=true]
+	naginata_node_B_LS2_B_W [label="B_W
+\"nu\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_W [constraint=true]
+	naginata_node_B_LS2_B_E [label="B_E
+\"ri\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_E [constraint=true]
+	naginata_node_B_LS2_B_R [label="B_R
+\"ne\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_R [constraint=true]
+	naginata_node_B_LS2_B_U [label="B_U
+\"sa\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_U [constraint=true]
+	naginata_node_B_LS2_B_I [label="B_I
+\"yo\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_I [constraint=true]
+	naginata_node_B_LS2_B_O [label="B_O
+\"e\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_O [constraint=true]
+	naginata_node_B_LS2_B_P [label="B_P
+\"yu\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_P [constraint=true]
+	naginata_node_B_LS2_B_A [label="B_A
+\"se\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_A [constraint=true]
+	naginata_node_B_LS2_B_S [label="B_S
+\"me\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_S [constraint=true]
+	naginata_node_B_LS2_B_D [label="B_D
+\"ni\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_D [constraint=true]
+	naginata_node_B_LS2_B_F [label="B_F
+\"ma\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_F [constraint=true]
+	naginata_node_B_LS2_B_G [label="B_G
+\"ti\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_G [constraint=true]
+	naginata_node_B_LS2_B_H [label="B_H
+\"ya\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_H [constraint=true]
+	naginata_node_B_LS2_B_J [label="B_J
+\"no\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_J [constraint=true]
+	naginata_node_B_LS2_B_K [label="B_K
+\"mo\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_K [constraint=true]
+	naginata_node_B_LS2_B_L [label="B_L
+\"tu\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_L [constraint=true]
+	naginata_node_B_LS2_B_SCLN [label="B_SCLN
+\"fu\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_SCLN [constraint=true]
+	naginata_node_B_LS2_B_C [label="B_C
+\"wo\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_C [constraint=true]
+	naginata_node_B_LS2_B_V [label="B_V
+\",\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_V [constraint=true]
+	naginata_node_B_LS2_B_B [label="B_B
+\"mi\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_B [constraint=true]
+	naginata_node_B_LS2_B_N [label="B_N
+\"o\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_N [constraint=true]
+	naginata_node_B_LS2_B_M [label="B_M
+\".\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_M [constraint=true]
+	naginata_node_B_LS2_B_COMM [label="B_COMM
+\"mu\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_COMM [constraint=true]
+	naginata_node_B_LS2_B_DOT [label="B_DOT
+\"wa\""]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_DOT [constraint=true]
+	naginata_node_B_LS2_B_RS2 [label="B_RS2
+SS_LSFT(\" \")"]
+	naginata_node_B_LS2 -> naginata_node_B_LS2_B_RS2 [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_Q [label="B_Q
+\"#\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_Q [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_W [label="B_W
+\"/\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_W [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_E [label="B_E
+\"{\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_E [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_R [label="B_R
+\"(\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_R [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_T [label="B_T
+\"[\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_T [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_Y [label="B_Y
+\"]\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_Y [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_U [label="B_U
+\")\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_U [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_I [label="B_I
+\"}\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_I [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_O [label="B_O
+\"%\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_O [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_A [label="B_A
+\"1\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_A [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_S [label="B_S
+\"2\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_S [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_D [label="B_D
+\"3\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_D [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_F [label="B_F
+\"4\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_F [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_G [label="B_G
+\"5\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_G [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_H [label="B_H
+\"6\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_H [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_J [label="B_J
+\"7\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_J [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_K [label="B_K
+\"8\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_K [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_L [label="B_L
+\"9\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_L [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_SCLN [label="B_SCLN
+\"0\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_SCLN [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_X [label="B_X
+\"%\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_X [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_C [label="B_C
+\"|\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_C [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_V [label="B_V
+\"+\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_V [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_B [label="B_B
+\"=\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_B [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_N [label="B_N
+\"!\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_N [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_M [label="B_M
+\"-\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_M [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_COMM [label="B_COMM
+\"*\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_COMM [constraint=true]
+	naginata_node_B_LS2_B_RS2_B_DOT [label="B_DOT
+\"^\""]
+	naginata_node_B_LS2_B_RS2 -> naginata_node_B_LS2_B_RS2_B_DOT [constraint=true]
+	naginata_node_B_RS2 [label="B_RS2
+SS_TAP(X_ENT)"]
+	naginata_node_root -> naginata_node_B_RS2 [constraint=true]
+	naginata_node_B_RS2_B_W [label="B_W
+\"nu\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_W [constraint=true]
+	naginata_node_B_RS2_B_E [label="B_E
+\"ri\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_E [constraint=true]
+	naginata_node_B_RS2_B_R [label="B_R
+\"ne\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_R [constraint=true]
+	naginata_node_B_RS2_B_U [label="B_U
+\"sa\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_U [constraint=true]
+	naginata_node_B_RS2_B_I [label="B_I
+\"yo\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_I [constraint=true]
+	naginata_node_B_RS2_B_O [label="B_O
+\"e\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_O [constraint=true]
+	naginata_node_B_RS2_B_P [label="B_P
+\"yu\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_P [constraint=true]
+	naginata_node_B_RS2_B_A [label="B_A
+\"se\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_A [constraint=true]
+	naginata_node_B_RS2_B_S [label="B_S
+\"me\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_S [constraint=true]
+	naginata_node_B_RS2_B_D [label="B_D
+\"ni\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_D [constraint=true]
+	naginata_node_B_RS2_B_F [label="B_F
+\"ma\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_F [constraint=true]
+	naginata_node_B_RS2_B_G [label="B_G
+\"ti\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_G [constraint=true]
+	naginata_node_B_RS2_B_H [label="B_H
+\"ya\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_H [constraint=true]
+	naginata_node_B_RS2_B_J [label="B_J
+\"no\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_J [constraint=true]
+	naginata_node_B_RS2_B_K [label="B_K
+\"mo\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_K [constraint=true]
+	naginata_node_B_RS2_B_L [label="B_L
+\"tu\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_L [constraint=true]
+	naginata_node_B_RS2_B_SCLN [label="B_SCLN
+\"fu\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_SCLN [constraint=true]
+	naginata_node_B_RS2_B_C [label="B_C
+\"wo\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_C [constraint=true]
+	naginata_node_B_RS2_B_V [label="B_V
+\",\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_V [constraint=true]
+	naginata_node_B_RS2_B_B [label="B_B
+\"mi\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_B [constraint=true]
+	naginata_node_B_RS2_B_N [label="B_N
+\"o\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_N [constraint=true]
+	naginata_node_B_RS2_B_M [label="B_M
+\".\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_M [constraint=true]
+	naginata_node_B_RS2_B_COMM [label="B_COMM
+\"mu\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_COMM [constraint=true]
+	naginata_node_B_RS2_B_DOT [label="B_DOT
+\"wa\""]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_DOT [constraint=true]
+	naginata_node_B_RS2_B_LS2 [label="B_LS2
+SS_LSFT(\" \")"]
+	naginata_node_B_RS2 -> naginata_node_B_RS2_B_LS2 [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_Q [label="B_Q
+\"#\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_Q [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_W [label="B_W
+\"/\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_W [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_E [label="B_E
+\"{\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_E [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_R [label="B_R
+\"(\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_R [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_T [label="B_T
+\"[\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_T [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_Y [label="B_Y
+\"]\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_Y [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_U [label="B_U
+\")\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_U [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_I [label="B_I
+\"}\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_I [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_O [label="B_O
+\"%\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_O [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_A [label="B_A
+\"1\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_A [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_S [label="B_S
+\"2\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_S [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_D [label="B_D
+\"3\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_D [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_F [label="B_F
+\"4\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_F [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_G [label="B_G
+\"5\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_G [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_H [label="B_H
+\"6\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_H [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_J [label="B_J
+\"7\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_J [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_K [label="B_K
+\"8\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_K [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_L [label="B_L
+\"9\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_L [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_SCLN [label="B_SCLN
+\"0\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_SCLN [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_X [label="B_X
+\"%\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_X [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_C [label="B_C
+\"|\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_C [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_V [label="B_V
+\"+\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_V [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_B [label="B_B
+\"=\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_B [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_N [label="B_N
+\"!\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_N [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_M [label="B_M
+\"-\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_M [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_COMM [label="B_COMM
+\"*\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_COMM [constraint=true]
+	naginata_node_B_RS2_B_LS2_B_DOT [label="B_DOT
+\"^\""]
+	naginata_node_B_RS2_B_LS2 -> naginata_node_B_RS2_B_LS2_B_DOT [constraint=true]
+	naginata_node_B_Q [label="B_Q
+None"]
+	naginata_node_root -> naginata_node_B_Q [constraint=true]
+	naginata_node_B_Q_B_I [label="B_I
+\"xyo\""]
+	naginata_node_B_Q -> naginata_node_B_Q_B_I [constraint=true]
+	naginata_node_B_Q_B_O [label="B_O
+\"xe\""]
+	naginata_node_B_Q -> naginata_node_B_Q_B_O [constraint=true]
+	naginata_node_B_Q_B_P [label="B_P
+\"xyu\""]
+	naginata_node_B_Q -> naginata_node_B_Q_B_P [constraint=true]
+	naginata_node_B_Q_B_H [label="B_H
+\"xya\""]
+	naginata_node_B_Q -> naginata_node_B_Q_B_H [constraint=true]
+	naginata_node_B_Q_B_J [label="B_J
+\"xa\""]
+	naginata_node_B_Q -> naginata_node_B_Q_B_J [constraint=true]
+	naginata_node_B_Q_B_K [label="B_K
+\"xi\""]
+	naginata_node_B_Q -> naginata_node_B_Q_B_K [constraint=true]
+	naginata_node_B_Q_B_L [label="B_L
+\"xu\""]
+	naginata_node_B_Q -> naginata_node_B_Q_B_L [constraint=true]
+	naginata_node_B_Q_B_N [label="B_N
+\"xo\""]
+	naginata_node_B_Q -> naginata_node_B_Q_B_N [constraint=true]
+	naginata_node_root [label="None
+None" style=dashed]
+	naginata_reversenode_B_LS2 [label="B_LS2
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_LS2 [constraint=true style=dashed]
+	naginata_reversenode_B_LS2_B_RS2 [label="B_RS2
+None" style=dashed]
+	naginata_reversenode_B_LS2 -> naginata_reversenode_B_LS2_B_RS2 [constraint=true style=dashed]
+	naginata_reversenode_B_W [label="B_W
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_W [constraint=true style=dashed]
+	naginata_reversenode_B_W_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_W -> naginata_reversenode_B_W_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_W_B_I [label="B_I
+None" style=dashed]
+	naginata_reversenode_B_W -> naginata_reversenode_B_W_B_I [constraint=true style=dashed]
+	naginata_reversenode_B_W_B_P [label="B_P
+None" style=dashed]
+	naginata_reversenode_B_W -> naginata_reversenode_B_W_B_P [constraint=true style=dashed]
+	naginata_reversenode_B_W_B_H [label="B_H
+None" style=dashed]
+	naginata_reversenode_B_W -> naginata_reversenode_B_W_B_H [constraint=true style=dashed]
+	naginata_reversenode_B_E [label="B_E
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_E [constraint=true style=dashed]
+	naginata_reversenode_B_E_B_M [label="B_M
+None" style=dashed]
+	naginata_reversenode_B_E -> naginata_reversenode_B_E_B_M [constraint=true style=dashed]
+	naginata_reversenode_B_E_B_P [label="B_P
+None" style=dashed]
+	naginata_reversenode_B_E -> naginata_reversenode_B_E_B_P [constraint=true style=dashed]
+	naginata_reversenode_B_E_B_K [label="B_K
+None" style=dashed]
+	naginata_reversenode_B_E -> naginata_reversenode_B_E_B_K [constraint=true style=dashed]
+	naginata_reversenode_B_E_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_E -> naginata_reversenode_B_E_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_R [label="B_R
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_R [constraint=true style=dashed]
+	naginata_reversenode_B_R_B_I [label="B_I
+None" style=dashed]
+	naginata_reversenode_B_R -> naginata_reversenode_B_R_B_I [constraint=true style=dashed]
+	naginata_reversenode_B_R_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_R -> naginata_reversenode_B_R_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_R_B_P [label="B_P
+None" style=dashed]
+	naginata_reversenode_B_R -> naginata_reversenode_B_R_B_P [constraint=true style=dashed]
+	naginata_reversenode_B_R_B_H [label="B_H
+None" style=dashed]
+	naginata_reversenode_B_R -> naginata_reversenode_B_R_B_H [constraint=true style=dashed]
+	naginata_reversenode_B_R_B_O [label="B_O
+None" style=dashed]
+	naginata_reversenode_B_R -> naginata_reversenode_B_R_B_O [constraint=true style=dashed]
+	naginata_reversenode_B_R_B_M [label="B_M
+None" style=dashed]
+	naginata_reversenode_B_R -> naginata_reversenode_B_R_B_M [constraint=true style=dashed]
+	naginata_reversenode_B_U [label="B_U
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_U [constraint=true style=dashed]
+	naginata_reversenode_B_I [label="B_I
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_I [constraint=true style=dashed]
+	naginata_reversenode_B_I_B_R [label="B_R
+None" style=dashed]
+	naginata_reversenode_B_I -> naginata_reversenode_B_I_B_R [constraint=true style=dashed]
+	naginata_reversenode_B_I_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_I -> naginata_reversenode_B_I_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_I_B_W [label="B_W
+None" style=dashed]
+	naginata_reversenode_B_I -> naginata_reversenode_B_I_B_W [constraint=true style=dashed]
+	naginata_reversenode_B_I_B_G [label="B_G
+None" style=dashed]
+	naginata_reversenode_B_I -> naginata_reversenode_B_I_B_G [constraint=true style=dashed]
+	naginata_reversenode_B_I_B_X [label="B_X
+None" style=dashed]
+	naginata_reversenode_B_I -> naginata_reversenode_B_I_B_X [constraint=true style=dashed]
+	naginata_reversenode_B_I_B_M [label="B_M
+None" style=dashed]
+	naginata_reversenode_B_I -> naginata_reversenode_B_I_B_M [constraint=true style=dashed]
+	naginata_reversenode_B_O [label="B_O
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_O [constraint=true style=dashed]
+	naginata_reversenode_B_O_B_R [label="B_R
+None" style=dashed]
+	naginata_reversenode_B_O -> naginata_reversenode_B_O_B_R [constraint=true style=dashed]
+	naginata_reversenode_B_O_B_M [label="B_M
+None" style=dashed]
+	naginata_reversenode_B_O -> naginata_reversenode_B_O_B_M [constraint=true style=dashed]
+	naginata_reversenode_B_O_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_O -> naginata_reversenode_B_O_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_O_B_G [label="B_G
+None" style=dashed]
+	naginata_reversenode_B_O -> naginata_reversenode_B_O_B_G [constraint=true style=dashed]
+	naginata_reversenode_B_O_B_K [label="B_K
+None" style=dashed]
+	naginata_reversenode_B_O -> naginata_reversenode_B_O_B_K [constraint=true style=dashed]
+	naginata_reversenode_B_O_B_V [label="B_V
+None" style=dashed]
+	naginata_reversenode_B_O -> naginata_reversenode_B_O_B_V [constraint=true style=dashed]
+	naginata_reversenode_B_O_B_L [label="B_L
+None" style=dashed]
+	naginata_reversenode_B_O -> naginata_reversenode_B_O_B_L [constraint=true style=dashed]
+	naginata_reversenode_B_O_B_F [label="B_F
+None" style=dashed]
+	naginata_reversenode_B_O -> naginata_reversenode_B_O_B_F [constraint=true style=dashed]
+	naginata_reversenode_B_O_B_H [label="B_H
+None" style=dashed]
+	naginata_reversenode_B_O -> naginata_reversenode_B_O_B_H [constraint=true style=dashed]
+	naginata_reversenode_B_P [label="B_P
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_P [constraint=true style=dashed]
+	naginata_reversenode_B_P_B_R [label="B_R
+None" style=dashed]
+	naginata_reversenode_B_P -> naginata_reversenode_B_P_B_R [constraint=true style=dashed]
+	naginata_reversenode_B_P_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_P -> naginata_reversenode_B_P_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_P_B_W [label="B_W
+None" style=dashed]
+	naginata_reversenode_B_P -> naginata_reversenode_B_P_B_W [constraint=true style=dashed]
+	naginata_reversenode_B_P_B_G [label="B_G
+None" style=dashed]
+	naginata_reversenode_B_P -> naginata_reversenode_B_P_B_G [constraint=true style=dashed]
+	naginata_reversenode_B_P_B_X [label="B_X
+None" style=dashed]
+	naginata_reversenode_B_P -> naginata_reversenode_B_P_B_X [constraint=true style=dashed]
+	naginata_reversenode_B_P_B_M [label="B_M
+None" style=dashed]
+	naginata_reversenode_B_P -> naginata_reversenode_B_P_B_M [constraint=true style=dashed]
+	naginata_reversenode_B_P_B_E [label="B_E
+None" style=dashed]
+	naginata_reversenode_B_P -> naginata_reversenode_B_P_B_E [constraint=true style=dashed]
+	naginata_reversenode_B_P_B_SCLN [label="B_SCLN
+None" style=dashed]
+	naginata_reversenode_B_P -> naginata_reversenode_B_P_B_SCLN [constraint=true style=dashed]
+	naginata_reversenode_B_P_B_V [label="B_V
+None" style=dashed]
+	naginata_reversenode_B_P -> naginata_reversenode_B_P_B_V [constraint=true style=dashed]
+	naginata_reversenode_B_P_B_F [label="B_F
+None" style=dashed]
+	naginata_reversenode_B_P -> naginata_reversenode_B_P_B_F [constraint=true style=dashed]
+	naginata_reversenode_B_P_B_L [label="B_L
+None" style=dashed]
+	naginata_reversenode_B_P -> naginata_reversenode_B_P_B_L [constraint=true style=dashed]
+	naginata_reversenode_B_A [label="B_A
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_A [constraint=true style=dashed]
+	naginata_reversenode_B_S [label="B_S
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_S [constraint=true style=dashed]
+	naginata_reversenode_B_D [label="B_D
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_D [constraint=true style=dashed]
+	naginata_reversenode_B_D_B_M [label="B_M
+None" style=dashed]
+	naginata_reversenode_B_D -> naginata_reversenode_B_D_B_M [constraint=true style=dashed]
+	naginata_reversenode_B_D_B_L [label="B_L
+None" style=dashed]
+	naginata_reversenode_B_D -> naginata_reversenode_B_D_B_L [constraint=true style=dashed]
+	naginata_reversenode_B_D_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_D -> naginata_reversenode_B_D_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_D_B_F [label="B_F
+None" style=dashed]
+	naginata_reversenode_B_D -> naginata_reversenode_B_D_B_F [constraint=true style=dashed]
+	naginata_reversenode_B_F [label="B_F
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_F [constraint=true style=dashed]
+	naginata_reversenode_B_F_B_O [label="B_O
+None" style=dashed]
+	naginata_reversenode_B_F -> naginata_reversenode_B_F_B_O [constraint=true style=dashed]
+	naginata_reversenode_B_F_B_L [label="B_L
+None" style=dashed]
+	naginata_reversenode_B_F -> naginata_reversenode_B_F_B_L [constraint=true style=dashed]
+	naginata_reversenode_B_F_B_P [label="B_P
+None" style=dashed]
+	naginata_reversenode_B_F -> naginata_reversenode_B_F_B_P [constraint=true style=dashed]
+	naginata_reversenode_B_F_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_F -> naginata_reversenode_B_F_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_F_B_K [label="B_K
+None" style=dashed]
+	naginata_reversenode_B_F -> naginata_reversenode_B_F_B_K [constraint=true style=dashed]
+	naginata_reversenode_B_F_B_N [label="B_N
+None" style=dashed]
+	naginata_reversenode_B_F -> naginata_reversenode_B_F_B_N [constraint=true style=dashed]
+	naginata_reversenode_B_F_B_H [label="B_H
+None" style=dashed]
+	naginata_reversenode_B_F -> naginata_reversenode_B_F_B_H [constraint=true style=dashed]
+	naginata_reversenode_B_F_B_D [label="B_D
+None" style=dashed]
+	naginata_reversenode_B_F -> naginata_reversenode_B_F_B_D [constraint=true style=dashed]
+	naginata_reversenode_B_G [label="B_G
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_G [constraint=true style=dashed]
+	naginata_reversenode_B_G_B_I [label="B_I
+None" style=dashed]
+	naginata_reversenode_B_G -> naginata_reversenode_B_G_B_I [constraint=true style=dashed]
+	naginata_reversenode_B_G_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_G -> naginata_reversenode_B_G_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_G_B_P [label="B_P
+None" style=dashed]
+	naginata_reversenode_B_G -> naginata_reversenode_B_G_B_P [constraint=true style=dashed]
+	naginata_reversenode_B_G_B_H [label="B_H
+None" style=dashed]
+	naginata_reversenode_B_G -> naginata_reversenode_B_G_B_H [constraint=true style=dashed]
+	naginata_reversenode_B_G_B_O [label="B_O
+None" style=dashed]
+	naginata_reversenode_B_G -> naginata_reversenode_B_G_B_O [constraint=true style=dashed]
+	naginata_reversenode_B_G_B_M [label="B_M
+None" style=dashed]
+	naginata_reversenode_B_G -> naginata_reversenode_B_G_B_M [constraint=true style=dashed]
+	naginata_reversenode_B_H [label="B_H
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_H [constraint=true style=dashed]
+	naginata_reversenode_B_H_B_R [label="B_R
+None" style=dashed]
+	naginata_reversenode_B_H -> naginata_reversenode_B_H_B_R [constraint=true style=dashed]
+	naginata_reversenode_B_H_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_H -> naginata_reversenode_B_H_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_H_B_W [label="B_W
+None" style=dashed]
+	naginata_reversenode_B_H -> naginata_reversenode_B_H_B_W [constraint=true style=dashed]
+	naginata_reversenode_B_H_B_G [label="B_G
+None" style=dashed]
+	naginata_reversenode_B_H -> naginata_reversenode_B_H_B_G [constraint=true style=dashed]
+	naginata_reversenode_B_H_B_X [label="B_X
+None" style=dashed]
+	naginata_reversenode_B_H -> naginata_reversenode_B_H_B_X [constraint=true style=dashed]
+	naginata_reversenode_B_H_B_M [label="B_M
+None" style=dashed]
+	naginata_reversenode_B_H -> naginata_reversenode_B_H_B_M [constraint=true style=dashed]
+	naginata_reversenode_B_H_B_O [label="B_O
+None" style=dashed]
+	naginata_reversenode_B_H -> naginata_reversenode_B_H_B_O [constraint=true style=dashed]
+	naginata_reversenode_B_H_B_F [label="B_F
+None" style=dashed]
+	naginata_reversenode_B_H -> naginata_reversenode_B_H_B_F [constraint=true style=dashed]
+	naginata_reversenode_B_H_B_K [label="B_K
+None" style=dashed]
+	naginata_reversenode_B_H -> naginata_reversenode_B_H_B_K [constraint=true style=dashed]
+	naginata_reversenode_B_H_B_N [label="B_N
+None" style=dashed]
+	naginata_reversenode_B_H -> naginata_reversenode_B_H_B_N [constraint=true style=dashed]
+	naginata_reversenode_B_H_B_V [label="B_V
+None" style=dashed]
+	naginata_reversenode_B_H -> naginata_reversenode_B_H_B_V [constraint=true style=dashed]
+	naginata_reversenode_B_J [label="B_J
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_R [label="B_R
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_R [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_I [label="B_I
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_I [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_P [label="B_P
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_P [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_H [label="B_H
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_H [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_W [label="B_W
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_W [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_G [label="B_G
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_G [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_X [label="B_X
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_X [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_E [label="B_E
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_E [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_K [label="B_K
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_K [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_L [label="B_L
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_L [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_D [label="B_D
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_D [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_O [label="B_O
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_O [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_SCLN [label="B_SCLN
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_SCLN [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_V [label="B_V
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_V [constraint=true style=dashed]
+	naginata_reversenode_B_J_B_F [label="B_F
+None" style=dashed]
+	naginata_reversenode_B_J -> naginata_reversenode_B_J_B_F [constraint=true style=dashed]
+	naginata_reversenode_B_K [label="B_K
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_K [constraint=true style=dashed]
+	naginata_reversenode_B_K_B_E [label="B_E
+None" style=dashed]
+	naginata_reversenode_B_K -> naginata_reversenode_B_K_B_E [constraint=true style=dashed]
+	naginata_reversenode_B_K_B_M [label="B_M
+None" style=dashed]
+	naginata_reversenode_B_K -> naginata_reversenode_B_K_B_M [constraint=true style=dashed]
+	naginata_reversenode_B_K_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_K -> naginata_reversenode_B_K_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_K_B_SCLN [label="B_SCLN
+None" style=dashed]
+	naginata_reversenode_B_K -> naginata_reversenode_B_K_B_SCLN [constraint=true style=dashed]
+	naginata_reversenode_B_K_B_V [label="B_V
+None" style=dashed]
+	naginata_reversenode_B_K -> naginata_reversenode_B_K_B_V [constraint=true style=dashed]
+	naginata_reversenode_B_K_B_O [label="B_O
+None" style=dashed]
+	naginata_reversenode_B_K -> naginata_reversenode_B_K_B_O [constraint=true style=dashed]
+	naginata_reversenode_B_K_B_L [label="B_L
+None" style=dashed]
+	naginata_reversenode_B_K -> naginata_reversenode_B_K_B_L [constraint=true style=dashed]
+	naginata_reversenode_B_K_B_F [label="B_F
+None" style=dashed]
+	naginata_reversenode_B_K -> naginata_reversenode_B_K_B_F [constraint=true style=dashed]
+	naginata_reversenode_B_K_B_H [label="B_H
+None" style=dashed]
+	naginata_reversenode_B_K -> naginata_reversenode_B_K_B_H [constraint=true style=dashed]
+	naginata_reversenode_B_L [label="B_L
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_L [constraint=true style=dashed]
+	naginata_reversenode_B_L_B_M [label="B_M
+None" style=dashed]
+	naginata_reversenode_B_L -> naginata_reversenode_B_L_B_M [constraint=true style=dashed]
+	naginata_reversenode_B_L_B_D [label="B_D
+None" style=dashed]
+	naginata_reversenode_B_L -> naginata_reversenode_B_L_B_D [constraint=true style=dashed]
+	naginata_reversenode_B_L_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_L -> naginata_reversenode_B_L_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_L_B_SCLN [label="B_SCLN
+None" style=dashed]
+	naginata_reversenode_B_L -> naginata_reversenode_B_L_B_SCLN [constraint=true style=dashed]
+	naginata_reversenode_B_L_B_V [label="B_V
+None" style=dashed]
+	naginata_reversenode_B_L -> naginata_reversenode_B_L_B_V [constraint=true style=dashed]
+	naginata_reversenode_B_L_B_O [label="B_O
+None" style=dashed]
+	naginata_reversenode_B_L -> naginata_reversenode_B_L_B_O [constraint=true style=dashed]
+	naginata_reversenode_B_L_B_K [label="B_K
+None" style=dashed]
+	naginata_reversenode_B_L -> naginata_reversenode_B_L_B_K [constraint=true style=dashed]
+	naginata_reversenode_B_L_B_N [label="B_N
+None" style=dashed]
+	naginata_reversenode_B_L -> naginata_reversenode_B_L_B_N [constraint=true style=dashed]
+	naginata_reversenode_B_L_B_F [label="B_F
+None" style=dashed]
+	naginata_reversenode_B_L -> naginata_reversenode_B_L_B_F [constraint=true style=dashed]
+	naginata_reversenode_B_L_B_P [label="B_P
+None" style=dashed]
+	naginata_reversenode_B_L -> naginata_reversenode_B_L_B_P [constraint=true style=dashed]
+	naginata_reversenode_B_SCLN [label="B_SCLN
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_SCLN [constraint=true style=dashed]
+	naginata_reversenode_B_SCLN_B_P [label="B_P
+None" style=dashed]
+	naginata_reversenode_B_SCLN -> naginata_reversenode_B_SCLN_B_P [constraint=true style=dashed]
+	naginata_reversenode_B_SCLN_B_V [label="B_V
+None" style=dashed]
+	naginata_reversenode_B_SCLN -> naginata_reversenode_B_SCLN_B_V [constraint=true style=dashed]
+	naginata_reversenode_B_SCLN_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_SCLN -> naginata_reversenode_B_SCLN_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_SCLN_B_K [label="B_K
+None" style=dashed]
+	naginata_reversenode_B_SCLN -> naginata_reversenode_B_SCLN_B_K [constraint=true style=dashed]
+	naginata_reversenode_B_SCLN_B_L [label="B_L
+None" style=dashed]
+	naginata_reversenode_B_SCLN -> naginata_reversenode_B_SCLN_B_L [constraint=true style=dashed]
+	naginata_reversenode_B_SCLN_B_N [label="B_N
+None" style=dashed]
+	naginata_reversenode_B_SCLN -> naginata_reversenode_B_SCLN_B_N [constraint=true style=dashed]
+	naginata_reversenode_B_C [label="B_C
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_C [constraint=true style=dashed]
+	naginata_reversenode_B_V [label="B_V
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_V [constraint=true style=dashed]
+	naginata_reversenode_B_V_B_SCLN [label="B_SCLN
+None" style=dashed]
+	naginata_reversenode_B_V -> naginata_reversenode_B_V_B_SCLN [constraint=true style=dashed]
+	naginata_reversenode_B_V_B_P [label="B_P
+None" style=dashed]
+	naginata_reversenode_B_V -> naginata_reversenode_B_V_B_P [constraint=true style=dashed]
+	naginata_reversenode_B_V_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_V -> naginata_reversenode_B_V_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_V_B_K [label="B_K
+None" style=dashed]
+	naginata_reversenode_B_V -> naginata_reversenode_B_V_B_K [constraint=true style=dashed]
+	naginata_reversenode_B_V_B_L [label="B_L
+None" style=dashed]
+	naginata_reversenode_B_V -> naginata_reversenode_B_V_B_L [constraint=true style=dashed]
+	naginata_reversenode_B_V_B_N [label="B_N
+None" style=dashed]
+	naginata_reversenode_B_V -> naginata_reversenode_B_V_B_N [constraint=true style=dashed]
+	naginata_reversenode_B_V_B_O [label="B_O
+None" style=dashed]
+	naginata_reversenode_B_V -> naginata_reversenode_B_V_B_O [constraint=true style=dashed]
+	naginata_reversenode_B_V_B_H [label="B_H
+None" style=dashed]
+	naginata_reversenode_B_V -> naginata_reversenode_B_V_B_H [constraint=true style=dashed]
+	naginata_reversenode_B_B [label="B_B
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_B [constraint=true style=dashed]
+	naginata_reversenode_B_N [label="B_N
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_N [constraint=true style=dashed]
+	naginata_reversenode_B_N_B_SCLN [label="B_SCLN
+None" style=dashed]
+	naginata_reversenode_B_N -> naginata_reversenode_B_N_B_SCLN [constraint=true style=dashed]
+	naginata_reversenode_B_N_B_V [label="B_V
+None" style=dashed]
+	naginata_reversenode_B_N -> naginata_reversenode_B_N_B_V [constraint=true style=dashed]
+	naginata_reversenode_B_N_B_L [label="B_L
+None" style=dashed]
+	naginata_reversenode_B_N -> naginata_reversenode_B_N_B_L [constraint=true style=dashed]
+	naginata_reversenode_B_N_B_F [label="B_F
+None" style=dashed]
+	naginata_reversenode_B_N -> naginata_reversenode_B_N_B_F [constraint=true style=dashed]
+	naginata_reversenode_B_N_B_H [label="B_H
+None" style=dashed]
+	naginata_reversenode_B_N -> naginata_reversenode_B_N_B_H [constraint=true style=dashed]
+	naginata_reversenode_B_M [label="B_M
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_M [constraint=true style=dashed]
+	naginata_reversenode_B_M_B_X [label="B_X
+None" style=dashed]
+	naginata_reversenode_B_M -> naginata_reversenode_B_M_B_X [constraint=true style=dashed]
+	naginata_reversenode_B_M_B_I [label="B_I
+None" style=dashed]
+	naginata_reversenode_B_M -> naginata_reversenode_B_M_B_I [constraint=true style=dashed]
+	naginata_reversenode_B_M_B_P [label="B_P
+None" style=dashed]
+	naginata_reversenode_B_M -> naginata_reversenode_B_M_B_P [constraint=true style=dashed]
+	naginata_reversenode_B_M_B_H [label="B_H
+None" style=dashed]
+	naginata_reversenode_B_M -> naginata_reversenode_B_M_B_H [constraint=true style=dashed]
+	naginata_reversenode_B_M_B_E [label="B_E
+None" style=dashed]
+	naginata_reversenode_B_M -> naginata_reversenode_B_M_B_E [constraint=true style=dashed]
+	naginata_reversenode_B_M_B_K [label="B_K
+None" style=dashed]
+	naginata_reversenode_B_M -> naginata_reversenode_B_M_B_K [constraint=true style=dashed]
+	naginata_reversenode_B_M_B_L [label="B_L
+None" style=dashed]
+	naginata_reversenode_B_M -> naginata_reversenode_B_M_B_L [constraint=true style=dashed]
+	naginata_reversenode_B_M_B_D [label="B_D
+None" style=dashed]
+	naginata_reversenode_B_M -> naginata_reversenode_B_M_B_D [constraint=true style=dashed]
+	naginata_reversenode_B_M_B_O [label="B_O
+None" style=dashed]
+	naginata_reversenode_B_M -> naginata_reversenode_B_M_B_O [constraint=true style=dashed]
+	naginata_reversenode_B_M_B_R [label="B_R
+None" style=dashed]
+	naginata_reversenode_B_M -> naginata_reversenode_B_M_B_R [constraint=true style=dashed]
+	naginata_reversenode_B_M_B_G [label="B_G
+None" style=dashed]
+	naginata_reversenode_B_M -> naginata_reversenode_B_M_B_G [constraint=true style=dashed]
+	naginata_reversenode_B_COMM [label="B_COMM
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_COMM [constraint=true style=dashed]
+	naginata_reversenode_B_DOT [label="B_DOT
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_DOT [constraint=true style=dashed]
+	naginata_reversenode_B_RS2 [label="B_RS2
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_RS2 [constraint=true style=dashed]
+	naginata_reversenode_B_RS2_B_LS2 [label="B_LS2
+None" style=dashed]
+	naginata_reversenode_B_RS2 -> naginata_reversenode_B_RS2_B_LS2 [constraint=true style=dashed]
+	naginata_reversenode_B_Z [label="B_Z
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_Z [constraint=true style=dashed]
+	naginata_reversenode_B_X [label="B_X
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_X [constraint=true style=dashed]
+	naginata_reversenode_B_X_B_J [label="B_J
+None" style=dashed]
+	naginata_reversenode_B_X -> naginata_reversenode_B_X_B_J [constraint=true style=dashed]
+	naginata_reversenode_B_X_B_I [label="B_I
+None" style=dashed]
+	naginata_reversenode_B_X -> naginata_reversenode_B_X_B_I [constraint=true style=dashed]
+	naginata_reversenode_B_X_B_P [label="B_P
+None" style=dashed]
+	naginata_reversenode_B_X -> naginata_reversenode_B_X_B_P [constraint=true style=dashed]
+	naginata_reversenode_B_X_B_H [label="B_H
+None" style=dashed]
+	naginata_reversenode_B_X -> naginata_reversenode_B_X_B_H [constraint=true style=dashed]
+	naginata_reversenode_B_X_B_M [label="B_M
+None" style=dashed]
+	naginata_reversenode_B_X -> naginata_reversenode_B_X_B_M [constraint=true style=dashed]
+	naginata_reversenode_B_Q [label="B_Q
+None" style=dashed]
+	naginata_node_root -> naginata_reversenode_B_Q [constraint=true style=dashed]
+}
