@@ -178,12 +178,22 @@ def generate_tree(title: str, file_name: str):
         current_node.value = keydata[i]
 
     # set value for intermediate nodes
-    for i in all_nodes:
-        if i.value is None and len(i.keys) > 1 and not i.reverse:
-            last_key = i.keys[-1]
+    for n in all_nodes:
+        if n.value is None and len(n.keys) > 1 and not n.reverse:
+            first_key = n.keys[0]
             for k in keydata:
-                if (last_key,) == k:
-                    i.value = keydata[k]
+                if (first_key,) == k:
+                    n.value = keydata[k]
+
+            n.reverse_children[first_key] = all_nodes[
+                all_nodes.index(
+                    Node(
+                        title=title,
+                        keys=n.keys[1:],
+                        reverse=False,
+                    )
+                )
+            ]
 
     return all_nodes
 

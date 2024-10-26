@@ -8,7 +8,6 @@ void                   ng_send_string(const char* str) {
     if (strcmp(str, "dvo") == 0) {
         tap_code(KC_LNG2);
         layer_move(L_DVO);
-
         return;
     }
     send_string(str);
@@ -50,7 +49,9 @@ bool process_naginata(uint16_t keycode, keyrecord_t* record) {
                     ng_current_node = next_node;
                 }
             } else {
-                ng_send_string(ng_current_node->value);
+                if (ng_current_node->prev_node(keycode) != NULL) {
+                    ng_send_string(ng_current_node->value);
+                }
                 const naginata_node_t* n = ng_current_node->prev_node(keycode);
                 if (n != NULL) {
                     ng_current_node = n;

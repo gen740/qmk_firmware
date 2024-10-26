@@ -1,3 +1,4 @@
+#include "gen740.h"
 #include "dvorak.h"
 #include "dvorak_keydata.h"
 
@@ -48,15 +49,12 @@ bool process_dvorak(uint16_t keycode, keyrecord_t* record) {
                     dv_current_node = next_node;
                 }
             } else {
+                if (dv_current_node->prev_node(keycode) != NULL) {
+                    dv_send_string(dv_current_node->value);
+                }
                 const dvorak_node_t* n = dv_current_node->prev_node(keycode);
                 if (n != NULL) {
-                    dv_send_string(dv_current_node->value);
                     dv_current_node = n;
-                } else {
-                    while (dv_current_node->parent != NULL) {
-                        dv_send_string(dv_current_node->value);
-                        dv_current_node = dv_current_node->parent;
-                    }
                 }
             }
             return false;
