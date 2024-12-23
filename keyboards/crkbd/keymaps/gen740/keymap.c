@@ -11,7 +11,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓ ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓  */
       XXXXXXX ,  NG_Q   ,  NG_W   ,  NG_E   ,  NG_R   ,  NG_T   , KC_LEFT ,  KC_RIGHT ,  NG_Y   ,  NG_U   ,  NG_I   ,  NG_O   ,  NG_P   , XXXXXXX ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫ ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
-      MO_MOD  ,  NG_A   ,  NG_S   ,  NG_D   ,  NG_F   ,  NG_G   ,PREV_APP ,  NEXT_APP ,  NG_H   ,  NG_J   ,  NG_K   ,  NG_L   , NG_SCLN , XXXXXXX ,  /*
+      MO_MOD  ,  NG_A   ,  NG_S   ,  NG_D   ,  NG_F   ,  NG_G   ,PREV_APP ,  NEXT_APP ,  NG_H   ,  NG_J   ,  NG_K   ,  NG_L   , NG_SCLN , MO_MOD ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┛ ┗━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
       XXXXXXX ,  NG_Z   ,  NG_X   ,  NG_C   ,  NG_V   ,  NG_B   ,                        NG_N   ,  NG_M   , NG_COMM , NG_DOT  , NG_SLSH , XXXXXXX ,  /*
     ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┓ ┏━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛  */
@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓ ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓  */
       XXXXXXX , DV_QUOT , DV_COMM , DV_DOT  ,  DV_P   ,  DV_Y   ,G(KC_AT) ,  KC_RIGHT ,  DV_F   ,  DV_G   ,  DV_C   ,  DV_R   ,  DV_L   , XXXXXXX ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫ ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
-      MO_MOD  ,  DV_A   ,  DV_O   ,  DV_E   ,  DV_U   ,  DV_I   ,PREV_APP ,  NEXT_APP ,  DV_D   ,  DV_H   ,  DV_T   ,  DV_N   ,  DV_S   , XXXXXXX ,  /*
+      MO_MOD  ,  DV_A   ,  DV_O   ,  DV_E   ,  DV_U   ,  DV_I   ,PREV_APP ,  NEXT_APP ,  DV_D   ,  DV_H   ,  DV_T   ,  DV_N   ,  DV_S   , MO_MOD ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┛ ┗━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
       XXXXXXX , DV_SCLN ,  DV_Q   ,  DV_J   ,  DV_K   ,  DV_X   ,                        DV_B   ,  DV_M   ,  DV_W   ,  DV_V   ,  DV_Z   , XXXXXXX ,  /*
     ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┓ ┏━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛  */
@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫ ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
       XXXXXXX , KC_LSFT , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX ,   XXXXXXX , XXXXXXX , KC_LEFT , KC_DOWN ,KC_RIGHT , XXXXXXX , XXXXXXX ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┛ ┗━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
-      RGB_TOG , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX ,                       XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , QK_BOOT ,  /*
+      QK_BOOT , RGB_TOG , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX ,                       XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , QK_BOOT ,  /*
     ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┓ ┏━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛  */
                                               XXXXXXX , XXXXXXX , XXXXXXX ,   XXXXXXX ,LSFT(KC_ENT), XXXXXXX                                            /*
                                             ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛ ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛                                          */ ),
