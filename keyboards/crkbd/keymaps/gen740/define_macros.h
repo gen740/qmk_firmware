@@ -15,7 +15,7 @@
 #define KK_VOLU A(S(KC_VOLU))
 #define KK_VOLD A(S(KC_VOLD))
 
-#define LAYOUT(layout) [layout] = LAYOUT_split_3x6_3_ex2(
+#define LAYOUT_ex2(layout) [layout] = LAYOUT_split_3x6_3_ex2(
 
 #define CS(KC) LCTL(S(KC))
 #define LAGDOWN LAG(KC_DOWN)
