@@ -1,6 +1,6 @@
-OLED_ENABLE = no
-RGB_MATRIX_ENABLE = no
-RGBLIGHT_ENABLE = no
+ENCODER_MAP_ENABLE = no
+
+RGB_MATRIX_ENABLE = yes
 
 MOUSEKEY_ENABLE = no
 TAP_DANCE_ENABLE = no
@@ -11,12 +11,12 @@ SPACE_CADET_ENABLE = no
 MAGIC_ENABLE = no
 
 SRC += naginata.c
-SRC += oled.c
 SRC += naginata_keydata.c
-INTROSPECTION_KEYMAP_C += combo.c
+SRC += dvorak.c
+SRC += dvorak_keydata.c
 
-EXTRAFLAGS += -Os
-LTO_ENABLE = yes
+EXTRAFLAGS += -flto=auto
 
-COMBO_ENABLE = yes
+COMBO_ENABLE = no
 EXTRAKEY_ENABLE = yes
+DEFERRED_EXEC_ENABLE = yes

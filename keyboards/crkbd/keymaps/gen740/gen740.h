@@ -2,19 +2,12 @@
 
 #include QMK_KEYBOARD_H
 
-enum my_keycodes {
-  NAG_ESC = SAFE_RANGE + 32,
-};
+#include "naginata.h"
 
-enum layer_number {
-  L_DVORAK,
-  L_NAGINATA,
-  L_RAISE,
-  L_ADJUST,
-  L_MODIFIER,
-  L_MEH,
-  L_HYPER,
-  L_LCAG,
-  L_GAME,
-  L_GAME2,
-};
+typedef enum my_keycodes {
+    NEXT_APP = NG_SAFE_RANGE, // 薙刀式シフトキー
+    PREV_APP,
+    MK_SAFE_RANGE,
+} MYKEYS;
+
+enum layer_number { L_DVO, L_NAG, L_MOD, L_GAME, L_GAME2 };
