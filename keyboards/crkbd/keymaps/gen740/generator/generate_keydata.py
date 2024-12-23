@@ -13,6 +13,8 @@ def parse_string(value: str):
         return "SS_TAP(X_ENT)"
     elif value == "<b>":
         return "SS_TAP(X_BSPC)"
+    elif value == "<t>":
+        return "SS_TAP(X_TAB)"
     elif value == "←":
         return "SS_TAP(X_LEFT)"
     elif value == "→":
@@ -22,8 +24,8 @@ def parse_string(value: str):
 
 def parse_value(value: str):
     if len(value) > 1 and "-" in value:
-        v = value.split("-")
-        ret = f'{parse_string(v[1])}'
+        v = value.split("-", 1)
+        ret = f"{parse_string(v[1])}"
         if "c" in v[0]:
             ret = f"SS_LCTL({ret})"
         if "s" in v[0]:

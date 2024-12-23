@@ -20,7 +20,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   LAYOUT(L_DVO)                                                                                                                                      /*
     ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓ ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓  */
-      XXXXXXX , DV_QUOT , DV_COMM , DV_DOT  ,  DV_P   ,  DV_Y   , KC_LEFT ,  KC_RIGHT ,  DV_F   ,  DV_G   ,  DV_C   ,  DV_R   ,  DV_L   , XXXXXXX ,  /*
+      XXXXXXX , DV_QUOT , DV_COMM , DV_DOT  ,  DV_P   ,  DV_Y   ,G(KC_AT) ,  KC_RIGHT ,  DV_F   ,  DV_G   ,  DV_C   ,  DV_R   ,  DV_L   , XXXXXXX ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫ ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
       MO_MOD  ,  DV_A   ,  DV_O   ,  DV_E   ,  DV_U   ,  DV_I   ,PREV_APP ,  NEXT_APP ,  DV_D   ,  DV_H   ,  DV_T   ,  DV_N   ,  DV_S   , XXXXXXX ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┛ ┗━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
@@ -31,7 +31,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   LAYOUT(L_MOD)                                                                                                                                      /*
     ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓ ┏━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━┓  */
-      XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , DF_GAME ,   XXXXXXX , XXXXXXX , XXXXXXX ,  KC_UP  , XXXXXXX , XXXXXXX , DF_GAME ,  /*
+      XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX ,   XXXXXXX , XXXXXXX , XXXXXXX ,  KC_UP  , XXXXXXX , XXXXXXX , DF_GAME ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫ ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
       XXXXXXX , KC_LSFT , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX ,   XXXXXXX , XXXXXXX , KC_LEFT , KC_DOWN ,KC_RIGHT , XXXXXXX , XXXXXXX ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┛ ┗━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫ ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
       KC_LSFT ,  KC_A   ,  KC_S   ,  KC_D   ,  KC_F   ,  KC_G   ,  KC_H   ,  NEXT_APP ,  KC_H   ,  KC_J   ,  KC_K   ,  KC_L   , KC_SCLN , XXXXXXX ,  /*
     ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┛ ┗━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫  */
-       KC_M   ,  KC_Z   ,  KC_X   ,  KC_C   ,  KC_V   ,  KC_B   ,                        KC_N   ,  KC_M   , KC_COMM , KC_DOT  , KC_SLSH , XXXXXXX ,  /*
+       KC_M   ,  KC_1   ,  KC_2   ,  KC_3   ,  KC_4   ,  KC_5   ,                        KC_N   ,  KC_M   , KC_COMM , KC_DOT  , KC_SLSH , XXXXXXX ,  /*
     ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┓ ┏━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛  */
                                               KC_LCTL , KC_SPC  ,MO_GAME2 ,   XXXXXXX , KC_ENT  , KC_RGUI                                            /*
                                             ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛ ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛                                          */ ),
