@@ -19,6 +19,10 @@ def parse_string(value: str):
         return "SS_TAP(X_LEFT)"
     elif value == "→":
         return "SS_TAP(X_RIGHT)"
+    elif value == "↑":
+        return "SS_TAP(X_UP)"
+    elif value == "↓":
+        return "SS_TAP(X_DOWN)"
     return f"{json.dumps(value)}"
 
 

@@ -207,17 +207,17 @@ def generate_decl_def(title: str, file_name: str):
     for node in all_node:
         declarelations.add(f"const {title}_node_t {node.struct_name};")
 
-        definitions.add(f"""\
+        definitions.add(f"""
 const {title}_node_t* {node.struct_name}_next_node(uint16_t key) {{
     switch (key) {{
-        {"".join([f"case {k}: return &{v.struct_name};\n" for k, v in node.children.items()])}
+        {"".join([f"case {k}: return &{v.struct_name};" for k, v in node.children.items()])}
         default: return NULL;
     }}
 }}
 
 const {title}_node_t* {node.struct_name}_prev_node(uint16_t key) {{
     switch (key) {{
-        {"".join([f"case {k}: return &{v.struct_name};\n" for k, v in node.reverse_children.items()])}
+        {"".join([f"case {k}: return &{v.struct_name};" for k, v in node.reverse_children.items()])}
         default: return NULL;
     }}
 }}
