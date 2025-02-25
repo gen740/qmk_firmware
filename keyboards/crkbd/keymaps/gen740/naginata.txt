@@ -457,5 +457,7 @@ NG_F NG_G         = "dvo"
 NG_G NG_F         = "dvo"
 NG_W NG_E         = SS_TAP(X_ESC)
 NG_E NG_W         = SS_TAP(X_ESC)
+NG_H NG_J         = ""
+NG_J NG_H         = ""
 NG_LSFT2 NG_RSFT2 = SS_LSFT(" ")
 NG_RSFT2 NG_LSFT2 = SS_LSFT(" ")

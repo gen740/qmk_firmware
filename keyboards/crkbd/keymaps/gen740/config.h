@@ -5,6 +5,11 @@
 #define PERMISSIVE_HOLD
 #define TAPPING_TERM 180
 
+
+#define MK_MOMENTARY_ACCEL
+#define MK_C_INTERVAL_0 32
+
+
 // Firmware のサイズ削減用のオプション
 #define LAYER_STATE_8BIT
 #undef LOCKING_SUPPORT_ENABLE

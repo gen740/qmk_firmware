@@ -8,6 +8,7 @@
 #define BSPC_rai LT(L_RAI, KC_BSPC)
 
 #define MO_MOD MO(L_MOD)
+#define MO_MS MO(L_MOUSE)
 #define DF_GAME DF(L_GAME)
 #define MO_GAME2 MO(L_GAME2)
 #define DF_DVO DF(L_DVO)
