@@ -49,11 +49,11 @@ f"""const dv_node_t* {node.struct_name}_children[{len(node.children)}] = {{
 {"\n".join([f"\t&{i.struct_name}," for i in node.children])}
 }};""" if len(node.children) != 0 else "" }
 const PROGMEM dv_node_t {node.struct_name} = {{
-       .parent       = {f"&{node.parent.struct_name}" if node.parent else "NULL"},
-       .children     = {f"{node.struct_name}_children" if len(node.children) != 0 else "NULL"},
-       .children_num = {len(node.children)},
-       .key          = {node.key or "-1"},
-       .value        = {node.value or "NULL"},
+  .parent       = {f"&{node.parent.struct_name}" if node.parent else "NULL"},
+  .children     = {f"{node.struct_name}_children" if len(node.children) != 0 else "NULL"},
+  .children_num = {len(node.children)},
+  .key          = {node.key or "-1"},
+  .value        = {node.value or "NULL"},
 }};
 """)
 

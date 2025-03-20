@@ -5,6 +5,7 @@ from itertools import combinations
 import generate_keydata
 import sys
 import tomllib
+import os
 
 
 def create_struct_name(title: str, key: tuple, reverse: bool):
@@ -207,29 +208,27 @@ def generate_decl_def(title: str, file_name: str):
     for node in all_node:
         declarelations.add(f"const {title}_node_t {node.struct_name};")
 
-        definitions.add(f"""
+        definitions.add(f"""\
 const {title}_node_t* {node.struct_name}_next_node(uint16_t key) {{
-    switch (key) {{
-        {"".join([f"case {k}: return &{v.struct_name};" for k, v in node.children.items()])}
-        default: return NULL;
-    }}
+  switch (key) {{
+    {(os.linesep + "    ").join([f"case {k}: return &{v.struct_name};" for k, v in node.children.items()] + ["default: return NULL;"])}
+  }}
 }}
 
 const {title}_node_t* {node.struct_name}_prev_node(uint16_t key) {{
-    switch (key) {{
-        {"".join([f"case {k}: return &{v.struct_name};" for k, v in node.reverse_children.items()])}
-        default: return NULL;
-    }}
+  switch (key) {{
+    {(os.linesep + "    ").join([f"case {k}: return &{v.struct_name};" for k, v in node.reverse_children.items()] + ["default: return NULL;"])}
+  }}
 }}
 
 const {title}_node_t {node.struct_name} = {{
-    .parent       = {f"&{node.parent.struct_name}" if node.parent else "NULL"},
-    .key          = {"-1" if len(node.keys) == 0 else (node.keys[-1] or None)},
-    .value        = {node.value or "NULL"},
-    .reverse      = {"true" if node.reverse else "false"},
-    .next_node    = {node.struct_name}_next_node,
-    .prev_node    = {node.struct_name}_prev_node,
-    }};
+  .parent       = {f"&{node.parent.struct_name}" if node.parent else "NULL"},
+  .key          = {"-1" if len(node.keys) == 0 else (node.keys[-1] or None)},
+  .value        = {node.value or "NULL"},
+  .reverse      = {"true" if node.reverse else "false"},
+  .next_node    = {node.struct_name}_next_node,
+  .prev_node    = {node.struct_name}_prev_node,
+}};
 """)
 
     return declarelations, definitions
