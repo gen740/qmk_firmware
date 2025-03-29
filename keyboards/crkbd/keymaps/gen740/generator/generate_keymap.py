@@ -10,6 +10,8 @@ def _parse_string(value: str) -> list[str]:
         return []
     if value.startswith('" "'):
         return ["KC_SPC"] + _parse_string(value[3:])
+    elif value.startswith("<e>"):
+        return ["KC_ESC"] + _parse_string(value[3:])
     elif value.startswith("<r>"):
         return ["KC_ENT"] + _parse_string(value[3:])
     elif value.startswith("<b>"):

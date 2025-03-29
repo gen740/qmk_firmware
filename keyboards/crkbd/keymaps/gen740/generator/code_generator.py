@@ -63,9 +63,7 @@ value_leave: {self._value_leave}
         return f"{self.id}_node_" + "_".join(self.keys)
 
     def get_decl_str(self):
-        return f"""\
-const dvorak_node_t {self.get_struct_name()};
-"""
+        return f"const dvorak_node_t {self.get_struct_name()};"
 
     def get_next_node_func_str(self):
         return f"""\
@@ -83,8 +81,8 @@ const dvorak_node_t {self.get_struct_name()} = {{
   .parent       = {f"&{self.parent.get_struct_name()}" if self.parent else "NULL"},
   .next_node    = &{self.get_struct_name()}_next_node,
   .key          = {"-1" if len(self.keys) == 0 else (self.keys[-1] or None)},
-  .bounds       = {len(self._value_enter or []) << 4 | len(self._value_leave or [])},
-  .keys         = {f"{{ {', '.join(values)} }}" if len(values) > 0 else "NULL"},
+  .bounds       = {len(self._value_enter or []) << 4 | len(values)},
+  .keys         = {f"{{ {', '.join(values)} }}" if len(values) > 0 else "{}"},
 }};
 """
 
@@ -95,11 +93,12 @@ def generate_tree(id: str, filename: str):
     for keys, value in generate_keymaps(filename).items():
         ### Create all nodes
         for i in range(1, len(keys) + 1):
-            all_nodes[tuple(keys[:i])] = Node(
-                id=id,
-                keys=keys[:i],
-                parent=all_nodes[tuple(keys[: i - 1])],
-            )
+            if tuple(keys[:i]) not in all_nodes:
+                all_nodes[tuple(keys[:i])] = Node(
+                    id=id,
+                    keys=keys[:i],
+                    parent=all_nodes[tuple(keys[: i - 1])],
+                )
 
         ### Set values
 
@@ -107,17 +106,18 @@ def generate_tree(id: str, filename: str):
         if all_nodes[tuple(keys)].get_value_leave() is None:
             all_nodes[tuple(keys)].set_value_leave(value[1])
         else:
-            raise ValueError(
-                f"Duplicate value for key {keys} (value: {value}) in {filename}"
-            )
+            if all_nodes[tuple(keys)].get_value_leave() != value[1]:
+                raise ValueError(
+                    f"Duplicate value for key {keys} (set value: {all_nodes[tuple(keys)].get_value_leave()}value: {value}) in {filename}"
+                )
 
         #### Set enter values
         if len(keys) > 1:
             if all_nodes[tuple(keys[:-1])].get_value_enter() is None:
                 all_nodes[tuple(keys[:-1])].set_value_enter(value[0])
-            elif all_nodes[tuple(keys[:-1])].get_value_enter() == value[0]:
+            elif all_nodes[tuple(keys[:-1])].get_value_enter() != value[0]:
                 raise ValueError(
-                    f"Duplicate value for key {keys[:-1]} (value: {value}) in {filename}"
+                    f"Duplicate value enter for key {keys[:-1]} (set value: {all_nodes[tuple(keys[:-1])].get_value_enter()} value: {value[0]}) in {filename}"
                 )
 
     # Set parent and children
@@ -169,10 +169,19 @@ if __name__ == "__main__":
     with open(f"{sys.argv[1]}_keydata.h", "w") as f:
         f.write(config_value["header"])
 
+    defenitions = []
+    inplementations = []
+
+    def _visit_and_generate(node: Node):
+        defenitions.append(node.get_decl_str())
+        inplementations.append(node.get_next_node_func_str())
+        inplementations.append(node.get_def_str())
+        for child in node.children.values():
+            _visit_and_generate(child)
+
     with open(f"{sys.argv[1]}_keydata.c", "w") as f:
         f.write(config_value["source_prefix"])
-
-    print(config_value["header"])
-
-    # toml
-    # generate_tree("dv", "dvorak.txt")
+        _visit_and_generate(root)
+        f.write(os.linesep.join(defenitions))
+        f.write(os.linesep)
+        f.write(os.linesep.join(inplementations))
