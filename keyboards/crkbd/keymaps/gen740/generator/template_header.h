@@ -10,12 +10,9 @@ struct dvorak_node;
 
 typedef struct dvorak_node dvorak_node_t;
 
-typedef struct dvorak_node dvorak_node_t;
-
 struct dvorak_node {
   const dvorak_node_t *parent;                      // 4 bytes
   const dvorak_node_t *(*next_node)(uint16_t key);  // 4 bytes
-  const dvorak_node_t *(*prev_node)(uint16_t key);  // 4 bytes
   const uint16_t key;
   const uint8_t bounds;  //  First 4 bits: modifier, Last 4 bits: keycode
                          //  bounds & 0xF0: Enter event end of the string

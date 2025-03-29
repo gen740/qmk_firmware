@@ -1,14 +1,33 @@
-#include "dvorak.h"
-
 #include <string.h>
 
 #include "action.h"
 #include "action_layer.h"
-#include "dvorak_keydata.h"
+#include "dvorak.h"
 #include "gen740.h"
 
-int8_t level = 0x00;
-const dvorak_node_t *dv_current_node = &dvorak_node_root;
+typedef struct dvorak_node2 dvorak_node2_t;
+
+struct dvorak_node2 {
+  const dvorak_node2_t *parent;                      // 4 bytes
+  const dvorak_node2_t *(*next_node)(uint16_t key);  // 4 bytes
+  const dvorak_node2_t *(*prev_node)(uint16_t key);  // 4 bytes
+  const uint16_t key;
+  const uint8_t bounds;  //  First 4 bits: modifier, Last 4 bits: keycode
+                         //  bounds & 0xF0: Enter event end of the string
+                         //  bounds & 0x0F: Exit event end of the string
+  const uint8_t keys[];
+};
+
+const dvorak_node2_t dvorak_node_root = {
+    .parent = NULL,
+    .next_node = NULL,
+    .prev_node = NULL,
+    .key = 0,
+    .bounds = 0,
+    .keys = {},
+};
+
+const dvorak_node2_t *dv_current_node = &dvorak_node_root;
 
 void dv_send_exit_event(const uint8_t keys[], const uint8_t bounds) {
   for (int8_t i = bounds & 0xF0; i < (bounds & 0x0F); i++) {
@@ -37,7 +56,7 @@ bool process_dvorak(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case DV_A ... DV_RSFT3: {
       if (record->event.pressed) {
-        const dvorak_node_t *next_node = dv_current_node->next_node(keycode);
+        const dvorak_node2_t *next_node = dv_current_node->next_node(keycode);
 
         if (next_node == NULL) {
           // For n-key rollover
@@ -56,7 +75,7 @@ bool process_dvorak(uint16_t keycode, keyrecord_t *record) {
             dv_release_enter_event(dv_current_node->keys,
                                    dv_current_node->bounds);
 
-            const dvorak_node_t *n = dv_current_node->next_node(keycode);
+            const dvorak_node2_t *n = dv_current_node->next_node(keycode);
             if (n != NULL) {
               dv_current_node = n;
               dv_press_enter_event(dv_current_node->keys,
@@ -66,7 +85,7 @@ bool process_dvorak(uint16_t keycode, keyrecord_t *record) {
           }
           /* Replay the keys from the rollback point */
           for (int8_t i = rollback_keybuf_len - 1; i >= 0; i--) {
-            const dvorak_node_t *n =
+            const dvorak_node2_t *n =
                 dv_current_node->next_node(rollback_keybuf[i]);
             if (n == NULL) {
               break;
@@ -80,40 +99,12 @@ bool process_dvorak(uint16_t keycode, keyrecord_t *record) {
           dv_current_node = next_node;
           dv_press_enter_event(dv_current_node->keys, dv_current_node->bounds);
         }
-        level = level << 8 | ((level & 0x0F) + 1);
       } else {
-        uint16_t rollback_keybuf[8];
-        uint8_t rollback_keybuf_len = 0;
-
-        if ((level & 0xF0) < (level & 0x0F)) {
+        const dvorak_node2_t *prev_node = dv_current_node->prev_node(keycode);
+        if (prev_node != NULL) {
           dv_send_exit_event(dv_current_node->keys, dv_current_node->bounds);
+          dv_current_node = prev_node;
         }
-
-        // Rollback to the point where the next key is found
-        while (dv_current_node->parent != NULL) {
-          dv_current_node = dv_current_node->parent;
-          dv_release_enter_event(dv_current_node->keys,
-                                 dv_current_node->bounds);
-          if (dv_current_node->key == keycode) {
-            break;
-          } else {
-            rollback_keybuf[rollback_keybuf_len++] = dv_current_node->key;
-          }
-        }
-
-        // Replay the keys from the rollback point
-        for (int8_t i = rollback_keybuf_len - 1; i >= 0; i--) {
-          const dvorak_node_t *n =
-              dv_current_node->next_node(rollback_keybuf[i]);
-          if (n == NULL) {
-            break;
-          } else {
-            dv_current_node = n;
-            dv_press_enter_event(dv_current_node->keys,
-                                 dv_current_node->bounds);
-          }
-        }
-        level = level << 8 | ((level & 0x0F) - 1);
       }
     }
   }
