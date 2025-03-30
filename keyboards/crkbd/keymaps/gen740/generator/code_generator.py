@@ -63,11 +63,11 @@ value_leave: {self._value_leave}
         return f"{self.id}_node_" + "_".join(self.keys)
 
     def get_decl_str(self):
-        return f"const dvorak_node_t {self.get_struct_name()};"
+        return f"const {self.id}_node_t {self.get_struct_name()};"
 
     def get_next_node_func_str(self):
         return f"""\
-const dvorak_node_t* {self.get_struct_name()}_next_node(uint16_t key) {{
+const {self.id}_node_t* {self.get_struct_name()}_next_node(uint16_t key) {{
   switch (key) {{
     {(os.linesep + "    ").join([f"case {k}: return &{v.get_struct_name()};" for k, v in self.children.items()] + ["default: return NULL;"])}
   }}
@@ -77,10 +77,10 @@ const dvorak_node_t* {self.get_struct_name()}_next_node(uint16_t key) {{
     def get_def_str(self):
         values = (self._value_enter or []) + (self._value_leave or [])
         return f"""\
-const dvorak_node_t {self.get_struct_name()} = {{
+const {self.id}_node_t {self.get_struct_name()} = {{
   .parent       = {f"&{self.parent.get_struct_name()}" if self.parent else "NULL"},
   .next_node    = &{self.get_struct_name()}_next_node,
-  .key          = {"-1" if len(self.keys) == 0 else (self.keys[-1] or None)},
+  .key          = {"0" if len(self.keys) == 0 else (self.keys[-1] or None)},
   .bounds       = {len(self._value_enter or []) << 4 | len(values)},
   .keys         = {f"{{ {', '.join(values)} }}" if len(values) > 0 else "{}"},
 }};
@@ -113,12 +113,14 @@ def generate_tree(id: str, filename: str):
 
         #### Set enter values
         if len(keys) > 1:
-            if all_nodes[tuple(keys[:-1])].get_value_enter() is None:
+            prev_value_enter = all_nodes[tuple(keys[:-1])].get_value_enter()
+            if prev_value_enter is None:
                 all_nodes[tuple(keys[:-1])].set_value_enter(value[0])
-            elif all_nodes[tuple(keys[:-1])].get_value_enter() != value[0]:
-                raise ValueError(
-                    f"Duplicate value enter for key {keys[:-1]} (set value: {all_nodes[tuple(keys[:-1])].get_value_enter()} value: {value[0]}) in {filename}"
-                )
+            elif prev_value_enter != value[0]:
+                if len(prev_value_enter) != 0:
+                    raise ValueError(
+                        f"Duplicate value enter for key {keys[:-1]} (set value: {all_nodes[tuple(keys[:-1])].get_value_enter()} value: {value[0]}) in {filename}"
+                    )
 
     # Set parent and children
     for keycomb, node in all_nodes.items():
@@ -136,9 +138,15 @@ def generate_tree(id: str, filename: str):
         triggerred_enter_events = triggerred_enter_events or []
         current_enter_events = node.get_value_enter()
         if current_enter_events is not None:
-            if len(set(triggerred_enter_events) & set(current_enter_events)) > 0:
+            overlap_events = set(triggerred_enter_events) & set(current_enter_events)
+            if overlap_events == set(triggerred_enter_events) & overlap_events:
+                node.set_value_enter(list(set(current_enter_events) - overlap_events))
+            current_enter_events = node.get_value_enter()
+            if len(set(triggerred_enter_events) & set(current_enter_events)) > 0: # type: ignore
                 raise ValueError(
-                    f"Multiple enter events for key {node.keys} in {filename}"
+                    f"Multiple enter events for key {node.keys} in {filename}\n"
+                    f"\tFirst: {triggerred_enter_events}\n"
+                    f"\tSecond: {current_enter_events}"
                 )
         triggerred_enter_events = (triggerred_enter_events or []) + (
             node.get_value_enter() or []

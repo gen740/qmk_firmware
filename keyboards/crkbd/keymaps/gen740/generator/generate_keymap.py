@@ -10,6 +10,10 @@ def _parse_string(value: str) -> list[str]:
         return []
     if value.startswith('" "'):
         return ["KC_SPC"] + _parse_string(value[3:])
+    elif value.startswith("<n>"):
+        return ["KC_NO"] + _parse_string(value[3:])
+    elif value.startswith("<s>"):
+        return ["KC_SPC"] + _parse_string(value[3:])
     elif value.startswith("<e>"):
         return ["KC_ESC"] + _parse_string(value[3:])
     elif value.startswith("<r>"):
@@ -18,6 +22,10 @@ def _parse_string(value: str) -> list[str]:
         return ["KC_BSPC"] + _parse_string(value[3:])
     elif value.startswith("<t>"):
         return ["KC_TAB"] + _parse_string(value[3:])
+    elif value.startswith("<l1>"):
+        return ["KC_LANGUAGE_1"] + _parse_string(value[4:])
+    elif value.startswith("<l2>"):
+        return ["KC_LANGUAGE_2"] + _parse_string(value[4:])
     elif value.startswith("←"):
         return ["KC_LEFT"] + _parse_string(value[1:])
     elif value.startswith("→"):
@@ -26,8 +34,10 @@ def _parse_string(value: str) -> list[str]:
         return ["KC_UP"] + _parse_string(value[1:])
     elif value.startswith("↓"):
         return ["KC_DOWN"] + _parse_string(value[1:])
-    elif "a" <= value <= "z":
-        return [f"KC_{value.upper()}"] + _parse_string(value[1:])
+    elif "a" <= value[0] <= "z":
+        return [f"KC_{value[0].upper()}"] + _parse_string(value[1:])
+    elif "0" <= value[0] <= "9":
+        return [f"KC_{value[0]}"] + _parse_string(value[1:])
     elif value.startswith("'"):
         return ["KC_QUOT"] + _parse_string(value[1:])
     elif value.startswith(","):
@@ -50,6 +60,46 @@ def _parse_string(value: str) -> list[str]:
         return ["KC_GRV"] + _parse_string(value[1:])
     elif value.startswith("/"):
         return ["KC_SLSH"] + _parse_string(value[1:])
+    elif value.startswith("@"):
+        return ["KC_AT"] + _parse_string(value[1:])
+    elif value.startswith("#"):
+        return ["KC_HASH"] + _parse_string(value[1:])
+    elif value.startswith("$"):
+        return ["KC_DLR"] + _parse_string(value[1:])
+    elif value.startswith("%"):
+        return ["KC_PERC"] + _parse_string(value[1:])
+    elif value.startswith("^"):
+        return ["KC_CIRC"] + _parse_string(value[1:])
+    elif value.startswith("&"):
+        return ["KC_AMPR"] + _parse_string(value[1:])
+    elif value.startswith("*"):
+        return ["KC_ASTR"] + _parse_string(value[1:])
+    elif value.startswith("("):
+        return ["KC_LPRN"] + _parse_string(value[1:])
+    elif value.startswith(")"):
+        return ["KC_RPRN"] + _parse_string(value[1:])
+    elif value.startswith("{"):
+        return ["KC_LCBR"] + _parse_string(value[1:])
+    elif value.startswith("}"):
+        return ["KC_RCBR"] + _parse_string(value[1:])
+    elif value.startswith("|"):
+        return ["KC_PIPE"] + _parse_string(value[1:])
+    elif value.startswith("~"):
+        return ["KC_TILD"] + _parse_string(value[1:])
+    elif value.startswith("!"):
+        return ["KC_EXLM"] + _parse_string(value[1:])
+    elif value.startswith("?"):
+        return ["KC_QUES"] + _parse_string(value[1:])
+    elif value.startswith(":"):
+        return ["KC_COLN"] + _parse_string(value[1:])
+    elif value.startswith("+"):
+        return ["KC_PLUS"] + _parse_string(value[1:])
+    elif value.startswith("<"):
+        return ["KC_LT"] + _parse_string(value[1:])
+    elif value.startswith(">"):
+        return ["KC_GT"] + _parse_string(value[1:])
+    elif value.startswith("_"):
+        return ["KC_UNDS"] + _parse_string(value[1:])
     raise ValueError(f"Unknown character: {value}")
 
 
