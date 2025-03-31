@@ -12,7 +12,7 @@ static bool ng_char_emit = false;
 
 static bool ng_send_exit_event(const uint16_t keys[], const uint8_t bounds) {
   bool flag = false;
-  for (int8_t i = (bounds & 0xF0) >> 4; i < (bounds & 0x0F); i++) {
+  for (int8_t i = 0; i < bounds; i++) {
     if (keys[i] == KC_LANGUAGE_2) {
       tap_code(KC_LNG2);
       layer_move(L_DVO);
@@ -23,18 +23,6 @@ static bool ng_send_exit_event(const uint16_t keys[], const uint8_t bounds) {
     }
   }
   return flag;
-}
-
-static void ng_press_enter_event(const uint16_t keys[], const uint8_t bounds) {
-  for (int8_t i = 0; i < (bounds & 0xF0) >> 4; i++) {
-    register_code16(keys[i]);
-  }
-}
-
-static void ng_release_enter_event(const uint16_t keys[], const uint8_t bounds) {
-  for (int8_t i = 0; i < (bounds & 0xF0) >> 4; i++) {
-    unregister_code16(keys[i]);
-  }
 }
 
 static bool ng_is_key_in_branch(const naginata_node_t *node, uint16_t key) {
@@ -60,8 +48,6 @@ bool process_naginata(uint16_t keycode, keyrecord_t *record) {
         if (next_node == NULL) {
           while (ng_current_node->parent != NULL) {
             ng_rollback_keybuf[ng_rollback_keybuf_len++] = ng_current_node->key;
-            ng_release_enter_event(ng_current_node->keys,
-                                   ng_current_node->bounds);
             ng_current_node = ng_current_node->parent;
             if (ng_current_node->next_node(keycode) != NULL) {
               ng_current_node = ng_current_node->next_node(keycode);
@@ -75,12 +61,9 @@ bool process_naginata(uint16_t keycode, keyrecord_t *record) {
           }
         } else {
           ng_current_node = next_node;
-          ng_press_enter_event(ng_current_node->keys, ng_current_node->bounds);
         }
       } else {
         if (ng_current_node->key == keycode) {
-          ng_release_enter_event(ng_current_node->keys,
-                                 ng_current_node->bounds);
           if (!ng_char_emit) {
             ng_char_emit = ng_send_exit_event(ng_current_node->keys,
                                               ng_current_node->bounds);
@@ -92,8 +75,6 @@ bool process_naginata(uint16_t keycode, keyrecord_t *record) {
                                               ng_current_node->bounds);
           }
           while (ng_current_node->parent != NULL) {
-            ng_release_enter_event(ng_current_node->keys,
-                                   ng_current_node->bounds);
             if (ng_current_node->key == keycode) {
               if (!ng_char_emit) {
                 ng_send_exit_event(ng_current_node->keys,
@@ -114,8 +95,6 @@ bool process_naginata(uint16_t keycode, keyrecord_t *record) {
               break;
             }
             ng_current_node = n;
-            ng_press_enter_event(ng_current_node->keys,
-                                 ng_current_node->bounds);
           }
         }
       }

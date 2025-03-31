@@ -154,10 +154,10 @@ naginata_keydata = {
         #                 ┃     ┃     ┃     ┃ ┃     ┃     ┃     ┃
         #                 ┗━━━━━┻━━━━━┻━━━━━┛ ┗━━━━━┻━━━━━┻━━━━━┛
         [
-            None,             None,             None,             0,                None,                        None,             ["KC_S", "KC_Y", "KC_O"], None,             ["KC_S", "KC_Y", "KC_U"], None,
-            None,             None,             None,             None,             None,                        ["KC_S", "KC_Y", "KC_A"], None,             None,             None,             None,
-            None,             None,             None,             None,             None,                        None,             None,             None,             None,             None,
-                                                None,             None,             None,                        None,             None,             None,
+            None,             None,             None,             0,                None,                        None,                     None, ["KC_S", "KC_Y", "KC_O"], None, ["KC_S", "KC_Y", "KC_U"],
+            None,             None,             None,             None,             None,                        ["KC_S", "KC_Y", "KC_A"], None, None,                     None, None,
+            None,             None,             None,             None,             None,                        None,                     None, None,                     None, None,
+                                                None,             None,             None,                        None,                     None, None,
         ],
 
         # ###*### じゃ行
@@ -222,7 +222,7 @@ naginata_keydata = {
         #                 ┃     ┃     ┃     ┃ ┃     ┃     ┃     ┃
         #                 ┗━━━━━┻━━━━━┻━━━━━┛ ┗━━━━━┻━━━━━┻━━━━━┛
         [
-            None,          None,            None,             None,             None,                           None,                     ["KC_T", "KC_Y", "KC_O"], None,             ["KC_T", "KC_Y", "KC_U"], None,
+            None,          None,            None,             None,             None,                           None,                     None,                     ["KC_T", "KC_Y", "KC_O"], None,             ["KC_T", "KC_Y", "KC_U"],
             None,          None,            None,             None,             0,                              ["KC_T", "KC_Y", "KC_A"], None,                     None,             None,                     None,
             None,          None,            None,             None,             None,                           None,                     None,                     None,             None,                     None,
                                             None,             None,             None,                           None,                     None,                     None,
@@ -590,7 +590,13 @@ naginata_keydata = {
         # ┗━━━━━┻━━━━━┻━━━┳━┻━━━┳━┻━━━┳━┻━━━┓ ┏━━━┻━┳━━━┻━┳━━━┻━┳━━━┻━━━━━┻━━━━━┛
         #                 ┃     ┃     ┃     ┃ ┃     ┃     ┃     ┃
         #                 ┗━━━━━┻━━━━━┻━━━━━┛ ┗━━━━━┻━━━━━┻━━━━━┛
-        #
+        [
+            None,            None,            None,            None,            None,                        None,            "KC_AT",         "KC_TILD",       "KC_PERC",       "KC_DLR",
+            None,            1,               1,               None,            None,                        "KC_RCBR",       "KC_RBRC",       "KC_RPRN",       "KC_EXLM",       None,
+            None,            None,            None,            None,            None,                        "KC_UNDS",       "KC_MINS",       "KC_ASTR",       "KC_CIRC",       None,
+                                              None,            None,            None,                        None,            None,            None,
+        ],
+
         # ###*### Left Symbols
         # ┏━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┓         ┏━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┓
         # ┃  `  ┃  /  ┃  #  ┃  &  ┃     ┃         ┃     ┃     ┃ (1) ┃ (1) ┃     ┃
@@ -601,7 +607,13 @@ naginata_keydata = {
         # ┗━━━━━┻━━━━━┻━━━┳━┻━━━┳━┻━━━┳━┻━━━┓ ┏━━━┻━┳━━━┻━┳━━━┻━┳━━━┻━━━━━┻━━━━━┛
         #                 ┃     ┃     ┃     ┃ ┃     ┃     ┃     ┃
         #                 ┗━━━━━┻━━━━━┻━━━━━┛ ┗━━━━━┻━━━━━┻━━━━━┛
-        #
+        [
+            "KC_GRV",        "KC_SLSH",       "KC_HASH",       "KC_AMPR",       None,                        None,            None,            None,            None,            None,
+            None,            "KC_QUES",       "KC_LPRN",       "KC_LBRC",       "KC_LCBR",                   None,            None,            1,               1,               None,
+            None,            "KC_BSLS",       "KC_PIPE",       "KC_PLUS",       "KC_EQL",                    None,            None,            None,            None,            None,
+                                              None,            None,            None,                        None,            None,            None,
+        ],
+
         # ###*### Math expressions
         # ┏━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┓         ┏━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┓
         # ┃     ┃  /  ┃  (  ┃  [  ┃  {  ┃         ┃  }  ┃  ]  ┃  )  ┃  %  ┃     ┃
@@ -631,7 +643,7 @@ naginata_keydata = {
         #                    ┗━━━━━━┻━━━━━━┻━━━━━━┛ ┗━━━━━━┻━━━━━━┻━━━━━━┛
         [
             None,            None,            None,            None,            None,                        None,            None,            None,            None,            None,
-            None,            None,            None,            1,               "KC_LANGUAGE_2",             None,            None,            None,            None,            None,
+            None,            None,            None,            0,               "KC_LANGUAGE_2",             None,            None,            None,            None,            None,
             None,            None,            None,            None,            None,                        None,            None,            None,            None,            None,
                                               None,            None,            None,                        None,            None,            None,
         ],
@@ -648,7 +660,7 @@ naginata_keydata = {
         #                 ┗━━━━━┻━━━━━┻━━━━━┛ ┗━━━━━┻━━━━━┻━━━━━┛
         [
             None,            None,            None,            None,            None,                        None,            None,            None,            None,            None,
-            None,            None,            None,            None,            None,                        "KC_NO",         1,               None,            None,            None,
+            None,            None,            None,            None,            None,                        "KC_NO",         0,               None,            None,            None,
             None,            None,            None,            None,            None,                        None,            None,            None,            None,            None,
                                               None,            None,            None,                        None,            None,            None,
         ],

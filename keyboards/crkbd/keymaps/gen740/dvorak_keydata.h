@@ -14,9 +14,7 @@ struct dvorak_node {
   const dvorak_node_t *parent;                      // 4 bytes
   const dvorak_node_t *(*next_node)(uint16_t key);  // 4 bytes
   const uint16_t key;
-  const uint8_t bounds;  //  First 4 bits: modifier, Last 4 bits: keycode
-                         //  bounds & 0xF0: Enter event end of the string
-                         //  bounds & 0x0F: Exit event end of the string
+  const uint8_t bounds;
   const uint16_t keys[];
 };
 

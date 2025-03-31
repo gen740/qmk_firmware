@@ -11,9 +11,9 @@
 static const dvorak_node_t *dv_current_node = &dvorak_node_root;
 static bool dv_char_emit = false;
 
-static bool dv_send_exit_event(const uint16_t keys[], const uint8_t bounds) {
+static bool dv_send_event(const uint16_t keys[], const uint8_t bounds) {
   bool flag = false;
-  for (int8_t i = (bounds & 0xF0) >> 4; i < (bounds & 0x0F); i++) {
+  for (int8_t i = 0; i < bounds; i++) {
     if (keys[i] == KC_LANGUAGE_1) {
       tap_code(KC_LNG1);
       layer_move(L_NAG);
@@ -24,19 +24,6 @@ static bool dv_send_exit_event(const uint16_t keys[], const uint8_t bounds) {
     }
   }
   return flag;
-}
-
-static void dv_press_enter_event(const uint16_t keys[], const uint8_t bounds) {
-  for (int8_t i = 0; i < (bounds & 0xF0) >> 4; i++) {
-    register_code16(keys[i]);
-  }
-}
-
-static void dv_release_enter_event(const uint16_t keys[],
-                                   const uint8_t bounds) {
-  for (int8_t i = 0; i < (bounds & 0xF0) >> 4; i++) {
-    unregister_code16(keys[i]);
-  }
 }
 
 static bool dv_is_key_in_branch(const dvorak_node_t *node, uint16_t key) {
@@ -63,8 +50,6 @@ bool process_dvorak(uint16_t keycode, keyrecord_t *record) {
         if (next_node == NULL) {
           while (dv_current_node->parent != NULL) {
             dv_rollback_keybuf[dv_rollback_keybuf_len++] = dv_current_node->key;
-            dv_release_enter_event(dv_current_node->keys,
-                                   dv_current_node->bounds);
             dv_current_node = dv_current_node->parent;
             if (dv_current_node->next_node(keycode) != NULL) {
               dv_rollback_root = dv_current_node;
@@ -73,34 +58,29 @@ bool process_dvorak(uint16_t keycode, keyrecord_t *record) {
             }
           }
           for (int8_t i = dv_rollback_keybuf_len - 1; i >= 0; i--) {
-            dv_send_exit_event(
+            dv_send_event(
                 dv_rollback_root->next_node(dv_rollback_keybuf[i])->keys,
                 dv_rollback_root->next_node(dv_rollback_keybuf[i])->bounds);
           }
         } else {
           dv_current_node = next_node;
-          dv_press_enter_event(dv_current_node->keys, dv_current_node->bounds);
         }
       } else {
         if (dv_current_node->key == keycode) {
-          dv_release_enter_event(dv_current_node->keys,
-                                 dv_current_node->bounds);
           if (!dv_char_emit) {
-            dv_char_emit = dv_send_exit_event(dv_current_node->keys,
+            dv_char_emit = dv_send_event(dv_current_node->keys,
                                               dv_current_node->bounds);
           }
           dv_current_node = dv_current_node->parent;
         } else if (dv_is_key_in_branch(dv_current_node, keycode)) {
           if (!dv_char_emit) {
-            dv_char_emit = dv_send_exit_event(dv_current_node->keys,
+            dv_char_emit = dv_send_event(dv_current_node->keys,
                                               dv_current_node->bounds);
           }
           while (dv_current_node->parent != NULL) {
-            dv_release_enter_event(dv_current_node->keys,
-                                   dv_current_node->bounds);
             if (dv_current_node->key == keycode) {
               if (!dv_char_emit) {
-                dv_send_exit_event(dv_current_node->keys,
+                dv_send_event(dv_current_node->keys,
                                    dv_current_node->bounds);
               }
               dv_current_node = dv_current_node->parent;
@@ -118,8 +98,6 @@ bool process_dvorak(uint16_t keycode, keyrecord_t *record) {
               break;
             }
             dv_current_node = n;
-            dv_press_enter_event(dv_current_node->keys,
-                                 dv_current_node->bounds);
           }
         }
       }
