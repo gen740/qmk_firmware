@@ -103,7 +103,7 @@ def _parse_string(value: str) -> list[str]:
     raise ValueError(f"Unknown character: {value}")
 
 
-def _parse_value(value: str) -> tuple[list[str], list[str]]:
+def _parse_value(value: str) -> list[str]:
     modifiers: list[str] = []
     if len(value) > 1 and "-" in value:
         v = value.split("-", 1)
@@ -115,8 +115,8 @@ def _parse_value(value: str) -> tuple[list[str], list[str]]:
             modifiers.append("KC_LALT")
         if "g" in v[0]:
             modifiers.append("KC_LGUI")
-        return modifiers, _parse_string(v[1])
-    return modifiers, _parse_string(value)
+        return modifiers + _parse_string(v[1])
+    return modifiers + _parse_string(value)
 
 
 def _generate_basekeys_and_keydata(file_path: str):
@@ -150,7 +150,7 @@ def _generate_basekeys_and_keydata(file_path: str):
     return BASE_KEYS, keymaps, data
 
 
-def generate_keymaps(file_path: str) -> dict[tuple[str], tuple[list[str], list[str]]]:
+def generate_keymaps(file_path: str) -> dict[tuple[str], list[str]]:
     BASE_KEYS, keymaps, data = _generate_basekeys_and_keydata(file_path)
     special_mappings = {
         "(1)": 0,
@@ -165,7 +165,7 @@ def generate_keymaps(file_path: str) -> dict[tuple[str], tuple[list[str], list[s
         "(-)": 9,
     }
 
-    ret: dict[tuple[str], tuple[list[str], list[str]]] = {}
+    ret: dict[tuple[str], list[str]] = {}
 
     for keymap in keymaps:
         persistent_keycomb = [set() for _ in range(len(special_mappings))]

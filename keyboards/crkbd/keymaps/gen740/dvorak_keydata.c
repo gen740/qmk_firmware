@@ -8,102 +8,35 @@ const dvorak_node_t dvorak_node_root;
 const dvorak_node_t dvorak_node_DV_QUOT;
 const dvorak_node_t dvorak_node_DV_COMM;
 const dvorak_node_t dvorak_node_DV_COMM_DV_DOT;
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_G;
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_C;
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_R;
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_L;
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_D;
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_H;
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_T;
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_N;
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_B;
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_M;
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_W;
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_V;
 const dvorak_node_t dvorak_node_DV_DOT;
 const dvorak_node_t dvorak_node_DV_DOT_DV_COMM;
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_G;
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_C;
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_R;
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_L;
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_D;
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_H;
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_T;
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_N;
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_B;
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_M;
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_W;
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_V;
 const dvorak_node_t dvorak_node_DV_P;
 const dvorak_node_t dvorak_node_DV_Y;
 const dvorak_node_t dvorak_node_DV_F;
 const dvorak_node_t dvorak_node_DV_G;
 const dvorak_node_t dvorak_node_DV_C;
-const dvorak_node_t dvorak_node_DV_C_DV_R;
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_QUOT;
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_COMM;
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_DOT;
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_P;
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_O;
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_E;
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_U;
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_I;
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_Q;
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_J;
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_K;
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_X;
 const dvorak_node_t dvorak_node_DV_R;
-const dvorak_node_t dvorak_node_DV_R_DV_C;
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_QUOT;
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_COMM;
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_DOT;
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_P;
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_O;
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_E;
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_U;
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_I;
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_Q;
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_J;
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_K;
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_X;
 const dvorak_node_t dvorak_node_DV_L;
 const dvorak_node_t dvorak_node_DV_A;
 const dvorak_node_t dvorak_node_DV_O;
-const dvorak_node_t dvorak_node_DV_O_DV_E;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_F;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_G;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_C;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_R;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_L;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_D;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_H;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_T;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_N;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_S;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_B;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_M;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_W;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_V;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_Z;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_RSFT2;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_RSFT1;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_F;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_G;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_C;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_R;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_L;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_D;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_H;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_T;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_N;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_S;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_B;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_M;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_W;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_V;
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_Z;
 const dvorak_node_t dvorak_node_DV_O_DV_U;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_F;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_G;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_C;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_R;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_L;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_D;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_H;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_T;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_N;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_S;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_B;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_M;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_W;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_V;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_Z;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_RSFT2;
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_RSFT1;
 const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E;
 const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_F;
 const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_G;
@@ -120,6 +53,35 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_M;
 const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_W;
 const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_V;
 const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_Z;
+const dvorak_node_t dvorak_node_DV_O_DV_E;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_G;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_C;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_R;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_L;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_D;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_H;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_T;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_N;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_B;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_M;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_W;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_V;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_F;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_G;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_C;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_R;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_L;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_D;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_H;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_T;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_N;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_S;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_B;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_M;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_W;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_V;
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_Z;
 const dvorak_node_t dvorak_node_DV_E;
 const dvorak_node_t dvorak_node_DV_E_DV_U;
 const dvorak_node_t dvorak_node_DV_E_DV_U_DV_F;
@@ -156,7 +118,6 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_W;
 const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_V;
 const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_Z;
 const dvorak_node_t dvorak_node_DV_E_DV_O;
-const dvorak_node_t dvorak_node_DV_E_DV_O_DV_F;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_G;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_C;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_R;
@@ -165,14 +126,10 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_D;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_H;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_T;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_N;
-const dvorak_node_t dvorak_node_DV_E_DV_O_DV_S;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_B;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_M;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_W;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_V;
-const dvorak_node_t dvorak_node_DV_E_DV_O_DV_Z;
-const dvorak_node_t dvorak_node_DV_E_DV_O_DV_RSFT2;
-const dvorak_node_t dvorak_node_DV_E_DV_O_DV_RSFT1;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_F;
 const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_G;
@@ -225,6 +182,23 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_W;
 const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_V;
 const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_Z;
 const dvorak_node_t dvorak_node_DV_U_DV_O;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_F;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_G;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_C;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_R;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_L;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_D;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_H;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_T;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_N;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_S;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_B;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_M;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_W;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_V;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_Z;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_RSFT2;
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_RSFT1;
 const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E;
 const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_F;
 const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_G;
@@ -282,6 +256,23 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_J;
 const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_K;
 const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_X;
 const dvorak_node_t dvorak_node_DV_H_DV_N;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_QUOT;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_COMM;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_DOT;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_P;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_Y;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_A;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_O;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_E;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_U;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_I;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_SCLN;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_Q;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_J;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_K;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_X;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_LSFT1;
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_LSFT2;
 const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T;
 const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_QUOT;
 const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_COMM;
@@ -339,19 +330,14 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_QUOT;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_COMM;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_DOT;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_P;
-const dvorak_node_t dvorak_node_DV_T_DV_N_DV_Y;
-const dvorak_node_t dvorak_node_DV_T_DV_N_DV_A;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_O;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_E;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_U;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_I;
-const dvorak_node_t dvorak_node_DV_T_DV_N_DV_SCLN;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_Q;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_J;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_K;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_X;
-const dvorak_node_t dvorak_node_DV_T_DV_N_DV_LSFT1;
-const dvorak_node_t dvorak_node_DV_T_DV_N_DV_LSFT2;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_QUOT;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_COMM;
@@ -369,41 +355,24 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_J;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_K;
 const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_X;
 const dvorak_node_t dvorak_node_DV_N;
-const dvorak_node_t dvorak_node_DV_N_DV_T;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_QUOT;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_COMM;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_DOT;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_P;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_Y;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_A;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_O;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_E;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_U;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_I;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_SCLN;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_Q;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_J;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_K;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_X;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_LSFT1;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_LSFT2;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_QUOT;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_COMM;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_DOT;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_P;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_Y;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_A;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_O;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_E;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_U;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_I;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_SCLN;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_Q;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_J;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_K;
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_X;
 const dvorak_node_t dvorak_node_DV_N_DV_H;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_QUOT;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_COMM;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_DOT;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_P;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_Y;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_A;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_O;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_E;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_U;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_I;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_SCLN;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_Q;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_J;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_K;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_X;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_LSFT1;
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_LSFT2;
 const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T;
 const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_QUOT;
 const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_COMM;
@@ -420,6 +389,35 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_Q;
 const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_J;
 const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_K;
 const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_X;
+const dvorak_node_t dvorak_node_DV_N_DV_T;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_QUOT;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_COMM;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_DOT;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_P;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_O;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_E;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_U;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_I;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_Q;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_J;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_K;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_X;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_QUOT;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_COMM;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_DOT;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_P;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_Y;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_A;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_O;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_E;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_U;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_I;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_SCLN;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_Q;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_J;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_K;
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_X;
 const dvorak_node_t dvorak_node_DV_S;
 const dvorak_node_t dvorak_node_DV_SCLN;
 const dvorak_node_t dvorak_node_DV_Q;
@@ -464,70 +462,9 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_V;
 const dvorak_node_t dvorak_node_DV_LSFT1_DV_Z;
 const dvorak_node_t dvorak_node_DV_LSFT1_DV_LSFT2;
 const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT2;
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1;
 const dvorak_node_t dvorak_node_DV_LSFT2;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_QUOT;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_COMM;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_DOT;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_P;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_Y;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_F;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_G;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_C;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_R;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_L;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_A;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_O;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_E;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_U;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_I;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_D;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_H;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_T;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_N;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_S;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_SCLN;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_Q;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_J;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_K;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_X;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_B;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_M;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_W;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_V;
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_Z;
 const dvorak_node_t dvorak_node_DV_RSFT2;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_QUOT;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_COMM;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_DOT;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_P;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_Y;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_F;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_G;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_C;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_R;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_L;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_A;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_O;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_E;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_U;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_I;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_D;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_H;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_T;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_N;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_S;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_SCLN;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_Q;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_J;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_K;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_X;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_B;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_M;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_W;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_V;
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_Z;
 const dvorak_node_t dvorak_node_DV_RSFT1;
 const dvorak_node_t dvorak_node_DV_RSFT1_DV_QUOT;
 const dvorak_node_t dvorak_node_DV_RSFT1_DV_COMM;
@@ -664,18 +601,6 @@ const dvorak_node_t dvorak_node_DV_COMM = {
 
 const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_next_node(uint16_t key) {
   switch (key) {
-    case DV_G: return &dvorak_node_DV_COMM_DV_DOT_DV_G;
-    case DV_C: return &dvorak_node_DV_COMM_DV_DOT_DV_C;
-    case DV_R: return &dvorak_node_DV_COMM_DV_DOT_DV_R;
-    case DV_L: return &dvorak_node_DV_COMM_DV_DOT_DV_L;
-    case DV_D: return &dvorak_node_DV_COMM_DV_DOT_DV_D;
-    case DV_H: return &dvorak_node_DV_COMM_DV_DOT_DV_H;
-    case DV_T: return &dvorak_node_DV_COMM_DV_DOT_DV_T;
-    case DV_N: return &dvorak_node_DV_COMM_DV_DOT_DV_N;
-    case DV_B: return &dvorak_node_DV_COMM_DV_DOT_DV_B;
-    case DV_M: return &dvorak_node_DV_COMM_DV_DOT_DV_M;
-    case DV_W: return &dvorak_node_DV_COMM_DV_DOT_DV_W;
-    case DV_V: return &dvorak_node_DV_COMM_DV_DOT_DV_V;
     default: return NULL;
   }
 }
@@ -686,174 +611,6 @@ const dvorak_node_t dvorak_node_DV_COMM_DV_DOT = {
   .key          = DV_DOT,
   .bounds       = 1,
   .keys         = { KC_ESC },
-};
-
-const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_DV_G_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_G = {
-  .parent       = &dvorak_node_DV_COMM_DV_DOT,
-  .next_node    = &dvorak_node_DV_COMM_DV_DOT_DV_G_next_node,
-  .key          = DV_G,
-  .bounds       = 1,
-  .keys         = { KC_AT },
-};
-
-const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_DV_C_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_C = {
-  .parent       = &dvorak_node_DV_COMM_DV_DOT,
-  .next_node    = &dvorak_node_DV_COMM_DV_DOT_DV_C_next_node,
-  .key          = DV_C,
-  .bounds       = 1,
-  .keys         = { KC_TILD },
-};
-
-const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_DV_R_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_R = {
-  .parent       = &dvorak_node_DV_COMM_DV_DOT,
-  .next_node    = &dvorak_node_DV_COMM_DV_DOT_DV_R_next_node,
-  .key          = DV_R,
-  .bounds       = 1,
-  .keys         = { KC_PERC },
-};
-
-const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_DV_L_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_L = {
-  .parent       = &dvorak_node_DV_COMM_DV_DOT,
-  .next_node    = &dvorak_node_DV_COMM_DV_DOT_DV_L_next_node,
-  .key          = DV_L,
-  .bounds       = 1,
-  .keys         = { KC_DLR },
-};
-
-const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_DV_D_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_D = {
-  .parent       = &dvorak_node_DV_COMM_DV_DOT,
-  .next_node    = &dvorak_node_DV_COMM_DV_DOT_DV_D_next_node,
-  .key          = DV_D,
-  .bounds       = 1,
-  .keys         = { KC_RCBR },
-};
-
-const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_DV_H_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_H = {
-  .parent       = &dvorak_node_DV_COMM_DV_DOT,
-  .next_node    = &dvorak_node_DV_COMM_DV_DOT_DV_H_next_node,
-  .key          = DV_H,
-  .bounds       = 1,
-  .keys         = { KC_RBRC },
-};
-
-const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_DV_T_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_T = {
-  .parent       = &dvorak_node_DV_COMM_DV_DOT,
-  .next_node    = &dvorak_node_DV_COMM_DV_DOT_DV_T_next_node,
-  .key          = DV_T,
-  .bounds       = 1,
-  .keys         = { KC_RPRN },
-};
-
-const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_DV_N_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_N = {
-  .parent       = &dvorak_node_DV_COMM_DV_DOT,
-  .next_node    = &dvorak_node_DV_COMM_DV_DOT_DV_N_next_node,
-  .key          = DV_N,
-  .bounds       = 1,
-  .keys         = { KC_EXLM },
-};
-
-const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_DV_B_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_B = {
-  .parent       = &dvorak_node_DV_COMM_DV_DOT,
-  .next_node    = &dvorak_node_DV_COMM_DV_DOT_DV_B_next_node,
-  .key          = DV_B,
-  .bounds       = 1,
-  .keys         = { KC_UNDS },
-};
-
-const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_DV_M_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_M = {
-  .parent       = &dvorak_node_DV_COMM_DV_DOT,
-  .next_node    = &dvorak_node_DV_COMM_DV_DOT_DV_M_next_node,
-  .key          = DV_M,
-  .bounds       = 1,
-  .keys         = { KC_MINS },
-};
-
-const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_DV_W_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_W = {
-  .parent       = &dvorak_node_DV_COMM_DV_DOT,
-  .next_node    = &dvorak_node_DV_COMM_DV_DOT_DV_W_next_node,
-  .key          = DV_W,
-  .bounds       = 1,
-  .keys         = { KC_ASTR },
-};
-
-const dvorak_node_t* dvorak_node_DV_COMM_DV_DOT_DV_V_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_COMM_DV_DOT_DV_V = {
-  .parent       = &dvorak_node_DV_COMM_DV_DOT,
-  .next_node    = &dvorak_node_DV_COMM_DV_DOT_DV_V_next_node,
-  .key          = DV_V,
-  .bounds       = 1,
-  .keys         = { KC_CIRC },
 };
 
 const dvorak_node_t* dvorak_node_DV_DOT_next_node(uint16_t key) {
@@ -873,18 +630,6 @@ const dvorak_node_t dvorak_node_DV_DOT = {
 
 const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_next_node(uint16_t key) {
   switch (key) {
-    case DV_G: return &dvorak_node_DV_DOT_DV_COMM_DV_G;
-    case DV_C: return &dvorak_node_DV_DOT_DV_COMM_DV_C;
-    case DV_R: return &dvorak_node_DV_DOT_DV_COMM_DV_R;
-    case DV_L: return &dvorak_node_DV_DOT_DV_COMM_DV_L;
-    case DV_D: return &dvorak_node_DV_DOT_DV_COMM_DV_D;
-    case DV_H: return &dvorak_node_DV_DOT_DV_COMM_DV_H;
-    case DV_T: return &dvorak_node_DV_DOT_DV_COMM_DV_T;
-    case DV_N: return &dvorak_node_DV_DOT_DV_COMM_DV_N;
-    case DV_B: return &dvorak_node_DV_DOT_DV_COMM_DV_B;
-    case DV_M: return &dvorak_node_DV_DOT_DV_COMM_DV_M;
-    case DV_W: return &dvorak_node_DV_DOT_DV_COMM_DV_W;
-    case DV_V: return &dvorak_node_DV_DOT_DV_COMM_DV_V;
     default: return NULL;
   }
 }
@@ -895,174 +640,6 @@ const dvorak_node_t dvorak_node_DV_DOT_DV_COMM = {
   .key          = DV_COMM,
   .bounds       = 1,
   .keys         = { KC_ESC },
-};
-
-const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_DV_G_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_G = {
-  .parent       = &dvorak_node_DV_DOT_DV_COMM,
-  .next_node    = &dvorak_node_DV_DOT_DV_COMM_DV_G_next_node,
-  .key          = DV_G,
-  .bounds       = 1,
-  .keys         = { KC_AT },
-};
-
-const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_DV_C_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_C = {
-  .parent       = &dvorak_node_DV_DOT_DV_COMM,
-  .next_node    = &dvorak_node_DV_DOT_DV_COMM_DV_C_next_node,
-  .key          = DV_C,
-  .bounds       = 1,
-  .keys         = { KC_TILD },
-};
-
-const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_DV_R_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_R = {
-  .parent       = &dvorak_node_DV_DOT_DV_COMM,
-  .next_node    = &dvorak_node_DV_DOT_DV_COMM_DV_R_next_node,
-  .key          = DV_R,
-  .bounds       = 1,
-  .keys         = { KC_PERC },
-};
-
-const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_DV_L_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_L = {
-  .parent       = &dvorak_node_DV_DOT_DV_COMM,
-  .next_node    = &dvorak_node_DV_DOT_DV_COMM_DV_L_next_node,
-  .key          = DV_L,
-  .bounds       = 1,
-  .keys         = { KC_DLR },
-};
-
-const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_DV_D_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_D = {
-  .parent       = &dvorak_node_DV_DOT_DV_COMM,
-  .next_node    = &dvorak_node_DV_DOT_DV_COMM_DV_D_next_node,
-  .key          = DV_D,
-  .bounds       = 1,
-  .keys         = { KC_RCBR },
-};
-
-const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_DV_H_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_H = {
-  .parent       = &dvorak_node_DV_DOT_DV_COMM,
-  .next_node    = &dvorak_node_DV_DOT_DV_COMM_DV_H_next_node,
-  .key          = DV_H,
-  .bounds       = 1,
-  .keys         = { KC_RBRC },
-};
-
-const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_DV_T_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_T = {
-  .parent       = &dvorak_node_DV_DOT_DV_COMM,
-  .next_node    = &dvorak_node_DV_DOT_DV_COMM_DV_T_next_node,
-  .key          = DV_T,
-  .bounds       = 1,
-  .keys         = { KC_RPRN },
-};
-
-const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_DV_N_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_N = {
-  .parent       = &dvorak_node_DV_DOT_DV_COMM,
-  .next_node    = &dvorak_node_DV_DOT_DV_COMM_DV_N_next_node,
-  .key          = DV_N,
-  .bounds       = 1,
-  .keys         = { KC_EXLM },
-};
-
-const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_DV_B_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_B = {
-  .parent       = &dvorak_node_DV_DOT_DV_COMM,
-  .next_node    = &dvorak_node_DV_DOT_DV_COMM_DV_B_next_node,
-  .key          = DV_B,
-  .bounds       = 1,
-  .keys         = { KC_UNDS },
-};
-
-const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_DV_M_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_M = {
-  .parent       = &dvorak_node_DV_DOT_DV_COMM,
-  .next_node    = &dvorak_node_DV_DOT_DV_COMM_DV_M_next_node,
-  .key          = DV_M,
-  .bounds       = 1,
-  .keys         = { KC_MINS },
-};
-
-const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_DV_W_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_W = {
-  .parent       = &dvorak_node_DV_DOT_DV_COMM,
-  .next_node    = &dvorak_node_DV_DOT_DV_COMM_DV_W_next_node,
-  .key          = DV_W,
-  .bounds       = 1,
-  .keys         = { KC_ASTR },
-};
-
-const dvorak_node_t* dvorak_node_DV_DOT_DV_COMM_DV_V_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_DOT_DV_COMM_DV_V = {
-  .parent       = &dvorak_node_DV_DOT_DV_COMM,
-  .next_node    = &dvorak_node_DV_DOT_DV_COMM_DV_V_next_node,
-  .key          = DV_V,
-  .bounds       = 1,
-  .keys         = { KC_CIRC },
 };
 
 const dvorak_node_t* dvorak_node_DV_P_next_node(uint16_t key) {
@@ -1123,7 +700,6 @@ const dvorak_node_t dvorak_node_DV_G = {
 
 const dvorak_node_t* dvorak_node_DV_C_next_node(uint16_t key) {
   switch (key) {
-    case DV_R: return &dvorak_node_DV_C_DV_R;
     default: return NULL;
   }
 }
@@ -1136,203 +712,8 @@ const dvorak_node_t dvorak_node_DV_C = {
   .keys         = { KC_C },
 };
 
-const dvorak_node_t* dvorak_node_DV_C_DV_R_next_node(uint16_t key) {
-  switch (key) {
-    case DV_QUOT: return &dvorak_node_DV_C_DV_R_DV_QUOT;
-    case DV_COMM: return &dvorak_node_DV_C_DV_R_DV_COMM;
-    case DV_DOT: return &dvorak_node_DV_C_DV_R_DV_DOT;
-    case DV_P: return &dvorak_node_DV_C_DV_R_DV_P;
-    case DV_O: return &dvorak_node_DV_C_DV_R_DV_O;
-    case DV_E: return &dvorak_node_DV_C_DV_R_DV_E;
-    case DV_U: return &dvorak_node_DV_C_DV_R_DV_U;
-    case DV_I: return &dvorak_node_DV_C_DV_R_DV_I;
-    case DV_Q: return &dvorak_node_DV_C_DV_R_DV_Q;
-    case DV_J: return &dvorak_node_DV_C_DV_R_DV_J;
-    case DV_K: return &dvorak_node_DV_C_DV_R_DV_K;
-    case DV_X: return &dvorak_node_DV_C_DV_R_DV_X;
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R = {
-  .parent       = &dvorak_node_DV_C,
-  .next_node    = &dvorak_node_DV_C_DV_R_next_node,
-  .key          = DV_R,
-  .bounds       = 0,
-  .keys         = {},
-};
-
-const dvorak_node_t* dvorak_node_DV_C_DV_R_DV_QUOT_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_QUOT = {
-  .parent       = &dvorak_node_DV_C_DV_R,
-  .next_node    = &dvorak_node_DV_C_DV_R_DV_QUOT_next_node,
-  .key          = DV_QUOT,
-  .bounds       = 1,
-  .keys         = { KC_GRV },
-};
-
-const dvorak_node_t* dvorak_node_DV_C_DV_R_DV_COMM_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_COMM = {
-  .parent       = &dvorak_node_DV_C_DV_R,
-  .next_node    = &dvorak_node_DV_C_DV_R_DV_COMM_next_node,
-  .key          = DV_COMM,
-  .bounds       = 1,
-  .keys         = { KC_SLSH },
-};
-
-const dvorak_node_t* dvorak_node_DV_C_DV_R_DV_DOT_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_DOT = {
-  .parent       = &dvorak_node_DV_C_DV_R,
-  .next_node    = &dvorak_node_DV_C_DV_R_DV_DOT_next_node,
-  .key          = DV_DOT,
-  .bounds       = 1,
-  .keys         = { KC_HASH },
-};
-
-const dvorak_node_t* dvorak_node_DV_C_DV_R_DV_P_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_P = {
-  .parent       = &dvorak_node_DV_C_DV_R,
-  .next_node    = &dvorak_node_DV_C_DV_R_DV_P_next_node,
-  .key          = DV_P,
-  .bounds       = 1,
-  .keys         = { KC_AMPR },
-};
-
-const dvorak_node_t* dvorak_node_DV_C_DV_R_DV_O_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_O = {
-  .parent       = &dvorak_node_DV_C_DV_R,
-  .next_node    = &dvorak_node_DV_C_DV_R_DV_O_next_node,
-  .key          = DV_O,
-  .bounds       = 1,
-  .keys         = { KC_QUES },
-};
-
-const dvorak_node_t* dvorak_node_DV_C_DV_R_DV_E_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_E = {
-  .parent       = &dvorak_node_DV_C_DV_R,
-  .next_node    = &dvorak_node_DV_C_DV_R_DV_E_next_node,
-  .key          = DV_E,
-  .bounds       = 1,
-  .keys         = { KC_LPRN },
-};
-
-const dvorak_node_t* dvorak_node_DV_C_DV_R_DV_U_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_U = {
-  .parent       = &dvorak_node_DV_C_DV_R,
-  .next_node    = &dvorak_node_DV_C_DV_R_DV_U_next_node,
-  .key          = DV_U,
-  .bounds       = 1,
-  .keys         = { KC_LBRC },
-};
-
-const dvorak_node_t* dvorak_node_DV_C_DV_R_DV_I_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_I = {
-  .parent       = &dvorak_node_DV_C_DV_R,
-  .next_node    = &dvorak_node_DV_C_DV_R_DV_I_next_node,
-  .key          = DV_I,
-  .bounds       = 1,
-  .keys         = { KC_LCBR },
-};
-
-const dvorak_node_t* dvorak_node_DV_C_DV_R_DV_Q_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_Q = {
-  .parent       = &dvorak_node_DV_C_DV_R,
-  .next_node    = &dvorak_node_DV_C_DV_R_DV_Q_next_node,
-  .key          = DV_Q,
-  .bounds       = 1,
-  .keys         = { KC_BSLS },
-};
-
-const dvorak_node_t* dvorak_node_DV_C_DV_R_DV_J_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_J = {
-  .parent       = &dvorak_node_DV_C_DV_R,
-  .next_node    = &dvorak_node_DV_C_DV_R_DV_J_next_node,
-  .key          = DV_J,
-  .bounds       = 1,
-  .keys         = { KC_PIPE },
-};
-
-const dvorak_node_t* dvorak_node_DV_C_DV_R_DV_K_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_K = {
-  .parent       = &dvorak_node_DV_C_DV_R,
-  .next_node    = &dvorak_node_DV_C_DV_R_DV_K_next_node,
-  .key          = DV_K,
-  .bounds       = 1,
-  .keys         = { KC_PLUS },
-};
-
-const dvorak_node_t* dvorak_node_DV_C_DV_R_DV_X_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_C_DV_R_DV_X = {
-  .parent       = &dvorak_node_DV_C_DV_R,
-  .next_node    = &dvorak_node_DV_C_DV_R_DV_X_next_node,
-  .key          = DV_X,
-  .bounds       = 1,
-  .keys         = { KC_EQL },
-};
-
 const dvorak_node_t* dvorak_node_DV_R_next_node(uint16_t key) {
   switch (key) {
-    case DV_C: return &dvorak_node_DV_R_DV_C;
     default: return NULL;
   }
 }
@@ -1343,200 +724,6 @@ const dvorak_node_t dvorak_node_DV_R = {
   .key          = DV_R,
   .bounds       = 1,
   .keys         = { KC_R },
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_next_node(uint16_t key) {
-  switch (key) {
-    case DV_QUOT: return &dvorak_node_DV_R_DV_C_DV_QUOT;
-    case DV_COMM: return &dvorak_node_DV_R_DV_C_DV_COMM;
-    case DV_DOT: return &dvorak_node_DV_R_DV_C_DV_DOT;
-    case DV_P: return &dvorak_node_DV_R_DV_C_DV_P;
-    case DV_O: return &dvorak_node_DV_R_DV_C_DV_O;
-    case DV_E: return &dvorak_node_DV_R_DV_C_DV_E;
-    case DV_U: return &dvorak_node_DV_R_DV_C_DV_U;
-    case DV_I: return &dvorak_node_DV_R_DV_C_DV_I;
-    case DV_Q: return &dvorak_node_DV_R_DV_C_DV_Q;
-    case DV_J: return &dvorak_node_DV_R_DV_C_DV_J;
-    case DV_K: return &dvorak_node_DV_R_DV_C_DV_K;
-    case DV_X: return &dvorak_node_DV_R_DV_C_DV_X;
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C = {
-  .parent       = &dvorak_node_DV_R,
-  .next_node    = &dvorak_node_DV_R_DV_C_next_node,
-  .key          = DV_C,
-  .bounds       = 0,
-  .keys         = {},
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_DV_QUOT_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_QUOT = {
-  .parent       = &dvorak_node_DV_R_DV_C,
-  .next_node    = &dvorak_node_DV_R_DV_C_DV_QUOT_next_node,
-  .key          = DV_QUOT,
-  .bounds       = 1,
-  .keys         = { KC_GRV },
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_DV_COMM_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_COMM = {
-  .parent       = &dvorak_node_DV_R_DV_C,
-  .next_node    = &dvorak_node_DV_R_DV_C_DV_COMM_next_node,
-  .key          = DV_COMM,
-  .bounds       = 1,
-  .keys         = { KC_SLSH },
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_DV_DOT_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_DOT = {
-  .parent       = &dvorak_node_DV_R_DV_C,
-  .next_node    = &dvorak_node_DV_R_DV_C_DV_DOT_next_node,
-  .key          = DV_DOT,
-  .bounds       = 1,
-  .keys         = { KC_HASH },
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_DV_P_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_P = {
-  .parent       = &dvorak_node_DV_R_DV_C,
-  .next_node    = &dvorak_node_DV_R_DV_C_DV_P_next_node,
-  .key          = DV_P,
-  .bounds       = 1,
-  .keys         = { KC_AMPR },
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_DV_O_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_O = {
-  .parent       = &dvorak_node_DV_R_DV_C,
-  .next_node    = &dvorak_node_DV_R_DV_C_DV_O_next_node,
-  .key          = DV_O,
-  .bounds       = 1,
-  .keys         = { KC_QUES },
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_DV_E_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_E = {
-  .parent       = &dvorak_node_DV_R_DV_C,
-  .next_node    = &dvorak_node_DV_R_DV_C_DV_E_next_node,
-  .key          = DV_E,
-  .bounds       = 1,
-  .keys         = { KC_LPRN },
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_DV_U_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_U = {
-  .parent       = &dvorak_node_DV_R_DV_C,
-  .next_node    = &dvorak_node_DV_R_DV_C_DV_U_next_node,
-  .key          = DV_U,
-  .bounds       = 1,
-  .keys         = { KC_LBRC },
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_DV_I_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_I = {
-  .parent       = &dvorak_node_DV_R_DV_C,
-  .next_node    = &dvorak_node_DV_R_DV_C_DV_I_next_node,
-  .key          = DV_I,
-  .bounds       = 1,
-  .keys         = { KC_LCBR },
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_DV_Q_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_Q = {
-  .parent       = &dvorak_node_DV_R_DV_C,
-  .next_node    = &dvorak_node_DV_R_DV_C_DV_Q_next_node,
-  .key          = DV_Q,
-  .bounds       = 1,
-  .keys         = { KC_BSLS },
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_DV_J_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_J = {
-  .parent       = &dvorak_node_DV_R_DV_C,
-  .next_node    = &dvorak_node_DV_R_DV_C_DV_J_next_node,
-  .key          = DV_J,
-  .bounds       = 1,
-  .keys         = { KC_PIPE },
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_DV_K_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_K = {
-  .parent       = &dvorak_node_DV_R_DV_C,
-  .next_node    = &dvorak_node_DV_R_DV_C_DV_K_next_node,
-  .key          = DV_K,
-  .bounds       = 1,
-  .keys         = { KC_PLUS },
-};
-
-const dvorak_node_t* dvorak_node_DV_R_DV_C_DV_X_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_R_DV_C_DV_X = {
-  .parent       = &dvorak_node_DV_R_DV_C,
-  .next_node    = &dvorak_node_DV_R_DV_C_DV_X_next_node,
-  .key          = DV_X,
-  .bounds       = 1,
-  .keys         = { KC_EQL },
 };
 
 const dvorak_node_t* dvorak_node_DV_L_next_node(uint16_t key) {
@@ -1569,8 +756,8 @@ const dvorak_node_t dvorak_node_DV_A = {
 
 const dvorak_node_t* dvorak_node_DV_O_next_node(uint16_t key) {
   switch (key) {
-    case DV_E: return &dvorak_node_DV_O_DV_E;
     case DV_U: return &dvorak_node_DV_O_DV_U;
+    case DV_E: return &dvorak_node_DV_O_DV_E;
     default: return NULL;
   }
 }
@@ -1583,517 +770,25 @@ const dvorak_node_t dvorak_node_DV_O = {
   .keys         = { KC_O },
 };
 
-const dvorak_node_t* dvorak_node_DV_O_DV_E_next_node(uint16_t key) {
-  switch (key) {
-    case DV_F: return &dvorak_node_DV_O_DV_E_DV_F;
-    case DV_G: return &dvorak_node_DV_O_DV_E_DV_G;
-    case DV_C: return &dvorak_node_DV_O_DV_E_DV_C;
-    case DV_R: return &dvorak_node_DV_O_DV_E_DV_R;
-    case DV_L: return &dvorak_node_DV_O_DV_E_DV_L;
-    case DV_D: return &dvorak_node_DV_O_DV_E_DV_D;
-    case DV_H: return &dvorak_node_DV_O_DV_E_DV_H;
-    case DV_T: return &dvorak_node_DV_O_DV_E_DV_T;
-    case DV_N: return &dvorak_node_DV_O_DV_E_DV_N;
-    case DV_S: return &dvorak_node_DV_O_DV_E_DV_S;
-    case DV_B: return &dvorak_node_DV_O_DV_E_DV_B;
-    case DV_M: return &dvorak_node_DV_O_DV_E_DV_M;
-    case DV_W: return &dvorak_node_DV_O_DV_E_DV_W;
-    case DV_V: return &dvorak_node_DV_O_DV_E_DV_V;
-    case DV_Z: return &dvorak_node_DV_O_DV_E_DV_Z;
-    case DV_RSFT2: return &dvorak_node_DV_O_DV_E_DV_RSFT2;
-    case DV_RSFT1: return &dvorak_node_DV_O_DV_E_DV_RSFT1;
-    case DV_U: return &dvorak_node_DV_O_DV_E_DV_U;
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E = {
-  .parent       = &dvorak_node_DV_O,
-  .next_node    = &dvorak_node_DV_O_DV_E_next_node,
-  .key          = DV_E,
-  .bounds       = 17,
-  .keys         = { KC_LCTL },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_F_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_F = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_F_next_node,
-  .key          = DV_F,
-  .bounds       = 1,
-  .keys         = { KC_F },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_G_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_G = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_G_next_node,
-  .key          = DV_G,
-  .bounds       = 1,
-  .keys         = { KC_G },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_C_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_C = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_C_next_node,
-  .key          = DV_C,
-  .bounds       = 1,
-  .keys         = { KC_C },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_R_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_R = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_R_next_node,
-  .key          = DV_R,
-  .bounds       = 1,
-  .keys         = { KC_R },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_L_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_L = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_L_next_node,
-  .key          = DV_L,
-  .bounds       = 1,
-  .keys         = { KC_L },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_D_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_D = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_D_next_node,
-  .key          = DV_D,
-  .bounds       = 1,
-  .keys         = { KC_D },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_H_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_H = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_H_next_node,
-  .key          = DV_H,
-  .bounds       = 1,
-  .keys         = { KC_H },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_T_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_T = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_T_next_node,
-  .key          = DV_T,
-  .bounds       = 1,
-  .keys         = { KC_T },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_N_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_N = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_N_next_node,
-  .key          = DV_N,
-  .bounds       = 1,
-  .keys         = { KC_N },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_S_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_S = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_S_next_node,
-  .key          = DV_S,
-  .bounds       = 1,
-  .keys         = { KC_S },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_B_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_B = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_B_next_node,
-  .key          = DV_B,
-  .bounds       = 1,
-  .keys         = { KC_B },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_M_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_M = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_M_next_node,
-  .key          = DV_M,
-  .bounds       = 1,
-  .keys         = { KC_M },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_W_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_W = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_W_next_node,
-  .key          = DV_W,
-  .bounds       = 1,
-  .keys         = { KC_W },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_V_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_V = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_V_next_node,
-  .key          = DV_V,
-  .bounds       = 1,
-  .keys         = { KC_V },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_Z_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_Z = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_Z_next_node,
-  .key          = DV_Z,
-  .bounds       = 1,
-  .keys         = { KC_Z },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_RSFT2_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_RSFT2 = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_RSFT2_next_node,
-  .key          = DV_RSFT2,
-  .bounds       = 1,
-  .keys         = { KC_ENT },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_RSFT1_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_RSFT1 = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_RSFT1_next_node,
-  .key          = DV_RSFT1,
-  .bounds       = 1,
-  .keys         = { KC_TAB },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_next_node(uint16_t key) {
-  switch (key) {
-    case DV_F: return &dvorak_node_DV_O_DV_E_DV_U_DV_F;
-    case DV_G: return &dvorak_node_DV_O_DV_E_DV_U_DV_G;
-    case DV_C: return &dvorak_node_DV_O_DV_E_DV_U_DV_C;
-    case DV_R: return &dvorak_node_DV_O_DV_E_DV_U_DV_R;
-    case DV_L: return &dvorak_node_DV_O_DV_E_DV_U_DV_L;
-    case DV_D: return &dvorak_node_DV_O_DV_E_DV_U_DV_D;
-    case DV_H: return &dvorak_node_DV_O_DV_E_DV_U_DV_H;
-    case DV_T: return &dvorak_node_DV_O_DV_E_DV_U_DV_T;
-    case DV_N: return &dvorak_node_DV_O_DV_E_DV_U_DV_N;
-    case DV_S: return &dvorak_node_DV_O_DV_E_DV_U_DV_S;
-    case DV_B: return &dvorak_node_DV_O_DV_E_DV_U_DV_B;
-    case DV_M: return &dvorak_node_DV_O_DV_E_DV_U_DV_M;
-    case DV_W: return &dvorak_node_DV_O_DV_E_DV_U_DV_W;
-    case DV_V: return &dvorak_node_DV_O_DV_E_DV_U_DV_V;
-    case DV_Z: return &dvorak_node_DV_O_DV_E_DV_U_DV_Z;
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U = {
-  .parent       = &dvorak_node_DV_O_DV_E,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_next_node,
-  .key          = DV_U,
-  .bounds       = 51,
-  .keys         = { KC_LGUI, KC_LALT, KC_LSFT },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_F_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_F = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_F_next_node,
-  .key          = DV_F,
-  .bounds       = 1,
-  .keys         = { KC_F },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_G_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_G = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_G_next_node,
-  .key          = DV_G,
-  .bounds       = 1,
-  .keys         = { KC_G },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_C_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_C = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_C_next_node,
-  .key          = DV_C,
-  .bounds       = 1,
-  .keys         = { KC_C },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_R_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_R = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_R_next_node,
-  .key          = DV_R,
-  .bounds       = 1,
-  .keys         = { KC_R },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_L_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_L = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_L_next_node,
-  .key          = DV_L,
-  .bounds       = 1,
-  .keys         = { KC_L },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_D_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_D = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_D_next_node,
-  .key          = DV_D,
-  .bounds       = 1,
-  .keys         = { KC_D },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_H_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_H = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_H_next_node,
-  .key          = DV_H,
-  .bounds       = 1,
-  .keys         = { KC_H },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_T_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_T = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_T_next_node,
-  .key          = DV_T,
-  .bounds       = 1,
-  .keys         = { KC_T },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_N_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_N = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_N_next_node,
-  .key          = DV_N,
-  .bounds       = 1,
-  .keys         = { KC_N },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_S_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_S = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_S_next_node,
-  .key          = DV_S,
-  .bounds       = 1,
-  .keys         = { KC_S },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_B_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_B = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_B_next_node,
-  .key          = DV_B,
-  .bounds       = 1,
-  .keys         = { KC_B },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_M_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_M = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_M_next_node,
-  .key          = DV_M,
-  .bounds       = 1,
-  .keys         = { KC_M },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_W_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_W = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_W_next_node,
-  .key          = DV_W,
-  .bounds       = 1,
-  .keys         = { KC_W },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_V_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_V = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_V_next_node,
-  .key          = DV_V,
-  .bounds       = 1,
-  .keys         = { KC_V },
-};
-
-const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_Z_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_Z = {
-  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
-  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_Z_next_node,
-  .key          = DV_Z,
-  .bounds       = 1,
-  .keys         = { KC_Z },
-};
-
 const dvorak_node_t* dvorak_node_DV_O_DV_U_next_node(uint16_t key) {
   switch (key) {
+    case DV_F: return &dvorak_node_DV_O_DV_U_DV_F;
+    case DV_G: return &dvorak_node_DV_O_DV_U_DV_G;
+    case DV_C: return &dvorak_node_DV_O_DV_U_DV_C;
+    case DV_R: return &dvorak_node_DV_O_DV_U_DV_R;
+    case DV_L: return &dvorak_node_DV_O_DV_U_DV_L;
+    case DV_D: return &dvorak_node_DV_O_DV_U_DV_D;
+    case DV_H: return &dvorak_node_DV_O_DV_U_DV_H;
+    case DV_T: return &dvorak_node_DV_O_DV_U_DV_T;
+    case DV_N: return &dvorak_node_DV_O_DV_U_DV_N;
+    case DV_S: return &dvorak_node_DV_O_DV_U_DV_S;
+    case DV_B: return &dvorak_node_DV_O_DV_U_DV_B;
+    case DV_M: return &dvorak_node_DV_O_DV_U_DV_M;
+    case DV_W: return &dvorak_node_DV_O_DV_U_DV_W;
+    case DV_V: return &dvorak_node_DV_O_DV_U_DV_V;
+    case DV_Z: return &dvorak_node_DV_O_DV_U_DV_Z;
+    case DV_RSFT2: return &dvorak_node_DV_O_DV_U_DV_RSFT2;
+    case DV_RSFT1: return &dvorak_node_DV_O_DV_U_DV_RSFT1;
     case DV_E: return &dvorak_node_DV_O_DV_U_DV_E;
     default: return NULL;
   }
@@ -2105,6 +800,244 @@ const dvorak_node_t dvorak_node_DV_O_DV_U = {
   .key          = DV_U,
   .bounds       = 0,
   .keys         = {},
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_F_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_F = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_F_next_node,
+  .key          = DV_F,
+  .bounds       = 1,
+  .keys         = { C(KC_F) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_G_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_G = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_G_next_node,
+  .key          = DV_G,
+  .bounds       = 1,
+  .keys         = { C(KC_G) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_C_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_C = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_C_next_node,
+  .key          = DV_C,
+  .bounds       = 1,
+  .keys         = { C(KC_C) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_R_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_R = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_R_next_node,
+  .key          = DV_R,
+  .bounds       = 1,
+  .keys         = { C(KC_R) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_L_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_L = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_L_next_node,
+  .key          = DV_L,
+  .bounds       = 1,
+  .keys         = { C(KC_L) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_D_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_D = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_D_next_node,
+  .key          = DV_D,
+  .bounds       = 1,
+  .keys         = { C(KC_D) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_H_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_H = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_H_next_node,
+  .key          = DV_H,
+  .bounds       = 1,
+  .keys         = { C(KC_H) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_T_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_T = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_T_next_node,
+  .key          = DV_T,
+  .bounds       = 1,
+  .keys         = { C(KC_T) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_N_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_N = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_N_next_node,
+  .key          = DV_N,
+  .bounds       = 1,
+  .keys         = { C(KC_N) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_S_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_S = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_S_next_node,
+  .key          = DV_S,
+  .bounds       = 1,
+  .keys         = { C(KC_S) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_B_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_B = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_B_next_node,
+  .key          = DV_B,
+  .bounds       = 1,
+  .keys         = { C(KC_B) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_M_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_M = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_M_next_node,
+  .key          = DV_M,
+  .bounds       = 1,
+  .keys         = { C(KC_M) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_W_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_W = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_W_next_node,
+  .key          = DV_W,
+  .bounds       = 1,
+  .keys         = { C(KC_W) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_V_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_V = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_V_next_node,
+  .key          = DV_V,
+  .bounds       = 1,
+  .keys         = { C(KC_V) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_Z_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_Z = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_Z_next_node,
+  .key          = DV_Z,
+  .bounds       = 1,
+  .keys         = { C(KC_Z) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_RSFT2_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_RSFT2 = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_RSFT2_next_node,
+  .key          = DV_RSFT2,
+  .bounds       = 1,
+  .keys         = { C(KC_ENT) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_RSFT1_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_U_DV_RSFT1 = {
+  .parent       = &dvorak_node_DV_O_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_U_DV_RSFT1_next_node,
+  .key          = DV_RSFT1,
+  .bounds       = 1,
+  .keys         = { C(KC_TAB) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_next_node(uint16_t key) {
@@ -2132,8 +1065,8 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E = {
   .parent       = &dvorak_node_DV_O_DV_U,
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_next_node,
   .key          = DV_E,
-  .bounds       = 68,
-  .keys         = { KC_LGUI, KC_LALT, KC_LSFT, KC_LCTL },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_F_next_node(uint16_t key) {
@@ -2147,7 +1080,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_F = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_F_next_node,
   .key          = DV_F,
   .bounds       = 1,
-  .keys         = { KC_F },
+  .keys         = { HYPR(KC_F) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_G_next_node(uint16_t key) {
@@ -2161,7 +1094,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_G = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_G_next_node,
   .key          = DV_G,
   .bounds       = 1,
-  .keys         = { KC_G },
+  .keys         = { HYPR(KC_G) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_C_next_node(uint16_t key) {
@@ -2175,7 +1108,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_C = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_C_next_node,
   .key          = DV_C,
   .bounds       = 1,
-  .keys         = { KC_C },
+  .keys         = { HYPR(KC_C) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_R_next_node(uint16_t key) {
@@ -2189,7 +1122,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_R = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_R_next_node,
   .key          = DV_R,
   .bounds       = 1,
-  .keys         = { KC_R },
+  .keys         = { HYPR(KC_R) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_L_next_node(uint16_t key) {
@@ -2203,7 +1136,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_L = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_L_next_node,
   .key          = DV_L,
   .bounds       = 1,
-  .keys         = { KC_L },
+  .keys         = { HYPR(KC_L) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_D_next_node(uint16_t key) {
@@ -2217,7 +1150,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_D = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_D_next_node,
   .key          = DV_D,
   .bounds       = 1,
-  .keys         = { KC_D },
+  .keys         = { HYPR(KC_D) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_H_next_node(uint16_t key) {
@@ -2231,7 +1164,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_H = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_H_next_node,
   .key          = DV_H,
   .bounds       = 1,
-  .keys         = { KC_H },
+  .keys         = { HYPR(KC_H) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_T_next_node(uint16_t key) {
@@ -2245,7 +1178,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_T = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_T_next_node,
   .key          = DV_T,
   .bounds       = 1,
-  .keys         = { KC_T },
+  .keys         = { HYPR(KC_T) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_N_next_node(uint16_t key) {
@@ -2259,7 +1192,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_N = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_N_next_node,
   .key          = DV_N,
   .bounds       = 1,
-  .keys         = { KC_N },
+  .keys         = { HYPR(KC_N) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_S_next_node(uint16_t key) {
@@ -2273,7 +1206,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_S = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_S_next_node,
   .key          = DV_S,
   .bounds       = 1,
-  .keys         = { KC_S },
+  .keys         = { HYPR(KC_S) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_B_next_node(uint16_t key) {
@@ -2287,7 +1220,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_B = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_B_next_node,
   .key          = DV_B,
   .bounds       = 1,
-  .keys         = { KC_B },
+  .keys         = { HYPR(KC_B) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_M_next_node(uint16_t key) {
@@ -2301,7 +1234,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_M = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_M_next_node,
   .key          = DV_M,
   .bounds       = 1,
-  .keys         = { KC_M },
+  .keys         = { HYPR(KC_M) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_W_next_node(uint16_t key) {
@@ -2315,7 +1248,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_W = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_W_next_node,
   .key          = DV_W,
   .bounds       = 1,
-  .keys         = { KC_W },
+  .keys         = { HYPR(KC_W) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_V_next_node(uint16_t key) {
@@ -2329,7 +1262,7 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_V = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_V_next_node,
   .key          = DV_V,
   .bounds       = 1,
-  .keys         = { KC_V },
+  .keys         = { HYPR(KC_V) },
 };
 
 const dvorak_node_t* dvorak_node_DV_O_DV_U_DV_E_DV_Z_next_node(uint16_t key) {
@@ -2343,7 +1276,441 @@ const dvorak_node_t dvorak_node_DV_O_DV_U_DV_E_DV_Z = {
   .next_node    = &dvorak_node_DV_O_DV_U_DV_E_DV_Z_next_node,
   .key          = DV_Z,
   .bounds       = 1,
-  .keys         = { KC_Z },
+  .keys         = { HYPR(KC_Z) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_next_node(uint16_t key) {
+  switch (key) {
+    case DV_G: return &dvorak_node_DV_O_DV_E_DV_G;
+    case DV_C: return &dvorak_node_DV_O_DV_E_DV_C;
+    case DV_R: return &dvorak_node_DV_O_DV_E_DV_R;
+    case DV_L: return &dvorak_node_DV_O_DV_E_DV_L;
+    case DV_D: return &dvorak_node_DV_O_DV_E_DV_D;
+    case DV_H: return &dvorak_node_DV_O_DV_E_DV_H;
+    case DV_T: return &dvorak_node_DV_O_DV_E_DV_T;
+    case DV_N: return &dvorak_node_DV_O_DV_E_DV_N;
+    case DV_B: return &dvorak_node_DV_O_DV_E_DV_B;
+    case DV_M: return &dvorak_node_DV_O_DV_E_DV_M;
+    case DV_W: return &dvorak_node_DV_O_DV_E_DV_W;
+    case DV_V: return &dvorak_node_DV_O_DV_E_DV_V;
+    case DV_U: return &dvorak_node_DV_O_DV_E_DV_U;
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E = {
+  .parent       = &dvorak_node_DV_O,
+  .next_node    = &dvorak_node_DV_O_DV_E_next_node,
+  .key          = DV_E,
+  .bounds       = 0,
+  .keys         = {},
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_G_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_G = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_G_next_node,
+  .key          = DV_G,
+  .bounds       = 1,
+  .keys         = { KC_AT },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_C_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_C = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_C_next_node,
+  .key          = DV_C,
+  .bounds       = 1,
+  .keys         = { KC_TILD },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_R_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_R = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_R_next_node,
+  .key          = DV_R,
+  .bounds       = 1,
+  .keys         = { KC_PERC },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_L_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_L = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_L_next_node,
+  .key          = DV_L,
+  .bounds       = 1,
+  .keys         = { KC_DLR },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_D_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_D = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_D_next_node,
+  .key          = DV_D,
+  .bounds       = 1,
+  .keys         = { KC_RCBR },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_H_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_H = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_H_next_node,
+  .key          = DV_H,
+  .bounds       = 1,
+  .keys         = { KC_RBRC },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_T_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_T = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_T_next_node,
+  .key          = DV_T,
+  .bounds       = 1,
+  .keys         = { KC_RPRN },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_N_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_N = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_N_next_node,
+  .key          = DV_N,
+  .bounds       = 1,
+  .keys         = { KC_EXLM },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_B_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_B = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_B_next_node,
+  .key          = DV_B,
+  .bounds       = 1,
+  .keys         = { KC_UNDS },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_M_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_M = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_M_next_node,
+  .key          = DV_M,
+  .bounds       = 1,
+  .keys         = { KC_MINS },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_W_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_W = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_W_next_node,
+  .key          = DV_W,
+  .bounds       = 1,
+  .keys         = { KC_ASTR },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_V_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_V = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_V_next_node,
+  .key          = DV_V,
+  .bounds       = 1,
+  .keys         = { KC_CIRC },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_next_node(uint16_t key) {
+  switch (key) {
+    case DV_F: return &dvorak_node_DV_O_DV_E_DV_U_DV_F;
+    case DV_G: return &dvorak_node_DV_O_DV_E_DV_U_DV_G;
+    case DV_C: return &dvorak_node_DV_O_DV_E_DV_U_DV_C;
+    case DV_R: return &dvorak_node_DV_O_DV_E_DV_U_DV_R;
+    case DV_L: return &dvorak_node_DV_O_DV_E_DV_U_DV_L;
+    case DV_D: return &dvorak_node_DV_O_DV_E_DV_U_DV_D;
+    case DV_H: return &dvorak_node_DV_O_DV_E_DV_U_DV_H;
+    case DV_T: return &dvorak_node_DV_O_DV_E_DV_U_DV_T;
+    case DV_N: return &dvorak_node_DV_O_DV_E_DV_U_DV_N;
+    case DV_S: return &dvorak_node_DV_O_DV_E_DV_U_DV_S;
+    case DV_B: return &dvorak_node_DV_O_DV_E_DV_U_DV_B;
+    case DV_M: return &dvorak_node_DV_O_DV_E_DV_U_DV_M;
+    case DV_W: return &dvorak_node_DV_O_DV_E_DV_U_DV_W;
+    case DV_V: return &dvorak_node_DV_O_DV_E_DV_U_DV_V;
+    case DV_Z: return &dvorak_node_DV_O_DV_E_DV_U_DV_Z;
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U = {
+  .parent       = &dvorak_node_DV_O_DV_E,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_next_node,
+  .key          = DV_U,
+  .bounds       = 0,
+  .keys         = {},
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_F_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_F = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_F_next_node,
+  .key          = DV_F,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_F) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_G_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_G = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_G_next_node,
+  .key          = DV_G,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_G) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_C_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_C = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_C_next_node,
+  .key          = DV_C,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_C) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_R_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_R = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_R_next_node,
+  .key          = DV_R,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_R) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_L_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_L = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_L_next_node,
+  .key          = DV_L,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_L) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_D_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_D = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_D_next_node,
+  .key          = DV_D,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_D) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_H_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_H = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_H_next_node,
+  .key          = DV_H,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_H) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_T_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_T = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_T_next_node,
+  .key          = DV_T,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_T) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_N_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_N = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_N_next_node,
+  .key          = DV_N,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_N) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_S_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_S = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_S_next_node,
+  .key          = DV_S,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_S) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_B_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_B = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_B_next_node,
+  .key          = DV_B,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_B) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_M_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_M = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_M_next_node,
+  .key          = DV_M,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_M) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_W_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_W = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_W_next_node,
+  .key          = DV_W,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_W) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_V_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_V = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_V_next_node,
+  .key          = DV_V,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_V) },
+};
+
+const dvorak_node_t* dvorak_node_DV_O_DV_E_DV_U_DV_Z_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_O_DV_E_DV_U_DV_Z = {
+  .parent       = &dvorak_node_DV_O_DV_E_DV_U,
+  .next_node    = &dvorak_node_DV_O_DV_E_DV_U_DV_Z_next_node,
+  .key          = DV_Z,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_Z) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_next_node(uint16_t key) {
@@ -2390,8 +1757,8 @@ const dvorak_node_t dvorak_node_DV_E_DV_U = {
   .parent       = &dvorak_node_DV_E,
   .next_node    = &dvorak_node_DV_E_DV_U_next_node,
   .key          = DV_U,
-  .bounds       = 17,
-  .keys         = { KC_LSFT },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_F_next_node(uint16_t key) {
@@ -2405,7 +1772,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_F = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_F_next_node,
   .key          = DV_F,
   .bounds       = 1,
-  .keys         = { KC_F },
+  .keys         = { S(KC_F) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_G_next_node(uint16_t key) {
@@ -2419,7 +1786,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_G = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_G_next_node,
   .key          = DV_G,
   .bounds       = 1,
-  .keys         = { KC_G },
+  .keys         = { S(KC_G) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_C_next_node(uint16_t key) {
@@ -2433,7 +1800,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_C = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_C_next_node,
   .key          = DV_C,
   .bounds       = 1,
-  .keys         = { KC_C },
+  .keys         = { S(KC_C) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_R_next_node(uint16_t key) {
@@ -2447,7 +1814,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_R = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_R_next_node,
   .key          = DV_R,
   .bounds       = 1,
-  .keys         = { KC_R },
+  .keys         = { S(KC_R) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_L_next_node(uint16_t key) {
@@ -2461,7 +1828,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_L = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_L_next_node,
   .key          = DV_L,
   .bounds       = 1,
-  .keys         = { KC_L },
+  .keys         = { S(KC_L) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_D_next_node(uint16_t key) {
@@ -2475,7 +1842,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_D = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_D_next_node,
   .key          = DV_D,
   .bounds       = 1,
-  .keys         = { KC_D },
+  .keys         = { S(KC_D) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_H_next_node(uint16_t key) {
@@ -2489,7 +1856,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_H = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_H_next_node,
   .key          = DV_H,
   .bounds       = 1,
-  .keys         = { KC_H },
+  .keys         = { S(KC_H) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_T_next_node(uint16_t key) {
@@ -2503,7 +1870,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_T = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_T_next_node,
   .key          = DV_T,
   .bounds       = 1,
-  .keys         = { KC_T },
+  .keys         = { S(KC_T) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_N_next_node(uint16_t key) {
@@ -2517,7 +1884,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_N = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_N_next_node,
   .key          = DV_N,
   .bounds       = 1,
-  .keys         = { KC_N },
+  .keys         = { S(KC_N) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_S_next_node(uint16_t key) {
@@ -2531,7 +1898,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_S = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_S_next_node,
   .key          = DV_S,
   .bounds       = 1,
-  .keys         = { KC_S },
+  .keys         = { S(KC_S) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_B_next_node(uint16_t key) {
@@ -2545,7 +1912,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_B = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_B_next_node,
   .key          = DV_B,
   .bounds       = 1,
-  .keys         = { KC_B },
+  .keys         = { S(KC_B) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_M_next_node(uint16_t key) {
@@ -2559,7 +1926,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_M = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_M_next_node,
   .key          = DV_M,
   .bounds       = 1,
-  .keys         = { KC_M },
+  .keys         = { S(KC_M) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_W_next_node(uint16_t key) {
@@ -2573,7 +1940,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_W = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_W_next_node,
   .key          = DV_W,
   .bounds       = 1,
-  .keys         = { KC_W },
+  .keys         = { S(KC_W) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_V_next_node(uint16_t key) {
@@ -2587,7 +1954,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_V = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_V_next_node,
   .key          = DV_V,
   .bounds       = 1,
-  .keys         = { KC_V },
+  .keys         = { S(KC_V) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_Z_next_node(uint16_t key) {
@@ -2601,7 +1968,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_Z = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_Z_next_node,
   .key          = DV_Z,
   .bounds       = 1,
-  .keys         = { KC_Z },
+  .keys         = { S(KC_Z) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_RSFT2_next_node(uint16_t key) {
@@ -2615,7 +1982,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_RSFT2 = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_RSFT2_next_node,
   .key          = DV_RSFT2,
   .bounds       = 1,
-  .keys         = { KC_ENT },
+  .keys         = { S(KC_ENT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_RSFT1_next_node(uint16_t key) {
@@ -2629,7 +1996,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_RSFT1 = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_RSFT1_next_node,
   .key          = DV_RSFT1,
   .bounds       = 1,
-  .keys         = { KC_TAB },
+  .keys         = { S(KC_TAB) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_next_node(uint16_t key) {
@@ -2657,8 +2024,8 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O = {
   .parent       = &dvorak_node_DV_E_DV_U,
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_next_node,
   .key          = DV_O,
-  .bounds       = 51,
-  .keys         = { KC_LGUI, KC_LALT, KC_LCTL },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_F_next_node(uint16_t key) {
@@ -2672,7 +2039,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_F = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_F_next_node,
   .key          = DV_F,
   .bounds       = 1,
-  .keys         = { KC_F },
+  .keys         = { HYPR(KC_F) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_G_next_node(uint16_t key) {
@@ -2686,7 +2053,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_G = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_G_next_node,
   .key          = DV_G,
   .bounds       = 1,
-  .keys         = { KC_G },
+  .keys         = { HYPR(KC_G) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_C_next_node(uint16_t key) {
@@ -2700,7 +2067,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_C = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_C_next_node,
   .key          = DV_C,
   .bounds       = 1,
-  .keys         = { KC_C },
+  .keys         = { HYPR(KC_C) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_R_next_node(uint16_t key) {
@@ -2714,7 +2081,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_R = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_R_next_node,
   .key          = DV_R,
   .bounds       = 1,
-  .keys         = { KC_R },
+  .keys         = { HYPR(KC_R) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_L_next_node(uint16_t key) {
@@ -2728,7 +2095,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_L = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_L_next_node,
   .key          = DV_L,
   .bounds       = 1,
-  .keys         = { KC_L },
+  .keys         = { HYPR(KC_L) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_D_next_node(uint16_t key) {
@@ -2742,7 +2109,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_D = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_D_next_node,
   .key          = DV_D,
   .bounds       = 1,
-  .keys         = { KC_D },
+  .keys         = { HYPR(KC_D) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_H_next_node(uint16_t key) {
@@ -2756,7 +2123,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_H = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_H_next_node,
   .key          = DV_H,
   .bounds       = 1,
-  .keys         = { KC_H },
+  .keys         = { HYPR(KC_H) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_T_next_node(uint16_t key) {
@@ -2770,7 +2137,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_T = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_T_next_node,
   .key          = DV_T,
   .bounds       = 1,
-  .keys         = { KC_T },
+  .keys         = { HYPR(KC_T) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_N_next_node(uint16_t key) {
@@ -2784,7 +2151,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_N = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_N_next_node,
   .key          = DV_N,
   .bounds       = 1,
-  .keys         = { KC_N },
+  .keys         = { HYPR(KC_N) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_S_next_node(uint16_t key) {
@@ -2798,7 +2165,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_S = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_S_next_node,
   .key          = DV_S,
   .bounds       = 1,
-  .keys         = { KC_S },
+  .keys         = { HYPR(KC_S) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_B_next_node(uint16_t key) {
@@ -2812,7 +2179,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_B = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_B_next_node,
   .key          = DV_B,
   .bounds       = 1,
-  .keys         = { KC_B },
+  .keys         = { HYPR(KC_B) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_M_next_node(uint16_t key) {
@@ -2826,7 +2193,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_M = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_M_next_node,
   .key          = DV_M,
   .bounds       = 1,
-  .keys         = { KC_M },
+  .keys         = { HYPR(KC_M) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_W_next_node(uint16_t key) {
@@ -2840,7 +2207,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_W = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_W_next_node,
   .key          = DV_W,
   .bounds       = 1,
-  .keys         = { KC_W },
+  .keys         = { HYPR(KC_W) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_V_next_node(uint16_t key) {
@@ -2854,7 +2221,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_V = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_V_next_node,
   .key          = DV_V,
   .bounds       = 1,
-  .keys         = { KC_V },
+  .keys         = { HYPR(KC_V) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_U_DV_O_DV_Z_next_node(uint16_t key) {
@@ -2868,12 +2235,11 @@ const dvorak_node_t dvorak_node_DV_E_DV_U_DV_O_DV_Z = {
   .next_node    = &dvorak_node_DV_E_DV_U_DV_O_DV_Z_next_node,
   .key          = DV_Z,
   .bounds       = 1,
-  .keys         = { KC_Z },
+  .keys         = { HYPR(KC_Z) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_next_node(uint16_t key) {
   switch (key) {
-    case DV_F: return &dvorak_node_DV_E_DV_O_DV_F;
     case DV_G: return &dvorak_node_DV_E_DV_O_DV_G;
     case DV_C: return &dvorak_node_DV_E_DV_O_DV_C;
     case DV_R: return &dvorak_node_DV_E_DV_O_DV_R;
@@ -2882,14 +2248,10 @@ const dvorak_node_t* dvorak_node_DV_E_DV_O_next_node(uint16_t key) {
     case DV_H: return &dvorak_node_DV_E_DV_O_DV_H;
     case DV_T: return &dvorak_node_DV_E_DV_O_DV_T;
     case DV_N: return &dvorak_node_DV_E_DV_O_DV_N;
-    case DV_S: return &dvorak_node_DV_E_DV_O_DV_S;
     case DV_B: return &dvorak_node_DV_E_DV_O_DV_B;
     case DV_M: return &dvorak_node_DV_E_DV_O_DV_M;
     case DV_W: return &dvorak_node_DV_E_DV_O_DV_W;
     case DV_V: return &dvorak_node_DV_E_DV_O_DV_V;
-    case DV_Z: return &dvorak_node_DV_E_DV_O_DV_Z;
-    case DV_RSFT2: return &dvorak_node_DV_E_DV_O_DV_RSFT2;
-    case DV_RSFT1: return &dvorak_node_DV_E_DV_O_DV_RSFT1;
     case DV_U: return &dvorak_node_DV_E_DV_O_DV_U;
     default: return NULL;
   }
@@ -2899,22 +2261,8 @@ const dvorak_node_t dvorak_node_DV_E_DV_O = {
   .parent       = &dvorak_node_DV_E,
   .next_node    = &dvorak_node_DV_E_DV_O_next_node,
   .key          = DV_O,
-  .bounds       = 17,
-  .keys         = { KC_LCTL },
-};
-
-const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_F_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_E_DV_O_DV_F = {
-  .parent       = &dvorak_node_DV_E_DV_O,
-  .next_node    = &dvorak_node_DV_E_DV_O_DV_F_next_node,
-  .key          = DV_F,
-  .bounds       = 1,
-  .keys         = { KC_F },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_G_next_node(uint16_t key) {
@@ -2928,7 +2276,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_G = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_G_next_node,
   .key          = DV_G,
   .bounds       = 1,
-  .keys         = { KC_G },
+  .keys         = { KC_AT },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_C_next_node(uint16_t key) {
@@ -2942,7 +2290,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_C = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_C_next_node,
   .key          = DV_C,
   .bounds       = 1,
-  .keys         = { KC_C },
+  .keys         = { KC_TILD },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_R_next_node(uint16_t key) {
@@ -2956,7 +2304,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_R = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_R_next_node,
   .key          = DV_R,
   .bounds       = 1,
-  .keys         = { KC_R },
+  .keys         = { KC_PERC },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_L_next_node(uint16_t key) {
@@ -2970,7 +2318,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_L = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_L_next_node,
   .key          = DV_L,
   .bounds       = 1,
-  .keys         = { KC_L },
+  .keys         = { KC_DLR },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_D_next_node(uint16_t key) {
@@ -2984,7 +2332,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_D = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_D_next_node,
   .key          = DV_D,
   .bounds       = 1,
-  .keys         = { KC_D },
+  .keys         = { KC_RCBR },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_H_next_node(uint16_t key) {
@@ -2998,7 +2346,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_H = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_H_next_node,
   .key          = DV_H,
   .bounds       = 1,
-  .keys         = { KC_H },
+  .keys         = { KC_RBRC },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_T_next_node(uint16_t key) {
@@ -3012,7 +2360,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_T = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_T_next_node,
   .key          = DV_T,
   .bounds       = 1,
-  .keys         = { KC_T },
+  .keys         = { KC_RPRN },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_N_next_node(uint16_t key) {
@@ -3026,21 +2374,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_N = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_N_next_node,
   .key          = DV_N,
   .bounds       = 1,
-  .keys         = { KC_N },
-};
-
-const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_S_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_E_DV_O_DV_S = {
-  .parent       = &dvorak_node_DV_E_DV_O,
-  .next_node    = &dvorak_node_DV_E_DV_O_DV_S_next_node,
-  .key          = DV_S,
-  .bounds       = 1,
-  .keys         = { KC_S },
+  .keys         = { KC_EXLM },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_B_next_node(uint16_t key) {
@@ -3054,7 +2388,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_B = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_B_next_node,
   .key          = DV_B,
   .bounds       = 1,
-  .keys         = { KC_B },
+  .keys         = { KC_UNDS },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_M_next_node(uint16_t key) {
@@ -3068,7 +2402,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_M = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_M_next_node,
   .key          = DV_M,
   .bounds       = 1,
-  .keys         = { KC_M },
+  .keys         = { KC_MINS },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_W_next_node(uint16_t key) {
@@ -3082,7 +2416,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_W = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_W_next_node,
   .key          = DV_W,
   .bounds       = 1,
-  .keys         = { KC_W },
+  .keys         = { KC_ASTR },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_V_next_node(uint16_t key) {
@@ -3096,49 +2430,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_V = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_V_next_node,
   .key          = DV_V,
   .bounds       = 1,
-  .keys         = { KC_V },
-};
-
-const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_Z_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_E_DV_O_DV_Z = {
-  .parent       = &dvorak_node_DV_E_DV_O,
-  .next_node    = &dvorak_node_DV_E_DV_O_DV_Z_next_node,
-  .key          = DV_Z,
-  .bounds       = 1,
-  .keys         = { KC_Z },
-};
-
-const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_RSFT2_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_E_DV_O_DV_RSFT2 = {
-  .parent       = &dvorak_node_DV_E_DV_O,
-  .next_node    = &dvorak_node_DV_E_DV_O_DV_RSFT2_next_node,
-  .key          = DV_RSFT2,
-  .bounds       = 1,
-  .keys         = { KC_ENT },
-};
-
-const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_RSFT1_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_E_DV_O_DV_RSFT1 = {
-  .parent       = &dvorak_node_DV_E_DV_O,
-  .next_node    = &dvorak_node_DV_E_DV_O_DV_RSFT1_next_node,
-  .key          = DV_RSFT1,
-  .bounds       = 1,
-  .keys         = { KC_TAB },
+  .keys         = { KC_CIRC },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_next_node(uint16_t key) {
@@ -3166,8 +2458,8 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U = {
   .parent       = &dvorak_node_DV_E_DV_O,
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_next_node,
   .key          = DV_U,
-  .bounds       = 51,
-  .keys         = { KC_LGUI, KC_LALT, KC_LSFT },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_F_next_node(uint16_t key) {
@@ -3181,7 +2473,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_F = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_F_next_node,
   .key          = DV_F,
   .bounds       = 1,
-  .keys         = { KC_F },
+  .keys         = { HYPR(KC_F) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_G_next_node(uint16_t key) {
@@ -3195,7 +2487,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_G = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_G_next_node,
   .key          = DV_G,
   .bounds       = 1,
-  .keys         = { KC_G },
+  .keys         = { HYPR(KC_G) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_C_next_node(uint16_t key) {
@@ -3209,7 +2501,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_C = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_C_next_node,
   .key          = DV_C,
   .bounds       = 1,
-  .keys         = { KC_C },
+  .keys         = { HYPR(KC_C) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_R_next_node(uint16_t key) {
@@ -3223,7 +2515,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_R = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_R_next_node,
   .key          = DV_R,
   .bounds       = 1,
-  .keys         = { KC_R },
+  .keys         = { HYPR(KC_R) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_L_next_node(uint16_t key) {
@@ -3237,7 +2529,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_L = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_L_next_node,
   .key          = DV_L,
   .bounds       = 1,
-  .keys         = { KC_L },
+  .keys         = { HYPR(KC_L) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_D_next_node(uint16_t key) {
@@ -3251,7 +2543,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_D = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_D_next_node,
   .key          = DV_D,
   .bounds       = 1,
-  .keys         = { KC_D },
+  .keys         = { HYPR(KC_D) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_H_next_node(uint16_t key) {
@@ -3265,7 +2557,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_H = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_H_next_node,
   .key          = DV_H,
   .bounds       = 1,
-  .keys         = { KC_H },
+  .keys         = { HYPR(KC_H) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_T_next_node(uint16_t key) {
@@ -3279,7 +2571,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_T = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_T_next_node,
   .key          = DV_T,
   .bounds       = 1,
-  .keys         = { KC_T },
+  .keys         = { HYPR(KC_T) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_N_next_node(uint16_t key) {
@@ -3293,7 +2585,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_N = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_N_next_node,
   .key          = DV_N,
   .bounds       = 1,
-  .keys         = { KC_N },
+  .keys         = { HYPR(KC_N) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_S_next_node(uint16_t key) {
@@ -3307,7 +2599,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_S = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_S_next_node,
   .key          = DV_S,
   .bounds       = 1,
-  .keys         = { KC_S },
+  .keys         = { HYPR(KC_S) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_B_next_node(uint16_t key) {
@@ -3321,7 +2613,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_B = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_B_next_node,
   .key          = DV_B,
   .bounds       = 1,
-  .keys         = { KC_B },
+  .keys         = { HYPR(KC_B) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_M_next_node(uint16_t key) {
@@ -3335,7 +2627,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_M = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_M_next_node,
   .key          = DV_M,
   .bounds       = 1,
-  .keys         = { KC_M },
+  .keys         = { HYPR(KC_M) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_W_next_node(uint16_t key) {
@@ -3349,7 +2641,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_W = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_W_next_node,
   .key          = DV_W,
   .bounds       = 1,
-  .keys         = { KC_W },
+  .keys         = { HYPR(KC_W) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_V_next_node(uint16_t key) {
@@ -3363,7 +2655,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_V = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_V_next_node,
   .key          = DV_V,
   .bounds       = 1,
-  .keys         = { KC_V },
+  .keys         = { HYPR(KC_V) },
 };
 
 const dvorak_node_t* dvorak_node_DV_E_DV_O_DV_U_DV_Z_next_node(uint16_t key) {
@@ -3377,7 +2669,7 @@ const dvorak_node_t dvorak_node_DV_E_DV_O_DV_U_DV_Z = {
   .next_node    = &dvorak_node_DV_E_DV_O_DV_U_DV_Z_next_node,
   .key          = DV_Z,
   .bounds       = 1,
-  .keys         = { KC_Z },
+  .keys         = { HYPR(KC_Z) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_next_node(uint16_t key) {
@@ -3425,8 +2717,8 @@ const dvorak_node_t dvorak_node_DV_U_DV_E = {
   .parent       = &dvorak_node_DV_U,
   .next_node    = &dvorak_node_DV_U_DV_E_next_node,
   .key          = DV_E,
-  .bounds       = 17,
-  .keys         = { KC_LSFT },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_F_next_node(uint16_t key) {
@@ -3440,7 +2732,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_F = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_F_next_node,
   .key          = DV_F,
   .bounds       = 1,
-  .keys         = { KC_F },
+  .keys         = { S(KC_F) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_G_next_node(uint16_t key) {
@@ -3454,7 +2746,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_G = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_G_next_node,
   .key          = DV_G,
   .bounds       = 1,
-  .keys         = { KC_G },
+  .keys         = { S(KC_G) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_C_next_node(uint16_t key) {
@@ -3468,7 +2760,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_C = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_C_next_node,
   .key          = DV_C,
   .bounds       = 1,
-  .keys         = { KC_C },
+  .keys         = { S(KC_C) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_R_next_node(uint16_t key) {
@@ -3482,7 +2774,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_R = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_R_next_node,
   .key          = DV_R,
   .bounds       = 1,
-  .keys         = { KC_R },
+  .keys         = { S(KC_R) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_L_next_node(uint16_t key) {
@@ -3496,7 +2788,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_L = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_L_next_node,
   .key          = DV_L,
   .bounds       = 1,
-  .keys         = { KC_L },
+  .keys         = { S(KC_L) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_D_next_node(uint16_t key) {
@@ -3510,7 +2802,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_D = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_D_next_node,
   .key          = DV_D,
   .bounds       = 1,
-  .keys         = { KC_D },
+  .keys         = { S(KC_D) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_H_next_node(uint16_t key) {
@@ -3524,7 +2816,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_H = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_H_next_node,
   .key          = DV_H,
   .bounds       = 1,
-  .keys         = { KC_H },
+  .keys         = { S(KC_H) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_T_next_node(uint16_t key) {
@@ -3538,7 +2830,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_T = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_T_next_node,
   .key          = DV_T,
   .bounds       = 1,
-  .keys         = { KC_T },
+  .keys         = { S(KC_T) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_N_next_node(uint16_t key) {
@@ -3552,7 +2844,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_N = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_N_next_node,
   .key          = DV_N,
   .bounds       = 1,
-  .keys         = { KC_N },
+  .keys         = { S(KC_N) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_S_next_node(uint16_t key) {
@@ -3566,7 +2858,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_S = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_S_next_node,
   .key          = DV_S,
   .bounds       = 1,
-  .keys         = { KC_S },
+  .keys         = { S(KC_S) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_B_next_node(uint16_t key) {
@@ -3580,7 +2872,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_B = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_B_next_node,
   .key          = DV_B,
   .bounds       = 1,
-  .keys         = { KC_B },
+  .keys         = { S(KC_B) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_M_next_node(uint16_t key) {
@@ -3594,7 +2886,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_M = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_M_next_node,
   .key          = DV_M,
   .bounds       = 1,
-  .keys         = { KC_M },
+  .keys         = { S(KC_M) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_W_next_node(uint16_t key) {
@@ -3608,7 +2900,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_W = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_W_next_node,
   .key          = DV_W,
   .bounds       = 1,
-  .keys         = { KC_W },
+  .keys         = { S(KC_W) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_V_next_node(uint16_t key) {
@@ -3622,7 +2914,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_V = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_V_next_node,
   .key          = DV_V,
   .bounds       = 1,
-  .keys         = { KC_V },
+  .keys         = { S(KC_V) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_Z_next_node(uint16_t key) {
@@ -3636,7 +2928,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_Z = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_Z_next_node,
   .key          = DV_Z,
   .bounds       = 1,
-  .keys         = { KC_Z },
+  .keys         = { S(KC_Z) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_RSFT2_next_node(uint16_t key) {
@@ -3650,7 +2942,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_RSFT2 = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_RSFT2_next_node,
   .key          = DV_RSFT2,
   .bounds       = 1,
-  .keys         = { KC_ENT },
+  .keys         = { S(KC_ENT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_RSFT1_next_node(uint16_t key) {
@@ -3664,7 +2956,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_RSFT1 = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_RSFT1_next_node,
   .key          = DV_RSFT1,
   .bounds       = 1,
-  .keys         = { KC_TAB },
+  .keys         = { S(KC_TAB) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_next_node(uint16_t key) {
@@ -3692,8 +2984,8 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O = {
   .parent       = &dvorak_node_DV_U_DV_E,
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_next_node,
   .key          = DV_O,
-  .bounds       = 51,
-  .keys         = { KC_LGUI, KC_LALT, KC_LCTL },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_F_next_node(uint16_t key) {
@@ -3707,7 +2999,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_F = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_F_next_node,
   .key          = DV_F,
   .bounds       = 1,
-  .keys         = { KC_F },
+  .keys         = { HYPR(KC_F) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_G_next_node(uint16_t key) {
@@ -3721,7 +3013,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_G = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_G_next_node,
   .key          = DV_G,
   .bounds       = 1,
-  .keys         = { KC_G },
+  .keys         = { HYPR(KC_G) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_C_next_node(uint16_t key) {
@@ -3735,7 +3027,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_C = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_C_next_node,
   .key          = DV_C,
   .bounds       = 1,
-  .keys         = { KC_C },
+  .keys         = { HYPR(KC_C) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_R_next_node(uint16_t key) {
@@ -3749,7 +3041,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_R = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_R_next_node,
   .key          = DV_R,
   .bounds       = 1,
-  .keys         = { KC_R },
+  .keys         = { HYPR(KC_R) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_L_next_node(uint16_t key) {
@@ -3763,7 +3055,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_L = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_L_next_node,
   .key          = DV_L,
   .bounds       = 1,
-  .keys         = { KC_L },
+  .keys         = { HYPR(KC_L) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_D_next_node(uint16_t key) {
@@ -3777,7 +3069,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_D = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_D_next_node,
   .key          = DV_D,
   .bounds       = 1,
-  .keys         = { KC_D },
+  .keys         = { HYPR(KC_D) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_H_next_node(uint16_t key) {
@@ -3791,7 +3083,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_H = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_H_next_node,
   .key          = DV_H,
   .bounds       = 1,
-  .keys         = { KC_H },
+  .keys         = { HYPR(KC_H) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_T_next_node(uint16_t key) {
@@ -3805,7 +3097,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_T = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_T_next_node,
   .key          = DV_T,
   .bounds       = 1,
-  .keys         = { KC_T },
+  .keys         = { HYPR(KC_T) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_N_next_node(uint16_t key) {
@@ -3819,7 +3111,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_N = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_N_next_node,
   .key          = DV_N,
   .bounds       = 1,
-  .keys         = { KC_N },
+  .keys         = { HYPR(KC_N) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_S_next_node(uint16_t key) {
@@ -3833,7 +3125,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_S = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_S_next_node,
   .key          = DV_S,
   .bounds       = 1,
-  .keys         = { KC_S },
+  .keys         = { HYPR(KC_S) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_B_next_node(uint16_t key) {
@@ -3847,7 +3139,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_B = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_B_next_node,
   .key          = DV_B,
   .bounds       = 1,
-  .keys         = { KC_B },
+  .keys         = { HYPR(KC_B) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_M_next_node(uint16_t key) {
@@ -3861,7 +3153,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_M = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_M_next_node,
   .key          = DV_M,
   .bounds       = 1,
-  .keys         = { KC_M },
+  .keys         = { HYPR(KC_M) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_W_next_node(uint16_t key) {
@@ -3875,7 +3167,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_W = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_W_next_node,
   .key          = DV_W,
   .bounds       = 1,
-  .keys         = { KC_W },
+  .keys         = { HYPR(KC_W) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_V_next_node(uint16_t key) {
@@ -3889,7 +3181,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_V = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_V_next_node,
   .key          = DV_V,
   .bounds       = 1,
-  .keys         = { KC_V },
+  .keys         = { HYPR(KC_V) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_E_DV_O_DV_Z_next_node(uint16_t key) {
@@ -3903,11 +3195,28 @@ const dvorak_node_t dvorak_node_DV_U_DV_E_DV_O_DV_Z = {
   .next_node    = &dvorak_node_DV_U_DV_E_DV_O_DV_Z_next_node,
   .key          = DV_Z,
   .bounds       = 1,
-  .keys         = { KC_Z },
+  .keys         = { HYPR(KC_Z) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_next_node(uint16_t key) {
   switch (key) {
+    case DV_F: return &dvorak_node_DV_U_DV_O_DV_F;
+    case DV_G: return &dvorak_node_DV_U_DV_O_DV_G;
+    case DV_C: return &dvorak_node_DV_U_DV_O_DV_C;
+    case DV_R: return &dvorak_node_DV_U_DV_O_DV_R;
+    case DV_L: return &dvorak_node_DV_U_DV_O_DV_L;
+    case DV_D: return &dvorak_node_DV_U_DV_O_DV_D;
+    case DV_H: return &dvorak_node_DV_U_DV_O_DV_H;
+    case DV_T: return &dvorak_node_DV_U_DV_O_DV_T;
+    case DV_N: return &dvorak_node_DV_U_DV_O_DV_N;
+    case DV_S: return &dvorak_node_DV_U_DV_O_DV_S;
+    case DV_B: return &dvorak_node_DV_U_DV_O_DV_B;
+    case DV_M: return &dvorak_node_DV_U_DV_O_DV_M;
+    case DV_W: return &dvorak_node_DV_U_DV_O_DV_W;
+    case DV_V: return &dvorak_node_DV_U_DV_O_DV_V;
+    case DV_Z: return &dvorak_node_DV_U_DV_O_DV_Z;
+    case DV_RSFT2: return &dvorak_node_DV_U_DV_O_DV_RSFT2;
+    case DV_RSFT1: return &dvorak_node_DV_U_DV_O_DV_RSFT1;
     case DV_E: return &dvorak_node_DV_U_DV_O_DV_E;
     default: return NULL;
   }
@@ -3919,6 +3228,244 @@ const dvorak_node_t dvorak_node_DV_U_DV_O = {
   .key          = DV_O,
   .bounds       = 0,
   .keys         = {},
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_F_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_F = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_F_next_node,
+  .key          = DV_F,
+  .bounds       = 1,
+  .keys         = { C(KC_F) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_G_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_G = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_G_next_node,
+  .key          = DV_G,
+  .bounds       = 1,
+  .keys         = { C(KC_G) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_C_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_C = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_C_next_node,
+  .key          = DV_C,
+  .bounds       = 1,
+  .keys         = { C(KC_C) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_R_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_R = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_R_next_node,
+  .key          = DV_R,
+  .bounds       = 1,
+  .keys         = { C(KC_R) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_L_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_L = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_L_next_node,
+  .key          = DV_L,
+  .bounds       = 1,
+  .keys         = { C(KC_L) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_D_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_D = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_D_next_node,
+  .key          = DV_D,
+  .bounds       = 1,
+  .keys         = { C(KC_D) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_H_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_H = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_H_next_node,
+  .key          = DV_H,
+  .bounds       = 1,
+  .keys         = { C(KC_H) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_T_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_T = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_T_next_node,
+  .key          = DV_T,
+  .bounds       = 1,
+  .keys         = { C(KC_T) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_N_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_N = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_N_next_node,
+  .key          = DV_N,
+  .bounds       = 1,
+  .keys         = { C(KC_N) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_S_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_S = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_S_next_node,
+  .key          = DV_S,
+  .bounds       = 1,
+  .keys         = { C(KC_S) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_B_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_B = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_B_next_node,
+  .key          = DV_B,
+  .bounds       = 1,
+  .keys         = { C(KC_B) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_M_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_M = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_M_next_node,
+  .key          = DV_M,
+  .bounds       = 1,
+  .keys         = { C(KC_M) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_W_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_W = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_W_next_node,
+  .key          = DV_W,
+  .bounds       = 1,
+  .keys         = { C(KC_W) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_V_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_V = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_V_next_node,
+  .key          = DV_V,
+  .bounds       = 1,
+  .keys         = { C(KC_V) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_Z_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_Z = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_Z_next_node,
+  .key          = DV_Z,
+  .bounds       = 1,
+  .keys         = { C(KC_Z) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_RSFT2_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_RSFT2 = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_RSFT2_next_node,
+  .key          = DV_RSFT2,
+  .bounds       = 1,
+  .keys         = { C(KC_ENT) },
+};
+
+const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_RSFT1_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_U_DV_O_DV_RSFT1 = {
+  .parent       = &dvorak_node_DV_U_DV_O,
+  .next_node    = &dvorak_node_DV_U_DV_O_DV_RSFT1_next_node,
+  .key          = DV_RSFT1,
+  .bounds       = 1,
+  .keys         = { C(KC_TAB) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_next_node(uint16_t key) {
@@ -3946,8 +3493,8 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E = {
   .parent       = &dvorak_node_DV_U_DV_O,
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_next_node,
   .key          = DV_E,
-  .bounds       = 68,
-  .keys         = { KC_LGUI, KC_LALT, KC_LSFT, KC_LCTL },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_F_next_node(uint16_t key) {
@@ -3961,7 +3508,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_F = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_F_next_node,
   .key          = DV_F,
   .bounds       = 1,
-  .keys         = { KC_F },
+  .keys         = { HYPR(KC_F) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_G_next_node(uint16_t key) {
@@ -3975,7 +3522,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_G = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_G_next_node,
   .key          = DV_G,
   .bounds       = 1,
-  .keys         = { KC_G },
+  .keys         = { HYPR(KC_G) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_C_next_node(uint16_t key) {
@@ -3989,7 +3536,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_C = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_C_next_node,
   .key          = DV_C,
   .bounds       = 1,
-  .keys         = { KC_C },
+  .keys         = { HYPR(KC_C) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_R_next_node(uint16_t key) {
@@ -4003,7 +3550,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_R = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_R_next_node,
   .key          = DV_R,
   .bounds       = 1,
-  .keys         = { KC_R },
+  .keys         = { HYPR(KC_R) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_L_next_node(uint16_t key) {
@@ -4017,7 +3564,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_L = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_L_next_node,
   .key          = DV_L,
   .bounds       = 1,
-  .keys         = { KC_L },
+  .keys         = { HYPR(KC_L) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_D_next_node(uint16_t key) {
@@ -4031,7 +3578,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_D = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_D_next_node,
   .key          = DV_D,
   .bounds       = 1,
-  .keys         = { KC_D },
+  .keys         = { HYPR(KC_D) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_H_next_node(uint16_t key) {
@@ -4045,7 +3592,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_H = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_H_next_node,
   .key          = DV_H,
   .bounds       = 1,
-  .keys         = { KC_H },
+  .keys         = { HYPR(KC_H) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_T_next_node(uint16_t key) {
@@ -4059,7 +3606,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_T = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_T_next_node,
   .key          = DV_T,
   .bounds       = 1,
-  .keys         = { KC_T },
+  .keys         = { HYPR(KC_T) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_N_next_node(uint16_t key) {
@@ -4073,7 +3620,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_N = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_N_next_node,
   .key          = DV_N,
   .bounds       = 1,
-  .keys         = { KC_N },
+  .keys         = { HYPR(KC_N) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_S_next_node(uint16_t key) {
@@ -4087,7 +3634,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_S = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_S_next_node,
   .key          = DV_S,
   .bounds       = 1,
-  .keys         = { KC_S },
+  .keys         = { HYPR(KC_S) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_B_next_node(uint16_t key) {
@@ -4101,7 +3648,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_B = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_B_next_node,
   .key          = DV_B,
   .bounds       = 1,
-  .keys         = { KC_B },
+  .keys         = { HYPR(KC_B) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_M_next_node(uint16_t key) {
@@ -4115,7 +3662,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_M = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_M_next_node,
   .key          = DV_M,
   .bounds       = 1,
-  .keys         = { KC_M },
+  .keys         = { HYPR(KC_M) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_W_next_node(uint16_t key) {
@@ -4129,7 +3676,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_W = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_W_next_node,
   .key          = DV_W,
   .bounds       = 1,
-  .keys         = { KC_W },
+  .keys         = { HYPR(KC_W) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_V_next_node(uint16_t key) {
@@ -4143,7 +3690,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_V = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_V_next_node,
   .key          = DV_V,
   .bounds       = 1,
-  .keys         = { KC_V },
+  .keys         = { HYPR(KC_V) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_O_DV_E_DV_Z_next_node(uint16_t key) {
@@ -4157,7 +3704,7 @@ const dvorak_node_t dvorak_node_DV_U_DV_O_DV_E_DV_Z = {
   .next_node    = &dvorak_node_DV_U_DV_O_DV_E_DV_Z_next_node,
   .key          = DV_Z,
   .bounds       = 1,
-  .keys         = { KC_Z },
+  .keys         = { HYPR(KC_Z) },
 };
 
 const dvorak_node_t* dvorak_node_DV_U_DV_I_next_node(uint16_t key) {
@@ -4277,8 +3824,8 @@ const dvorak_node_t dvorak_node_DV_H_DV_T = {
   .parent       = &dvorak_node_DV_H,
   .next_node    = &dvorak_node_DV_H_DV_T_next_node,
   .key          = DV_T,
-  .bounds       = 17,
-  .keys         = { KC_LSFT },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_QUOT_next_node(uint16_t key) {
@@ -4292,7 +3839,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_QUOT = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_QUOT_next_node,
   .key          = DV_QUOT,
   .bounds       = 1,
-  .keys         = { KC_QUOT },
+  .keys         = { S(KC_QUOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_COMM_next_node(uint16_t key) {
@@ -4306,7 +3853,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_COMM = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_COMM_next_node,
   .key          = DV_COMM,
   .bounds       = 1,
-  .keys         = { KC_COMM },
+  .keys         = { S(KC_COMM) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_DOT_next_node(uint16_t key) {
@@ -4320,7 +3867,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_DOT = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_DOT_next_node,
   .key          = DV_DOT,
   .bounds       = 1,
-  .keys         = { KC_DOT },
+  .keys         = { S(KC_DOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_P_next_node(uint16_t key) {
@@ -4334,7 +3881,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_P = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_P_next_node,
   .key          = DV_P,
   .bounds       = 1,
-  .keys         = { KC_P },
+  .keys         = { S(KC_P) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_Y_next_node(uint16_t key) {
@@ -4348,7 +3895,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_Y = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_Y_next_node,
   .key          = DV_Y,
   .bounds       = 1,
-  .keys         = { KC_Y },
+  .keys         = { S(KC_Y) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_A_next_node(uint16_t key) {
@@ -4362,7 +3909,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_A = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_A_next_node,
   .key          = DV_A,
   .bounds       = 1,
-  .keys         = { KC_A },
+  .keys         = { S(KC_A) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_O_next_node(uint16_t key) {
@@ -4376,7 +3923,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_O = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_O_next_node,
   .key          = DV_O,
   .bounds       = 1,
-  .keys         = { KC_O },
+  .keys         = { S(KC_O) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_E_next_node(uint16_t key) {
@@ -4390,7 +3937,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_E = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_E_next_node,
   .key          = DV_E,
   .bounds       = 1,
-  .keys         = { KC_E },
+  .keys         = { S(KC_E) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_U_next_node(uint16_t key) {
@@ -4404,7 +3951,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_U = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_U_next_node,
   .key          = DV_U,
   .bounds       = 1,
-  .keys         = { KC_U },
+  .keys         = { S(KC_U) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_I_next_node(uint16_t key) {
@@ -4418,7 +3965,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_I = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_I_next_node,
   .key          = DV_I,
   .bounds       = 1,
-  .keys         = { KC_I },
+  .keys         = { S(KC_I) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_SCLN_next_node(uint16_t key) {
@@ -4432,7 +3979,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_SCLN = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_SCLN_next_node,
   .key          = DV_SCLN,
   .bounds       = 1,
-  .keys         = { KC_SCLN },
+  .keys         = { S(KC_SCLN) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_Q_next_node(uint16_t key) {
@@ -4446,7 +3993,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_Q = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_Q_next_node,
   .key          = DV_Q,
   .bounds       = 1,
-  .keys         = { KC_Q },
+  .keys         = { S(KC_Q) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_J_next_node(uint16_t key) {
@@ -4460,7 +4007,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_J = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_J_next_node,
   .key          = DV_J,
   .bounds       = 1,
-  .keys         = { KC_J },
+  .keys         = { S(KC_J) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_K_next_node(uint16_t key) {
@@ -4474,7 +4021,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_K = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_K_next_node,
   .key          = DV_K,
   .bounds       = 1,
-  .keys         = { KC_K },
+  .keys         = { S(KC_K) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_X_next_node(uint16_t key) {
@@ -4488,7 +4035,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_X = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_X_next_node,
   .key          = DV_X,
   .bounds       = 1,
-  .keys         = { KC_X },
+  .keys         = { S(KC_X) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_LSFT1_next_node(uint16_t key) {
@@ -4502,7 +4049,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_LSFT1 = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_LSFT1_next_node,
   .key          = DV_LSFT1,
   .bounds       = 1,
-  .keys         = { KC_BSPC },
+  .keys         = { S(KC_BSPC) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_LSFT2_next_node(uint16_t key) {
@@ -4516,7 +4063,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_LSFT2 = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_LSFT2_next_node,
   .key          = DV_LSFT2,
   .bounds       = 1,
-  .keys         = { KC_SPC },
+  .keys         = { S(KC_SPC) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_next_node(uint16_t key) {
@@ -4544,8 +4091,8 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N = {
   .parent       = &dvorak_node_DV_H_DV_T,
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_next_node,
   .key          = DV_N,
-  .bounds       = 51,
-  .keys         = { KC_LGUI, KC_LALT, KC_LCTL },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_QUOT_next_node(uint16_t key) {
@@ -4559,7 +4106,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_QUOT = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_QUOT_next_node,
   .key          = DV_QUOT,
   .bounds       = 1,
-  .keys         = { KC_QUOT },
+  .keys         = { HYPR(KC_QUOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_COMM_next_node(uint16_t key) {
@@ -4573,7 +4120,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_COMM = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_COMM_next_node,
   .key          = DV_COMM,
   .bounds       = 1,
-  .keys         = { KC_COMM },
+  .keys         = { HYPR(KC_COMM) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_DOT_next_node(uint16_t key) {
@@ -4587,7 +4134,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_DOT = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_DOT_next_node,
   .key          = DV_DOT,
   .bounds       = 1,
-  .keys         = { KC_DOT },
+  .keys         = { HYPR(KC_DOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_P_next_node(uint16_t key) {
@@ -4601,7 +4148,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_P = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_P_next_node,
   .key          = DV_P,
   .bounds       = 1,
-  .keys         = { KC_P },
+  .keys         = { HYPR(KC_P) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_Y_next_node(uint16_t key) {
@@ -4615,7 +4162,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_Y = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_Y_next_node,
   .key          = DV_Y,
   .bounds       = 1,
-  .keys         = { KC_Y },
+  .keys         = { HYPR(KC_Y) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_A_next_node(uint16_t key) {
@@ -4629,7 +4176,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_A = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_A_next_node,
   .key          = DV_A,
   .bounds       = 1,
-  .keys         = { KC_A },
+  .keys         = { HYPR(KC_A) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_O_next_node(uint16_t key) {
@@ -4643,7 +4190,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_O = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_O_next_node,
   .key          = DV_O,
   .bounds       = 1,
-  .keys         = { KC_O },
+  .keys         = { HYPR(KC_O) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_E_next_node(uint16_t key) {
@@ -4657,7 +4204,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_E = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_E_next_node,
   .key          = DV_E,
   .bounds       = 1,
-  .keys         = { KC_E },
+  .keys         = { HYPR(KC_E) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_U_next_node(uint16_t key) {
@@ -4671,7 +4218,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_U = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_U_next_node,
   .key          = DV_U,
   .bounds       = 1,
-  .keys         = { KC_U },
+  .keys         = { HYPR(KC_U) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_I_next_node(uint16_t key) {
@@ -4685,7 +4232,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_I = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_I_next_node,
   .key          = DV_I,
   .bounds       = 1,
-  .keys         = { KC_I },
+  .keys         = { HYPR(KC_I) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_SCLN_next_node(uint16_t key) {
@@ -4699,7 +4246,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_SCLN = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_SCLN_next_node,
   .key          = DV_SCLN,
   .bounds       = 1,
-  .keys         = { KC_SCLN },
+  .keys         = { HYPR(KC_SCLN) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_Q_next_node(uint16_t key) {
@@ -4713,7 +4260,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_Q = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_Q_next_node,
   .key          = DV_Q,
   .bounds       = 1,
-  .keys         = { KC_Q },
+  .keys         = { HYPR(KC_Q) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_J_next_node(uint16_t key) {
@@ -4727,7 +4274,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_J = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_J_next_node,
   .key          = DV_J,
   .bounds       = 1,
-  .keys         = { KC_J },
+  .keys         = { HYPR(KC_J) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_K_next_node(uint16_t key) {
@@ -4741,7 +4288,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_K = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_K_next_node,
   .key          = DV_K,
   .bounds       = 1,
-  .keys         = { KC_K },
+  .keys         = { HYPR(KC_K) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_T_DV_N_DV_X_next_node(uint16_t key) {
@@ -4755,11 +4302,28 @@ const dvorak_node_t dvorak_node_DV_H_DV_T_DV_N_DV_X = {
   .next_node    = &dvorak_node_DV_H_DV_T_DV_N_DV_X_next_node,
   .key          = DV_X,
   .bounds       = 1,
-  .keys         = { KC_X },
+  .keys         = { HYPR(KC_X) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_next_node(uint16_t key) {
   switch (key) {
+    case DV_QUOT: return &dvorak_node_DV_H_DV_N_DV_QUOT;
+    case DV_COMM: return &dvorak_node_DV_H_DV_N_DV_COMM;
+    case DV_DOT: return &dvorak_node_DV_H_DV_N_DV_DOT;
+    case DV_P: return &dvorak_node_DV_H_DV_N_DV_P;
+    case DV_Y: return &dvorak_node_DV_H_DV_N_DV_Y;
+    case DV_A: return &dvorak_node_DV_H_DV_N_DV_A;
+    case DV_O: return &dvorak_node_DV_H_DV_N_DV_O;
+    case DV_E: return &dvorak_node_DV_H_DV_N_DV_E;
+    case DV_U: return &dvorak_node_DV_H_DV_N_DV_U;
+    case DV_I: return &dvorak_node_DV_H_DV_N_DV_I;
+    case DV_SCLN: return &dvorak_node_DV_H_DV_N_DV_SCLN;
+    case DV_Q: return &dvorak_node_DV_H_DV_N_DV_Q;
+    case DV_J: return &dvorak_node_DV_H_DV_N_DV_J;
+    case DV_K: return &dvorak_node_DV_H_DV_N_DV_K;
+    case DV_X: return &dvorak_node_DV_H_DV_N_DV_X;
+    case DV_LSFT1: return &dvorak_node_DV_H_DV_N_DV_LSFT1;
+    case DV_LSFT2: return &dvorak_node_DV_H_DV_N_DV_LSFT2;
     case DV_T: return &dvorak_node_DV_H_DV_N_DV_T;
     default: return NULL;
   }
@@ -4771,6 +4335,244 @@ const dvorak_node_t dvorak_node_DV_H_DV_N = {
   .key          = DV_N,
   .bounds       = 0,
   .keys         = {},
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_QUOT_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_QUOT = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_QUOT_next_node,
+  .key          = DV_QUOT,
+  .bounds       = 1,
+  .keys         = { C(KC_QUOT) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_COMM_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_COMM = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_COMM_next_node,
+  .key          = DV_COMM,
+  .bounds       = 1,
+  .keys         = { C(KC_COMM) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_DOT_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_DOT = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_DOT_next_node,
+  .key          = DV_DOT,
+  .bounds       = 1,
+  .keys         = { C(KC_DOT) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_P_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_P = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_P_next_node,
+  .key          = DV_P,
+  .bounds       = 1,
+  .keys         = { C(KC_P) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_Y_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_Y = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_Y_next_node,
+  .key          = DV_Y,
+  .bounds       = 1,
+  .keys         = { C(KC_Y) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_A_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_A = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_A_next_node,
+  .key          = DV_A,
+  .bounds       = 1,
+  .keys         = { C(KC_A) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_O_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_O = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_O_next_node,
+  .key          = DV_O,
+  .bounds       = 1,
+  .keys         = { C(KC_O) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_E_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_E = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_E_next_node,
+  .key          = DV_E,
+  .bounds       = 1,
+  .keys         = { C(KC_E) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_U_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_U = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_U_next_node,
+  .key          = DV_U,
+  .bounds       = 1,
+  .keys         = { C(KC_U) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_I_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_I = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_I_next_node,
+  .key          = DV_I,
+  .bounds       = 1,
+  .keys         = { C(KC_I) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_SCLN_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_SCLN = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_SCLN_next_node,
+  .key          = DV_SCLN,
+  .bounds       = 1,
+  .keys         = { C(KC_SCLN) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_Q_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_Q = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_Q_next_node,
+  .key          = DV_Q,
+  .bounds       = 1,
+  .keys         = { C(KC_Q) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_J_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_J = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_J_next_node,
+  .key          = DV_J,
+  .bounds       = 1,
+  .keys         = { C(KC_J) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_K_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_K = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_K_next_node,
+  .key          = DV_K,
+  .bounds       = 1,
+  .keys         = { C(KC_K) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_X_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_X = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_X_next_node,
+  .key          = DV_X,
+  .bounds       = 1,
+  .keys         = { C(KC_X) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_LSFT1_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_LSFT1 = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_LSFT1_next_node,
+  .key          = DV_LSFT1,
+  .bounds       = 1,
+  .keys         = { C(KC_BSPC) },
+};
+
+const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_LSFT2_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_H_DV_N_DV_LSFT2 = {
+  .parent       = &dvorak_node_DV_H_DV_N,
+  .next_node    = &dvorak_node_DV_H_DV_N_DV_LSFT2_next_node,
+  .key          = DV_LSFT2,
+  .bounds       = 1,
+  .keys         = { C(KC_SPC) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_next_node(uint16_t key) {
@@ -4798,8 +4600,8 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T = {
   .parent       = &dvorak_node_DV_H_DV_N,
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_next_node,
   .key          = DV_T,
-  .bounds       = 68,
-  .keys         = { KC_LGUI, KC_LALT, KC_LSFT, KC_LCTL },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_QUOT_next_node(uint16_t key) {
@@ -4813,7 +4615,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_QUOT = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_QUOT_next_node,
   .key          = DV_QUOT,
   .bounds       = 1,
-  .keys         = { KC_QUOT },
+  .keys         = { HYPR(KC_QUOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_COMM_next_node(uint16_t key) {
@@ -4827,7 +4629,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_COMM = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_COMM_next_node,
   .key          = DV_COMM,
   .bounds       = 1,
-  .keys         = { KC_COMM },
+  .keys         = { HYPR(KC_COMM) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_DOT_next_node(uint16_t key) {
@@ -4841,7 +4643,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_DOT = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_DOT_next_node,
   .key          = DV_DOT,
   .bounds       = 1,
-  .keys         = { KC_DOT },
+  .keys         = { HYPR(KC_DOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_P_next_node(uint16_t key) {
@@ -4855,7 +4657,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_P = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_P_next_node,
   .key          = DV_P,
   .bounds       = 1,
-  .keys         = { KC_P },
+  .keys         = { HYPR(KC_P) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_Y_next_node(uint16_t key) {
@@ -4869,7 +4671,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_Y = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_Y_next_node,
   .key          = DV_Y,
   .bounds       = 1,
-  .keys         = { KC_Y },
+  .keys         = { HYPR(KC_Y) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_A_next_node(uint16_t key) {
@@ -4883,7 +4685,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_A = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_A_next_node,
   .key          = DV_A,
   .bounds       = 1,
-  .keys         = { KC_A },
+  .keys         = { HYPR(KC_A) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_O_next_node(uint16_t key) {
@@ -4897,7 +4699,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_O = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_O_next_node,
   .key          = DV_O,
   .bounds       = 1,
-  .keys         = { KC_O },
+  .keys         = { HYPR(KC_O) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_E_next_node(uint16_t key) {
@@ -4911,7 +4713,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_E = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_E_next_node,
   .key          = DV_E,
   .bounds       = 1,
-  .keys         = { KC_E },
+  .keys         = { HYPR(KC_E) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_U_next_node(uint16_t key) {
@@ -4925,7 +4727,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_U = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_U_next_node,
   .key          = DV_U,
   .bounds       = 1,
-  .keys         = { KC_U },
+  .keys         = { HYPR(KC_U) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_I_next_node(uint16_t key) {
@@ -4939,7 +4741,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_I = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_I_next_node,
   .key          = DV_I,
   .bounds       = 1,
-  .keys         = { KC_I },
+  .keys         = { HYPR(KC_I) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_SCLN_next_node(uint16_t key) {
@@ -4953,7 +4755,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_SCLN = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_SCLN_next_node,
   .key          = DV_SCLN,
   .bounds       = 1,
-  .keys         = { KC_SCLN },
+  .keys         = { HYPR(KC_SCLN) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_Q_next_node(uint16_t key) {
@@ -4967,7 +4769,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_Q = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_Q_next_node,
   .key          = DV_Q,
   .bounds       = 1,
-  .keys         = { KC_Q },
+  .keys         = { HYPR(KC_Q) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_J_next_node(uint16_t key) {
@@ -4981,7 +4783,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_J = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_J_next_node,
   .key          = DV_J,
   .bounds       = 1,
-  .keys         = { KC_J },
+  .keys         = { HYPR(KC_J) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_K_next_node(uint16_t key) {
@@ -4995,7 +4797,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_K = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_K_next_node,
   .key          = DV_K,
   .bounds       = 1,
-  .keys         = { KC_K },
+  .keys         = { HYPR(KC_K) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_N_DV_T_DV_X_next_node(uint16_t key) {
@@ -5009,7 +4811,7 @@ const dvorak_node_t dvorak_node_DV_H_DV_N_DV_T_DV_X = {
   .next_node    = &dvorak_node_DV_H_DV_N_DV_T_DV_X_next_node,
   .key          = DV_X,
   .bounds       = 1,
-  .keys         = { KC_X },
+  .keys         = { HYPR(KC_X) },
 };
 
 const dvorak_node_t* dvorak_node_DV_H_DV_D_next_node(uint16_t key) {
@@ -5070,8 +4872,8 @@ const dvorak_node_t dvorak_node_DV_T_DV_H = {
   .parent       = &dvorak_node_DV_T,
   .next_node    = &dvorak_node_DV_T_DV_H_next_node,
   .key          = DV_H,
-  .bounds       = 17,
-  .keys         = { KC_LSFT },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_QUOT_next_node(uint16_t key) {
@@ -5085,7 +4887,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_QUOT = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_QUOT_next_node,
   .key          = DV_QUOT,
   .bounds       = 1,
-  .keys         = { KC_QUOT },
+  .keys         = { S(KC_QUOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_COMM_next_node(uint16_t key) {
@@ -5099,7 +4901,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_COMM = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_COMM_next_node,
   .key          = DV_COMM,
   .bounds       = 1,
-  .keys         = { KC_COMM },
+  .keys         = { S(KC_COMM) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_DOT_next_node(uint16_t key) {
@@ -5113,7 +4915,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_DOT = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_DOT_next_node,
   .key          = DV_DOT,
   .bounds       = 1,
-  .keys         = { KC_DOT },
+  .keys         = { S(KC_DOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_P_next_node(uint16_t key) {
@@ -5127,7 +4929,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_P = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_P_next_node,
   .key          = DV_P,
   .bounds       = 1,
-  .keys         = { KC_P },
+  .keys         = { S(KC_P) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_Y_next_node(uint16_t key) {
@@ -5141,7 +4943,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_Y = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_Y_next_node,
   .key          = DV_Y,
   .bounds       = 1,
-  .keys         = { KC_Y },
+  .keys         = { S(KC_Y) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_A_next_node(uint16_t key) {
@@ -5155,7 +4957,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_A = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_A_next_node,
   .key          = DV_A,
   .bounds       = 1,
-  .keys         = { KC_A },
+  .keys         = { S(KC_A) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_O_next_node(uint16_t key) {
@@ -5169,7 +4971,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_O = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_O_next_node,
   .key          = DV_O,
   .bounds       = 1,
-  .keys         = { KC_O },
+  .keys         = { S(KC_O) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_E_next_node(uint16_t key) {
@@ -5183,7 +4985,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_E = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_E_next_node,
   .key          = DV_E,
   .bounds       = 1,
-  .keys         = { KC_E },
+  .keys         = { S(KC_E) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_U_next_node(uint16_t key) {
@@ -5197,7 +4999,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_U = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_U_next_node,
   .key          = DV_U,
   .bounds       = 1,
-  .keys         = { KC_U },
+  .keys         = { S(KC_U) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_I_next_node(uint16_t key) {
@@ -5211,7 +5013,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_I = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_I_next_node,
   .key          = DV_I,
   .bounds       = 1,
-  .keys         = { KC_I },
+  .keys         = { S(KC_I) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_SCLN_next_node(uint16_t key) {
@@ -5225,7 +5027,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_SCLN = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_SCLN_next_node,
   .key          = DV_SCLN,
   .bounds       = 1,
-  .keys         = { KC_SCLN },
+  .keys         = { S(KC_SCLN) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_Q_next_node(uint16_t key) {
@@ -5239,7 +5041,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_Q = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_Q_next_node,
   .key          = DV_Q,
   .bounds       = 1,
-  .keys         = { KC_Q },
+  .keys         = { S(KC_Q) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_J_next_node(uint16_t key) {
@@ -5253,7 +5055,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_J = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_J_next_node,
   .key          = DV_J,
   .bounds       = 1,
-  .keys         = { KC_J },
+  .keys         = { S(KC_J) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_K_next_node(uint16_t key) {
@@ -5267,7 +5069,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_K = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_K_next_node,
   .key          = DV_K,
   .bounds       = 1,
-  .keys         = { KC_K },
+  .keys         = { S(KC_K) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_X_next_node(uint16_t key) {
@@ -5281,7 +5083,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_X = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_X_next_node,
   .key          = DV_X,
   .bounds       = 1,
-  .keys         = { KC_X },
+  .keys         = { S(KC_X) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_LSFT1_next_node(uint16_t key) {
@@ -5295,7 +5097,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_LSFT1 = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_LSFT1_next_node,
   .key          = DV_LSFT1,
   .bounds       = 1,
-  .keys         = { KC_BSPC },
+  .keys         = { S(KC_BSPC) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_LSFT2_next_node(uint16_t key) {
@@ -5309,7 +5111,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_LSFT2 = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_LSFT2_next_node,
   .key          = DV_LSFT2,
   .bounds       = 1,
-  .keys         = { KC_SPC },
+  .keys         = { S(KC_SPC) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_next_node(uint16_t key) {
@@ -5337,8 +5139,8 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N = {
   .parent       = &dvorak_node_DV_T_DV_H,
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_next_node,
   .key          = DV_N,
-  .bounds       = 51,
-  .keys         = { KC_LGUI, KC_LALT, KC_LCTL },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_QUOT_next_node(uint16_t key) {
@@ -5352,7 +5154,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_QUOT = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_QUOT_next_node,
   .key          = DV_QUOT,
   .bounds       = 1,
-  .keys         = { KC_QUOT },
+  .keys         = { HYPR(KC_QUOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_COMM_next_node(uint16_t key) {
@@ -5366,7 +5168,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_COMM = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_COMM_next_node,
   .key          = DV_COMM,
   .bounds       = 1,
-  .keys         = { KC_COMM },
+  .keys         = { HYPR(KC_COMM) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_DOT_next_node(uint16_t key) {
@@ -5380,7 +5182,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_DOT = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_DOT_next_node,
   .key          = DV_DOT,
   .bounds       = 1,
-  .keys         = { KC_DOT },
+  .keys         = { HYPR(KC_DOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_P_next_node(uint16_t key) {
@@ -5394,7 +5196,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_P = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_P_next_node,
   .key          = DV_P,
   .bounds       = 1,
-  .keys         = { KC_P },
+  .keys         = { HYPR(KC_P) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_Y_next_node(uint16_t key) {
@@ -5408,7 +5210,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_Y = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_Y_next_node,
   .key          = DV_Y,
   .bounds       = 1,
-  .keys         = { KC_Y },
+  .keys         = { HYPR(KC_Y) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_A_next_node(uint16_t key) {
@@ -5422,7 +5224,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_A = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_A_next_node,
   .key          = DV_A,
   .bounds       = 1,
-  .keys         = { KC_A },
+  .keys         = { HYPR(KC_A) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_O_next_node(uint16_t key) {
@@ -5436,7 +5238,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_O = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_O_next_node,
   .key          = DV_O,
   .bounds       = 1,
-  .keys         = { KC_O },
+  .keys         = { HYPR(KC_O) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_E_next_node(uint16_t key) {
@@ -5450,7 +5252,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_E = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_E_next_node,
   .key          = DV_E,
   .bounds       = 1,
-  .keys         = { KC_E },
+  .keys         = { HYPR(KC_E) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_U_next_node(uint16_t key) {
@@ -5464,7 +5266,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_U = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_U_next_node,
   .key          = DV_U,
   .bounds       = 1,
-  .keys         = { KC_U },
+  .keys         = { HYPR(KC_U) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_I_next_node(uint16_t key) {
@@ -5478,7 +5280,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_I = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_I_next_node,
   .key          = DV_I,
   .bounds       = 1,
-  .keys         = { KC_I },
+  .keys         = { HYPR(KC_I) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_SCLN_next_node(uint16_t key) {
@@ -5492,7 +5294,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_SCLN = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_SCLN_next_node,
   .key          = DV_SCLN,
   .bounds       = 1,
-  .keys         = { KC_SCLN },
+  .keys         = { HYPR(KC_SCLN) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_Q_next_node(uint16_t key) {
@@ -5506,7 +5308,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_Q = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_Q_next_node,
   .key          = DV_Q,
   .bounds       = 1,
-  .keys         = { KC_Q },
+  .keys         = { HYPR(KC_Q) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_J_next_node(uint16_t key) {
@@ -5520,7 +5322,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_J = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_J_next_node,
   .key          = DV_J,
   .bounds       = 1,
-  .keys         = { KC_J },
+  .keys         = { HYPR(KC_J) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_K_next_node(uint16_t key) {
@@ -5534,7 +5336,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_K = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_K_next_node,
   .key          = DV_K,
   .bounds       = 1,
-  .keys         = { KC_K },
+  .keys         = { HYPR(KC_K) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_H_DV_N_DV_X_next_node(uint16_t key) {
@@ -5548,7 +5350,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_H_DV_N_DV_X = {
   .next_node    = &dvorak_node_DV_T_DV_H_DV_N_DV_X_next_node,
   .key          = DV_X,
   .bounds       = 1,
-  .keys         = { KC_X },
+  .keys         = { HYPR(KC_X) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_next_node(uint16_t key) {
@@ -5557,19 +5359,14 @@ const dvorak_node_t* dvorak_node_DV_T_DV_N_next_node(uint16_t key) {
     case DV_COMM: return &dvorak_node_DV_T_DV_N_DV_COMM;
     case DV_DOT: return &dvorak_node_DV_T_DV_N_DV_DOT;
     case DV_P: return &dvorak_node_DV_T_DV_N_DV_P;
-    case DV_Y: return &dvorak_node_DV_T_DV_N_DV_Y;
-    case DV_A: return &dvorak_node_DV_T_DV_N_DV_A;
     case DV_O: return &dvorak_node_DV_T_DV_N_DV_O;
     case DV_E: return &dvorak_node_DV_T_DV_N_DV_E;
     case DV_U: return &dvorak_node_DV_T_DV_N_DV_U;
     case DV_I: return &dvorak_node_DV_T_DV_N_DV_I;
-    case DV_SCLN: return &dvorak_node_DV_T_DV_N_DV_SCLN;
     case DV_Q: return &dvorak_node_DV_T_DV_N_DV_Q;
     case DV_J: return &dvorak_node_DV_T_DV_N_DV_J;
     case DV_K: return &dvorak_node_DV_T_DV_N_DV_K;
     case DV_X: return &dvorak_node_DV_T_DV_N_DV_X;
-    case DV_LSFT1: return &dvorak_node_DV_T_DV_N_DV_LSFT1;
-    case DV_LSFT2: return &dvorak_node_DV_T_DV_N_DV_LSFT2;
     case DV_H: return &dvorak_node_DV_T_DV_N_DV_H;
     default: return NULL;
   }
@@ -5579,8 +5376,8 @@ const dvorak_node_t dvorak_node_DV_T_DV_N = {
   .parent       = &dvorak_node_DV_T,
   .next_node    = &dvorak_node_DV_T_DV_N_next_node,
   .key          = DV_N,
-  .bounds       = 17,
-  .keys         = { KC_LCTL },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_QUOT_next_node(uint16_t key) {
@@ -5594,7 +5391,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_QUOT = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_QUOT_next_node,
   .key          = DV_QUOT,
   .bounds       = 1,
-  .keys         = { KC_QUOT },
+  .keys         = { KC_GRV },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_COMM_next_node(uint16_t key) {
@@ -5608,7 +5405,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_COMM = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_COMM_next_node,
   .key          = DV_COMM,
   .bounds       = 1,
-  .keys         = { KC_COMM },
+  .keys         = { KC_SLSH },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_DOT_next_node(uint16_t key) {
@@ -5622,7 +5419,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_DOT = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_DOT_next_node,
   .key          = DV_DOT,
   .bounds       = 1,
-  .keys         = { KC_DOT },
+  .keys         = { KC_HASH },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_P_next_node(uint16_t key) {
@@ -5636,35 +5433,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_P = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_P_next_node,
   .key          = DV_P,
   .bounds       = 1,
-  .keys         = { KC_P },
-};
-
-const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_Y_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_T_DV_N_DV_Y = {
-  .parent       = &dvorak_node_DV_T_DV_N,
-  .next_node    = &dvorak_node_DV_T_DV_N_DV_Y_next_node,
-  .key          = DV_Y,
-  .bounds       = 1,
-  .keys         = { KC_Y },
-};
-
-const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_A_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_T_DV_N_DV_A = {
-  .parent       = &dvorak_node_DV_T_DV_N,
-  .next_node    = &dvorak_node_DV_T_DV_N_DV_A_next_node,
-  .key          = DV_A,
-  .bounds       = 1,
-  .keys         = { KC_A },
+  .keys         = { KC_AMPR },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_O_next_node(uint16_t key) {
@@ -5678,7 +5447,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_O = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_O_next_node,
   .key          = DV_O,
   .bounds       = 1,
-  .keys         = { KC_O },
+  .keys         = { KC_QUES },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_E_next_node(uint16_t key) {
@@ -5692,7 +5461,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_E = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_E_next_node,
   .key          = DV_E,
   .bounds       = 1,
-  .keys         = { KC_E },
+  .keys         = { KC_LPRN },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_U_next_node(uint16_t key) {
@@ -5706,7 +5475,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_U = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_U_next_node,
   .key          = DV_U,
   .bounds       = 1,
-  .keys         = { KC_U },
+  .keys         = { KC_LBRC },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_I_next_node(uint16_t key) {
@@ -5720,21 +5489,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_I = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_I_next_node,
   .key          = DV_I,
   .bounds       = 1,
-  .keys         = { KC_I },
-};
-
-const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_SCLN_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_T_DV_N_DV_SCLN = {
-  .parent       = &dvorak_node_DV_T_DV_N,
-  .next_node    = &dvorak_node_DV_T_DV_N_DV_SCLN_next_node,
-  .key          = DV_SCLN,
-  .bounds       = 1,
-  .keys         = { KC_SCLN },
+  .keys         = { KC_LCBR },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_Q_next_node(uint16_t key) {
@@ -5748,7 +5503,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_Q = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_Q_next_node,
   .key          = DV_Q,
   .bounds       = 1,
-  .keys         = { KC_Q },
+  .keys         = { KC_BSLS },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_J_next_node(uint16_t key) {
@@ -5762,7 +5517,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_J = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_J_next_node,
   .key          = DV_J,
   .bounds       = 1,
-  .keys         = { KC_J },
+  .keys         = { KC_PIPE },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_K_next_node(uint16_t key) {
@@ -5776,7 +5531,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_K = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_K_next_node,
   .key          = DV_K,
   .bounds       = 1,
-  .keys         = { KC_K },
+  .keys         = { KC_PLUS },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_X_next_node(uint16_t key) {
@@ -5790,35 +5545,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_X = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_X_next_node,
   .key          = DV_X,
   .bounds       = 1,
-  .keys         = { KC_X },
-};
-
-const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_LSFT1_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_T_DV_N_DV_LSFT1 = {
-  .parent       = &dvorak_node_DV_T_DV_N,
-  .next_node    = &dvorak_node_DV_T_DV_N_DV_LSFT1_next_node,
-  .key          = DV_LSFT1,
-  .bounds       = 1,
-  .keys         = { KC_BSPC },
-};
-
-const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_LSFT2_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_T_DV_N_DV_LSFT2 = {
-  .parent       = &dvorak_node_DV_T_DV_N,
-  .next_node    = &dvorak_node_DV_T_DV_N_DV_LSFT2_next_node,
-  .key          = DV_LSFT2,
-  .bounds       = 1,
-  .keys         = { KC_SPC },
+  .keys         = { KC_EQL },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_next_node(uint16_t key) {
@@ -5846,8 +5573,8 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H = {
   .parent       = &dvorak_node_DV_T_DV_N,
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_next_node,
   .key          = DV_H,
-  .bounds       = 51,
-  .keys         = { KC_LGUI, KC_LALT, KC_LSFT },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_QUOT_next_node(uint16_t key) {
@@ -5861,7 +5588,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_QUOT = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_QUOT_next_node,
   .key          = DV_QUOT,
   .bounds       = 1,
-  .keys         = { KC_QUOT },
+  .keys         = { HYPR(KC_QUOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_COMM_next_node(uint16_t key) {
@@ -5875,7 +5602,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_COMM = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_COMM_next_node,
   .key          = DV_COMM,
   .bounds       = 1,
-  .keys         = { KC_COMM },
+  .keys         = { HYPR(KC_COMM) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_DOT_next_node(uint16_t key) {
@@ -5889,7 +5616,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_DOT = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_DOT_next_node,
   .key          = DV_DOT,
   .bounds       = 1,
-  .keys         = { KC_DOT },
+  .keys         = { HYPR(KC_DOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_P_next_node(uint16_t key) {
@@ -5903,7 +5630,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_P = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_P_next_node,
   .key          = DV_P,
   .bounds       = 1,
-  .keys         = { KC_P },
+  .keys         = { HYPR(KC_P) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_Y_next_node(uint16_t key) {
@@ -5917,7 +5644,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_Y = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_Y_next_node,
   .key          = DV_Y,
   .bounds       = 1,
-  .keys         = { KC_Y },
+  .keys         = { HYPR(KC_Y) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_A_next_node(uint16_t key) {
@@ -5931,7 +5658,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_A = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_A_next_node,
   .key          = DV_A,
   .bounds       = 1,
-  .keys         = { KC_A },
+  .keys         = { HYPR(KC_A) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_O_next_node(uint16_t key) {
@@ -5945,7 +5672,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_O = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_O_next_node,
   .key          = DV_O,
   .bounds       = 1,
-  .keys         = { KC_O },
+  .keys         = { HYPR(KC_O) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_E_next_node(uint16_t key) {
@@ -5959,7 +5686,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_E = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_E_next_node,
   .key          = DV_E,
   .bounds       = 1,
-  .keys         = { KC_E },
+  .keys         = { HYPR(KC_E) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_U_next_node(uint16_t key) {
@@ -5973,7 +5700,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_U = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_U_next_node,
   .key          = DV_U,
   .bounds       = 1,
-  .keys         = { KC_U },
+  .keys         = { HYPR(KC_U) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_I_next_node(uint16_t key) {
@@ -5987,7 +5714,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_I = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_I_next_node,
   .key          = DV_I,
   .bounds       = 1,
-  .keys         = { KC_I },
+  .keys         = { HYPR(KC_I) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_SCLN_next_node(uint16_t key) {
@@ -6001,7 +5728,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_SCLN = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_SCLN_next_node,
   .key          = DV_SCLN,
   .bounds       = 1,
-  .keys         = { KC_SCLN },
+  .keys         = { HYPR(KC_SCLN) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_Q_next_node(uint16_t key) {
@@ -6015,7 +5742,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_Q = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_Q_next_node,
   .key          = DV_Q,
   .bounds       = 1,
-  .keys         = { KC_Q },
+  .keys         = { HYPR(KC_Q) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_J_next_node(uint16_t key) {
@@ -6029,7 +5756,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_J = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_J_next_node,
   .key          = DV_J,
   .bounds       = 1,
-  .keys         = { KC_J },
+  .keys         = { HYPR(KC_J) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_K_next_node(uint16_t key) {
@@ -6043,7 +5770,7 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_K = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_K_next_node,
   .key          = DV_K,
   .bounds       = 1,
-  .keys         = { KC_K },
+  .keys         = { HYPR(KC_K) },
 };
 
 const dvorak_node_t* dvorak_node_DV_T_DV_N_DV_H_DV_X_next_node(uint16_t key) {
@@ -6057,13 +5784,13 @@ const dvorak_node_t dvorak_node_DV_T_DV_N_DV_H_DV_X = {
   .next_node    = &dvorak_node_DV_T_DV_N_DV_H_DV_X_next_node,
   .key          = DV_X,
   .bounds       = 1,
-  .keys         = { KC_X },
+  .keys         = { HYPR(KC_X) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_next_node(uint16_t key) {
   switch (key) {
-    case DV_T: return &dvorak_node_DV_N_DV_T;
     case DV_H: return &dvorak_node_DV_N_DV_H;
+    case DV_T: return &dvorak_node_DV_N_DV_T;
     default: return NULL;
   }
 }
@@ -6076,517 +5803,25 @@ const dvorak_node_t dvorak_node_DV_N = {
   .keys         = { KC_N },
 };
 
-const dvorak_node_t* dvorak_node_DV_N_DV_T_next_node(uint16_t key) {
-  switch (key) {
-    case DV_QUOT: return &dvorak_node_DV_N_DV_T_DV_QUOT;
-    case DV_COMM: return &dvorak_node_DV_N_DV_T_DV_COMM;
-    case DV_DOT: return &dvorak_node_DV_N_DV_T_DV_DOT;
-    case DV_P: return &dvorak_node_DV_N_DV_T_DV_P;
-    case DV_Y: return &dvorak_node_DV_N_DV_T_DV_Y;
-    case DV_A: return &dvorak_node_DV_N_DV_T_DV_A;
-    case DV_O: return &dvorak_node_DV_N_DV_T_DV_O;
-    case DV_E: return &dvorak_node_DV_N_DV_T_DV_E;
-    case DV_U: return &dvorak_node_DV_N_DV_T_DV_U;
-    case DV_I: return &dvorak_node_DV_N_DV_T_DV_I;
-    case DV_SCLN: return &dvorak_node_DV_N_DV_T_DV_SCLN;
-    case DV_Q: return &dvorak_node_DV_N_DV_T_DV_Q;
-    case DV_J: return &dvorak_node_DV_N_DV_T_DV_J;
-    case DV_K: return &dvorak_node_DV_N_DV_T_DV_K;
-    case DV_X: return &dvorak_node_DV_N_DV_T_DV_X;
-    case DV_LSFT1: return &dvorak_node_DV_N_DV_T_DV_LSFT1;
-    case DV_LSFT2: return &dvorak_node_DV_N_DV_T_DV_LSFT2;
-    case DV_H: return &dvorak_node_DV_N_DV_T_DV_H;
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T = {
-  .parent       = &dvorak_node_DV_N,
-  .next_node    = &dvorak_node_DV_N_DV_T_next_node,
-  .key          = DV_T,
-  .bounds       = 17,
-  .keys         = { KC_LCTL },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_QUOT_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_QUOT = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_QUOT_next_node,
-  .key          = DV_QUOT,
-  .bounds       = 1,
-  .keys         = { KC_QUOT },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_COMM_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_COMM = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_COMM_next_node,
-  .key          = DV_COMM,
-  .bounds       = 1,
-  .keys         = { KC_COMM },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_DOT_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_DOT = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_DOT_next_node,
-  .key          = DV_DOT,
-  .bounds       = 1,
-  .keys         = { KC_DOT },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_P_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_P = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_P_next_node,
-  .key          = DV_P,
-  .bounds       = 1,
-  .keys         = { KC_P },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_Y_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_Y = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_Y_next_node,
-  .key          = DV_Y,
-  .bounds       = 1,
-  .keys         = { KC_Y },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_A_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_A = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_A_next_node,
-  .key          = DV_A,
-  .bounds       = 1,
-  .keys         = { KC_A },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_O_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_O = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_O_next_node,
-  .key          = DV_O,
-  .bounds       = 1,
-  .keys         = { KC_O },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_E_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_E = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_E_next_node,
-  .key          = DV_E,
-  .bounds       = 1,
-  .keys         = { KC_E },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_U_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_U = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_U_next_node,
-  .key          = DV_U,
-  .bounds       = 1,
-  .keys         = { KC_U },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_I_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_I = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_I_next_node,
-  .key          = DV_I,
-  .bounds       = 1,
-  .keys         = { KC_I },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_SCLN_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_SCLN = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_SCLN_next_node,
-  .key          = DV_SCLN,
-  .bounds       = 1,
-  .keys         = { KC_SCLN },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_Q_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_Q = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_Q_next_node,
-  .key          = DV_Q,
-  .bounds       = 1,
-  .keys         = { KC_Q },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_J_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_J = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_J_next_node,
-  .key          = DV_J,
-  .bounds       = 1,
-  .keys         = { KC_J },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_K_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_K = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_K_next_node,
-  .key          = DV_K,
-  .bounds       = 1,
-  .keys         = { KC_K },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_X_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_X = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_X_next_node,
-  .key          = DV_X,
-  .bounds       = 1,
-  .keys         = { KC_X },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_LSFT1_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_LSFT1 = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_LSFT1_next_node,
-  .key          = DV_LSFT1,
-  .bounds       = 1,
-  .keys         = { KC_BSPC },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_LSFT2_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_LSFT2 = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_LSFT2_next_node,
-  .key          = DV_LSFT2,
-  .bounds       = 1,
-  .keys         = { KC_SPC },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_next_node(uint16_t key) {
-  switch (key) {
-    case DV_QUOT: return &dvorak_node_DV_N_DV_T_DV_H_DV_QUOT;
-    case DV_COMM: return &dvorak_node_DV_N_DV_T_DV_H_DV_COMM;
-    case DV_DOT: return &dvorak_node_DV_N_DV_T_DV_H_DV_DOT;
-    case DV_P: return &dvorak_node_DV_N_DV_T_DV_H_DV_P;
-    case DV_Y: return &dvorak_node_DV_N_DV_T_DV_H_DV_Y;
-    case DV_A: return &dvorak_node_DV_N_DV_T_DV_H_DV_A;
-    case DV_O: return &dvorak_node_DV_N_DV_T_DV_H_DV_O;
-    case DV_E: return &dvorak_node_DV_N_DV_T_DV_H_DV_E;
-    case DV_U: return &dvorak_node_DV_N_DV_T_DV_H_DV_U;
-    case DV_I: return &dvorak_node_DV_N_DV_T_DV_H_DV_I;
-    case DV_SCLN: return &dvorak_node_DV_N_DV_T_DV_H_DV_SCLN;
-    case DV_Q: return &dvorak_node_DV_N_DV_T_DV_H_DV_Q;
-    case DV_J: return &dvorak_node_DV_N_DV_T_DV_H_DV_J;
-    case DV_K: return &dvorak_node_DV_N_DV_T_DV_H_DV_K;
-    case DV_X: return &dvorak_node_DV_N_DV_T_DV_H_DV_X;
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H = {
-  .parent       = &dvorak_node_DV_N_DV_T,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_next_node,
-  .key          = DV_H,
-  .bounds       = 51,
-  .keys         = { KC_LGUI, KC_LALT, KC_LSFT },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_QUOT_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_QUOT = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_QUOT_next_node,
-  .key          = DV_QUOT,
-  .bounds       = 1,
-  .keys         = { KC_QUOT },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_COMM_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_COMM = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_COMM_next_node,
-  .key          = DV_COMM,
-  .bounds       = 1,
-  .keys         = { KC_COMM },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_DOT_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_DOT = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_DOT_next_node,
-  .key          = DV_DOT,
-  .bounds       = 1,
-  .keys         = { KC_DOT },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_P_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_P = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_P_next_node,
-  .key          = DV_P,
-  .bounds       = 1,
-  .keys         = { KC_P },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_Y_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_Y = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_Y_next_node,
-  .key          = DV_Y,
-  .bounds       = 1,
-  .keys         = { KC_Y },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_A_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_A = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_A_next_node,
-  .key          = DV_A,
-  .bounds       = 1,
-  .keys         = { KC_A },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_O_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_O = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_O_next_node,
-  .key          = DV_O,
-  .bounds       = 1,
-  .keys         = { KC_O },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_E_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_E = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_E_next_node,
-  .key          = DV_E,
-  .bounds       = 1,
-  .keys         = { KC_E },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_U_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_U = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_U_next_node,
-  .key          = DV_U,
-  .bounds       = 1,
-  .keys         = { KC_U },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_I_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_I = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_I_next_node,
-  .key          = DV_I,
-  .bounds       = 1,
-  .keys         = { KC_I },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_SCLN_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_SCLN = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_SCLN_next_node,
-  .key          = DV_SCLN,
-  .bounds       = 1,
-  .keys         = { KC_SCLN },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_Q_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_Q = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_Q_next_node,
-  .key          = DV_Q,
-  .bounds       = 1,
-  .keys         = { KC_Q },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_J_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_J = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_J_next_node,
-  .key          = DV_J,
-  .bounds       = 1,
-  .keys         = { KC_J },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_K_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_K = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_K_next_node,
-  .key          = DV_K,
-  .bounds       = 1,
-  .keys         = { KC_K },
-};
-
-const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_X_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_X = {
-  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
-  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_X_next_node,
-  .key          = DV_X,
-  .bounds       = 1,
-  .keys         = { KC_X },
-};
-
 const dvorak_node_t* dvorak_node_DV_N_DV_H_next_node(uint16_t key) {
   switch (key) {
+    case DV_QUOT: return &dvorak_node_DV_N_DV_H_DV_QUOT;
+    case DV_COMM: return &dvorak_node_DV_N_DV_H_DV_COMM;
+    case DV_DOT: return &dvorak_node_DV_N_DV_H_DV_DOT;
+    case DV_P: return &dvorak_node_DV_N_DV_H_DV_P;
+    case DV_Y: return &dvorak_node_DV_N_DV_H_DV_Y;
+    case DV_A: return &dvorak_node_DV_N_DV_H_DV_A;
+    case DV_O: return &dvorak_node_DV_N_DV_H_DV_O;
+    case DV_E: return &dvorak_node_DV_N_DV_H_DV_E;
+    case DV_U: return &dvorak_node_DV_N_DV_H_DV_U;
+    case DV_I: return &dvorak_node_DV_N_DV_H_DV_I;
+    case DV_SCLN: return &dvorak_node_DV_N_DV_H_DV_SCLN;
+    case DV_Q: return &dvorak_node_DV_N_DV_H_DV_Q;
+    case DV_J: return &dvorak_node_DV_N_DV_H_DV_J;
+    case DV_K: return &dvorak_node_DV_N_DV_H_DV_K;
+    case DV_X: return &dvorak_node_DV_N_DV_H_DV_X;
+    case DV_LSFT1: return &dvorak_node_DV_N_DV_H_DV_LSFT1;
+    case DV_LSFT2: return &dvorak_node_DV_N_DV_H_DV_LSFT2;
     case DV_T: return &dvorak_node_DV_N_DV_H_DV_T;
     default: return NULL;
   }
@@ -6598,6 +5833,244 @@ const dvorak_node_t dvorak_node_DV_N_DV_H = {
   .key          = DV_H,
   .bounds       = 0,
   .keys         = {},
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_QUOT_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_QUOT = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_QUOT_next_node,
+  .key          = DV_QUOT,
+  .bounds       = 1,
+  .keys         = { C(KC_QUOT) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_COMM_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_COMM = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_COMM_next_node,
+  .key          = DV_COMM,
+  .bounds       = 1,
+  .keys         = { C(KC_COMM) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_DOT_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_DOT = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_DOT_next_node,
+  .key          = DV_DOT,
+  .bounds       = 1,
+  .keys         = { C(KC_DOT) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_P_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_P = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_P_next_node,
+  .key          = DV_P,
+  .bounds       = 1,
+  .keys         = { C(KC_P) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_Y_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_Y = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_Y_next_node,
+  .key          = DV_Y,
+  .bounds       = 1,
+  .keys         = { C(KC_Y) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_A_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_A = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_A_next_node,
+  .key          = DV_A,
+  .bounds       = 1,
+  .keys         = { C(KC_A) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_O_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_O = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_O_next_node,
+  .key          = DV_O,
+  .bounds       = 1,
+  .keys         = { C(KC_O) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_E_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_E = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_E_next_node,
+  .key          = DV_E,
+  .bounds       = 1,
+  .keys         = { C(KC_E) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_U_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_U = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_U_next_node,
+  .key          = DV_U,
+  .bounds       = 1,
+  .keys         = { C(KC_U) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_I_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_I = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_I_next_node,
+  .key          = DV_I,
+  .bounds       = 1,
+  .keys         = { C(KC_I) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_SCLN_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_SCLN = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_SCLN_next_node,
+  .key          = DV_SCLN,
+  .bounds       = 1,
+  .keys         = { C(KC_SCLN) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_Q_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_Q = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_Q_next_node,
+  .key          = DV_Q,
+  .bounds       = 1,
+  .keys         = { C(KC_Q) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_J_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_J = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_J_next_node,
+  .key          = DV_J,
+  .bounds       = 1,
+  .keys         = { C(KC_J) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_K_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_K = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_K_next_node,
+  .key          = DV_K,
+  .bounds       = 1,
+  .keys         = { C(KC_K) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_X_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_X = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_X_next_node,
+  .key          = DV_X,
+  .bounds       = 1,
+  .keys         = { C(KC_X) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_LSFT1_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_LSFT1 = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_LSFT1_next_node,
+  .key          = DV_LSFT1,
+  .bounds       = 1,
+  .keys         = { C(KC_BSPC) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_LSFT2_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_H_DV_LSFT2 = {
+  .parent       = &dvorak_node_DV_N_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_H_DV_LSFT2_next_node,
+  .key          = DV_LSFT2,
+  .bounds       = 1,
+  .keys         = { C(KC_SPC) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_next_node(uint16_t key) {
@@ -6625,8 +6098,8 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T = {
   .parent       = &dvorak_node_DV_N_DV_H,
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_next_node,
   .key          = DV_T,
-  .bounds       = 68,
-  .keys         = { KC_LGUI, KC_LALT, KC_LSFT, KC_LCTL },
+  .bounds       = 0,
+  .keys         = {},
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_QUOT_next_node(uint16_t key) {
@@ -6640,7 +6113,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_QUOT = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_QUOT_next_node,
   .key          = DV_QUOT,
   .bounds       = 1,
-  .keys         = { KC_QUOT },
+  .keys         = { HYPR(KC_QUOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_COMM_next_node(uint16_t key) {
@@ -6654,7 +6127,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_COMM = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_COMM_next_node,
   .key          = DV_COMM,
   .bounds       = 1,
-  .keys         = { KC_COMM },
+  .keys         = { HYPR(KC_COMM) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_DOT_next_node(uint16_t key) {
@@ -6668,7 +6141,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_DOT = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_DOT_next_node,
   .key          = DV_DOT,
   .bounds       = 1,
-  .keys         = { KC_DOT },
+  .keys         = { HYPR(KC_DOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_P_next_node(uint16_t key) {
@@ -6682,7 +6155,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_P = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_P_next_node,
   .key          = DV_P,
   .bounds       = 1,
-  .keys         = { KC_P },
+  .keys         = { HYPR(KC_P) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_Y_next_node(uint16_t key) {
@@ -6696,7 +6169,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_Y = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_Y_next_node,
   .key          = DV_Y,
   .bounds       = 1,
-  .keys         = { KC_Y },
+  .keys         = { HYPR(KC_Y) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_A_next_node(uint16_t key) {
@@ -6710,7 +6183,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_A = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_A_next_node,
   .key          = DV_A,
   .bounds       = 1,
-  .keys         = { KC_A },
+  .keys         = { HYPR(KC_A) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_O_next_node(uint16_t key) {
@@ -6724,7 +6197,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_O = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_O_next_node,
   .key          = DV_O,
   .bounds       = 1,
-  .keys         = { KC_O },
+  .keys         = { HYPR(KC_O) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_E_next_node(uint16_t key) {
@@ -6738,7 +6211,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_E = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_E_next_node,
   .key          = DV_E,
   .bounds       = 1,
-  .keys         = { KC_E },
+  .keys         = { HYPR(KC_E) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_U_next_node(uint16_t key) {
@@ -6752,7 +6225,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_U = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_U_next_node,
   .key          = DV_U,
   .bounds       = 1,
-  .keys         = { KC_U },
+  .keys         = { HYPR(KC_U) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_I_next_node(uint16_t key) {
@@ -6766,7 +6239,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_I = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_I_next_node,
   .key          = DV_I,
   .bounds       = 1,
-  .keys         = { KC_I },
+  .keys         = { HYPR(KC_I) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_SCLN_next_node(uint16_t key) {
@@ -6780,7 +6253,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_SCLN = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_SCLN_next_node,
   .key          = DV_SCLN,
   .bounds       = 1,
-  .keys         = { KC_SCLN },
+  .keys         = { HYPR(KC_SCLN) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_Q_next_node(uint16_t key) {
@@ -6794,7 +6267,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_Q = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_Q_next_node,
   .key          = DV_Q,
   .bounds       = 1,
-  .keys         = { KC_Q },
+  .keys         = { HYPR(KC_Q) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_J_next_node(uint16_t key) {
@@ -6808,7 +6281,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_J = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_J_next_node,
   .key          = DV_J,
   .bounds       = 1,
-  .keys         = { KC_J },
+  .keys         = { HYPR(KC_J) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_K_next_node(uint16_t key) {
@@ -6822,7 +6295,7 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_K = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_K_next_node,
   .key          = DV_K,
   .bounds       = 1,
-  .keys         = { KC_K },
+  .keys         = { HYPR(KC_K) },
 };
 
 const dvorak_node_t* dvorak_node_DV_N_DV_H_DV_T_DV_X_next_node(uint16_t key) {
@@ -6836,7 +6309,441 @@ const dvorak_node_t dvorak_node_DV_N_DV_H_DV_T_DV_X = {
   .next_node    = &dvorak_node_DV_N_DV_H_DV_T_DV_X_next_node,
   .key          = DV_X,
   .bounds       = 1,
-  .keys         = { KC_X },
+  .keys         = { HYPR(KC_X) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_next_node(uint16_t key) {
+  switch (key) {
+    case DV_QUOT: return &dvorak_node_DV_N_DV_T_DV_QUOT;
+    case DV_COMM: return &dvorak_node_DV_N_DV_T_DV_COMM;
+    case DV_DOT: return &dvorak_node_DV_N_DV_T_DV_DOT;
+    case DV_P: return &dvorak_node_DV_N_DV_T_DV_P;
+    case DV_O: return &dvorak_node_DV_N_DV_T_DV_O;
+    case DV_E: return &dvorak_node_DV_N_DV_T_DV_E;
+    case DV_U: return &dvorak_node_DV_N_DV_T_DV_U;
+    case DV_I: return &dvorak_node_DV_N_DV_T_DV_I;
+    case DV_Q: return &dvorak_node_DV_N_DV_T_DV_Q;
+    case DV_J: return &dvorak_node_DV_N_DV_T_DV_J;
+    case DV_K: return &dvorak_node_DV_N_DV_T_DV_K;
+    case DV_X: return &dvorak_node_DV_N_DV_T_DV_X;
+    case DV_H: return &dvorak_node_DV_N_DV_T_DV_H;
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T = {
+  .parent       = &dvorak_node_DV_N,
+  .next_node    = &dvorak_node_DV_N_DV_T_next_node,
+  .key          = DV_T,
+  .bounds       = 0,
+  .keys         = {},
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_QUOT_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_QUOT = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_QUOT_next_node,
+  .key          = DV_QUOT,
+  .bounds       = 1,
+  .keys         = { KC_GRV },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_COMM_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_COMM = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_COMM_next_node,
+  .key          = DV_COMM,
+  .bounds       = 1,
+  .keys         = { KC_SLSH },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_DOT_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_DOT = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_DOT_next_node,
+  .key          = DV_DOT,
+  .bounds       = 1,
+  .keys         = { KC_HASH },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_P_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_P = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_P_next_node,
+  .key          = DV_P,
+  .bounds       = 1,
+  .keys         = { KC_AMPR },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_O_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_O = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_O_next_node,
+  .key          = DV_O,
+  .bounds       = 1,
+  .keys         = { KC_QUES },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_E_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_E = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_E_next_node,
+  .key          = DV_E,
+  .bounds       = 1,
+  .keys         = { KC_LPRN },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_U_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_U = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_U_next_node,
+  .key          = DV_U,
+  .bounds       = 1,
+  .keys         = { KC_LBRC },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_I_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_I = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_I_next_node,
+  .key          = DV_I,
+  .bounds       = 1,
+  .keys         = { KC_LCBR },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_Q_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_Q = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_Q_next_node,
+  .key          = DV_Q,
+  .bounds       = 1,
+  .keys         = { KC_BSLS },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_J_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_J = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_J_next_node,
+  .key          = DV_J,
+  .bounds       = 1,
+  .keys         = { KC_PIPE },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_K_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_K = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_K_next_node,
+  .key          = DV_K,
+  .bounds       = 1,
+  .keys         = { KC_PLUS },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_X_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_X = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_X_next_node,
+  .key          = DV_X,
+  .bounds       = 1,
+  .keys         = { KC_EQL },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_next_node(uint16_t key) {
+  switch (key) {
+    case DV_QUOT: return &dvorak_node_DV_N_DV_T_DV_H_DV_QUOT;
+    case DV_COMM: return &dvorak_node_DV_N_DV_T_DV_H_DV_COMM;
+    case DV_DOT: return &dvorak_node_DV_N_DV_T_DV_H_DV_DOT;
+    case DV_P: return &dvorak_node_DV_N_DV_T_DV_H_DV_P;
+    case DV_Y: return &dvorak_node_DV_N_DV_T_DV_H_DV_Y;
+    case DV_A: return &dvorak_node_DV_N_DV_T_DV_H_DV_A;
+    case DV_O: return &dvorak_node_DV_N_DV_T_DV_H_DV_O;
+    case DV_E: return &dvorak_node_DV_N_DV_T_DV_H_DV_E;
+    case DV_U: return &dvorak_node_DV_N_DV_T_DV_H_DV_U;
+    case DV_I: return &dvorak_node_DV_N_DV_T_DV_H_DV_I;
+    case DV_SCLN: return &dvorak_node_DV_N_DV_T_DV_H_DV_SCLN;
+    case DV_Q: return &dvorak_node_DV_N_DV_T_DV_H_DV_Q;
+    case DV_J: return &dvorak_node_DV_N_DV_T_DV_H_DV_J;
+    case DV_K: return &dvorak_node_DV_N_DV_T_DV_H_DV_K;
+    case DV_X: return &dvorak_node_DV_N_DV_T_DV_H_DV_X;
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H = {
+  .parent       = &dvorak_node_DV_N_DV_T,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_next_node,
+  .key          = DV_H,
+  .bounds       = 0,
+  .keys         = {},
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_QUOT_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_QUOT = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_QUOT_next_node,
+  .key          = DV_QUOT,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_QUOT) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_COMM_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_COMM = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_COMM_next_node,
+  .key          = DV_COMM,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_COMM) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_DOT_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_DOT = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_DOT_next_node,
+  .key          = DV_DOT,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_DOT) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_P_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_P = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_P_next_node,
+  .key          = DV_P,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_P) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_Y_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_Y = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_Y_next_node,
+  .key          = DV_Y,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_Y) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_A_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_A = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_A_next_node,
+  .key          = DV_A,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_A) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_O_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_O = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_O_next_node,
+  .key          = DV_O,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_O) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_E_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_E = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_E_next_node,
+  .key          = DV_E,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_E) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_U_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_U = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_U_next_node,
+  .key          = DV_U,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_U) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_I_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_I = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_I_next_node,
+  .key          = DV_I,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_I) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_SCLN_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_SCLN = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_SCLN_next_node,
+  .key          = DV_SCLN,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_SCLN) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_Q_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_Q = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_Q_next_node,
+  .key          = DV_Q,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_Q) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_J_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_J = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_J_next_node,
+  .key          = DV_J,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_J) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_K_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_K = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_K_next_node,
+  .key          = DV_K,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_K) },
+};
+
+const dvorak_node_t* dvorak_node_DV_N_DV_T_DV_H_DV_X_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_N_DV_T_DV_H_DV_X = {
+  .parent       = &dvorak_node_DV_N_DV_T_DV_H,
+  .next_node    = &dvorak_node_DV_N_DV_T_DV_H_DV_X_next_node,
+  .key          = DV_X,
+  .bounds       = 1,
+  .keys         = { HYPR(KC_X) },
 };
 
 const dvorak_node_t* dvorak_node_DV_S_next_node(uint16_t key) {
@@ -7027,6 +6934,7 @@ const dvorak_node_t* dvorak_node_DV_LSFT1_next_node(uint16_t key) {
     case DV_Z: return &dvorak_node_DV_LSFT1_DV_Z;
     case DV_LSFT2: return &dvorak_node_DV_LSFT1_DV_LSFT2;
     case DV_RSFT2: return &dvorak_node_DV_LSFT1_DV_RSFT2;
+    case DV_RSFT1: return &dvorak_node_DV_LSFT1_DV_RSFT1;
     default: return NULL;
   }
 }
@@ -7035,8 +6943,8 @@ const dvorak_node_t dvorak_node_DV_LSFT1 = {
   .parent       = &dvorak_node_root,
   .next_node    = &dvorak_node_DV_LSFT1_next_node,
   .key          = DV_LSFT1,
-  .bounds       = 18,
-  .keys         = { KC_LALT, KC_BSPC },
+  .bounds       = 1,
+  .keys         = { KC_BSPC },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_QUOT_next_node(uint16_t key) {
@@ -7050,7 +6958,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_QUOT = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_QUOT_next_node,
   .key          = DV_QUOT,
   .bounds       = 1,
-  .keys         = { KC_QUOT },
+  .keys         = { A(KC_QUOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_COMM_next_node(uint16_t key) {
@@ -7064,7 +6972,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_COMM = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_COMM_next_node,
   .key          = DV_COMM,
   .bounds       = 1,
-  .keys         = { KC_COMM },
+  .keys         = { A(KC_COMM) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_DOT_next_node(uint16_t key) {
@@ -7078,7 +6986,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_DOT = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_DOT_next_node,
   .key          = DV_DOT,
   .bounds       = 1,
-  .keys         = { KC_DOT },
+  .keys         = { A(KC_DOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_P_next_node(uint16_t key) {
@@ -7092,7 +7000,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_P = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_P_next_node,
   .key          = DV_P,
   .bounds       = 1,
-  .keys         = { KC_P },
+  .keys         = { A(KC_P) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_Y_next_node(uint16_t key) {
@@ -7106,7 +7014,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_Y = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_Y_next_node,
   .key          = DV_Y,
   .bounds       = 1,
-  .keys         = { KC_Y },
+  .keys         = { A(KC_Y) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_F_next_node(uint16_t key) {
@@ -7120,7 +7028,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_F = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_F_next_node,
   .key          = DV_F,
   .bounds       = 1,
-  .keys         = { KC_F },
+  .keys         = { A(KC_F) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_G_next_node(uint16_t key) {
@@ -7134,7 +7042,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_G = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_G_next_node,
   .key          = DV_G,
   .bounds       = 1,
-  .keys         = { KC_G },
+  .keys         = { A(KC_G) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_C_next_node(uint16_t key) {
@@ -7148,7 +7056,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_C = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_C_next_node,
   .key          = DV_C,
   .bounds       = 1,
-  .keys         = { KC_C },
+  .keys         = { A(KC_C) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_R_next_node(uint16_t key) {
@@ -7162,7 +7070,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_R = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_R_next_node,
   .key          = DV_R,
   .bounds       = 1,
-  .keys         = { KC_R },
+  .keys         = { A(KC_R) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_L_next_node(uint16_t key) {
@@ -7176,7 +7084,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_L = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_L_next_node,
   .key          = DV_L,
   .bounds       = 1,
-  .keys         = { KC_L },
+  .keys         = { A(KC_L) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_A_next_node(uint16_t key) {
@@ -7190,7 +7098,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_A = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_A_next_node,
   .key          = DV_A,
   .bounds       = 1,
-  .keys         = { KC_A },
+  .keys         = { A(KC_A) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_O_next_node(uint16_t key) {
@@ -7204,7 +7112,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_O = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_O_next_node,
   .key          = DV_O,
   .bounds       = 1,
-  .keys         = { KC_O },
+  .keys         = { A(KC_O) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_E_next_node(uint16_t key) {
@@ -7218,7 +7126,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_E = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_E_next_node,
   .key          = DV_E,
   .bounds       = 1,
-  .keys         = { KC_E },
+  .keys         = { A(KC_E) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_U_next_node(uint16_t key) {
@@ -7232,7 +7140,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_U = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_U_next_node,
   .key          = DV_U,
   .bounds       = 1,
-  .keys         = { KC_U },
+  .keys         = { A(KC_U) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_I_next_node(uint16_t key) {
@@ -7246,7 +7154,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_I = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_I_next_node,
   .key          = DV_I,
   .bounds       = 1,
-  .keys         = { KC_I },
+  .keys         = { A(KC_I) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_D_next_node(uint16_t key) {
@@ -7260,7 +7168,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_D = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_D_next_node,
   .key          = DV_D,
   .bounds       = 1,
-  .keys         = { KC_D },
+  .keys         = { A(KC_D) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_H_next_node(uint16_t key) {
@@ -7274,7 +7182,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_H = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_H_next_node,
   .key          = DV_H,
   .bounds       = 1,
-  .keys         = { KC_H },
+  .keys         = { A(KC_H) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_T_next_node(uint16_t key) {
@@ -7288,7 +7196,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_T = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_T_next_node,
   .key          = DV_T,
   .bounds       = 1,
-  .keys         = { KC_T },
+  .keys         = { A(KC_T) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_N_next_node(uint16_t key) {
@@ -7302,7 +7210,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_N = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_N_next_node,
   .key          = DV_N,
   .bounds       = 1,
-  .keys         = { KC_N },
+  .keys         = { A(KC_N) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_S_next_node(uint16_t key) {
@@ -7316,7 +7224,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_S = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_S_next_node,
   .key          = DV_S,
   .bounds       = 1,
-  .keys         = { KC_S },
+  .keys         = { A(KC_S) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_SCLN_next_node(uint16_t key) {
@@ -7330,7 +7238,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_SCLN = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_SCLN_next_node,
   .key          = DV_SCLN,
   .bounds       = 1,
-  .keys         = { KC_SCLN },
+  .keys         = { A(KC_SCLN) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_Q_next_node(uint16_t key) {
@@ -7344,7 +7252,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_Q = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_Q_next_node,
   .key          = DV_Q,
   .bounds       = 1,
-  .keys         = { KC_Q },
+  .keys         = { A(KC_Q) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_J_next_node(uint16_t key) {
@@ -7358,7 +7266,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_J = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_J_next_node,
   .key          = DV_J,
   .bounds       = 1,
-  .keys         = { KC_J },
+  .keys         = { A(KC_J) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_K_next_node(uint16_t key) {
@@ -7372,7 +7280,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_K = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_K_next_node,
   .key          = DV_K,
   .bounds       = 1,
-  .keys         = { KC_K },
+  .keys         = { A(KC_K) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_X_next_node(uint16_t key) {
@@ -7386,7 +7294,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_X = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_X_next_node,
   .key          = DV_X,
   .bounds       = 1,
-  .keys         = { KC_X },
+  .keys         = { A(KC_X) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_B_next_node(uint16_t key) {
@@ -7400,7 +7308,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_B = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_B_next_node,
   .key          = DV_B,
   .bounds       = 1,
-  .keys         = { KC_B },
+  .keys         = { A(KC_B) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_M_next_node(uint16_t key) {
@@ -7414,7 +7322,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_M = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_M_next_node,
   .key          = DV_M,
   .bounds       = 1,
-  .keys         = { KC_M },
+  .keys         = { A(KC_M) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_W_next_node(uint16_t key) {
@@ -7428,7 +7336,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_W = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_W_next_node,
   .key          = DV_W,
   .bounds       = 1,
-  .keys         = { KC_W },
+  .keys         = { A(KC_W) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_V_next_node(uint16_t key) {
@@ -7442,7 +7350,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_V = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_V_next_node,
   .key          = DV_V,
   .bounds       = 1,
-  .keys         = { KC_V },
+  .keys         = { A(KC_V) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_Z_next_node(uint16_t key) {
@@ -7456,7 +7364,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_Z = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_Z_next_node,
   .key          = DV_Z,
   .bounds       = 1,
-  .keys         = { KC_Z },
+  .keys         = { A(KC_Z) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_LSFT2_next_node(uint16_t key) {
@@ -7470,7 +7378,7 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_LSFT2 = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_LSFT2_next_node,
   .key          = DV_LSFT2,
   .bounds       = 1,
-  .keys         = { KC_SPC },
+  .keys         = { A(KC_SPC) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT2_next_node(uint16_t key) {
@@ -7484,12 +7392,25 @@ const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT2 = {
   .next_node    = &dvorak_node_DV_LSFT1_DV_RSFT2_next_node,
   .key          = DV_RSFT2,
   .bounds       = 1,
-  .keys         = { KC_ENT },
+  .keys         = { A(KC_ENT) },
+};
+
+const dvorak_node_t* dvorak_node_DV_LSFT1_DV_RSFT1_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const dvorak_node_t dvorak_node_DV_LSFT1_DV_RSFT1 = {
+  .parent       = &dvorak_node_DV_LSFT1,
+  .next_node    = &dvorak_node_DV_LSFT1_DV_RSFT1_next_node,
+  .key          = DV_RSFT1,
+  .bounds       = 1,
+  .keys         = { A(KC_TAB) },
 };
 
 const dvorak_node_t* dvorak_node_DV_LSFT2_next_node(uint16_t key) {
   switch (key) {
-    case DV_RSFT1: return &dvorak_node_DV_LSFT2_DV_RSFT1;
     default: return NULL;
   }
 }
@@ -7502,473 +7423,8 @@ const dvorak_node_t dvorak_node_DV_LSFT2 = {
   .keys         = { KC_SPC },
 };
 
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_next_node(uint16_t key) {
-  switch (key) {
-    case DV_QUOT: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_QUOT;
-    case DV_COMM: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_COMM;
-    case DV_DOT: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_DOT;
-    case DV_P: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_P;
-    case DV_Y: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_Y;
-    case DV_F: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_F;
-    case DV_G: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_G;
-    case DV_C: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_C;
-    case DV_R: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_R;
-    case DV_L: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_L;
-    case DV_A: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_A;
-    case DV_O: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_O;
-    case DV_E: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_E;
-    case DV_U: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_U;
-    case DV_I: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_I;
-    case DV_D: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_D;
-    case DV_H: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_H;
-    case DV_T: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_T;
-    case DV_N: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_N;
-    case DV_S: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_S;
-    case DV_SCLN: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_SCLN;
-    case DV_Q: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_Q;
-    case DV_J: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_J;
-    case DV_K: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_K;
-    case DV_X: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_X;
-    case DV_B: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_B;
-    case DV_M: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_M;
-    case DV_W: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_W;
-    case DV_V: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_V;
-    case DV_Z: return &dvorak_node_DV_LSFT2_DV_RSFT1_DV_Z;
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1 = {
-  .parent       = &dvorak_node_DV_LSFT2,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_next_node,
-  .key          = DV_RSFT1,
-  .bounds       = 34,
-  .keys         = { KC_LGUI, KC_LCTL },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_QUOT_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_QUOT = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_QUOT_next_node,
-  .key          = DV_QUOT,
-  .bounds       = 1,
-  .keys         = { KC_QUOT },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_COMM_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_COMM = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_COMM_next_node,
-  .key          = DV_COMM,
-  .bounds       = 1,
-  .keys         = { KC_COMM },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_DOT_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_DOT = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_DOT_next_node,
-  .key          = DV_DOT,
-  .bounds       = 1,
-  .keys         = { KC_DOT },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_P_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_P = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_P_next_node,
-  .key          = DV_P,
-  .bounds       = 1,
-  .keys         = { KC_P },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_Y_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_Y = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_Y_next_node,
-  .key          = DV_Y,
-  .bounds       = 1,
-  .keys         = { KC_Y },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_F_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_F = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_F_next_node,
-  .key          = DV_F,
-  .bounds       = 1,
-  .keys         = { KC_F },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_G_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_G = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_G_next_node,
-  .key          = DV_G,
-  .bounds       = 1,
-  .keys         = { KC_G },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_C_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_C = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_C_next_node,
-  .key          = DV_C,
-  .bounds       = 1,
-  .keys         = { KC_C },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_R_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_R = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_R_next_node,
-  .key          = DV_R,
-  .bounds       = 1,
-  .keys         = { KC_R },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_L_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_L = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_L_next_node,
-  .key          = DV_L,
-  .bounds       = 1,
-  .keys         = { KC_L },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_A_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_A = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_A_next_node,
-  .key          = DV_A,
-  .bounds       = 1,
-  .keys         = { KC_A },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_O_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_O = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_O_next_node,
-  .key          = DV_O,
-  .bounds       = 1,
-  .keys         = { KC_O },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_E_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_E = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_E_next_node,
-  .key          = DV_E,
-  .bounds       = 1,
-  .keys         = { KC_E },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_U_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_U = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_U_next_node,
-  .key          = DV_U,
-  .bounds       = 1,
-  .keys         = { KC_U },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_I_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_I = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_I_next_node,
-  .key          = DV_I,
-  .bounds       = 1,
-  .keys         = { KC_I },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_D_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_D = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_D_next_node,
-  .key          = DV_D,
-  .bounds       = 1,
-  .keys         = { KC_D },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_H_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_H = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_H_next_node,
-  .key          = DV_H,
-  .bounds       = 1,
-  .keys         = { KC_H },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_T_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_T = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_T_next_node,
-  .key          = DV_T,
-  .bounds       = 1,
-  .keys         = { KC_T },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_N_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_N = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_N_next_node,
-  .key          = DV_N,
-  .bounds       = 1,
-  .keys         = { KC_N },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_S_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_S = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_S_next_node,
-  .key          = DV_S,
-  .bounds       = 1,
-  .keys         = { KC_S },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_SCLN_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_SCLN = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_SCLN_next_node,
-  .key          = DV_SCLN,
-  .bounds       = 1,
-  .keys         = { KC_SCLN },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_Q_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_Q = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_Q_next_node,
-  .key          = DV_Q,
-  .bounds       = 1,
-  .keys         = { KC_Q },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_J_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_J = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_J_next_node,
-  .key          = DV_J,
-  .bounds       = 1,
-  .keys         = { KC_J },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_K_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_K = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_K_next_node,
-  .key          = DV_K,
-  .bounds       = 1,
-  .keys         = { KC_K },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_X_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_X = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_X_next_node,
-  .key          = DV_X,
-  .bounds       = 1,
-  .keys         = { KC_X },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_B_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_B = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_B_next_node,
-  .key          = DV_B,
-  .bounds       = 1,
-  .keys         = { KC_B },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_M_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_M = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_M_next_node,
-  .key          = DV_M,
-  .bounds       = 1,
-  .keys         = { KC_M },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_W_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_W = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_W_next_node,
-  .key          = DV_W,
-  .bounds       = 1,
-  .keys         = { KC_W },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_V_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_V = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_V_next_node,
-  .key          = DV_V,
-  .bounds       = 1,
-  .keys         = { KC_V },
-};
-
-const dvorak_node_t* dvorak_node_DV_LSFT2_DV_RSFT1_DV_Z_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_LSFT2_DV_RSFT1_DV_Z = {
-  .parent       = &dvorak_node_DV_LSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_LSFT2_DV_RSFT1_DV_Z_next_node,
-  .key          = DV_Z,
-  .bounds       = 1,
-  .keys         = { KC_Z },
-};
-
 const dvorak_node_t* dvorak_node_DV_RSFT2_next_node(uint16_t key) {
   switch (key) {
-    case DV_RSFT1: return &dvorak_node_DV_RSFT2_DV_RSFT1;
     default: return NULL;
   }
 }
@@ -7979,470 +7435,6 @@ const dvorak_node_t dvorak_node_DV_RSFT2 = {
   .key          = DV_RSFT2,
   .bounds       = 1,
   .keys         = { KC_ENT },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_next_node(uint16_t key) {
-  switch (key) {
-    case DV_QUOT: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_QUOT;
-    case DV_COMM: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_COMM;
-    case DV_DOT: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_DOT;
-    case DV_P: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_P;
-    case DV_Y: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_Y;
-    case DV_F: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_F;
-    case DV_G: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_G;
-    case DV_C: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_C;
-    case DV_R: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_R;
-    case DV_L: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_L;
-    case DV_A: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_A;
-    case DV_O: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_O;
-    case DV_E: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_E;
-    case DV_U: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_U;
-    case DV_I: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_I;
-    case DV_D: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_D;
-    case DV_H: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_H;
-    case DV_T: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_T;
-    case DV_N: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_N;
-    case DV_S: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_S;
-    case DV_SCLN: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_SCLN;
-    case DV_Q: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_Q;
-    case DV_J: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_J;
-    case DV_K: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_K;
-    case DV_X: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_X;
-    case DV_B: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_B;
-    case DV_M: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_M;
-    case DV_W: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_W;
-    case DV_V: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_V;
-    case DV_Z: return &dvorak_node_DV_RSFT2_DV_RSFT1_DV_Z;
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1 = {
-  .parent       = &dvorak_node_DV_RSFT2,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_next_node,
-  .key          = DV_RSFT1,
-  .bounds       = 34,
-  .keys         = { KC_LGUI, KC_LSFT },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_QUOT_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_QUOT = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_QUOT_next_node,
-  .key          = DV_QUOT,
-  .bounds       = 1,
-  .keys         = { KC_QUOT },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_COMM_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_COMM = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_COMM_next_node,
-  .key          = DV_COMM,
-  .bounds       = 1,
-  .keys         = { KC_COMM },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_DOT_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_DOT = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_DOT_next_node,
-  .key          = DV_DOT,
-  .bounds       = 1,
-  .keys         = { KC_DOT },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_P_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_P = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_P_next_node,
-  .key          = DV_P,
-  .bounds       = 1,
-  .keys         = { KC_P },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_Y_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_Y = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_Y_next_node,
-  .key          = DV_Y,
-  .bounds       = 1,
-  .keys         = { KC_Y },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_F_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_F = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_F_next_node,
-  .key          = DV_F,
-  .bounds       = 1,
-  .keys         = { KC_F },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_G_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_G = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_G_next_node,
-  .key          = DV_G,
-  .bounds       = 1,
-  .keys         = { KC_G },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_C_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_C = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_C_next_node,
-  .key          = DV_C,
-  .bounds       = 1,
-  .keys         = { KC_C },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_R_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_R = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_R_next_node,
-  .key          = DV_R,
-  .bounds       = 1,
-  .keys         = { KC_R },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_L_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_L = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_L_next_node,
-  .key          = DV_L,
-  .bounds       = 1,
-  .keys         = { KC_L },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_A_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_A = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_A_next_node,
-  .key          = DV_A,
-  .bounds       = 1,
-  .keys         = { KC_A },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_O_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_O = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_O_next_node,
-  .key          = DV_O,
-  .bounds       = 1,
-  .keys         = { KC_O },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_E_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_E = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_E_next_node,
-  .key          = DV_E,
-  .bounds       = 1,
-  .keys         = { KC_E },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_U_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_U = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_U_next_node,
-  .key          = DV_U,
-  .bounds       = 1,
-  .keys         = { KC_U },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_I_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_I = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_I_next_node,
-  .key          = DV_I,
-  .bounds       = 1,
-  .keys         = { KC_I },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_D_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_D = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_D_next_node,
-  .key          = DV_D,
-  .bounds       = 1,
-  .keys         = { KC_D },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_H_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_H = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_H_next_node,
-  .key          = DV_H,
-  .bounds       = 1,
-  .keys         = { KC_H },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_T_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_T = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_T_next_node,
-  .key          = DV_T,
-  .bounds       = 1,
-  .keys         = { KC_T },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_N_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_N = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_N_next_node,
-  .key          = DV_N,
-  .bounds       = 1,
-  .keys         = { KC_N },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_S_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_S = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_S_next_node,
-  .key          = DV_S,
-  .bounds       = 1,
-  .keys         = { KC_S },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_SCLN_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_SCLN = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_SCLN_next_node,
-  .key          = DV_SCLN,
-  .bounds       = 1,
-  .keys         = { KC_SCLN },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_Q_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_Q = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_Q_next_node,
-  .key          = DV_Q,
-  .bounds       = 1,
-  .keys         = { KC_Q },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_J_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_J = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_J_next_node,
-  .key          = DV_J,
-  .bounds       = 1,
-  .keys         = { KC_J },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_K_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_K = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_K_next_node,
-  .key          = DV_K,
-  .bounds       = 1,
-  .keys         = { KC_K },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_X_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_X = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_X_next_node,
-  .key          = DV_X,
-  .bounds       = 1,
-  .keys         = { KC_X },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_B_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_B = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_B_next_node,
-  .key          = DV_B,
-  .bounds       = 1,
-  .keys         = { KC_B },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_M_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_M = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_M_next_node,
-  .key          = DV_M,
-  .bounds       = 1,
-  .keys         = { KC_M },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_W_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_W = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_W_next_node,
-  .key          = DV_W,
-  .bounds       = 1,
-  .keys         = { KC_W },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_V_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_V = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_V_next_node,
-  .key          = DV_V,
-  .bounds       = 1,
-  .keys         = { KC_V },
-};
-
-const dvorak_node_t* dvorak_node_DV_RSFT2_DV_RSFT1_DV_Z_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const dvorak_node_t dvorak_node_DV_RSFT2_DV_RSFT1_DV_Z = {
-  .parent       = &dvorak_node_DV_RSFT2_DV_RSFT1,
-  .next_node    = &dvorak_node_DV_RSFT2_DV_RSFT1_DV_Z_next_node,
-  .key          = DV_Z,
-  .bounds       = 1,
-  .keys         = { KC_Z },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_next_node(uint16_t key) {
@@ -8488,8 +7480,8 @@ const dvorak_node_t dvorak_node_DV_RSFT1 = {
   .parent       = &dvorak_node_root,
   .next_node    = &dvorak_node_DV_RSFT1_next_node,
   .key          = DV_RSFT1,
-  .bounds       = 18,
-  .keys         = { KC_LGUI, KC_TAB },
+  .bounds       = 1,
+  .keys         = { KC_TAB },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_QUOT_next_node(uint16_t key) {
@@ -8503,7 +7495,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_QUOT = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_QUOT_next_node,
   .key          = DV_QUOT,
   .bounds       = 1,
-  .keys         = { KC_QUOT },
+  .keys         = { G(KC_QUOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_COMM_next_node(uint16_t key) {
@@ -8517,7 +7509,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_COMM = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_COMM_next_node,
   .key          = DV_COMM,
   .bounds       = 1,
-  .keys         = { KC_COMM },
+  .keys         = { G(KC_COMM) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_DOT_next_node(uint16_t key) {
@@ -8531,7 +7523,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_DOT = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_DOT_next_node,
   .key          = DV_DOT,
   .bounds       = 1,
-  .keys         = { KC_DOT },
+  .keys         = { G(KC_DOT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_P_next_node(uint16_t key) {
@@ -8545,7 +7537,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_P = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_P_next_node,
   .key          = DV_P,
   .bounds       = 1,
-  .keys         = { KC_P },
+  .keys         = { G(KC_P) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_Y_next_node(uint16_t key) {
@@ -8559,7 +7551,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_Y = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_Y_next_node,
   .key          = DV_Y,
   .bounds       = 1,
-  .keys         = { KC_Y },
+  .keys         = { G(KC_Y) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_F_next_node(uint16_t key) {
@@ -8573,7 +7565,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_F = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_F_next_node,
   .key          = DV_F,
   .bounds       = 1,
-  .keys         = { KC_F },
+  .keys         = { G(KC_F) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_G_next_node(uint16_t key) {
@@ -8587,7 +7579,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_G = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_G_next_node,
   .key          = DV_G,
   .bounds       = 1,
-  .keys         = { KC_G },
+  .keys         = { G(KC_G) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_C_next_node(uint16_t key) {
@@ -8601,7 +7593,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_C = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_C_next_node,
   .key          = DV_C,
   .bounds       = 1,
-  .keys         = { KC_C },
+  .keys         = { G(KC_C) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_R_next_node(uint16_t key) {
@@ -8615,7 +7607,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_R = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_R_next_node,
   .key          = DV_R,
   .bounds       = 1,
-  .keys         = { KC_R },
+  .keys         = { G(KC_R) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_L_next_node(uint16_t key) {
@@ -8629,7 +7621,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_L = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_L_next_node,
   .key          = DV_L,
   .bounds       = 1,
-  .keys         = { KC_L },
+  .keys         = { G(KC_L) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_A_next_node(uint16_t key) {
@@ -8643,7 +7635,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_A = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_A_next_node,
   .key          = DV_A,
   .bounds       = 1,
-  .keys         = { KC_A },
+  .keys         = { G(KC_A) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_O_next_node(uint16_t key) {
@@ -8657,7 +7649,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_O = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_O_next_node,
   .key          = DV_O,
   .bounds       = 1,
-  .keys         = { KC_O },
+  .keys         = { G(KC_O) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_E_next_node(uint16_t key) {
@@ -8671,7 +7663,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_E = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_E_next_node,
   .key          = DV_E,
   .bounds       = 1,
-  .keys         = { KC_E },
+  .keys         = { G(KC_E) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_U_next_node(uint16_t key) {
@@ -8685,7 +7677,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_U = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_U_next_node,
   .key          = DV_U,
   .bounds       = 1,
-  .keys         = { KC_U },
+  .keys         = { G(KC_U) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_I_next_node(uint16_t key) {
@@ -8699,7 +7691,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_I = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_I_next_node,
   .key          = DV_I,
   .bounds       = 1,
-  .keys         = { KC_I },
+  .keys         = { G(KC_I) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_D_next_node(uint16_t key) {
@@ -8713,7 +7705,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_D = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_D_next_node,
   .key          = DV_D,
   .bounds       = 1,
-  .keys         = { KC_D },
+  .keys         = { G(KC_D) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_H_next_node(uint16_t key) {
@@ -8727,7 +7719,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_H = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_H_next_node,
   .key          = DV_H,
   .bounds       = 1,
-  .keys         = { KC_H },
+  .keys         = { G(KC_H) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_T_next_node(uint16_t key) {
@@ -8741,7 +7733,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_T = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_T_next_node,
   .key          = DV_T,
   .bounds       = 1,
-  .keys         = { KC_T },
+  .keys         = { G(KC_T) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_N_next_node(uint16_t key) {
@@ -8755,7 +7747,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_N = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_N_next_node,
   .key          = DV_N,
   .bounds       = 1,
-  .keys         = { KC_N },
+  .keys         = { G(KC_N) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_S_next_node(uint16_t key) {
@@ -8769,7 +7761,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_S = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_S_next_node,
   .key          = DV_S,
   .bounds       = 1,
-  .keys         = { KC_S },
+  .keys         = { G(KC_S) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_SCLN_next_node(uint16_t key) {
@@ -8783,7 +7775,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_SCLN = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_SCLN_next_node,
   .key          = DV_SCLN,
   .bounds       = 1,
-  .keys         = { KC_SCLN },
+  .keys         = { G(KC_SCLN) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_Q_next_node(uint16_t key) {
@@ -8797,7 +7789,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_Q = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_Q_next_node,
   .key          = DV_Q,
   .bounds       = 1,
-  .keys         = { KC_Q },
+  .keys         = { G(KC_Q) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_J_next_node(uint16_t key) {
@@ -8811,7 +7803,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_J = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_J_next_node,
   .key          = DV_J,
   .bounds       = 1,
-  .keys         = { KC_J },
+  .keys         = { G(KC_J) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_K_next_node(uint16_t key) {
@@ -8825,7 +7817,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_K = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_K_next_node,
   .key          = DV_K,
   .bounds       = 1,
-  .keys         = { KC_K },
+  .keys         = { G(KC_K) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_X_next_node(uint16_t key) {
@@ -8839,7 +7831,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_X = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_X_next_node,
   .key          = DV_X,
   .bounds       = 1,
-  .keys         = { KC_X },
+  .keys         = { G(KC_X) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_B_next_node(uint16_t key) {
@@ -8853,7 +7845,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_B = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_B_next_node,
   .key          = DV_B,
   .bounds       = 1,
-  .keys         = { KC_B },
+  .keys         = { G(KC_B) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_M_next_node(uint16_t key) {
@@ -8867,7 +7859,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_M = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_M_next_node,
   .key          = DV_M,
   .bounds       = 1,
-  .keys         = { KC_M },
+  .keys         = { G(KC_M) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_W_next_node(uint16_t key) {
@@ -8881,7 +7873,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_W = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_W_next_node,
   .key          = DV_W,
   .bounds       = 1,
-  .keys         = { KC_W },
+  .keys         = { G(KC_W) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_V_next_node(uint16_t key) {
@@ -8895,7 +7887,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_V = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_V_next_node,
   .key          = DV_V,
   .bounds       = 1,
-  .keys         = { KC_V },
+  .keys         = { G(KC_V) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_Z_next_node(uint16_t key) {
@@ -8909,7 +7901,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_Z = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_Z_next_node,
   .key          = DV_Z,
   .bounds       = 1,
-  .keys         = { KC_Z },
+  .keys         = { G(KC_Z) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT1_next_node(uint16_t key) {
@@ -8923,7 +7915,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT1 = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_LSFT1_next_node,
   .key          = DV_LSFT1,
   .bounds       = 1,
-  .keys         = { KC_BSPC },
+  .keys         = { G(KC_BSPC) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_LSFT2_next_node(uint16_t key) {
@@ -8937,7 +7929,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_LSFT2 = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_LSFT2_next_node,
   .key          = DV_LSFT2,
   .bounds       = 1,
-  .keys         = { KC_SPC },
+  .keys         = { G(KC_SPC) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT1_DV_RSFT2_next_node(uint16_t key) {
@@ -8951,7 +7943,7 @@ const dvorak_node_t dvorak_node_DV_RSFT1_DV_RSFT2 = {
   .next_node    = &dvorak_node_DV_RSFT1_DV_RSFT2_next_node,
   .key          = DV_RSFT2,
   .bounds       = 1,
-  .keys         = { KC_ENT },
+  .keys         = { G(KC_ENT) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT3_next_node(uint16_t key) {
@@ -9252,7 +8244,7 @@ const dvorak_node_t dvorak_node_DV_RSFT3_DV_K = {
   .next_node    = &dvorak_node_DV_RSFT3_DV_K_next_node,
   .key          = DV_K,
   .bounds       = 1,
-  .keys         = { KC_MINS },
+  .keys         = { G(KC_MINS) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT3_DV_B_next_node(uint16_t key) {
@@ -9266,7 +8258,7 @@ const dvorak_node_t dvorak_node_DV_RSFT3_DV_B = {
   .next_node    = &dvorak_node_DV_RSFT3_DV_B_next_node,
   .key          = DV_B,
   .bounds       = 1,
-  .keys         = { KC_0 },
+  .keys         = { G(KC_0) },
 };
 
 const dvorak_node_t* dvorak_node_DV_RSFT3_DV_M_next_node(uint16_t key) {
@@ -9280,5 +8272,5 @@ const dvorak_node_t dvorak_node_DV_RSFT3_DV_M = {
   .next_node    = &dvorak_node_DV_RSFT3_DV_M_next_node,
   .key          = DV_M,
   .bounds       = 1,
-  .keys         = { KC_EQL },
+  .keys         = { G(KC_EQL) },
 };

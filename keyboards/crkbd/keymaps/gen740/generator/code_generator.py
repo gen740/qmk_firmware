@@ -2,6 +2,7 @@
 
 from typing import Self
 from generate_keymap import generate_keymaps
+import generate_keydata
 import toml
 import sys
 import os
@@ -12,7 +13,6 @@ class Node:
     parent: Self | None
     children: dict[str, Self]
 
-    _value_enter: list[str] | None = None
     _value_leave: list[str] | None = None
 
     def __init__(
@@ -34,12 +34,6 @@ class Node:
     def add_child(self, key: str, child: Self):
         self.children[key] = child
 
-    def set_value_enter(self, value: list[str]):
-        self._value_enter = value
-
-    def get_value_enter(self) -> list[str] | None:
-        return self._value_enter
-
     def set_value_leave(self, value: list[str]):
         self._value_leave = value
 
@@ -52,7 +46,6 @@ class Node:
 keys: {self.keys}
 parent: {self.parent.keys if self.parent else None}
 children: {self.children.keys()}
-value_enter: {self._value_enter}
 value_leave: {self._value_leave}
 ---------------------------------------------------------------------
 """
@@ -75,22 +68,22 @@ const {self.id}_node_t* {self.get_struct_name()}_next_node(uint16_t key) {{
 """
 
     def get_def_str(self):
-        values = (self._value_enter or []) + (self._value_leave or [])
+        values =  (self._value_leave or [])
         return f"""\
 const {self.id}_node_t {self.get_struct_name()} = {{
   .parent       = {f"&{self.parent.get_struct_name()}" if self.parent else "NULL"},
   .next_node    = &{self.get_struct_name()}_next_node,
   .key          = {"0" if len(self.keys) == 0 else (self.keys[-1] or None)},
-  .bounds       = {len(self._value_enter or []) << 4 | len(values)},
+  .bounds       = {len(values)},
   .keys         = {f"{{ {', '.join(values)} }}" if len(values) > 0 else "{}"},
 }};
 """
 
 
-def generate_tree(id: str, filename: str):
+def generate_tree(id: str):
     all_nodes: dict[tuple[str, ...], Node] = {tuple(): Node(id=id, keys=tuple())}
 
-    for keys, value in generate_keymaps(filename).items():
+    for keys, value in generate_keydata.generate(id).items():
         ### Create all nodes
         for i in range(1, len(keys) + 1):
             if tuple(keys[:i]) not in all_nodes:
@@ -104,23 +97,13 @@ def generate_tree(id: str, filename: str):
 
         #### Set leave values
         if all_nodes[tuple(keys)].get_value_leave() is None:
-            all_nodes[tuple(keys)].set_value_leave(value[1])
+            all_nodes[tuple(keys)].set_value_leave(value)
         else:
             if all_nodes[tuple(keys)].get_value_leave() != value[1]:
                 raise ValueError(
-                    f"Duplicate value for key {keys} (set value: {all_nodes[tuple(keys)].get_value_leave()}value: {value}) in {filename}"
+                    f"Duplicate value for key {keys} (set value: {all_nodes[tuple(keys)].get_value_leave()}value: {value})"
                 )
 
-        #### Set enter values
-        if len(keys) > 1:
-            prev_value_enter = all_nodes[tuple(keys[:-1])].get_value_enter()
-            if prev_value_enter is None:
-                all_nodes[tuple(keys[:-1])].set_value_enter(value[0])
-            elif prev_value_enter != value[0]:
-                if len(prev_value_enter) != 0:
-                    raise ValueError(
-                        f"Duplicate value enter for key {keys[:-1]} (set value: {all_nodes[tuple(keys[:-1])].get_value_enter()} value: {value[0]}) in {filename}"
-                    )
 
     # Set parent and children
     for keycomb, node in all_nodes.items():
@@ -131,28 +114,12 @@ def generate_tree(id: str, filename: str):
     ## Clean up nodes
     clean_nodes = []
 
-    def _visit_and_check(node: Node, triggerred_enter_events: list[str] | None = None):
+    def _visit_and_check(node: Node):
         if node in clean_nodes:
             return
         clean_nodes.append(node)
-        triggerred_enter_events = triggerred_enter_events or []
-        current_enter_events = node.get_value_enter()
-        if current_enter_events is not None:
-            overlap_events = set(triggerred_enter_events) & set(current_enter_events)
-            if overlap_events == set(triggerred_enter_events) & overlap_events:
-                node.set_value_enter(list(set(current_enter_events) - overlap_events))
-            current_enter_events = node.get_value_enter()
-            if len(set(triggerred_enter_events) & set(current_enter_events)) > 0: # type: ignore
-                raise ValueError(
-                    f"Multiple enter events for key {node.keys} in {filename}\n"
-                    f"\tFirst: {triggerred_enter_events}\n"
-                    f"\tSecond: {current_enter_events}"
-                )
-        triggerred_enter_events = (triggerred_enter_events or []) + (
-            node.get_value_enter() or []
-        )
         for child in node.children.values():
-            _visit_and_check(child, triggerred_enter_events)
+            _visit_and_check(child)
 
     _visit_and_check(all_nodes[tuple()])
 
@@ -172,7 +139,7 @@ if __name__ == "__main__":
     else:
         config_value = config_value[sys.argv[1]]
 
-    root = generate_tree(sys.argv[1], f"{sys.argv[1]}.txt")
+    root = generate_tree(sys.argv[1])
 
     with open(f"{sys.argv[1]}_keydata.h", "w") as f:
         f.write(config_value["header"])

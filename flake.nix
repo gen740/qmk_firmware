@@ -24,6 +24,7 @@
             pkgs-latest.pyright
             pkgs-latest.ruff
             pkgs-latest.taplo
+            pkgs-latest.python311Packages.numpy
           ];
         };
       }

@@ -59,6 +59,7 @@ bool process_dvorak(uint16_t keycode, keyrecord_t *record) {
       if (record->event.pressed) {
         dv_char_emit = false;
         const dvorak_node_t *next_node = dv_current_node->next_node(keycode);
+        const dvorak_node_t *dv_rollback_root = dv_current_node;
         if (next_node == NULL) {
           while (dv_current_node->parent != NULL) {
             dv_rollback_keybuf[dv_rollback_keybuf_len++] = dv_current_node->key;
@@ -66,14 +67,15 @@ bool process_dvorak(uint16_t keycode, keyrecord_t *record) {
                                    dv_current_node->bounds);
             dv_current_node = dv_current_node->parent;
             if (dv_current_node->next_node(keycode) != NULL) {
+              dv_rollback_root = dv_current_node;
               dv_current_node = dv_current_node->next_node(keycode);
               break;
             }
           }
           for (int8_t i = dv_rollback_keybuf_len - 1; i >= 0; i--) {
             dv_send_exit_event(
-                dvorak_node_root.next_node(dv_rollback_keybuf[i])->keys,
-                dvorak_node_root.next_node(dv_rollback_keybuf[i])->bounds);
+                dv_rollback_root->next_node(dv_rollback_keybuf[i])->keys,
+                dv_rollback_root->next_node(dv_rollback_keybuf[i])->bounds);
           }
         } else {
           dv_current_node = next_node;
