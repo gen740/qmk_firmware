@@ -39,44 +39,44 @@ const naginata_node_t naginata_node_NG_R;
 const naginata_node_t naginata_node_NG_R_NG_LSFT2;
 const naginata_node_t naginata_node_NG_R_NG_RSFT2;
 const naginata_node_t naginata_node_NG_R_NG_J;
-const naginata_node_t naginata_node_NG_R_NG_J_NG_U;
-const naginata_node_t naginata_node_NG_R_NG_J_NG_O;
+const naginata_node_t naginata_node_NG_R_NG_J_NG_I;
+const naginata_node_t naginata_node_NG_R_NG_J_NG_P;
 const naginata_node_t naginata_node_NG_R_NG_J_NG_H;
+const naginata_node_t naginata_node_NG_R_NG_J_NG_O;
 const naginata_node_t naginata_node_NG_R_NG_I;
+const naginata_node_t naginata_node_NG_R_NG_I_NG_J;
 const naginata_node_t naginata_node_NG_R_NG_P;
+const naginata_node_t naginata_node_NG_R_NG_P_NG_J;
 const naginata_node_t naginata_node_NG_R_NG_H;
 const naginata_node_t naginata_node_NG_R_NG_H_NG_J;
-const naginata_node_t naginata_node_NG_R_NG_U;
-const naginata_node_t naginata_node_NG_R_NG_U_NG_J;
-const naginata_node_t naginata_node_NG_R_NG_O;
-const naginata_node_t naginata_node_NG_R_NG_O_NG_J;
-const naginata_node_t naginata_node_NG_R_NG_O_NG_M;
 const naginata_node_t naginata_node_NG_R_NG_M;
 const naginata_node_t naginata_node_NG_R_NG_M_NG_O;
+const naginata_node_t naginata_node_NG_R_NG_O;
+const naginata_node_t naginata_node_NG_R_NG_O_NG_M;
+const naginata_node_t naginata_node_NG_R_NG_O_NG_J;
 const naginata_node_t naginata_node_NG_T;
 const naginata_node_t naginata_node_NG_Y;
 const naginata_node_t naginata_node_NG_U;
 const naginata_node_t naginata_node_NG_U_NG_LSFT2;
 const naginata_node_t naginata_node_NG_U_NG_RSFT2;
 const naginata_node_t naginata_node_NG_U_NG_F;
-const naginata_node_t naginata_node_NG_U_NG_R;
-const naginata_node_t naginata_node_NG_U_NG_R_NG_J;
-const naginata_node_t naginata_node_NG_U_NG_J;
-const naginata_node_t naginata_node_NG_U_NG_J_NG_R;
-const naginata_node_t naginata_node_NG_U_NG_J_NG_G;
 const naginata_node_t naginata_node_NG_U_NG_G;
 const naginata_node_t naginata_node_NG_U_NG_G_NG_J;
+const naginata_node_t naginata_node_NG_U_NG_J;
+const naginata_node_t naginata_node_NG_U_NG_J_NG_G;
 const naginata_node_t naginata_node_NG_I;
 const naginata_node_t naginata_node_NG_I_NG_LSFT2;
 const naginata_node_t naginata_node_NG_I_NG_RSFT2;
 const naginata_node_t naginata_node_NG_I_NG_Q;
 const naginata_node_t naginata_node_NG_I_NG_R;
-const naginata_node_t naginata_node_NG_I_NG_W;
-const naginata_node_t naginata_node_NG_I_NG_W_NG_J;
+const naginata_node_t naginata_node_NG_I_NG_R_NG_J;
 const naginata_node_t naginata_node_NG_I_NG_J;
+const naginata_node_t naginata_node_NG_I_NG_J_NG_R;
 const naginata_node_t naginata_node_NG_I_NG_J_NG_W;
 const naginata_node_t naginata_node_NG_I_NG_J_NG_X;
 const naginata_node_t naginata_node_NG_I_NG_J_NG_G;
+const naginata_node_t naginata_node_NG_I_NG_W;
+const naginata_node_t naginata_node_NG_I_NG_W_NG_J;
 const naginata_node_t naginata_node_NG_I_NG_G;
 const naginata_node_t naginata_node_NG_I_NG_G_NG_M;
 const naginata_node_t naginata_node_NG_I_NG_G_NG_J;
@@ -94,14 +94,14 @@ const naginata_node_t naginata_node_NG_O_NG_LSFT2;
 const naginata_node_t naginata_node_NG_O_NG_RSFT2;
 const naginata_node_t naginata_node_NG_O_NG_F;
 const naginata_node_t naginata_node_NG_O_NG_Q;
-const naginata_node_t naginata_node_NG_O_NG_R;
-const naginata_node_t naginata_node_NG_O_NG_R_NG_J;
-const naginata_node_t naginata_node_NG_O_NG_R_NG_M;
-const naginata_node_t naginata_node_NG_O_NG_J;
-const naginata_node_t naginata_node_NG_O_NG_J_NG_R;
-const naginata_node_t naginata_node_NG_O_NG_J_NG_G;
 const naginata_node_t naginata_node_NG_O_NG_G;
 const naginata_node_t naginata_node_NG_O_NG_G_NG_J;
+const naginata_node_t naginata_node_NG_O_NG_J;
+const naginata_node_t naginata_node_NG_O_NG_J_NG_G;
+const naginata_node_t naginata_node_NG_O_NG_J_NG_R;
+const naginata_node_t naginata_node_NG_O_NG_R;
+const naginata_node_t naginata_node_NG_O_NG_R_NG_M;
+const naginata_node_t naginata_node_NG_O_NG_R_NG_J;
 const naginata_node_t naginata_node_NG_O_NG_M;
 const naginata_node_t naginata_node_NG_O_NG_M_NG_R;
 const naginata_node_t naginata_node_NG_O_NG_SCLN;
@@ -122,12 +122,14 @@ const naginata_node_t naginata_node_NG_P_NG_V;
 const naginata_node_t naginata_node_NG_P_NG_V_NG_SCLN;
 const naginata_node_t naginata_node_NG_P_NG_Q;
 const naginata_node_t naginata_node_NG_P_NG_R;
-const naginata_node_t naginata_node_NG_P_NG_W;
-const naginata_node_t naginata_node_NG_P_NG_W_NG_J;
+const naginata_node_t naginata_node_NG_P_NG_R_NG_J;
 const naginata_node_t naginata_node_NG_P_NG_J;
+const naginata_node_t naginata_node_NG_P_NG_J_NG_R;
 const naginata_node_t naginata_node_NG_P_NG_J_NG_W;
 const naginata_node_t naginata_node_NG_P_NG_J_NG_X;
 const naginata_node_t naginata_node_NG_P_NG_J_NG_E;
+const naginata_node_t naginata_node_NG_P_NG_W;
+const naginata_node_t naginata_node_NG_P_NG_W_NG_J;
 const naginata_node_t naginata_node_NG_P_NG_G;
 const naginata_node_t naginata_node_NG_P_NG_D;
 const naginata_node_t naginata_node_NG_P_NG_X;
@@ -257,9 +259,10 @@ const naginata_node_t naginata_node_NG_J_NG_E;
 const naginata_node_t naginata_node_NG_J_NG_E_NG_P;
 const naginata_node_t naginata_node_NG_J_NG_E_NG_K;
 const naginata_node_t naginata_node_NG_J_NG_R;
-const naginata_node_t naginata_node_NG_J_NG_R_NG_U;
-const naginata_node_t naginata_node_NG_J_NG_R_NG_O;
+const naginata_node_t naginata_node_NG_J_NG_R_NG_I;
+const naginata_node_t naginata_node_NG_J_NG_R_NG_P;
 const naginata_node_t naginata_node_NG_J_NG_R_NG_H;
+const naginata_node_t naginata_node_NG_J_NG_R_NG_O;
 const naginata_node_t naginata_node_NG_J_NG_A;
 const naginata_node_t naginata_node_NG_J_NG_S;
 const naginata_node_t naginata_node_NG_J_NG_D;
@@ -280,25 +283,26 @@ const naginata_node_t naginata_node_NG_J_NG_V;
 const naginata_node_t naginata_node_NG_J_NG_V_NG_SCLN;
 const naginata_node_t naginata_node_NG_J_NG_B;
 const naginata_node_t naginata_node_NG_J_NG_Q;
-const naginata_node_t naginata_node_NG_J_NG_U;
-const naginata_node_t naginata_node_NG_J_NG_U_NG_R;
-const naginata_node_t naginata_node_NG_J_NG_U_NG_G;
-const naginata_node_t naginata_node_NG_J_NG_O;
-const naginata_node_t naginata_node_NG_J_NG_O_NG_R;
-const naginata_node_t naginata_node_NG_J_NG_O_NG_G;
+const naginata_node_t naginata_node_NG_J_NG_I;
+const naginata_node_t naginata_node_NG_J_NG_I_NG_R;
+const naginata_node_t naginata_node_NG_J_NG_I_NG_W;
+const naginata_node_t naginata_node_NG_J_NG_I_NG_X;
+const naginata_node_t naginata_node_NG_J_NG_I_NG_G;
+const naginata_node_t naginata_node_NG_J_NG_P;
+const naginata_node_t naginata_node_NG_J_NG_P_NG_R;
+const naginata_node_t naginata_node_NG_J_NG_P_NG_W;
+const naginata_node_t naginata_node_NG_J_NG_P_NG_X;
+const naginata_node_t naginata_node_NG_J_NG_P_NG_E;
 const naginata_node_t naginata_node_NG_J_NG_H;
 const naginata_node_t naginata_node_NG_J_NG_H_NG_R;
 const naginata_node_t naginata_node_NG_J_NG_H_NG_W;
 const naginata_node_t naginata_node_NG_J_NG_H_NG_G;
 const naginata_node_t naginata_node_NG_J_NG_H_NG_X;
-const naginata_node_t naginata_node_NG_J_NG_I;
-const naginata_node_t naginata_node_NG_J_NG_I_NG_W;
-const naginata_node_t naginata_node_NG_J_NG_I_NG_X;
-const naginata_node_t naginata_node_NG_J_NG_I_NG_G;
-const naginata_node_t naginata_node_NG_J_NG_P;
-const naginata_node_t naginata_node_NG_J_NG_P_NG_W;
-const naginata_node_t naginata_node_NG_J_NG_P_NG_X;
-const naginata_node_t naginata_node_NG_J_NG_P_NG_E;
+const naginata_node_t naginata_node_NG_J_NG_U;
+const naginata_node_t naginata_node_NG_J_NG_U_NG_G;
+const naginata_node_t naginata_node_NG_J_NG_O;
+const naginata_node_t naginata_node_NG_J_NG_O_NG_G;
+const naginata_node_t naginata_node_NG_J_NG_O_NG_R;
 const naginata_node_t naginata_node_NG_J_NG_K;
 const naginata_node_t naginata_node_NG_J_NG_K_NG_E;
 const naginata_node_t naginata_node_NG_J_NG_L;
@@ -1089,9 +1093,8 @@ const naginata_node_t* naginata_node_NG_R_next_node(uint16_t key) {
     case NG_I: return &naginata_node_NG_R_NG_I;
     case NG_P: return &naginata_node_NG_R_NG_P;
     case NG_H: return &naginata_node_NG_R_NG_H;
-    case NG_U: return &naginata_node_NG_R_NG_U;
-    case NG_O: return &naginata_node_NG_R_NG_O;
     case NG_M: return &naginata_node_NG_R_NG_M;
+    case NG_O: return &naginata_node_NG_R_NG_O;
     default: return NULL;
   }
 }
@@ -1134,9 +1137,10 @@ const naginata_node_t naginata_node_NG_R_NG_RSFT2 = {
 
 const naginata_node_t* naginata_node_NG_R_NG_J_next_node(uint16_t key) {
   switch (key) {
-    case NG_U: return &naginata_node_NG_R_NG_J_NG_U;
-    case NG_O: return &naginata_node_NG_R_NG_J_NG_O;
+    case NG_I: return &naginata_node_NG_R_NG_J_NG_I;
+    case NG_P: return &naginata_node_NG_R_NG_J_NG_P;
     case NG_H: return &naginata_node_NG_R_NG_J_NG_H;
+    case NG_O: return &naginata_node_NG_R_NG_J_NG_O;
     default: return NULL;
   }
 }
@@ -1149,32 +1153,32 @@ const naginata_node_t naginata_node_NG_R_NG_J = {
   .keys         = { KC_Z, KC_I },
 };
 
-const naginata_node_t* naginata_node_NG_R_NG_J_NG_U_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_R_NG_J_NG_I_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_R_NG_J_NG_U = {
+const naginata_node_t naginata_node_NG_R_NG_J_NG_I = {
   .parent       = &naginata_node_NG_R_NG_J,
-  .next_node    = &naginata_node_NG_R_NG_J_NG_U_next_node,
-  .key          = NG_U,
+  .next_node    = &naginata_node_NG_R_NG_J_NG_I_next_node,
+  .key          = NG_I,
   .bounds       = 3,
   .keys         = { KC_Z, KC_Y, KC_O },
 };
 
-const naginata_node_t* naginata_node_NG_R_NG_J_NG_O_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_R_NG_J_NG_P_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_R_NG_J_NG_O = {
+const naginata_node_t naginata_node_NG_R_NG_J_NG_P = {
   .parent       = &naginata_node_NG_R_NG_J,
-  .next_node    = &naginata_node_NG_R_NG_J_NG_O_next_node,
-  .key          = NG_O,
+  .next_node    = &naginata_node_NG_R_NG_J_NG_P_next_node,
+  .key          = NG_P,
   .bounds       = 3,
-  .keys         = { KC_Z, KC_Y, KC_E },
+  .keys         = { KC_Z, KC_Y, KC_U },
 };
 
 const naginata_node_t* naginata_node_NG_R_NG_J_NG_H_next_node(uint16_t key) {
@@ -1191,8 +1195,23 @@ const naginata_node_t naginata_node_NG_R_NG_J_NG_H = {
   .keys         = { KC_Z, KC_Y, KC_A },
 };
 
+const naginata_node_t* naginata_node_NG_R_NG_J_NG_O_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_R_NG_J_NG_O = {
+  .parent       = &naginata_node_NG_R_NG_J,
+  .next_node    = &naginata_node_NG_R_NG_J_NG_O_next_node,
+  .key          = NG_O,
+  .bounds       = 3,
+  .keys         = { KC_Z, KC_Y, KC_E },
+};
+
 const naginata_node_t* naginata_node_NG_R_NG_I_next_node(uint16_t key) {
   switch (key) {
+    case NG_J: return &naginata_node_NG_R_NG_I_NG_J;
     default: return NULL;
   }
 }
@@ -1205,8 +1224,23 @@ const naginata_node_t naginata_node_NG_R_NG_I = {
   .keys         = { KC_S, KC_Y, KC_O },
 };
 
+const naginata_node_t* naginata_node_NG_R_NG_I_NG_J_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_R_NG_I_NG_J = {
+  .parent       = &naginata_node_NG_R_NG_I,
+  .next_node    = &naginata_node_NG_R_NG_I_NG_J_next_node,
+  .key          = NG_J,
+  .bounds       = 3,
+  .keys         = { KC_Z, KC_Y, KC_O },
+};
+
 const naginata_node_t* naginata_node_NG_R_NG_P_next_node(uint16_t key) {
   switch (key) {
+    case NG_J: return &naginata_node_NG_R_NG_P_NG_J;
     default: return NULL;
   }
 }
@@ -1217,6 +1251,20 @@ const naginata_node_t naginata_node_NG_R_NG_P = {
   .key          = NG_P,
   .bounds       = 3,
   .keys         = { KC_S, KC_Y, KC_U },
+};
+
+const naginata_node_t* naginata_node_NG_R_NG_P_NG_J_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_R_NG_P_NG_J = {
+  .parent       = &naginata_node_NG_R_NG_P,
+  .next_node    = &naginata_node_NG_R_NG_P_NG_J_next_node,
+  .key          = NG_J,
+  .bounds       = 3,
+  .keys         = { KC_Z, KC_Y, KC_U },
 };
 
 const naginata_node_t* naginata_node_NG_R_NG_H_next_node(uint16_t key) {
@@ -1248,79 +1296,6 @@ const naginata_node_t naginata_node_NG_R_NG_H_NG_J = {
   .keys         = { KC_Z, KC_Y, KC_A },
 };
 
-const naginata_node_t* naginata_node_NG_R_NG_U_next_node(uint16_t key) {
-  switch (key) {
-    case NG_J: return &naginata_node_NG_R_NG_U_NG_J;
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_R_NG_U = {
-  .parent       = &naginata_node_NG_R,
-  .next_node    = &naginata_node_NG_R_NG_U_next_node,
-  .key          = NG_U,
-  .bounds       = 0,
-  .keys         = {},
-};
-
-const naginata_node_t* naginata_node_NG_R_NG_U_NG_J_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_R_NG_U_NG_J = {
-  .parent       = &naginata_node_NG_R_NG_U,
-  .next_node    = &naginata_node_NG_R_NG_U_NG_J_next_node,
-  .key          = NG_J,
-  .bounds       = 3,
-  .keys         = { KC_Z, KC_Y, KC_O },
-};
-
-const naginata_node_t* naginata_node_NG_R_NG_O_next_node(uint16_t key) {
-  switch (key) {
-    case NG_J: return &naginata_node_NG_R_NG_O_NG_J;
-    case NG_M: return &naginata_node_NG_R_NG_O_NG_M;
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_R_NG_O = {
-  .parent       = &naginata_node_NG_R,
-  .next_node    = &naginata_node_NG_R_NG_O_next_node,
-  .key          = NG_O,
-  .bounds       = 0,
-  .keys         = {},
-};
-
-const naginata_node_t* naginata_node_NG_R_NG_O_NG_J_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_R_NG_O_NG_J = {
-  .parent       = &naginata_node_NG_R_NG_O,
-  .next_node    = &naginata_node_NG_R_NG_O_NG_J_next_node,
-  .key          = NG_J,
-  .bounds       = 3,
-  .keys         = { KC_Z, KC_Y, KC_E },
-};
-
-const naginata_node_t* naginata_node_NG_R_NG_O_NG_M_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_R_NG_O_NG_M = {
-  .parent       = &naginata_node_NG_R_NG_O,
-  .next_node    = &naginata_node_NG_R_NG_O_NG_M_next_node,
-  .key          = NG_M,
-  .bounds       = 3,
-  .keys         = { KC_S, KC_Y, KC_E },
-};
-
 const naginata_node_t* naginata_node_NG_R_NG_M_next_node(uint16_t key) {
   switch (key) {
     case NG_O: return &naginata_node_NG_R_NG_M_NG_O;
@@ -1348,6 +1323,50 @@ const naginata_node_t naginata_node_NG_R_NG_M_NG_O = {
   .key          = NG_O,
   .bounds       = 3,
   .keys         = { KC_S, KC_Y, KC_E },
+};
+
+const naginata_node_t* naginata_node_NG_R_NG_O_next_node(uint16_t key) {
+  switch (key) {
+    case NG_M: return &naginata_node_NG_R_NG_O_NG_M;
+    case NG_J: return &naginata_node_NG_R_NG_O_NG_J;
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_R_NG_O = {
+  .parent       = &naginata_node_NG_R,
+  .next_node    = &naginata_node_NG_R_NG_O_next_node,
+  .key          = NG_O,
+  .bounds       = 0,
+  .keys         = {},
+};
+
+const naginata_node_t* naginata_node_NG_R_NG_O_NG_M_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_R_NG_O_NG_M = {
+  .parent       = &naginata_node_NG_R_NG_O,
+  .next_node    = &naginata_node_NG_R_NG_O_NG_M_next_node,
+  .key          = NG_M,
+  .bounds       = 3,
+  .keys         = { KC_S, KC_Y, KC_E },
+};
+
+const naginata_node_t* naginata_node_NG_R_NG_O_NG_J_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_R_NG_O_NG_J = {
+  .parent       = &naginata_node_NG_R_NG_O,
+  .next_node    = &naginata_node_NG_R_NG_O_NG_J_next_node,
+  .key          = NG_J,
+  .bounds       = 3,
+  .keys         = { KC_Z, KC_Y, KC_E },
 };
 
 const naginata_node_t* naginata_node_NG_T_next_node(uint16_t key) {
@@ -1383,9 +1402,8 @@ const naginata_node_t* naginata_node_NG_U_next_node(uint16_t key) {
     case NG_LSFT2: return &naginata_node_NG_U_NG_LSFT2;
     case NG_RSFT2: return &naginata_node_NG_U_NG_RSFT2;
     case NG_F: return &naginata_node_NG_U_NG_F;
-    case NG_R: return &naginata_node_NG_U_NG_R;
-    case NG_J: return &naginata_node_NG_U_NG_J;
     case NG_G: return &naginata_node_NG_U_NG_G;
+    case NG_J: return &naginata_node_NG_U_NG_J;
     default: return NULL;
   }
 }
@@ -1440,79 +1458,6 @@ const naginata_node_t naginata_node_NG_U_NG_F = {
   .keys         = { KC_Z, KC_A },
 };
 
-const naginata_node_t* naginata_node_NG_U_NG_R_next_node(uint16_t key) {
-  switch (key) {
-    case NG_J: return &naginata_node_NG_U_NG_R_NG_J;
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_U_NG_R = {
-  .parent       = &naginata_node_NG_U,
-  .next_node    = &naginata_node_NG_U_NG_R_next_node,
-  .key          = NG_R,
-  .bounds       = 0,
-  .keys         = {},
-};
-
-const naginata_node_t* naginata_node_NG_U_NG_R_NG_J_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_U_NG_R_NG_J = {
-  .parent       = &naginata_node_NG_U_NG_R,
-  .next_node    = &naginata_node_NG_U_NG_R_NG_J_next_node,
-  .key          = NG_J,
-  .bounds       = 3,
-  .keys         = { KC_Z, KC_Y, KC_O },
-};
-
-const naginata_node_t* naginata_node_NG_U_NG_J_next_node(uint16_t key) {
-  switch (key) {
-    case NG_R: return &naginata_node_NG_U_NG_J_NG_R;
-    case NG_G: return &naginata_node_NG_U_NG_J_NG_G;
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_U_NG_J = {
-  .parent       = &naginata_node_NG_U,
-  .next_node    = &naginata_node_NG_U_NG_J_next_node,
-  .key          = NG_J,
-  .bounds       = 0,
-  .keys         = {},
-};
-
-const naginata_node_t* naginata_node_NG_U_NG_J_NG_R_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_U_NG_J_NG_R = {
-  .parent       = &naginata_node_NG_U_NG_J,
-  .next_node    = &naginata_node_NG_U_NG_J_NG_R_next_node,
-  .key          = NG_R,
-  .bounds       = 3,
-  .keys         = { KC_Z, KC_Y, KC_O },
-};
-
-const naginata_node_t* naginata_node_NG_U_NG_J_NG_G_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_U_NG_J_NG_G = {
-  .parent       = &naginata_node_NG_U_NG_J,
-  .next_node    = &naginata_node_NG_U_NG_J_NG_G_next_node,
-  .key          = NG_G,
-  .bounds       = 3,
-  .keys         = { KC_D, KC_Y, KC_O },
-};
-
 const naginata_node_t* naginata_node_NG_U_NG_G_next_node(uint16_t key) {
   switch (key) {
     case NG_J: return &naginata_node_NG_U_NG_G_NG_J;
@@ -1542,14 +1487,43 @@ const naginata_node_t naginata_node_NG_U_NG_G_NG_J = {
   .keys         = { KC_D, KC_Y, KC_O },
 };
 
+const naginata_node_t* naginata_node_NG_U_NG_J_next_node(uint16_t key) {
+  switch (key) {
+    case NG_G: return &naginata_node_NG_U_NG_J_NG_G;
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_U_NG_J = {
+  .parent       = &naginata_node_NG_U,
+  .next_node    = &naginata_node_NG_U_NG_J_next_node,
+  .key          = NG_J,
+  .bounds       = 0,
+  .keys         = {},
+};
+
+const naginata_node_t* naginata_node_NG_U_NG_J_NG_G_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_U_NG_J_NG_G = {
+  .parent       = &naginata_node_NG_U_NG_J,
+  .next_node    = &naginata_node_NG_U_NG_J_NG_G_next_node,
+  .key          = NG_G,
+  .bounds       = 3,
+  .keys         = { KC_D, KC_Y, KC_O },
+};
+
 const naginata_node_t* naginata_node_NG_I_next_node(uint16_t key) {
   switch (key) {
     case NG_LSFT2: return &naginata_node_NG_I_NG_LSFT2;
     case NG_RSFT2: return &naginata_node_NG_I_NG_RSFT2;
     case NG_Q: return &naginata_node_NG_I_NG_Q;
     case NG_R: return &naginata_node_NG_I_NG_R;
-    case NG_W: return &naginata_node_NG_I_NG_W;
     case NG_J: return &naginata_node_NG_I_NG_J;
+    case NG_W: return &naginata_node_NG_I_NG_W;
     case NG_G: return &naginata_node_NG_I_NG_G;
     case NG_D: return &naginata_node_NG_I_NG_D;
     case NG_X: return &naginata_node_NG_I_NG_X;
@@ -1612,6 +1586,7 @@ const naginata_node_t naginata_node_NG_I_NG_Q = {
 
 const naginata_node_t* naginata_node_NG_I_NG_R_next_node(uint16_t key) {
   switch (key) {
+    case NG_J: return &naginata_node_NG_I_NG_R_NG_J;
     default: return NULL;
   }
 }
@@ -1624,37 +1599,23 @@ const naginata_node_t naginata_node_NG_I_NG_R = {
   .keys         = { KC_S, KC_Y, KC_O },
 };
 
-const naginata_node_t* naginata_node_NG_I_NG_W_next_node(uint16_t key) {
-  switch (key) {
-    case NG_J: return &naginata_node_NG_I_NG_W_NG_J;
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_I_NG_W = {
-  .parent       = &naginata_node_NG_I,
-  .next_node    = &naginata_node_NG_I_NG_W_next_node,
-  .key          = NG_W,
-  .bounds       = 3,
-  .keys         = { KC_K, KC_Y, KC_O },
-};
-
-const naginata_node_t* naginata_node_NG_I_NG_W_NG_J_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_I_NG_R_NG_J_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_I_NG_W_NG_J = {
-  .parent       = &naginata_node_NG_I_NG_W,
-  .next_node    = &naginata_node_NG_I_NG_W_NG_J_next_node,
+const naginata_node_t naginata_node_NG_I_NG_R_NG_J = {
+  .parent       = &naginata_node_NG_I_NG_R,
+  .next_node    = &naginata_node_NG_I_NG_R_NG_J_next_node,
   .key          = NG_J,
   .bounds       = 3,
-  .keys         = { KC_G, KC_Y, KC_O },
+  .keys         = { KC_Z, KC_Y, KC_O },
 };
 
 const naginata_node_t* naginata_node_NG_I_NG_J_next_node(uint16_t key) {
   switch (key) {
+    case NG_R: return &naginata_node_NG_I_NG_J_NG_R;
     case NG_W: return &naginata_node_NG_I_NG_J_NG_W;
     case NG_X: return &naginata_node_NG_I_NG_J_NG_X;
     case NG_G: return &naginata_node_NG_I_NG_J_NG_G;
@@ -1668,6 +1629,20 @@ const naginata_node_t naginata_node_NG_I_NG_J = {
   .key          = NG_J,
   .bounds       = 0,
   .keys         = {},
+};
+
+const naginata_node_t* naginata_node_NG_I_NG_J_NG_R_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_I_NG_J_NG_R = {
+  .parent       = &naginata_node_NG_I_NG_J,
+  .next_node    = &naginata_node_NG_I_NG_J_NG_R_next_node,
+  .key          = NG_R,
+  .bounds       = 3,
+  .keys         = { KC_Z, KC_Y, KC_O },
 };
 
 const naginata_node_t* naginata_node_NG_I_NG_J_NG_W_next_node(uint16_t key) {
@@ -1710,6 +1685,35 @@ const naginata_node_t naginata_node_NG_I_NG_J_NG_G = {
   .key          = NG_G,
   .bounds       = 3,
   .keys         = { KC_D, KC_Y, KC_E },
+};
+
+const naginata_node_t* naginata_node_NG_I_NG_W_next_node(uint16_t key) {
+  switch (key) {
+    case NG_J: return &naginata_node_NG_I_NG_W_NG_J;
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_I_NG_W = {
+  .parent       = &naginata_node_NG_I,
+  .next_node    = &naginata_node_NG_I_NG_W_next_node,
+  .key          = NG_W,
+  .bounds       = 3,
+  .keys         = { KC_K, KC_Y, KC_O },
+};
+
+const naginata_node_t* naginata_node_NG_I_NG_W_NG_J_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_I_NG_W_NG_J = {
+  .parent       = &naginata_node_NG_I_NG_W,
+  .next_node    = &naginata_node_NG_I_NG_W_NG_J_next_node,
+  .key          = NG_J,
+  .bounds       = 3,
+  .keys         = { KC_G, KC_Y, KC_O },
 };
 
 const naginata_node_t* naginata_node_NG_I_NG_G_next_node(uint16_t key) {
@@ -1892,9 +1896,9 @@ const naginata_node_t* naginata_node_NG_O_next_node(uint16_t key) {
     case NG_RSFT2: return &naginata_node_NG_O_NG_RSFT2;
     case NG_F: return &naginata_node_NG_O_NG_F;
     case NG_Q: return &naginata_node_NG_O_NG_Q;
-    case NG_R: return &naginata_node_NG_O_NG_R;
-    case NG_J: return &naginata_node_NG_O_NG_J;
     case NG_G: return &naginata_node_NG_O_NG_G;
+    case NG_J: return &naginata_node_NG_O_NG_J;
+    case NG_R: return &naginata_node_NG_O_NG_R;
     case NG_M: return &naginata_node_NG_O_NG_M;
     case NG_SCLN: return &naginata_node_NG_O_NG_SCLN;
     case NG_V: return &naginata_node_NG_O_NG_V;
@@ -1968,94 +1972,6 @@ const naginata_node_t naginata_node_NG_O_NG_Q = {
   .keys         = { KC_X, KC_E },
 };
 
-const naginata_node_t* naginata_node_NG_O_NG_R_next_node(uint16_t key) {
-  switch (key) {
-    case NG_J: return &naginata_node_NG_O_NG_R_NG_J;
-    case NG_M: return &naginata_node_NG_O_NG_R_NG_M;
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_O_NG_R = {
-  .parent       = &naginata_node_NG_O,
-  .next_node    = &naginata_node_NG_O_NG_R_next_node,
-  .key          = NG_R,
-  .bounds       = 0,
-  .keys         = {},
-};
-
-const naginata_node_t* naginata_node_NG_O_NG_R_NG_J_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_O_NG_R_NG_J = {
-  .parent       = &naginata_node_NG_O_NG_R,
-  .next_node    = &naginata_node_NG_O_NG_R_NG_J_next_node,
-  .key          = NG_J,
-  .bounds       = 3,
-  .keys         = { KC_Z, KC_Y, KC_E },
-};
-
-const naginata_node_t* naginata_node_NG_O_NG_R_NG_M_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_O_NG_R_NG_M = {
-  .parent       = &naginata_node_NG_O_NG_R,
-  .next_node    = &naginata_node_NG_O_NG_R_NG_M_next_node,
-  .key          = NG_M,
-  .bounds       = 3,
-  .keys         = { KC_S, KC_Y, KC_E },
-};
-
-const naginata_node_t* naginata_node_NG_O_NG_J_next_node(uint16_t key) {
-  switch (key) {
-    case NG_R: return &naginata_node_NG_O_NG_J_NG_R;
-    case NG_G: return &naginata_node_NG_O_NG_J_NG_G;
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_O_NG_J = {
-  .parent       = &naginata_node_NG_O,
-  .next_node    = &naginata_node_NG_O_NG_J_next_node,
-  .key          = NG_J,
-  .bounds       = 0,
-  .keys         = {},
-};
-
-const naginata_node_t* naginata_node_NG_O_NG_J_NG_R_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_O_NG_J_NG_R = {
-  .parent       = &naginata_node_NG_O_NG_J,
-  .next_node    = &naginata_node_NG_O_NG_J_NG_R_next_node,
-  .key          = NG_R,
-  .bounds       = 3,
-  .keys         = { KC_Z, KC_Y, KC_E },
-};
-
-const naginata_node_t* naginata_node_NG_O_NG_J_NG_G_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_O_NG_J_NG_G = {
-  .parent       = &naginata_node_NG_O_NG_J,
-  .next_node    = &naginata_node_NG_O_NG_J_NG_G_next_node,
-  .key          = NG_G,
-  .bounds       = 3,
-  .keys         = { KC_D, KC_Y, KC_U },
-};
-
 const naginata_node_t* naginata_node_NG_O_NG_G_next_node(uint16_t key) {
   switch (key) {
     case NG_J: return &naginata_node_NG_O_NG_G_NG_J;
@@ -2083,6 +1999,94 @@ const naginata_node_t naginata_node_NG_O_NG_G_NG_J = {
   .key          = NG_J,
   .bounds       = 3,
   .keys         = { KC_D, KC_Y, KC_U },
+};
+
+const naginata_node_t* naginata_node_NG_O_NG_J_next_node(uint16_t key) {
+  switch (key) {
+    case NG_G: return &naginata_node_NG_O_NG_J_NG_G;
+    case NG_R: return &naginata_node_NG_O_NG_J_NG_R;
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_O_NG_J = {
+  .parent       = &naginata_node_NG_O,
+  .next_node    = &naginata_node_NG_O_NG_J_next_node,
+  .key          = NG_J,
+  .bounds       = 0,
+  .keys         = {},
+};
+
+const naginata_node_t* naginata_node_NG_O_NG_J_NG_G_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_O_NG_J_NG_G = {
+  .parent       = &naginata_node_NG_O_NG_J,
+  .next_node    = &naginata_node_NG_O_NG_J_NG_G_next_node,
+  .key          = NG_G,
+  .bounds       = 3,
+  .keys         = { KC_D, KC_Y, KC_U },
+};
+
+const naginata_node_t* naginata_node_NG_O_NG_J_NG_R_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_O_NG_J_NG_R = {
+  .parent       = &naginata_node_NG_O_NG_J,
+  .next_node    = &naginata_node_NG_O_NG_J_NG_R_next_node,
+  .key          = NG_R,
+  .bounds       = 3,
+  .keys         = { KC_Z, KC_Y, KC_E },
+};
+
+const naginata_node_t* naginata_node_NG_O_NG_R_next_node(uint16_t key) {
+  switch (key) {
+    case NG_M: return &naginata_node_NG_O_NG_R_NG_M;
+    case NG_J: return &naginata_node_NG_O_NG_R_NG_J;
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_O_NG_R = {
+  .parent       = &naginata_node_NG_O,
+  .next_node    = &naginata_node_NG_O_NG_R_next_node,
+  .key          = NG_R,
+  .bounds       = 0,
+  .keys         = {},
+};
+
+const naginata_node_t* naginata_node_NG_O_NG_R_NG_M_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_O_NG_R_NG_M = {
+  .parent       = &naginata_node_NG_O_NG_R,
+  .next_node    = &naginata_node_NG_O_NG_R_NG_M_next_node,
+  .key          = NG_M,
+  .bounds       = 3,
+  .keys         = { KC_S, KC_Y, KC_E },
+};
+
+const naginata_node_t* naginata_node_NG_O_NG_R_NG_J_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_O_NG_R_NG_J = {
+  .parent       = &naginata_node_NG_O_NG_R,
+  .next_node    = &naginata_node_NG_O_NG_R_NG_J_next_node,
+  .key          = NG_J,
+  .bounds       = 3,
+  .keys         = { KC_Z, KC_Y, KC_E },
 };
 
 const naginata_node_t* naginata_node_NG_O_NG_M_next_node(uint16_t key) {
@@ -2268,8 +2272,8 @@ const naginata_node_t* naginata_node_NG_P_next_node(uint16_t key) {
     case NG_V: return &naginata_node_NG_P_NG_V;
     case NG_Q: return &naginata_node_NG_P_NG_Q;
     case NG_R: return &naginata_node_NG_P_NG_R;
-    case NG_W: return &naginata_node_NG_P_NG_W;
     case NG_J: return &naginata_node_NG_P_NG_J;
+    case NG_W: return &naginata_node_NG_P_NG_W;
     case NG_G: return &naginata_node_NG_P_NG_G;
     case NG_D: return &naginata_node_NG_P_NG_D;
     case NG_X: return &naginata_node_NG_P_NG_X;
@@ -2376,6 +2380,7 @@ const naginata_node_t naginata_node_NG_P_NG_Q = {
 
 const naginata_node_t* naginata_node_NG_P_NG_R_next_node(uint16_t key) {
   switch (key) {
+    case NG_J: return &naginata_node_NG_P_NG_R_NG_J;
     default: return NULL;
   }
 }
@@ -2388,37 +2393,23 @@ const naginata_node_t naginata_node_NG_P_NG_R = {
   .keys         = { KC_S, KC_Y, KC_U },
 };
 
-const naginata_node_t* naginata_node_NG_P_NG_W_next_node(uint16_t key) {
-  switch (key) {
-    case NG_J: return &naginata_node_NG_P_NG_W_NG_J;
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_P_NG_W = {
-  .parent       = &naginata_node_NG_P,
-  .next_node    = &naginata_node_NG_P_NG_W_next_node,
-  .key          = NG_W,
-  .bounds       = 3,
-  .keys         = { KC_K, KC_Y, KC_U },
-};
-
-const naginata_node_t* naginata_node_NG_P_NG_W_NG_J_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_P_NG_R_NG_J_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_P_NG_W_NG_J = {
-  .parent       = &naginata_node_NG_P_NG_W,
-  .next_node    = &naginata_node_NG_P_NG_W_NG_J_next_node,
+const naginata_node_t naginata_node_NG_P_NG_R_NG_J = {
+  .parent       = &naginata_node_NG_P_NG_R,
+  .next_node    = &naginata_node_NG_P_NG_R_NG_J_next_node,
   .key          = NG_J,
   .bounds       = 3,
-  .keys         = { KC_G, KC_Y, KC_U },
+  .keys         = { KC_Z, KC_Y, KC_U },
 };
 
 const naginata_node_t* naginata_node_NG_P_NG_J_next_node(uint16_t key) {
   switch (key) {
+    case NG_R: return &naginata_node_NG_P_NG_J_NG_R;
     case NG_W: return &naginata_node_NG_P_NG_J_NG_W;
     case NG_X: return &naginata_node_NG_P_NG_J_NG_X;
     case NG_E: return &naginata_node_NG_P_NG_J_NG_E;
@@ -2432,6 +2423,20 @@ const naginata_node_t naginata_node_NG_P_NG_J = {
   .key          = NG_J,
   .bounds       = 0,
   .keys         = {},
+};
+
+const naginata_node_t* naginata_node_NG_P_NG_J_NG_R_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_P_NG_J_NG_R = {
+  .parent       = &naginata_node_NG_P_NG_J,
+  .next_node    = &naginata_node_NG_P_NG_J_NG_R_next_node,
+  .key          = NG_R,
+  .bounds       = 3,
+  .keys         = { KC_Z, KC_Y, KC_U },
 };
 
 const naginata_node_t* naginata_node_NG_P_NG_J_NG_W_next_node(uint16_t key) {
@@ -2474,6 +2479,35 @@ const naginata_node_t naginata_node_NG_P_NG_J_NG_E = {
   .key          = NG_E,
   .bounds       = 3,
   .keys         = { KC_D, KC_H, KC_U },
+};
+
+const naginata_node_t* naginata_node_NG_P_NG_W_next_node(uint16_t key) {
+  switch (key) {
+    case NG_J: return &naginata_node_NG_P_NG_W_NG_J;
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_P_NG_W = {
+  .parent       = &naginata_node_NG_P,
+  .next_node    = &naginata_node_NG_P_NG_W_next_node,
+  .key          = NG_W,
+  .bounds       = 3,
+  .keys         = { KC_K, KC_Y, KC_U },
+};
+
+const naginata_node_t* naginata_node_NG_P_NG_W_NG_J_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_P_NG_W_NG_J = {
+  .parent       = &naginata_node_NG_P_NG_W,
+  .next_node    = &naginata_node_NG_P_NG_W_NG_J_next_node,
+  .key          = NG_J,
+  .bounds       = 3,
+  .keys         = { KC_G, KC_Y, KC_U },
 };
 
 const naginata_node_t* naginata_node_NG_P_NG_G_next_node(uint16_t key) {
@@ -4251,11 +4285,11 @@ const naginata_node_t* naginata_node_NG_J_next_node(uint16_t key) {
     case NG_V: return &naginata_node_NG_J_NG_V;
     case NG_B: return &naginata_node_NG_J_NG_B;
     case NG_Q: return &naginata_node_NG_J_NG_Q;
-    case NG_U: return &naginata_node_NG_J_NG_U;
-    case NG_O: return &naginata_node_NG_J_NG_O;
-    case NG_H: return &naginata_node_NG_J_NG_H;
     case NG_I: return &naginata_node_NG_J_NG_I;
     case NG_P: return &naginata_node_NG_J_NG_P;
+    case NG_H: return &naginata_node_NG_J_NG_H;
+    case NG_U: return &naginata_node_NG_J_NG_U;
+    case NG_O: return &naginata_node_NG_J_NG_O;
     case NG_K: return &naginata_node_NG_J_NG_K;
     case NG_L: return &naginata_node_NG_J_NG_L;
     case NG_SCLN: return &naginata_node_NG_J_NG_SCLN;
@@ -4404,9 +4438,10 @@ const naginata_node_t naginata_node_NG_J_NG_E_NG_K = {
 
 const naginata_node_t* naginata_node_NG_J_NG_R_next_node(uint16_t key) {
   switch (key) {
-    case NG_U: return &naginata_node_NG_J_NG_R_NG_U;
-    case NG_O: return &naginata_node_NG_J_NG_R_NG_O;
+    case NG_I: return &naginata_node_NG_J_NG_R_NG_I;
+    case NG_P: return &naginata_node_NG_J_NG_R_NG_P;
     case NG_H: return &naginata_node_NG_J_NG_R_NG_H;
+    case NG_O: return &naginata_node_NG_J_NG_R_NG_O;
     default: return NULL;
   }
 }
@@ -4419,32 +4454,32 @@ const naginata_node_t naginata_node_NG_J_NG_R = {
   .keys         = { KC_Z, KC_I },
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_R_NG_U_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_R_NG_I_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_R_NG_U = {
+const naginata_node_t naginata_node_NG_J_NG_R_NG_I = {
   .parent       = &naginata_node_NG_J_NG_R,
-  .next_node    = &naginata_node_NG_J_NG_R_NG_U_next_node,
-  .key          = NG_U,
+  .next_node    = &naginata_node_NG_J_NG_R_NG_I_next_node,
+  .key          = NG_I,
   .bounds       = 3,
   .keys         = { KC_Z, KC_Y, KC_O },
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_R_NG_O_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_R_NG_P_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_R_NG_O = {
+const naginata_node_t naginata_node_NG_J_NG_R_NG_P = {
   .parent       = &naginata_node_NG_J_NG_R,
-  .next_node    = &naginata_node_NG_J_NG_R_NG_O_next_node,
-  .key          = NG_O,
+  .next_node    = &naginata_node_NG_J_NG_R_NG_P_next_node,
+  .key          = NG_P,
   .bounds       = 3,
-  .keys         = { KC_Z, KC_Y, KC_E },
+  .keys         = { KC_Z, KC_Y, KC_U },
 };
 
 const naginata_node_t* naginata_node_NG_J_NG_R_NG_H_next_node(uint16_t key) {
@@ -4459,6 +4494,20 @@ const naginata_node_t naginata_node_NG_J_NG_R_NG_H = {
   .key          = NG_H,
   .bounds       = 3,
   .keys         = { KC_Z, KC_Y, KC_A },
+};
+
+const naginata_node_t* naginata_node_NG_J_NG_R_NG_O_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_J_NG_R_NG_O = {
+  .parent       = &naginata_node_NG_J_NG_R,
+  .next_node    = &naginata_node_NG_J_NG_R_NG_O_next_node,
+  .key          = NG_O,
+  .bounds       = 3,
+  .keys         = { KC_Z, KC_Y, KC_E },
 };
 
 const naginata_node_t* naginata_node_NG_J_NG_A_next_node(uint16_t key) {
@@ -4750,92 +4799,152 @@ const naginata_node_t naginata_node_NG_J_NG_Q = {
   .keys         = { KC_X, KC_A },
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_U_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_I_next_node(uint16_t key) {
   switch (key) {
-    case NG_R: return &naginata_node_NG_J_NG_U_NG_R;
-    case NG_G: return &naginata_node_NG_J_NG_U_NG_G;
+    case NG_R: return &naginata_node_NG_J_NG_I_NG_R;
+    case NG_W: return &naginata_node_NG_J_NG_I_NG_W;
+    case NG_X: return &naginata_node_NG_J_NG_I_NG_X;
+    case NG_G: return &naginata_node_NG_J_NG_I_NG_G;
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_U = {
+const naginata_node_t naginata_node_NG_J_NG_I = {
   .parent       = &naginata_node_NG_J,
-  .next_node    = &naginata_node_NG_J_NG_U_next_node,
-  .key          = NG_U,
+  .next_node    = &naginata_node_NG_J_NG_I_next_node,
+  .key          = NG_I,
   .bounds       = 0,
   .keys         = {},
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_U_NG_R_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_I_NG_R_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_U_NG_R = {
-  .parent       = &naginata_node_NG_J_NG_U,
-  .next_node    = &naginata_node_NG_J_NG_U_NG_R_next_node,
+const naginata_node_t naginata_node_NG_J_NG_I_NG_R = {
+  .parent       = &naginata_node_NG_J_NG_I,
+  .next_node    = &naginata_node_NG_J_NG_I_NG_R_next_node,
   .key          = NG_R,
   .bounds       = 3,
   .keys         = { KC_Z, KC_Y, KC_O },
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_U_NG_G_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_I_NG_W_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_U_NG_G = {
-  .parent       = &naginata_node_NG_J_NG_U,
-  .next_node    = &naginata_node_NG_J_NG_U_NG_G_next_node,
-  .key          = NG_G,
+const naginata_node_t naginata_node_NG_J_NG_I_NG_W = {
+  .parent       = &naginata_node_NG_J_NG_I,
+  .next_node    = &naginata_node_NG_J_NG_I_NG_W_next_node,
+  .key          = NG_W,
   .bounds       = 3,
-  .keys         = { KC_D, KC_Y, KC_O },
+  .keys         = { KC_G, KC_Y, KC_O },
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_O_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_I_NG_X_next_node(uint16_t key) {
   switch (key) {
-    case NG_R: return &naginata_node_NG_J_NG_O_NG_R;
-    case NG_G: return &naginata_node_NG_J_NG_O_NG_G;
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_O = {
+const naginata_node_t naginata_node_NG_J_NG_I_NG_X = {
+  .parent       = &naginata_node_NG_J_NG_I,
+  .next_node    = &naginata_node_NG_J_NG_I_NG_X_next_node,
+  .key          = NG_X,
+  .bounds       = 3,
+  .keys         = { KC_B, KC_Y, KC_O },
+};
+
+const naginata_node_t* naginata_node_NG_J_NG_I_NG_G_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_J_NG_I_NG_G = {
+  .parent       = &naginata_node_NG_J_NG_I,
+  .next_node    = &naginata_node_NG_J_NG_I_NG_G_next_node,
+  .key          = NG_G,
+  .bounds       = 3,
+  .keys         = { KC_D, KC_Y, KC_E },
+};
+
+const naginata_node_t* naginata_node_NG_J_NG_P_next_node(uint16_t key) {
+  switch (key) {
+    case NG_R: return &naginata_node_NG_J_NG_P_NG_R;
+    case NG_W: return &naginata_node_NG_J_NG_P_NG_W;
+    case NG_X: return &naginata_node_NG_J_NG_P_NG_X;
+    case NG_E: return &naginata_node_NG_J_NG_P_NG_E;
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_J_NG_P = {
   .parent       = &naginata_node_NG_J,
-  .next_node    = &naginata_node_NG_J_NG_O_next_node,
-  .key          = NG_O,
+  .next_node    = &naginata_node_NG_J_NG_P_next_node,
+  .key          = NG_P,
   .bounds       = 0,
   .keys         = {},
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_O_NG_R_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_P_NG_R_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_O_NG_R = {
-  .parent       = &naginata_node_NG_J_NG_O,
-  .next_node    = &naginata_node_NG_J_NG_O_NG_R_next_node,
+const naginata_node_t naginata_node_NG_J_NG_P_NG_R = {
+  .parent       = &naginata_node_NG_J_NG_P,
+  .next_node    = &naginata_node_NG_J_NG_P_NG_R_next_node,
   .key          = NG_R,
   .bounds       = 3,
-  .keys         = { KC_Z, KC_Y, KC_E },
+  .keys         = { KC_Z, KC_Y, KC_U },
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_O_NG_G_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_P_NG_W_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_O_NG_G = {
-  .parent       = &naginata_node_NG_J_NG_O,
-  .next_node    = &naginata_node_NG_J_NG_O_NG_G_next_node,
-  .key          = NG_G,
+const naginata_node_t naginata_node_NG_J_NG_P_NG_W = {
+  .parent       = &naginata_node_NG_J_NG_P,
+  .next_node    = &naginata_node_NG_J_NG_P_NG_W_next_node,
+  .key          = NG_W,
   .bounds       = 3,
-  .keys         = { KC_D, KC_Y, KC_U },
+  .keys         = { KC_G, KC_Y, KC_U },
+};
+
+const naginata_node_t* naginata_node_NG_J_NG_P_NG_X_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_J_NG_P_NG_X = {
+  .parent       = &naginata_node_NG_J_NG_P,
+  .next_node    = &naginata_node_NG_J_NG_P_NG_X_next_node,
+  .key          = NG_X,
+  .bounds       = 3,
+  .keys         = { KC_B, KC_Y, KC_U },
+};
+
+const naginata_node_t* naginata_node_NG_J_NG_P_NG_E_next_node(uint16_t key) {
+  switch (key) {
+    default: return NULL;
+  }
+}
+
+const naginata_node_t naginata_node_NG_J_NG_P_NG_E = {
+  .parent       = &naginata_node_NG_J_NG_P,
+  .next_node    = &naginata_node_NG_J_NG_P_NG_E_next_node,
+  .key          = NG_E,
+  .bounds       = 3,
+  .keys         = { KC_D, KC_H, KC_U },
 };
 
 const naginata_node_t* naginata_node_NG_J_NG_H_next_node(uint16_t key) {
@@ -4912,122 +5021,77 @@ const naginata_node_t naginata_node_NG_J_NG_H_NG_X = {
   .keys         = { KC_B, KC_Y, KC_A },
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_I_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_U_next_node(uint16_t key) {
   switch (key) {
-    case NG_W: return &naginata_node_NG_J_NG_I_NG_W;
-    case NG_X: return &naginata_node_NG_J_NG_I_NG_X;
-    case NG_G: return &naginata_node_NG_J_NG_I_NG_G;
+    case NG_G: return &naginata_node_NG_J_NG_U_NG_G;
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_I = {
+const naginata_node_t naginata_node_NG_J_NG_U = {
   .parent       = &naginata_node_NG_J,
-  .next_node    = &naginata_node_NG_J_NG_I_next_node,
-  .key          = NG_I,
+  .next_node    = &naginata_node_NG_J_NG_U_next_node,
+  .key          = NG_U,
   .bounds       = 0,
   .keys         = {},
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_I_NG_W_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_U_NG_G_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_I_NG_W = {
-  .parent       = &naginata_node_NG_J_NG_I,
-  .next_node    = &naginata_node_NG_J_NG_I_NG_W_next_node,
-  .key          = NG_W,
-  .bounds       = 3,
-  .keys         = { KC_G, KC_Y, KC_O },
-};
-
-const naginata_node_t* naginata_node_NG_J_NG_I_NG_X_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_J_NG_I_NG_X = {
-  .parent       = &naginata_node_NG_J_NG_I,
-  .next_node    = &naginata_node_NG_J_NG_I_NG_X_next_node,
-  .key          = NG_X,
-  .bounds       = 3,
-  .keys         = { KC_B, KC_Y, KC_O },
-};
-
-const naginata_node_t* naginata_node_NG_J_NG_I_NG_G_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_J_NG_I_NG_G = {
-  .parent       = &naginata_node_NG_J_NG_I,
-  .next_node    = &naginata_node_NG_J_NG_I_NG_G_next_node,
+const naginata_node_t naginata_node_NG_J_NG_U_NG_G = {
+  .parent       = &naginata_node_NG_J_NG_U,
+  .next_node    = &naginata_node_NG_J_NG_U_NG_G_next_node,
   .key          = NG_G,
   .bounds       = 3,
-  .keys         = { KC_D, KC_Y, KC_E },
+  .keys         = { KC_D, KC_Y, KC_O },
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_P_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_O_next_node(uint16_t key) {
   switch (key) {
-    case NG_W: return &naginata_node_NG_J_NG_P_NG_W;
-    case NG_X: return &naginata_node_NG_J_NG_P_NG_X;
-    case NG_E: return &naginata_node_NG_J_NG_P_NG_E;
+    case NG_G: return &naginata_node_NG_J_NG_O_NG_G;
+    case NG_R: return &naginata_node_NG_J_NG_O_NG_R;
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_P = {
+const naginata_node_t naginata_node_NG_J_NG_O = {
   .parent       = &naginata_node_NG_J,
-  .next_node    = &naginata_node_NG_J_NG_P_next_node,
-  .key          = NG_P,
+  .next_node    = &naginata_node_NG_J_NG_O_next_node,
+  .key          = NG_O,
   .bounds       = 0,
   .keys         = {},
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_P_NG_W_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_O_NG_G_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_P_NG_W = {
-  .parent       = &naginata_node_NG_J_NG_P,
-  .next_node    = &naginata_node_NG_J_NG_P_NG_W_next_node,
-  .key          = NG_W,
+const naginata_node_t naginata_node_NG_J_NG_O_NG_G = {
+  .parent       = &naginata_node_NG_J_NG_O,
+  .next_node    = &naginata_node_NG_J_NG_O_NG_G_next_node,
+  .key          = NG_G,
   .bounds       = 3,
-  .keys         = { KC_G, KC_Y, KC_U },
+  .keys         = { KC_D, KC_Y, KC_U },
 };
 
-const naginata_node_t* naginata_node_NG_J_NG_P_NG_X_next_node(uint16_t key) {
+const naginata_node_t* naginata_node_NG_J_NG_O_NG_R_next_node(uint16_t key) {
   switch (key) {
     default: return NULL;
   }
 }
 
-const naginata_node_t naginata_node_NG_J_NG_P_NG_X = {
-  .parent       = &naginata_node_NG_J_NG_P,
-  .next_node    = &naginata_node_NG_J_NG_P_NG_X_next_node,
-  .key          = NG_X,
+const naginata_node_t naginata_node_NG_J_NG_O_NG_R = {
+  .parent       = &naginata_node_NG_J_NG_O,
+  .next_node    = &naginata_node_NG_J_NG_O_NG_R_next_node,
+  .key          = NG_R,
   .bounds       = 3,
-  .keys         = { KC_B, KC_Y, KC_U },
-};
-
-const naginata_node_t* naginata_node_NG_J_NG_P_NG_E_next_node(uint16_t key) {
-  switch (key) {
-    default: return NULL;
-  }
-}
-
-const naginata_node_t naginata_node_NG_J_NG_P_NG_E = {
-  .parent       = &naginata_node_NG_J_NG_P,
-  .next_node    = &naginata_node_NG_J_NG_P_NG_E_next_node,
-  .key          = NG_E,
-  .bounds       = 3,
-  .keys         = { KC_D, KC_H, KC_U },
+  .keys         = { KC_Z, KC_Y, KC_E },
 };
 
 const naginata_node_t* naginata_node_NG_J_NG_K_next_node(uint16_t key) {

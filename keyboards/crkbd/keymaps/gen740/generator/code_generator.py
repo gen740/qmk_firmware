@@ -1,7 +1,6 @@
 #!python3
 
 from typing import Self
-from generate_keymap import generate_keymaps
 import generate_keydata
 import toml
 import sys

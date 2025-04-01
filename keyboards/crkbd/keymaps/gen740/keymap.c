@@ -77,7 +77,6 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 // clang-format on
-
 uint32_t deferred_unregister_gui(uint32_t trigger_time, void *cb_arg) {
   unregister_code(KC_LGUI);
   return 0;

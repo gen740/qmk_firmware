@@ -1,10 +1,7 @@
 #include "dvorak.h"
 
 #include <stdio.h>
-#include <string.h>
 
-#include "action.h"
-#include "action_layer.h"
 #include "dvorak_keydata.h"
 #include "gen740.h"
 
@@ -53,7 +50,10 @@ bool process_dvorak(uint16_t keycode, keyrecord_t *record) {
             dv_current_node = dv_current_node->parent;
             if (dv_current_node->next_node(keycode) != NULL) {
               dv_rollback_root = dv_current_node;
-              dv_current_node = dv_current_node->next_node(keycode);
+              const dvorak_node_t *n = dv_current_node->next_node(keycode);
+              if (n != NULL) {
+                dv_current_node = dv_current_node->next_node(keycode);
+              }
               break;
             }
           }
@@ -68,20 +68,19 @@ bool process_dvorak(uint16_t keycode, keyrecord_t *record) {
       } else {
         if (dv_current_node->key == keycode) {
           if (!dv_char_emit) {
-            dv_char_emit = dv_send_event(dv_current_node->keys,
-                                              dv_current_node->bounds);
+            dv_char_emit =
+                dv_send_event(dv_current_node->keys, dv_current_node->bounds);
           }
           dv_current_node = dv_current_node->parent;
         } else if (dv_is_key_in_branch(dv_current_node, keycode)) {
           if (!dv_char_emit) {
-            dv_char_emit = dv_send_event(dv_current_node->keys,
-                                              dv_current_node->bounds);
+            dv_char_emit =
+                dv_send_event(dv_current_node->keys, dv_current_node->bounds);
           }
           while (dv_current_node->parent != NULL) {
             if (dv_current_node->key == keycode) {
               if (!dv_char_emit) {
-                dv_send_event(dv_current_node->keys,
-                                   dv_current_node->bounds);
+                dv_send_event(dv_current_node->keys, dv_current_node->bounds);
               }
               dv_current_node = dv_current_node->parent;
               break;

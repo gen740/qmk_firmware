@@ -171,10 +171,10 @@ naginata_keydata = {
         #                 ┃     ┃     ┃     ┃ ┃     ┃     ┃     ┃
         #                 ┗━━━━━┻━━━━━┻━━━━━┛ ┗━━━━━┻━━━━━┻━━━━━┛
         [
-            None,             None,             None,             0,                None,                        None,             ["KC_Z", "KC_Y", "KC_O"], None,             ["KC_Z", "KC_Y", "KC_U"], None,
+            None,             None,             None,             0,                None,                        None,                     None,             ["KC_Z", "KC_Y", "KC_O"], None,             ["KC_Z", "KC_Y", "KC_U"],
             None,             None,             None,             None,             None,                        ["KC_Z", "KC_Y", "KC_A"], 0,                None,             None,             None,
-            None,             None,             None,             None,             None,                        None,             None,             None,             None,             None,
-                                                None,             None,             None,                        None,             None,             None,
+            None,             None,             None,             None,             None,                        None,                     None,             None,             None,             None,
+                                                None,             None,             None,                        None,                     None,             None,
         ],
 
         # ###*### きゃ行
