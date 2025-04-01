@@ -1,7 +1,5 @@
 #!bash
 
-# qmk generate-compilation-database -kb crkbd/rev4_1/standard -km gen740
-
 # flash
 if [ "$1" = "flash" ]; then
     echo "Flashing..."
@@ -12,6 +10,7 @@ if [ "$1" = "flash" ]; then
 # compile
 elif [ "$1" = "compile" ]; then
     echo "Compiling..."
+    qmk generate-compilation-database -kb crkbd/rev4_1/standard -km gen740
     python3 ./generator/code_generator.py dvorak
     python3 ./generator/code_generator.py naginata
     qmk compile -kb crkbd/rev4_1/standard -km gen740
