@@ -14,30 +14,30 @@ dvorak_keydata = {
                                   "KC_BSPC", "KC_SPC", None  , None  , "KC_ENT", "KC_TAB",
         ],
 
-        [ # Left Shift
-            "S(KC_QUOT)", "S(KC_COMM)", "S(KC_DOT)" , "S(KC_P)"  , "S(KC_Y)", None, None, None, None, None,
-            "S(KC_A)"   , "S(KC_O)"   , "S(KC_E)"   , "S(KC_U)"  , "S(KC_I)", None, 1   , 1   , None, None,
-            "S(KC_SCLN)", "S(KC_Q)"   , "S(KC_J)"   , "S(KC_K)"  , "S(KC_X)", None, None, None, None, None,
-                                        "S(KC_BSPC)", "S(KC_SPC)", None     , None, None, None,
+        [ # Shift
+            "S(KC_QUOT)", "S(KC_COMM)", "S(KC_DOT)" , "S(KC_P)"  , "S(KC_Y)", "S(KC_F)", "S(KC_G)"  , "S(KC_C)"  , "S(KC_R)", "S(KC_L)",
+            "S(KC_QUOT)", 1           , 1           , "S(KC_U)"  , "S(KC_I)", "S(KC_D)", "S(KC_H)"  , "S(KC_T)"  , "S(KC_N)", "S(KC_S)",
+            "S(KC_SCLN)", "S(KC_Q)"   , "S(KC_J)"   , "S(KC_K)"  , "S(KC_X)", "S(KC_B)", "S(KC_M)"  , "S(KC_W)"  , "S(KC_V)", "S(KC_Z)",
+                                        "S(KC_BSPC)", "S(KC_SPC)", None     , None     , "S(KC_ENT)", "S(KC_TAB)",
         ],
 
-        [ # Right Shift
-            None, None, None, None, None, "S(KC_F)", "S(KC_G)"  , "S(KC_C)"  , "S(KC_R)", "S(KC_L)",
-            None, None, 1   , 1   , None, "S(KC_D)", "S(KC_H)"  , "S(KC_T)"  , "S(KC_N)", "S(KC_S)",
-            None, None, None, None, None, "S(KC_B)", "S(KC_M)"  , "S(KC_W)"  , "S(KC_V)", "S(KC_Z)",
-                        None, None, None, None     , "S(KC_ENT)", "S(KC_TAB)",
+        [ # Shift
+            "S(KC_QUOT)", "S(KC_COMM)", "S(KC_DOT)" , "S(KC_P)"  , "S(KC_Y)", "S(KC_F)", "S(KC_G)"  , "S(KC_C)"  , "S(KC_R)", "S(KC_L)",
+            "S(KC_A)"   , "S(KC_O)"   , "S(KC_E)"   , "S(KC_U)"  , "S(KC_I)", "S(KC_D)", "S(KC_H)"  , 1          , 1        , "S(KC_S)",
+            "S(KC_SCLN)", "S(KC_Q)"   , "S(KC_J)"   , "S(KC_K)"  , "S(KC_X)", "S(KC_B)", "S(KC_M)"  , "S(KC_W)"  , "S(KC_V)", "S(KC_Z)",
+                                        "S(KC_BSPC)", "S(KC_SPC)", None     , None     , "S(KC_ENT)", "S(KC_TAB)",
         ],
 
         [ # Left Control
             "C(KC_QUOT)", "C(KC_COMM)", "C(KC_DOT)" , "C(KC_P)"  , "C(KC_Y)", None, None, None, None, None,
-            "C(KC_A)"   , "C(KC_O)"   , "C(KC_E)"   , "C(KC_U)"  , "C(KC_I)", None, 1   , None, 1   , None,
+            "C(KC_A)"   , "C(KC_O)"   , "C(KC_E)"   , "C(KC_U)"  , "C(KC_I)", None, 1   , 1   , None, None,
             "C(KC_SCLN)", "C(KC_Q)"   , "C(KC_J)"   , "C(KC_K)"  , "C(KC_X)", None, None, None, None, None,
                                         "C(KC_BSPC)", "C(KC_SPC)", None     , None, None, None,
         ],
 
         [ # Right Control
             None, None, None, None, None, "C(KC_F)", "C(KC_G)"  , "C(KC_C)"  , "C(KC_R)", "C(KC_L)",
-            None, 1   , None, 1   , None, "C(KC_D)", "C(KC_H)"  , "C(KC_T)"  , "C(KC_N)", "C(KC_S)",
+            None, None, 1   , 1   , None, "C(KC_D)", "C(KC_H)"  , "C(KC_T)"  , "C(KC_N)", "C(KC_S)",
             None, None, None, None, None, "C(KC_B)", "C(KC_M)"  , "C(KC_W)"  , "C(KC_V)", "C(KC_Z)",
                         None, None, None, None     , "C(KC_ENT)", "C(KC_TAB)",
         ],
@@ -60,19 +60,19 @@ dvorak_keydata = {
             "G(A(KC_QUOT))", "G(A(KC_COMM))", "G(A(KC_DOT))", "G(A(KC_P))"  , "G(A(KC_Y))", "G(A(KC_F))", "G(A(KC_G))"  , "G(A(KC_C))"  , "G(A(KC_R))", "G(A(KC_L))",
             "G(A(KC_A))"   , "G(A(KC_O))"   , "G(A(KC_E))"  , "G(A(KC_U))"  , "G(A(KC_I))", "G(A(KC_D))", "G(A(KC_H))"  , "G(A(KC_T))"  , "G(A(KC_N))", "G(A(KC_S))",
             "G(A(KC_SCLN))", "G(A(KC_Q))"   , "G(A(KC_J))"  , "G(A(KC_K))"  , "G(A(KC_X))", "G(A(KC_B))", "G(A(KC_M))"  , "G(A(KC_W))"  , "G(A(KC_V))", "G(A(KC_Z))",
-                                              1             , "G(A(KC_SPC))", None        , None        , "G(A(KC_ENT))", "G(A(KC_TAB))",
+                                              1             , "G(A(KC_SPC))", None        , None        , "G(A(KC_ENT))", 1,
         ],
 
         [ # Left Symbol
             "KC_GRV", "KC_SLSH", "KC_HASH", "KC_AMPR", None     , None, None, None, None, None,
-            None    , "KC_QUES", "KC_LPRN", "KC_LBRC", "KC_LCBR", None, None, 1   , 1   , None,
+            None    , "KC_QUES", "KC_LPRN", "KC_LBRC", "KC_LCBR", None, 1   , None, 1   , None,
             None    , "KC_BSLS", "KC_PIPE", "KC_PLUS", "KC_EQL" , None, None, None, None, None,
                                  None     , None     , None     , None, None, None,
         ],
 
         [ # Right Symbol
             None, None, None, None, None, None     , "KC_AT"  , "KC_TILD", "KC_PERC", "KC_DLR",
-            None, 1   , 1   , None, None, "KC_RCBR", "KC_RBRC", "KC_RPRN", "KC_EXLM", None    ,
+            None, 1   , None, 1,    None, "KC_RCBR", "KC_RBRC", "KC_RPRN", "KC_EXLM", None    ,
             None, None, None, None, None, "KC_UNDS", "KC_MINS", "KC_ASTR", "KC_CIRC", None    ,
                         None, None, None, None     , None     , None     ,
         ],
