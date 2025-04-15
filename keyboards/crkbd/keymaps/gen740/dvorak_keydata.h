@@ -18,4 +18,4 @@ struct dvorak_node {
   const uint16_t keys[];
 };
 
-const dvorak_node_t dvorak_node_root;
+const dvorak_node_t dvorak_1;

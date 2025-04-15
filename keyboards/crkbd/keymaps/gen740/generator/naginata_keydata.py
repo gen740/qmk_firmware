@@ -338,6 +338,12 @@ naginata_keydata = {
             None, None, None, None, None, None                    , None, None                    , None, None                    ,
                         None, None, None, None                    , None, None                    ,
         ],
+        [
+            None, 0   , None, None, None, None                       , None, ["S(KC_G)", "KC_Y", "KC_O"], None, ["S(KC_G)", "KC_Y", "KC_U"],
+            None, None, 0   , None, None, ["S(KC_G)", "KC_Y", "KC_A"], 0   , None                       , None, None                       ,
+            None, None, None, None, None, None                       , None, None                       , None, None                       ,
+                        None, None, None, None                       , None, None                       ,
+        ],
 
         # ちゃ行
         # ┏━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┓         ┏━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┓
@@ -354,6 +360,12 @@ naginata_keydata = {
             None, None, None, None, 0   , ["KC_T", "KC_Y", "KC_A"], None, None                    , None, None                    ,
             None, None, None, None, None, None                    , None, None                    , None, None                    ,
                         None, None, None, None                    , None, None                    ,
+        ],
+        [
+            None, None, None, None, None, None                       , None, ["S(KC_T)", "KC_Y", "KC_O"], None, ["S(KC_T)", "KC_Y", "KC_U"],
+            None, 0   , None, None, 0   , ["S(KC_T)", "KC_Y", "KC_A"], None, None                       , None, None                       ,
+            None, None, None, None, None, None                       , None, None                       , None, None                       ,
+                        None, None, None, None                       , None, None                       ,
         ],
 
         # ぢゃ行
@@ -694,22 +706,22 @@ naginata_keydata = {
                         None, None, None, None                    , None, None            ,
         ],
 
-        # ゔぁ ゔぃ ゔぇ ゔぉ ゔゅ
-        # ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓             ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓
-        # ┃       ┃       ┃       ┃       ┃       ┃             ┃       ┃       ┃       ┃   ve  ┃ vuxyu ┃
-        # ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫             ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-        # ┃       ┃       ┃       ┃  (-)  ┃       ┃             ┃       ┃   va  ┃   vi  ┃  (-)  ┃       ┃
-        # ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫             ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-        # ┃       ┃       ┃       ┃       ┃       ┃             ┃   vo  ┃       ┃       ┃       ┃       ┃
-        # ┗━━━━━━━┻━━━━━━━┻━━━━━┳━┻━━━━━┳━┻━━━━━┳━┻━━━━━┓ ┏━━━━━┻━┳━━━━━┻━┳━━━━━┻━┳━━━━━┻━━━━━━━┻━━━━━━━┛
-        #                       ┃       ┃       ┃       ┃ ┃       ┃       ┃       ┃
-        #                       ┗━━━━━━━┻━━━━━━━┻━━━━━━━┛ ┗━━━━━━━┻━━━━━━━┻━━━━━━━┛
-        [
-            None, None, None, None, None, None            , None            , None            , ["KC_V", "KC_E"], ["KC_V", "KC_U", "KC_X", "KC_Y", "KC_U"],
-            None, None, None, 0   , None, None            , ["KC_V", "KC_A"], ["KC_V", "KC_I"], 0               , None                                    ,
-            None, None, None, None, None, ["KC_V", "KC_O"], None            , None            , None            , None                                    ,
-                        None, None, None, None            , None            , None            ,
-        ],
+        # # ゔぁ ゔぃ ゔぇ ゔぉ ゔゅ
+        # # ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓             ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓
+        # # ┃       ┃       ┃       ┃       ┃       ┃             ┃       ┃       ┃       ┃   ve  ┃ vuxyu ┃
+        # # ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫             ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
+        # # ┃       ┃       ┃       ┃  (-)  ┃       ┃             ┃       ┃   va  ┃   vi  ┃  (-)  ┃       ┃
+        # # ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫             ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
+        # # ┃       ┃       ┃       ┃       ┃       ┃             ┃   vo  ┃       ┃       ┃       ┃       ┃
+        # # ┗━━━━━━━┻━━━━━━━┻━━━━━┳━┻━━━━━┳━┻━━━━━┳━┻━━━━━┓ ┏━━━━━┻━┳━━━━━┻━┳━━━━━┻━┳━━━━━┻━━━━━━━┻━━━━━━━┛
+        # #                       ┃       ┃       ┃       ┃ ┃       ┃       ┃       ┃
+        # #                       ┗━━━━━━━┻━━━━━━━┻━━━━━━━┛ ┗━━━━━━━┻━━━━━━━┻━━━━━━━┛
+        # [
+        #     None, None, None, None, None, None            , None            , None            , ["KC_V", "KC_E"], ["KC_V", "KC_U", "KC_X", "KC_Y", "KC_U"],
+        #     None, None, None, 0   , None, None            , ["KC_V", "KC_A"], ["KC_V", "KC_I"], 0               , None                                    ,
+        #     None, None, None, None, None, ["KC_V", "KC_O"], None            , None            , None            , None                                    ,
+        #                 None, None, None, None            , None            , None            ,
+        # ],
 
         # くぁ くぃ くぇ くぉ くゎ
         # ┏━━━━━━┳━━━━━━┳━━━━━━┳━━━━━━┳━━━━━━┓           ┏━━━━━━┳━━━━━━┳━━━━━━┳━━━━━━┳━━━━━━┓

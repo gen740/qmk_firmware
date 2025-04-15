@@ -5,7 +5,7 @@
 #include "gen740.h"
 #include "naginata_keydata.h"
 
-static const naginata_node_t *ng_current_node = &naginata_node_root;
+static const naginata_node_t *ng_current_node = &naginata_1;
 static bool ng_char_emit = false;
 
 static bool ng_send_event(const uint16_t keys[], const uint8_t bounds) {

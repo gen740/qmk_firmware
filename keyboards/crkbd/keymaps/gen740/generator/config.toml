@@ -20,7 +20,7 @@ struct dvorak_node {
   const uint16_t keys[];
 };
 
-const dvorak_node_t dvorak_node_root;
+const dvorak_node_t dvorak_1;
 """
 
 source_prefix = """
@@ -55,7 +55,7 @@ struct naginata_node {
   const uint16_t keys[];
 };
 
-const naginata_node_t naginata_node_root;
+const naginata_node_t naginata_1;
 """
 
 source_prefix = """

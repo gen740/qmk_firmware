@@ -5,7 +5,7 @@
 #include "dvorak_keydata.h"
 #include "gen740.h"
 
-static const dvorak_node_t *dv_current_node = &dvorak_node_root;
+static const dvorak_node_t *dv_current_node = &dvorak_1;
 static bool dv_char_emit = false;
 
 static bool dv_send_event(const uint16_t keys[], const uint8_t bounds) {
