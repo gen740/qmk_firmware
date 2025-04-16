@@ -62,7 +62,7 @@ naginata_keydata = {
         # 基本 Shift
         [
             None               , ["S(KC_K)", "KC_I"], ["S(KC_T)", "KC_E"], ["S(KC_S)", "KC_I"], None                       , None, None, None, None, None,
-            ["S(KC_R)", "KC_O"], ["S(KC_K)", "KC_E"], ["S(KC_T)", "KC_O"], ["S(KC_K)", "KC_A"], ["S(KC_X)", "KC_T", "KC_U"], None, None, 0,    0   , None,
+            ["S(KC_R)", "KC_O"], ["S(KC_K)", "KC_E"], ["S(KC_T)", "KC_O"], ["S(KC_K)", "KC_A"], ["S(KC_X)", "KC_T", "KC_U"], None, None, None, 0,    0,
             ["S(KC_H)", "KC_O"], ["S(KC_H)", "KC_I"], ["S(KC_H)", "KC_A"], ["S(KC_K)", "KC_O"], ["S(KC_S)", "KC_O"]        , None, None, None, None, None,
                                                       None               , None               , None                       , None, None, None,
         ],
@@ -70,7 +70,7 @@ naginata_keydata = {
         # 基本 Shift
         [
             None, None, None, None, None, None               , ["S(KC_S)", "KC_A"], ["S(KC_R)", "KC_U"], ["S(KC_S)", "KC_U"], ["S(KC_H)", "KC_E"],
-            None, 0   , 0,    None, None, ["S(KC_K)", "KC_U"], ["S(KC_A)"]        , ["S(KC_I)"]        , ["S(KC_U)"]        , None               ,
+            0,    0,    None, None, None, ["S(KC_K)", "KC_U"], ["S(KC_A)"]        , ["S(KC_I)"]        , ["S(KC_U)"]        , None               ,
             None, None, None, None, None, ["S(KC_T)", "KC_A"], ["S(KC_N)", "KC_A"], ["S(KC_N)", "KC_N"], ["S(KC_R)", "KC_A"], ["S(KC_R)", "KC_E"],
                         None, None, None, None               , None               , None               ,
         ],
@@ -94,14 +94,14 @@ naginata_keydata = {
 
         [
             None, None, None, None, None, None               , ["S(KC_S)", "KC_A"], ["S(KC_Y)", "KC_O"], ["S(KC_E)"]        , ["S(KC_Y)", "KC_U"],
-            None, 0   , 0,    None, None, ["S(KC_Y)", "KC_A"], ["S(KC_N)", "KC_O"], ["S(KC_M)", "KC_O"], ["S(KC_T)", "KC_U"], ["S(KC_F)", "KC_U"],
+            0,    None, None, None, None, ["S(KC_Y)", "KC_A"], ["S(KC_N)", "KC_O"], ["S(KC_M)", "KC_O"], ["S(KC_T)", "KC_U"], ["S(KC_F)", "KC_U"],
             None, None, None, None, None, ["S(KC_O)"]        , ["S(KC_DOT)"]      , ["S(KC_M)", "KC_U"], ["S(KC_W)", "KC_A"], None               ,
                         None, 0   , None, None               , None               , None               ,
         ],
 
         [
             None               , ["S(KC_N)", "KC_U"], ["S(KC_R)", "KC_I"], ["S(KC_N)", "KC_E"], None               , None, None, None, None, None,
-            ["S(KC_S)", "KC_E"], ["S(KC_M)", "KC_E"], ["S(KC_N)", "KC_I"], ["S(KC_M)", "KC_A"], ["S(KC_T)", "KC_I"], None, None, 0,    0,    None,
+            ["S(KC_S)", "KC_E"], ["S(KC_M)", "KC_E"], ["S(KC_N)", "KC_I"], ["S(KC_M)", "KC_A"], ["S(KC_T)", "KC_I"], None, None, None, None, 0,
             None               , None               , ["S(KC_W)", "KC_O"], None               , ["S(KC_M)", "KC_I"], None, None, None, None, None,
                                                       None               , 0                  , None               , None, None, None,
         ],
@@ -125,14 +125,14 @@ naginata_keydata = {
 
         [
             None, None, None, None, None, None               , ["S(KC_S)", "KC_A"], ["S(KC_Y)", "KC_O"], ["S(KC_E)"]        , ["S(KC_Y)", "KC_U"],
-            None, 0   , 0,    None, None, ["S(KC_Y)", "KC_A"], ["S(KC_N)", "KC_O"], ["S(KC_M)", "KC_O"], ["S(KC_T)", "KC_U"], ["S(KC_F)", "KC_U"],
+            0,    None, None, None, None, ["S(KC_Y)", "KC_A"], ["S(KC_N)", "KC_O"], ["S(KC_M)", "KC_O"], ["S(KC_T)", "KC_U"], ["S(KC_F)", "KC_U"],
             None, None, None, None, None, ["S(KC_O)"]        , ["S(KC_DOT)"]      , ["S(KC_M)", "KC_U"], ["S(KC_W)", "KC_A"], None               ,
                         None, None, None, None               , 0                  , None               ,
         ],
 
         [
             None               , ["S(KC_N)", "KC_U"], ["S(KC_R)", "KC_I"], ["S(KC_N)", "KC_E"], None               , None, None, None, None, None,
-            ["S(KC_S)", "KC_E"], ["S(KC_M)", "KC_E"], ["S(KC_N)", "KC_I"], ["S(KC_M)", "KC_A"], ["S(KC_T)", "KC_I"], None, None, 0,    0   , None,
+            ["S(KC_S)", "KC_E"], ["S(KC_M)", "KC_E"], ["S(KC_N)", "KC_I"], ["S(KC_M)", "KC_A"], ["S(KC_T)", "KC_I"], None, None, None, None, 0,
             None               , None               , ["S(KC_W)", "KC_O"], None               , ["S(KC_M)", "KC_I"], None, None, None, None, None,
                                                       None               , None               , None               , None, 0   , None,
         ],
@@ -157,7 +157,7 @@ naginata_keydata = {
 
         [
             None               , ["S(KC_G)", "KC_I"], ["S(KC_D)", "KC_E"], ["S(KC_Z)", "KC_I"], None               , None, None, None, None, None,
-            ["S(KC_Z)", "KC_E"], ["S(KC_G)", "KC_E"], ["S(KC_D)", "KC_O"], ["S(KC_G)", "KC_A"], ["S(KC_D)", "KC_I"], None, 0   , 0,    0   , None,
+            ["S(KC_Z)", "KC_E"], ["S(KC_G)", "KC_E"], ["S(KC_D)", "KC_O"], ["S(KC_G)", "KC_A"], ["S(KC_D)", "KC_I"], None, 0   , None, None, 0,
             ["S(KC_B)", "KC_O"], ["S(KC_B)", "KC_I"], ["S(KC_B)", "KC_A"], ["S(KC_G)", "KC_O"], ["S(KC_Z)", "KC_O"], None, None, None, None, None,
                                                       None               , None               , None               , None, None, None,
         ],
@@ -182,7 +182,7 @@ naginata_keydata = {
 
         [
             None, None, None, None, None, None               , ["S(KC_Z)", "KC_A"], None, ["S(KC_Z)", "KC_U"], ["S(KC_B)", "KC_E"],
-            None, 0   , 0,    0   , None, ["S(KC_G)", "KC_U"], None               , None, ["S(KC_D)", "KC_U"], ["S(KC_B)", "KC_U"],
+            0,    None, None, 0,    None, ["S(KC_G)", "KC_U"], None               , None, ["S(KC_D)", "KC_U"], ["S(KC_B)", "KC_U"],
             None, None, None, None, None, ["S(KC_D)", "KC_A"], None               , None, None               , None               ,
                         None, None, None, None               , None               , None,
         ],
@@ -206,7 +206,7 @@ naginata_keydata = {
 
         [
             None            , None            , None            , None, None, None, None, None, None, None,
-            None            , None            , None            , None, None, None, None, 0,    0   , None,
+            None            , None            , None            , None, None, None, None, None, None, 0,
             ["KC_P", "KC_O"], ["KC_P", "KC_I"], ["KC_P", "KC_A"], None, None, None, 0   , None, None, None,
                                                 None            , None, None, None, None, None,
         ],
@@ -230,7 +230,7 @@ naginata_keydata = {
 
         [
             None, None, None, None, None, None, None, None, None, ["S(KC_P)", "KC_E"],
-            None, 0   , 0   , None, None, None, None, None, None, ["S(KC_P)", "KC_U"],
+            0,    None, None, None, None, None, None, None, None, ["S(KC_P)", "KC_U"],
             None, None, None, 0   , None, None, None, None, None, None               ,
                         None, None, None, None, None, None,
         ],
@@ -271,7 +271,7 @@ naginata_keydata = {
 
         [
             None, None, None, 0   , None, None                       , None, ["S(KC_S)", "KC_Y", "KC_O"], None, ["S(KC_S)", "KC_Y", "KC_U"],
-            None, 0   , None, None, None, ["S(KC_S)", "KC_Y", "KC_A"], None, None                       , None, None                       ,
+            0,    None, None, None, None, ["S(KC_S)", "KC_Y", "KC_A"], None, None                       , None, None                       ,
             None, None, None, None, None, None                       , None, None                       , None, None                       ,
                         None, None, None, None                       , None, None                       ,
         ],
@@ -294,7 +294,7 @@ naginata_keydata = {
         ],
         [
             None, None, None, 0   , None, None                       , None, ["S(KC_Z)", "KC_Y", "KC_O"], None, ["S(KC_Z)", "KC_Y", "KC_U"],
-            None, 0   , None, None, None, ["S(KC_Z)", "KC_Y", "KC_A"], 0   , None                       , None, None                       ,
+            0,    None, None, None, None, ["S(KC_Z)", "KC_Y", "KC_A"], 0   , None                       , None, None                       ,
             None, None, None, None, None, None                       , None, None                       , None, None                       ,
                         None, None, None, None                       , None, None                       ,
         ],
@@ -403,7 +403,7 @@ naginata_keydata = {
         ],
         [
             None, None, None, None, None, None                       , None, ["S(KC_N)", "KC_Y", "KC_O"], None, ["S(KC_N)", "KC_Y", "KC_U"],
-            None, 0   , 0   , None, None, ["S(KC_N)", "KC_Y", "KC_A"], None, None                       , None, None                       ,
+            0,    None, 0   , None, None, ["S(KC_N)", "KC_Y", "KC_A"], None, None                       , None, None                       ,
             None, None, None, None, None, None                       , None, None                       , None, None                       ,
                         None, None, None, None                       , None, None                       ,
         ],
@@ -426,8 +426,8 @@ naginata_keydata = {
         ],
         [
             None, None, None, None, None, None                       , None, ["S(KC_H)", "KC_Y", "KC_O"], None, ["S(KC_H)", "KC_Y", "KC_U"],
-            None, None, 0   , None, None, ["S(KC_H)", "KC_Y", "KC_A"], None, None                       , None, None                       ,
-            None, 0   , None, None, None, None                       , None, None                       , None, None                       ,
+            None, None, None, None, None, ["S(KC_H)", "KC_Y", "KC_A"], None, None                       , None, None                       ,
+            0,    0   , None, None, None, None                       , None, None                       , None, None                       ,
                         None, None, None, None                       , None, None                       ,
         ],
 
@@ -450,8 +450,8 @@ naginata_keydata = {
 
         [
             None, None, None, None, None, None                       , None, ["S(KC_B)", "KC_Y", "KC_O"], None, ["S(KC_B)", "KC_Y", "KC_U"],
-            None, None, 0   , None, None, ["S(KC_B)", "KC_Y", "KC_A"], 0   , None                       , None, None                       ,
-            None, 0   , None, None, None, None                       , None, None                       , None, None                       ,
+            None, None, None, None, None, ["S(KC_B)", "KC_Y", "KC_A"], 0   , None                       , None, None                       ,
+            0,    0   , None, None, None, None                       , None, None                       , None, None                       ,
                         None, None, None, None                       , None, None                       ,
         ],
 
@@ -490,8 +490,8 @@ naginata_keydata = {
         ],
         [
             None, None, None, None, None, None                       , None, ["S(KC_M)", "KC_Y", "KC_O"], None, ["S(KC_M)", "KC_Y", "KC_U"],
-            None, 0   , None, None, None, ["S(KC_M)", "KC_Y", "KC_A"], None, None                       , None, None                       ,
-            None, None, None, None, 0   , None                       , None, None                       , None, None                       ,
+            None, None, None, None, None, ["S(KC_M)", "KC_Y", "KC_A"], None, None                       , None, None                       ,
+            0,    None, None, None, 0   , None                       , None, None                       , None, None                       ,
                         None, None, None, None                       , None, None                       ,
         ],
 
@@ -701,27 +701,27 @@ naginata_keydata = {
         #                 ┗━━━━━┻━━━━━┻━━━━━┛ ┗━━━━━┻━━━━━┻━━━━━┛
         [
             None, None, None, None, None, None                    , None, None            , ["KC_W", "KC_E"], None,
-            None, None, None, None, None, None                    , None, ["KC_W", "KC_I"], 0               , None,
-            None, None, None, 0   , None, ["KC_U", "KC_X", "KC_O"], None, None            , None            , None,
+            None, None, None, None, None, None                    , None, ["KC_W", "KC_I"], 1               , None,
+            None, None, None, 1   , None, ["KC_U", "KC_X", "KC_O"], None, None            , None            , None,
                         None, None, None, None                    , None, None            ,
         ],
 
-        # # ゔぁ ゔぃ ゔぇ ゔぉ ゔゅ
-        # # ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓             ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓
-        # # ┃       ┃       ┃       ┃       ┃       ┃             ┃       ┃       ┃       ┃   ve  ┃ vuxyu ┃
-        # # ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫             ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-        # # ┃       ┃       ┃       ┃  (-)  ┃       ┃             ┃       ┃   va  ┃   vi  ┃  (-)  ┃       ┃
-        # # ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫             ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
-        # # ┃       ┃       ┃       ┃       ┃       ┃             ┃   vo  ┃       ┃       ┃       ┃       ┃
-        # # ┗━━━━━━━┻━━━━━━━┻━━━━━┳━┻━━━━━┳━┻━━━━━┳━┻━━━━━┓ ┏━━━━━┻━┳━━━━━┻━┳━━━━━┻━┳━━━━━┻━━━━━━━┻━━━━━━━┛
-        # #                       ┃       ┃       ┃       ┃ ┃       ┃       ┃       ┃
-        # #                       ┗━━━━━━━┻━━━━━━━┻━━━━━━━┛ ┗━━━━━━━┻━━━━━━━┻━━━━━━━┛
-        # [
-        #     None, None, None, None, None, None            , None            , None            , ["KC_V", "KC_E"], ["KC_V", "KC_U", "KC_X", "KC_Y", "KC_U"],
-        #     None, None, None, 0   , None, None            , ["KC_V", "KC_A"], ["KC_V", "KC_I"], 0               , None                                    ,
-        #     None, None, None, None, None, ["KC_V", "KC_O"], None            , None            , None            , None                                    ,
-        #                 None, None, None, None            , None            , None            ,
-        # ],
+        # ゔぁ ゔぃ ゔぇ ゔぉ ゔゅ
+        # ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓             ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓
+        # ┃       ┃       ┃       ┃       ┃       ┃             ┃       ┃       ┃       ┃   ve  ┃ vuxyu ┃
+        # ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫             ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
+        # ┃       ┃       ┃       ┃  (-)  ┃       ┃             ┃       ┃   va  ┃   vi  ┃  (-)  ┃       ┃
+        # ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫             ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
+        # ┃       ┃       ┃       ┃       ┃       ┃             ┃   vo  ┃       ┃       ┃       ┃       ┃
+        # ┗━━━━━━━┻━━━━━━━┻━━━━━┳━┻━━━━━┳━┻━━━━━┳━┻━━━━━┓ ┏━━━━━┻━┳━━━━━┻━┳━━━━━┻━┳━━━━━┻━━━━━━━┻━━━━━━━┛
+        #                       ┃       ┃       ┃       ┃ ┃       ┃       ┃       ┃
+        #                       ┗━━━━━━━┻━━━━━━━┻━━━━━━━┛ ┗━━━━━━━┻━━━━━━━┻━━━━━━━┛
+        [
+            None, None, None, None, None, None            , None            , None            , ["KC_V", "KC_E"], ["KC_V", "KC_U", "KC_X", "KC_Y", "KC_U"],
+            None, None, None, 1   , None, None            , ["KC_V", "KC_A"], ["KC_V", "KC_I"], 1               , None                                    ,
+            None, None, None, None, None, ["KC_V", "KC_O"], None            , None            , None            , None                                    ,
+                        None, None, None, None            , None            , None            ,
+        ],
 
         # くぁ くぃ くぇ くぉ くゎ
         # ┏━━━━━━┳━━━━━━┳━━━━━━┳━━━━━━┳━━━━━━┓           ┏━━━━━━┳━━━━━━┳━━━━━━┳━━━━━━┳━━━━━━┓

@@ -51,17 +51,6 @@ const {self.id}_node_t {self.id}_{self.struct_name} = {{
 """
 
 
-#     def generate(self, database: dict[tuple[str, ...], "Func"]):
-#         return f"""\
-# const {self.id}_node_t {self.id}_{self.struct_name} = {{
-#     .parent       = {self.parent},
-#     .next_node    = {database[self.parent].func_name},
-#     .key          = {self.key},
-#     .bounds       = {self.bounds},
-#     .keys         = {f"{{ {', '.join(self.keys)} }}" if len(self.keys) > 0 else "{}"},
-# }};"""
-
-
 class Func:
     def __init__(self, id: str, func_name: str, children: dict[str, tuple[str, ...]]):
         self.id = id
@@ -121,35 +110,6 @@ parent: {self.parent.keys if self.parent else None}
 children: {self.children.keys()}
 value_leave: {self._value_leave}
 ---------------------------------------------------------------------
-"""
-
-    def get_struct_name(self):
-        if len(self.keys) == 0:
-            return f"{self.id}_node_root"
-        return f"{self.id}_node_" + "_".join(self.keys)
-
-    def get_decl_str(self):
-        return f"const {self.id}_node_t {self.get_struct_name()};"
-
-    def get_next_node_func_str(self):
-        return f"""\
-const {self.id}_node_t* {self.get_struct_name()}_next_node(uint16_t key) {{
-  switch (key) {{
-    {(os.linesep + "    ").join([f"case {k}: return &{v.get_struct_name()};" for k, v in self.children.items()] + ["default: return NULL;"])}
-  }}
-}}
-"""
-
-    def get_def_str(self):
-        values = self._value_leave or []
-        return f"""\
-const {self.id}_node_t {self.get_struct_name()} = {{
-  .parent       = {f"&{self.parent.get_struct_name()}" if self.parent else "NULL"},
-  .next_node    = &{self.get_struct_name()}_next_node,
-  .key          = {"0" if len(self.keys) == 0 else (self.keys[-1] or None)},
-  .bounds       = {len(values)},
-  .keys         = {f"{{ {', '.join(values)} }}" if len(values) > 0 else "{}"},
-}};
 """
 
     def __eq__(self, other):
@@ -275,6 +235,10 @@ if __name__ == "__main__":
     for i in structs.values():
         struct_declarations.append(i.get_decl_str())
         struct_implementations.append(i.get_def_str(functions, structs))
+
+    print(
+        f"Generated {len(struct_implementations)} structs and {len(function_declarations)} functions"
+    )
 
     with open(f"{sys.argv[1]}_keydata.c", "w") as f:
         f.write(config_value["source_prefix"])
