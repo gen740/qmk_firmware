@@ -37,7 +37,13 @@ def generate(type: str) -> dict[tuple[str], list[str]]:
 
                 if isinstance(key, str):
                     key = [key]
-                ret[tuple(keycomb)] = key
+                if ret.get(tuple(keycomb), None) is None:
+                    ret[tuple(keycomb)] = key
+                else:
+                    if ret[tuple(keycomb)] != key:
+                        raise ValueError(
+                            f"Duplicate value for key {keycomb} (set value: {ret[tuple(keycomb)]} value: {key})"
+                        )
 
     return ret
 

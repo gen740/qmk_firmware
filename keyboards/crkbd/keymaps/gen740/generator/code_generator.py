@@ -141,10 +141,9 @@ def generate_tree(id: str):
         if all_nodes[tuple(keys)].get_value_leave() is None:
             all_nodes[tuple(keys)].set_value_leave(value)
         else:
-            if all_nodes[tuple(keys)].get_value_leave() != value[1]:
-                raise ValueError(
-                    f"Duplicate value for key {keys} (set value: {all_nodes[tuple(keys)].get_value_leave()}value: {value})"
-                )
+            raise ValueError(
+                f"Duplicate value for key {keys} (set value: {all_nodes[tuple(keys)].get_value_leave()} value: {value})"
+            )
 
     # Set parent and children
     for keycomb, node in all_nodes.items():
