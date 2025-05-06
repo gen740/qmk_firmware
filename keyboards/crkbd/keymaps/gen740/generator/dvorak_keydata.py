@@ -77,6 +77,20 @@ dvorak_keydata = {
                         None, None, None, None     , None     , None     ,
         ],
 
+        [ # Left Symbol + Ctrl
+            "C(KC_GRV)", "C(KC_SLSH)", "C(KC_HASH)", "C(KC_AMPR)", None        , None, None, None, None, None,
+            None       , "C(KC_QUES)", "C(KC_LPRN)", "C(KC_LBRC)", "C(KC_LCBR)", None, 1   , None, 1   , None,
+            None       , "C(KC_BSLS)", "C(KC_PIPE)", "C(KC_PLUS)", "C(KC_EQL)" , None, None, None, None, None,
+                                       None        , None        , None        , None, 1   , None,
+        ],
+
+        [ # Right Symbol + Ctrl
+            None, None, None, None, None, None        , "C(KC_AT)"  , "C(KC_TILD)", "C(KC_PERC)", "C(KC_DLR)",
+            None, 1   , None, 1   , None, "C(KC_RCBR)", "C(KC_RBRC)", "C(KC_RPRN)", "C(KC_EXLM)", None       ,
+            None, None, None, None, None, "C(KC_UNDS)", "C(KC_MINS)", "C(KC_ASTR)", "C(KC_CIRC)", None       ,
+                        None, 1   , None, None        , None        , None        ,
+        ],
+
         [ # Math expressions
             None  , "KC_SLSH", "KC_LPRN", "KC_LBRC"   , "KC_LCBR", "KC_RCBR", "KC_RBRC"  , "KC_RPRN", "KC_PERC", None  ,
             "KC_1", "KC_2"   , "KC_3"   , "KC_4"      , "KC_5"   , "KC_6"   , "KC_7"     , "KC_8"   , "KC_9"   , "KC_0",
