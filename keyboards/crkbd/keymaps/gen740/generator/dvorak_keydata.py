@@ -127,10 +127,10 @@ dvorak_keydata = {
         ],
 
         [ # Disable
-            None, None, None, None, None   , None, None, None, None, None,
-            None, None, None, 0   , "KC_NO", None, None, None, None, None,
-            None, None, None, None, None   , None, None, None, None, None,
-                        None, None, None   , None, None, None,
+            None, None, None, None, None           , None, None, None, None, None,
+            None, None, None, 0   , "KC_LANGUAGE_2", None, None, None, None, None,
+            None, None, None, None, None           , None, None, None, None, None,
+                        None, None, None           , None, None, None,
         ],
 
 

@@ -838,10 +838,10 @@ naginata_keydata = {
         #                 ┃     ┃     ┃     ┃ ┃     ┃     ┃     ┃
         #                 ┗━━━━━┻━━━━━┻━━━━━┛ ┗━━━━━┻━━━━━┻━━━━━┛
         [
-            None, None, None, None, None, None   , None, None, None, None,
-            None, None, None, None, None, "KC_NO", 0   , None, None, None,
-            None, None, None, None, None, None   , None, None, None, None,
-                        None, None, None, None   , None, None,
+            None, None, None, None, None, None           , None, None, None, None,
+            None, None, None, None, None, "KC_LANGUAGE_1", 0   , None, None, None,
+            None, None, None, None, None, None           , None, None, None, None,
+                        None, None, None, None           , None, None,
         ],
 
 

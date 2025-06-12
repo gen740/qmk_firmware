@@ -15,6 +15,10 @@ static bool dv_send_event(const uint16_t keys[], const uint8_t bounds) {
       tap_code(KC_LNG1);
       layer_move(L_NAG);
       flag = true;
+    } else if (keys[i] == KC_LANGUAGE_2) {
+      tap_code(KC_LNG2);
+      layer_move(L_DVO);
+      flag = true;
     } else {
       tap_code16(keys[i]);
       flag = true;

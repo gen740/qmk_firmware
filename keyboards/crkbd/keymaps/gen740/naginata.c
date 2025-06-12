@@ -11,7 +11,11 @@ static bool ng_char_emit = false;
 static bool ng_send_event(const uint16_t keys[], const uint8_t bounds) {
   bool flag = false;
   for (int8_t i = 0; i < bounds; i++) {
-    if (keys[i] == KC_LANGUAGE_2) {
+    if (keys[i] == KC_LANGUAGE_1) {
+      tap_code(KC_LNG1);
+      layer_move(L_NAG);
+      flag = true;
+    } else if (keys[i] == KC_LANGUAGE_2) {
       tap_code(KC_LNG2);
       layer_move(L_DVO);
       flag = true;
