@@ -4425,7 +4425,7 @@ const naginata_node_t naginata_264 = {
     .next_node    = &naginata_264_next_node,
     .key          = NG_J,
     .bounds       = 1,
-    .keys         = { KC_NO },
+    .keys         = { KC_LANGUAGE_1 },
 };
 
 const naginata_node_t naginata_265 = {
@@ -5065,7 +5065,7 @@ const naginata_node_t naginata_344 = {
     .next_node    = &naginata_344_next_node,
     .key          = NG_H,
     .bounds       = 1,
-    .keys         = { KC_NO },
+    .keys         = { KC_LANGUAGE_1 },
 };
 
 const naginata_node_t naginata_345 = {

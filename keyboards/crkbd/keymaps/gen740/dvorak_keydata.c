@@ -805,6 +805,390 @@ const dvorak_node_t dvorak_798;
 const dvorak_node_t dvorak_799;
 const dvorak_node_t dvorak_800;
 const dvorak_node_t dvorak_801;
+const dvorak_node_t dvorak_802;
+const dvorak_node_t dvorak_803;
+const dvorak_node_t dvorak_804;
+const dvorak_node_t dvorak_805;
+const dvorak_node_t dvorak_806;
+const dvorak_node_t dvorak_807;
+const dvorak_node_t dvorak_808;
+const dvorak_node_t dvorak_809;
+const dvorak_node_t dvorak_810;
+const dvorak_node_t dvorak_811;
+const dvorak_node_t dvorak_812;
+const dvorak_node_t dvorak_813;
+const dvorak_node_t dvorak_814;
+const dvorak_node_t dvorak_815;
+const dvorak_node_t dvorak_816;
+const dvorak_node_t dvorak_817;
+const dvorak_node_t dvorak_818;
+const dvorak_node_t dvorak_819;
+const dvorak_node_t dvorak_820;
+const dvorak_node_t dvorak_821;
+const dvorak_node_t dvorak_822;
+const dvorak_node_t dvorak_823;
+const dvorak_node_t dvorak_824;
+const dvorak_node_t dvorak_825;
+const dvorak_node_t dvorak_826;
+const dvorak_node_t dvorak_827;
+const dvorak_node_t dvorak_828;
+const dvorak_node_t dvorak_829;
+const dvorak_node_t dvorak_830;
+const dvorak_node_t dvorak_831;
+const dvorak_node_t dvorak_832;
+const dvorak_node_t dvorak_833;
+const dvorak_node_t dvorak_834;
+const dvorak_node_t dvorak_835;
+const dvorak_node_t dvorak_836;
+const dvorak_node_t dvorak_837;
+const dvorak_node_t dvorak_838;
+const dvorak_node_t dvorak_839;
+const dvorak_node_t dvorak_840;
+const dvorak_node_t dvorak_841;
+const dvorak_node_t dvorak_842;
+const dvorak_node_t dvorak_843;
+const dvorak_node_t dvorak_844;
+const dvorak_node_t dvorak_845;
+const dvorak_node_t dvorak_846;
+const dvorak_node_t dvorak_847;
+const dvorak_node_t dvorak_848;
+const dvorak_node_t dvorak_849;
+const dvorak_node_t dvorak_850;
+const dvorak_node_t dvorak_851;
+const dvorak_node_t dvorak_852;
+const dvorak_node_t dvorak_853;
+const dvorak_node_t dvorak_854;
+const dvorak_node_t dvorak_855;
+const dvorak_node_t dvorak_856;
+const dvorak_node_t dvorak_857;
+const dvorak_node_t dvorak_858;
+const dvorak_node_t dvorak_859;
+const dvorak_node_t dvorak_860;
+const dvorak_node_t dvorak_861;
+const dvorak_node_t dvorak_862;
+const dvorak_node_t dvorak_863;
+const dvorak_node_t dvorak_864;
+const dvorak_node_t dvorak_865;
+const dvorak_node_t dvorak_866;
+const dvorak_node_t dvorak_867;
+const dvorak_node_t dvorak_868;
+const dvorak_node_t dvorak_869;
+const dvorak_node_t dvorak_870;
+const dvorak_node_t dvorak_871;
+const dvorak_node_t dvorak_872;
+const dvorak_node_t dvorak_873;
+const dvorak_node_t dvorak_874;
+const dvorak_node_t dvorak_875;
+const dvorak_node_t dvorak_876;
+const dvorak_node_t dvorak_877;
+const dvorak_node_t dvorak_878;
+const dvorak_node_t dvorak_879;
+const dvorak_node_t dvorak_880;
+const dvorak_node_t dvorak_881;
+const dvorak_node_t dvorak_882;
+const dvorak_node_t dvorak_883;
+const dvorak_node_t dvorak_884;
+const dvorak_node_t dvorak_885;
+const dvorak_node_t dvorak_886;
+const dvorak_node_t dvorak_887;
+const dvorak_node_t dvorak_888;
+const dvorak_node_t dvorak_889;
+const dvorak_node_t dvorak_890;
+const dvorak_node_t dvorak_891;
+const dvorak_node_t dvorak_892;
+const dvorak_node_t dvorak_893;
+const dvorak_node_t dvorak_894;
+const dvorak_node_t dvorak_895;
+const dvorak_node_t dvorak_896;
+const dvorak_node_t dvorak_897;
+const dvorak_node_t dvorak_898;
+const dvorak_node_t dvorak_899;
+const dvorak_node_t dvorak_900;
+const dvorak_node_t dvorak_901;
+const dvorak_node_t dvorak_902;
+const dvorak_node_t dvorak_903;
+const dvorak_node_t dvorak_904;
+const dvorak_node_t dvorak_905;
+const dvorak_node_t dvorak_906;
+const dvorak_node_t dvorak_907;
+const dvorak_node_t dvorak_908;
+const dvorak_node_t dvorak_909;
+const dvorak_node_t dvorak_910;
+const dvorak_node_t dvorak_911;
+const dvorak_node_t dvorak_912;
+const dvorak_node_t dvorak_913;
+const dvorak_node_t dvorak_914;
+const dvorak_node_t dvorak_915;
+const dvorak_node_t dvorak_916;
+const dvorak_node_t dvorak_917;
+const dvorak_node_t dvorak_918;
+const dvorak_node_t dvorak_919;
+const dvorak_node_t dvorak_920;
+const dvorak_node_t dvorak_921;
+const dvorak_node_t dvorak_922;
+const dvorak_node_t dvorak_923;
+const dvorak_node_t dvorak_924;
+const dvorak_node_t dvorak_925;
+const dvorak_node_t dvorak_926;
+const dvorak_node_t dvorak_927;
+const dvorak_node_t dvorak_928;
+const dvorak_node_t dvorak_929;
+const dvorak_node_t dvorak_930;
+const dvorak_node_t dvorak_931;
+const dvorak_node_t dvorak_932;
+const dvorak_node_t dvorak_933;
+const dvorak_node_t dvorak_934;
+const dvorak_node_t dvorak_935;
+const dvorak_node_t dvorak_936;
+const dvorak_node_t dvorak_937;
+const dvorak_node_t dvorak_938;
+const dvorak_node_t dvorak_939;
+const dvorak_node_t dvorak_940;
+const dvorak_node_t dvorak_941;
+const dvorak_node_t dvorak_942;
+const dvorak_node_t dvorak_943;
+const dvorak_node_t dvorak_944;
+const dvorak_node_t dvorak_945;
+const dvorak_node_t dvorak_946;
+const dvorak_node_t dvorak_947;
+const dvorak_node_t dvorak_948;
+const dvorak_node_t dvorak_949;
+const dvorak_node_t dvorak_950;
+const dvorak_node_t dvorak_951;
+const dvorak_node_t dvorak_952;
+const dvorak_node_t dvorak_953;
+const dvorak_node_t dvorak_954;
+const dvorak_node_t dvorak_955;
+const dvorak_node_t dvorak_956;
+const dvorak_node_t dvorak_957;
+const dvorak_node_t dvorak_958;
+const dvorak_node_t dvorak_959;
+const dvorak_node_t dvorak_960;
+const dvorak_node_t dvorak_961;
+const dvorak_node_t dvorak_962;
+const dvorak_node_t dvorak_963;
+const dvorak_node_t dvorak_964;
+const dvorak_node_t dvorak_965;
+const dvorak_node_t dvorak_966;
+const dvorak_node_t dvorak_967;
+const dvorak_node_t dvorak_968;
+const dvorak_node_t dvorak_969;
+const dvorak_node_t dvorak_970;
+const dvorak_node_t dvorak_971;
+const dvorak_node_t dvorak_972;
+const dvorak_node_t dvorak_973;
+const dvorak_node_t dvorak_974;
+const dvorak_node_t dvorak_975;
+const dvorak_node_t dvorak_976;
+const dvorak_node_t dvorak_977;
+const dvorak_node_t dvorak_978;
+const dvorak_node_t dvorak_979;
+const dvorak_node_t dvorak_980;
+const dvorak_node_t dvorak_981;
+const dvorak_node_t dvorak_982;
+const dvorak_node_t dvorak_983;
+const dvorak_node_t dvorak_984;
+const dvorak_node_t dvorak_985;
+const dvorak_node_t dvorak_986;
+const dvorak_node_t dvorak_987;
+const dvorak_node_t dvorak_988;
+const dvorak_node_t dvorak_989;
+const dvorak_node_t dvorak_990;
+const dvorak_node_t dvorak_991;
+const dvorak_node_t dvorak_992;
+const dvorak_node_t dvorak_993;
+const dvorak_node_t dvorak_994;
+const dvorak_node_t dvorak_995;
+const dvorak_node_t dvorak_996;
+const dvorak_node_t dvorak_997;
+const dvorak_node_t dvorak_998;
+const dvorak_node_t dvorak_999;
+const dvorak_node_t dvorak_1000;
+const dvorak_node_t dvorak_1001;
+const dvorak_node_t dvorak_1002;
+const dvorak_node_t dvorak_1003;
+const dvorak_node_t dvorak_1004;
+const dvorak_node_t dvorak_1005;
+const dvorak_node_t dvorak_1006;
+const dvorak_node_t dvorak_1007;
+const dvorak_node_t dvorak_1008;
+const dvorak_node_t dvorak_1009;
+const dvorak_node_t dvorak_1010;
+const dvorak_node_t dvorak_1011;
+const dvorak_node_t dvorak_1012;
+const dvorak_node_t dvorak_1013;
+const dvorak_node_t dvorak_1014;
+const dvorak_node_t dvorak_1015;
+const dvorak_node_t dvorak_1016;
+const dvorak_node_t dvorak_1017;
+const dvorak_node_t dvorak_1018;
+const dvorak_node_t dvorak_1019;
+const dvorak_node_t dvorak_1020;
+const dvorak_node_t dvorak_1021;
+const dvorak_node_t dvorak_1022;
+const dvorak_node_t dvorak_1023;
+const dvorak_node_t dvorak_1024;
+const dvorak_node_t dvorak_1025;
+const dvorak_node_t dvorak_1026;
+const dvorak_node_t dvorak_1027;
+const dvorak_node_t dvorak_1028;
+const dvorak_node_t dvorak_1029;
+const dvorak_node_t dvorak_1030;
+const dvorak_node_t dvorak_1031;
+const dvorak_node_t dvorak_1032;
+const dvorak_node_t dvorak_1033;
+const dvorak_node_t dvorak_1034;
+const dvorak_node_t dvorak_1035;
+const dvorak_node_t dvorak_1036;
+const dvorak_node_t dvorak_1037;
+const dvorak_node_t dvorak_1038;
+const dvorak_node_t dvorak_1039;
+const dvorak_node_t dvorak_1040;
+const dvorak_node_t dvorak_1041;
+const dvorak_node_t dvorak_1042;
+const dvorak_node_t dvorak_1043;
+const dvorak_node_t dvorak_1044;
+const dvorak_node_t dvorak_1045;
+const dvorak_node_t dvorak_1046;
+const dvorak_node_t dvorak_1047;
+const dvorak_node_t dvorak_1048;
+const dvorak_node_t dvorak_1049;
+const dvorak_node_t dvorak_1050;
+const dvorak_node_t dvorak_1051;
+const dvorak_node_t dvorak_1052;
+const dvorak_node_t dvorak_1053;
+const dvorak_node_t dvorak_1054;
+const dvorak_node_t dvorak_1055;
+const dvorak_node_t dvorak_1056;
+const dvorak_node_t dvorak_1057;
+const dvorak_node_t dvorak_1058;
+const dvorak_node_t dvorak_1059;
+const dvorak_node_t dvorak_1060;
+const dvorak_node_t dvorak_1061;
+const dvorak_node_t dvorak_1062;
+const dvorak_node_t dvorak_1063;
+const dvorak_node_t dvorak_1064;
+const dvorak_node_t dvorak_1065;
+const dvorak_node_t dvorak_1066;
+const dvorak_node_t dvorak_1067;
+const dvorak_node_t dvorak_1068;
+const dvorak_node_t dvorak_1069;
+const dvorak_node_t dvorak_1070;
+const dvorak_node_t dvorak_1071;
+const dvorak_node_t dvorak_1072;
+const dvorak_node_t dvorak_1073;
+const dvorak_node_t dvorak_1074;
+const dvorak_node_t dvorak_1075;
+const dvorak_node_t dvorak_1076;
+const dvorak_node_t dvorak_1077;
+const dvorak_node_t dvorak_1078;
+const dvorak_node_t dvorak_1079;
+const dvorak_node_t dvorak_1080;
+const dvorak_node_t dvorak_1081;
+const dvorak_node_t dvorak_1082;
+const dvorak_node_t dvorak_1083;
+const dvorak_node_t dvorak_1084;
+const dvorak_node_t dvorak_1085;
+const dvorak_node_t dvorak_1086;
+const dvorak_node_t dvorak_1087;
+const dvorak_node_t dvorak_1088;
+const dvorak_node_t dvorak_1089;
+const dvorak_node_t dvorak_1090;
+const dvorak_node_t dvorak_1091;
+const dvorak_node_t dvorak_1092;
+const dvorak_node_t dvorak_1093;
+const dvorak_node_t dvorak_1094;
+const dvorak_node_t dvorak_1095;
+const dvorak_node_t dvorak_1096;
+const dvorak_node_t dvorak_1097;
+const dvorak_node_t dvorak_1098;
+const dvorak_node_t dvorak_1099;
+const dvorak_node_t dvorak_1100;
+const dvorak_node_t dvorak_1101;
+const dvorak_node_t dvorak_1102;
+const dvorak_node_t dvorak_1103;
+const dvorak_node_t dvorak_1104;
+const dvorak_node_t dvorak_1105;
+const dvorak_node_t dvorak_1106;
+const dvorak_node_t dvorak_1107;
+const dvorak_node_t dvorak_1108;
+const dvorak_node_t dvorak_1109;
+const dvorak_node_t dvorak_1110;
+const dvorak_node_t dvorak_1111;
+const dvorak_node_t dvorak_1112;
+const dvorak_node_t dvorak_1113;
+const dvorak_node_t dvorak_1114;
+const dvorak_node_t dvorak_1115;
+const dvorak_node_t dvorak_1116;
+const dvorak_node_t dvorak_1117;
+const dvorak_node_t dvorak_1118;
+const dvorak_node_t dvorak_1119;
+const dvorak_node_t dvorak_1120;
+const dvorak_node_t dvorak_1121;
+const dvorak_node_t dvorak_1122;
+const dvorak_node_t dvorak_1123;
+const dvorak_node_t dvorak_1124;
+const dvorak_node_t dvorak_1125;
+const dvorak_node_t dvorak_1126;
+const dvorak_node_t dvorak_1127;
+const dvorak_node_t dvorak_1128;
+const dvorak_node_t dvorak_1129;
+const dvorak_node_t dvorak_1130;
+const dvorak_node_t dvorak_1131;
+const dvorak_node_t dvorak_1132;
+const dvorak_node_t dvorak_1133;
+const dvorak_node_t dvorak_1134;
+const dvorak_node_t dvorak_1135;
+const dvorak_node_t dvorak_1136;
+const dvorak_node_t dvorak_1137;
+const dvorak_node_t dvorak_1138;
+const dvorak_node_t dvorak_1139;
+const dvorak_node_t dvorak_1140;
+const dvorak_node_t dvorak_1141;
+const dvorak_node_t dvorak_1142;
+const dvorak_node_t dvorak_1143;
+const dvorak_node_t dvorak_1144;
+const dvorak_node_t dvorak_1145;
+const dvorak_node_t dvorak_1146;
+const dvorak_node_t dvorak_1147;
+const dvorak_node_t dvorak_1148;
+const dvorak_node_t dvorak_1149;
+const dvorak_node_t dvorak_1150;
+const dvorak_node_t dvorak_1151;
+const dvorak_node_t dvorak_1152;
+const dvorak_node_t dvorak_1153;
+const dvorak_node_t dvorak_1154;
+const dvorak_node_t dvorak_1155;
+const dvorak_node_t dvorak_1156;
+const dvorak_node_t dvorak_1157;
+const dvorak_node_t dvorak_1158;
+const dvorak_node_t dvorak_1159;
+const dvorak_node_t dvorak_1160;
+const dvorak_node_t dvorak_1161;
+const dvorak_node_t dvorak_1162;
+const dvorak_node_t dvorak_1163;
+const dvorak_node_t dvorak_1164;
+const dvorak_node_t dvorak_1165;
+const dvorak_node_t dvorak_1166;
+const dvorak_node_t dvorak_1167;
+const dvorak_node_t dvorak_1168;
+const dvorak_node_t dvorak_1169;
+const dvorak_node_t dvorak_1170;
+const dvorak_node_t dvorak_1171;
+const dvorak_node_t dvorak_1172;
+const dvorak_node_t dvorak_1173;
+const dvorak_node_t dvorak_1174;
+const dvorak_node_t dvorak_1175;
+const dvorak_node_t dvorak_1176;
+const dvorak_node_t dvorak_1177;
+const dvorak_node_t dvorak_1178;
+const dvorak_node_t dvorak_1179;
+const dvorak_node_t dvorak_1180;
+const dvorak_node_t dvorak_1181;
+const dvorak_node_t dvorak_1182;
+const dvorak_node_t dvorak_1183;
+const dvorak_node_t dvorak_1184;
+const dvorak_node_t dvorak_1185;
 
 const dvorak_node_t* dvorak_1_next_node(uint16_t key) {
     switch (key) {
@@ -820,29 +1204,29 @@ const dvorak_node_t* dvorak_1_next_node(uint16_t key) {
         case DV_L: return &dvorak_13;
         case DV_A: return &dvorak_14;
         case DV_O: return &dvorak_15;
-        case DV_E: return &dvorak_120;
-        case DV_U: return &dvorak_203;
-        case DV_I: return &dvorak_295;
-        case DV_D: return &dvorak_297;
-        case DV_H: return &dvorak_299;
-        case DV_T: return &dvorak_391;
-        case DV_N: return &dvorak_474;
-        case DV_S: return &dvorak_579;
-        case DV_SCLN: return &dvorak_580;
-        case DV_Q: return &dvorak_581;
-        case DV_J: return &dvorak_582;
-        case DV_K: return &dvorak_583;
-        case DV_X: return &dvorak_584;
-        case DV_B: return &dvorak_585;
-        case DV_M: return &dvorak_586;
-        case DV_W: return &dvorak_587;
-        case DV_V: return &dvorak_588;
-        case DV_Z: return &dvorak_589;
-        case DV_LSFT1: return &dvorak_590;
-        case DV_LSFT2: return &dvorak_656;
-        case DV_RSFT2: return &dvorak_685;
-        case DV_RSFT1: return &dvorak_714;
-        case DV_RSFT3: return &dvorak_780;
+        case DV_E: return &dvorak_184;
+        case DV_U: return &dvorak_331;
+        case DV_I: return &dvorak_423;
+        case DV_D: return &dvorak_425;
+        case DV_H: return &dvorak_427;
+        case DV_T: return &dvorak_519;
+        case DV_N: return &dvorak_666;
+        case DV_S: return &dvorak_835;
+        case DV_SCLN: return &dvorak_836;
+        case DV_Q: return &dvorak_837;
+        case DV_J: return &dvorak_838;
+        case DV_K: return &dvorak_839;
+        case DV_X: return &dvorak_840;
+        case DV_B: return &dvorak_841;
+        case DV_M: return &dvorak_842;
+        case DV_W: return &dvorak_843;
+        case DV_V: return &dvorak_844;
+        case DV_Z: return &dvorak_845;
+        case DV_LSFT1: return &dvorak_846;
+        case DV_LSFT2: return &dvorak_912;
+        case DV_RSFT2: return &dvorak_941;
+        case DV_RSFT1: return &dvorak_970;
+        case DV_RSFT3: return &dvorak_1164;
         default: return NULL;
     }
 }
@@ -870,8 +1254,9 @@ const dvorak_node_t* dvorak_5_next_node(uint16_t key) {
 const dvorak_node_t* dvorak_15_next_node(uint16_t key) {
     switch (key) {
         case DV_E: return &dvorak_16;
-        case DV_U: return &dvorak_64;
-        case DV_LSFT2: return &dvorak_106;
+        case DV_RSFT1: return &dvorak_95;
+        case DV_U: return &dvorak_128;
+        case DV_LSFT2: return &dvorak_170;
         default: return NULL;
     }
 }
@@ -935,291 +1320,272 @@ const dvorak_node_t* dvorak_28_next_node(uint16_t key) {
     }
 }
 
-const dvorak_node_t* dvorak_64_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_63_next_node(uint16_t key) {
     switch (key) {
-        case DV_G: return &dvorak_65;
-        case DV_C: return &dvorak_66;
-        case DV_R: return &dvorak_67;
-        case DV_L: return &dvorak_68;
-        case DV_D: return &dvorak_69;
-        case DV_H: return &dvorak_70;
-        case DV_T: return &dvorak_71;
-        case DV_N: return &dvorak_72;
-        case DV_B: return &dvorak_73;
-        case DV_M: return &dvorak_74;
-        case DV_W: return &dvorak_75;
-        case DV_V: return &dvorak_76;
-        case DV_LSFT2: return &dvorak_77;
-        case DV_E: return &dvorak_90;
+        case DV_QUOT: return &dvorak_64;
+        case DV_COMM: return &dvorak_65;
+        case DV_DOT: return &dvorak_66;
+        case DV_P: return &dvorak_67;
+        case DV_Y: return &dvorak_68;
+        case DV_F: return &dvorak_69;
+        case DV_G: return &dvorak_70;
+        case DV_C: return &dvorak_71;
+        case DV_R: return &dvorak_72;
+        case DV_L: return &dvorak_73;
+        case DV_A: return &dvorak_74;
+        case DV_U: return &dvorak_75;
+        case DV_I: return &dvorak_76;
+        case DV_D: return &dvorak_77;
+        case DV_H: return &dvorak_78;
+        case DV_T: return &dvorak_79;
+        case DV_N: return &dvorak_80;
+        case DV_S: return &dvorak_81;
+        case DV_SCLN: return &dvorak_82;
+        case DV_Q: return &dvorak_83;
+        case DV_J: return &dvorak_84;
+        case DV_K: return &dvorak_85;
+        case DV_X: return &dvorak_86;
+        case DV_B: return &dvorak_87;
+        case DV_M: return &dvorak_88;
+        case DV_W: return &dvorak_89;
+        case DV_V: return &dvorak_90;
+        case DV_Z: return &dvorak_91;
+        case DV_LSFT1: return &dvorak_92;
+        case DV_LSFT2: return &dvorak_93;
+        case DV_RSFT2: return &dvorak_94;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_77_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_95_next_node(uint16_t key) {
     switch (key) {
-        case DV_G: return &dvorak_78;
-        case DV_C: return &dvorak_79;
-        case DV_R: return &dvorak_80;
-        case DV_L: return &dvorak_81;
-        case DV_D: return &dvorak_82;
-        case DV_H: return &dvorak_83;
-        case DV_T: return &dvorak_84;
-        case DV_N: return &dvorak_85;
-        case DV_B: return &dvorak_86;
-        case DV_M: return &dvorak_87;
-        case DV_W: return &dvorak_88;
-        case DV_V: return &dvorak_89;
+        case DV_E: return &dvorak_96;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_90_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_96_next_node(uint16_t key) {
     switch (key) {
-        case DV_F: return &dvorak_91;
-        case DV_G: return &dvorak_92;
-        case DV_C: return &dvorak_93;
-        case DV_R: return &dvorak_94;
-        case DV_L: return &dvorak_95;
-        case DV_D: return &dvorak_96;
-        case DV_H: return &dvorak_97;
-        case DV_T: return &dvorak_98;
-        case DV_N: return &dvorak_99;
-        case DV_S: return &dvorak_100;
-        case DV_B: return &dvorak_101;
-        case DV_M: return &dvorak_102;
-        case DV_W: return &dvorak_103;
-        case DV_V: return &dvorak_104;
-        case DV_Z: return &dvorak_105;
+        case DV_QUOT: return &dvorak_97;
+        case DV_COMM: return &dvorak_98;
+        case DV_DOT: return &dvorak_99;
+        case DV_P: return &dvorak_100;
+        case DV_Y: return &dvorak_101;
+        case DV_F: return &dvorak_102;
+        case DV_G: return &dvorak_103;
+        case DV_C: return &dvorak_104;
+        case DV_R: return &dvorak_105;
+        case DV_L: return &dvorak_106;
+        case DV_A: return &dvorak_107;
+        case DV_U: return &dvorak_108;
+        case DV_I: return &dvorak_109;
+        case DV_D: return &dvorak_110;
+        case DV_H: return &dvorak_111;
+        case DV_T: return &dvorak_112;
+        case DV_N: return &dvorak_113;
+        case DV_S: return &dvorak_114;
+        case DV_SCLN: return &dvorak_115;
+        case DV_Q: return &dvorak_116;
+        case DV_J: return &dvorak_117;
+        case DV_K: return &dvorak_118;
+        case DV_X: return &dvorak_119;
+        case DV_B: return &dvorak_120;
+        case DV_M: return &dvorak_121;
+        case DV_W: return &dvorak_122;
+        case DV_V: return &dvorak_123;
+        case DV_Z: return &dvorak_124;
+        case DV_LSFT1: return &dvorak_125;
+        case DV_LSFT2: return &dvorak_126;
+        case DV_RSFT2: return &dvorak_127;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_106_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_128_next_node(uint16_t key) {
     switch (key) {
-        case DV_U: return &dvorak_107;
+        case DV_G: return &dvorak_129;
+        case DV_C: return &dvorak_130;
+        case DV_R: return &dvorak_131;
+        case DV_L: return &dvorak_132;
+        case DV_D: return &dvorak_133;
+        case DV_H: return &dvorak_134;
+        case DV_T: return &dvorak_135;
+        case DV_N: return &dvorak_136;
+        case DV_B: return &dvorak_137;
+        case DV_M: return &dvorak_138;
+        case DV_W: return &dvorak_139;
+        case DV_V: return &dvorak_140;
+        case DV_LSFT2: return &dvorak_141;
+        case DV_E: return &dvorak_154;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_107_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_141_next_node(uint16_t key) {
     switch (key) {
-        case DV_G: return &dvorak_108;
-        case DV_C: return &dvorak_109;
-        case DV_R: return &dvorak_110;
-        case DV_L: return &dvorak_111;
-        case DV_D: return &dvorak_112;
-        case DV_H: return &dvorak_113;
-        case DV_T: return &dvorak_114;
-        case DV_N: return &dvorak_115;
-        case DV_B: return &dvorak_116;
-        case DV_M: return &dvorak_117;
-        case DV_W: return &dvorak_118;
-        case DV_V: return &dvorak_119;
+        case DV_G: return &dvorak_142;
+        case DV_C: return &dvorak_143;
+        case DV_R: return &dvorak_144;
+        case DV_L: return &dvorak_145;
+        case DV_D: return &dvorak_146;
+        case DV_H: return &dvorak_147;
+        case DV_T: return &dvorak_148;
+        case DV_N: return &dvorak_149;
+        case DV_B: return &dvorak_150;
+        case DV_M: return &dvorak_151;
+        case DV_W: return &dvorak_152;
+        case DV_V: return &dvorak_153;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_120_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_154_next_node(uint16_t key) {
     switch (key) {
-        case DV_O: return &dvorak_121;
-        case DV_U: return &dvorak_169;
+        case DV_F: return &dvorak_155;
+        case DV_G: return &dvorak_156;
+        case DV_C: return &dvorak_157;
+        case DV_R: return &dvorak_158;
+        case DV_L: return &dvorak_159;
+        case DV_D: return &dvorak_160;
+        case DV_H: return &dvorak_161;
+        case DV_T: return &dvorak_162;
+        case DV_N: return &dvorak_163;
+        case DV_S: return &dvorak_164;
+        case DV_B: return &dvorak_165;
+        case DV_M: return &dvorak_166;
+        case DV_W: return &dvorak_167;
+        case DV_V: return &dvorak_168;
+        case DV_Z: return &dvorak_169;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_121_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_170_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_122;
-        case DV_COMM: return &dvorak_123;
-        case DV_DOT: return &dvorak_124;
-        case DV_P: return &dvorak_125;
-        case DV_Y: return &dvorak_126;
-        case DV_F: return &dvorak_127;
-        case DV_G: return &dvorak_128;
-        case DV_C: return &dvorak_129;
-        case DV_R: return &dvorak_130;
-        case DV_L: return &dvorak_131;
-        case DV_A: return &dvorak_132;
-        case DV_U: return &dvorak_133;
-        case DV_I: return &dvorak_149;
-        case DV_D: return &dvorak_150;
-        case DV_H: return &dvorak_151;
-        case DV_T: return &dvorak_152;
-        case DV_N: return &dvorak_153;
-        case DV_S: return &dvorak_154;
-        case DV_SCLN: return &dvorak_155;
-        case DV_Q: return &dvorak_156;
-        case DV_J: return &dvorak_157;
-        case DV_K: return &dvorak_158;
-        case DV_X: return &dvorak_159;
-        case DV_B: return &dvorak_160;
-        case DV_M: return &dvorak_161;
-        case DV_W: return &dvorak_162;
-        case DV_V: return &dvorak_163;
-        case DV_Z: return &dvorak_164;
-        case DV_LSFT1: return &dvorak_165;
-        case DV_LSFT2: return &dvorak_166;
-        case DV_RSFT2: return &dvorak_167;
-        case DV_RSFT1: return &dvorak_168;
+        case DV_U: return &dvorak_171;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_133_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_171_next_node(uint16_t key) {
     switch (key) {
-        case DV_F: return &dvorak_134;
-        case DV_G: return &dvorak_135;
-        case DV_C: return &dvorak_136;
-        case DV_R: return &dvorak_137;
-        case DV_L: return &dvorak_138;
-        case DV_D: return &dvorak_139;
-        case DV_H: return &dvorak_140;
-        case DV_T: return &dvorak_141;
-        case DV_N: return &dvorak_142;
-        case DV_S: return &dvorak_143;
-        case DV_B: return &dvorak_144;
-        case DV_M: return &dvorak_145;
-        case DV_W: return &dvorak_146;
-        case DV_V: return &dvorak_147;
-        case DV_Z: return &dvorak_148;
-        default: return NULL;
-    }
-}
-
-const dvorak_node_t* dvorak_169_next_node(uint16_t key) {
-    switch (key) {
-        case DV_F: return &dvorak_170;
-        case DV_G: return &dvorak_171;
-        case DV_C: return &dvorak_172;
-        case DV_R: return &dvorak_173;
-        case DV_L: return &dvorak_174;
-        case DV_D: return &dvorak_175;
-        case DV_H: return &dvorak_176;
-        case DV_T: return &dvorak_177;
-        case DV_N: return &dvorak_178;
-        case DV_S: return &dvorak_179;
+        case DV_G: return &dvorak_172;
+        case DV_C: return &dvorak_173;
+        case DV_R: return &dvorak_174;
+        case DV_L: return &dvorak_175;
+        case DV_D: return &dvorak_176;
+        case DV_H: return &dvorak_177;
+        case DV_T: return &dvorak_178;
+        case DV_N: return &dvorak_179;
         case DV_B: return &dvorak_180;
         case DV_M: return &dvorak_181;
         case DV_W: return &dvorak_182;
         case DV_V: return &dvorak_183;
-        case DV_Z: return &dvorak_184;
-        case DV_RSFT2: return &dvorak_185;
-        case DV_RSFT1: return &dvorak_186;
-        case DV_O: return &dvorak_187;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_187_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_184_next_node(uint16_t key) {
     switch (key) {
-        case DV_F: return &dvorak_188;
-        case DV_G: return &dvorak_189;
-        case DV_C: return &dvorak_190;
-        case DV_R: return &dvorak_191;
-        case DV_L: return &dvorak_192;
-        case DV_D: return &dvorak_193;
-        case DV_H: return &dvorak_194;
-        case DV_T: return &dvorak_195;
-        case DV_N: return &dvorak_196;
-        case DV_S: return &dvorak_197;
-        case DV_B: return &dvorak_198;
-        case DV_M: return &dvorak_199;
-        case DV_W: return &dvorak_200;
-        case DV_V: return &dvorak_201;
-        case DV_Z: return &dvorak_202;
+        case DV_O: return &dvorak_185;
+        case DV_U: return &dvorak_264;
+        case DV_RSFT1: return &dvorak_298;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_203_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_185_next_node(uint16_t key) {
     switch (key) {
-        case DV_E: return &dvorak_204;
-        case DV_O: return &dvorak_238;
-        case DV_LSFT2: return &dvorak_280;
-        case DV_I: return &dvorak_294;
+        case DV_QUOT: return &dvorak_186;
+        case DV_COMM: return &dvorak_187;
+        case DV_DOT: return &dvorak_188;
+        case DV_P: return &dvorak_189;
+        case DV_Y: return &dvorak_190;
+        case DV_F: return &dvorak_191;
+        case DV_G: return &dvorak_192;
+        case DV_C: return &dvorak_193;
+        case DV_R: return &dvorak_194;
+        case DV_L: return &dvorak_195;
+        case DV_A: return &dvorak_196;
+        case DV_U: return &dvorak_197;
+        case DV_I: return &dvorak_213;
+        case DV_D: return &dvorak_214;
+        case DV_H: return &dvorak_215;
+        case DV_T: return &dvorak_216;
+        case DV_N: return &dvorak_217;
+        case DV_S: return &dvorak_218;
+        case DV_SCLN: return &dvorak_219;
+        case DV_Q: return &dvorak_220;
+        case DV_J: return &dvorak_221;
+        case DV_K: return &dvorak_222;
+        case DV_X: return &dvorak_223;
+        case DV_B: return &dvorak_224;
+        case DV_M: return &dvorak_225;
+        case DV_W: return &dvorak_226;
+        case DV_V: return &dvorak_227;
+        case DV_Z: return &dvorak_228;
+        case DV_LSFT1: return &dvorak_229;
+        case DV_LSFT2: return &dvorak_230;
+        case DV_RSFT2: return &dvorak_231;
+        case DV_RSFT1: return &dvorak_232;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_204_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_197_next_node(uint16_t key) {
     switch (key) {
-        case DV_F: return &dvorak_205;
-        case DV_G: return &dvorak_206;
-        case DV_C: return &dvorak_207;
-        case DV_R: return &dvorak_208;
-        case DV_L: return &dvorak_209;
-        case DV_D: return &dvorak_210;
-        case DV_H: return &dvorak_211;
-        case DV_T: return &dvorak_212;
-        case DV_N: return &dvorak_213;
-        case DV_S: return &dvorak_214;
-        case DV_B: return &dvorak_215;
-        case DV_M: return &dvorak_216;
-        case DV_W: return &dvorak_217;
-        case DV_V: return &dvorak_218;
-        case DV_Z: return &dvorak_219;
-        case DV_RSFT2: return &dvorak_220;
-        case DV_RSFT1: return &dvorak_221;
-        case DV_O: return &dvorak_222;
+        case DV_F: return &dvorak_198;
+        case DV_G: return &dvorak_199;
+        case DV_C: return &dvorak_200;
+        case DV_R: return &dvorak_201;
+        case DV_L: return &dvorak_202;
+        case DV_D: return &dvorak_203;
+        case DV_H: return &dvorak_204;
+        case DV_T: return &dvorak_205;
+        case DV_N: return &dvorak_206;
+        case DV_S: return &dvorak_207;
+        case DV_B: return &dvorak_208;
+        case DV_M: return &dvorak_209;
+        case DV_W: return &dvorak_210;
+        case DV_V: return &dvorak_211;
+        case DV_Z: return &dvorak_212;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_222_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_232_next_node(uint16_t key) {
     switch (key) {
-        case DV_F: return &dvorak_223;
-        case DV_G: return &dvorak_224;
-        case DV_C: return &dvorak_225;
-        case DV_R: return &dvorak_226;
-        case DV_L: return &dvorak_227;
-        case DV_D: return &dvorak_228;
-        case DV_H: return &dvorak_229;
-        case DV_T: return &dvorak_230;
-        case DV_N: return &dvorak_231;
-        case DV_S: return &dvorak_232;
-        case DV_B: return &dvorak_233;
-        case DV_M: return &dvorak_234;
-        case DV_W: return &dvorak_235;
-        case DV_V: return &dvorak_236;
-        case DV_Z: return &dvorak_237;
-        default: return NULL;
-    }
-}
-
-const dvorak_node_t* dvorak_238_next_node(uint16_t key) {
-    switch (key) {
+        case DV_QUOT: return &dvorak_233;
+        case DV_COMM: return &dvorak_234;
+        case DV_DOT: return &dvorak_235;
+        case DV_P: return &dvorak_236;
+        case DV_Y: return &dvorak_237;
+        case DV_F: return &dvorak_238;
         case DV_G: return &dvorak_239;
         case DV_C: return &dvorak_240;
         case DV_R: return &dvorak_241;
         case DV_L: return &dvorak_242;
-        case DV_D: return &dvorak_243;
-        case DV_H: return &dvorak_244;
-        case DV_T: return &dvorak_245;
-        case DV_N: return &dvorak_246;
-        case DV_B: return &dvorak_247;
-        case DV_M: return &dvorak_248;
-        case DV_W: return &dvorak_249;
-        case DV_V: return &dvorak_250;
-        case DV_LSFT2: return &dvorak_251;
-        case DV_E: return &dvorak_264;
-        default: return NULL;
-    }
-}
-
-const dvorak_node_t* dvorak_251_next_node(uint16_t key) {
-    switch (key) {
-        case DV_G: return &dvorak_252;
-        case DV_C: return &dvorak_253;
-        case DV_R: return &dvorak_254;
-        case DV_L: return &dvorak_255;
-        case DV_D: return &dvorak_256;
-        case DV_H: return &dvorak_257;
-        case DV_T: return &dvorak_258;
-        case DV_N: return &dvorak_259;
-        case DV_B: return &dvorak_260;
-        case DV_M: return &dvorak_261;
-        case DV_W: return &dvorak_262;
-        case DV_V: return &dvorak_263;
+        case DV_A: return &dvorak_243;
+        case DV_U: return &dvorak_244;
+        case DV_I: return &dvorak_245;
+        case DV_D: return &dvorak_246;
+        case DV_H: return &dvorak_247;
+        case DV_T: return &dvorak_248;
+        case DV_N: return &dvorak_249;
+        case DV_S: return &dvorak_250;
+        case DV_SCLN: return &dvorak_251;
+        case DV_Q: return &dvorak_252;
+        case DV_J: return &dvorak_253;
+        case DV_K: return &dvorak_254;
+        case DV_X: return &dvorak_255;
+        case DV_B: return &dvorak_256;
+        case DV_M: return &dvorak_257;
+        case DV_W: return &dvorak_258;
+        case DV_V: return &dvorak_259;
+        case DV_Z: return &dvorak_260;
+        case DV_LSFT1: return &dvorak_261;
+        case DV_LSFT2: return &dvorak_262;
+        case DV_RSFT2: return &dvorak_263;
         default: return NULL;
     }
 }
@@ -1241,305 +1607,302 @@ const dvorak_node_t* dvorak_264_next_node(uint16_t key) {
         case DV_W: return &dvorak_277;
         case DV_V: return &dvorak_278;
         case DV_Z: return &dvorak_279;
+        case DV_RSFT2: return &dvorak_280;
+        case DV_RSFT1: return &dvorak_281;
+        case DV_O: return &dvorak_282;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_280_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_282_next_node(uint16_t key) {
     switch (key) {
-        case DV_O: return &dvorak_281;
+        case DV_F: return &dvorak_283;
+        case DV_G: return &dvorak_284;
+        case DV_C: return &dvorak_285;
+        case DV_R: return &dvorak_286;
+        case DV_L: return &dvorak_287;
+        case DV_D: return &dvorak_288;
+        case DV_H: return &dvorak_289;
+        case DV_T: return &dvorak_290;
+        case DV_N: return &dvorak_291;
+        case DV_S: return &dvorak_292;
+        case DV_B: return &dvorak_293;
+        case DV_M: return &dvorak_294;
+        case DV_W: return &dvorak_295;
+        case DV_V: return &dvorak_296;
+        case DV_Z: return &dvorak_297;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_281_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_298_next_node(uint16_t key) {
     switch (key) {
-        case DV_G: return &dvorak_282;
-        case DV_C: return &dvorak_283;
-        case DV_R: return &dvorak_284;
-        case DV_L: return &dvorak_285;
-        case DV_D: return &dvorak_286;
-        case DV_H: return &dvorak_287;
-        case DV_T: return &dvorak_288;
-        case DV_N: return &dvorak_289;
-        case DV_B: return &dvorak_290;
-        case DV_M: return &dvorak_291;
-        case DV_W: return &dvorak_292;
-        case DV_V: return &dvorak_293;
-        default: return NULL;
-    }
-}
-
-const dvorak_node_t* dvorak_295_next_node(uint16_t key) {
-    switch (key) {
-        case DV_U: return &dvorak_296;
-        default: return NULL;
-    }
-}
-
-const dvorak_node_t* dvorak_297_next_node(uint16_t key) {
-    switch (key) {
-        case DV_H: return &dvorak_298;
+        case DV_O: return &dvorak_299;
         default: return NULL;
     }
 }
 
 const dvorak_node_t* dvorak_299_next_node(uint16_t key) {
     switch (key) {
-        case DV_T: return &dvorak_300;
-        case DV_N: return &dvorak_334;
-        case DV_RSFT2: return &dvorak_376;
-        case DV_D: return &dvorak_390;
+        case DV_QUOT: return &dvorak_300;
+        case DV_COMM: return &dvorak_301;
+        case DV_DOT: return &dvorak_302;
+        case DV_P: return &dvorak_303;
+        case DV_Y: return &dvorak_304;
+        case DV_F: return &dvorak_305;
+        case DV_G: return &dvorak_306;
+        case DV_C: return &dvorak_307;
+        case DV_R: return &dvorak_308;
+        case DV_L: return &dvorak_309;
+        case DV_A: return &dvorak_310;
+        case DV_U: return &dvorak_311;
+        case DV_I: return &dvorak_312;
+        case DV_D: return &dvorak_313;
+        case DV_H: return &dvorak_314;
+        case DV_T: return &dvorak_315;
+        case DV_N: return &dvorak_316;
+        case DV_S: return &dvorak_317;
+        case DV_SCLN: return &dvorak_318;
+        case DV_Q: return &dvorak_319;
+        case DV_J: return &dvorak_320;
+        case DV_K: return &dvorak_321;
+        case DV_X: return &dvorak_322;
+        case DV_B: return &dvorak_323;
+        case DV_M: return &dvorak_324;
+        case DV_W: return &dvorak_325;
+        case DV_V: return &dvorak_326;
+        case DV_Z: return &dvorak_327;
+        case DV_LSFT1: return &dvorak_328;
+        case DV_LSFT2: return &dvorak_329;
+        case DV_RSFT2: return &dvorak_330;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_300_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_331_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_301;
-        case DV_COMM: return &dvorak_302;
-        case DV_DOT: return &dvorak_303;
-        case DV_P: return &dvorak_304;
-        case DV_Y: return &dvorak_305;
-        case DV_A: return &dvorak_306;
-        case DV_O: return &dvorak_307;
-        case DV_E: return &dvorak_308;
-        case DV_U: return &dvorak_309;
-        case DV_I: return &dvorak_310;
-        case DV_SCLN: return &dvorak_311;
-        case DV_Q: return &dvorak_312;
-        case DV_J: return &dvorak_313;
-        case DV_K: return &dvorak_314;
-        case DV_X: return &dvorak_315;
-        case DV_LSFT1: return &dvorak_316;
-        case DV_LSFT2: return &dvorak_317;
-        case DV_N: return &dvorak_318;
+        case DV_E: return &dvorak_332;
+        case DV_O: return &dvorak_366;
+        case DV_LSFT2: return &dvorak_408;
+        case DV_I: return &dvorak_422;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_318_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_332_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_319;
-        case DV_COMM: return &dvorak_320;
-        case DV_DOT: return &dvorak_321;
-        case DV_P: return &dvorak_322;
-        case DV_Y: return &dvorak_323;
-        case DV_A: return &dvorak_324;
-        case DV_O: return &dvorak_325;
-        case DV_E: return &dvorak_326;
-        case DV_U: return &dvorak_327;
-        case DV_I: return &dvorak_328;
-        case DV_SCLN: return &dvorak_329;
-        case DV_Q: return &dvorak_330;
-        case DV_J: return &dvorak_331;
-        case DV_K: return &dvorak_332;
-        case DV_X: return &dvorak_333;
+        case DV_F: return &dvorak_333;
+        case DV_G: return &dvorak_334;
+        case DV_C: return &dvorak_335;
+        case DV_R: return &dvorak_336;
+        case DV_L: return &dvorak_337;
+        case DV_D: return &dvorak_338;
+        case DV_H: return &dvorak_339;
+        case DV_T: return &dvorak_340;
+        case DV_N: return &dvorak_341;
+        case DV_S: return &dvorak_342;
+        case DV_B: return &dvorak_343;
+        case DV_M: return &dvorak_344;
+        case DV_W: return &dvorak_345;
+        case DV_V: return &dvorak_346;
+        case DV_Z: return &dvorak_347;
+        case DV_RSFT2: return &dvorak_348;
+        case DV_RSFT1: return &dvorak_349;
+        case DV_O: return &dvorak_350;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_334_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_350_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_335;
-        case DV_COMM: return &dvorak_336;
-        case DV_DOT: return &dvorak_337;
-        case DV_P: return &dvorak_338;
-        case DV_O: return &dvorak_339;
-        case DV_E: return &dvorak_340;
-        case DV_U: return &dvorak_341;
-        case DV_I: return &dvorak_342;
-        case DV_Q: return &dvorak_343;
-        case DV_J: return &dvorak_344;
-        case DV_K: return &dvorak_345;
-        case DV_X: return &dvorak_346;
-        case DV_RSFT2: return &dvorak_347;
-        case DV_T: return &dvorak_360;
+        case DV_F: return &dvorak_351;
+        case DV_G: return &dvorak_352;
+        case DV_C: return &dvorak_353;
+        case DV_R: return &dvorak_354;
+        case DV_L: return &dvorak_355;
+        case DV_D: return &dvorak_356;
+        case DV_H: return &dvorak_357;
+        case DV_T: return &dvorak_358;
+        case DV_N: return &dvorak_359;
+        case DV_S: return &dvorak_360;
+        case DV_B: return &dvorak_361;
+        case DV_M: return &dvorak_362;
+        case DV_W: return &dvorak_363;
+        case DV_V: return &dvorak_364;
+        case DV_Z: return &dvorak_365;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_347_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_366_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_348;
-        case DV_COMM: return &dvorak_349;
-        case DV_DOT: return &dvorak_350;
-        case DV_P: return &dvorak_351;
-        case DV_O: return &dvorak_352;
-        case DV_E: return &dvorak_353;
-        case DV_U: return &dvorak_354;
-        case DV_I: return &dvorak_355;
-        case DV_Q: return &dvorak_356;
-        case DV_J: return &dvorak_357;
-        case DV_K: return &dvorak_358;
-        case DV_X: return &dvorak_359;
+        case DV_G: return &dvorak_367;
+        case DV_C: return &dvorak_368;
+        case DV_R: return &dvorak_369;
+        case DV_L: return &dvorak_370;
+        case DV_D: return &dvorak_371;
+        case DV_H: return &dvorak_372;
+        case DV_T: return &dvorak_373;
+        case DV_N: return &dvorak_374;
+        case DV_B: return &dvorak_375;
+        case DV_M: return &dvorak_376;
+        case DV_W: return &dvorak_377;
+        case DV_V: return &dvorak_378;
+        case DV_LSFT2: return &dvorak_379;
+        case DV_E: return &dvorak_392;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_360_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_379_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_361;
-        case DV_COMM: return &dvorak_362;
-        case DV_DOT: return &dvorak_363;
-        case DV_P: return &dvorak_364;
-        case DV_Y: return &dvorak_365;
-        case DV_A: return &dvorak_366;
-        case DV_O: return &dvorak_367;
-        case DV_E: return &dvorak_368;
-        case DV_U: return &dvorak_369;
-        case DV_I: return &dvorak_370;
-        case DV_SCLN: return &dvorak_371;
-        case DV_Q: return &dvorak_372;
-        case DV_J: return &dvorak_373;
-        case DV_K: return &dvorak_374;
-        case DV_X: return &dvorak_375;
-        default: return NULL;
-    }
-}
-
-const dvorak_node_t* dvorak_376_next_node(uint16_t key) {
-    switch (key) {
-        case DV_N: return &dvorak_377;
-        default: return NULL;
-    }
-}
-
-const dvorak_node_t* dvorak_377_next_node(uint16_t key) {
-    switch (key) {
-        case DV_QUOT: return &dvorak_378;
-        case DV_COMM: return &dvorak_379;
-        case DV_DOT: return &dvorak_380;
-        case DV_P: return &dvorak_381;
-        case DV_O: return &dvorak_382;
-        case DV_E: return &dvorak_383;
-        case DV_U: return &dvorak_384;
-        case DV_I: return &dvorak_385;
-        case DV_Q: return &dvorak_386;
-        case DV_J: return &dvorak_387;
-        case DV_K: return &dvorak_388;
-        case DV_X: return &dvorak_389;
-        default: return NULL;
-    }
-}
-
-const dvorak_node_t* dvorak_391_next_node(uint16_t key) {
-    switch (key) {
-        case DV_N: return &dvorak_392;
-        case DV_H: return &dvorak_440;
+        case DV_G: return &dvorak_380;
+        case DV_C: return &dvorak_381;
+        case DV_R: return &dvorak_382;
+        case DV_L: return &dvorak_383;
+        case DV_D: return &dvorak_384;
+        case DV_H: return &dvorak_385;
+        case DV_T: return &dvorak_386;
+        case DV_N: return &dvorak_387;
+        case DV_B: return &dvorak_388;
+        case DV_M: return &dvorak_389;
+        case DV_W: return &dvorak_390;
+        case DV_V: return &dvorak_391;
         default: return NULL;
     }
 }
 
 const dvorak_node_t* dvorak_392_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_393;
-        case DV_COMM: return &dvorak_394;
-        case DV_DOT: return &dvorak_395;
-        case DV_P: return &dvorak_396;
-        case DV_Y: return &dvorak_397;
-        case DV_F: return &dvorak_398;
-        case DV_G: return &dvorak_399;
-        case DV_C: return &dvorak_400;
-        case DV_R: return &dvorak_401;
-        case DV_L: return &dvorak_402;
-        case DV_A: return &dvorak_403;
-        case DV_O: return &dvorak_404;
-        case DV_E: return &dvorak_405;
-        case DV_U: return &dvorak_406;
-        case DV_I: return &dvorak_407;
-        case DV_D: return &dvorak_408;
-        case DV_H: return &dvorak_409;
-        case DV_S: return &dvorak_425;
-        case DV_SCLN: return &dvorak_426;
-        case DV_Q: return &dvorak_427;
-        case DV_J: return &dvorak_428;
-        case DV_K: return &dvorak_429;
-        case DV_X: return &dvorak_430;
-        case DV_B: return &dvorak_431;
-        case DV_M: return &dvorak_432;
-        case DV_W: return &dvorak_433;
-        case DV_V: return &dvorak_434;
-        case DV_Z: return &dvorak_435;
-        case DV_LSFT1: return &dvorak_436;
-        case DV_LSFT2: return &dvorak_437;
-        case DV_RSFT2: return &dvorak_438;
-        case DV_RSFT1: return &dvorak_439;
+        case DV_F: return &dvorak_393;
+        case DV_G: return &dvorak_394;
+        case DV_C: return &dvorak_395;
+        case DV_R: return &dvorak_396;
+        case DV_L: return &dvorak_397;
+        case DV_D: return &dvorak_398;
+        case DV_H: return &dvorak_399;
+        case DV_T: return &dvorak_400;
+        case DV_N: return &dvorak_401;
+        case DV_S: return &dvorak_402;
+        case DV_B: return &dvorak_403;
+        case DV_M: return &dvorak_404;
+        case DV_W: return &dvorak_405;
+        case DV_V: return &dvorak_406;
+        case DV_Z: return &dvorak_407;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_408_next_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_409;
         default: return NULL;
     }
 }
 
 const dvorak_node_t* dvorak_409_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_410;
-        case DV_COMM: return &dvorak_411;
-        case DV_DOT: return &dvorak_412;
-        case DV_P: return &dvorak_413;
-        case DV_Y: return &dvorak_414;
-        case DV_A: return &dvorak_415;
-        case DV_O: return &dvorak_416;
-        case DV_E: return &dvorak_417;
-        case DV_U: return &dvorak_418;
-        case DV_I: return &dvorak_419;
-        case DV_SCLN: return &dvorak_420;
-        case DV_Q: return &dvorak_421;
-        case DV_J: return &dvorak_422;
-        case DV_K: return &dvorak_423;
-        case DV_X: return &dvorak_424;
+        case DV_G: return &dvorak_410;
+        case DV_C: return &dvorak_411;
+        case DV_R: return &dvorak_412;
+        case DV_L: return &dvorak_413;
+        case DV_D: return &dvorak_414;
+        case DV_H: return &dvorak_415;
+        case DV_T: return &dvorak_416;
+        case DV_N: return &dvorak_417;
+        case DV_B: return &dvorak_418;
+        case DV_M: return &dvorak_419;
+        case DV_W: return &dvorak_420;
+        case DV_V: return &dvorak_421;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_440_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_423_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_441;
-        case DV_COMM: return &dvorak_442;
-        case DV_DOT: return &dvorak_443;
-        case DV_P: return &dvorak_444;
-        case DV_Y: return &dvorak_445;
-        case DV_A: return &dvorak_446;
-        case DV_O: return &dvorak_447;
-        case DV_E: return &dvorak_448;
-        case DV_U: return &dvorak_449;
-        case DV_I: return &dvorak_450;
-        case DV_SCLN: return &dvorak_451;
-        case DV_Q: return &dvorak_452;
-        case DV_J: return &dvorak_453;
-        case DV_K: return &dvorak_454;
-        case DV_X: return &dvorak_455;
-        case DV_LSFT1: return &dvorak_456;
-        case DV_LSFT2: return &dvorak_457;
-        case DV_N: return &dvorak_458;
+        case DV_U: return &dvorak_424;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_458_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_425_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_459;
-        case DV_COMM: return &dvorak_460;
-        case DV_DOT: return &dvorak_461;
-        case DV_P: return &dvorak_462;
-        case DV_Y: return &dvorak_463;
-        case DV_A: return &dvorak_464;
-        case DV_O: return &dvorak_465;
-        case DV_E: return &dvorak_466;
-        case DV_U: return &dvorak_467;
-        case DV_I: return &dvorak_468;
-        case DV_SCLN: return &dvorak_469;
-        case DV_Q: return &dvorak_470;
-        case DV_J: return &dvorak_471;
-        case DV_K: return &dvorak_472;
-        case DV_X: return &dvorak_473;
+        case DV_H: return &dvorak_426;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_474_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_427_next_node(uint16_t key) {
     switch (key) {
-        case DV_T: return &dvorak_475;
-        case DV_H: return &dvorak_523;
-        case DV_RSFT2: return &dvorak_565;
+        case DV_T: return &dvorak_428;
+        case DV_N: return &dvorak_462;
+        case DV_RSFT2: return &dvorak_504;
+        case DV_D: return &dvorak_518;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_428_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_429;
+        case DV_COMM: return &dvorak_430;
+        case DV_DOT: return &dvorak_431;
+        case DV_P: return &dvorak_432;
+        case DV_Y: return &dvorak_433;
+        case DV_A: return &dvorak_434;
+        case DV_O: return &dvorak_435;
+        case DV_E: return &dvorak_436;
+        case DV_U: return &dvorak_437;
+        case DV_I: return &dvorak_438;
+        case DV_SCLN: return &dvorak_439;
+        case DV_Q: return &dvorak_440;
+        case DV_J: return &dvorak_441;
+        case DV_K: return &dvorak_442;
+        case DV_X: return &dvorak_443;
+        case DV_LSFT1: return &dvorak_444;
+        case DV_LSFT2: return &dvorak_445;
+        case DV_N: return &dvorak_446;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_446_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_447;
+        case DV_COMM: return &dvorak_448;
+        case DV_DOT: return &dvorak_449;
+        case DV_P: return &dvorak_450;
+        case DV_Y: return &dvorak_451;
+        case DV_A: return &dvorak_452;
+        case DV_O: return &dvorak_453;
+        case DV_E: return &dvorak_454;
+        case DV_U: return &dvorak_455;
+        case DV_I: return &dvorak_456;
+        case DV_SCLN: return &dvorak_457;
+        case DV_Q: return &dvorak_458;
+        case DV_J: return &dvorak_459;
+        case DV_K: return &dvorak_460;
+        case DV_X: return &dvorak_461;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_462_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_463;
+        case DV_COMM: return &dvorak_464;
+        case DV_DOT: return &dvorak_465;
+        case DV_P: return &dvorak_466;
+        case DV_O: return &dvorak_467;
+        case DV_E: return &dvorak_468;
+        case DV_U: return &dvorak_469;
+        case DV_I: return &dvorak_470;
+        case DV_Q: return &dvorak_471;
+        case DV_J: return &dvorak_472;
+        case DV_K: return &dvorak_473;
+        case DV_X: return &dvorak_474;
+        case DV_RSFT2: return &dvorak_475;
+        case DV_T: return &dvorak_488;
         default: return NULL;
     }
 }
@@ -1550,332 +1913,323 @@ const dvorak_node_t* dvorak_475_next_node(uint16_t key) {
         case DV_COMM: return &dvorak_477;
         case DV_DOT: return &dvorak_478;
         case DV_P: return &dvorak_479;
-        case DV_Y: return &dvorak_480;
-        case DV_F: return &dvorak_481;
-        case DV_G: return &dvorak_482;
-        case DV_C: return &dvorak_483;
-        case DV_R: return &dvorak_484;
-        case DV_L: return &dvorak_485;
-        case DV_A: return &dvorak_486;
-        case DV_O: return &dvorak_487;
-        case DV_E: return &dvorak_488;
-        case DV_U: return &dvorak_489;
-        case DV_I: return &dvorak_490;
-        case DV_D: return &dvorak_491;
-        case DV_H: return &dvorak_492;
-        case DV_S: return &dvorak_508;
-        case DV_SCLN: return &dvorak_509;
-        case DV_Q: return &dvorak_510;
-        case DV_J: return &dvorak_511;
-        case DV_K: return &dvorak_512;
-        case DV_X: return &dvorak_513;
-        case DV_B: return &dvorak_514;
-        case DV_M: return &dvorak_515;
-        case DV_W: return &dvorak_516;
-        case DV_V: return &dvorak_517;
-        case DV_Z: return &dvorak_518;
-        case DV_LSFT1: return &dvorak_519;
-        case DV_LSFT2: return &dvorak_520;
-        case DV_RSFT2: return &dvorak_521;
-        case DV_RSFT1: return &dvorak_522;
+        case DV_O: return &dvorak_480;
+        case DV_E: return &dvorak_481;
+        case DV_U: return &dvorak_482;
+        case DV_I: return &dvorak_483;
+        case DV_Q: return &dvorak_484;
+        case DV_J: return &dvorak_485;
+        case DV_K: return &dvorak_486;
+        case DV_X: return &dvorak_487;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_492_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_488_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_493;
-        case DV_COMM: return &dvorak_494;
-        case DV_DOT: return &dvorak_495;
-        case DV_P: return &dvorak_496;
-        case DV_Y: return &dvorak_497;
-        case DV_A: return &dvorak_498;
-        case DV_O: return &dvorak_499;
-        case DV_E: return &dvorak_500;
-        case DV_U: return &dvorak_501;
-        case DV_I: return &dvorak_502;
-        case DV_SCLN: return &dvorak_503;
-        case DV_Q: return &dvorak_504;
-        case DV_J: return &dvorak_505;
-        case DV_K: return &dvorak_506;
-        case DV_X: return &dvorak_507;
+        case DV_QUOT: return &dvorak_489;
+        case DV_COMM: return &dvorak_490;
+        case DV_DOT: return &dvorak_491;
+        case DV_P: return &dvorak_492;
+        case DV_Y: return &dvorak_493;
+        case DV_A: return &dvorak_494;
+        case DV_O: return &dvorak_495;
+        case DV_E: return &dvorak_496;
+        case DV_U: return &dvorak_497;
+        case DV_I: return &dvorak_498;
+        case DV_SCLN: return &dvorak_499;
+        case DV_Q: return &dvorak_500;
+        case DV_J: return &dvorak_501;
+        case DV_K: return &dvorak_502;
+        case DV_X: return &dvorak_503;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_523_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_504_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_524;
-        case DV_COMM: return &dvorak_525;
-        case DV_DOT: return &dvorak_526;
-        case DV_P: return &dvorak_527;
-        case DV_O: return &dvorak_528;
-        case DV_E: return &dvorak_529;
-        case DV_U: return &dvorak_530;
-        case DV_I: return &dvorak_531;
-        case DV_Q: return &dvorak_532;
-        case DV_J: return &dvorak_533;
-        case DV_K: return &dvorak_534;
-        case DV_X: return &dvorak_535;
-        case DV_RSFT2: return &dvorak_536;
-        case DV_T: return &dvorak_549;
+        case DV_N: return &dvorak_505;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_536_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_505_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_537;
-        case DV_COMM: return &dvorak_538;
-        case DV_DOT: return &dvorak_539;
-        case DV_P: return &dvorak_540;
-        case DV_O: return &dvorak_541;
-        case DV_E: return &dvorak_542;
-        case DV_U: return &dvorak_543;
-        case DV_I: return &dvorak_544;
-        case DV_Q: return &dvorak_545;
-        case DV_J: return &dvorak_546;
-        case DV_K: return &dvorak_547;
-        case DV_X: return &dvorak_548;
+        case DV_QUOT: return &dvorak_506;
+        case DV_COMM: return &dvorak_507;
+        case DV_DOT: return &dvorak_508;
+        case DV_P: return &dvorak_509;
+        case DV_O: return &dvorak_510;
+        case DV_E: return &dvorak_511;
+        case DV_U: return &dvorak_512;
+        case DV_I: return &dvorak_513;
+        case DV_Q: return &dvorak_514;
+        case DV_J: return &dvorak_515;
+        case DV_K: return &dvorak_516;
+        case DV_X: return &dvorak_517;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_549_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_519_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_550;
-        case DV_COMM: return &dvorak_551;
-        case DV_DOT: return &dvorak_552;
-        case DV_P: return &dvorak_553;
-        case DV_Y: return &dvorak_554;
-        case DV_A: return &dvorak_555;
-        case DV_O: return &dvorak_556;
-        case DV_E: return &dvorak_557;
-        case DV_U: return &dvorak_558;
-        case DV_I: return &dvorak_559;
-        case DV_SCLN: return &dvorak_560;
-        case DV_Q: return &dvorak_561;
-        case DV_J: return &dvorak_562;
-        case DV_K: return &dvorak_563;
-        case DV_X: return &dvorak_564;
+        case DV_N: return &dvorak_520;
+        case DV_H: return &dvorak_599;
+        case DV_RSFT1: return &dvorak_633;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_565_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_520_next_node(uint16_t key) {
     switch (key) {
-        case DV_H: return &dvorak_566;
+        case DV_QUOT: return &dvorak_521;
+        case DV_COMM: return &dvorak_522;
+        case DV_DOT: return &dvorak_523;
+        case DV_P: return &dvorak_524;
+        case DV_Y: return &dvorak_525;
+        case DV_F: return &dvorak_526;
+        case DV_G: return &dvorak_527;
+        case DV_C: return &dvorak_528;
+        case DV_R: return &dvorak_529;
+        case DV_L: return &dvorak_530;
+        case DV_A: return &dvorak_531;
+        case DV_O: return &dvorak_532;
+        case DV_E: return &dvorak_533;
+        case DV_U: return &dvorak_534;
+        case DV_I: return &dvorak_535;
+        case DV_D: return &dvorak_536;
+        case DV_H: return &dvorak_537;
+        case DV_S: return &dvorak_553;
+        case DV_SCLN: return &dvorak_554;
+        case DV_Q: return &dvorak_555;
+        case DV_J: return &dvorak_556;
+        case DV_K: return &dvorak_557;
+        case DV_X: return &dvorak_558;
+        case DV_B: return &dvorak_559;
+        case DV_M: return &dvorak_560;
+        case DV_W: return &dvorak_561;
+        case DV_V: return &dvorak_562;
+        case DV_Z: return &dvorak_563;
+        case DV_LSFT1: return &dvorak_564;
+        case DV_LSFT2: return &dvorak_565;
+        case DV_RSFT2: return &dvorak_566;
+        case DV_RSFT1: return &dvorak_567;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_566_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_537_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_567;
-        case DV_COMM: return &dvorak_568;
-        case DV_DOT: return &dvorak_569;
-        case DV_P: return &dvorak_570;
-        case DV_O: return &dvorak_571;
-        case DV_E: return &dvorak_572;
-        case DV_U: return &dvorak_573;
-        case DV_I: return &dvorak_574;
-        case DV_Q: return &dvorak_575;
-        case DV_J: return &dvorak_576;
-        case DV_K: return &dvorak_577;
-        case DV_X: return &dvorak_578;
+        case DV_QUOT: return &dvorak_538;
+        case DV_COMM: return &dvorak_539;
+        case DV_DOT: return &dvorak_540;
+        case DV_P: return &dvorak_541;
+        case DV_Y: return &dvorak_542;
+        case DV_A: return &dvorak_543;
+        case DV_O: return &dvorak_544;
+        case DV_E: return &dvorak_545;
+        case DV_U: return &dvorak_546;
+        case DV_I: return &dvorak_547;
+        case DV_SCLN: return &dvorak_548;
+        case DV_Q: return &dvorak_549;
+        case DV_J: return &dvorak_550;
+        case DV_K: return &dvorak_551;
+        case DV_X: return &dvorak_552;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_590_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_567_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_591;
-        case DV_COMM: return &dvorak_592;
-        case DV_DOT: return &dvorak_593;
-        case DV_P: return &dvorak_594;
-        case DV_Y: return &dvorak_595;
-        case DV_F: return &dvorak_596;
-        case DV_G: return &dvorak_597;
-        case DV_C: return &dvorak_598;
-        case DV_R: return &dvorak_599;
-        case DV_L: return &dvorak_600;
-        case DV_A: return &dvorak_601;
-        case DV_O: return &dvorak_602;
-        case DV_E: return &dvorak_603;
-        case DV_U: return &dvorak_604;
-        case DV_I: return &dvorak_605;
-        case DV_D: return &dvorak_606;
-        case DV_H: return &dvorak_607;
-        case DV_T: return &dvorak_608;
-        case DV_N: return &dvorak_609;
-        case DV_S: return &dvorak_610;
-        case DV_SCLN: return &dvorak_611;
-        case DV_Q: return &dvorak_612;
-        case DV_J: return &dvorak_613;
-        case DV_K: return &dvorak_614;
-        case DV_X: return &dvorak_615;
-        case DV_B: return &dvorak_616;
-        case DV_M: return &dvorak_617;
-        case DV_W: return &dvorak_618;
-        case DV_V: return &dvorak_619;
-        case DV_Z: return &dvorak_620;
-        case DV_LSFT2: return &dvorak_621;
-        case DV_RSFT2: return &dvorak_622;
-        case DV_RSFT1: return &dvorak_623;
+        case DV_QUOT: return &dvorak_568;
+        case DV_COMM: return &dvorak_569;
+        case DV_DOT: return &dvorak_570;
+        case DV_P: return &dvorak_571;
+        case DV_Y: return &dvorak_572;
+        case DV_F: return &dvorak_573;
+        case DV_G: return &dvorak_574;
+        case DV_C: return &dvorak_575;
+        case DV_R: return &dvorak_576;
+        case DV_L: return &dvorak_577;
+        case DV_A: return &dvorak_578;
+        case DV_O: return &dvorak_579;
+        case DV_E: return &dvorak_580;
+        case DV_U: return &dvorak_581;
+        case DV_I: return &dvorak_582;
+        case DV_D: return &dvorak_583;
+        case DV_H: return &dvorak_584;
+        case DV_S: return &dvorak_585;
+        case DV_SCLN: return &dvorak_586;
+        case DV_Q: return &dvorak_587;
+        case DV_J: return &dvorak_588;
+        case DV_K: return &dvorak_589;
+        case DV_X: return &dvorak_590;
+        case DV_B: return &dvorak_591;
+        case DV_M: return &dvorak_592;
+        case DV_W: return &dvorak_593;
+        case DV_V: return &dvorak_594;
+        case DV_Z: return &dvorak_595;
+        case DV_LSFT1: return &dvorak_596;
+        case DV_LSFT2: return &dvorak_597;
+        case DV_RSFT2: return &dvorak_598;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_623_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_599_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_624;
-        case DV_COMM: return &dvorak_625;
-        case DV_DOT: return &dvorak_626;
-        case DV_P: return &dvorak_627;
-        case DV_Y: return &dvorak_628;
-        case DV_F: return &dvorak_629;
-        case DV_G: return &dvorak_630;
-        case DV_C: return &dvorak_631;
-        case DV_R: return &dvorak_632;
-        case DV_L: return &dvorak_633;
-        case DV_A: return &dvorak_634;
-        case DV_O: return &dvorak_635;
-        case DV_E: return &dvorak_636;
-        case DV_U: return &dvorak_637;
-        case DV_I: return &dvorak_638;
-        case DV_D: return &dvorak_639;
-        case DV_H: return &dvorak_640;
-        case DV_T: return &dvorak_641;
-        case DV_N: return &dvorak_642;
-        case DV_S: return &dvorak_643;
-        case DV_SCLN: return &dvorak_644;
-        case DV_Q: return &dvorak_645;
-        case DV_J: return &dvorak_646;
-        case DV_K: return &dvorak_647;
-        case DV_X: return &dvorak_648;
-        case DV_B: return &dvorak_649;
-        case DV_M: return &dvorak_650;
-        case DV_W: return &dvorak_651;
-        case DV_V: return &dvorak_652;
-        case DV_Z: return &dvorak_653;
-        case DV_LSFT2: return &dvorak_654;
-        case DV_RSFT2: return &dvorak_655;
+        case DV_QUOT: return &dvorak_600;
+        case DV_COMM: return &dvorak_601;
+        case DV_DOT: return &dvorak_602;
+        case DV_P: return &dvorak_603;
+        case DV_Y: return &dvorak_604;
+        case DV_A: return &dvorak_605;
+        case DV_O: return &dvorak_606;
+        case DV_E: return &dvorak_607;
+        case DV_U: return &dvorak_608;
+        case DV_I: return &dvorak_609;
+        case DV_SCLN: return &dvorak_610;
+        case DV_Q: return &dvorak_611;
+        case DV_J: return &dvorak_612;
+        case DV_K: return &dvorak_613;
+        case DV_X: return &dvorak_614;
+        case DV_LSFT1: return &dvorak_615;
+        case DV_LSFT2: return &dvorak_616;
+        case DV_N: return &dvorak_617;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_656_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_617_next_node(uint16_t key) {
     switch (key) {
-        case DV_O: return &dvorak_657;
-        case DV_U: return &dvorak_671;
+        case DV_QUOT: return &dvorak_618;
+        case DV_COMM: return &dvorak_619;
+        case DV_DOT: return &dvorak_620;
+        case DV_P: return &dvorak_621;
+        case DV_Y: return &dvorak_622;
+        case DV_A: return &dvorak_623;
+        case DV_O: return &dvorak_624;
+        case DV_E: return &dvorak_625;
+        case DV_U: return &dvorak_626;
+        case DV_I: return &dvorak_627;
+        case DV_SCLN: return &dvorak_628;
+        case DV_Q: return &dvorak_629;
+        case DV_J: return &dvorak_630;
+        case DV_K: return &dvorak_631;
+        case DV_X: return &dvorak_632;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_657_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_633_next_node(uint16_t key) {
     switch (key) {
-        case DV_U: return &dvorak_658;
+        case DV_N: return &dvorak_634;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_658_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_634_next_node(uint16_t key) {
     switch (key) {
-        case DV_G: return &dvorak_659;
-        case DV_C: return &dvorak_660;
-        case DV_R: return &dvorak_661;
-        case DV_L: return &dvorak_662;
-        case DV_D: return &dvorak_663;
-        case DV_H: return &dvorak_664;
-        case DV_T: return &dvorak_665;
-        case DV_N: return &dvorak_666;
-        case DV_B: return &dvorak_667;
-        case DV_M: return &dvorak_668;
-        case DV_W: return &dvorak_669;
-        case DV_V: return &dvorak_670;
+        case DV_QUOT: return &dvorak_635;
+        case DV_COMM: return &dvorak_636;
+        case DV_DOT: return &dvorak_637;
+        case DV_P: return &dvorak_638;
+        case DV_Y: return &dvorak_639;
+        case DV_F: return &dvorak_640;
+        case DV_G: return &dvorak_641;
+        case DV_C: return &dvorak_642;
+        case DV_R: return &dvorak_643;
+        case DV_L: return &dvorak_644;
+        case DV_A: return &dvorak_645;
+        case DV_O: return &dvorak_646;
+        case DV_E: return &dvorak_647;
+        case DV_U: return &dvorak_648;
+        case DV_I: return &dvorak_649;
+        case DV_D: return &dvorak_650;
+        case DV_H: return &dvorak_651;
+        case DV_S: return &dvorak_652;
+        case DV_SCLN: return &dvorak_653;
+        case DV_Q: return &dvorak_654;
+        case DV_J: return &dvorak_655;
+        case DV_K: return &dvorak_656;
+        case DV_X: return &dvorak_657;
+        case DV_B: return &dvorak_658;
+        case DV_M: return &dvorak_659;
+        case DV_W: return &dvorak_660;
+        case DV_V: return &dvorak_661;
+        case DV_Z: return &dvorak_662;
+        case DV_LSFT1: return &dvorak_663;
+        case DV_LSFT2: return &dvorak_664;
+        case DV_RSFT2: return &dvorak_665;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_671_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_666_next_node(uint16_t key) {
     switch (key) {
-        case DV_O: return &dvorak_672;
+        case DV_T: return &dvorak_667;
+        case DV_RSFT1: return &dvorak_746;
+        case DV_H: return &dvorak_779;
+        case DV_RSFT2: return &dvorak_821;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_672_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_667_next_node(uint16_t key) {
     switch (key) {
-        case DV_G: return &dvorak_673;
-        case DV_C: return &dvorak_674;
-        case DV_R: return &dvorak_675;
-        case DV_L: return &dvorak_676;
-        case DV_D: return &dvorak_677;
-        case DV_H: return &dvorak_678;
-        case DV_T: return &dvorak_679;
-        case DV_N: return &dvorak_680;
-        case DV_B: return &dvorak_681;
-        case DV_M: return &dvorak_682;
-        case DV_W: return &dvorak_683;
-        case DV_V: return &dvorak_684;
+        case DV_QUOT: return &dvorak_668;
+        case DV_COMM: return &dvorak_669;
+        case DV_DOT: return &dvorak_670;
+        case DV_P: return &dvorak_671;
+        case DV_Y: return &dvorak_672;
+        case DV_F: return &dvorak_673;
+        case DV_G: return &dvorak_674;
+        case DV_C: return &dvorak_675;
+        case DV_R: return &dvorak_676;
+        case DV_L: return &dvorak_677;
+        case DV_A: return &dvorak_678;
+        case DV_O: return &dvorak_679;
+        case DV_E: return &dvorak_680;
+        case DV_U: return &dvorak_681;
+        case DV_I: return &dvorak_682;
+        case DV_D: return &dvorak_683;
+        case DV_H: return &dvorak_684;
+        case DV_S: return &dvorak_700;
+        case DV_SCLN: return &dvorak_701;
+        case DV_Q: return &dvorak_702;
+        case DV_J: return &dvorak_703;
+        case DV_K: return &dvorak_704;
+        case DV_X: return &dvorak_705;
+        case DV_B: return &dvorak_706;
+        case DV_M: return &dvorak_707;
+        case DV_W: return &dvorak_708;
+        case DV_V: return &dvorak_709;
+        case DV_Z: return &dvorak_710;
+        case DV_LSFT1: return &dvorak_711;
+        case DV_LSFT2: return &dvorak_712;
+        case DV_RSFT2: return &dvorak_713;
+        case DV_RSFT1: return &dvorak_714;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_685_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_684_next_node(uint16_t key) {
     switch (key) {
-        case DV_H: return &dvorak_686;
-        case DV_N: return &dvorak_700;
-        default: return NULL;
-    }
-}
-
-const dvorak_node_t* dvorak_686_next_node(uint16_t key) {
-    switch (key) {
-        case DV_N: return &dvorak_687;
-        default: return NULL;
-    }
-}
-
-const dvorak_node_t* dvorak_687_next_node(uint16_t key) {
-    switch (key) {
-        case DV_QUOT: return &dvorak_688;
-        case DV_COMM: return &dvorak_689;
-        case DV_DOT: return &dvorak_690;
-        case DV_P: return &dvorak_691;
-        case DV_O: return &dvorak_692;
-        case DV_E: return &dvorak_693;
-        case DV_U: return &dvorak_694;
-        case DV_I: return &dvorak_695;
+        case DV_QUOT: return &dvorak_685;
+        case DV_COMM: return &dvorak_686;
+        case DV_DOT: return &dvorak_687;
+        case DV_P: return &dvorak_688;
+        case DV_Y: return &dvorak_689;
+        case DV_A: return &dvorak_690;
+        case DV_O: return &dvorak_691;
+        case DV_E: return &dvorak_692;
+        case DV_U: return &dvorak_693;
+        case DV_I: return &dvorak_694;
+        case DV_SCLN: return &dvorak_695;
         case DV_Q: return &dvorak_696;
         case DV_J: return &dvorak_697;
         case DV_K: return &dvorak_698;
         case DV_X: return &dvorak_699;
-        default: return NULL;
-    }
-}
-
-const dvorak_node_t* dvorak_700_next_node(uint16_t key) {
-    switch (key) {
-        case DV_H: return &dvorak_701;
-        default: return NULL;
-    }
-}
-
-const dvorak_node_t* dvorak_701_next_node(uint16_t key) {
-    switch (key) {
-        case DV_QUOT: return &dvorak_702;
-        case DV_COMM: return &dvorak_703;
-        case DV_DOT: return &dvorak_704;
-        case DV_P: return &dvorak_705;
-        case DV_O: return &dvorak_706;
-        case DV_E: return &dvorak_707;
-        case DV_U: return &dvorak_708;
-        case DV_I: return &dvorak_709;
-        case DV_Q: return &dvorak_710;
-        case DV_J: return &dvorak_711;
-        case DV_K: return &dvorak_712;
-        case DV_X: return &dvorak_713;
         default: return NULL;
     }
 }
@@ -1899,47 +2253,50 @@ const dvorak_node_t* dvorak_714_next_node(uint16_t key) {
         case DV_I: return &dvorak_729;
         case DV_D: return &dvorak_730;
         case DV_H: return &dvorak_731;
-        case DV_T: return &dvorak_732;
-        case DV_N: return &dvorak_733;
-        case DV_S: return &dvorak_734;
-        case DV_SCLN: return &dvorak_735;
-        case DV_Q: return &dvorak_736;
-        case DV_J: return &dvorak_737;
-        case DV_K: return &dvorak_738;
-        case DV_X: return &dvorak_739;
-        case DV_B: return &dvorak_740;
-        case DV_M: return &dvorak_741;
-        case DV_W: return &dvorak_742;
-        case DV_V: return &dvorak_743;
-        case DV_Z: return &dvorak_744;
-        case DV_LSFT1: return &dvorak_745;
-        case DV_LSFT2: return &dvorak_778;
-        case DV_RSFT2: return &dvorak_779;
+        case DV_S: return &dvorak_732;
+        case DV_SCLN: return &dvorak_733;
+        case DV_Q: return &dvorak_734;
+        case DV_J: return &dvorak_735;
+        case DV_K: return &dvorak_736;
+        case DV_X: return &dvorak_737;
+        case DV_B: return &dvorak_738;
+        case DV_M: return &dvorak_739;
+        case DV_W: return &dvorak_740;
+        case DV_V: return &dvorak_741;
+        case DV_Z: return &dvorak_742;
+        case DV_LSFT1: return &dvorak_743;
+        case DV_LSFT2: return &dvorak_744;
+        case DV_RSFT2: return &dvorak_745;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_745_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_746_next_node(uint16_t key) {
     switch (key) {
-        case DV_QUOT: return &dvorak_746;
-        case DV_COMM: return &dvorak_747;
-        case DV_DOT: return &dvorak_748;
-        case DV_P: return &dvorak_749;
-        case DV_Y: return &dvorak_750;
-        case DV_F: return &dvorak_751;
-        case DV_G: return &dvorak_752;
-        case DV_C: return &dvorak_753;
-        case DV_R: return &dvorak_754;
-        case DV_L: return &dvorak_755;
-        case DV_A: return &dvorak_756;
-        case DV_O: return &dvorak_757;
-        case DV_E: return &dvorak_758;
-        case DV_U: return &dvorak_759;
-        case DV_I: return &dvorak_760;
-        case DV_D: return &dvorak_761;
-        case DV_H: return &dvorak_762;
-        case DV_T: return &dvorak_763;
-        case DV_N: return &dvorak_764;
+        case DV_T: return &dvorak_747;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_747_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_748;
+        case DV_COMM: return &dvorak_749;
+        case DV_DOT: return &dvorak_750;
+        case DV_P: return &dvorak_751;
+        case DV_Y: return &dvorak_752;
+        case DV_F: return &dvorak_753;
+        case DV_G: return &dvorak_754;
+        case DV_C: return &dvorak_755;
+        case DV_R: return &dvorak_756;
+        case DV_L: return &dvorak_757;
+        case DV_A: return &dvorak_758;
+        case DV_O: return &dvorak_759;
+        case DV_E: return &dvorak_760;
+        case DV_U: return &dvorak_761;
+        case DV_I: return &dvorak_762;
+        case DV_D: return &dvorak_763;
+        case DV_H: return &dvorak_764;
         case DV_S: return &dvorak_765;
         case DV_SCLN: return &dvorak_766;
         case DV_Q: return &dvorak_767;
@@ -1951,35 +2308,566 @@ const dvorak_node_t* dvorak_745_next_node(uint16_t key) {
         case DV_W: return &dvorak_773;
         case DV_V: return &dvorak_774;
         case DV_Z: return &dvorak_775;
-        case DV_LSFT2: return &dvorak_776;
-        case DV_RSFT2: return &dvorak_777;
+        case DV_LSFT1: return &dvorak_776;
+        case DV_LSFT2: return &dvorak_777;
+        case DV_RSFT2: return &dvorak_778;
         default: return NULL;
     }
 }
 
-const dvorak_node_t* dvorak_780_next_node(uint16_t key) {
+const dvorak_node_t* dvorak_779_next_node(uint16_t key) {
     switch (key) {
+        case DV_QUOT: return &dvorak_780;
         case DV_COMM: return &dvorak_781;
         case DV_DOT: return &dvorak_782;
         case DV_P: return &dvorak_783;
-        case DV_Y: return &dvorak_784;
-        case DV_F: return &dvorak_785;
-        case DV_G: return &dvorak_786;
-        case DV_C: return &dvorak_787;
-        case DV_R: return &dvorak_788;
-        case DV_A: return &dvorak_789;
-        case DV_O: return &dvorak_790;
-        case DV_E: return &dvorak_791;
-        case DV_U: return &dvorak_792;
-        case DV_I: return &dvorak_793;
-        case DV_D: return &dvorak_794;
-        case DV_H: return &dvorak_795;
-        case DV_T: return &dvorak_796;
-        case DV_N: return &dvorak_797;
-        case DV_S: return &dvorak_798;
-        case DV_K: return &dvorak_799;
-        case DV_B: return &dvorak_800;
-        case DV_M: return &dvorak_801;
+        case DV_O: return &dvorak_784;
+        case DV_E: return &dvorak_785;
+        case DV_U: return &dvorak_786;
+        case DV_I: return &dvorak_787;
+        case DV_Q: return &dvorak_788;
+        case DV_J: return &dvorak_789;
+        case DV_K: return &dvorak_790;
+        case DV_X: return &dvorak_791;
+        case DV_RSFT2: return &dvorak_792;
+        case DV_T: return &dvorak_805;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_792_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_793;
+        case DV_COMM: return &dvorak_794;
+        case DV_DOT: return &dvorak_795;
+        case DV_P: return &dvorak_796;
+        case DV_O: return &dvorak_797;
+        case DV_E: return &dvorak_798;
+        case DV_U: return &dvorak_799;
+        case DV_I: return &dvorak_800;
+        case DV_Q: return &dvorak_801;
+        case DV_J: return &dvorak_802;
+        case DV_K: return &dvorak_803;
+        case DV_X: return &dvorak_804;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_805_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_806;
+        case DV_COMM: return &dvorak_807;
+        case DV_DOT: return &dvorak_808;
+        case DV_P: return &dvorak_809;
+        case DV_Y: return &dvorak_810;
+        case DV_A: return &dvorak_811;
+        case DV_O: return &dvorak_812;
+        case DV_E: return &dvorak_813;
+        case DV_U: return &dvorak_814;
+        case DV_I: return &dvorak_815;
+        case DV_SCLN: return &dvorak_816;
+        case DV_Q: return &dvorak_817;
+        case DV_J: return &dvorak_818;
+        case DV_K: return &dvorak_819;
+        case DV_X: return &dvorak_820;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_821_next_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_822;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_822_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_823;
+        case DV_COMM: return &dvorak_824;
+        case DV_DOT: return &dvorak_825;
+        case DV_P: return &dvorak_826;
+        case DV_O: return &dvorak_827;
+        case DV_E: return &dvorak_828;
+        case DV_U: return &dvorak_829;
+        case DV_I: return &dvorak_830;
+        case DV_Q: return &dvorak_831;
+        case DV_J: return &dvorak_832;
+        case DV_K: return &dvorak_833;
+        case DV_X: return &dvorak_834;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_846_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_847;
+        case DV_COMM: return &dvorak_848;
+        case DV_DOT: return &dvorak_849;
+        case DV_P: return &dvorak_850;
+        case DV_Y: return &dvorak_851;
+        case DV_F: return &dvorak_852;
+        case DV_G: return &dvorak_853;
+        case DV_C: return &dvorak_854;
+        case DV_R: return &dvorak_855;
+        case DV_L: return &dvorak_856;
+        case DV_A: return &dvorak_857;
+        case DV_O: return &dvorak_858;
+        case DV_E: return &dvorak_859;
+        case DV_U: return &dvorak_860;
+        case DV_I: return &dvorak_861;
+        case DV_D: return &dvorak_862;
+        case DV_H: return &dvorak_863;
+        case DV_T: return &dvorak_864;
+        case DV_N: return &dvorak_865;
+        case DV_S: return &dvorak_866;
+        case DV_SCLN: return &dvorak_867;
+        case DV_Q: return &dvorak_868;
+        case DV_J: return &dvorak_869;
+        case DV_K: return &dvorak_870;
+        case DV_X: return &dvorak_871;
+        case DV_B: return &dvorak_872;
+        case DV_M: return &dvorak_873;
+        case DV_W: return &dvorak_874;
+        case DV_V: return &dvorak_875;
+        case DV_Z: return &dvorak_876;
+        case DV_LSFT2: return &dvorak_877;
+        case DV_RSFT2: return &dvorak_878;
+        case DV_RSFT1: return &dvorak_879;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_879_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_880;
+        case DV_COMM: return &dvorak_881;
+        case DV_DOT: return &dvorak_882;
+        case DV_P: return &dvorak_883;
+        case DV_Y: return &dvorak_884;
+        case DV_F: return &dvorak_885;
+        case DV_G: return &dvorak_886;
+        case DV_C: return &dvorak_887;
+        case DV_R: return &dvorak_888;
+        case DV_L: return &dvorak_889;
+        case DV_A: return &dvorak_890;
+        case DV_O: return &dvorak_891;
+        case DV_E: return &dvorak_892;
+        case DV_U: return &dvorak_893;
+        case DV_I: return &dvorak_894;
+        case DV_D: return &dvorak_895;
+        case DV_H: return &dvorak_896;
+        case DV_T: return &dvorak_897;
+        case DV_N: return &dvorak_898;
+        case DV_S: return &dvorak_899;
+        case DV_SCLN: return &dvorak_900;
+        case DV_Q: return &dvorak_901;
+        case DV_J: return &dvorak_902;
+        case DV_K: return &dvorak_903;
+        case DV_X: return &dvorak_904;
+        case DV_B: return &dvorak_905;
+        case DV_M: return &dvorak_906;
+        case DV_W: return &dvorak_907;
+        case DV_V: return &dvorak_908;
+        case DV_Z: return &dvorak_909;
+        case DV_LSFT2: return &dvorak_910;
+        case DV_RSFT2: return &dvorak_911;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_912_next_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_913;
+        case DV_U: return &dvorak_927;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_913_next_node(uint16_t key) {
+    switch (key) {
+        case DV_U: return &dvorak_914;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_914_next_node(uint16_t key) {
+    switch (key) {
+        case DV_G: return &dvorak_915;
+        case DV_C: return &dvorak_916;
+        case DV_R: return &dvorak_917;
+        case DV_L: return &dvorak_918;
+        case DV_D: return &dvorak_919;
+        case DV_H: return &dvorak_920;
+        case DV_T: return &dvorak_921;
+        case DV_N: return &dvorak_922;
+        case DV_B: return &dvorak_923;
+        case DV_M: return &dvorak_924;
+        case DV_W: return &dvorak_925;
+        case DV_V: return &dvorak_926;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_927_next_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_928;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_928_next_node(uint16_t key) {
+    switch (key) {
+        case DV_G: return &dvorak_929;
+        case DV_C: return &dvorak_930;
+        case DV_R: return &dvorak_931;
+        case DV_L: return &dvorak_932;
+        case DV_D: return &dvorak_933;
+        case DV_H: return &dvorak_934;
+        case DV_T: return &dvorak_935;
+        case DV_N: return &dvorak_936;
+        case DV_B: return &dvorak_937;
+        case DV_M: return &dvorak_938;
+        case DV_W: return &dvorak_939;
+        case DV_V: return &dvorak_940;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_941_next_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_942;
+        case DV_N: return &dvorak_956;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_942_next_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_943;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_943_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_944;
+        case DV_COMM: return &dvorak_945;
+        case DV_DOT: return &dvorak_946;
+        case DV_P: return &dvorak_947;
+        case DV_O: return &dvorak_948;
+        case DV_E: return &dvorak_949;
+        case DV_U: return &dvorak_950;
+        case DV_I: return &dvorak_951;
+        case DV_Q: return &dvorak_952;
+        case DV_J: return &dvorak_953;
+        case DV_K: return &dvorak_954;
+        case DV_X: return &dvorak_955;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_956_next_node(uint16_t key) {
+    switch (key) {
+        case DV_H: return &dvorak_957;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_957_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_958;
+        case DV_COMM: return &dvorak_959;
+        case DV_DOT: return &dvorak_960;
+        case DV_P: return &dvorak_961;
+        case DV_O: return &dvorak_962;
+        case DV_E: return &dvorak_963;
+        case DV_U: return &dvorak_964;
+        case DV_I: return &dvorak_965;
+        case DV_Q: return &dvorak_966;
+        case DV_J: return &dvorak_967;
+        case DV_K: return &dvorak_968;
+        case DV_X: return &dvorak_969;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_970_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_971;
+        case DV_COMM: return &dvorak_972;
+        case DV_DOT: return &dvorak_973;
+        case DV_P: return &dvorak_974;
+        case DV_Y: return &dvorak_975;
+        case DV_F: return &dvorak_976;
+        case DV_G: return &dvorak_977;
+        case DV_C: return &dvorak_978;
+        case DV_R: return &dvorak_979;
+        case DV_L: return &dvorak_980;
+        case DV_A: return &dvorak_981;
+        case DV_O: return &dvorak_982;
+        case DV_E: return &dvorak_1015;
+        case DV_U: return &dvorak_1048;
+        case DV_I: return &dvorak_1049;
+        case DV_D: return &dvorak_1050;
+        case DV_H: return &dvorak_1051;
+        case DV_T: return &dvorak_1052;
+        case DV_N: return &dvorak_1085;
+        case DV_S: return &dvorak_1118;
+        case DV_SCLN: return &dvorak_1119;
+        case DV_Q: return &dvorak_1120;
+        case DV_J: return &dvorak_1121;
+        case DV_K: return &dvorak_1122;
+        case DV_X: return &dvorak_1123;
+        case DV_B: return &dvorak_1124;
+        case DV_M: return &dvorak_1125;
+        case DV_W: return &dvorak_1126;
+        case DV_V: return &dvorak_1127;
+        case DV_Z: return &dvorak_1128;
+        case DV_LSFT1: return &dvorak_1129;
+        case DV_LSFT2: return &dvorak_1162;
+        case DV_RSFT2: return &dvorak_1163;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_982_next_node(uint16_t key) {
+    switch (key) {
+        case DV_E: return &dvorak_983;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_983_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_984;
+        case DV_COMM: return &dvorak_985;
+        case DV_DOT: return &dvorak_986;
+        case DV_P: return &dvorak_987;
+        case DV_Y: return &dvorak_988;
+        case DV_F: return &dvorak_989;
+        case DV_G: return &dvorak_990;
+        case DV_C: return &dvorak_991;
+        case DV_R: return &dvorak_992;
+        case DV_L: return &dvorak_993;
+        case DV_A: return &dvorak_994;
+        case DV_U: return &dvorak_995;
+        case DV_I: return &dvorak_996;
+        case DV_D: return &dvorak_997;
+        case DV_H: return &dvorak_998;
+        case DV_T: return &dvorak_999;
+        case DV_N: return &dvorak_1000;
+        case DV_S: return &dvorak_1001;
+        case DV_SCLN: return &dvorak_1002;
+        case DV_Q: return &dvorak_1003;
+        case DV_J: return &dvorak_1004;
+        case DV_K: return &dvorak_1005;
+        case DV_X: return &dvorak_1006;
+        case DV_B: return &dvorak_1007;
+        case DV_M: return &dvorak_1008;
+        case DV_W: return &dvorak_1009;
+        case DV_V: return &dvorak_1010;
+        case DV_Z: return &dvorak_1011;
+        case DV_LSFT1: return &dvorak_1012;
+        case DV_LSFT2: return &dvorak_1013;
+        case DV_RSFT2: return &dvorak_1014;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_1015_next_node(uint16_t key) {
+    switch (key) {
+        case DV_O: return &dvorak_1016;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_1016_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_1017;
+        case DV_COMM: return &dvorak_1018;
+        case DV_DOT: return &dvorak_1019;
+        case DV_P: return &dvorak_1020;
+        case DV_Y: return &dvorak_1021;
+        case DV_F: return &dvorak_1022;
+        case DV_G: return &dvorak_1023;
+        case DV_C: return &dvorak_1024;
+        case DV_R: return &dvorak_1025;
+        case DV_L: return &dvorak_1026;
+        case DV_A: return &dvorak_1027;
+        case DV_U: return &dvorak_1028;
+        case DV_I: return &dvorak_1029;
+        case DV_D: return &dvorak_1030;
+        case DV_H: return &dvorak_1031;
+        case DV_T: return &dvorak_1032;
+        case DV_N: return &dvorak_1033;
+        case DV_S: return &dvorak_1034;
+        case DV_SCLN: return &dvorak_1035;
+        case DV_Q: return &dvorak_1036;
+        case DV_J: return &dvorak_1037;
+        case DV_K: return &dvorak_1038;
+        case DV_X: return &dvorak_1039;
+        case DV_B: return &dvorak_1040;
+        case DV_M: return &dvorak_1041;
+        case DV_W: return &dvorak_1042;
+        case DV_V: return &dvorak_1043;
+        case DV_Z: return &dvorak_1044;
+        case DV_LSFT1: return &dvorak_1045;
+        case DV_LSFT2: return &dvorak_1046;
+        case DV_RSFT2: return &dvorak_1047;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_1052_next_node(uint16_t key) {
+    switch (key) {
+        case DV_N: return &dvorak_1053;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_1053_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_1054;
+        case DV_COMM: return &dvorak_1055;
+        case DV_DOT: return &dvorak_1056;
+        case DV_P: return &dvorak_1057;
+        case DV_Y: return &dvorak_1058;
+        case DV_F: return &dvorak_1059;
+        case DV_G: return &dvorak_1060;
+        case DV_C: return &dvorak_1061;
+        case DV_R: return &dvorak_1062;
+        case DV_L: return &dvorak_1063;
+        case DV_A: return &dvorak_1064;
+        case DV_O: return &dvorak_1065;
+        case DV_E: return &dvorak_1066;
+        case DV_U: return &dvorak_1067;
+        case DV_I: return &dvorak_1068;
+        case DV_D: return &dvorak_1069;
+        case DV_H: return &dvorak_1070;
+        case DV_S: return &dvorak_1071;
+        case DV_SCLN: return &dvorak_1072;
+        case DV_Q: return &dvorak_1073;
+        case DV_J: return &dvorak_1074;
+        case DV_K: return &dvorak_1075;
+        case DV_X: return &dvorak_1076;
+        case DV_B: return &dvorak_1077;
+        case DV_M: return &dvorak_1078;
+        case DV_W: return &dvorak_1079;
+        case DV_V: return &dvorak_1080;
+        case DV_Z: return &dvorak_1081;
+        case DV_LSFT1: return &dvorak_1082;
+        case DV_LSFT2: return &dvorak_1083;
+        case DV_RSFT2: return &dvorak_1084;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_1085_next_node(uint16_t key) {
+    switch (key) {
+        case DV_T: return &dvorak_1086;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_1086_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_1087;
+        case DV_COMM: return &dvorak_1088;
+        case DV_DOT: return &dvorak_1089;
+        case DV_P: return &dvorak_1090;
+        case DV_Y: return &dvorak_1091;
+        case DV_F: return &dvorak_1092;
+        case DV_G: return &dvorak_1093;
+        case DV_C: return &dvorak_1094;
+        case DV_R: return &dvorak_1095;
+        case DV_L: return &dvorak_1096;
+        case DV_A: return &dvorak_1097;
+        case DV_O: return &dvorak_1098;
+        case DV_E: return &dvorak_1099;
+        case DV_U: return &dvorak_1100;
+        case DV_I: return &dvorak_1101;
+        case DV_D: return &dvorak_1102;
+        case DV_H: return &dvorak_1103;
+        case DV_S: return &dvorak_1104;
+        case DV_SCLN: return &dvorak_1105;
+        case DV_Q: return &dvorak_1106;
+        case DV_J: return &dvorak_1107;
+        case DV_K: return &dvorak_1108;
+        case DV_X: return &dvorak_1109;
+        case DV_B: return &dvorak_1110;
+        case DV_M: return &dvorak_1111;
+        case DV_W: return &dvorak_1112;
+        case DV_V: return &dvorak_1113;
+        case DV_Z: return &dvorak_1114;
+        case DV_LSFT1: return &dvorak_1115;
+        case DV_LSFT2: return &dvorak_1116;
+        case DV_RSFT2: return &dvorak_1117;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_1129_next_node(uint16_t key) {
+    switch (key) {
+        case DV_QUOT: return &dvorak_1130;
+        case DV_COMM: return &dvorak_1131;
+        case DV_DOT: return &dvorak_1132;
+        case DV_P: return &dvorak_1133;
+        case DV_Y: return &dvorak_1134;
+        case DV_F: return &dvorak_1135;
+        case DV_G: return &dvorak_1136;
+        case DV_C: return &dvorak_1137;
+        case DV_R: return &dvorak_1138;
+        case DV_L: return &dvorak_1139;
+        case DV_A: return &dvorak_1140;
+        case DV_O: return &dvorak_1141;
+        case DV_E: return &dvorak_1142;
+        case DV_U: return &dvorak_1143;
+        case DV_I: return &dvorak_1144;
+        case DV_D: return &dvorak_1145;
+        case DV_H: return &dvorak_1146;
+        case DV_T: return &dvorak_1147;
+        case DV_N: return &dvorak_1148;
+        case DV_S: return &dvorak_1149;
+        case DV_SCLN: return &dvorak_1150;
+        case DV_Q: return &dvorak_1151;
+        case DV_J: return &dvorak_1152;
+        case DV_K: return &dvorak_1153;
+        case DV_X: return &dvorak_1154;
+        case DV_B: return &dvorak_1155;
+        case DV_M: return &dvorak_1156;
+        case DV_W: return &dvorak_1157;
+        case DV_V: return &dvorak_1158;
+        case DV_Z: return &dvorak_1159;
+        case DV_LSFT2: return &dvorak_1160;
+        case DV_RSFT2: return &dvorak_1161;
+        default: return NULL;
+    }
+}
+
+const dvorak_node_t* dvorak_1164_next_node(uint16_t key) {
+    switch (key) {
+        case DV_COMM: return &dvorak_1165;
+        case DV_DOT: return &dvorak_1166;
+        case DV_P: return &dvorak_1167;
+        case DV_Y: return &dvorak_1168;
+        case DV_F: return &dvorak_1169;
+        case DV_G: return &dvorak_1170;
+        case DV_C: return &dvorak_1171;
+        case DV_R: return &dvorak_1172;
+        case DV_A: return &dvorak_1173;
+        case DV_O: return &dvorak_1174;
+        case DV_E: return &dvorak_1175;
+        case DV_U: return &dvorak_1176;
+        case DV_I: return &dvorak_1177;
+        case DV_D: return &dvorak_1178;
+        case DV_H: return &dvorak_1179;
+        case DV_T: return &dvorak_1180;
+        case DV_N: return &dvorak_1181;
+        case DV_S: return &dvorak_1182;
+        case DV_K: return &dvorak_1183;
+        case DV_B: return &dvorak_1184;
+        case DV_M: return &dvorak_1185;
         default: return NULL;
     }
 }
@@ -2482,1616 +3370,1616 @@ const dvorak_node_t dvorak_62 = {
 
 const dvorak_node_t dvorak_63 = {
     .parent       = &dvorak_16,
-    .next_node    = &dvorak_2_next_node,
+    .next_node    = &dvorak_63_next_node,
     .key          = DV_RSFT1,
     .bounds       = 1,
     .keys         = { S(KC_TAB) },
 };
 
 const dvorak_node_t dvorak_64 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_QUOT)) },
+};
+
+const dvorak_node_t dvorak_65 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { S(G(KC_COMM)) },
+};
+
+const dvorak_node_t dvorak_66 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_DOT)) },
+};
+
+const dvorak_node_t dvorak_67 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { S(G(KC_P)) },
+};
+
+const dvorak_node_t dvorak_68 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Y)) },
+};
+
+const dvorak_node_t dvorak_69 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { S(G(KC_F)) },
+};
+
+const dvorak_node_t dvorak_70 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { S(G(KC_G)) },
+};
+
+const dvorak_node_t dvorak_71 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { S(G(KC_C)) },
+};
+
+const dvorak_node_t dvorak_72 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { S(G(KC_R)) },
+};
+
+const dvorak_node_t dvorak_73 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { S(G(KC_L)) },
+};
+
+const dvorak_node_t dvorak_74 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { S(G(KC_A)) },
+};
+
+const dvorak_node_t dvorak_75 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { S(G(KC_U)) },
+};
+
+const dvorak_node_t dvorak_76 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { S(G(KC_I)) },
+};
+
+const dvorak_node_t dvorak_77 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { S(G(KC_D)) },
+};
+
+const dvorak_node_t dvorak_78 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { S(G(KC_H)) },
+};
+
+const dvorak_node_t dvorak_79 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { S(G(KC_T)) },
+};
+
+const dvorak_node_t dvorak_80 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { S(G(KC_N)) },
+};
+
+const dvorak_node_t dvorak_81 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { S(G(KC_S)) },
+};
+
+const dvorak_node_t dvorak_82 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SCLN)) },
+};
+
+const dvorak_node_t dvorak_83 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Q)) },
+};
+
+const dvorak_node_t dvorak_84 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { S(G(KC_J)) },
+};
+
+const dvorak_node_t dvorak_85 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { S(G(KC_K)) },
+};
+
+const dvorak_node_t dvorak_86 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { S(G(KC_X)) },
+};
+
+const dvorak_node_t dvorak_87 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { S(G(KC_B)) },
+};
+
+const dvorak_node_t dvorak_88 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { S(G(KC_M)) },
+};
+
+const dvorak_node_t dvorak_89 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { S(G(KC_W)) },
+};
+
+const dvorak_node_t dvorak_90 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { S(G(KC_V)) },
+};
+
+const dvorak_node_t dvorak_91 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Z)) },
+};
+
+const dvorak_node_t dvorak_92 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { S(G(KC_BSPC)) },
+};
+
+const dvorak_node_t dvorak_93 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SPC)) },
+};
+
+const dvorak_node_t dvorak_94 = {
+    .parent       = &dvorak_63,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_ENT)) },
+};
+
+const dvorak_node_t dvorak_95 = {
     .parent       = &dvorak_15,
-    .next_node    = &dvorak_64_next_node,
+    .next_node    = &dvorak_95_next_node,
+    .key          = DV_RSFT1,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_96 = {
+    .parent       = &dvorak_95,
+    .next_node    = &dvorak_96_next_node,
+    .key          = DV_E,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_97 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_QUOT)) },
+};
+
+const dvorak_node_t dvorak_98 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { S(G(KC_COMM)) },
+};
+
+const dvorak_node_t dvorak_99 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_DOT)) },
+};
+
+const dvorak_node_t dvorak_100 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { S(G(KC_P)) },
+};
+
+const dvorak_node_t dvorak_101 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Y)) },
+};
+
+const dvorak_node_t dvorak_102 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { S(G(KC_F)) },
+};
+
+const dvorak_node_t dvorak_103 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { S(G(KC_G)) },
+};
+
+const dvorak_node_t dvorak_104 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { S(G(KC_C)) },
+};
+
+const dvorak_node_t dvorak_105 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { S(G(KC_R)) },
+};
+
+const dvorak_node_t dvorak_106 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { S(G(KC_L)) },
+};
+
+const dvorak_node_t dvorak_107 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { S(G(KC_A)) },
+};
+
+const dvorak_node_t dvorak_108 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { S(G(KC_U)) },
+};
+
+const dvorak_node_t dvorak_109 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { S(G(KC_I)) },
+};
+
+const dvorak_node_t dvorak_110 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { S(G(KC_D)) },
+};
+
+const dvorak_node_t dvorak_111 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { S(G(KC_H)) },
+};
+
+const dvorak_node_t dvorak_112 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { S(G(KC_T)) },
+};
+
+const dvorak_node_t dvorak_113 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { S(G(KC_N)) },
+};
+
+const dvorak_node_t dvorak_114 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { S(G(KC_S)) },
+};
+
+const dvorak_node_t dvorak_115 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SCLN)) },
+};
+
+const dvorak_node_t dvorak_116 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Q)) },
+};
+
+const dvorak_node_t dvorak_117 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { S(G(KC_J)) },
+};
+
+const dvorak_node_t dvorak_118 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { S(G(KC_K)) },
+};
+
+const dvorak_node_t dvorak_119 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { S(G(KC_X)) },
+};
+
+const dvorak_node_t dvorak_120 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { S(G(KC_B)) },
+};
+
+const dvorak_node_t dvorak_121 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { S(G(KC_M)) },
+};
+
+const dvorak_node_t dvorak_122 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { S(G(KC_W)) },
+};
+
+const dvorak_node_t dvorak_123 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { S(G(KC_V)) },
+};
+
+const dvorak_node_t dvorak_124 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Z)) },
+};
+
+const dvorak_node_t dvorak_125 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { S(G(KC_BSPC)) },
+};
+
+const dvorak_node_t dvorak_126 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SPC)) },
+};
+
+const dvorak_node_t dvorak_127 = {
+    .parent       = &dvorak_96,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_ENT)) },
+};
+
+const dvorak_node_t dvorak_128 = {
+    .parent       = &dvorak_15,
+    .next_node    = &dvorak_128_next_node,
     .key          = DV_U,
     .bounds       = 0,
     .keys         = {},
 };
 
-const dvorak_node_t dvorak_65 = {
-    .parent       = &dvorak_64,
+const dvorak_node_t dvorak_129 = {
+    .parent       = &dvorak_128,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_G,
     .bounds       = 1,
     .keys         = { KC_AT },
 };
 
-const dvorak_node_t dvorak_66 = {
-    .parent       = &dvorak_64,
+const dvorak_node_t dvorak_130 = {
+    .parent       = &dvorak_128,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_C,
     .bounds       = 1,
     .keys         = { KC_TILD },
 };
 
-const dvorak_node_t dvorak_67 = {
-    .parent       = &dvorak_64,
+const dvorak_node_t dvorak_131 = {
+    .parent       = &dvorak_128,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_R,
     .bounds       = 1,
     .keys         = { KC_PERC },
 };
 
-const dvorak_node_t dvorak_68 = {
-    .parent       = &dvorak_64,
+const dvorak_node_t dvorak_132 = {
+    .parent       = &dvorak_128,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_L,
     .bounds       = 1,
     .keys         = { KC_DLR },
 };
 
-const dvorak_node_t dvorak_69 = {
-    .parent       = &dvorak_64,
+const dvorak_node_t dvorak_133 = {
+    .parent       = &dvorak_128,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_D,
     .bounds       = 1,
     .keys         = { KC_RCBR },
 };
 
-const dvorak_node_t dvorak_70 = {
-    .parent       = &dvorak_64,
+const dvorak_node_t dvorak_134 = {
+    .parent       = &dvorak_128,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_H,
     .bounds       = 1,
     .keys         = { KC_RBRC },
 };
 
-const dvorak_node_t dvorak_71 = {
-    .parent       = &dvorak_64,
+const dvorak_node_t dvorak_135 = {
+    .parent       = &dvorak_128,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_T,
     .bounds       = 1,
     .keys         = { KC_RPRN },
 };
 
-const dvorak_node_t dvorak_72 = {
-    .parent       = &dvorak_64,
+const dvorak_node_t dvorak_136 = {
+    .parent       = &dvorak_128,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_N,
     .bounds       = 1,
     .keys         = { KC_EXLM },
 };
 
-const dvorak_node_t dvorak_73 = {
-    .parent       = &dvorak_64,
+const dvorak_node_t dvorak_137 = {
+    .parent       = &dvorak_128,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_B,
     .bounds       = 1,
     .keys         = { KC_UNDS },
 };
 
-const dvorak_node_t dvorak_74 = {
-    .parent       = &dvorak_64,
+const dvorak_node_t dvorak_138 = {
+    .parent       = &dvorak_128,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_M,
     .bounds       = 1,
     .keys         = { KC_MINS },
 };
 
-const dvorak_node_t dvorak_75 = {
-    .parent       = &dvorak_64,
+const dvorak_node_t dvorak_139 = {
+    .parent       = &dvorak_128,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_W,
     .bounds       = 1,
     .keys         = { KC_ASTR },
 };
 
-const dvorak_node_t dvorak_76 = {
-    .parent       = &dvorak_64,
+const dvorak_node_t dvorak_140 = {
+    .parent       = &dvorak_128,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_V,
     .bounds       = 1,
     .keys         = { KC_CIRC },
 };
 
-const dvorak_node_t dvorak_77 = {
-    .parent       = &dvorak_64,
-    .next_node    = &dvorak_77_next_node,
+const dvorak_node_t dvorak_141 = {
+    .parent       = &dvorak_128,
+    .next_node    = &dvorak_141_next_node,
     .key          = DV_LSFT2,
     .bounds       = 0,
     .keys         = {},
 };
 
-const dvorak_node_t dvorak_78 = {
-    .parent       = &dvorak_77,
+const dvorak_node_t dvorak_142 = {
+    .parent       = &dvorak_141,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_G,
     .bounds       = 1,
     .keys         = { C(KC_AT) },
 };
 
-const dvorak_node_t dvorak_79 = {
-    .parent       = &dvorak_77,
+const dvorak_node_t dvorak_143 = {
+    .parent       = &dvorak_141,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_C,
     .bounds       = 1,
     .keys         = { C(KC_TILD) },
 };
 
-const dvorak_node_t dvorak_80 = {
-    .parent       = &dvorak_77,
+const dvorak_node_t dvorak_144 = {
+    .parent       = &dvorak_141,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_R,
     .bounds       = 1,
     .keys         = { C(KC_PERC) },
 };
 
-const dvorak_node_t dvorak_81 = {
-    .parent       = &dvorak_77,
+const dvorak_node_t dvorak_145 = {
+    .parent       = &dvorak_141,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_L,
     .bounds       = 1,
     .keys         = { C(KC_DLR) },
 };
 
-const dvorak_node_t dvorak_82 = {
-    .parent       = &dvorak_77,
+const dvorak_node_t dvorak_146 = {
+    .parent       = &dvorak_141,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_D,
     .bounds       = 1,
     .keys         = { C(KC_RCBR) },
 };
 
-const dvorak_node_t dvorak_83 = {
-    .parent       = &dvorak_77,
+const dvorak_node_t dvorak_147 = {
+    .parent       = &dvorak_141,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_H,
     .bounds       = 1,
     .keys         = { C(KC_RBRC) },
 };
 
-const dvorak_node_t dvorak_84 = {
-    .parent       = &dvorak_77,
+const dvorak_node_t dvorak_148 = {
+    .parent       = &dvorak_141,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_T,
     .bounds       = 1,
     .keys         = { C(KC_RPRN) },
 };
 
-const dvorak_node_t dvorak_85 = {
-    .parent       = &dvorak_77,
+const dvorak_node_t dvorak_149 = {
+    .parent       = &dvorak_141,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_N,
     .bounds       = 1,
     .keys         = { C(KC_EXLM) },
 };
 
-const dvorak_node_t dvorak_86 = {
-    .parent       = &dvorak_77,
+const dvorak_node_t dvorak_150 = {
+    .parent       = &dvorak_141,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_B,
     .bounds       = 1,
     .keys         = { C(KC_UNDS) },
 };
 
-const dvorak_node_t dvorak_87 = {
-    .parent       = &dvorak_77,
+const dvorak_node_t dvorak_151 = {
+    .parent       = &dvorak_141,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_M,
     .bounds       = 1,
     .keys         = { C(KC_MINS) },
 };
 
-const dvorak_node_t dvorak_88 = {
-    .parent       = &dvorak_77,
+const dvorak_node_t dvorak_152 = {
+    .parent       = &dvorak_141,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_W,
     .bounds       = 1,
     .keys         = { C(KC_ASTR) },
 };
 
-const dvorak_node_t dvorak_89 = {
-    .parent       = &dvorak_77,
+const dvorak_node_t dvorak_153 = {
+    .parent       = &dvorak_141,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_V,
     .bounds       = 1,
     .keys         = { C(KC_CIRC) },
 };
 
-const dvorak_node_t dvorak_90 = {
-    .parent       = &dvorak_64,
-    .next_node    = &dvorak_90_next_node,
+const dvorak_node_t dvorak_154 = {
+    .parent       = &dvorak_128,
+    .next_node    = &dvorak_154_next_node,
     .key          = DV_E,
     .bounds       = 0,
     .keys         = {},
 };
 
-const dvorak_node_t dvorak_91 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_155 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_F,
     .bounds       = 1,
     .keys         = { HYPR(KC_F) },
 };
 
-const dvorak_node_t dvorak_92 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_156 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_G,
     .bounds       = 1,
     .keys         = { HYPR(KC_G) },
 };
 
-const dvorak_node_t dvorak_93 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_157 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_C,
     .bounds       = 1,
     .keys         = { HYPR(KC_C) },
 };
 
-const dvorak_node_t dvorak_94 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_158 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_R,
     .bounds       = 1,
     .keys         = { HYPR(KC_R) },
 };
 
-const dvorak_node_t dvorak_95 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_159 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_L,
     .bounds       = 1,
     .keys         = { HYPR(KC_L) },
 };
 
-const dvorak_node_t dvorak_96 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_160 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_D,
     .bounds       = 1,
     .keys         = { HYPR(KC_D) },
 };
 
-const dvorak_node_t dvorak_97 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_161 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_H,
     .bounds       = 1,
     .keys         = { HYPR(KC_H) },
 };
 
-const dvorak_node_t dvorak_98 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_162 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_T,
     .bounds       = 1,
     .keys         = { HYPR(KC_T) },
 };
 
-const dvorak_node_t dvorak_99 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_163 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_N,
     .bounds       = 1,
     .keys         = { HYPR(KC_N) },
 };
 
-const dvorak_node_t dvorak_100 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_164 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_S,
     .bounds       = 1,
     .keys         = { HYPR(KC_S) },
 };
 
-const dvorak_node_t dvorak_101 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_165 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_B,
     .bounds       = 1,
     .keys         = { HYPR(KC_B) },
 };
 
-const dvorak_node_t dvorak_102 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_166 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_M,
     .bounds       = 1,
     .keys         = { HYPR(KC_M) },
 };
 
-const dvorak_node_t dvorak_103 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_167 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_W,
     .bounds       = 1,
     .keys         = { HYPR(KC_W) },
 };
 
-const dvorak_node_t dvorak_104 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_168 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_V,
     .bounds       = 1,
     .keys         = { HYPR(KC_V) },
 };
 
-const dvorak_node_t dvorak_105 = {
-    .parent       = &dvorak_90,
+const dvorak_node_t dvorak_169 = {
+    .parent       = &dvorak_154,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Z,
     .bounds       = 1,
     .keys         = { HYPR(KC_Z) },
 };
 
-const dvorak_node_t dvorak_106 = {
+const dvorak_node_t dvorak_170 = {
     .parent       = &dvorak_15,
-    .next_node    = &dvorak_106_next_node,
+    .next_node    = &dvorak_170_next_node,
     .key          = DV_LSFT2,
     .bounds       = 0,
     .keys         = {},
 };
 
-const dvorak_node_t dvorak_107 = {
-    .parent       = &dvorak_106,
-    .next_node    = &dvorak_107_next_node,
+const dvorak_node_t dvorak_171 = {
+    .parent       = &dvorak_170,
+    .next_node    = &dvorak_171_next_node,
     .key          = DV_U,
     .bounds       = 0,
     .keys         = {},
 };
 
-const dvorak_node_t dvorak_108 = {
-    .parent       = &dvorak_107,
+const dvorak_node_t dvorak_172 = {
+    .parent       = &dvorak_171,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_G,
     .bounds       = 1,
     .keys         = { C(KC_AT) },
 };
 
-const dvorak_node_t dvorak_109 = {
-    .parent       = &dvorak_107,
+const dvorak_node_t dvorak_173 = {
+    .parent       = &dvorak_171,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_C,
     .bounds       = 1,
     .keys         = { C(KC_TILD) },
 };
 
-const dvorak_node_t dvorak_110 = {
-    .parent       = &dvorak_107,
+const dvorak_node_t dvorak_174 = {
+    .parent       = &dvorak_171,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_R,
     .bounds       = 1,
     .keys         = { C(KC_PERC) },
 };
 
-const dvorak_node_t dvorak_111 = {
-    .parent       = &dvorak_107,
+const dvorak_node_t dvorak_175 = {
+    .parent       = &dvorak_171,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_L,
     .bounds       = 1,
     .keys         = { C(KC_DLR) },
 };
 
-const dvorak_node_t dvorak_112 = {
-    .parent       = &dvorak_107,
+const dvorak_node_t dvorak_176 = {
+    .parent       = &dvorak_171,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_D,
     .bounds       = 1,
     .keys         = { C(KC_RCBR) },
 };
 
-const dvorak_node_t dvorak_113 = {
-    .parent       = &dvorak_107,
+const dvorak_node_t dvorak_177 = {
+    .parent       = &dvorak_171,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_H,
     .bounds       = 1,
     .keys         = { C(KC_RBRC) },
 };
 
-const dvorak_node_t dvorak_114 = {
-    .parent       = &dvorak_107,
+const dvorak_node_t dvorak_178 = {
+    .parent       = &dvorak_171,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_T,
     .bounds       = 1,
     .keys         = { C(KC_RPRN) },
 };
 
-const dvorak_node_t dvorak_115 = {
-    .parent       = &dvorak_107,
+const dvorak_node_t dvorak_179 = {
+    .parent       = &dvorak_171,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_N,
     .bounds       = 1,
     .keys         = { C(KC_EXLM) },
 };
 
-const dvorak_node_t dvorak_116 = {
-    .parent       = &dvorak_107,
+const dvorak_node_t dvorak_180 = {
+    .parent       = &dvorak_171,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_B,
     .bounds       = 1,
     .keys         = { C(KC_UNDS) },
 };
 
-const dvorak_node_t dvorak_117 = {
-    .parent       = &dvorak_107,
+const dvorak_node_t dvorak_181 = {
+    .parent       = &dvorak_171,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_M,
     .bounds       = 1,
     .keys         = { C(KC_MINS) },
 };
 
-const dvorak_node_t dvorak_118 = {
-    .parent       = &dvorak_107,
+const dvorak_node_t dvorak_182 = {
+    .parent       = &dvorak_171,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_W,
     .bounds       = 1,
     .keys         = { C(KC_ASTR) },
 };
 
-const dvorak_node_t dvorak_119 = {
-    .parent       = &dvorak_107,
+const dvorak_node_t dvorak_183 = {
+    .parent       = &dvorak_171,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_V,
     .bounds       = 1,
     .keys         = { C(KC_CIRC) },
 };
 
-const dvorak_node_t dvorak_120 = {
+const dvorak_node_t dvorak_184 = {
     .parent       = &dvorak_1,
-    .next_node    = &dvorak_120_next_node,
+    .next_node    = &dvorak_184_next_node,
     .key          = DV_E,
     .bounds       = 1,
     .keys         = { KC_E },
 };
 
-const dvorak_node_t dvorak_121 = {
-    .parent       = &dvorak_120,
-    .next_node    = &dvorak_121_next_node,
+const dvorak_node_t dvorak_185 = {
+    .parent       = &dvorak_184,
+    .next_node    = &dvorak_185_next_node,
     .key          = DV_O,
     .bounds       = 0,
     .keys         = {},
 };
 
-const dvorak_node_t dvorak_122 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_186 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_QUOT,
     .bounds       = 1,
     .keys         = { S(KC_QUOT) },
 };
 
-const dvorak_node_t dvorak_123 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_187 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_COMM,
     .bounds       = 1,
     .keys         = { S(KC_COMM) },
 };
 
-const dvorak_node_t dvorak_124 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_188 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_DOT,
     .bounds       = 1,
     .keys         = { S(KC_DOT) },
 };
 
-const dvorak_node_t dvorak_125 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_189 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_P,
     .bounds       = 1,
     .keys         = { S(KC_P) },
 };
 
-const dvorak_node_t dvorak_126 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_190 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Y,
     .bounds       = 1,
     .keys         = { S(KC_Y) },
 };
 
-const dvorak_node_t dvorak_127 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_191 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_F,
     .bounds       = 1,
     .keys         = { S(KC_F) },
 };
 
-const dvorak_node_t dvorak_128 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_192 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_G,
     .bounds       = 1,
     .keys         = { S(KC_G) },
 };
 
-const dvorak_node_t dvorak_129 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_193 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_C,
     .bounds       = 1,
     .keys         = { S(KC_C) },
 };
 
-const dvorak_node_t dvorak_130 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_194 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_R,
     .bounds       = 1,
     .keys         = { S(KC_R) },
 };
 
-const dvorak_node_t dvorak_131 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_195 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_L,
     .bounds       = 1,
     .keys         = { S(KC_L) },
 };
 
-const dvorak_node_t dvorak_132 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_196 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_A,
     .bounds       = 1,
     .keys         = { S(KC_QUOT) },
 };
 
-const dvorak_node_t dvorak_133 = {
-    .parent       = &dvorak_121,
-    .next_node    = &dvorak_133_next_node,
+const dvorak_node_t dvorak_197 = {
+    .parent       = &dvorak_185,
+    .next_node    = &dvorak_197_next_node,
     .key          = DV_U,
     .bounds       = 1,
     .keys         = { S(KC_U) },
 };
 
-const dvorak_node_t dvorak_134 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_198 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_F,
     .bounds       = 1,
     .keys         = { HYPR(KC_F) },
 };
 
-const dvorak_node_t dvorak_135 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_199 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_G,
     .bounds       = 1,
     .keys         = { HYPR(KC_G) },
 };
 
-const dvorak_node_t dvorak_136 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_200 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_C,
     .bounds       = 1,
     .keys         = { HYPR(KC_C) },
 };
 
-const dvorak_node_t dvorak_137 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_201 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_R,
     .bounds       = 1,
     .keys         = { HYPR(KC_R) },
 };
 
-const dvorak_node_t dvorak_138 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_202 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_L,
     .bounds       = 1,
     .keys         = { HYPR(KC_L) },
 };
 
-const dvorak_node_t dvorak_139 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_203 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_D,
     .bounds       = 1,
     .keys         = { HYPR(KC_D) },
 };
 
-const dvorak_node_t dvorak_140 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_204 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_H,
     .bounds       = 1,
     .keys         = { HYPR(KC_H) },
 };
 
-const dvorak_node_t dvorak_141 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_205 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_T,
     .bounds       = 1,
     .keys         = { HYPR(KC_T) },
 };
 
-const dvorak_node_t dvorak_142 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_206 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_N,
     .bounds       = 1,
     .keys         = { HYPR(KC_N) },
 };
 
-const dvorak_node_t dvorak_143 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_207 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_S,
     .bounds       = 1,
     .keys         = { HYPR(KC_S) },
 };
 
-const dvorak_node_t dvorak_144 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_208 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_B,
     .bounds       = 1,
     .keys         = { HYPR(KC_B) },
 };
 
-const dvorak_node_t dvorak_145 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_209 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_M,
     .bounds       = 1,
     .keys         = { HYPR(KC_M) },
 };
 
-const dvorak_node_t dvorak_146 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_210 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_W,
     .bounds       = 1,
     .keys         = { HYPR(KC_W) },
 };
 
-const dvorak_node_t dvorak_147 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_211 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_V,
     .bounds       = 1,
     .keys         = { HYPR(KC_V) },
 };
 
-const dvorak_node_t dvorak_148 = {
-    .parent       = &dvorak_133,
+const dvorak_node_t dvorak_212 = {
+    .parent       = &dvorak_197,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Z,
     .bounds       = 1,
     .keys         = { HYPR(KC_Z) },
 };
 
-const dvorak_node_t dvorak_149 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_213 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_I,
     .bounds       = 1,
     .keys         = { S(KC_I) },
 };
 
-const dvorak_node_t dvorak_150 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_214 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_D,
     .bounds       = 1,
     .keys         = { S(KC_D) },
 };
 
-const dvorak_node_t dvorak_151 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_215 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_H,
     .bounds       = 1,
     .keys         = { S(KC_H) },
 };
 
-const dvorak_node_t dvorak_152 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_216 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_T,
     .bounds       = 1,
     .keys         = { S(KC_T) },
 };
 
-const dvorak_node_t dvorak_153 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_217 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_N,
     .bounds       = 1,
     .keys         = { S(KC_N) },
 };
 
-const dvorak_node_t dvorak_154 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_218 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_S,
     .bounds       = 1,
     .keys         = { S(KC_S) },
 };
 
-const dvorak_node_t dvorak_155 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_219 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_SCLN,
     .bounds       = 1,
     .keys         = { S(KC_SCLN) },
 };
 
-const dvorak_node_t dvorak_156 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_220 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Q,
     .bounds       = 1,
     .keys         = { S(KC_Q) },
 };
 
-const dvorak_node_t dvorak_157 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_221 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_J,
     .bounds       = 1,
     .keys         = { S(KC_J) },
 };
 
-const dvorak_node_t dvorak_158 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_222 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_K,
     .bounds       = 1,
     .keys         = { S(KC_K) },
 };
 
-const dvorak_node_t dvorak_159 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_223 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_X,
     .bounds       = 1,
     .keys         = { S(KC_X) },
 };
 
-const dvorak_node_t dvorak_160 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_224 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_B,
     .bounds       = 1,
     .keys         = { S(KC_B) },
 };
 
-const dvorak_node_t dvorak_161 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_225 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_M,
     .bounds       = 1,
     .keys         = { S(KC_M) },
 };
 
-const dvorak_node_t dvorak_162 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_226 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_W,
     .bounds       = 1,
     .keys         = { S(KC_W) },
 };
 
-const dvorak_node_t dvorak_163 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_227 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_V,
     .bounds       = 1,
     .keys         = { S(KC_V) },
 };
 
-const dvorak_node_t dvorak_164 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_228 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Z,
     .bounds       = 1,
     .keys         = { S(KC_Z) },
 };
 
-const dvorak_node_t dvorak_165 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_229 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_LSFT1,
     .bounds       = 1,
     .keys         = { S(KC_BSPC) },
 };
 
-const dvorak_node_t dvorak_166 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_230 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_LSFT2,
     .bounds       = 1,
     .keys         = { S(KC_SPC) },
 };
 
-const dvorak_node_t dvorak_167 = {
-    .parent       = &dvorak_121,
+const dvorak_node_t dvorak_231 = {
+    .parent       = &dvorak_185,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_RSFT2,
     .bounds       = 1,
     .keys         = { S(KC_ENT) },
 };
 
-const dvorak_node_t dvorak_168 = {
-    .parent       = &dvorak_121,
-    .next_node    = &dvorak_2_next_node,
+const dvorak_node_t dvorak_232 = {
+    .parent       = &dvorak_185,
+    .next_node    = &dvorak_232_next_node,
     .key          = DV_RSFT1,
     .bounds       = 1,
     .keys         = { S(KC_TAB) },
 };
 
-const dvorak_node_t dvorak_169 = {
-    .parent       = &dvorak_120,
-    .next_node    = &dvorak_169_next_node,
-    .key          = DV_U,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_170 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_F,
-    .bounds       = 1,
-    .keys         = { C(KC_F) },
-};
-
-const dvorak_node_t dvorak_171 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_G,
-    .bounds       = 1,
-    .keys         = { C(KC_G) },
-};
-
-const dvorak_node_t dvorak_172 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_C,
-    .bounds       = 1,
-    .keys         = { C(KC_C) },
-};
-
-const dvorak_node_t dvorak_173 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_R,
-    .bounds       = 1,
-    .keys         = { C(KC_R) },
-};
-
-const dvorak_node_t dvorak_174 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_L,
-    .bounds       = 1,
-    .keys         = { C(KC_L) },
-};
-
-const dvorak_node_t dvorak_175 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_D,
-    .bounds       = 1,
-    .keys         = { C(KC_D) },
-};
-
-const dvorak_node_t dvorak_176 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_H,
-    .bounds       = 1,
-    .keys         = { C(KC_H) },
-};
-
-const dvorak_node_t dvorak_177 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_T,
-    .bounds       = 1,
-    .keys         = { C(KC_T) },
-};
-
-const dvorak_node_t dvorak_178 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_N,
-    .bounds       = 1,
-    .keys         = { C(KC_N) },
-};
-
-const dvorak_node_t dvorak_179 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_S,
-    .bounds       = 1,
-    .keys         = { C(KC_S) },
-};
-
-const dvorak_node_t dvorak_180 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
-    .bounds       = 1,
-    .keys         = { C(KC_B) },
-};
-
-const dvorak_node_t dvorak_181 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
-    .bounds       = 1,
-    .keys         = { C(KC_M) },
-};
-
-const dvorak_node_t dvorak_182 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
-    .bounds       = 1,
-    .keys         = { C(KC_W) },
-};
-
-const dvorak_node_t dvorak_183 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
-    .bounds       = 1,
-    .keys         = { C(KC_V) },
-};
-
-const dvorak_node_t dvorak_184 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Z,
-    .bounds       = 1,
-    .keys         = { C(KC_Z) },
-};
-
-const dvorak_node_t dvorak_185 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_RSFT2,
-    .bounds       = 1,
-    .keys         = { C(KC_ENT) },
-};
-
-const dvorak_node_t dvorak_186 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_RSFT1,
-    .bounds       = 1,
-    .keys         = { C(KC_TAB) },
-};
-
-const dvorak_node_t dvorak_187 = {
-    .parent       = &dvorak_169,
-    .next_node    = &dvorak_187_next_node,
-    .key          = DV_O,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_188 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_F,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_F) },
-};
-
-const dvorak_node_t dvorak_189 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_G,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_G) },
-};
-
-const dvorak_node_t dvorak_190 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_C,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_C) },
-};
-
-const dvorak_node_t dvorak_191 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_R,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_R) },
-};
-
-const dvorak_node_t dvorak_192 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_L,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_L) },
-};
-
-const dvorak_node_t dvorak_193 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_D,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_D) },
-};
-
-const dvorak_node_t dvorak_194 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_H,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_H) },
-};
-
-const dvorak_node_t dvorak_195 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_T,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_T) },
-};
-
-const dvorak_node_t dvorak_196 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_N,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_N) },
-};
-
-const dvorak_node_t dvorak_197 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_S,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_S) },
-};
-
-const dvorak_node_t dvorak_198 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_B) },
-};
-
-const dvorak_node_t dvorak_199 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_M) },
-};
-
-const dvorak_node_t dvorak_200 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_W) },
-};
-
-const dvorak_node_t dvorak_201 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_V) },
-};
-
-const dvorak_node_t dvorak_202 = {
-    .parent       = &dvorak_187,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Z,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_Z) },
-};
-
-const dvorak_node_t dvorak_203 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_203_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { KC_U },
-};
-
-const dvorak_node_t dvorak_204 = {
-    .parent       = &dvorak_203,
-    .next_node    = &dvorak_204_next_node,
-    .key          = DV_E,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_205 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_F,
-    .bounds       = 1,
-    .keys         = { C(KC_F) },
-};
-
-const dvorak_node_t dvorak_206 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_G,
-    .bounds       = 1,
-    .keys         = { C(KC_G) },
-};
-
-const dvorak_node_t dvorak_207 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_C,
-    .bounds       = 1,
-    .keys         = { C(KC_C) },
-};
-
-const dvorak_node_t dvorak_208 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_R,
-    .bounds       = 1,
-    .keys         = { C(KC_R) },
-};
-
-const dvorak_node_t dvorak_209 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_L,
-    .bounds       = 1,
-    .keys         = { C(KC_L) },
-};
-
-const dvorak_node_t dvorak_210 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_D,
-    .bounds       = 1,
-    .keys         = { C(KC_D) },
-};
-
-const dvorak_node_t dvorak_211 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_H,
-    .bounds       = 1,
-    .keys         = { C(KC_H) },
-};
-
-const dvorak_node_t dvorak_212 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_T,
-    .bounds       = 1,
-    .keys         = { C(KC_T) },
-};
-
-const dvorak_node_t dvorak_213 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_N,
-    .bounds       = 1,
-    .keys         = { C(KC_N) },
-};
-
-const dvorak_node_t dvorak_214 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_S,
-    .bounds       = 1,
-    .keys         = { C(KC_S) },
-};
-
-const dvorak_node_t dvorak_215 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
-    .bounds       = 1,
-    .keys         = { C(KC_B) },
-};
-
-const dvorak_node_t dvorak_216 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
-    .bounds       = 1,
-    .keys         = { C(KC_M) },
-};
-
-const dvorak_node_t dvorak_217 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
-    .bounds       = 1,
-    .keys         = { C(KC_W) },
-};
-
-const dvorak_node_t dvorak_218 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
-    .bounds       = 1,
-    .keys         = { C(KC_V) },
-};
-
-const dvorak_node_t dvorak_219 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Z,
-    .bounds       = 1,
-    .keys         = { C(KC_Z) },
-};
-
-const dvorak_node_t dvorak_220 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_RSFT2,
-    .bounds       = 1,
-    .keys         = { C(KC_ENT) },
-};
-
-const dvorak_node_t dvorak_221 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_RSFT1,
-    .bounds       = 1,
-    .keys         = { C(KC_TAB) },
-};
-
-const dvorak_node_t dvorak_222 = {
-    .parent       = &dvorak_204,
-    .next_node    = &dvorak_222_next_node,
-    .key          = DV_O,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_223 = {
-    .parent       = &dvorak_222,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_F,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_F) },
-};
-
-const dvorak_node_t dvorak_224 = {
-    .parent       = &dvorak_222,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_G,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_G) },
-};
-
-const dvorak_node_t dvorak_225 = {
-    .parent       = &dvorak_222,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_C,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_C) },
-};
-
-const dvorak_node_t dvorak_226 = {
-    .parent       = &dvorak_222,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_R,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_R) },
-};
-
-const dvorak_node_t dvorak_227 = {
-    .parent       = &dvorak_222,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_L,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_L) },
-};
-
-const dvorak_node_t dvorak_228 = {
-    .parent       = &dvorak_222,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_D,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_D) },
-};
-
-const dvorak_node_t dvorak_229 = {
-    .parent       = &dvorak_222,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_H,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_H) },
-};
-
-const dvorak_node_t dvorak_230 = {
-    .parent       = &dvorak_222,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_T,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_T) },
-};
-
-const dvorak_node_t dvorak_231 = {
-    .parent       = &dvorak_222,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_N,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_N) },
-};
-
-const dvorak_node_t dvorak_232 = {
-    .parent       = &dvorak_222,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_S,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_S) },
-};
-
 const dvorak_node_t dvorak_233 = {
-    .parent       = &dvorak_222,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
+    .key          = DV_QUOT,
     .bounds       = 1,
-    .keys         = { HYPR(KC_B) },
+    .keys         = { S(G(KC_QUOT)) },
 };
 
 const dvorak_node_t dvorak_234 = {
-    .parent       = &dvorak_222,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
+    .key          = DV_COMM,
     .bounds       = 1,
-    .keys         = { HYPR(KC_M) },
+    .keys         = { S(G(KC_COMM)) },
 };
 
 const dvorak_node_t dvorak_235 = {
-    .parent       = &dvorak_222,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
+    .key          = DV_DOT,
     .bounds       = 1,
-    .keys         = { HYPR(KC_W) },
+    .keys         = { S(G(KC_DOT)) },
 };
 
 const dvorak_node_t dvorak_236 = {
-    .parent       = &dvorak_222,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
+    .key          = DV_P,
     .bounds       = 1,
-    .keys         = { HYPR(KC_V) },
+    .keys         = { S(G(KC_P)) },
 };
 
 const dvorak_node_t dvorak_237 = {
-    .parent       = &dvorak_222,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_Z,
+    .key          = DV_Y,
     .bounds       = 1,
-    .keys         = { HYPR(KC_Z) },
+    .keys         = { S(G(KC_Y)) },
 };
 
 const dvorak_node_t dvorak_238 = {
-    .parent       = &dvorak_203,
-    .next_node    = &dvorak_238_next_node,
-    .key          = DV_O,
-    .bounds       = 0,
-    .keys         = {},
+    .parent       = &dvorak_232,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { S(G(KC_F)) },
 };
 
 const dvorak_node_t dvorak_239 = {
-    .parent       = &dvorak_238,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_G,
     .bounds       = 1,
-    .keys         = { KC_AT },
+    .keys         = { S(G(KC_G)) },
 };
 
 const dvorak_node_t dvorak_240 = {
-    .parent       = &dvorak_238,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_C,
     .bounds       = 1,
-    .keys         = { KC_TILD },
+    .keys         = { S(G(KC_C)) },
 };
 
 const dvorak_node_t dvorak_241 = {
-    .parent       = &dvorak_238,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_R,
     .bounds       = 1,
-    .keys         = { KC_PERC },
+    .keys         = { S(G(KC_R)) },
 };
 
 const dvorak_node_t dvorak_242 = {
-    .parent       = &dvorak_238,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_L,
     .bounds       = 1,
-    .keys         = { KC_DLR },
+    .keys         = { S(G(KC_L)) },
 };
 
 const dvorak_node_t dvorak_243 = {
-    .parent       = &dvorak_238,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_D,
+    .key          = DV_A,
     .bounds       = 1,
-    .keys         = { KC_RCBR },
+    .keys         = { S(G(KC_A)) },
 };
 
 const dvorak_node_t dvorak_244 = {
-    .parent       = &dvorak_238,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_H,
+    .key          = DV_U,
     .bounds       = 1,
-    .keys         = { KC_RBRC },
+    .keys         = { S(G(KC_U)) },
 };
 
 const dvorak_node_t dvorak_245 = {
-    .parent       = &dvorak_238,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_T,
+    .key          = DV_I,
     .bounds       = 1,
-    .keys         = { KC_RPRN },
+    .keys         = { S(G(KC_I)) },
 };
 
 const dvorak_node_t dvorak_246 = {
-    .parent       = &dvorak_238,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_N,
-    .bounds       = 1,
-    .keys         = { KC_EXLM },
-};
-
-const dvorak_node_t dvorak_247 = {
-    .parent       = &dvorak_238,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
-    .bounds       = 1,
-    .keys         = { KC_UNDS },
-};
-
-const dvorak_node_t dvorak_248 = {
-    .parent       = &dvorak_238,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
-    .bounds       = 1,
-    .keys         = { KC_MINS },
-};
-
-const dvorak_node_t dvorak_249 = {
-    .parent       = &dvorak_238,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
-    .bounds       = 1,
-    .keys         = { KC_ASTR },
-};
-
-const dvorak_node_t dvorak_250 = {
-    .parent       = &dvorak_238,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
-    .bounds       = 1,
-    .keys         = { KC_CIRC },
-};
-
-const dvorak_node_t dvorak_251 = {
-    .parent       = &dvorak_238,
-    .next_node    = &dvorak_251_next_node,
-    .key          = DV_LSFT2,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_252 = {
-    .parent       = &dvorak_251,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_G,
-    .bounds       = 1,
-    .keys         = { C(KC_AT) },
-};
-
-const dvorak_node_t dvorak_253 = {
-    .parent       = &dvorak_251,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_C,
-    .bounds       = 1,
-    .keys         = { C(KC_TILD) },
-};
-
-const dvorak_node_t dvorak_254 = {
-    .parent       = &dvorak_251,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_R,
-    .bounds       = 1,
-    .keys         = { C(KC_PERC) },
-};
-
-const dvorak_node_t dvorak_255 = {
-    .parent       = &dvorak_251,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_L,
-    .bounds       = 1,
-    .keys         = { C(KC_DLR) },
-};
-
-const dvorak_node_t dvorak_256 = {
-    .parent       = &dvorak_251,
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_D,
     .bounds       = 1,
-    .keys         = { C(KC_RCBR) },
+    .keys         = { S(G(KC_D)) },
 };
 
-const dvorak_node_t dvorak_257 = {
-    .parent       = &dvorak_251,
+const dvorak_node_t dvorak_247 = {
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_H,
     .bounds       = 1,
-    .keys         = { C(KC_RBRC) },
+    .keys         = { S(G(KC_H)) },
 };
 
-const dvorak_node_t dvorak_258 = {
-    .parent       = &dvorak_251,
+const dvorak_node_t dvorak_248 = {
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_T,
     .bounds       = 1,
-    .keys         = { C(KC_RPRN) },
+    .keys         = { S(G(KC_T)) },
 };
 
-const dvorak_node_t dvorak_259 = {
-    .parent       = &dvorak_251,
+const dvorak_node_t dvorak_249 = {
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_N,
     .bounds       = 1,
-    .keys         = { C(KC_EXLM) },
+    .keys         = { S(G(KC_N)) },
 };
 
-const dvorak_node_t dvorak_260 = {
-    .parent       = &dvorak_251,
+const dvorak_node_t dvorak_250 = {
+    .parent       = &dvorak_232,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { S(G(KC_S)) },
+};
+
+const dvorak_node_t dvorak_251 = {
+    .parent       = &dvorak_232,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SCLN)) },
+};
+
+const dvorak_node_t dvorak_252 = {
+    .parent       = &dvorak_232,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Q)) },
+};
+
+const dvorak_node_t dvorak_253 = {
+    .parent       = &dvorak_232,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { S(G(KC_J)) },
+};
+
+const dvorak_node_t dvorak_254 = {
+    .parent       = &dvorak_232,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { S(G(KC_K)) },
+};
+
+const dvorak_node_t dvorak_255 = {
+    .parent       = &dvorak_232,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { S(G(KC_X)) },
+};
+
+const dvorak_node_t dvorak_256 = {
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_B,
     .bounds       = 1,
-    .keys         = { C(KC_UNDS) },
+    .keys         = { S(G(KC_B)) },
 };
 
-const dvorak_node_t dvorak_261 = {
-    .parent       = &dvorak_251,
+const dvorak_node_t dvorak_257 = {
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_M,
     .bounds       = 1,
-    .keys         = { C(KC_MINS) },
+    .keys         = { S(G(KC_M)) },
 };
 
-const dvorak_node_t dvorak_262 = {
-    .parent       = &dvorak_251,
+const dvorak_node_t dvorak_258 = {
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_W,
     .bounds       = 1,
-    .keys         = { C(KC_ASTR) },
+    .keys         = { S(G(KC_W)) },
 };
 
-const dvorak_node_t dvorak_263 = {
-    .parent       = &dvorak_251,
+const dvorak_node_t dvorak_259 = {
+    .parent       = &dvorak_232,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_V,
     .bounds       = 1,
-    .keys         = { C(KC_CIRC) },
+    .keys         = { S(G(KC_V)) },
+};
+
+const dvorak_node_t dvorak_260 = {
+    .parent       = &dvorak_232,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Z)) },
+};
+
+const dvorak_node_t dvorak_261 = {
+    .parent       = &dvorak_232,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { S(G(KC_BSPC)) },
+};
+
+const dvorak_node_t dvorak_262 = {
+    .parent       = &dvorak_232,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SPC)) },
+};
+
+const dvorak_node_t dvorak_263 = {
+    .parent       = &dvorak_232,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_ENT)) },
 };
 
 const dvorak_node_t dvorak_264 = {
-    .parent       = &dvorak_238,
+    .parent       = &dvorak_184,
     .next_node    = &dvorak_264_next_node,
-    .key          = DV_E,
+    .key          = DV_U,
     .bounds       = 0,
     .keys         = {},
 };
@@ -4101,7 +4989,7 @@ const dvorak_node_t dvorak_265 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_F,
     .bounds       = 1,
-    .keys         = { HYPR(KC_F) },
+    .keys         = { C(KC_F) },
 };
 
 const dvorak_node_t dvorak_266 = {
@@ -4109,7 +4997,7 @@ const dvorak_node_t dvorak_266 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_G,
     .bounds       = 1,
-    .keys         = { HYPR(KC_G) },
+    .keys         = { C(KC_G) },
 };
 
 const dvorak_node_t dvorak_267 = {
@@ -4117,7 +5005,7 @@ const dvorak_node_t dvorak_267 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_C,
     .bounds       = 1,
-    .keys         = { HYPR(KC_C) },
+    .keys         = { C(KC_C) },
 };
 
 const dvorak_node_t dvorak_268 = {
@@ -4125,7 +5013,7 @@ const dvorak_node_t dvorak_268 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_R,
     .bounds       = 1,
-    .keys         = { HYPR(KC_R) },
+    .keys         = { C(KC_R) },
 };
 
 const dvorak_node_t dvorak_269 = {
@@ -4133,7 +5021,7 @@ const dvorak_node_t dvorak_269 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_L,
     .bounds       = 1,
-    .keys         = { HYPR(KC_L) },
+    .keys         = { C(KC_L) },
 };
 
 const dvorak_node_t dvorak_270 = {
@@ -4141,7 +5029,7 @@ const dvorak_node_t dvorak_270 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_D,
     .bounds       = 1,
-    .keys         = { HYPR(KC_D) },
+    .keys         = { C(KC_D) },
 };
 
 const dvorak_node_t dvorak_271 = {
@@ -4149,7 +5037,7 @@ const dvorak_node_t dvorak_271 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_H,
     .bounds       = 1,
-    .keys         = { HYPR(KC_H) },
+    .keys         = { C(KC_H) },
 };
 
 const dvorak_node_t dvorak_272 = {
@@ -4157,7 +5045,7 @@ const dvorak_node_t dvorak_272 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_T,
     .bounds       = 1,
-    .keys         = { HYPR(KC_T) },
+    .keys         = { C(KC_T) },
 };
 
 const dvorak_node_t dvorak_273 = {
@@ -4165,7 +5053,7 @@ const dvorak_node_t dvorak_273 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_N,
     .bounds       = 1,
-    .keys         = { HYPR(KC_N) },
+    .keys         = { C(KC_N) },
 };
 
 const dvorak_node_t dvorak_274 = {
@@ -4173,7 +5061,7 @@ const dvorak_node_t dvorak_274 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_S,
     .bounds       = 1,
-    .keys         = { HYPR(KC_S) },
+    .keys         = { C(KC_S) },
 };
 
 const dvorak_node_t dvorak_275 = {
@@ -4181,7 +5069,7 @@ const dvorak_node_t dvorak_275 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_B,
     .bounds       = 1,
-    .keys         = { HYPR(KC_B) },
+    .keys         = { C(KC_B) },
 };
 
 const dvorak_node_t dvorak_276 = {
@@ -4189,7 +5077,7 @@ const dvorak_node_t dvorak_276 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_M,
     .bounds       = 1,
-    .keys         = { HYPR(KC_M) },
+    .keys         = { C(KC_M) },
 };
 
 const dvorak_node_t dvorak_277 = {
@@ -4197,7 +5085,7 @@ const dvorak_node_t dvorak_277 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_W,
     .bounds       = 1,
-    .keys         = { HYPR(KC_W) },
+    .keys         = { C(KC_W) },
 };
 
 const dvorak_node_t dvorak_278 = {
@@ -4205,7 +5093,7 @@ const dvorak_node_t dvorak_278 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_V,
     .bounds       = 1,
-    .keys         = { HYPR(KC_V) },
+    .keys         = { C(KC_V) },
 };
 
 const dvorak_node_t dvorak_279 = {
@@ -4213,909 +5101,909 @@ const dvorak_node_t dvorak_279 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Z,
     .bounds       = 1,
-    .keys         = { HYPR(KC_Z) },
+    .keys         = { C(KC_Z) },
 };
 
 const dvorak_node_t dvorak_280 = {
-    .parent       = &dvorak_203,
-    .next_node    = &dvorak_280_next_node,
-    .key          = DV_LSFT2,
-    .bounds       = 0,
-    .keys         = {},
+    .parent       = &dvorak_264,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { C(KC_ENT) },
 };
 
 const dvorak_node_t dvorak_281 = {
-    .parent       = &dvorak_280,
-    .next_node    = &dvorak_281_next_node,
+    .parent       = &dvorak_264,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT1,
+    .bounds       = 1,
+    .keys         = { C(KC_TAB) },
+};
+
+const dvorak_node_t dvorak_282 = {
+    .parent       = &dvorak_264,
+    .next_node    = &dvorak_282_next_node,
     .key          = DV_O,
     .bounds       = 0,
     .keys         = {},
 };
 
-const dvorak_node_t dvorak_282 = {
-    .parent       = &dvorak_281,
+const dvorak_node_t dvorak_283 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_F) },
+};
+
+const dvorak_node_t dvorak_284 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_G) },
+};
+
+const dvorak_node_t dvorak_285 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_C) },
+};
+
+const dvorak_node_t dvorak_286 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_R) },
+};
+
+const dvorak_node_t dvorak_287 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_L) },
+};
+
+const dvorak_node_t dvorak_288 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_D) },
+};
+
+const dvorak_node_t dvorak_289 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_H) },
+};
+
+const dvorak_node_t dvorak_290 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_T) },
+};
+
+const dvorak_node_t dvorak_291 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_N) },
+};
+
+const dvorak_node_t dvorak_292 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_S) },
+};
+
+const dvorak_node_t dvorak_293 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_B) },
+};
+
+const dvorak_node_t dvorak_294 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_M) },
+};
+
+const dvorak_node_t dvorak_295 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_W) },
+};
+
+const dvorak_node_t dvorak_296 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_V) },
+};
+
+const dvorak_node_t dvorak_297 = {
+    .parent       = &dvorak_282,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_Z) },
+};
+
+const dvorak_node_t dvorak_298 = {
+    .parent       = &dvorak_184,
+    .next_node    = &dvorak_298_next_node,
+    .key          = DV_RSFT1,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_299 = {
+    .parent       = &dvorak_298,
+    .next_node    = &dvorak_299_next_node,
+    .key          = DV_O,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_300 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_QUOT)) },
+};
+
+const dvorak_node_t dvorak_301 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { S(G(KC_COMM)) },
+};
+
+const dvorak_node_t dvorak_302 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_DOT)) },
+};
+
+const dvorak_node_t dvorak_303 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { S(G(KC_P)) },
+};
+
+const dvorak_node_t dvorak_304 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Y)) },
+};
+
+const dvorak_node_t dvorak_305 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { S(G(KC_F)) },
+};
+
+const dvorak_node_t dvorak_306 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { S(G(KC_G)) },
+};
+
+const dvorak_node_t dvorak_307 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { S(G(KC_C)) },
+};
+
+const dvorak_node_t dvorak_308 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { S(G(KC_R)) },
+};
+
+const dvorak_node_t dvorak_309 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { S(G(KC_L)) },
+};
+
+const dvorak_node_t dvorak_310 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { S(G(KC_A)) },
+};
+
+const dvorak_node_t dvorak_311 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { S(G(KC_U)) },
+};
+
+const dvorak_node_t dvorak_312 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { S(G(KC_I)) },
+};
+
+const dvorak_node_t dvorak_313 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { S(G(KC_D)) },
+};
+
+const dvorak_node_t dvorak_314 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { S(G(KC_H)) },
+};
+
+const dvorak_node_t dvorak_315 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { S(G(KC_T)) },
+};
+
+const dvorak_node_t dvorak_316 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { S(G(KC_N)) },
+};
+
+const dvorak_node_t dvorak_317 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { S(G(KC_S)) },
+};
+
+const dvorak_node_t dvorak_318 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SCLN)) },
+};
+
+const dvorak_node_t dvorak_319 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Q)) },
+};
+
+const dvorak_node_t dvorak_320 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { S(G(KC_J)) },
+};
+
+const dvorak_node_t dvorak_321 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { S(G(KC_K)) },
+};
+
+const dvorak_node_t dvorak_322 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { S(G(KC_X)) },
+};
+
+const dvorak_node_t dvorak_323 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { S(G(KC_B)) },
+};
+
+const dvorak_node_t dvorak_324 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { S(G(KC_M)) },
+};
+
+const dvorak_node_t dvorak_325 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { S(G(KC_W)) },
+};
+
+const dvorak_node_t dvorak_326 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { S(G(KC_V)) },
+};
+
+const dvorak_node_t dvorak_327 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Z)) },
+};
+
+const dvorak_node_t dvorak_328 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { S(G(KC_BSPC)) },
+};
+
+const dvorak_node_t dvorak_329 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SPC)) },
+};
+
+const dvorak_node_t dvorak_330 = {
+    .parent       = &dvorak_299,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_ENT)) },
+};
+
+const dvorak_node_t dvorak_331 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_331_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { KC_U },
+};
+
+const dvorak_node_t dvorak_332 = {
+    .parent       = &dvorak_331,
+    .next_node    = &dvorak_332_next_node,
+    .key          = DV_E,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_333 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { C(KC_F) },
+};
+
+const dvorak_node_t dvorak_334 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { C(KC_G) },
+};
+
+const dvorak_node_t dvorak_335 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { C(KC_C) },
+};
+
+const dvorak_node_t dvorak_336 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { C(KC_R) },
+};
+
+const dvorak_node_t dvorak_337 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { C(KC_L) },
+};
+
+const dvorak_node_t dvorak_338 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { C(KC_D) },
+};
+
+const dvorak_node_t dvorak_339 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { C(KC_H) },
+};
+
+const dvorak_node_t dvorak_340 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { C(KC_T) },
+};
+
+const dvorak_node_t dvorak_341 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { C(KC_N) },
+};
+
+const dvorak_node_t dvorak_342 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { C(KC_S) },
+};
+
+const dvorak_node_t dvorak_343 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { C(KC_B) },
+};
+
+const dvorak_node_t dvorak_344 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { C(KC_M) },
+};
+
+const dvorak_node_t dvorak_345 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { C(KC_W) },
+};
+
+const dvorak_node_t dvorak_346 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { C(KC_V) },
+};
+
+const dvorak_node_t dvorak_347 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { C(KC_Z) },
+};
+
+const dvorak_node_t dvorak_348 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { C(KC_ENT) },
+};
+
+const dvorak_node_t dvorak_349 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT1,
+    .bounds       = 1,
+    .keys         = { C(KC_TAB) },
+};
+
+const dvorak_node_t dvorak_350 = {
+    .parent       = &dvorak_332,
+    .next_node    = &dvorak_350_next_node,
+    .key          = DV_O,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_351 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_F) },
+};
+
+const dvorak_node_t dvorak_352 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_G) },
+};
+
+const dvorak_node_t dvorak_353 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_C) },
+};
+
+const dvorak_node_t dvorak_354 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_R) },
+};
+
+const dvorak_node_t dvorak_355 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_L) },
+};
+
+const dvorak_node_t dvorak_356 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_D) },
+};
+
+const dvorak_node_t dvorak_357 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_H) },
+};
+
+const dvorak_node_t dvorak_358 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_T) },
+};
+
+const dvorak_node_t dvorak_359 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_N) },
+};
+
+const dvorak_node_t dvorak_360 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_S) },
+};
+
+const dvorak_node_t dvorak_361 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_B) },
+};
+
+const dvorak_node_t dvorak_362 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_M) },
+};
+
+const dvorak_node_t dvorak_363 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_W) },
+};
+
+const dvorak_node_t dvorak_364 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_V) },
+};
+
+const dvorak_node_t dvorak_365 = {
+    .parent       = &dvorak_350,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_Z) },
+};
+
+const dvorak_node_t dvorak_366 = {
+    .parent       = &dvorak_331,
+    .next_node    = &dvorak_366_next_node,
+    .key          = DV_O,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_367 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { KC_AT },
+};
+
+const dvorak_node_t dvorak_368 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { KC_TILD },
+};
+
+const dvorak_node_t dvorak_369 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { KC_PERC },
+};
+
+const dvorak_node_t dvorak_370 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { KC_DLR },
+};
+
+const dvorak_node_t dvorak_371 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { KC_RCBR },
+};
+
+const dvorak_node_t dvorak_372 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { KC_RBRC },
+};
+
+const dvorak_node_t dvorak_373 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { KC_RPRN },
+};
+
+const dvorak_node_t dvorak_374 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { KC_EXLM },
+};
+
+const dvorak_node_t dvorak_375 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { KC_UNDS },
+};
+
+const dvorak_node_t dvorak_376 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { KC_MINS },
+};
+
+const dvorak_node_t dvorak_377 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { KC_ASTR },
+};
+
+const dvorak_node_t dvorak_378 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { KC_CIRC },
+};
+
+const dvorak_node_t dvorak_379 = {
+    .parent       = &dvorak_366,
+    .next_node    = &dvorak_379_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_380 = {
+    .parent       = &dvorak_379,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_G,
     .bounds       = 1,
     .keys         = { C(KC_AT) },
 };
 
-const dvorak_node_t dvorak_283 = {
-    .parent       = &dvorak_281,
+const dvorak_node_t dvorak_381 = {
+    .parent       = &dvorak_379,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_C,
     .bounds       = 1,
     .keys         = { C(KC_TILD) },
 };
 
-const dvorak_node_t dvorak_284 = {
-    .parent       = &dvorak_281,
+const dvorak_node_t dvorak_382 = {
+    .parent       = &dvorak_379,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_R,
     .bounds       = 1,
     .keys         = { C(KC_PERC) },
 };
 
-const dvorak_node_t dvorak_285 = {
-    .parent       = &dvorak_281,
+const dvorak_node_t dvorak_383 = {
+    .parent       = &dvorak_379,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_L,
     .bounds       = 1,
     .keys         = { C(KC_DLR) },
 };
 
-const dvorak_node_t dvorak_286 = {
-    .parent       = &dvorak_281,
+const dvorak_node_t dvorak_384 = {
+    .parent       = &dvorak_379,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_D,
     .bounds       = 1,
     .keys         = { C(KC_RCBR) },
 };
 
-const dvorak_node_t dvorak_287 = {
-    .parent       = &dvorak_281,
+const dvorak_node_t dvorak_385 = {
+    .parent       = &dvorak_379,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_H,
     .bounds       = 1,
     .keys         = { C(KC_RBRC) },
 };
 
-const dvorak_node_t dvorak_288 = {
-    .parent       = &dvorak_281,
+const dvorak_node_t dvorak_386 = {
+    .parent       = &dvorak_379,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_T,
     .bounds       = 1,
     .keys         = { C(KC_RPRN) },
 };
 
-const dvorak_node_t dvorak_289 = {
-    .parent       = &dvorak_281,
+const dvorak_node_t dvorak_387 = {
+    .parent       = &dvorak_379,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_N,
     .bounds       = 1,
     .keys         = { C(KC_EXLM) },
 };
 
-const dvorak_node_t dvorak_290 = {
-    .parent       = &dvorak_281,
+const dvorak_node_t dvorak_388 = {
+    .parent       = &dvorak_379,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_B,
     .bounds       = 1,
     .keys         = { C(KC_UNDS) },
 };
 
-const dvorak_node_t dvorak_291 = {
-    .parent       = &dvorak_281,
+const dvorak_node_t dvorak_389 = {
+    .parent       = &dvorak_379,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_M,
     .bounds       = 1,
     .keys         = { C(KC_MINS) },
 };
 
-const dvorak_node_t dvorak_292 = {
-    .parent       = &dvorak_281,
+const dvorak_node_t dvorak_390 = {
+    .parent       = &dvorak_379,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_W,
     .bounds       = 1,
     .keys         = { C(KC_ASTR) },
 };
 
-const dvorak_node_t dvorak_293 = {
-    .parent       = &dvorak_281,
+const dvorak_node_t dvorak_391 = {
+    .parent       = &dvorak_379,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_V,
     .bounds       = 1,
     .keys         = { C(KC_CIRC) },
 };
 
-const dvorak_node_t dvorak_294 = {
-    .parent       = &dvorak_203,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { KC_NO },
-};
-
-const dvorak_node_t dvorak_295 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_295_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { KC_I },
-};
-
-const dvorak_node_t dvorak_296 = {
-    .parent       = &dvorak_295,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { KC_NO },
-};
-
-const dvorak_node_t dvorak_297 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_297_next_node,
-    .key          = DV_D,
-    .bounds       = 1,
-    .keys         = { KC_D },
-};
-
-const dvorak_node_t dvorak_298 = {
-    .parent       = &dvorak_297,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_H,
-    .bounds       = 1,
-    .keys         = { KC_LANGUAGE_1 },
-};
-
-const dvorak_node_t dvorak_299 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_299_next_node,
-    .key          = DV_H,
-    .bounds       = 1,
-    .keys         = { KC_H },
-};
-
-const dvorak_node_t dvorak_300 = {
-    .parent       = &dvorak_299,
-    .next_node    = &dvorak_300_next_node,
-    .key          = DV_T,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_301 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
-    .bounds       = 1,
-    .keys         = { C(KC_QUOT) },
-};
-
-const dvorak_node_t dvorak_302 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
-    .bounds       = 1,
-    .keys         = { C(KC_COMM) },
-};
-
-const dvorak_node_t dvorak_303 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
-    .bounds       = 1,
-    .keys         = { C(KC_DOT) },
-};
-
-const dvorak_node_t dvorak_304 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
-    .bounds       = 1,
-    .keys         = { C(KC_P) },
-};
-
-const dvorak_node_t dvorak_305 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Y,
-    .bounds       = 1,
-    .keys         = { C(KC_Y) },
-};
-
-const dvorak_node_t dvorak_306 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_A,
-    .bounds       = 1,
-    .keys         = { C(KC_A) },
-};
-
-const dvorak_node_t dvorak_307 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
-    .bounds       = 1,
-    .keys         = { C(KC_O) },
-};
-
-const dvorak_node_t dvorak_308 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
-    .bounds       = 1,
-    .keys         = { C(KC_E) },
-};
-
-const dvorak_node_t dvorak_309 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { C(KC_U) },
-};
-
-const dvorak_node_t dvorak_310 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { C(KC_I) },
-};
-
-const dvorak_node_t dvorak_311 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_SCLN,
-    .bounds       = 1,
-    .keys         = { C(KC_SCLN) },
-};
-
-const dvorak_node_t dvorak_312 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
-    .bounds       = 1,
-    .keys         = { C(KC_Q) },
-};
-
-const dvorak_node_t dvorak_313 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
-    .bounds       = 1,
-    .keys         = { C(KC_J) },
-};
-
-const dvorak_node_t dvorak_314 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
-    .bounds       = 1,
-    .keys         = { C(KC_K) },
-};
-
-const dvorak_node_t dvorak_315 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
-    .bounds       = 1,
-    .keys         = { C(KC_X) },
-};
-
-const dvorak_node_t dvorak_316 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_LSFT1,
-    .bounds       = 1,
-    .keys         = { C(KC_BSPC) },
-};
-
-const dvorak_node_t dvorak_317 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_LSFT2,
-    .bounds       = 1,
-    .keys         = { C(KC_SPC) },
-};
-
-const dvorak_node_t dvorak_318 = {
-    .parent       = &dvorak_300,
-    .next_node    = &dvorak_318_next_node,
-    .key          = DV_N,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_319 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_QUOT) },
-};
-
-const dvorak_node_t dvorak_320 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_COMM) },
-};
-
-const dvorak_node_t dvorak_321 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_DOT) },
-};
-
-const dvorak_node_t dvorak_322 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_P) },
-};
-
-const dvorak_node_t dvorak_323 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Y,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_Y) },
-};
-
-const dvorak_node_t dvorak_324 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_A,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_A) },
-};
-
-const dvorak_node_t dvorak_325 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_O) },
-};
-
-const dvorak_node_t dvorak_326 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_E) },
-};
-
-const dvorak_node_t dvorak_327 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_U) },
-};
-
-const dvorak_node_t dvorak_328 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_I) },
-};
-
-const dvorak_node_t dvorak_329 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_SCLN,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_SCLN) },
-};
-
-const dvorak_node_t dvorak_330 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_Q) },
-};
-
-const dvorak_node_t dvorak_331 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_J) },
-};
-
-const dvorak_node_t dvorak_332 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_K) },
-};
-
-const dvorak_node_t dvorak_333 = {
-    .parent       = &dvorak_318,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_X) },
-};
-
-const dvorak_node_t dvorak_334 = {
-    .parent       = &dvorak_299,
-    .next_node    = &dvorak_334_next_node,
-    .key          = DV_N,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_335 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
-    .bounds       = 1,
-    .keys         = { KC_GRV },
-};
-
-const dvorak_node_t dvorak_336 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
-    .bounds       = 1,
-    .keys         = { KC_SLSH },
-};
-
-const dvorak_node_t dvorak_337 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
-    .bounds       = 1,
-    .keys         = { KC_HASH },
-};
-
-const dvorak_node_t dvorak_338 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
-    .bounds       = 1,
-    .keys         = { KC_AMPR },
-};
-
-const dvorak_node_t dvorak_339 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
-    .bounds       = 1,
-    .keys         = { KC_QUES },
-};
-
-const dvorak_node_t dvorak_340 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
-    .bounds       = 1,
-    .keys         = { KC_LPRN },
-};
-
-const dvorak_node_t dvorak_341 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { KC_LBRC },
-};
-
-const dvorak_node_t dvorak_342 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { KC_LCBR },
-};
-
-const dvorak_node_t dvorak_343 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
-    .bounds       = 1,
-    .keys         = { KC_BSLS },
-};
-
-const dvorak_node_t dvorak_344 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
-    .bounds       = 1,
-    .keys         = { KC_PIPE },
-};
-
-const dvorak_node_t dvorak_345 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
-    .bounds       = 1,
-    .keys         = { KC_PLUS },
-};
-
-const dvorak_node_t dvorak_346 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
-    .bounds       = 1,
-    .keys         = { KC_EQL },
-};
-
-const dvorak_node_t dvorak_347 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_347_next_node,
-    .key          = DV_RSFT2,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_348 = {
-    .parent       = &dvorak_347,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
-    .bounds       = 1,
-    .keys         = { C(KC_GRV) },
-};
-
-const dvorak_node_t dvorak_349 = {
-    .parent       = &dvorak_347,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
-    .bounds       = 1,
-    .keys         = { C(KC_SLSH) },
-};
-
-const dvorak_node_t dvorak_350 = {
-    .parent       = &dvorak_347,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
-    .bounds       = 1,
-    .keys         = { C(KC_HASH) },
-};
-
-const dvorak_node_t dvorak_351 = {
-    .parent       = &dvorak_347,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
-    .bounds       = 1,
-    .keys         = { C(KC_AMPR) },
-};
-
-const dvorak_node_t dvorak_352 = {
-    .parent       = &dvorak_347,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
-    .bounds       = 1,
-    .keys         = { C(KC_QUES) },
-};
-
-const dvorak_node_t dvorak_353 = {
-    .parent       = &dvorak_347,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
-    .bounds       = 1,
-    .keys         = { C(KC_LPRN) },
-};
-
-const dvorak_node_t dvorak_354 = {
-    .parent       = &dvorak_347,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { C(KC_LBRC) },
-};
-
-const dvorak_node_t dvorak_355 = {
-    .parent       = &dvorak_347,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { C(KC_LCBR) },
-};
-
-const dvorak_node_t dvorak_356 = {
-    .parent       = &dvorak_347,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
-    .bounds       = 1,
-    .keys         = { C(KC_BSLS) },
-};
-
-const dvorak_node_t dvorak_357 = {
-    .parent       = &dvorak_347,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
-    .bounds       = 1,
-    .keys         = { C(KC_PIPE) },
-};
-
-const dvorak_node_t dvorak_358 = {
-    .parent       = &dvorak_347,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
-    .bounds       = 1,
-    .keys         = { C(KC_PLUS) },
-};
-
-const dvorak_node_t dvorak_359 = {
-    .parent       = &dvorak_347,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
-    .bounds       = 1,
-    .keys         = { C(KC_EQL) },
-};
-
-const dvorak_node_t dvorak_360 = {
-    .parent       = &dvorak_334,
-    .next_node    = &dvorak_360_next_node,
-    .key          = DV_T,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_361 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_QUOT) },
-};
-
-const dvorak_node_t dvorak_362 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_COMM) },
-};
-
-const dvorak_node_t dvorak_363 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_DOT) },
-};
-
-const dvorak_node_t dvorak_364 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_P) },
-};
-
-const dvorak_node_t dvorak_365 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Y,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_Y) },
-};
-
-const dvorak_node_t dvorak_366 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_A,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_A) },
-};
-
-const dvorak_node_t dvorak_367 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_O) },
-};
-
-const dvorak_node_t dvorak_368 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_E) },
-};
-
-const dvorak_node_t dvorak_369 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_U) },
-};
-
-const dvorak_node_t dvorak_370 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_I) },
-};
-
-const dvorak_node_t dvorak_371 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_SCLN,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_SCLN) },
-};
-
-const dvorak_node_t dvorak_372 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_Q) },
-};
-
-const dvorak_node_t dvorak_373 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_J) },
-};
-
-const dvorak_node_t dvorak_374 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_K) },
-};
-
-const dvorak_node_t dvorak_375 = {
-    .parent       = &dvorak_360,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
-    .bounds       = 1,
-    .keys         = { HYPR(KC_X) },
-};
-
-const dvorak_node_t dvorak_376 = {
-    .parent       = &dvorak_299,
-    .next_node    = &dvorak_376_next_node,
-    .key          = DV_RSFT2,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_377 = {
-    .parent       = &dvorak_376,
-    .next_node    = &dvorak_377_next_node,
-    .key          = DV_N,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_378 = {
-    .parent       = &dvorak_377,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
-    .bounds       = 1,
-    .keys         = { C(KC_GRV) },
-};
-
-const dvorak_node_t dvorak_379 = {
-    .parent       = &dvorak_377,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
-    .bounds       = 1,
-    .keys         = { C(KC_SLSH) },
-};
-
-const dvorak_node_t dvorak_380 = {
-    .parent       = &dvorak_377,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
-    .bounds       = 1,
-    .keys         = { C(KC_HASH) },
-};
-
-const dvorak_node_t dvorak_381 = {
-    .parent       = &dvorak_377,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
-    .bounds       = 1,
-    .keys         = { C(KC_AMPR) },
-};
-
-const dvorak_node_t dvorak_382 = {
-    .parent       = &dvorak_377,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
-    .bounds       = 1,
-    .keys         = { C(KC_QUES) },
-};
-
-const dvorak_node_t dvorak_383 = {
-    .parent       = &dvorak_377,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
-    .bounds       = 1,
-    .keys         = { C(KC_LPRN) },
-};
-
-const dvorak_node_t dvorak_384 = {
-    .parent       = &dvorak_377,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { C(KC_LBRC) },
-};
-
-const dvorak_node_t dvorak_385 = {
-    .parent       = &dvorak_377,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { C(KC_LCBR) },
-};
-
-const dvorak_node_t dvorak_386 = {
-    .parent       = &dvorak_377,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
-    .bounds       = 1,
-    .keys         = { C(KC_BSLS) },
-};
-
-const dvorak_node_t dvorak_387 = {
-    .parent       = &dvorak_377,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
-    .bounds       = 1,
-    .keys         = { C(KC_PIPE) },
-};
-
-const dvorak_node_t dvorak_388 = {
-    .parent       = &dvorak_377,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
-    .bounds       = 1,
-    .keys         = { C(KC_PLUS) },
-};
-
-const dvorak_node_t dvorak_389 = {
-    .parent       = &dvorak_377,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
-    .bounds       = 1,
-    .keys         = { C(KC_EQL) },
-};
-
-const dvorak_node_t dvorak_390 = {
-    .parent       = &dvorak_299,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_D,
-    .bounds       = 1,
-    .keys         = { KC_LANGUAGE_1 },
-};
-
-const dvorak_node_t dvorak_391 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_391_next_node,
-    .key          = DV_T,
-    .bounds       = 1,
-    .keys         = { KC_T },
-};
-
 const dvorak_node_t dvorak_392 = {
-    .parent       = &dvorak_391,
+    .parent       = &dvorak_366,
     .next_node    = &dvorak_392_next_node,
-    .key          = DV_N,
+    .key          = DV_E,
     .bounds       = 0,
     .keys         = {},
 };
@@ -5123,663 +6011,663 @@ const dvorak_node_t dvorak_392 = {
 const dvorak_node_t dvorak_393 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
+    .key          = DV_F,
     .bounds       = 1,
-    .keys         = { S(KC_QUOT) },
+    .keys         = { HYPR(KC_F) },
 };
 
 const dvorak_node_t dvorak_394 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
+    .key          = DV_G,
     .bounds       = 1,
-    .keys         = { S(KC_COMM) },
+    .keys         = { HYPR(KC_G) },
 };
 
 const dvorak_node_t dvorak_395 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
+    .key          = DV_C,
     .bounds       = 1,
-    .keys         = { S(KC_DOT) },
+    .keys         = { HYPR(KC_C) },
 };
 
 const dvorak_node_t dvorak_396 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
+    .key          = DV_R,
     .bounds       = 1,
-    .keys         = { S(KC_P) },
+    .keys         = { HYPR(KC_R) },
 };
 
 const dvorak_node_t dvorak_397 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_Y,
+    .key          = DV_L,
     .bounds       = 1,
-    .keys         = { S(KC_Y) },
+    .keys         = { HYPR(KC_L) },
 };
 
 const dvorak_node_t dvorak_398 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_F,
+    .key          = DV_D,
     .bounds       = 1,
-    .keys         = { S(KC_F) },
+    .keys         = { HYPR(KC_D) },
 };
 
 const dvorak_node_t dvorak_399 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_G,
+    .key          = DV_H,
     .bounds       = 1,
-    .keys         = { S(KC_G) },
+    .keys         = { HYPR(KC_H) },
 };
 
 const dvorak_node_t dvorak_400 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_C,
+    .key          = DV_T,
     .bounds       = 1,
-    .keys         = { S(KC_C) },
+    .keys         = { HYPR(KC_T) },
 };
 
 const dvorak_node_t dvorak_401 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_R,
+    .key          = DV_N,
     .bounds       = 1,
-    .keys         = { S(KC_R) },
+    .keys         = { HYPR(KC_N) },
 };
 
 const dvorak_node_t dvorak_402 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_L,
+    .key          = DV_S,
     .bounds       = 1,
-    .keys         = { S(KC_L) },
+    .keys         = { HYPR(KC_S) },
 };
 
 const dvorak_node_t dvorak_403 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_A,
+    .key          = DV_B,
     .bounds       = 1,
-    .keys         = { S(KC_A) },
+    .keys         = { HYPR(KC_B) },
 };
 
 const dvorak_node_t dvorak_404 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
+    .key          = DV_M,
     .bounds       = 1,
-    .keys         = { S(KC_O) },
+    .keys         = { HYPR(KC_M) },
 };
 
 const dvorak_node_t dvorak_405 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
+    .key          = DV_W,
     .bounds       = 1,
-    .keys         = { S(KC_E) },
+    .keys         = { HYPR(KC_W) },
 };
 
 const dvorak_node_t dvorak_406 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
+    .key          = DV_V,
     .bounds       = 1,
-    .keys         = { S(KC_U) },
+    .keys         = { HYPR(KC_V) },
 };
 
 const dvorak_node_t dvorak_407 = {
     .parent       = &dvorak_392,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
+    .key          = DV_Z,
     .bounds       = 1,
-    .keys         = { S(KC_I) },
+    .keys         = { HYPR(KC_Z) },
 };
 
 const dvorak_node_t dvorak_408 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_D,
-    .bounds       = 1,
-    .keys         = { S(KC_D) },
+    .parent       = &dvorak_331,
+    .next_node    = &dvorak_408_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 0,
+    .keys         = {},
 };
 
 const dvorak_node_t dvorak_409 = {
-    .parent       = &dvorak_392,
+    .parent       = &dvorak_408,
     .next_node    = &dvorak_409_next_node,
-    .key          = DV_H,
-    .bounds       = 1,
-    .keys         = { S(KC_H) },
+    .key          = DV_O,
+    .bounds       = 0,
+    .keys         = {},
 };
 
 const dvorak_node_t dvorak_410 = {
     .parent       = &dvorak_409,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
+    .key          = DV_G,
     .bounds       = 1,
-    .keys         = { HYPR(KC_QUOT) },
+    .keys         = { C(KC_AT) },
 };
 
 const dvorak_node_t dvorak_411 = {
     .parent       = &dvorak_409,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
+    .key          = DV_C,
     .bounds       = 1,
-    .keys         = { HYPR(KC_COMM) },
+    .keys         = { C(KC_TILD) },
 };
 
 const dvorak_node_t dvorak_412 = {
     .parent       = &dvorak_409,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
+    .key          = DV_R,
     .bounds       = 1,
-    .keys         = { HYPR(KC_DOT) },
+    .keys         = { C(KC_PERC) },
 };
 
 const dvorak_node_t dvorak_413 = {
     .parent       = &dvorak_409,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
+    .key          = DV_L,
     .bounds       = 1,
-    .keys         = { HYPR(KC_P) },
+    .keys         = { C(KC_DLR) },
 };
 
 const dvorak_node_t dvorak_414 = {
     .parent       = &dvorak_409,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_Y,
+    .key          = DV_D,
     .bounds       = 1,
-    .keys         = { HYPR(KC_Y) },
+    .keys         = { C(KC_RCBR) },
 };
 
 const dvorak_node_t dvorak_415 = {
     .parent       = &dvorak_409,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_A,
+    .key          = DV_H,
     .bounds       = 1,
-    .keys         = { HYPR(KC_A) },
+    .keys         = { C(KC_RBRC) },
 };
 
 const dvorak_node_t dvorak_416 = {
     .parent       = &dvorak_409,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
+    .key          = DV_T,
     .bounds       = 1,
-    .keys         = { HYPR(KC_O) },
+    .keys         = { C(KC_RPRN) },
 };
 
 const dvorak_node_t dvorak_417 = {
     .parent       = &dvorak_409,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
+    .key          = DV_N,
     .bounds       = 1,
-    .keys         = { HYPR(KC_E) },
+    .keys         = { C(KC_EXLM) },
 };
 
 const dvorak_node_t dvorak_418 = {
     .parent       = &dvorak_409,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
+    .key          = DV_B,
     .bounds       = 1,
-    .keys         = { HYPR(KC_U) },
+    .keys         = { C(KC_UNDS) },
 };
 
 const dvorak_node_t dvorak_419 = {
     .parent       = &dvorak_409,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
+    .key          = DV_M,
     .bounds       = 1,
-    .keys         = { HYPR(KC_I) },
+    .keys         = { C(KC_MINS) },
 };
 
 const dvorak_node_t dvorak_420 = {
     .parent       = &dvorak_409,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_SCLN,
+    .key          = DV_W,
     .bounds       = 1,
-    .keys         = { HYPR(KC_SCLN) },
+    .keys         = { C(KC_ASTR) },
 };
 
 const dvorak_node_t dvorak_421 = {
     .parent       = &dvorak_409,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
+    .key          = DV_V,
     .bounds       = 1,
-    .keys         = { HYPR(KC_Q) },
+    .keys         = { C(KC_CIRC) },
 };
 
 const dvorak_node_t dvorak_422 = {
-    .parent       = &dvorak_409,
+    .parent       = &dvorak_331,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
+    .key          = DV_I,
     .bounds       = 1,
-    .keys         = { HYPR(KC_J) },
+    .keys         = { KC_LANGUAGE_2 },
 };
 
 const dvorak_node_t dvorak_423 = {
-    .parent       = &dvorak_409,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_423_next_node,
+    .key          = DV_I,
     .bounds       = 1,
-    .keys         = { HYPR(KC_K) },
+    .keys         = { KC_I },
 };
 
 const dvorak_node_t dvorak_424 = {
-    .parent       = &dvorak_409,
+    .parent       = &dvorak_423,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
+    .key          = DV_U,
     .bounds       = 1,
-    .keys         = { HYPR(KC_X) },
+    .keys         = { KC_LANGUAGE_2 },
 };
 
 const dvorak_node_t dvorak_425 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_S,
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_425_next_node,
+    .key          = DV_D,
     .bounds       = 1,
-    .keys         = { S(KC_S) },
+    .keys         = { KC_D },
 };
 
 const dvorak_node_t dvorak_426 = {
-    .parent       = &dvorak_392,
+    .parent       = &dvorak_425,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_SCLN,
+    .key          = DV_H,
     .bounds       = 1,
-    .keys         = { S(KC_SCLN) },
+    .keys         = { KC_LANGUAGE_1 },
 };
 
 const dvorak_node_t dvorak_427 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_427_next_node,
+    .key          = DV_H,
     .bounds       = 1,
-    .keys         = { S(KC_Q) },
+    .keys         = { KC_H },
 };
 
 const dvorak_node_t dvorak_428 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
-    .bounds       = 1,
-    .keys         = { S(KC_J) },
-};
-
-const dvorak_node_t dvorak_429 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
-    .bounds       = 1,
-    .keys         = { S(KC_K) },
-};
-
-const dvorak_node_t dvorak_430 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
-    .bounds       = 1,
-    .keys         = { S(KC_X) },
-};
-
-const dvorak_node_t dvorak_431 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
-    .bounds       = 1,
-    .keys         = { S(KC_B) },
-};
-
-const dvorak_node_t dvorak_432 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
-    .bounds       = 1,
-    .keys         = { S(KC_M) },
-};
-
-const dvorak_node_t dvorak_433 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
-    .bounds       = 1,
-    .keys         = { S(KC_W) },
-};
-
-const dvorak_node_t dvorak_434 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
-    .bounds       = 1,
-    .keys         = { S(KC_V) },
-};
-
-const dvorak_node_t dvorak_435 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Z,
-    .bounds       = 1,
-    .keys         = { S(KC_Z) },
-};
-
-const dvorak_node_t dvorak_436 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_LSFT1,
-    .bounds       = 1,
-    .keys         = { S(KC_BSPC) },
-};
-
-const dvorak_node_t dvorak_437 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_LSFT2,
-    .bounds       = 1,
-    .keys         = { S(KC_SPC) },
-};
-
-const dvorak_node_t dvorak_438 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_RSFT2,
-    .bounds       = 1,
-    .keys         = { S(KC_ENT) },
-};
-
-const dvorak_node_t dvorak_439 = {
-    .parent       = &dvorak_392,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_RSFT1,
-    .bounds       = 1,
-    .keys         = { S(KC_TAB) },
-};
-
-const dvorak_node_t dvorak_440 = {
-    .parent       = &dvorak_391,
-    .next_node    = &dvorak_440_next_node,
-    .key          = DV_H,
+    .parent       = &dvorak_427,
+    .next_node    = &dvorak_428_next_node,
+    .key          = DV_T,
     .bounds       = 0,
     .keys         = {},
 };
 
-const dvorak_node_t dvorak_441 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_429 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_QUOT,
     .bounds       = 1,
     .keys         = { C(KC_QUOT) },
 };
 
-const dvorak_node_t dvorak_442 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_430 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_COMM,
     .bounds       = 1,
     .keys         = { C(KC_COMM) },
 };
 
-const dvorak_node_t dvorak_443 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_431 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_DOT,
     .bounds       = 1,
     .keys         = { C(KC_DOT) },
 };
 
-const dvorak_node_t dvorak_444 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_432 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_P,
     .bounds       = 1,
     .keys         = { C(KC_P) },
 };
 
-const dvorak_node_t dvorak_445 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_433 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Y,
     .bounds       = 1,
     .keys         = { C(KC_Y) },
 };
 
-const dvorak_node_t dvorak_446 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_434 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_A,
     .bounds       = 1,
     .keys         = { C(KC_A) },
 };
 
-const dvorak_node_t dvorak_447 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_435 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_O,
     .bounds       = 1,
     .keys         = { C(KC_O) },
 };
 
-const dvorak_node_t dvorak_448 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_436 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_E,
     .bounds       = 1,
     .keys         = { C(KC_E) },
 };
 
-const dvorak_node_t dvorak_449 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_437 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_U,
     .bounds       = 1,
     .keys         = { C(KC_U) },
 };
 
-const dvorak_node_t dvorak_450 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_438 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_I,
     .bounds       = 1,
     .keys         = { C(KC_I) },
 };
 
-const dvorak_node_t dvorak_451 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_439 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_SCLN,
     .bounds       = 1,
     .keys         = { C(KC_SCLN) },
 };
 
-const dvorak_node_t dvorak_452 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_440 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Q,
     .bounds       = 1,
     .keys         = { C(KC_Q) },
 };
 
-const dvorak_node_t dvorak_453 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_441 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_J,
     .bounds       = 1,
     .keys         = { C(KC_J) },
 };
 
-const dvorak_node_t dvorak_454 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_442 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_K,
     .bounds       = 1,
     .keys         = { C(KC_K) },
 };
 
-const dvorak_node_t dvorak_455 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_443 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_X,
     .bounds       = 1,
     .keys         = { C(KC_X) },
 };
 
-const dvorak_node_t dvorak_456 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_444 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_LSFT1,
     .bounds       = 1,
     .keys         = { C(KC_BSPC) },
 };
 
-const dvorak_node_t dvorak_457 = {
-    .parent       = &dvorak_440,
+const dvorak_node_t dvorak_445 = {
+    .parent       = &dvorak_428,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_LSFT2,
     .bounds       = 1,
     .keys         = { C(KC_SPC) },
 };
 
-const dvorak_node_t dvorak_458 = {
-    .parent       = &dvorak_440,
-    .next_node    = &dvorak_458_next_node,
+const dvorak_node_t dvorak_446 = {
+    .parent       = &dvorak_428,
+    .next_node    = &dvorak_446_next_node,
     .key          = DV_N,
     .bounds       = 0,
     .keys         = {},
 };
 
-const dvorak_node_t dvorak_459 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_447 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_QUOT,
     .bounds       = 1,
     .keys         = { HYPR(KC_QUOT) },
 };
 
-const dvorak_node_t dvorak_460 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_448 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_COMM,
     .bounds       = 1,
     .keys         = { HYPR(KC_COMM) },
 };
 
-const dvorak_node_t dvorak_461 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_449 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_DOT,
     .bounds       = 1,
     .keys         = { HYPR(KC_DOT) },
 };
 
-const dvorak_node_t dvorak_462 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_450 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_P,
     .bounds       = 1,
     .keys         = { HYPR(KC_P) },
 };
 
-const dvorak_node_t dvorak_463 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_451 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Y,
     .bounds       = 1,
     .keys         = { HYPR(KC_Y) },
 };
 
-const dvorak_node_t dvorak_464 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_452 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_A,
     .bounds       = 1,
     .keys         = { HYPR(KC_A) },
 };
 
-const dvorak_node_t dvorak_465 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_453 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_O,
     .bounds       = 1,
     .keys         = { HYPR(KC_O) },
 };
 
-const dvorak_node_t dvorak_466 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_454 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_E,
     .bounds       = 1,
     .keys         = { HYPR(KC_E) },
 };
 
-const dvorak_node_t dvorak_467 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_455 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_U,
     .bounds       = 1,
     .keys         = { HYPR(KC_U) },
 };
 
-const dvorak_node_t dvorak_468 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_456 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_I,
     .bounds       = 1,
     .keys         = { HYPR(KC_I) },
 };
 
-const dvorak_node_t dvorak_469 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_457 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_SCLN,
     .bounds       = 1,
     .keys         = { HYPR(KC_SCLN) },
 };
 
-const dvorak_node_t dvorak_470 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_458 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Q,
     .bounds       = 1,
     .keys         = { HYPR(KC_Q) },
 };
 
-const dvorak_node_t dvorak_471 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_459 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_J,
     .bounds       = 1,
     .keys         = { HYPR(KC_J) },
 };
 
-const dvorak_node_t dvorak_472 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_460 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_K,
     .bounds       = 1,
     .keys         = { HYPR(KC_K) },
 };
 
-const dvorak_node_t dvorak_473 = {
-    .parent       = &dvorak_458,
+const dvorak_node_t dvorak_461 = {
+    .parent       = &dvorak_446,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_X,
     .bounds       = 1,
     .keys         = { HYPR(KC_X) },
 };
 
-const dvorak_node_t dvorak_474 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_474_next_node,
+const dvorak_node_t dvorak_462 = {
+    .parent       = &dvorak_427,
+    .next_node    = &dvorak_462_next_node,
     .key          = DV_N,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_463 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
     .bounds       = 1,
-    .keys         = { KC_N },
+    .keys         = { KC_GRV },
+};
+
+const dvorak_node_t dvorak_464 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { KC_SLSH },
+};
+
+const dvorak_node_t dvorak_465 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { KC_HASH },
+};
+
+const dvorak_node_t dvorak_466 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { KC_AMPR },
+};
+
+const dvorak_node_t dvorak_467 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { KC_QUES },
+};
+
+const dvorak_node_t dvorak_468 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { KC_LPRN },
+};
+
+const dvorak_node_t dvorak_469 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { KC_LBRC },
+};
+
+const dvorak_node_t dvorak_470 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { KC_LCBR },
+};
+
+const dvorak_node_t dvorak_471 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { KC_BSLS },
+};
+
+const dvorak_node_t dvorak_472 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { KC_PIPE },
+};
+
+const dvorak_node_t dvorak_473 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { KC_PLUS },
+};
+
+const dvorak_node_t dvorak_474 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { KC_EQL },
 };
 
 const dvorak_node_t dvorak_475 = {
-    .parent       = &dvorak_474,
+    .parent       = &dvorak_462,
     .next_node    = &dvorak_475_next_node,
-    .key          = DV_T,
+    .key          = DV_RSFT2,
     .bounds       = 0,
     .keys         = {},
 };
@@ -5789,7 +6677,7 @@ const dvorak_node_t dvorak_476 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_QUOT,
     .bounds       = 1,
-    .keys         = { S(KC_QUOT) },
+    .keys         = { C(KC_GRV) },
 };
 
 const dvorak_node_t dvorak_477 = {
@@ -5797,7 +6685,7 @@ const dvorak_node_t dvorak_477 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_COMM,
     .bounds       = 1,
-    .keys         = { S(KC_COMM) },
+    .keys         = { C(KC_SLSH) },
 };
 
 const dvorak_node_t dvorak_478 = {
@@ -5805,7 +6693,7 @@ const dvorak_node_t dvorak_478 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_DOT,
     .bounds       = 1,
-    .keys         = { S(KC_DOT) },
+    .keys         = { C(KC_HASH) },
 };
 
 const dvorak_node_t dvorak_479 = {
@@ -5813,1887 +6701,1887 @@ const dvorak_node_t dvorak_479 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_P,
     .bounds       = 1,
-    .keys         = { S(KC_P) },
+    .keys         = { C(KC_AMPR) },
 };
 
 const dvorak_node_t dvorak_480 = {
     .parent       = &dvorak_475,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { C(KC_QUES) },
+};
+
+const dvorak_node_t dvorak_481 = {
+    .parent       = &dvorak_475,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { C(KC_LPRN) },
+};
+
+const dvorak_node_t dvorak_482 = {
+    .parent       = &dvorak_475,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { C(KC_LBRC) },
+};
+
+const dvorak_node_t dvorak_483 = {
+    .parent       = &dvorak_475,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { C(KC_LCBR) },
+};
+
+const dvorak_node_t dvorak_484 = {
+    .parent       = &dvorak_475,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { C(KC_BSLS) },
+};
+
+const dvorak_node_t dvorak_485 = {
+    .parent       = &dvorak_475,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { C(KC_PIPE) },
+};
+
+const dvorak_node_t dvorak_486 = {
+    .parent       = &dvorak_475,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { C(KC_PLUS) },
+};
+
+const dvorak_node_t dvorak_487 = {
+    .parent       = &dvorak_475,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { C(KC_EQL) },
+};
+
+const dvorak_node_t dvorak_488 = {
+    .parent       = &dvorak_462,
+    .next_node    = &dvorak_488_next_node,
+    .key          = DV_T,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_489 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_QUOT) },
+};
+
+const dvorak_node_t dvorak_490 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_COMM) },
+};
+
+const dvorak_node_t dvorak_491 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_DOT) },
+};
+
+const dvorak_node_t dvorak_492 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_P) },
+};
+
+const dvorak_node_t dvorak_493 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_Y) },
+};
+
+const dvorak_node_t dvorak_494 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_A) },
+};
+
+const dvorak_node_t dvorak_495 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_O) },
+};
+
+const dvorak_node_t dvorak_496 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_E) },
+};
+
+const dvorak_node_t dvorak_497 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_U) },
+};
+
+const dvorak_node_t dvorak_498 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_I) },
+};
+
+const dvorak_node_t dvorak_499 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_SCLN) },
+};
+
+const dvorak_node_t dvorak_500 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_Q) },
+};
+
+const dvorak_node_t dvorak_501 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_J) },
+};
+
+const dvorak_node_t dvorak_502 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_K) },
+};
+
+const dvorak_node_t dvorak_503 = {
+    .parent       = &dvorak_488,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_X) },
+};
+
+const dvorak_node_t dvorak_504 = {
+    .parent       = &dvorak_427,
+    .next_node    = &dvorak_504_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_505 = {
+    .parent       = &dvorak_504,
+    .next_node    = &dvorak_505_next_node,
+    .key          = DV_N,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_506 = {
+    .parent       = &dvorak_505,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { C(KC_GRV) },
+};
+
+const dvorak_node_t dvorak_507 = {
+    .parent       = &dvorak_505,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { C(KC_SLSH) },
+};
+
+const dvorak_node_t dvorak_508 = {
+    .parent       = &dvorak_505,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { C(KC_HASH) },
+};
+
+const dvorak_node_t dvorak_509 = {
+    .parent       = &dvorak_505,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { C(KC_AMPR) },
+};
+
+const dvorak_node_t dvorak_510 = {
+    .parent       = &dvorak_505,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { C(KC_QUES) },
+};
+
+const dvorak_node_t dvorak_511 = {
+    .parent       = &dvorak_505,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { C(KC_LPRN) },
+};
+
+const dvorak_node_t dvorak_512 = {
+    .parent       = &dvorak_505,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { C(KC_LBRC) },
+};
+
+const dvorak_node_t dvorak_513 = {
+    .parent       = &dvorak_505,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { C(KC_LCBR) },
+};
+
+const dvorak_node_t dvorak_514 = {
+    .parent       = &dvorak_505,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { C(KC_BSLS) },
+};
+
+const dvorak_node_t dvorak_515 = {
+    .parent       = &dvorak_505,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { C(KC_PIPE) },
+};
+
+const dvorak_node_t dvorak_516 = {
+    .parent       = &dvorak_505,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { C(KC_PLUS) },
+};
+
+const dvorak_node_t dvorak_517 = {
+    .parent       = &dvorak_505,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { C(KC_EQL) },
+};
+
+const dvorak_node_t dvorak_518 = {
+    .parent       = &dvorak_427,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { KC_LANGUAGE_1 },
+};
+
+const dvorak_node_t dvorak_519 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_519_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { KC_T },
+};
+
+const dvorak_node_t dvorak_520 = {
+    .parent       = &dvorak_519,
+    .next_node    = &dvorak_520_next_node,
+    .key          = DV_N,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_521 = {
+    .parent       = &dvorak_520,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { S(KC_QUOT) },
+};
+
+const dvorak_node_t dvorak_522 = {
+    .parent       = &dvorak_520,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { S(KC_COMM) },
+};
+
+const dvorak_node_t dvorak_523 = {
+    .parent       = &dvorak_520,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { S(KC_DOT) },
+};
+
+const dvorak_node_t dvorak_524 = {
+    .parent       = &dvorak_520,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { S(KC_P) },
+};
+
+const dvorak_node_t dvorak_525 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Y,
     .bounds       = 1,
     .keys         = { S(KC_Y) },
 };
 
-const dvorak_node_t dvorak_481 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_526 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_F,
     .bounds       = 1,
     .keys         = { S(KC_F) },
 };
 
-const dvorak_node_t dvorak_482 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_527 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_G,
     .bounds       = 1,
     .keys         = { S(KC_G) },
 };
 
-const dvorak_node_t dvorak_483 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_528 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_C,
     .bounds       = 1,
     .keys         = { S(KC_C) },
 };
 
-const dvorak_node_t dvorak_484 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_529 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_R,
     .bounds       = 1,
     .keys         = { S(KC_R) },
 };
 
-const dvorak_node_t dvorak_485 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_530 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_L,
     .bounds       = 1,
     .keys         = { S(KC_L) },
 };
 
-const dvorak_node_t dvorak_486 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_531 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_A,
     .bounds       = 1,
     .keys         = { S(KC_A) },
 };
 
-const dvorak_node_t dvorak_487 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_532 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_O,
     .bounds       = 1,
     .keys         = { S(KC_O) },
 };
 
-const dvorak_node_t dvorak_488 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_533 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_E,
     .bounds       = 1,
     .keys         = { S(KC_E) },
 };
 
-const dvorak_node_t dvorak_489 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_534 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_U,
     .bounds       = 1,
     .keys         = { S(KC_U) },
 };
 
-const dvorak_node_t dvorak_490 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_535 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_I,
     .bounds       = 1,
     .keys         = { S(KC_I) },
 };
 
-const dvorak_node_t dvorak_491 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_536 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_D,
     .bounds       = 1,
     .keys         = { S(KC_D) },
 };
 
-const dvorak_node_t dvorak_492 = {
-    .parent       = &dvorak_475,
-    .next_node    = &dvorak_492_next_node,
+const dvorak_node_t dvorak_537 = {
+    .parent       = &dvorak_520,
+    .next_node    = &dvorak_537_next_node,
     .key          = DV_H,
     .bounds       = 1,
     .keys         = { S(KC_H) },
 };
 
-const dvorak_node_t dvorak_493 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_538 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_QUOT,
     .bounds       = 1,
     .keys         = { HYPR(KC_QUOT) },
 };
 
-const dvorak_node_t dvorak_494 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_539 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_COMM,
     .bounds       = 1,
     .keys         = { HYPR(KC_COMM) },
 };
 
-const dvorak_node_t dvorak_495 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_540 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_DOT,
     .bounds       = 1,
     .keys         = { HYPR(KC_DOT) },
 };
 
-const dvorak_node_t dvorak_496 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_541 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_P,
     .bounds       = 1,
     .keys         = { HYPR(KC_P) },
 };
 
-const dvorak_node_t dvorak_497 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_542 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Y,
     .bounds       = 1,
     .keys         = { HYPR(KC_Y) },
 };
 
-const dvorak_node_t dvorak_498 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_543 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_A,
     .bounds       = 1,
     .keys         = { HYPR(KC_A) },
 };
 
-const dvorak_node_t dvorak_499 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_544 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_O,
     .bounds       = 1,
     .keys         = { HYPR(KC_O) },
 };
 
-const dvorak_node_t dvorak_500 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_545 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_E,
     .bounds       = 1,
     .keys         = { HYPR(KC_E) },
 };
 
-const dvorak_node_t dvorak_501 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_546 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_U,
     .bounds       = 1,
     .keys         = { HYPR(KC_U) },
 };
 
-const dvorak_node_t dvorak_502 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_547 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_I,
     .bounds       = 1,
     .keys         = { HYPR(KC_I) },
 };
 
-const dvorak_node_t dvorak_503 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_548 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_SCLN,
     .bounds       = 1,
     .keys         = { HYPR(KC_SCLN) },
 };
 
-const dvorak_node_t dvorak_504 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_549 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Q,
     .bounds       = 1,
     .keys         = { HYPR(KC_Q) },
 };
 
-const dvorak_node_t dvorak_505 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_550 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_J,
     .bounds       = 1,
     .keys         = { HYPR(KC_J) },
 };
 
-const dvorak_node_t dvorak_506 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_551 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_K,
     .bounds       = 1,
     .keys         = { HYPR(KC_K) },
 };
 
-const dvorak_node_t dvorak_507 = {
-    .parent       = &dvorak_492,
+const dvorak_node_t dvorak_552 = {
+    .parent       = &dvorak_537,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_X,
     .bounds       = 1,
     .keys         = { HYPR(KC_X) },
 };
 
-const dvorak_node_t dvorak_508 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_553 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_S,
     .bounds       = 1,
     .keys         = { S(KC_S) },
 };
 
-const dvorak_node_t dvorak_509 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_554 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_SCLN,
     .bounds       = 1,
     .keys         = { S(KC_SCLN) },
 };
 
-const dvorak_node_t dvorak_510 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_555 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Q,
     .bounds       = 1,
     .keys         = { S(KC_Q) },
 };
 
-const dvorak_node_t dvorak_511 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_556 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_J,
     .bounds       = 1,
     .keys         = { S(KC_J) },
 };
 
-const dvorak_node_t dvorak_512 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_557 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_K,
     .bounds       = 1,
     .keys         = { S(KC_K) },
 };
 
-const dvorak_node_t dvorak_513 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_558 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_X,
     .bounds       = 1,
     .keys         = { S(KC_X) },
 };
 
-const dvorak_node_t dvorak_514 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_559 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_B,
     .bounds       = 1,
     .keys         = { S(KC_B) },
 };
 
-const dvorak_node_t dvorak_515 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_560 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_M,
     .bounds       = 1,
     .keys         = { S(KC_M) },
 };
 
-const dvorak_node_t dvorak_516 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_561 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_W,
     .bounds       = 1,
     .keys         = { S(KC_W) },
 };
 
-const dvorak_node_t dvorak_517 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_562 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_V,
     .bounds       = 1,
     .keys         = { S(KC_V) },
 };
 
-const dvorak_node_t dvorak_518 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_563 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Z,
     .bounds       = 1,
     .keys         = { S(KC_Z) },
 };
 
-const dvorak_node_t dvorak_519 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_564 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_LSFT1,
     .bounds       = 1,
     .keys         = { S(KC_BSPC) },
 };
 
-const dvorak_node_t dvorak_520 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_565 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_LSFT2,
     .bounds       = 1,
     .keys         = { S(KC_SPC) },
 };
 
-const dvorak_node_t dvorak_521 = {
-    .parent       = &dvorak_475,
+const dvorak_node_t dvorak_566 = {
+    .parent       = &dvorak_520,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_RSFT2,
     .bounds       = 1,
     .keys         = { S(KC_ENT) },
 };
 
-const dvorak_node_t dvorak_522 = {
-    .parent       = &dvorak_475,
-    .next_node    = &dvorak_2_next_node,
+const dvorak_node_t dvorak_567 = {
+    .parent       = &dvorak_520,
+    .next_node    = &dvorak_567_next_node,
     .key          = DV_RSFT1,
     .bounds       = 1,
     .keys         = { S(KC_TAB) },
 };
 
-const dvorak_node_t dvorak_523 = {
-    .parent       = &dvorak_474,
-    .next_node    = &dvorak_523_next_node,
+const dvorak_node_t dvorak_568 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_QUOT)) },
+};
+
+const dvorak_node_t dvorak_569 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { S(G(KC_COMM)) },
+};
+
+const dvorak_node_t dvorak_570 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_DOT)) },
+};
+
+const dvorak_node_t dvorak_571 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { S(G(KC_P)) },
+};
+
+const dvorak_node_t dvorak_572 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Y)) },
+};
+
+const dvorak_node_t dvorak_573 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { S(G(KC_F)) },
+};
+
+const dvorak_node_t dvorak_574 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { S(G(KC_G)) },
+};
+
+const dvorak_node_t dvorak_575 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { S(G(KC_C)) },
+};
+
+const dvorak_node_t dvorak_576 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { S(G(KC_R)) },
+};
+
+const dvorak_node_t dvorak_577 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { S(G(KC_L)) },
+};
+
+const dvorak_node_t dvorak_578 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { S(G(KC_A)) },
+};
+
+const dvorak_node_t dvorak_579 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { S(G(KC_O)) },
+};
+
+const dvorak_node_t dvorak_580 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { S(G(KC_E)) },
+};
+
+const dvorak_node_t dvorak_581 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { S(G(KC_U)) },
+};
+
+const dvorak_node_t dvorak_582 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { S(G(KC_I)) },
+};
+
+const dvorak_node_t dvorak_583 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { S(G(KC_D)) },
+};
+
+const dvorak_node_t dvorak_584 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { S(G(KC_H)) },
+};
+
+const dvorak_node_t dvorak_585 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { S(G(KC_S)) },
+};
+
+const dvorak_node_t dvorak_586 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SCLN)) },
+};
+
+const dvorak_node_t dvorak_587 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Q)) },
+};
+
+const dvorak_node_t dvorak_588 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { S(G(KC_J)) },
+};
+
+const dvorak_node_t dvorak_589 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { S(G(KC_K)) },
+};
+
+const dvorak_node_t dvorak_590 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { S(G(KC_X)) },
+};
+
+const dvorak_node_t dvorak_591 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { S(G(KC_B)) },
+};
+
+const dvorak_node_t dvorak_592 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { S(G(KC_M)) },
+};
+
+const dvorak_node_t dvorak_593 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { S(G(KC_W)) },
+};
+
+const dvorak_node_t dvorak_594 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { S(G(KC_V)) },
+};
+
+const dvorak_node_t dvorak_595 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Z)) },
+};
+
+const dvorak_node_t dvorak_596 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { S(G(KC_BSPC)) },
+};
+
+const dvorak_node_t dvorak_597 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SPC)) },
+};
+
+const dvorak_node_t dvorak_598 = {
+    .parent       = &dvorak_567,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_ENT)) },
+};
+
+const dvorak_node_t dvorak_599 = {
+    .parent       = &dvorak_519,
+    .next_node    = &dvorak_599_next_node,
     .key          = DV_H,
     .bounds       = 0,
     .keys         = {},
 };
 
-const dvorak_node_t dvorak_524 = {
-    .parent       = &dvorak_523,
+const dvorak_node_t dvorak_600 = {
+    .parent       = &dvorak_599,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_QUOT,
     .bounds       = 1,
-    .keys         = { KC_GRV },
+    .keys         = { C(KC_QUOT) },
 };
 
-const dvorak_node_t dvorak_525 = {
-    .parent       = &dvorak_523,
+const dvorak_node_t dvorak_601 = {
+    .parent       = &dvorak_599,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_COMM,
     .bounds       = 1,
-    .keys         = { KC_SLSH },
+    .keys         = { C(KC_COMM) },
 };
 
-const dvorak_node_t dvorak_526 = {
-    .parent       = &dvorak_523,
+const dvorak_node_t dvorak_602 = {
+    .parent       = &dvorak_599,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_DOT,
     .bounds       = 1,
-    .keys         = { KC_HASH },
+    .keys         = { C(KC_DOT) },
 };
 
-const dvorak_node_t dvorak_527 = {
-    .parent       = &dvorak_523,
+const dvorak_node_t dvorak_603 = {
+    .parent       = &dvorak_599,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_P,
     .bounds       = 1,
-    .keys         = { KC_AMPR },
+    .keys         = { C(KC_P) },
 };
 
-const dvorak_node_t dvorak_528 = {
-    .parent       = &dvorak_523,
+const dvorak_node_t dvorak_604 = {
+    .parent       = &dvorak_599,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { C(KC_Y) },
+};
+
+const dvorak_node_t dvorak_605 = {
+    .parent       = &dvorak_599,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { C(KC_A) },
+};
+
+const dvorak_node_t dvorak_606 = {
+    .parent       = &dvorak_599,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_O,
     .bounds       = 1,
-    .keys         = { KC_QUES },
+    .keys         = { C(KC_O) },
 };
 
-const dvorak_node_t dvorak_529 = {
-    .parent       = &dvorak_523,
+const dvorak_node_t dvorak_607 = {
+    .parent       = &dvorak_599,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_E,
     .bounds       = 1,
-    .keys         = { KC_LPRN },
+    .keys         = { C(KC_E) },
 };
 
-const dvorak_node_t dvorak_530 = {
-    .parent       = &dvorak_523,
+const dvorak_node_t dvorak_608 = {
+    .parent       = &dvorak_599,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_U,
     .bounds       = 1,
-    .keys         = { KC_LBRC },
+    .keys         = { C(KC_U) },
 };
 
-const dvorak_node_t dvorak_531 = {
-    .parent       = &dvorak_523,
+const dvorak_node_t dvorak_609 = {
+    .parent       = &dvorak_599,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_I,
     .bounds       = 1,
-    .keys         = { KC_LCBR },
+    .keys         = { C(KC_I) },
 };
 
-const dvorak_node_t dvorak_532 = {
-    .parent       = &dvorak_523,
+const dvorak_node_t dvorak_610 = {
+    .parent       = &dvorak_599,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { C(KC_SCLN) },
+};
+
+const dvorak_node_t dvorak_611 = {
+    .parent       = &dvorak_599,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Q,
     .bounds       = 1,
-    .keys         = { KC_BSLS },
+    .keys         = { C(KC_Q) },
 };
 
-const dvorak_node_t dvorak_533 = {
-    .parent       = &dvorak_523,
+const dvorak_node_t dvorak_612 = {
+    .parent       = &dvorak_599,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_J,
     .bounds       = 1,
-    .keys         = { KC_PIPE },
+    .keys         = { C(KC_J) },
 };
 
-const dvorak_node_t dvorak_534 = {
-    .parent       = &dvorak_523,
+const dvorak_node_t dvorak_613 = {
+    .parent       = &dvorak_599,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_K,
     .bounds       = 1,
-    .keys         = { KC_PLUS },
+    .keys         = { C(KC_K) },
 };
 
-const dvorak_node_t dvorak_535 = {
-    .parent       = &dvorak_523,
+const dvorak_node_t dvorak_614 = {
+    .parent       = &dvorak_599,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_X,
     .bounds       = 1,
-    .keys         = { KC_EQL },
+    .keys         = { C(KC_X) },
 };
 
-const dvorak_node_t dvorak_536 = {
-    .parent       = &dvorak_523,
-    .next_node    = &dvorak_536_next_node,
-    .key          = DV_RSFT2,
+const dvorak_node_t dvorak_615 = {
+    .parent       = &dvorak_599,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { C(KC_BSPC) },
+};
+
+const dvorak_node_t dvorak_616 = {
+    .parent       = &dvorak_599,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { C(KC_SPC) },
+};
+
+const dvorak_node_t dvorak_617 = {
+    .parent       = &dvorak_599,
+    .next_node    = &dvorak_617_next_node,
+    .key          = DV_N,
     .bounds       = 0,
     .keys         = {},
 };
 
-const dvorak_node_t dvorak_537 = {
-    .parent       = &dvorak_536,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
-    .bounds       = 1,
-    .keys         = { C(KC_GRV) },
-};
-
-const dvorak_node_t dvorak_538 = {
-    .parent       = &dvorak_536,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
-    .bounds       = 1,
-    .keys         = { C(KC_SLSH) },
-};
-
-const dvorak_node_t dvorak_539 = {
-    .parent       = &dvorak_536,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
-    .bounds       = 1,
-    .keys         = { C(KC_HASH) },
-};
-
-const dvorak_node_t dvorak_540 = {
-    .parent       = &dvorak_536,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
-    .bounds       = 1,
-    .keys         = { C(KC_AMPR) },
-};
-
-const dvorak_node_t dvorak_541 = {
-    .parent       = &dvorak_536,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
-    .bounds       = 1,
-    .keys         = { C(KC_QUES) },
-};
-
-const dvorak_node_t dvorak_542 = {
-    .parent       = &dvorak_536,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
-    .bounds       = 1,
-    .keys         = { C(KC_LPRN) },
-};
-
-const dvorak_node_t dvorak_543 = {
-    .parent       = &dvorak_536,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { C(KC_LBRC) },
-};
-
-const dvorak_node_t dvorak_544 = {
-    .parent       = &dvorak_536,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { C(KC_LCBR) },
-};
-
-const dvorak_node_t dvorak_545 = {
-    .parent       = &dvorak_536,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
-    .bounds       = 1,
-    .keys         = { C(KC_BSLS) },
-};
-
-const dvorak_node_t dvorak_546 = {
-    .parent       = &dvorak_536,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
-    .bounds       = 1,
-    .keys         = { C(KC_PIPE) },
-};
-
-const dvorak_node_t dvorak_547 = {
-    .parent       = &dvorak_536,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
-    .bounds       = 1,
-    .keys         = { C(KC_PLUS) },
-};
-
-const dvorak_node_t dvorak_548 = {
-    .parent       = &dvorak_536,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
-    .bounds       = 1,
-    .keys         = { C(KC_EQL) },
-};
-
-const dvorak_node_t dvorak_549 = {
-    .parent       = &dvorak_523,
-    .next_node    = &dvorak_549_next_node,
-    .key          = DV_T,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_550 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_618 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_QUOT,
     .bounds       = 1,
     .keys         = { HYPR(KC_QUOT) },
 };
 
-const dvorak_node_t dvorak_551 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_619 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_COMM,
     .bounds       = 1,
     .keys         = { HYPR(KC_COMM) },
 };
 
-const dvorak_node_t dvorak_552 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_620 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_DOT,
     .bounds       = 1,
     .keys         = { HYPR(KC_DOT) },
 };
 
-const dvorak_node_t dvorak_553 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_621 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_P,
     .bounds       = 1,
     .keys         = { HYPR(KC_P) },
 };
 
-const dvorak_node_t dvorak_554 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_622 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Y,
     .bounds       = 1,
     .keys         = { HYPR(KC_Y) },
 };
 
-const dvorak_node_t dvorak_555 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_623 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_A,
     .bounds       = 1,
     .keys         = { HYPR(KC_A) },
 };
 
-const dvorak_node_t dvorak_556 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_624 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_O,
     .bounds       = 1,
     .keys         = { HYPR(KC_O) },
 };
 
-const dvorak_node_t dvorak_557 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_625 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_E,
     .bounds       = 1,
     .keys         = { HYPR(KC_E) },
 };
 
-const dvorak_node_t dvorak_558 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_626 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_U,
     .bounds       = 1,
     .keys         = { HYPR(KC_U) },
 };
 
-const dvorak_node_t dvorak_559 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_627 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_I,
     .bounds       = 1,
     .keys         = { HYPR(KC_I) },
 };
 
-const dvorak_node_t dvorak_560 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_628 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_SCLN,
     .bounds       = 1,
     .keys         = { HYPR(KC_SCLN) },
 };
 
-const dvorak_node_t dvorak_561 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_629 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Q,
     .bounds       = 1,
     .keys         = { HYPR(KC_Q) },
 };
 
-const dvorak_node_t dvorak_562 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_630 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_J,
     .bounds       = 1,
     .keys         = { HYPR(KC_J) },
 };
 
-const dvorak_node_t dvorak_563 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_631 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_K,
     .bounds       = 1,
     .keys         = { HYPR(KC_K) },
 };
 
-const dvorak_node_t dvorak_564 = {
-    .parent       = &dvorak_549,
+const dvorak_node_t dvorak_632 = {
+    .parent       = &dvorak_617,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_X,
     .bounds       = 1,
     .keys         = { HYPR(KC_X) },
 };
 
-const dvorak_node_t dvorak_565 = {
-    .parent       = &dvorak_474,
-    .next_node    = &dvorak_565_next_node,
-    .key          = DV_RSFT2,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_566 = {
-    .parent       = &dvorak_565,
-    .next_node    = &dvorak_566_next_node,
-    .key          = DV_H,
-    .bounds       = 0,
-    .keys         = {},
-};
-
-const dvorak_node_t dvorak_567 = {
-    .parent       = &dvorak_566,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
-    .bounds       = 1,
-    .keys         = { C(KC_GRV) },
-};
-
-const dvorak_node_t dvorak_568 = {
-    .parent       = &dvorak_566,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
-    .bounds       = 1,
-    .keys         = { C(KC_SLSH) },
-};
-
-const dvorak_node_t dvorak_569 = {
-    .parent       = &dvorak_566,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
-    .bounds       = 1,
-    .keys         = { C(KC_HASH) },
-};
-
-const dvorak_node_t dvorak_570 = {
-    .parent       = &dvorak_566,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
-    .bounds       = 1,
-    .keys         = { C(KC_AMPR) },
-};
-
-const dvorak_node_t dvorak_571 = {
-    .parent       = &dvorak_566,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
-    .bounds       = 1,
-    .keys         = { C(KC_QUES) },
-};
-
-const dvorak_node_t dvorak_572 = {
-    .parent       = &dvorak_566,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
-    .bounds       = 1,
-    .keys         = { C(KC_LPRN) },
-};
-
-const dvorak_node_t dvorak_573 = {
-    .parent       = &dvorak_566,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { C(KC_LBRC) },
-};
-
-const dvorak_node_t dvorak_574 = {
-    .parent       = &dvorak_566,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { C(KC_LCBR) },
-};
-
-const dvorak_node_t dvorak_575 = {
-    .parent       = &dvorak_566,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
-    .bounds       = 1,
-    .keys         = { C(KC_BSLS) },
-};
-
-const dvorak_node_t dvorak_576 = {
-    .parent       = &dvorak_566,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
-    .bounds       = 1,
-    .keys         = { C(KC_PIPE) },
-};
-
-const dvorak_node_t dvorak_577 = {
-    .parent       = &dvorak_566,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
-    .bounds       = 1,
-    .keys         = { C(KC_PLUS) },
-};
-
-const dvorak_node_t dvorak_578 = {
-    .parent       = &dvorak_566,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
-    .bounds       = 1,
-    .keys         = { C(KC_EQL) },
-};
-
-const dvorak_node_t dvorak_579 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_S,
-    .bounds       = 1,
-    .keys         = { KC_S },
-};
-
-const dvorak_node_t dvorak_580 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_SCLN,
-    .bounds       = 1,
-    .keys         = { KC_SCLN },
-};
-
-const dvorak_node_t dvorak_581 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
-    .bounds       = 1,
-    .keys         = { KC_Q },
-};
-
-const dvorak_node_t dvorak_582 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
-    .bounds       = 1,
-    .keys         = { KC_J },
-};
-
-const dvorak_node_t dvorak_583 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
-    .bounds       = 1,
-    .keys         = { KC_K },
-};
-
-const dvorak_node_t dvorak_584 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
-    .bounds       = 1,
-    .keys         = { KC_X },
-};
-
-const dvorak_node_t dvorak_585 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
-    .bounds       = 1,
-    .keys         = { KC_B },
-};
-
-const dvorak_node_t dvorak_586 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
-    .bounds       = 1,
-    .keys         = { KC_M },
-};
-
-const dvorak_node_t dvorak_587 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
-    .bounds       = 1,
-    .keys         = { KC_W },
-};
-
-const dvorak_node_t dvorak_588 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
-    .bounds       = 1,
-    .keys         = { KC_V },
-};
-
-const dvorak_node_t dvorak_589 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Z,
-    .bounds       = 1,
-    .keys         = { KC_Z },
-};
-
-const dvorak_node_t dvorak_590 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_590_next_node,
-    .key          = DV_LSFT1,
-    .bounds       = 1,
-    .keys         = { KC_BSPC },
-};
-
-const dvorak_node_t dvorak_591 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
-    .bounds       = 1,
-    .keys         = { A(KC_QUOT) },
-};
-
-const dvorak_node_t dvorak_592 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
-    .bounds       = 1,
-    .keys         = { A(KC_COMM) },
-};
-
-const dvorak_node_t dvorak_593 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
-    .bounds       = 1,
-    .keys         = { A(KC_DOT) },
-};
-
-const dvorak_node_t dvorak_594 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
-    .bounds       = 1,
-    .keys         = { A(KC_P) },
-};
-
-const dvorak_node_t dvorak_595 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Y,
-    .bounds       = 1,
-    .keys         = { A(KC_Y) },
-};
-
-const dvorak_node_t dvorak_596 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_F,
-    .bounds       = 1,
-    .keys         = { A(KC_F) },
-};
-
-const dvorak_node_t dvorak_597 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_G,
-    .bounds       = 1,
-    .keys         = { A(KC_G) },
-};
-
-const dvorak_node_t dvorak_598 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_C,
-    .bounds       = 1,
-    .keys         = { A(KC_C) },
-};
-
-const dvorak_node_t dvorak_599 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_R,
-    .bounds       = 1,
-    .keys         = { A(KC_R) },
-};
-
-const dvorak_node_t dvorak_600 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_L,
-    .bounds       = 1,
-    .keys         = { A(KC_L) },
-};
-
-const dvorak_node_t dvorak_601 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_A,
-    .bounds       = 1,
-    .keys         = { A(KC_A) },
-};
-
-const dvorak_node_t dvorak_602 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
-    .bounds       = 1,
-    .keys         = { A(KC_O) },
-};
-
-const dvorak_node_t dvorak_603 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
-    .bounds       = 1,
-    .keys         = { A(KC_E) },
-};
-
-const dvorak_node_t dvorak_604 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { A(KC_U) },
-};
-
-const dvorak_node_t dvorak_605 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { A(KC_I) },
-};
-
-const dvorak_node_t dvorak_606 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_D,
-    .bounds       = 1,
-    .keys         = { A(KC_D) },
-};
-
-const dvorak_node_t dvorak_607 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_H,
-    .bounds       = 1,
-    .keys         = { A(KC_H) },
-};
-
-const dvorak_node_t dvorak_608 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_T,
-    .bounds       = 1,
-    .keys         = { A(KC_T) },
-};
-
-const dvorak_node_t dvorak_609 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_N,
-    .bounds       = 1,
-    .keys         = { A(KC_N) },
-};
-
-const dvorak_node_t dvorak_610 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_S,
-    .bounds       = 1,
-    .keys         = { A(KC_S) },
-};
-
-const dvorak_node_t dvorak_611 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_SCLN,
-    .bounds       = 1,
-    .keys         = { A(KC_SCLN) },
-};
-
-const dvorak_node_t dvorak_612 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
-    .bounds       = 1,
-    .keys         = { A(KC_Q) },
-};
-
-const dvorak_node_t dvorak_613 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
-    .bounds       = 1,
-    .keys         = { A(KC_J) },
-};
-
-const dvorak_node_t dvorak_614 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
-    .bounds       = 1,
-    .keys         = { A(KC_K) },
-};
-
-const dvorak_node_t dvorak_615 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
-    .bounds       = 1,
-    .keys         = { A(KC_X) },
-};
-
-const dvorak_node_t dvorak_616 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
-    .bounds       = 1,
-    .keys         = { A(KC_B) },
-};
-
-const dvorak_node_t dvorak_617 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
-    .bounds       = 1,
-    .keys         = { A(KC_M) },
-};
-
-const dvorak_node_t dvorak_618 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
-    .bounds       = 1,
-    .keys         = { A(KC_W) },
-};
-
-const dvorak_node_t dvorak_619 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
-    .bounds       = 1,
-    .keys         = { A(KC_V) },
-};
-
-const dvorak_node_t dvorak_620 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Z,
-    .bounds       = 1,
-    .keys         = { A(KC_Z) },
-};
-
-const dvorak_node_t dvorak_621 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_LSFT2,
-    .bounds       = 1,
-    .keys         = { A(KC_SPC) },
-};
-
-const dvorak_node_t dvorak_622 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_RSFT2,
-    .bounds       = 1,
-    .keys         = { A(KC_ENT) },
-};
-
-const dvorak_node_t dvorak_623 = {
-    .parent       = &dvorak_590,
-    .next_node    = &dvorak_623_next_node,
-    .key          = DV_RSFT1,
-    .bounds       = 1,
-    .keys         = { A(KC_TAB) },
-};
-
-const dvorak_node_t dvorak_624 = {
-    .parent       = &dvorak_623,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
-    .bounds       = 1,
-    .keys         = { G(A(KC_QUOT)) },
-};
-
-const dvorak_node_t dvorak_625 = {
-    .parent       = &dvorak_623,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
-    .bounds       = 1,
-    .keys         = { G(A(KC_COMM)) },
-};
-
-const dvorak_node_t dvorak_626 = {
-    .parent       = &dvorak_623,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
-    .bounds       = 1,
-    .keys         = { G(A(KC_DOT)) },
-};
-
-const dvorak_node_t dvorak_627 = {
-    .parent       = &dvorak_623,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
-    .bounds       = 1,
-    .keys         = { G(A(KC_P)) },
-};
-
-const dvorak_node_t dvorak_628 = {
-    .parent       = &dvorak_623,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Y,
-    .bounds       = 1,
-    .keys         = { G(A(KC_Y)) },
-};
-
-const dvorak_node_t dvorak_629 = {
-    .parent       = &dvorak_623,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_F,
-    .bounds       = 1,
-    .keys         = { G(A(KC_F)) },
-};
-
-const dvorak_node_t dvorak_630 = {
-    .parent       = &dvorak_623,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_G,
-    .bounds       = 1,
-    .keys         = { G(A(KC_G)) },
-};
-
-const dvorak_node_t dvorak_631 = {
-    .parent       = &dvorak_623,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_C,
-    .bounds       = 1,
-    .keys         = { G(A(KC_C)) },
-};
-
-const dvorak_node_t dvorak_632 = {
-    .parent       = &dvorak_623,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_R,
-    .bounds       = 1,
-    .keys         = { G(A(KC_R)) },
-};
-
 const dvorak_node_t dvorak_633 = {
-    .parent       = &dvorak_623,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_L,
-    .bounds       = 1,
-    .keys         = { G(A(KC_L)) },
+    .parent       = &dvorak_519,
+    .next_node    = &dvorak_633_next_node,
+    .key          = DV_RSFT1,
+    .bounds       = 0,
+    .keys         = {},
 };
 
 const dvorak_node_t dvorak_634 = {
-    .parent       = &dvorak_623,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_A,
-    .bounds       = 1,
-    .keys         = { G(A(KC_A)) },
+    .parent       = &dvorak_633,
+    .next_node    = &dvorak_634_next_node,
+    .key          = DV_N,
+    .bounds       = 0,
+    .keys         = {},
 };
 
 const dvorak_node_t dvorak_635 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
+    .key          = DV_QUOT,
     .bounds       = 1,
-    .keys         = { G(A(KC_O)) },
+    .keys         = { S(G(KC_QUOT)) },
 };
 
 const dvorak_node_t dvorak_636 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
+    .key          = DV_COMM,
     .bounds       = 1,
-    .keys         = { G(A(KC_E)) },
+    .keys         = { S(G(KC_COMM)) },
 };
 
 const dvorak_node_t dvorak_637 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
+    .key          = DV_DOT,
     .bounds       = 1,
-    .keys         = { G(A(KC_U)) },
+    .keys         = { S(G(KC_DOT)) },
 };
 
 const dvorak_node_t dvorak_638 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
+    .key          = DV_P,
     .bounds       = 1,
-    .keys         = { G(A(KC_I)) },
+    .keys         = { S(G(KC_P)) },
 };
 
 const dvorak_node_t dvorak_639 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_D,
+    .key          = DV_Y,
     .bounds       = 1,
-    .keys         = { G(A(KC_D)) },
+    .keys         = { S(G(KC_Y)) },
 };
 
 const dvorak_node_t dvorak_640 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_H,
+    .key          = DV_F,
     .bounds       = 1,
-    .keys         = { G(A(KC_H)) },
+    .keys         = { S(G(KC_F)) },
 };
 
 const dvorak_node_t dvorak_641 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_T,
+    .key          = DV_G,
     .bounds       = 1,
-    .keys         = { G(A(KC_T)) },
+    .keys         = { S(G(KC_G)) },
 };
 
 const dvorak_node_t dvorak_642 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_N,
+    .key          = DV_C,
     .bounds       = 1,
-    .keys         = { G(A(KC_N)) },
+    .keys         = { S(G(KC_C)) },
 };
 
 const dvorak_node_t dvorak_643 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_S,
+    .key          = DV_R,
     .bounds       = 1,
-    .keys         = { G(A(KC_S)) },
+    .keys         = { S(G(KC_R)) },
 };
 
 const dvorak_node_t dvorak_644 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_SCLN,
+    .key          = DV_L,
     .bounds       = 1,
-    .keys         = { G(A(KC_SCLN)) },
+    .keys         = { S(G(KC_L)) },
 };
 
 const dvorak_node_t dvorak_645 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
+    .key          = DV_A,
     .bounds       = 1,
-    .keys         = { G(A(KC_Q)) },
+    .keys         = { S(G(KC_A)) },
 };
 
 const dvorak_node_t dvorak_646 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
+    .key          = DV_O,
     .bounds       = 1,
-    .keys         = { G(A(KC_J)) },
+    .keys         = { S(G(KC_O)) },
 };
 
 const dvorak_node_t dvorak_647 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
+    .key          = DV_E,
     .bounds       = 1,
-    .keys         = { G(A(KC_K)) },
+    .keys         = { S(G(KC_E)) },
 };
 
 const dvorak_node_t dvorak_648 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
+    .key          = DV_U,
     .bounds       = 1,
-    .keys         = { G(A(KC_X)) },
+    .keys         = { S(G(KC_U)) },
 };
 
 const dvorak_node_t dvorak_649 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
+    .key          = DV_I,
     .bounds       = 1,
-    .keys         = { G(A(KC_B)) },
+    .keys         = { S(G(KC_I)) },
 };
 
 const dvorak_node_t dvorak_650 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
+    .key          = DV_D,
     .bounds       = 1,
-    .keys         = { G(A(KC_M)) },
+    .keys         = { S(G(KC_D)) },
 };
 
 const dvorak_node_t dvorak_651 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
+    .key          = DV_H,
     .bounds       = 1,
-    .keys         = { G(A(KC_W)) },
+    .keys         = { S(G(KC_H)) },
 };
 
 const dvorak_node_t dvorak_652 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
+    .key          = DV_S,
     .bounds       = 1,
-    .keys         = { G(A(KC_V)) },
+    .keys         = { S(G(KC_S)) },
 };
 
 const dvorak_node_t dvorak_653 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_Z,
+    .key          = DV_SCLN,
     .bounds       = 1,
-    .keys         = { G(A(KC_Z)) },
+    .keys         = { S(G(KC_SCLN)) },
 };
 
 const dvorak_node_t dvorak_654 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_LSFT2,
+    .key          = DV_Q,
     .bounds       = 1,
-    .keys         = { G(A(KC_SPC)) },
+    .keys         = { S(G(KC_Q)) },
 };
 
 const dvorak_node_t dvorak_655 = {
-    .parent       = &dvorak_623,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_RSFT2,
+    .key          = DV_J,
     .bounds       = 1,
-    .keys         = { G(A(KC_ENT)) },
+    .keys         = { S(G(KC_J)) },
 };
 
 const dvorak_node_t dvorak_656 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_656_next_node,
-    .key          = DV_LSFT2,
+    .parent       = &dvorak_634,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
     .bounds       = 1,
-    .keys         = { KC_SPC },
+    .keys         = { S(G(KC_K)) },
 };
 
 const dvorak_node_t dvorak_657 = {
-    .parent       = &dvorak_656,
-    .next_node    = &dvorak_657_next_node,
-    .key          = DV_O,
-    .bounds       = 0,
-    .keys         = {},
+    .parent       = &dvorak_634,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { S(G(KC_X)) },
 };
 
 const dvorak_node_t dvorak_658 = {
-    .parent       = &dvorak_657,
-    .next_node    = &dvorak_658_next_node,
-    .key          = DV_U,
-    .bounds       = 0,
-    .keys         = {},
+    .parent       = &dvorak_634,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { S(G(KC_B)) },
 };
 
 const dvorak_node_t dvorak_659 = {
-    .parent       = &dvorak_658,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_G,
+    .key          = DV_M,
     .bounds       = 1,
-    .keys         = { C(KC_AT) },
+    .keys         = { S(G(KC_M)) },
 };
 
 const dvorak_node_t dvorak_660 = {
-    .parent       = &dvorak_658,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_C,
+    .key          = DV_W,
     .bounds       = 1,
-    .keys         = { C(KC_TILD) },
+    .keys         = { S(G(KC_W)) },
 };
 
 const dvorak_node_t dvorak_661 = {
-    .parent       = &dvorak_658,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_R,
+    .key          = DV_V,
     .bounds       = 1,
-    .keys         = { C(KC_PERC) },
+    .keys         = { S(G(KC_V)) },
 };
 
 const dvorak_node_t dvorak_662 = {
-    .parent       = &dvorak_658,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_L,
+    .key          = DV_Z,
     .bounds       = 1,
-    .keys         = { C(KC_DLR) },
+    .keys         = { S(G(KC_Z)) },
 };
 
 const dvorak_node_t dvorak_663 = {
-    .parent       = &dvorak_658,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_D,
+    .key          = DV_LSFT1,
     .bounds       = 1,
-    .keys         = { C(KC_RCBR) },
+    .keys         = { S(G(KC_BSPC)) },
 };
 
 const dvorak_node_t dvorak_664 = {
-    .parent       = &dvorak_658,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_H,
+    .key          = DV_LSFT2,
     .bounds       = 1,
-    .keys         = { C(KC_RBRC) },
+    .keys         = { S(G(KC_SPC)) },
 };
 
 const dvorak_node_t dvorak_665 = {
-    .parent       = &dvorak_658,
+    .parent       = &dvorak_634,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_T,
+    .key          = DV_RSFT2,
     .bounds       = 1,
-    .keys         = { C(KC_RPRN) },
+    .keys         = { S(G(KC_ENT)) },
 };
 
 const dvorak_node_t dvorak_666 = {
-    .parent       = &dvorak_658,
-    .next_node    = &dvorak_2_next_node,
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_666_next_node,
     .key          = DV_N,
     .bounds       = 1,
-    .keys         = { C(KC_EXLM) },
+    .keys         = { KC_N },
 };
 
 const dvorak_node_t dvorak_667 = {
-    .parent       = &dvorak_658,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
-    .bounds       = 1,
-    .keys         = { C(KC_UNDS) },
+    .parent       = &dvorak_666,
+    .next_node    = &dvorak_667_next_node,
+    .key          = DV_T,
+    .bounds       = 0,
+    .keys         = {},
 };
 
 const dvorak_node_t dvorak_668 = {
-    .parent       = &dvorak_658,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
+    .key          = DV_QUOT,
     .bounds       = 1,
-    .keys         = { C(KC_MINS) },
+    .keys         = { S(KC_QUOT) },
 };
 
 const dvorak_node_t dvorak_669 = {
-    .parent       = &dvorak_658,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
+    .key          = DV_COMM,
     .bounds       = 1,
-    .keys         = { C(KC_ASTR) },
+    .keys         = { S(KC_COMM) },
 };
 
 const dvorak_node_t dvorak_670 = {
-    .parent       = &dvorak_658,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
+    .key          = DV_DOT,
     .bounds       = 1,
-    .keys         = { C(KC_CIRC) },
+    .keys         = { S(KC_DOT) },
 };
 
 const dvorak_node_t dvorak_671 = {
-    .parent       = &dvorak_656,
-    .next_node    = &dvorak_671_next_node,
-    .key          = DV_U,
-    .bounds       = 0,
-    .keys         = {},
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { S(KC_P) },
 };
 
 const dvorak_node_t dvorak_672 = {
-    .parent       = &dvorak_671,
-    .next_node    = &dvorak_672_next_node,
-    .key          = DV_O,
-    .bounds       = 0,
-    .keys         = {},
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { S(KC_Y) },
 };
 
 const dvorak_node_t dvorak_673 = {
-    .parent       = &dvorak_672,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_G,
+    .key          = DV_F,
     .bounds       = 1,
-    .keys         = { C(KC_AT) },
+    .keys         = { S(KC_F) },
 };
 
 const dvorak_node_t dvorak_674 = {
-    .parent       = &dvorak_672,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_C,
+    .key          = DV_G,
     .bounds       = 1,
-    .keys         = { C(KC_TILD) },
+    .keys         = { S(KC_G) },
 };
 
 const dvorak_node_t dvorak_675 = {
-    .parent       = &dvorak_672,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_R,
+    .key          = DV_C,
     .bounds       = 1,
-    .keys         = { C(KC_PERC) },
+    .keys         = { S(KC_C) },
 };
 
 const dvorak_node_t dvorak_676 = {
-    .parent       = &dvorak_672,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_L,
+    .key          = DV_R,
     .bounds       = 1,
-    .keys         = { C(KC_DLR) },
+    .keys         = { S(KC_R) },
 };
 
 const dvorak_node_t dvorak_677 = {
-    .parent       = &dvorak_672,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_D,
+    .key          = DV_L,
     .bounds       = 1,
-    .keys         = { C(KC_RCBR) },
+    .keys         = { S(KC_L) },
 };
 
 const dvorak_node_t dvorak_678 = {
-    .parent       = &dvorak_672,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_H,
+    .key          = DV_A,
     .bounds       = 1,
-    .keys         = { C(KC_RBRC) },
+    .keys         = { S(KC_A) },
 };
 
 const dvorak_node_t dvorak_679 = {
-    .parent       = &dvorak_672,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_T,
+    .key          = DV_O,
     .bounds       = 1,
-    .keys         = { C(KC_RPRN) },
+    .keys         = { S(KC_O) },
 };
 
 const dvorak_node_t dvorak_680 = {
-    .parent       = &dvorak_672,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_N,
+    .key          = DV_E,
     .bounds       = 1,
-    .keys         = { C(KC_EXLM) },
+    .keys         = { S(KC_E) },
 };
 
 const dvorak_node_t dvorak_681 = {
-    .parent       = &dvorak_672,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
+    .key          = DV_U,
     .bounds       = 1,
-    .keys         = { C(KC_UNDS) },
+    .keys         = { S(KC_U) },
 };
 
 const dvorak_node_t dvorak_682 = {
-    .parent       = &dvorak_672,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
+    .key          = DV_I,
     .bounds       = 1,
-    .keys         = { C(KC_MINS) },
+    .keys         = { S(KC_I) },
 };
 
 const dvorak_node_t dvorak_683 = {
-    .parent       = &dvorak_672,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
+    .key          = DV_D,
     .bounds       = 1,
-    .keys         = { C(KC_ASTR) },
+    .keys         = { S(KC_D) },
 };
 
 const dvorak_node_t dvorak_684 = {
-    .parent       = &dvorak_672,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_684_next_node,
+    .key          = DV_H,
     .bounds       = 1,
-    .keys         = { C(KC_CIRC) },
+    .keys         = { S(KC_H) },
 };
 
 const dvorak_node_t dvorak_685 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_685_next_node,
-    .key          = DV_RSFT2,
+    .parent       = &dvorak_684,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
     .bounds       = 1,
-    .keys         = { KC_ENT },
+    .keys         = { HYPR(KC_QUOT) },
 };
 
 const dvorak_node_t dvorak_686 = {
-    .parent       = &dvorak_685,
-    .next_node    = &dvorak_686_next_node,
-    .key          = DV_H,
-    .bounds       = 0,
-    .keys         = {},
+    .parent       = &dvorak_684,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_COMM) },
 };
 
 const dvorak_node_t dvorak_687 = {
-    .parent       = &dvorak_686,
-    .next_node    = &dvorak_687_next_node,
-    .key          = DV_N,
-    .bounds       = 0,
-    .keys         = {},
+    .parent       = &dvorak_684,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_DOT) },
 };
 
 const dvorak_node_t dvorak_688 = {
-    .parent       = &dvorak_687,
+    .parent       = &dvorak_684,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
+    .key          = DV_P,
     .bounds       = 1,
-    .keys         = { C(KC_GRV) },
+    .keys         = { HYPR(KC_P) },
 };
 
 const dvorak_node_t dvorak_689 = {
-    .parent       = &dvorak_687,
+    .parent       = &dvorak_684,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
+    .key          = DV_Y,
     .bounds       = 1,
-    .keys         = { C(KC_SLSH) },
+    .keys         = { HYPR(KC_Y) },
 };
 
 const dvorak_node_t dvorak_690 = {
-    .parent       = &dvorak_687,
+    .parent       = &dvorak_684,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
+    .key          = DV_A,
     .bounds       = 1,
-    .keys         = { C(KC_HASH) },
+    .keys         = { HYPR(KC_A) },
 };
 
 const dvorak_node_t dvorak_691 = {
-    .parent       = &dvorak_687,
+    .parent       = &dvorak_684,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
+    .key          = DV_O,
     .bounds       = 1,
-    .keys         = { C(KC_AMPR) },
+    .keys         = { HYPR(KC_O) },
 };
 
 const dvorak_node_t dvorak_692 = {
-    .parent       = &dvorak_687,
+    .parent       = &dvorak_684,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
+    .key          = DV_E,
     .bounds       = 1,
-    .keys         = { C(KC_QUES) },
+    .keys         = { HYPR(KC_E) },
 };
 
 const dvorak_node_t dvorak_693 = {
-    .parent       = &dvorak_687,
+    .parent       = &dvorak_684,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
+    .key          = DV_U,
     .bounds       = 1,
-    .keys         = { C(KC_LPRN) },
+    .keys         = { HYPR(KC_U) },
 };
 
 const dvorak_node_t dvorak_694 = {
-    .parent       = &dvorak_687,
+    .parent       = &dvorak_684,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
+    .key          = DV_I,
     .bounds       = 1,
-    .keys         = { C(KC_LBRC) },
+    .keys         = { HYPR(KC_I) },
 };
 
 const dvorak_node_t dvorak_695 = {
-    .parent       = &dvorak_687,
+    .parent       = &dvorak_684,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
+    .key          = DV_SCLN,
     .bounds       = 1,
-    .keys         = { C(KC_LCBR) },
+    .keys         = { HYPR(KC_SCLN) },
 };
 
 const dvorak_node_t dvorak_696 = {
-    .parent       = &dvorak_687,
+    .parent       = &dvorak_684,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Q,
     .bounds       = 1,
-    .keys         = { C(KC_BSLS) },
+    .keys         = { HYPR(KC_Q) },
 };
 
 const dvorak_node_t dvorak_697 = {
-    .parent       = &dvorak_687,
+    .parent       = &dvorak_684,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_J,
     .bounds       = 1,
-    .keys         = { C(KC_PIPE) },
+    .keys         = { HYPR(KC_J) },
 };
 
 const dvorak_node_t dvorak_698 = {
-    .parent       = &dvorak_687,
+    .parent       = &dvorak_684,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_K,
     .bounds       = 1,
-    .keys         = { C(KC_PLUS) },
+    .keys         = { HYPR(KC_K) },
 };
 
 const dvorak_node_t dvorak_699 = {
-    .parent       = &dvorak_687,
+    .parent       = &dvorak_684,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_X,
     .bounds       = 1,
-    .keys         = { C(KC_EQL) },
+    .keys         = { HYPR(KC_X) },
 };
 
 const dvorak_node_t dvorak_700 = {
-    .parent       = &dvorak_685,
-    .next_node    = &dvorak_700_next_node,
-    .key          = DV_N,
-    .bounds       = 0,
-    .keys         = {},
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { S(KC_S) },
 };
 
 const dvorak_node_t dvorak_701 = {
-    .parent       = &dvorak_700,
-    .next_node    = &dvorak_701_next_node,
-    .key          = DV_H,
-    .bounds       = 0,
-    .keys         = {},
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { S(KC_SCLN) },
 };
 
 const dvorak_node_t dvorak_702 = {
-    .parent       = &dvorak_701,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
-    .bounds       = 1,
-    .keys         = { C(KC_GRV) },
-};
-
-const dvorak_node_t dvorak_703 = {
-    .parent       = &dvorak_701,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
-    .bounds       = 1,
-    .keys         = { C(KC_SLSH) },
-};
-
-const dvorak_node_t dvorak_704 = {
-    .parent       = &dvorak_701,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
-    .bounds       = 1,
-    .keys         = { C(KC_HASH) },
-};
-
-const dvorak_node_t dvorak_705 = {
-    .parent       = &dvorak_701,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
-    .bounds       = 1,
-    .keys         = { C(KC_AMPR) },
-};
-
-const dvorak_node_t dvorak_706 = {
-    .parent       = &dvorak_701,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
-    .bounds       = 1,
-    .keys         = { C(KC_QUES) },
-};
-
-const dvorak_node_t dvorak_707 = {
-    .parent       = &dvorak_701,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
-    .bounds       = 1,
-    .keys         = { C(KC_LPRN) },
-};
-
-const dvorak_node_t dvorak_708 = {
-    .parent       = &dvorak_701,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { C(KC_LBRC) },
-};
-
-const dvorak_node_t dvorak_709 = {
-    .parent       = &dvorak_701,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { C(KC_LCBR) },
-};
-
-const dvorak_node_t dvorak_710 = {
-    .parent       = &dvorak_701,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Q,
     .bounds       = 1,
-    .keys         = { C(KC_BSLS) },
+    .keys         = { S(KC_Q) },
 };
 
-const dvorak_node_t dvorak_711 = {
-    .parent       = &dvorak_701,
+const dvorak_node_t dvorak_703 = {
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_J,
     .bounds       = 1,
-    .keys         = { C(KC_PIPE) },
+    .keys         = { S(KC_J) },
 };
 
-const dvorak_node_t dvorak_712 = {
-    .parent       = &dvorak_701,
+const dvorak_node_t dvorak_704 = {
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_K,
     .bounds       = 1,
-    .keys         = { C(KC_PLUS) },
+    .keys         = { S(KC_K) },
 };
 
-const dvorak_node_t dvorak_713 = {
-    .parent       = &dvorak_701,
+const dvorak_node_t dvorak_705 = {
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_X,
     .bounds       = 1,
-    .keys         = { C(KC_EQL) },
+    .keys         = { S(KC_X) },
+};
+
+const dvorak_node_t dvorak_706 = {
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { S(KC_B) },
+};
+
+const dvorak_node_t dvorak_707 = {
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { S(KC_M) },
+};
+
+const dvorak_node_t dvorak_708 = {
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { S(KC_W) },
+};
+
+const dvorak_node_t dvorak_709 = {
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { S(KC_V) },
+};
+
+const dvorak_node_t dvorak_710 = {
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { S(KC_Z) },
+};
+
+const dvorak_node_t dvorak_711 = {
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { S(KC_BSPC) },
+};
+
+const dvorak_node_t dvorak_712 = {
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { S(KC_SPC) },
+};
+
+const dvorak_node_t dvorak_713 = {
+    .parent       = &dvorak_667,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { S(KC_ENT) },
 };
 
 const dvorak_node_t dvorak_714 = {
-    .parent       = &dvorak_1,
+    .parent       = &dvorak_667,
     .next_node    = &dvorak_714_next_node,
     .key          = DV_RSFT1,
     .bounds       = 1,
-    .keys         = { KC_TAB },
+    .keys         = { S(KC_TAB) },
 };
 
 const dvorak_node_t dvorak_715 = {
@@ -7701,7 +8589,7 @@ const dvorak_node_t dvorak_715 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_QUOT,
     .bounds       = 1,
-    .keys         = { G(KC_QUOT) },
+    .keys         = { S(G(KC_QUOT)) },
 };
 
 const dvorak_node_t dvorak_716 = {
@@ -7709,7 +8597,7 @@ const dvorak_node_t dvorak_716 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_COMM,
     .bounds       = 1,
-    .keys         = { G(KC_COMM) },
+    .keys         = { S(G(KC_COMM)) },
 };
 
 const dvorak_node_t dvorak_717 = {
@@ -7717,7 +8605,7 @@ const dvorak_node_t dvorak_717 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_DOT,
     .bounds       = 1,
-    .keys         = { G(KC_DOT) },
+    .keys         = { S(G(KC_DOT)) },
 };
 
 const dvorak_node_t dvorak_718 = {
@@ -7725,7 +8613,7 @@ const dvorak_node_t dvorak_718 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_P,
     .bounds       = 1,
-    .keys         = { G(KC_P) },
+    .keys         = { S(G(KC_P)) },
 };
 
 const dvorak_node_t dvorak_719 = {
@@ -7733,7 +8621,7 @@ const dvorak_node_t dvorak_719 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Y,
     .bounds       = 1,
-    .keys         = { G(KC_Y) },
+    .keys         = { S(G(KC_Y)) },
 };
 
 const dvorak_node_t dvorak_720 = {
@@ -7741,7 +8629,7 @@ const dvorak_node_t dvorak_720 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_F,
     .bounds       = 1,
-    .keys         = { G(KC_F) },
+    .keys         = { S(G(KC_F)) },
 };
 
 const dvorak_node_t dvorak_721 = {
@@ -7749,7 +8637,7 @@ const dvorak_node_t dvorak_721 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_G,
     .bounds       = 1,
-    .keys         = { G(KC_G) },
+    .keys         = { S(G(KC_G)) },
 };
 
 const dvorak_node_t dvorak_722 = {
@@ -7757,7 +8645,7 @@ const dvorak_node_t dvorak_722 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_C,
     .bounds       = 1,
-    .keys         = { G(KC_C) },
+    .keys         = { S(G(KC_C)) },
 };
 
 const dvorak_node_t dvorak_723 = {
@@ -7765,7 +8653,7 @@ const dvorak_node_t dvorak_723 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_R,
     .bounds       = 1,
-    .keys         = { G(KC_R) },
+    .keys         = { S(G(KC_R)) },
 };
 
 const dvorak_node_t dvorak_724 = {
@@ -7773,7 +8661,7 @@ const dvorak_node_t dvorak_724 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_L,
     .bounds       = 1,
-    .keys         = { G(KC_L) },
+    .keys         = { S(G(KC_L)) },
 };
 
 const dvorak_node_t dvorak_725 = {
@@ -7781,7 +8669,7 @@ const dvorak_node_t dvorak_725 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_A,
     .bounds       = 1,
-    .keys         = { G(KC_A) },
+    .keys         = { S(G(KC_A)) },
 };
 
 const dvorak_node_t dvorak_726 = {
@@ -7789,7 +8677,7 @@ const dvorak_node_t dvorak_726 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_O,
     .bounds       = 1,
-    .keys         = { G(KC_O) },
+    .keys         = { S(G(KC_O)) },
 };
 
 const dvorak_node_t dvorak_727 = {
@@ -7797,7 +8685,7 @@ const dvorak_node_t dvorak_727 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_E,
     .bounds       = 1,
-    .keys         = { G(KC_E) },
+    .keys         = { S(G(KC_E)) },
 };
 
 const dvorak_node_t dvorak_728 = {
@@ -7805,7 +8693,7 @@ const dvorak_node_t dvorak_728 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_U,
     .bounds       = 1,
-    .keys         = { G(KC_U) },
+    .keys         = { S(G(KC_U)) },
 };
 
 const dvorak_node_t dvorak_729 = {
@@ -7813,7 +8701,7 @@ const dvorak_node_t dvorak_729 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_I,
     .bounds       = 1,
-    .keys         = { G(KC_I) },
+    .keys         = { S(G(KC_I)) },
 };
 
 const dvorak_node_t dvorak_730 = {
@@ -7821,7 +8709,7 @@ const dvorak_node_t dvorak_730 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_D,
     .bounds       = 1,
-    .keys         = { G(KC_D) },
+    .keys         = { S(G(KC_D)) },
 };
 
 const dvorak_node_t dvorak_731 = {
@@ -7829,403 +8717,403 @@ const dvorak_node_t dvorak_731 = {
     .next_node    = &dvorak_2_next_node,
     .key          = DV_H,
     .bounds       = 1,
-    .keys         = { G(KC_H) },
+    .keys         = { S(G(KC_H)) },
 };
 
 const dvorak_node_t dvorak_732 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_T,
+    .key          = DV_S,
     .bounds       = 1,
-    .keys         = { G(KC_T) },
+    .keys         = { S(G(KC_S)) },
 };
 
 const dvorak_node_t dvorak_733 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_N,
+    .key          = DV_SCLN,
     .bounds       = 1,
-    .keys         = { G(KC_N) },
+    .keys         = { S(G(KC_SCLN)) },
 };
 
 const dvorak_node_t dvorak_734 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_S,
+    .key          = DV_Q,
     .bounds       = 1,
-    .keys         = { G(KC_S) },
+    .keys         = { S(G(KC_Q)) },
 };
 
 const dvorak_node_t dvorak_735 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_SCLN,
+    .key          = DV_J,
     .bounds       = 1,
-    .keys         = { G(KC_SCLN) },
+    .keys         = { S(G(KC_J)) },
 };
 
 const dvorak_node_t dvorak_736 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
+    .key          = DV_K,
     .bounds       = 1,
-    .keys         = { G(KC_Q) },
+    .keys         = { S(G(KC_K)) },
 };
 
 const dvorak_node_t dvorak_737 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
+    .key          = DV_X,
     .bounds       = 1,
-    .keys         = { G(KC_J) },
+    .keys         = { S(G(KC_X)) },
 };
 
 const dvorak_node_t dvorak_738 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
+    .key          = DV_B,
     .bounds       = 1,
-    .keys         = { G(KC_K) },
+    .keys         = { S(G(KC_B)) },
 };
 
 const dvorak_node_t dvorak_739 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
+    .key          = DV_M,
     .bounds       = 1,
-    .keys         = { G(KC_X) },
+    .keys         = { S(G(KC_M)) },
 };
 
 const dvorak_node_t dvorak_740 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
+    .key          = DV_W,
     .bounds       = 1,
-    .keys         = { G(KC_B) },
+    .keys         = { S(G(KC_W)) },
 };
 
 const dvorak_node_t dvorak_741 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
+    .key          = DV_V,
     .bounds       = 1,
-    .keys         = { G(KC_M) },
+    .keys         = { S(G(KC_V)) },
 };
 
 const dvorak_node_t dvorak_742 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
+    .key          = DV_Z,
     .bounds       = 1,
-    .keys         = { G(KC_W) },
+    .keys         = { S(G(KC_Z)) },
 };
 
 const dvorak_node_t dvorak_743 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
+    .key          = DV_LSFT1,
     .bounds       = 1,
-    .keys         = { G(KC_V) },
+    .keys         = { S(G(KC_BSPC)) },
 };
 
 const dvorak_node_t dvorak_744 = {
     .parent       = &dvorak_714,
     .next_node    = &dvorak_2_next_node,
-    .key          = DV_Z,
+    .key          = DV_LSFT2,
     .bounds       = 1,
-    .keys         = { G(KC_Z) },
+    .keys         = { S(G(KC_SPC)) },
 };
 
 const dvorak_node_t dvorak_745 = {
     .parent       = &dvorak_714,
-    .next_node    = &dvorak_745_next_node,
-    .key          = DV_LSFT1,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
     .bounds       = 1,
-    .keys         = { G(KC_BSPC) },
+    .keys         = { S(G(KC_ENT)) },
 };
 
 const dvorak_node_t dvorak_746 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_QUOT,
-    .bounds       = 1,
-    .keys         = { G(A(KC_QUOT)) },
-};
-
-const dvorak_node_t dvorak_747 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_COMM,
-    .bounds       = 1,
-    .keys         = { G(A(KC_COMM)) },
-};
-
-const dvorak_node_t dvorak_748 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_DOT,
-    .bounds       = 1,
-    .keys         = { G(A(KC_DOT)) },
-};
-
-const dvorak_node_t dvorak_749 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_P,
-    .bounds       = 1,
-    .keys         = { G(A(KC_P)) },
-};
-
-const dvorak_node_t dvorak_750 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Y,
-    .bounds       = 1,
-    .keys         = { G(A(KC_Y)) },
-};
-
-const dvorak_node_t dvorak_751 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_F,
-    .bounds       = 1,
-    .keys         = { G(A(KC_F)) },
-};
-
-const dvorak_node_t dvorak_752 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_G,
-    .bounds       = 1,
-    .keys         = { G(A(KC_G)) },
-};
-
-const dvorak_node_t dvorak_753 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_C,
-    .bounds       = 1,
-    .keys         = { G(A(KC_C)) },
-};
-
-const dvorak_node_t dvorak_754 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_R,
-    .bounds       = 1,
-    .keys         = { G(A(KC_R)) },
-};
-
-const dvorak_node_t dvorak_755 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_L,
-    .bounds       = 1,
-    .keys         = { G(A(KC_L)) },
-};
-
-const dvorak_node_t dvorak_756 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_A,
-    .bounds       = 1,
-    .keys         = { G(A(KC_A)) },
-};
-
-const dvorak_node_t dvorak_757 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_O,
-    .bounds       = 1,
-    .keys         = { G(A(KC_O)) },
-};
-
-const dvorak_node_t dvorak_758 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_E,
-    .bounds       = 1,
-    .keys         = { G(A(KC_E)) },
-};
-
-const dvorak_node_t dvorak_759 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_U,
-    .bounds       = 1,
-    .keys         = { G(A(KC_U)) },
-};
-
-const dvorak_node_t dvorak_760 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_I,
-    .bounds       = 1,
-    .keys         = { G(A(KC_I)) },
-};
-
-const dvorak_node_t dvorak_761 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_D,
-    .bounds       = 1,
-    .keys         = { G(A(KC_D)) },
-};
-
-const dvorak_node_t dvorak_762 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_H,
-    .bounds       = 1,
-    .keys         = { G(A(KC_H)) },
-};
-
-const dvorak_node_t dvorak_763 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_T,
-    .bounds       = 1,
-    .keys         = { G(A(KC_T)) },
-};
-
-const dvorak_node_t dvorak_764 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_N,
-    .bounds       = 1,
-    .keys         = { G(A(KC_N)) },
-};
-
-const dvorak_node_t dvorak_765 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_S,
-    .bounds       = 1,
-    .keys         = { G(A(KC_S)) },
-};
-
-const dvorak_node_t dvorak_766 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_SCLN,
-    .bounds       = 1,
-    .keys         = { G(A(KC_SCLN)) },
-};
-
-const dvorak_node_t dvorak_767 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Q,
-    .bounds       = 1,
-    .keys         = { G(A(KC_Q)) },
-};
-
-const dvorak_node_t dvorak_768 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_J,
-    .bounds       = 1,
-    .keys         = { G(A(KC_J)) },
-};
-
-const dvorak_node_t dvorak_769 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_K,
-    .bounds       = 1,
-    .keys         = { G(A(KC_K)) },
-};
-
-const dvorak_node_t dvorak_770 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_X,
-    .bounds       = 1,
-    .keys         = { G(A(KC_X)) },
-};
-
-const dvorak_node_t dvorak_771 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_B,
-    .bounds       = 1,
-    .keys         = { G(A(KC_B)) },
-};
-
-const dvorak_node_t dvorak_772 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_M,
-    .bounds       = 1,
-    .keys         = { G(A(KC_M)) },
-};
-
-const dvorak_node_t dvorak_773 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_W,
-    .bounds       = 1,
-    .keys         = { G(A(KC_W)) },
-};
-
-const dvorak_node_t dvorak_774 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_V,
-    .bounds       = 1,
-    .keys         = { G(A(KC_V)) },
-};
-
-const dvorak_node_t dvorak_775 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_Z,
-    .bounds       = 1,
-    .keys         = { G(A(KC_Z)) },
-};
-
-const dvorak_node_t dvorak_776 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_LSFT2,
-    .bounds       = 1,
-    .keys         = { G(A(KC_SPC)) },
-};
-
-const dvorak_node_t dvorak_777 = {
-    .parent       = &dvorak_745,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_RSFT2,
-    .bounds       = 1,
-    .keys         = { G(A(KC_ENT)) },
-};
-
-const dvorak_node_t dvorak_778 = {
-    .parent       = &dvorak_714,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_LSFT2,
-    .bounds       = 1,
-    .keys         = { G(KC_SPC) },
-};
-
-const dvorak_node_t dvorak_779 = {
-    .parent       = &dvorak_714,
-    .next_node    = &dvorak_2_next_node,
-    .key          = DV_RSFT2,
-    .bounds       = 1,
-    .keys         = { G(KC_ENT) },
-};
-
-const dvorak_node_t dvorak_780 = {
-    .parent       = &dvorak_1,
-    .next_node    = &dvorak_780_next_node,
-    .key          = DV_RSFT3,
+    .parent       = &dvorak_666,
+    .next_node    = &dvorak_746_next_node,
+    .key          = DV_RSFT1,
     .bounds       = 0,
     .keys         = {},
 };
 
+const dvorak_node_t dvorak_747 = {
+    .parent       = &dvorak_746,
+    .next_node    = &dvorak_747_next_node,
+    .key          = DV_T,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_748 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_QUOT)) },
+};
+
+const dvorak_node_t dvorak_749 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { S(G(KC_COMM)) },
+};
+
+const dvorak_node_t dvorak_750 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_DOT)) },
+};
+
+const dvorak_node_t dvorak_751 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { S(G(KC_P)) },
+};
+
+const dvorak_node_t dvorak_752 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Y)) },
+};
+
+const dvorak_node_t dvorak_753 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { S(G(KC_F)) },
+};
+
+const dvorak_node_t dvorak_754 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { S(G(KC_G)) },
+};
+
+const dvorak_node_t dvorak_755 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { S(G(KC_C)) },
+};
+
+const dvorak_node_t dvorak_756 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { S(G(KC_R)) },
+};
+
+const dvorak_node_t dvorak_757 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { S(G(KC_L)) },
+};
+
+const dvorak_node_t dvorak_758 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { S(G(KC_A)) },
+};
+
+const dvorak_node_t dvorak_759 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { S(G(KC_O)) },
+};
+
+const dvorak_node_t dvorak_760 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { S(G(KC_E)) },
+};
+
+const dvorak_node_t dvorak_761 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { S(G(KC_U)) },
+};
+
+const dvorak_node_t dvorak_762 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { S(G(KC_I)) },
+};
+
+const dvorak_node_t dvorak_763 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { S(G(KC_D)) },
+};
+
+const dvorak_node_t dvorak_764 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { S(G(KC_H)) },
+};
+
+const dvorak_node_t dvorak_765 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { S(G(KC_S)) },
+};
+
+const dvorak_node_t dvorak_766 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SCLN)) },
+};
+
+const dvorak_node_t dvorak_767 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Q)) },
+};
+
+const dvorak_node_t dvorak_768 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { S(G(KC_J)) },
+};
+
+const dvorak_node_t dvorak_769 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { S(G(KC_K)) },
+};
+
+const dvorak_node_t dvorak_770 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { S(G(KC_X)) },
+};
+
+const dvorak_node_t dvorak_771 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { S(G(KC_B)) },
+};
+
+const dvorak_node_t dvorak_772 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { S(G(KC_M)) },
+};
+
+const dvorak_node_t dvorak_773 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { S(G(KC_W)) },
+};
+
+const dvorak_node_t dvorak_774 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { S(G(KC_V)) },
+};
+
+const dvorak_node_t dvorak_775 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Z)) },
+};
+
+const dvorak_node_t dvorak_776 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { S(G(KC_BSPC)) },
+};
+
+const dvorak_node_t dvorak_777 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SPC)) },
+};
+
+const dvorak_node_t dvorak_778 = {
+    .parent       = &dvorak_747,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_ENT)) },
+};
+
+const dvorak_node_t dvorak_779 = {
+    .parent       = &dvorak_666,
+    .next_node    = &dvorak_779_next_node,
+    .key          = DV_H,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_780 = {
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { KC_GRV },
+};
+
 const dvorak_node_t dvorak_781 = {
-    .parent       = &dvorak_780,
+    .parent       = &dvorak_779,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_COMM,
     .bounds       = 1,
@@ -8233,159 +9121,3231 @@ const dvorak_node_t dvorak_781 = {
 };
 
 const dvorak_node_t dvorak_782 = {
-    .parent       = &dvorak_780,
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { KC_HASH },
+};
+
+const dvorak_node_t dvorak_783 = {
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { KC_AMPR },
+};
+
+const dvorak_node_t dvorak_784 = {
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { KC_QUES },
+};
+
+const dvorak_node_t dvorak_785 = {
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { KC_LPRN },
+};
+
+const dvorak_node_t dvorak_786 = {
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { KC_LBRC },
+};
+
+const dvorak_node_t dvorak_787 = {
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { KC_LCBR },
+};
+
+const dvorak_node_t dvorak_788 = {
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { KC_BSLS },
+};
+
+const dvorak_node_t dvorak_789 = {
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { KC_PIPE },
+};
+
+const dvorak_node_t dvorak_790 = {
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { KC_PLUS },
+};
+
+const dvorak_node_t dvorak_791 = {
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { KC_EQL },
+};
+
+const dvorak_node_t dvorak_792 = {
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_792_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_793 = {
+    .parent       = &dvorak_792,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { C(KC_GRV) },
+};
+
+const dvorak_node_t dvorak_794 = {
+    .parent       = &dvorak_792,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { C(KC_SLSH) },
+};
+
+const dvorak_node_t dvorak_795 = {
+    .parent       = &dvorak_792,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { C(KC_HASH) },
+};
+
+const dvorak_node_t dvorak_796 = {
+    .parent       = &dvorak_792,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { C(KC_AMPR) },
+};
+
+const dvorak_node_t dvorak_797 = {
+    .parent       = &dvorak_792,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { C(KC_QUES) },
+};
+
+const dvorak_node_t dvorak_798 = {
+    .parent       = &dvorak_792,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { C(KC_LPRN) },
+};
+
+const dvorak_node_t dvorak_799 = {
+    .parent       = &dvorak_792,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { C(KC_LBRC) },
+};
+
+const dvorak_node_t dvorak_800 = {
+    .parent       = &dvorak_792,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { C(KC_LCBR) },
+};
+
+const dvorak_node_t dvorak_801 = {
+    .parent       = &dvorak_792,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { C(KC_BSLS) },
+};
+
+const dvorak_node_t dvorak_802 = {
+    .parent       = &dvorak_792,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { C(KC_PIPE) },
+};
+
+const dvorak_node_t dvorak_803 = {
+    .parent       = &dvorak_792,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { C(KC_PLUS) },
+};
+
+const dvorak_node_t dvorak_804 = {
+    .parent       = &dvorak_792,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { C(KC_EQL) },
+};
+
+const dvorak_node_t dvorak_805 = {
+    .parent       = &dvorak_779,
+    .next_node    = &dvorak_805_next_node,
+    .key          = DV_T,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_806 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_QUOT) },
+};
+
+const dvorak_node_t dvorak_807 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_COMM) },
+};
+
+const dvorak_node_t dvorak_808 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_DOT) },
+};
+
+const dvorak_node_t dvorak_809 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_P) },
+};
+
+const dvorak_node_t dvorak_810 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_Y) },
+};
+
+const dvorak_node_t dvorak_811 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_A) },
+};
+
+const dvorak_node_t dvorak_812 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_O) },
+};
+
+const dvorak_node_t dvorak_813 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_E) },
+};
+
+const dvorak_node_t dvorak_814 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_U) },
+};
+
+const dvorak_node_t dvorak_815 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_I) },
+};
+
+const dvorak_node_t dvorak_816 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_SCLN) },
+};
+
+const dvorak_node_t dvorak_817 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_Q) },
+};
+
+const dvorak_node_t dvorak_818 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_J) },
+};
+
+const dvorak_node_t dvorak_819 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_K) },
+};
+
+const dvorak_node_t dvorak_820 = {
+    .parent       = &dvorak_805,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { HYPR(KC_X) },
+};
+
+const dvorak_node_t dvorak_821 = {
+    .parent       = &dvorak_666,
+    .next_node    = &dvorak_821_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_822 = {
+    .parent       = &dvorak_821,
+    .next_node    = &dvorak_822_next_node,
+    .key          = DV_H,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_823 = {
+    .parent       = &dvorak_822,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { C(KC_GRV) },
+};
+
+const dvorak_node_t dvorak_824 = {
+    .parent       = &dvorak_822,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { C(KC_SLSH) },
+};
+
+const dvorak_node_t dvorak_825 = {
+    .parent       = &dvorak_822,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { C(KC_HASH) },
+};
+
+const dvorak_node_t dvorak_826 = {
+    .parent       = &dvorak_822,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { C(KC_AMPR) },
+};
+
+const dvorak_node_t dvorak_827 = {
+    .parent       = &dvorak_822,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { C(KC_QUES) },
+};
+
+const dvorak_node_t dvorak_828 = {
+    .parent       = &dvorak_822,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { C(KC_LPRN) },
+};
+
+const dvorak_node_t dvorak_829 = {
+    .parent       = &dvorak_822,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { C(KC_LBRC) },
+};
+
+const dvorak_node_t dvorak_830 = {
+    .parent       = &dvorak_822,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { C(KC_LCBR) },
+};
+
+const dvorak_node_t dvorak_831 = {
+    .parent       = &dvorak_822,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { C(KC_BSLS) },
+};
+
+const dvorak_node_t dvorak_832 = {
+    .parent       = &dvorak_822,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { C(KC_PIPE) },
+};
+
+const dvorak_node_t dvorak_833 = {
+    .parent       = &dvorak_822,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { C(KC_PLUS) },
+};
+
+const dvorak_node_t dvorak_834 = {
+    .parent       = &dvorak_822,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { C(KC_EQL) },
+};
+
+const dvorak_node_t dvorak_835 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { KC_S },
+};
+
+const dvorak_node_t dvorak_836 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { KC_SCLN },
+};
+
+const dvorak_node_t dvorak_837 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { KC_Q },
+};
+
+const dvorak_node_t dvorak_838 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { KC_J },
+};
+
+const dvorak_node_t dvorak_839 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { KC_K },
+};
+
+const dvorak_node_t dvorak_840 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { KC_X },
+};
+
+const dvorak_node_t dvorak_841 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { KC_B },
+};
+
+const dvorak_node_t dvorak_842 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { KC_M },
+};
+
+const dvorak_node_t dvorak_843 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { KC_W },
+};
+
+const dvorak_node_t dvorak_844 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { KC_V },
+};
+
+const dvorak_node_t dvorak_845 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { KC_Z },
+};
+
+const dvorak_node_t dvorak_846 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_846_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { KC_BSPC },
+};
+
+const dvorak_node_t dvorak_847 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { A(KC_QUOT) },
+};
+
+const dvorak_node_t dvorak_848 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { A(KC_COMM) },
+};
+
+const dvorak_node_t dvorak_849 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { A(KC_DOT) },
+};
+
+const dvorak_node_t dvorak_850 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { A(KC_P) },
+};
+
+const dvorak_node_t dvorak_851 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { A(KC_Y) },
+};
+
+const dvorak_node_t dvorak_852 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { A(KC_F) },
+};
+
+const dvorak_node_t dvorak_853 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { A(KC_G) },
+};
+
+const dvorak_node_t dvorak_854 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { A(KC_C) },
+};
+
+const dvorak_node_t dvorak_855 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { A(KC_R) },
+};
+
+const dvorak_node_t dvorak_856 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { A(KC_L) },
+};
+
+const dvorak_node_t dvorak_857 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { A(KC_A) },
+};
+
+const dvorak_node_t dvorak_858 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { A(KC_O) },
+};
+
+const dvorak_node_t dvorak_859 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { A(KC_E) },
+};
+
+const dvorak_node_t dvorak_860 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { A(KC_U) },
+};
+
+const dvorak_node_t dvorak_861 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { A(KC_I) },
+};
+
+const dvorak_node_t dvorak_862 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { A(KC_D) },
+};
+
+const dvorak_node_t dvorak_863 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { A(KC_H) },
+};
+
+const dvorak_node_t dvorak_864 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { A(KC_T) },
+};
+
+const dvorak_node_t dvorak_865 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { A(KC_N) },
+};
+
+const dvorak_node_t dvorak_866 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { A(KC_S) },
+};
+
+const dvorak_node_t dvorak_867 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { A(KC_SCLN) },
+};
+
+const dvorak_node_t dvorak_868 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { A(KC_Q) },
+};
+
+const dvorak_node_t dvorak_869 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { A(KC_J) },
+};
+
+const dvorak_node_t dvorak_870 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { A(KC_K) },
+};
+
+const dvorak_node_t dvorak_871 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { A(KC_X) },
+};
+
+const dvorak_node_t dvorak_872 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { A(KC_B) },
+};
+
+const dvorak_node_t dvorak_873 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { A(KC_M) },
+};
+
+const dvorak_node_t dvorak_874 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { A(KC_W) },
+};
+
+const dvorak_node_t dvorak_875 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { A(KC_V) },
+};
+
+const dvorak_node_t dvorak_876 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { A(KC_Z) },
+};
+
+const dvorak_node_t dvorak_877 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { A(KC_SPC) },
+};
+
+const dvorak_node_t dvorak_878 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { A(KC_ENT) },
+};
+
+const dvorak_node_t dvorak_879 = {
+    .parent       = &dvorak_846,
+    .next_node    = &dvorak_879_next_node,
+    .key          = DV_RSFT1,
+    .bounds       = 1,
+    .keys         = { A(KC_TAB) },
+};
+
+const dvorak_node_t dvorak_880 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { G(A(KC_QUOT)) },
+};
+
+const dvorak_node_t dvorak_881 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { G(A(KC_COMM)) },
+};
+
+const dvorak_node_t dvorak_882 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { G(A(KC_DOT)) },
+};
+
+const dvorak_node_t dvorak_883 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { G(A(KC_P)) },
+};
+
+const dvorak_node_t dvorak_884 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { G(A(KC_Y)) },
+};
+
+const dvorak_node_t dvorak_885 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { G(A(KC_F)) },
+};
+
+const dvorak_node_t dvorak_886 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { G(A(KC_G)) },
+};
+
+const dvorak_node_t dvorak_887 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { G(A(KC_C)) },
+};
+
+const dvorak_node_t dvorak_888 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { G(A(KC_R)) },
+};
+
+const dvorak_node_t dvorak_889 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { G(A(KC_L)) },
+};
+
+const dvorak_node_t dvorak_890 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { G(A(KC_A)) },
+};
+
+const dvorak_node_t dvorak_891 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { G(A(KC_O)) },
+};
+
+const dvorak_node_t dvorak_892 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { G(A(KC_E)) },
+};
+
+const dvorak_node_t dvorak_893 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { G(A(KC_U)) },
+};
+
+const dvorak_node_t dvorak_894 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { G(A(KC_I)) },
+};
+
+const dvorak_node_t dvorak_895 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { G(A(KC_D)) },
+};
+
+const dvorak_node_t dvorak_896 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { G(A(KC_H)) },
+};
+
+const dvorak_node_t dvorak_897 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { G(A(KC_T)) },
+};
+
+const dvorak_node_t dvorak_898 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { G(A(KC_N)) },
+};
+
+const dvorak_node_t dvorak_899 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { G(A(KC_S)) },
+};
+
+const dvorak_node_t dvorak_900 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { G(A(KC_SCLN)) },
+};
+
+const dvorak_node_t dvorak_901 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { G(A(KC_Q)) },
+};
+
+const dvorak_node_t dvorak_902 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { G(A(KC_J)) },
+};
+
+const dvorak_node_t dvorak_903 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { G(A(KC_K)) },
+};
+
+const dvorak_node_t dvorak_904 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { G(A(KC_X)) },
+};
+
+const dvorak_node_t dvorak_905 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { G(A(KC_B)) },
+};
+
+const dvorak_node_t dvorak_906 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { G(A(KC_M)) },
+};
+
+const dvorak_node_t dvorak_907 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { G(A(KC_W)) },
+};
+
+const dvorak_node_t dvorak_908 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { G(A(KC_V)) },
+};
+
+const dvorak_node_t dvorak_909 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { G(A(KC_Z)) },
+};
+
+const dvorak_node_t dvorak_910 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { G(A(KC_SPC)) },
+};
+
+const dvorak_node_t dvorak_911 = {
+    .parent       = &dvorak_879,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { G(A(KC_ENT)) },
+};
+
+const dvorak_node_t dvorak_912 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_912_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { KC_SPC },
+};
+
+const dvorak_node_t dvorak_913 = {
+    .parent       = &dvorak_912,
+    .next_node    = &dvorak_913_next_node,
+    .key          = DV_O,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_914 = {
+    .parent       = &dvorak_913,
+    .next_node    = &dvorak_914_next_node,
+    .key          = DV_U,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_915 = {
+    .parent       = &dvorak_914,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { C(KC_AT) },
+};
+
+const dvorak_node_t dvorak_916 = {
+    .parent       = &dvorak_914,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { C(KC_TILD) },
+};
+
+const dvorak_node_t dvorak_917 = {
+    .parent       = &dvorak_914,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { C(KC_PERC) },
+};
+
+const dvorak_node_t dvorak_918 = {
+    .parent       = &dvorak_914,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { C(KC_DLR) },
+};
+
+const dvorak_node_t dvorak_919 = {
+    .parent       = &dvorak_914,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { C(KC_RCBR) },
+};
+
+const dvorak_node_t dvorak_920 = {
+    .parent       = &dvorak_914,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { C(KC_RBRC) },
+};
+
+const dvorak_node_t dvorak_921 = {
+    .parent       = &dvorak_914,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { C(KC_RPRN) },
+};
+
+const dvorak_node_t dvorak_922 = {
+    .parent       = &dvorak_914,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { C(KC_EXLM) },
+};
+
+const dvorak_node_t dvorak_923 = {
+    .parent       = &dvorak_914,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { C(KC_UNDS) },
+};
+
+const dvorak_node_t dvorak_924 = {
+    .parent       = &dvorak_914,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { C(KC_MINS) },
+};
+
+const dvorak_node_t dvorak_925 = {
+    .parent       = &dvorak_914,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { C(KC_ASTR) },
+};
+
+const dvorak_node_t dvorak_926 = {
+    .parent       = &dvorak_914,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { C(KC_CIRC) },
+};
+
+const dvorak_node_t dvorak_927 = {
+    .parent       = &dvorak_912,
+    .next_node    = &dvorak_927_next_node,
+    .key          = DV_U,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_928 = {
+    .parent       = &dvorak_927,
+    .next_node    = &dvorak_928_next_node,
+    .key          = DV_O,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_929 = {
+    .parent       = &dvorak_928,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { C(KC_AT) },
+};
+
+const dvorak_node_t dvorak_930 = {
+    .parent       = &dvorak_928,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { C(KC_TILD) },
+};
+
+const dvorak_node_t dvorak_931 = {
+    .parent       = &dvorak_928,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { C(KC_PERC) },
+};
+
+const dvorak_node_t dvorak_932 = {
+    .parent       = &dvorak_928,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { C(KC_DLR) },
+};
+
+const dvorak_node_t dvorak_933 = {
+    .parent       = &dvorak_928,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { C(KC_RCBR) },
+};
+
+const dvorak_node_t dvorak_934 = {
+    .parent       = &dvorak_928,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { C(KC_RBRC) },
+};
+
+const dvorak_node_t dvorak_935 = {
+    .parent       = &dvorak_928,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { C(KC_RPRN) },
+};
+
+const dvorak_node_t dvorak_936 = {
+    .parent       = &dvorak_928,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { C(KC_EXLM) },
+};
+
+const dvorak_node_t dvorak_937 = {
+    .parent       = &dvorak_928,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { C(KC_UNDS) },
+};
+
+const dvorak_node_t dvorak_938 = {
+    .parent       = &dvorak_928,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { C(KC_MINS) },
+};
+
+const dvorak_node_t dvorak_939 = {
+    .parent       = &dvorak_928,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { C(KC_ASTR) },
+};
+
+const dvorak_node_t dvorak_940 = {
+    .parent       = &dvorak_928,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { C(KC_CIRC) },
+};
+
+const dvorak_node_t dvorak_941 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_941_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { KC_ENT },
+};
+
+const dvorak_node_t dvorak_942 = {
+    .parent       = &dvorak_941,
+    .next_node    = &dvorak_942_next_node,
+    .key          = DV_H,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_943 = {
+    .parent       = &dvorak_942,
+    .next_node    = &dvorak_943_next_node,
+    .key          = DV_N,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_944 = {
+    .parent       = &dvorak_943,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { C(KC_GRV) },
+};
+
+const dvorak_node_t dvorak_945 = {
+    .parent       = &dvorak_943,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { C(KC_SLSH) },
+};
+
+const dvorak_node_t dvorak_946 = {
+    .parent       = &dvorak_943,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { C(KC_HASH) },
+};
+
+const dvorak_node_t dvorak_947 = {
+    .parent       = &dvorak_943,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { C(KC_AMPR) },
+};
+
+const dvorak_node_t dvorak_948 = {
+    .parent       = &dvorak_943,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { C(KC_QUES) },
+};
+
+const dvorak_node_t dvorak_949 = {
+    .parent       = &dvorak_943,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { C(KC_LPRN) },
+};
+
+const dvorak_node_t dvorak_950 = {
+    .parent       = &dvorak_943,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { C(KC_LBRC) },
+};
+
+const dvorak_node_t dvorak_951 = {
+    .parent       = &dvorak_943,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { C(KC_LCBR) },
+};
+
+const dvorak_node_t dvorak_952 = {
+    .parent       = &dvorak_943,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { C(KC_BSLS) },
+};
+
+const dvorak_node_t dvorak_953 = {
+    .parent       = &dvorak_943,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { C(KC_PIPE) },
+};
+
+const dvorak_node_t dvorak_954 = {
+    .parent       = &dvorak_943,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { C(KC_PLUS) },
+};
+
+const dvorak_node_t dvorak_955 = {
+    .parent       = &dvorak_943,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { C(KC_EQL) },
+};
+
+const dvorak_node_t dvorak_956 = {
+    .parent       = &dvorak_941,
+    .next_node    = &dvorak_956_next_node,
+    .key          = DV_N,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_957 = {
+    .parent       = &dvorak_956,
+    .next_node    = &dvorak_957_next_node,
+    .key          = DV_H,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_958 = {
+    .parent       = &dvorak_957,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { C(KC_GRV) },
+};
+
+const dvorak_node_t dvorak_959 = {
+    .parent       = &dvorak_957,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { C(KC_SLSH) },
+};
+
+const dvorak_node_t dvorak_960 = {
+    .parent       = &dvorak_957,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { C(KC_HASH) },
+};
+
+const dvorak_node_t dvorak_961 = {
+    .parent       = &dvorak_957,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { C(KC_AMPR) },
+};
+
+const dvorak_node_t dvorak_962 = {
+    .parent       = &dvorak_957,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { C(KC_QUES) },
+};
+
+const dvorak_node_t dvorak_963 = {
+    .parent       = &dvorak_957,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { C(KC_LPRN) },
+};
+
+const dvorak_node_t dvorak_964 = {
+    .parent       = &dvorak_957,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { C(KC_LBRC) },
+};
+
+const dvorak_node_t dvorak_965 = {
+    .parent       = &dvorak_957,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { C(KC_LCBR) },
+};
+
+const dvorak_node_t dvorak_966 = {
+    .parent       = &dvorak_957,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { C(KC_BSLS) },
+};
+
+const dvorak_node_t dvorak_967 = {
+    .parent       = &dvorak_957,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { C(KC_PIPE) },
+};
+
+const dvorak_node_t dvorak_968 = {
+    .parent       = &dvorak_957,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { C(KC_PLUS) },
+};
+
+const dvorak_node_t dvorak_969 = {
+    .parent       = &dvorak_957,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { C(KC_EQL) },
+};
+
+const dvorak_node_t dvorak_970 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_970_next_node,
+    .key          = DV_RSFT1,
+    .bounds       = 1,
+    .keys         = { KC_TAB },
+};
+
+const dvorak_node_t dvorak_971 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { G(KC_QUOT) },
+};
+
+const dvorak_node_t dvorak_972 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { G(KC_COMM) },
+};
+
+const dvorak_node_t dvorak_973 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { G(KC_DOT) },
+};
+
+const dvorak_node_t dvorak_974 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { G(KC_P) },
+};
+
+const dvorak_node_t dvorak_975 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { G(KC_Y) },
+};
+
+const dvorak_node_t dvorak_976 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { G(KC_F) },
+};
+
+const dvorak_node_t dvorak_977 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { G(KC_G) },
+};
+
+const dvorak_node_t dvorak_978 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { G(KC_C) },
+};
+
+const dvorak_node_t dvorak_979 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { G(KC_R) },
+};
+
+const dvorak_node_t dvorak_980 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { G(KC_L) },
+};
+
+const dvorak_node_t dvorak_981 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { G(KC_A) },
+};
+
+const dvorak_node_t dvorak_982 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_982_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { G(KC_O) },
+};
+
+const dvorak_node_t dvorak_983 = {
+    .parent       = &dvorak_982,
+    .next_node    = &dvorak_983_next_node,
+    .key          = DV_E,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_984 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_QUOT)) },
+};
+
+const dvorak_node_t dvorak_985 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { S(G(KC_COMM)) },
+};
+
+const dvorak_node_t dvorak_986 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_DOT)) },
+};
+
+const dvorak_node_t dvorak_987 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { S(G(KC_P)) },
+};
+
+const dvorak_node_t dvorak_988 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Y)) },
+};
+
+const dvorak_node_t dvorak_989 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { S(G(KC_F)) },
+};
+
+const dvorak_node_t dvorak_990 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { S(G(KC_G)) },
+};
+
+const dvorak_node_t dvorak_991 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { S(G(KC_C)) },
+};
+
+const dvorak_node_t dvorak_992 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { S(G(KC_R)) },
+};
+
+const dvorak_node_t dvorak_993 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { S(G(KC_L)) },
+};
+
+const dvorak_node_t dvorak_994 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { S(G(KC_A)) },
+};
+
+const dvorak_node_t dvorak_995 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { S(G(KC_U)) },
+};
+
+const dvorak_node_t dvorak_996 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { S(G(KC_I)) },
+};
+
+const dvorak_node_t dvorak_997 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { S(G(KC_D)) },
+};
+
+const dvorak_node_t dvorak_998 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { S(G(KC_H)) },
+};
+
+const dvorak_node_t dvorak_999 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { S(G(KC_T)) },
+};
+
+const dvorak_node_t dvorak_1000 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { S(G(KC_N)) },
+};
+
+const dvorak_node_t dvorak_1001 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { S(G(KC_S)) },
+};
+
+const dvorak_node_t dvorak_1002 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SCLN)) },
+};
+
+const dvorak_node_t dvorak_1003 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Q)) },
+};
+
+const dvorak_node_t dvorak_1004 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { S(G(KC_J)) },
+};
+
+const dvorak_node_t dvorak_1005 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { S(G(KC_K)) },
+};
+
+const dvorak_node_t dvorak_1006 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { S(G(KC_X)) },
+};
+
+const dvorak_node_t dvorak_1007 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { S(G(KC_B)) },
+};
+
+const dvorak_node_t dvorak_1008 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { S(G(KC_M)) },
+};
+
+const dvorak_node_t dvorak_1009 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { S(G(KC_W)) },
+};
+
+const dvorak_node_t dvorak_1010 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { S(G(KC_V)) },
+};
+
+const dvorak_node_t dvorak_1011 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Z)) },
+};
+
+const dvorak_node_t dvorak_1012 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { S(G(KC_BSPC)) },
+};
+
+const dvorak_node_t dvorak_1013 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SPC)) },
+};
+
+const dvorak_node_t dvorak_1014 = {
+    .parent       = &dvorak_983,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_ENT)) },
+};
+
+const dvorak_node_t dvorak_1015 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_1015_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { G(KC_E) },
+};
+
+const dvorak_node_t dvorak_1016 = {
+    .parent       = &dvorak_1015,
+    .next_node    = &dvorak_1016_next_node,
+    .key          = DV_O,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_1017 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_QUOT)) },
+};
+
+const dvorak_node_t dvorak_1018 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { S(G(KC_COMM)) },
+};
+
+const dvorak_node_t dvorak_1019 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_DOT)) },
+};
+
+const dvorak_node_t dvorak_1020 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { S(G(KC_P)) },
+};
+
+const dvorak_node_t dvorak_1021 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Y)) },
+};
+
+const dvorak_node_t dvorak_1022 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { S(G(KC_F)) },
+};
+
+const dvorak_node_t dvorak_1023 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { S(G(KC_G)) },
+};
+
+const dvorak_node_t dvorak_1024 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { S(G(KC_C)) },
+};
+
+const dvorak_node_t dvorak_1025 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { S(G(KC_R)) },
+};
+
+const dvorak_node_t dvorak_1026 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { S(G(KC_L)) },
+};
+
+const dvorak_node_t dvorak_1027 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { S(G(KC_A)) },
+};
+
+const dvorak_node_t dvorak_1028 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { S(G(KC_U)) },
+};
+
+const dvorak_node_t dvorak_1029 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { S(G(KC_I)) },
+};
+
+const dvorak_node_t dvorak_1030 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { S(G(KC_D)) },
+};
+
+const dvorak_node_t dvorak_1031 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { S(G(KC_H)) },
+};
+
+const dvorak_node_t dvorak_1032 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { S(G(KC_T)) },
+};
+
+const dvorak_node_t dvorak_1033 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { S(G(KC_N)) },
+};
+
+const dvorak_node_t dvorak_1034 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { S(G(KC_S)) },
+};
+
+const dvorak_node_t dvorak_1035 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SCLN)) },
+};
+
+const dvorak_node_t dvorak_1036 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Q)) },
+};
+
+const dvorak_node_t dvorak_1037 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { S(G(KC_J)) },
+};
+
+const dvorak_node_t dvorak_1038 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { S(G(KC_K)) },
+};
+
+const dvorak_node_t dvorak_1039 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { S(G(KC_X)) },
+};
+
+const dvorak_node_t dvorak_1040 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { S(G(KC_B)) },
+};
+
+const dvorak_node_t dvorak_1041 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { S(G(KC_M)) },
+};
+
+const dvorak_node_t dvorak_1042 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { S(G(KC_W)) },
+};
+
+const dvorak_node_t dvorak_1043 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { S(G(KC_V)) },
+};
+
+const dvorak_node_t dvorak_1044 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Z)) },
+};
+
+const dvorak_node_t dvorak_1045 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { S(G(KC_BSPC)) },
+};
+
+const dvorak_node_t dvorak_1046 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SPC)) },
+};
+
+const dvorak_node_t dvorak_1047 = {
+    .parent       = &dvorak_1016,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_ENT)) },
+};
+
+const dvorak_node_t dvorak_1048 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { G(KC_U) },
+};
+
+const dvorak_node_t dvorak_1049 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { G(KC_I) },
+};
+
+const dvorak_node_t dvorak_1050 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { G(KC_D) },
+};
+
+const dvorak_node_t dvorak_1051 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { G(KC_H) },
+};
+
+const dvorak_node_t dvorak_1052 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_1052_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { G(KC_T) },
+};
+
+const dvorak_node_t dvorak_1053 = {
+    .parent       = &dvorak_1052,
+    .next_node    = &dvorak_1053_next_node,
+    .key          = DV_N,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_1054 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_QUOT)) },
+};
+
+const dvorak_node_t dvorak_1055 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { S(G(KC_COMM)) },
+};
+
+const dvorak_node_t dvorak_1056 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_DOT)) },
+};
+
+const dvorak_node_t dvorak_1057 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { S(G(KC_P)) },
+};
+
+const dvorak_node_t dvorak_1058 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Y)) },
+};
+
+const dvorak_node_t dvorak_1059 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { S(G(KC_F)) },
+};
+
+const dvorak_node_t dvorak_1060 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { S(G(KC_G)) },
+};
+
+const dvorak_node_t dvorak_1061 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { S(G(KC_C)) },
+};
+
+const dvorak_node_t dvorak_1062 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { S(G(KC_R)) },
+};
+
+const dvorak_node_t dvorak_1063 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { S(G(KC_L)) },
+};
+
+const dvorak_node_t dvorak_1064 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { S(G(KC_A)) },
+};
+
+const dvorak_node_t dvorak_1065 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { S(G(KC_O)) },
+};
+
+const dvorak_node_t dvorak_1066 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { S(G(KC_E)) },
+};
+
+const dvorak_node_t dvorak_1067 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { S(G(KC_U)) },
+};
+
+const dvorak_node_t dvorak_1068 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { S(G(KC_I)) },
+};
+
+const dvorak_node_t dvorak_1069 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { S(G(KC_D)) },
+};
+
+const dvorak_node_t dvorak_1070 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { S(G(KC_H)) },
+};
+
+const dvorak_node_t dvorak_1071 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { S(G(KC_S)) },
+};
+
+const dvorak_node_t dvorak_1072 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SCLN)) },
+};
+
+const dvorak_node_t dvorak_1073 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Q)) },
+};
+
+const dvorak_node_t dvorak_1074 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { S(G(KC_J)) },
+};
+
+const dvorak_node_t dvorak_1075 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { S(G(KC_K)) },
+};
+
+const dvorak_node_t dvorak_1076 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { S(G(KC_X)) },
+};
+
+const dvorak_node_t dvorak_1077 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { S(G(KC_B)) },
+};
+
+const dvorak_node_t dvorak_1078 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { S(G(KC_M)) },
+};
+
+const dvorak_node_t dvorak_1079 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { S(G(KC_W)) },
+};
+
+const dvorak_node_t dvorak_1080 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { S(G(KC_V)) },
+};
+
+const dvorak_node_t dvorak_1081 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Z)) },
+};
+
+const dvorak_node_t dvorak_1082 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { S(G(KC_BSPC)) },
+};
+
+const dvorak_node_t dvorak_1083 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SPC)) },
+};
+
+const dvorak_node_t dvorak_1084 = {
+    .parent       = &dvorak_1053,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_ENT)) },
+};
+
+const dvorak_node_t dvorak_1085 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_1085_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { G(KC_N) },
+};
+
+const dvorak_node_t dvorak_1086 = {
+    .parent       = &dvorak_1085,
+    .next_node    = &dvorak_1086_next_node,
+    .key          = DV_T,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_1087 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_QUOT)) },
+};
+
+const dvorak_node_t dvorak_1088 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { S(G(KC_COMM)) },
+};
+
+const dvorak_node_t dvorak_1089 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { S(G(KC_DOT)) },
+};
+
+const dvorak_node_t dvorak_1090 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { S(G(KC_P)) },
+};
+
+const dvorak_node_t dvorak_1091 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Y)) },
+};
+
+const dvorak_node_t dvorak_1092 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { S(G(KC_F)) },
+};
+
+const dvorak_node_t dvorak_1093 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { S(G(KC_G)) },
+};
+
+const dvorak_node_t dvorak_1094 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { S(G(KC_C)) },
+};
+
+const dvorak_node_t dvorak_1095 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { S(G(KC_R)) },
+};
+
+const dvorak_node_t dvorak_1096 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { S(G(KC_L)) },
+};
+
+const dvorak_node_t dvorak_1097 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { S(G(KC_A)) },
+};
+
+const dvorak_node_t dvorak_1098 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { S(G(KC_O)) },
+};
+
+const dvorak_node_t dvorak_1099 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { S(G(KC_E)) },
+};
+
+const dvorak_node_t dvorak_1100 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { S(G(KC_U)) },
+};
+
+const dvorak_node_t dvorak_1101 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { S(G(KC_I)) },
+};
+
+const dvorak_node_t dvorak_1102 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { S(G(KC_D)) },
+};
+
+const dvorak_node_t dvorak_1103 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { S(G(KC_H)) },
+};
+
+const dvorak_node_t dvorak_1104 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { S(G(KC_S)) },
+};
+
+const dvorak_node_t dvorak_1105 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SCLN)) },
+};
+
+const dvorak_node_t dvorak_1106 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Q)) },
+};
+
+const dvorak_node_t dvorak_1107 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { S(G(KC_J)) },
+};
+
+const dvorak_node_t dvorak_1108 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { S(G(KC_K)) },
+};
+
+const dvorak_node_t dvorak_1109 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { S(G(KC_X)) },
+};
+
+const dvorak_node_t dvorak_1110 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { S(G(KC_B)) },
+};
+
+const dvorak_node_t dvorak_1111 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { S(G(KC_M)) },
+};
+
+const dvorak_node_t dvorak_1112 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { S(G(KC_W)) },
+};
+
+const dvorak_node_t dvorak_1113 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { S(G(KC_V)) },
+};
+
+const dvorak_node_t dvorak_1114 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { S(G(KC_Z)) },
+};
+
+const dvorak_node_t dvorak_1115 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { S(G(KC_BSPC)) },
+};
+
+const dvorak_node_t dvorak_1116 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_SPC)) },
+};
+
+const dvorak_node_t dvorak_1117 = {
+    .parent       = &dvorak_1086,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { S(G(KC_ENT)) },
+};
+
+const dvorak_node_t dvorak_1118 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { G(KC_S) },
+};
+
+const dvorak_node_t dvorak_1119 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { G(KC_SCLN) },
+};
+
+const dvorak_node_t dvorak_1120 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { G(KC_Q) },
+};
+
+const dvorak_node_t dvorak_1121 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { G(KC_J) },
+};
+
+const dvorak_node_t dvorak_1122 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { G(KC_K) },
+};
+
+const dvorak_node_t dvorak_1123 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { G(KC_X) },
+};
+
+const dvorak_node_t dvorak_1124 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { G(KC_B) },
+};
+
+const dvorak_node_t dvorak_1125 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { G(KC_M) },
+};
+
+const dvorak_node_t dvorak_1126 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { G(KC_W) },
+};
+
+const dvorak_node_t dvorak_1127 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { G(KC_V) },
+};
+
+const dvorak_node_t dvorak_1128 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { G(KC_Z) },
+};
+
+const dvorak_node_t dvorak_1129 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_1129_next_node,
+    .key          = DV_LSFT1,
+    .bounds       = 1,
+    .keys         = { G(KC_BSPC) },
+};
+
+const dvorak_node_t dvorak_1130 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_QUOT,
+    .bounds       = 1,
+    .keys         = { G(A(KC_QUOT)) },
+};
+
+const dvorak_node_t dvorak_1131 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { G(A(KC_COMM)) },
+};
+
+const dvorak_node_t dvorak_1132 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_DOT,
+    .bounds       = 1,
+    .keys         = { G(A(KC_DOT)) },
+};
+
+const dvorak_node_t dvorak_1133 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_P,
+    .bounds       = 1,
+    .keys         = { G(A(KC_P)) },
+};
+
+const dvorak_node_t dvorak_1134 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Y,
+    .bounds       = 1,
+    .keys         = { G(A(KC_Y)) },
+};
+
+const dvorak_node_t dvorak_1135 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_F,
+    .bounds       = 1,
+    .keys         = { G(A(KC_F)) },
+};
+
+const dvorak_node_t dvorak_1136 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_G,
+    .bounds       = 1,
+    .keys         = { G(A(KC_G)) },
+};
+
+const dvorak_node_t dvorak_1137 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_C,
+    .bounds       = 1,
+    .keys         = { G(A(KC_C)) },
+};
+
+const dvorak_node_t dvorak_1138 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_R,
+    .bounds       = 1,
+    .keys         = { G(A(KC_R)) },
+};
+
+const dvorak_node_t dvorak_1139 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_L,
+    .bounds       = 1,
+    .keys         = { G(A(KC_L)) },
+};
+
+const dvorak_node_t dvorak_1140 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_A,
+    .bounds       = 1,
+    .keys         = { G(A(KC_A)) },
+};
+
+const dvorak_node_t dvorak_1141 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_O,
+    .bounds       = 1,
+    .keys         = { G(A(KC_O)) },
+};
+
+const dvorak_node_t dvorak_1142 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_E,
+    .bounds       = 1,
+    .keys         = { G(A(KC_E)) },
+};
+
+const dvorak_node_t dvorak_1143 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_U,
+    .bounds       = 1,
+    .keys         = { G(A(KC_U)) },
+};
+
+const dvorak_node_t dvorak_1144 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_I,
+    .bounds       = 1,
+    .keys         = { G(A(KC_I)) },
+};
+
+const dvorak_node_t dvorak_1145 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_D,
+    .bounds       = 1,
+    .keys         = { G(A(KC_D)) },
+};
+
+const dvorak_node_t dvorak_1146 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_H,
+    .bounds       = 1,
+    .keys         = { G(A(KC_H)) },
+};
+
+const dvorak_node_t dvorak_1147 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_T,
+    .bounds       = 1,
+    .keys         = { G(A(KC_T)) },
+};
+
+const dvorak_node_t dvorak_1148 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_N,
+    .bounds       = 1,
+    .keys         = { G(A(KC_N)) },
+};
+
+const dvorak_node_t dvorak_1149 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_S,
+    .bounds       = 1,
+    .keys         = { G(A(KC_S)) },
+};
+
+const dvorak_node_t dvorak_1150 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_SCLN,
+    .bounds       = 1,
+    .keys         = { G(A(KC_SCLN)) },
+};
+
+const dvorak_node_t dvorak_1151 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Q,
+    .bounds       = 1,
+    .keys         = { G(A(KC_Q)) },
+};
+
+const dvorak_node_t dvorak_1152 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_J,
+    .bounds       = 1,
+    .keys         = { G(A(KC_J)) },
+};
+
+const dvorak_node_t dvorak_1153 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_K,
+    .bounds       = 1,
+    .keys         = { G(A(KC_K)) },
+};
+
+const dvorak_node_t dvorak_1154 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_X,
+    .bounds       = 1,
+    .keys         = { G(A(KC_X)) },
+};
+
+const dvorak_node_t dvorak_1155 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_B,
+    .bounds       = 1,
+    .keys         = { G(A(KC_B)) },
+};
+
+const dvorak_node_t dvorak_1156 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_M,
+    .bounds       = 1,
+    .keys         = { G(A(KC_M)) },
+};
+
+const dvorak_node_t dvorak_1157 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_W,
+    .bounds       = 1,
+    .keys         = { G(A(KC_W)) },
+};
+
+const dvorak_node_t dvorak_1158 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_V,
+    .bounds       = 1,
+    .keys         = { G(A(KC_V)) },
+};
+
+const dvorak_node_t dvorak_1159 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_Z,
+    .bounds       = 1,
+    .keys         = { G(A(KC_Z)) },
+};
+
+const dvorak_node_t dvorak_1160 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { G(A(KC_SPC)) },
+};
+
+const dvorak_node_t dvorak_1161 = {
+    .parent       = &dvorak_1129,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { G(A(KC_ENT)) },
+};
+
+const dvorak_node_t dvorak_1162 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_LSFT2,
+    .bounds       = 1,
+    .keys         = { G(KC_SPC) },
+};
+
+const dvorak_node_t dvorak_1163 = {
+    .parent       = &dvorak_970,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_RSFT2,
+    .bounds       = 1,
+    .keys         = { G(KC_ENT) },
+};
+
+const dvorak_node_t dvorak_1164 = {
+    .parent       = &dvorak_1,
+    .next_node    = &dvorak_1164_next_node,
+    .key          = DV_RSFT3,
+    .bounds       = 0,
+    .keys         = {},
+};
+
+const dvorak_node_t dvorak_1165 = {
+    .parent       = &dvorak_1164,
+    .next_node    = &dvorak_2_next_node,
+    .key          = DV_COMM,
+    .bounds       = 1,
+    .keys         = { KC_SLSH },
+};
+
+const dvorak_node_t dvorak_1166 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_DOT,
     .bounds       = 1,
     .keys         = { KC_LPRN },
 };
 
-const dvorak_node_t dvorak_783 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1167 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_P,
     .bounds       = 1,
     .keys         = { KC_LBRC },
 };
 
-const dvorak_node_t dvorak_784 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1168 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_Y,
     .bounds       = 1,
     .keys         = { KC_LCBR },
 };
 
-const dvorak_node_t dvorak_785 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1169 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_F,
     .bounds       = 1,
     .keys         = { KC_RCBR },
 };
 
-const dvorak_node_t dvorak_786 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1170 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_G,
     .bounds       = 1,
     .keys         = { KC_RBRC },
 };
 
-const dvorak_node_t dvorak_787 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1171 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_C,
     .bounds       = 1,
     .keys         = { KC_RPRN },
 };
 
-const dvorak_node_t dvorak_788 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1172 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_R,
     .bounds       = 1,
     .keys         = { KC_PERC },
 };
 
-const dvorak_node_t dvorak_789 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1173 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_A,
     .bounds       = 1,
     .keys         = { KC_1 },
 };
 
-const dvorak_node_t dvorak_790 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1174 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_O,
     .bounds       = 1,
     .keys         = { KC_2 },
 };
 
-const dvorak_node_t dvorak_791 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1175 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_E,
     .bounds       = 1,
     .keys         = { KC_3 },
 };
 
-const dvorak_node_t dvorak_792 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1176 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_U,
     .bounds       = 1,
     .keys         = { KC_4 },
 };
 
-const dvorak_node_t dvorak_793 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1177 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_I,
     .bounds       = 1,
     .keys         = { KC_5 },
 };
 
-const dvorak_node_t dvorak_794 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1178 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_D,
     .bounds       = 1,
     .keys         = { KC_6 },
 };
 
-const dvorak_node_t dvorak_795 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1179 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_H,
     .bounds       = 1,
     .keys         = { KC_7 },
 };
 
-const dvorak_node_t dvorak_796 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1180 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_T,
     .bounds       = 1,
     .keys         = { KC_8 },
 };
 
-const dvorak_node_t dvorak_797 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1181 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_N,
     .bounds       = 1,
     .keys         = { KC_9 },
 };
 
-const dvorak_node_t dvorak_798 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1182 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_S,
     .bounds       = 1,
     .keys         = { KC_0 },
 };
 
-const dvorak_node_t dvorak_799 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1183 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_K,
     .bounds       = 1,
     .keys         = { G(KC_MINS) },
 };
 
-const dvorak_node_t dvorak_800 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1184 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_B,
     .bounds       = 1,
     .keys         = { G(KC_0) },
 };
 
-const dvorak_node_t dvorak_801 = {
-    .parent       = &dvorak_780,
+const dvorak_node_t dvorak_1185 = {
+    .parent       = &dvorak_1164,
     .next_node    = &dvorak_2_next_node,
     .key          = DV_M,
     .bounds       = 1,

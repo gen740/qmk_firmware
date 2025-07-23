@@ -63,6 +63,20 @@ dvorak_keydata = {
                                               1             , "G(A(KC_SPC))", None        , None        , "G(A(KC_ENT))", 1,
         ],
 
+        [ # GUI + LShift
+            "S(G(KC_QUOT))", "S(G(KC_COMM))", "S(G(KC_DOT))" , "S(G(KC_P))"  , "S(G(KC_Y))", "S(G(KC_F))", "S(G(KC_G))"  , "S(G(KC_C))", "S(G(KC_R))", "S(G(KC_L))",
+            "S(G(KC_A))"   , 1              , 1              , "S(G(KC_U))"  , "S(G(KC_I))", "S(G(KC_D))", "S(G(KC_H))"  , "S(G(KC_T))", "S(G(KC_N))", "S(G(KC_S))",
+            "S(G(KC_SCLN))", "S(G(KC_Q))"   , "S(G(KC_J))"   , "S(G(KC_K))"  , "S(G(KC_X))", "S(G(KC_B))", "S(G(KC_M))"  , "S(G(KC_W))", "S(G(KC_V))", "S(G(KC_Z))",
+                                              "S(G(KC_BSPC))", "S(G(KC_SPC))", None        , None        , "S(G(KC_ENT))", 1        ,
+        ],
+
+        [ # GUI + RShift
+            "S(G(KC_QUOT))", "S(G(KC_COMM))", "S(G(KC_DOT))" , "S(G(KC_P))"  , "S(G(KC_Y))", "S(G(KC_F))", "S(G(KC_G))"  , "S(G(KC_C))", "S(G(KC_R))", "S(G(KC_L))",
+            "S(G(KC_A))"   , "S(G(KC_O))"   , "S(G(KC_E))"   , "S(G(KC_U))"  , "S(G(KC_I))", "S(G(KC_D))", "S(G(KC_H))"  , 1           , 1           , "S(G(KC_S))",
+            "S(G(KC_SCLN))", "S(G(KC_Q))"   , "S(G(KC_J))"   , "S(G(KC_K))"  , "S(G(KC_X))", "S(G(KC_B))", "S(G(KC_M))"  , "S(G(KC_W))", "S(G(KC_V))", "S(G(KC_Z))",
+                                              "S(G(KC_BSPC))", "S(G(KC_SPC))", None        , None        , "S(G(KC_ENT))", 1        ,
+        ],
+
         [ # Left Symbol
             "KC_GRV", "KC_SLSH", "KC_HASH", "KC_AMPR", None     , None, None, None, None, None,
             None    , "KC_QUES", "KC_LPRN", "KC_LBRC", "KC_LCBR", None, 1   , None, 1   , None,
