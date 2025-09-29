@@ -5,10 +5,11 @@
 #define PERMISSIVE_HOLD
 #define TAPPING_TERM 180
 
-
 #define MK_MOMENTARY_ACCEL
-#define MK_C_INTERVAL_0 32
-
+#define MOUSEKEY_MOVE_DELTA 1
+#define MOUSEKEY_MAX_SPEED 5
+#define MOUSEKEY_TIME_TO_MAX 0
+#define MOUSEKEY_INTERVAL 10
 
 // Firmware のサイズ削減用のオプション
 #define LAYER_STATE_8BIT
