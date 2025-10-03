@@ -2329,7 +2329,7 @@ const naginata_node_t naginata_2 = {
     .next_node    = &naginata_2_next_node,
     .key          = NG_Q,
     .bounds       = 1,
-    .keys         = { C(KC_Q) },
+    .keys         = { KC_Q },
 };
 
 const naginata_node_t naginata_3 = {

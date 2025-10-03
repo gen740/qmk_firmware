@@ -53,7 +53,7 @@ naginata_keydata = {
         #                       ┃  <b>  ┃  <s>  ┃   ;   ┃ ┃ s-<s> ┃  <r>  ┃  <t>  ┃
         #                       ┗━━━━━━━┻━━━━━━━┻━━━━━━━┛ ┗━━━━━━━┻━━━━━━━┻━━━━━━━┛
         [
-            ["C(KC_Q)"]     , ["KC_K", "KC_I"], ["KC_T", "KC_E"], ["KC_S", "KC_I"], ["KC_SCLN"]             , ["KC_SCLN"]     , ["KC_S", "KC_A"], ["KC_R", "KC_U"], ["KC_S", "KC_U"], ["KC_H", "KC_E"],
+            ["KC_Q"]        , ["KC_K", "KC_I"], ["KC_T", "KC_E"], ["KC_S", "KC_I"], ["KC_SCLN"]             , ["KC_SCLN"]     , ["KC_S", "KC_A"], ["KC_R", "KC_U"], ["KC_S", "KC_U"], ["KC_H", "KC_E"],
             ["KC_R", "KC_O"], ["KC_K", "KC_E"], ["KC_T", "KC_O"], ["KC_K", "KC_A"], ["KC_X", "KC_T", "KC_U"], ["KC_K", "KC_U"], ["KC_A"]        , ["KC_I"]        , ["KC_U"]        , ["KC_MINS"]     ,
             ["KC_H", "KC_O"], ["KC_H", "KC_I"], ["KC_H", "KC_A"], ["KC_K", "KC_O"], ["KC_S", "KC_O"]        , ["KC_T", "KC_A"], ["KC_N", "KC_A"], ["KC_N", "KC_N"], ["KC_R", "KC_A"], ["KC_R", "KC_E"],
                                                 ["KC_BSPC"]     , ["KC_SPC"]      , None                    , None            , ["KC_ENT"]      , ["KC_TAB"]      ,
