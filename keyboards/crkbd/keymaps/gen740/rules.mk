@@ -10,3 +10,5 @@ SRC += dvorak.c
 SRC += dvorak_keydata.c
 
 EXTRAFLAGS += -flto=auto
+
+DEBOUNCE_TYPE = sym_eager_pk
