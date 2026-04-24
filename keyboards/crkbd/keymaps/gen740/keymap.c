@@ -5,9 +5,6 @@
 #include "gen740.h"
 #include "naginata.h"
 
-
-#define LSAG(kc) LAG(LSFT(kc))
-
 // clang-format off
 const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   LAYOUT_ex2(L_NAG)                                                                                                                                                /*

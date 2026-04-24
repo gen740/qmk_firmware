@@ -1,32 +1,36 @@
 {
   description = "Flake shell";
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/98b00b6947a9214381112bdb6f89c25498db4959";
-  inputs.nixpkgs-latest.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-  inputs.flake-utils.url = "github:numtide/flake-utils";
+
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    flake-parts.url = "github:hercules-ci/flake-parts";
+  };
 
   outputs =
-    {
-      nixpkgs,
-      nixpkgs-latest,
-      flake-utils,
-      ...
-    }:
-    flake-utils.lib.eachDefaultSystem (
-      system:
-      let
-        pkgs = nixpkgs.legacyPackages.${system};
-        pkgs-latest = nixpkgs-latest.legacyPackages.${system};
-      in
-      {
-        devShells.default = import ./shell.nix {
-          inherit pkgs;
-          extraPkgs = [
-            pkgs-latest.pyright
-            pkgs-latest.ruff
-            pkgs-latest.taplo
-            pkgs-latest.python311Packages.numpy
-          ];
+    inputs@{ flake-parts, nixpkgs, ... }:
+    flake-parts.lib.mkFlake { inherit inputs; } {
+      systems = nixpkgs.lib.platforms.all;
+
+      perSystem =
+        { pkgs, ... }:
+        {
+          devShells.default = pkgs.mkShell {
+            packages = [
+              pkgs.qmk
+              pkgs.python313Packages.toml
+            ];
+          };
+
+          packages.default = pkgs.stdenv.mkDerivation {
+            name = "hello";
+            src = ./.;
+            buildInputs = [ ];
+            installPhase = ''
+              mkdir -p $out/bin
+              echo "Hello, world!" > $out/bin/hello
+              chmod +x $out/bin/hello
+            '';
+          };
         };
-      }
-    );
+    };
 }
