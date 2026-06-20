@@ -6,7 +6,7 @@
 #include "naginata.h"
 
 // clang-format off
-const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   LAYOUT_ex2(L_NAG)                                                                                                                                                /*
     ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓ ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓  */
        MO_MS   ,   NG_Q   ,   NG_W   ,   NG_E   ,   NG_R   ,   NG_T   , KC_LEFT  ,   KC_RIGHT ,   NG_Y   ,   NG_U   ,   NG_I   ,   NG_O   ,   NG_P   , XXXXXXX  ,  /*
@@ -20,7 +20,7 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   LAYOUT_ex2(L_DVO)                                                                                                                                                /*
     ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓ ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓  */
-       MO_MS   , DV_QUOT  , DV_COMM  ,  DV_DOT  ,   DV_P   ,   DV_Y   , G(KC_TILD),  KC_RIGHT ,   DV_F   ,   DV_G   ,   DV_C   ,   DV_R   ,   DV_L   , XXXXXXX  ,  /*
+       MO_MS   , DV_QUOT  , DV_COMM  ,  DV_DOT  ,   DV_P   ,   DV_Y   , G(KC_TILD),  KC_RIGHT ,   DV_F   ,   DV_G   ,   DV_C   ,   DV_R   ,   DV_L   , G(KC_BSPC),  /*
     ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫ ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫  */
        MO_MOD  ,   DV_A   ,   DV_O   ,   DV_E   ,   DV_U   ,   DV_I   , PREV_APP ,   NEXT_APP ,   DV_D   ,   DV_H   ,   DV_T   ,   DV_N   ,   DV_S   ,  MO_MOD  ,  /*
     ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┛ ┗━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫  */
@@ -88,17 +88,6 @@ const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 // clang-format on
-uint32_t deferred_unregister_gui(uint32_t trigger_time, void *cb_arg) {
-  unregister_code(KC_LGUI);
-  return 0;
-}
-
-uint32_t defferred_unregister_gui_sft(void) {
-  unregister_code(KC_LGUI);
-  unregister_code(KC_LSFT);
-  return 0;
-}
-
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   static bool gen740_prev_app_pushed = false;
   static bool gen740_next_app_pushed = false;
