@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓ ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓  */
       XXXXXXX  , XXXXXXX  , KC_MPRV  , KC_MPLY  , KC_MNXT  , RM_SATU  , RM_HUEU  ,   RM_VALU  , RM_PREV  , XXXXXXX  , KC_UP    , XXXXXXX  , XXXXXXX  , DF_GAME  ,  /*
     ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫ ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫  */
-      XXXXXXX  , KC_LSFT  ,G(S(KC_3)),G(S(KC_4)),G(S(KC_5)), RM_SATD  , RM_HUED  ,   RM_VALD  , RM_NEXT  , KC_LEFT  , KC_DOWN  , XXXXXXX  , XXXXXXX  , DF_GAME3 ,  /*
+      XXXXXXX  , KC_LSFT  ,G(S(KC_3)),G(S(KC_4)),G(S(KC_5)),G(KC_RGUI), RM_HUED  ,   RM_VALD  , RM_NEXT  , KC_LEFT  , KC_DOWN  , KC_RIGHT , XXXXXXX  , DF_GAME3 ,  /*
     ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┛ ┗━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫  */
       QK_BOOT  , EE_CLR   , KC_VOLD  , KC_MUTE  , KC_VOLU  , XXXXXXX  ,                         RM_TOGG  ,LSAG(KC_0),LSAG(KC_1),LSAG(KC_2), EE_CLR   , QK_BOOT  ,  /*
     ┗━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┓ ┏━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┛  */
@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓ ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓  */
       XXXXXXX  , MS_ACL0  , XXXXXXX  , MS_BTN1  , MS_BTN2  , XXXXXXX  , XXXXXXX  ,   XXXXXXX  , XXXXXXX  , XXXXXXX  ,  MS_UP   , XXXXXXX  , XXXXXXX  , XXXXXXX  ,  /*
     ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫ ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫  */
-      XXXXXXX  , XXXXXXX  , XXXXXXX  , MS_WHLU  , MS_WHLD  , XXXXXXX  , XXXXXXX  ,   XXXXXXX  , XXXXXXX  , MS_LEFT  , MS_DOWN  , MS_RGHT  , XXXXXXX  , XXXXXXX  ,  /*
+      XXXXXXX  , KC_LSFT  , XXXXXXX  , MS_WHLU  , MS_WHLD  , XXXXXXX  , XXXXXXX  ,   XXXXXXX  , XXXXXXX  , MS_LEFT  , MS_DOWN  , MS_RGHT  , XXXXXXX  , XXXXXXX  ,  /*
     ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┛ ┗━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫  */
       XXXXXXX  , XXXXXXX  , XXXXXXX  , XXXXXXX  , XXXXXXX  , XXXXXXX  ,                         XXXXXXX  , MS_ACL0  , MS_ACL1  , MS_ACL2  , XXXXXXX  , XXXXXXX  ,  /*
     ┗━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┓ ┏━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┛  */
@@ -55,29 +55,29 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓ ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓  */
        KC_TAB  ,   KC_T   ,   KC_Q   ,   KC_W   ,   KC_E   ,   KC_R   ,  KC_ESC  ,   KC_RIGHT ,   KC_Y   ,   KC_U   ,   KC_I   ,   KC_O   ,   KC_P   ,  DF_DVO  ,  /*
     ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫ ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫  */
-        KC_G   , KC_LSFT  ,   KC_A   ,   KC_S   ,   KC_D   ,   KC_F   ,  KC_LCMD   , NEXT_APP ,   KC_H   ,   KC_J   ,   KC_K   ,   KC_L   , KC_SCLN  , XXXXXXX  ,  /*
+        KC_G   , KC_LSFT  ,   KC_A   ,   KC_S   ,   KC_D   ,   KC_F   ,  MO_GAME3  ,   NEXT_APP ,   KC_H   ,   KC_J   ,   KC_K   ,   KC_L   , KC_SCLN  , XXXXXXX  ,  /*
     ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┛ ┗━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫  */
-        KC_M   ,   KC_Z   ,   KC_X   ,   KC_C   ,   KC_V   ,   KC_B   ,                           KC_N   ,   KC_M   , KC_COMM  ,  KC_DOT  , KC_SLSH  , XXXXXXX  ,  /*
+        KC_M   ,   KC_1   ,   KC_2   ,   KC_3   ,   KC_4   ,   KC_5   ,                           KC_N   ,   KC_M   , KC_COMM  ,  KC_DOT  , KC_SLSH  , XXXXXXX  ,  /*
     ┗━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┓ ┏━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┛  */
-                                                  KC_LCTL  ,  KC_SPC  , MO_GAME2 ,   XXXXXXX  ,  KC_ENT  , KC_RGUI                                                 /*
+                                                  KC_LCTL  ,  KC_SPC  , MO_GAME2 ,   MO_GAME3  ,  KC_ENT  , KC_RGUI                                                 /*
                                                 ┗━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┛ ┗━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┛                                              */ ),
 
   LAYOUT_ex2(L_GAME2)                                                                                                                                              /*
     ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓ ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓  */
-       KC_TAB  ,   KC_Y   ,   KC_U   ,   KC_I   ,   KC_O   ,   KC_P   ,  DF_DVO  ,   KC_RIGHT ,   KC_Y   ,   KC_U   ,   KC_I   ,   KC_O   ,   KC_P   ,  DF_DVO  ,  /*
+       KC_TAB  ,   KC_Y   ,   KC_U   ,   KC_I   ,   KC_O   ,   KC_P   ,  DF_DVO  ,    KC_G    ,   KC_Y   ,   KC_U   ,   KC_I   ,   KC_O   ,   KC_P   ,  DF_DVO  ,  /*
     ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫ ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫  */
-      KC_LSFT  ,   KC_H   ,   KC_J   ,   KC_K   ,   KC_L   , KC_SCLN  ,   KC_H   ,   NEXT_APP ,   KC_H   ,   KC_J   ,   KC_K   ,   KC_L   , KC_SCLN  , XXXXXXX  ,  /*
+      KC_LSFT  ,   KC_H   ,   KC_J   ,   KC_K   ,   KC_L   , KC_SCLN  ,   KC_F3  ,    KC_F4   ,   KC_H   ,   KC_J   ,   KC_K   ,   KC_L   , KC_SCLN  , XXXXXXX  ,  /*
     ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┛ ┗━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫  */
-        KC_M   ,   KC_1   ,   KC_2   ,   KC_3   ,   KC_4   ,   KC_5   ,                           KC_N   ,   KC_M   , KC_COMM  ,  KC_DOT  , KC_SLSH  , XXXXXXX  ,  /*
+        KC_M   ,   KC_6   ,   KC_7   ,   KC_8   ,   KC_9   ,   KC_0   ,                           KC_N   ,   KC_M   , KC_COMM  ,  KC_DOT  , KC_SLSH  , XXXXXXX  ,  /*
     ┗━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┓ ┏━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┛  */
-                                                  KC_LCTL  ,  KC_F8   ,  XXXXXXX ,   XXXXXXX  ,  KC_ENT  , KC_RGUI                                                 /*
+                                                    KC_F3  ,  KC_ENT   ,  XXXXXXX ,   KC_LALT  ,  KC_ENT  , KC_RGUI                                                 /*
                                                 ┗━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┛ ┗━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┛                                              */ ),
 
   LAYOUT_ex2(L_GAME3)                                                                                                                                              /*
     ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓ ┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┓  */
         KC_C   ,  KC_T   ,   KC_Q   ,   KC_UP  ,   KC_E    ,   KC_R   , KC_ESC   ,   KC_RIGHT ,  KC_F4   ,   KC_U   ,   KC_I   ,   KC_UP  ,   KC_P   ,  DF_DVO  ,  /*
     ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫ ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫  */
-        KC_G   , KC_LSFT  ,  KC_LEFT ,  KC_DOWN , KC_RIGHT ,   KC_F   , XXXXXXX  ,   NEXT_APP ,   KC_H   ,   KC_J   ,   KC_K   ,   KC_L   , KC_SCLN  , XXXXXXX  ,  /*
+        KC_G   ,   KC_F1  ,  KC_F2 ,    KC_F3 , KC_F4 ,     KC_F5   , XXXXXXX  ,   NEXT_APP ,   KC_H   ,   KC_J   ,   KC_K   ,   KC_L   , KC_SCLN  , XXXXXXX  ,  /*
     ┣━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┛ ┗━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┫  */
         KC_M   ,   KC_Z   ,   KC_X   ,   KC_C   ,   KC_V   ,   KC_B   ,                           KC_N   ,   KC_M   , KC_COMM  ,  KC_DOT  , KC_SLSH  , XXXXXXX  ,  /*
     ┗━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┓ ┏━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━╋━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┻━━━━━━━━━━┛  */
@@ -88,7 +88,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 // clang-format on
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+bool process_record_user(uint16_t keycode, keyrecord_t* record) {
   static bool gen740_prev_app_pushed = false;
   static bool gen740_next_app_pushed = false;
   if (!process_dvorak(keycode, record)) {

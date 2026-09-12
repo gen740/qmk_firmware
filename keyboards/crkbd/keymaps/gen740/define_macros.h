@@ -12,6 +12,7 @@
 #define DF_GAME DF(L_GAME)
 #define DF_GAME3 DF(L_GAME3)
 #define MO_GAME2 MO(L_GAME2)
+#define MO_GAME3 MO(L_GAME3)
 #define DF_DVO DF(L_DVO)
 
 #define KK_VOLU A(S(KC_VOLU))
